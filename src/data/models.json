@@ -1,0 +1,288 @@
+[
+  {
+    "id": "toyota-camry",
+    "makeId": "toyota",
+    "name": "Camry",
+    "slug": "camry",
+    "years": "2018",
+    "summary": "V6 high-load misfire evidence.",
+    "sourceIds": [
+      "oem-toyota-v6-high-load-misfire"
+    ]
+  },
+  {
+    "id": "toyota-avalon",
+    "makeId": "toyota",
+    "name": "Avalon",
+    "slug": "avalon",
+    "years": "2019",
+    "summary": "V6 high-load misfire evidence.",
+    "sourceIds": [
+      "oem-toyota-v6-high-load-misfire"
+    ]
+  },
+  {
+    "id": "ford-f-150",
+    "makeId": "ford",
+    "name": "F-150",
+    "slug": "f-150",
+    "years": "2018",
+    "summary": "2.7L EcoBoost misfire and lean-code evidence.",
+    "sourceIds": [
+      "oem-ford-f150-27-misfire-lean"
+    ]
+  },
+  {
+    "id": "chevrolet-colorado",
+    "makeId": "chevrolet",
+    "name": "Colorado",
+    "slug": "colorado",
+    "years": "2020–2021",
+    "summary": "Paired lean-code calibration evidence.",
+    "sourceIds": [
+      "oem-gm-colorado-canyon-paired-lean"
+    ]
+  },
+  {
+    "id": "gmc-canyon",
+    "makeId": "gmc",
+    "name": "Canyon",
+    "slug": "canyon",
+    "years": "2020–2021",
+    "summary": "Paired lean-code calibration evidence.",
+    "sourceIds": [
+      "oem-gm-colorado-canyon-paired-lean"
+    ]
+  },
+  {
+    "id": "chevrolet-silverado",
+    "makeId": "chevrolet",
+    "name": "Silverado",
+    "slug": "silverado",
+    "years": "2014–2018",
+    "summary": "Airbox/catalyst diagnostic evidence.",
+    "sourceIds": [
+      "oem-gm-v8-catalyst-airbox"
+    ]
+  },
+  {
+    "id": "chevrolet-suburban",
+    "makeId": "chevrolet",
+    "name": "Suburban",
+    "slug": "suburban",
+    "years": "2015–2018",
+    "summary": "Airbox/catalyst diagnostic evidence.",
+    "sourceIds": [
+      "oem-gm-v8-catalyst-airbox"
+    ]
+  },
+  {
+    "id": "chevrolet-tahoe",
+    "makeId": "chevrolet",
+    "name": "Tahoe",
+    "slug": "tahoe",
+    "years": "2015–2018",
+    "summary": "Airbox/catalyst diagnostic evidence.",
+    "sourceIds": [
+      "oem-gm-v8-catalyst-airbox"
+    ]
+  },
+  {
+    "id": "gmc-sierra",
+    "makeId": "gmc",
+    "name": "Sierra",
+    "slug": "sierra",
+    "years": "2014–2018",
+    "summary": "Airbox/catalyst diagnostic evidence.",
+    "sourceIds": [
+      "oem-gm-v8-catalyst-airbox"
+    ]
+  },
+  {
+    "id": "gmc-yukon",
+    "makeId": "gmc",
+    "name": "Yukon",
+    "slug": "yukon",
+    "years": "2015–2018",
+    "summary": "Airbox/catalyst diagnostic evidence.",
+    "sourceIds": [
+      "oem-gm-v8-catalyst-airbox"
+    ]
+  },
+  {
+    "id": "honda-cr-v",
+    "makeId": "honda",
+    "name": "CR-V",
+    "slug": "cr-v",
+    "years": "2017–2018",
+    "summary": "Misfire/rich-code evidence with trim and VIN restrictions.",
+    "sourceIds": [
+      "oem-honda-crv-misfire-extension"
+    ]
+  },
+  {
+    "id": "acura-mdx",
+    "makeId": "acura",
+    "name": "MDX",
+    "slug": "mdx",
+    "years": "2014–2017",
+    "summary": "Bank2 catalyst-code calibration evidence.",
+    "sourceIds": [
+      "oem-acura-p0430-calibration"
+    ]
+  },
+  {
+    "id": "acura-tlx",
+    "makeId": "acura",
+    "name": "TLX",
+    "slug": "tlx",
+    "years": "2015–2018",
+    "summary": "V6 catalyst-code calibration evidence.",
+    "sourceIds": [
+      "oem-acura-p0430-calibration"
+    ]
+  },
+  {
+    "id": "lexus-rx-450h",
+    "makeId": "lexus",
+    "name": "RX450h",
+    "slug": "rx-450h",
+    "years": "2010",
+    "summary": "Conditional bank2 oxygen-sensor diagnostic evidence.",
+    "sourceIds": [
+      "oem-lexus-rx450h-p0430"
+    ]
+  },
+  {
+    "id": "volkswagen-golf",
+    "makeId": "volkswagen",
+    "name": "Golf",
+    "slug": "golf",
+    "years": "2010–2014",
+    "summary": "2.0L TDI EGR-flow evidence.",
+    "sourceIds": [
+      "oem-vw-tdi-p0401"
+    ]
+  },
+  {
+    "id": "volkswagen-jetta",
+    "makeId": "volkswagen",
+    "name": "Jetta",
+    "slug": "jetta",
+    "years": "2009–2014",
+    "summary": "TDI EGR-flow evidence with engine/year restrictions.",
+    "sourceIds": [
+      "oem-vw-tdi-p0401"
+    ]
+  },
+  {
+    "id": "volkswagen-atlas",
+    "makeId": "volkswagen",
+    "name": "Atlas",
+    "slug": "atlas",
+    "years": "2018",
+    "summary": "3.6L catalyst hardware/software evidence.",
+    "sourceIds": [
+      "oem-vw-atlas-catalyst"
+    ]
+  },
+  {
+    "id": "bmw-x6-xdrive50i",
+    "makeId": "bmw",
+    "name": "X6 xDrive50i",
+    "slug": "x6-xdrive50i",
+    "years": "2011–2012",
+    "summary": "N63 native-code injector diagnostic evidence.",
+    "sourceIds": [
+      "oem-bmw-native-injector-context"
+    ]
+  },
+  {
+    "id": "kia-soul",
+    "makeId": "kia",
+    "name": "Soul",
+    "slug": "soul",
+    "years": "2010–2019; 2020-onward SK3 in May 2022 source",
+    "summary": "Timing-code evidence after engine replacement.",
+    "sourceIds": [
+      "oem-kia-soul-post-replacement-timing"
+    ]
+  },
+  {
+    "id": "hyundai-elantra-gt",
+    "makeId": "hyundai",
+    "name": "Elantra GT",
+    "slug": "elantra-gt",
+    "years": "2018",
+    "summary": "1.6L Turbo P 0128 calibration evidence.",
+    "sourceIds": [
+      "oem-hyundai-p0128-calibration"
+    ]
+  },
+  {
+    "id": "hyundai-veloster",
+    "makeId": "hyundai",
+    "name": "Veloster",
+    "slug": "veloster",
+    "years": "2019",
+    "summary": "1.6L Turbo P 0128 calibration evidence.",
+    "sourceIds": [
+      "oem-hyundai-p0128-calibration"
+    ]
+  },
+  {
+    "id": "jeep-renegade",
+    "makeId": "jeep",
+    "name": "Renegade",
+    "slug": "renegade",
+    "years": "2016",
+    "summary": "2.4L diagnostic-calibration evidence with build limits.",
+    "sourceIds": [
+      "oem-jeep-renegade-2016-calibration"
+    ]
+  },
+  {
+    "id": "dodge-challenger",
+    "makeId": "dodge",
+    "name": "Challenger",
+    "slug": "challenger",
+    "years": "2022",
+    "summary": "5.7L EVAP-code calibration evidence.",
+    "sourceIds": [
+      "oem-dodge-challenger-evap-calibration"
+    ]
+  },
+  {
+    "id": "ram-1500",
+    "makeId": "ram",
+    "name": "1500",
+    "slug": "1500",
+    "years": "2019",
+    "summary": "3.6L eTorque P 0128 software evidence.",
+    "sourceIds": [
+      "oem-ram1500-p0128-calibration"
+    ]
+  },
+  {
+    "id": "ram-2500",
+    "makeId": "ram",
+    "name": "2500",
+    "slug": "2500",
+    "years": "2016",
+    "summary": "6.7L diesel EGR/diagnostic software evidence.",
+    "sourceIds": [
+      "oem-ram-diesel-p0401"
+    ]
+  },
+  {
+    "id": "ram-3500",
+    "makeId": "ram",
+    "name": "3500",
+    "slug": "3500",
+    "years": "2016",
+    "summary": "6.7L diesel EGR/diagnostic software evidence.",
+    "sourceIds": [
+      "oem-ram-diesel-p0401"
+    ]
+  }
+]

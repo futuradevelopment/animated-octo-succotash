@@ -1,0 +1,14 @@
+node_modules
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+reports/lighthouse/*.html
+reports/lighthouse/*.json
+!reports/lighthouse/summary.json
+reports/static-audit.json
+reports/browser/
+reports/browser-report/
+reports/browser-results/
+test-results/

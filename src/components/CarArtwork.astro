@@ -1,0 +1,21 @@
+---
+interface Props { variant?:'hero'|'compact'; class?:string; }
+const {variant='hero',class:className=''}=Astro.props;
+const uid=`car-${variant}`;
+---
+<svg class={`car-artwork ${className}`} viewBox="0 0 760 290" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+ <defs><linearGradient id={`${uid}-body`} x1="370" y1="61" x2="370" y2="223" gradientUnits="userSpaceOnUse"><stop stop-color="#b8c2bd"/><stop offset=".42" stop-color="#788780"/><stop offset="1" stop-color="#26332e"/></linearGradient><linearGradient id={`${uid}-glass`} x1="346" y1="71" x2="350" y2="135" gradientUnits="userSpaceOnUse"><stop stop-color="#23312d"/><stop offset="1" stop-color="#0b1613"/></linearGradient><linearGradient id={`${uid}-beam`} x1="639" y1="165" x2="748" y2="169" gradientUnits="userSpaceOnUse"><stop stop-color="#ed713b" stop-opacity=".2"/><stop offset="1" stop-color="#ed713b" stop-opacity="0"/></linearGradient></defs>
+ <g stroke="#70887a" stroke-opacity=".22" stroke-width=".7"><path d="M33 238h694M33 116h694M33 178h694M110 35v220M253 35v220M381 35v220M519 35v220M662 35v220"/><path d="M31 232v12m696-12v12M104 35h12m-12 220h12M656 35h12m-12 220h12" stroke-opacity=".65"/></g>
+ <ellipse cx="387" cy="235" rx="291" ry="13" fill="#050b08" opacity=".75"/>
+ <path d="m646 155 107-18v61l-107-17" fill={`url(#${uid}-beam)`}/>
+ <path d="m98 147 72-17 72-45c17-12 39-19 67-20h102c29 0 54 10 72 24l53 42 83 15c19 3 38 14 47 28l10 27-9 18h-41c-1-32-22-54-54-54-32 0-55 23-55 55H238c0-31-23-55-55-55-33 0-55 23-56 55h-37l-6-15 4-36Z" fill={`url(#${uid}-body)`} stroke="#c5d0c7" stroke-width="1.5"/>
+ <path d="m222 130 39-39c10-9 24-14 44-15h108c24 0 43 8 60 21l40 33Z" fill={`url(#${uid}-glass)`} stroke="#d2dbd2" stroke-opacity=".55"/>
+ <path d="m309 76-13 54M387 76l11 55M406 76l20 55M244 133h281l14 67M292 136l-8 67M401 136l10 68M251 207h278" stroke="#15231c" stroke-width="2"/>
+ <path d="M113 150c96-17 300-12 453-9l75 16M245 190h279" stroke="#d4dcd3" stroke-opacity=".55"/>
+ <path d="m97 154-4 17h33l15-24Z" fill="#c8452a"/><path d="m607 154 37 8 11 12-54-3Z" fill="#f7e4b5"/><path d="m641 191 28 3M94 193l28-2M331 146h18M440 146h18" stroke="#0a1610" stroke-width="5" stroke-linecap="round"/>
+ <path d="m479 121 16 4 4 12h-22Z" fill="#9ba99e" stroke="#d4dcd3" stroke-width="1.2"/>
+ <g><circle cx="183" cy="216" r="40" fill="#09110d" stroke="#7b8b7d" stroke-width="1.5"/><circle cx="183" cy="216" r="27" fill="#3e5145" stroke="#bac6b7" stroke-width="1.2"/><circle cx="183" cy="216" r="8" fill="#15291b" stroke="#bcc8b7"/><path d="m183 190 2 17 14-13m10 21-17 2 12 15m-21 10-2-17-14 13m-10-21 17-2-12-15" stroke="#c3cdbc" stroke-width="3"/></g>
+ <g><circle cx="574" cy="216" r="40" fill="#09110d" stroke="#7b8b7d" stroke-width="1.5"/><circle cx="574" cy="216" r="27" fill="#3e5145" stroke="#bac6b7" stroke-width="1.2"/><circle cx="574" cy="216" r="8" fill="#15291b" stroke="#bcc8b7"/><path d="m574 190 2 17 14-13m10 21-17 2 12 15m-21 10-2-17-14 13m-10-21 17-2-12-15" stroke="#c3cdbc" stroke-width="3"/></g>
+ <g stroke="#f2733b" stroke-width="1.2"><path d="M560 150v-44l50-36h77"/><circle cx="560" cy="150" r="4" fill="#f2733b" stroke="none"/><circle cx="560" cy="150" r="9" stroke-opacity=".45"/><path d="M268 165v68l-38 36h-83" stroke-opacity=".65"/><circle cx="268" cy="165" r="3" fill="#f2733b" stroke="none"/></g>
+ <g fill="#a9baab" font-family="monospace" font-size="8" letter-spacing="1.1"><text x="619" y="62">POWERTRAIN</text><text x="146" y="282">OBD-II REFERENCE</text><text x="37" y="30">VEHICLE SYSTEMS / 01</text></g>
+</svg>

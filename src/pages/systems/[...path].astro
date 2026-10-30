@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import MakeDirectory from '../../components/MakeDirectory.astro';
+import {systemDirectoryPages} from '../../lib/cars';
+import type {DirectoryPage} from '../../lib/cars';
+export function getStaticPaths(){return systemDirectoryPages.map(pageData=>({params:{path:`${pageData.system!.id}${pageData.page>1?`/page/${pageData.page}`:''}`},props:{pageData}}));}
+const {pageData}=Astro.props as {pageData:DirectoryPage};const system=pageData.system!;const suffix=pageData.page>1?` — Page ${pageData.page}`:'';
+---
+<Base title={`${system.name} diagnostic code references${suffix}`} description={`${system.description}${suffix}`} breadcrumbs={[{label:'Home',href:'/'},{label:'Systems',href:'/systems/'},{label:system.name}]}><header class="container page-head"><p class="eyebrow">{system.letter} CODE FAMILY</p><h1>{system.name} code references{suffix}.</h1><p class="lede">{system.description}</p></header><MakeDirectory {...pageData}/></Base>

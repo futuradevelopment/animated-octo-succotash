@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+import { site } from '../lib/cars';
+interface Props { title:string; description:string; noindex?:boolean; breadcrumbs?:{label:string;href?:string}[]; schema?:Record<string,unknown>[]; kind?:string; }
+const { title, description, noindex=false, breadcrumbs=[], schema=[], kind='website' }=Astro.props;
+const canonical=new URL(Astro.url.pathname,site.url).href;
+const jsonld:Record<string,unknown>[]=[{'@context':'https://schema.org','@type':'WebSite','@id':`${site.url}/#website`,name:'ErrHive Cars',url:site.url},{'@context':'https://schema.org','@type':'Organization','@id':`${site.url}/#organization`,name:'ErrHive Cars',url:site.url,logo:`${site.url}/mark.svg`},...schema];
+if(breadcrumbs.length) jsonld.push({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:breadcrumbs.map((item,i)=>({'@type':'ListItem',position:i+1,name:item.label,item:new URL(item.href||Astro.url.pathname,site.url).href}))});
+const navigation=[{href:'/makes/',label:'By make'},{href:'/models/',label:'By model'},{href:'/guides/',label:'Field guides'}];
+---
+<!doctype html>
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#f4f2eb"/>
+  <title>{title.includes('ErrHive')?title:`${title} | ErrHive Cars`}</title>
+  <meta name="description" content={description}/><link rel="canonical" href={canonical}/>{noindex&&<meta name="robots" content="noindex, follow"/>}
+  <link rel="icon" href="/mark.svg" type="image/svg+xml"/>
+  <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/><meta property="og:type" content={kind==='article'?'article':'website'}/><meta property="og:site_name" content="ErrHive Cars"/><meta property="og:image" content={`${site.url}/social.svg`}/><meta property="og:image:alt" content="ErrHive Cars — Check engine. Clear head."/><meta name="twitter:card" content="summary_large_image"/>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonld).replace(/</g,'\\u003c')}/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+   <div class="container header-inner">
+    <a class="brand" href="/" aria-label="ErrHive Cars home"><img src="/mark.svg" alt="" width="34" height="34"/><span>errhive<span class="brand-slash">/</span><span class="brand-cars">cars</span></span></a>
+    <nav class="primary-nav" aria-label="Main navigation">{navigation.map(item=><a href={item.href} aria-current={Astro.url.pathname.startsWith(item.href)?'page':undefined}>{item.label}</a>)}</nav>
+    <a class="header-search" href="/search/" aria-label="Find a code"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span>Find a code</span></a>
+    <details class="mobile-menu"><summary aria-label="Open navigation"><span></span><span></span></summary><nav aria-label="Mobile navigation">{navigation.map(item=><a href={item.href}>{item.label}<span aria-hidden="true">↗</span></a>)}<a href="/about/">About ErrHive Cars<span aria-hidden="true">↗</span></a><a href="/sources/">Our sources<span aria-hidden="true">↗</span></a></nav></details>
+   </div>
+  </header>
+  <main id="main">
+   {breadcrumbs.length>0&&<nav class="container breadcrumbs" aria-label="Breadcrumb">{breadcrumbs.map((crumb,i)=><>{i>0&&<span class="crumb-separator" aria-hidden="true">/</span>}{crumb.href?<a href={crumb.href}>{crumb.label}</a>:<span aria-current="page">{crumb.label}</span>}</>)}</nav>}
+   <slot/>
+  </main>
+  <footer class="site-footer">
+   <div class="container footer-main">
+    <div class="footer-brand"><a class="brand" href="/"><img src="/mark.svg" alt="" width="34" height="34"/><span>errhive<span class="brand-slash">/</span><span class="brand-cars">cars</span></span></a><p>Less guesswork.<br/>A better next step.</p><span class="footer-description">An independent field guide to diagnostic trouble codes. Built around the documentation, and the vehicle in front of you.</span></div>
+    <div class="footer-links"><p class="eyebrow">Find your starting point</p><a href="/search/">Search a trouble code</a><a href="/makes/">Browse vehicle makes</a><a href="/models/">Explore model guides</a><a href="/guides/">Diagnostic field guides</a></div>
+    <div class="footer-links"><p class="eyebrow">Behind the guide</p><a href="/about/">About ErrHive Cars</a><a href="/sources/">Sources & research</a><a href="https://errhive.com/">ErrHive appliance guides <span aria-hidden="true">↗</span></a><p class="footer-fine-print">A code is a clue, not a parts order. Confirm vehicle applicability before acting.</p></div>
+   </div>
+   <div class="container footer-bottom"><p>© {new Date().getUTCFullYear()} ErrHive Cars</p><p>Independent of vehicle manufacturers. Names and marks belong to their respective owners.</p><nav aria-label="Legal and contact"><a href="/privacy/">Privacy</a><span aria-hidden="true"> · </span><a href="/terms/">Terms</a><span aria-hidden="true"> · </span><a href="/contact/">Contact</a></nav><span class="footer-label">KNOW WHAT COMES NEXT <span aria-hidden="true">↗</span></span></div>
+  </footer>
+ </body>
+</html>
