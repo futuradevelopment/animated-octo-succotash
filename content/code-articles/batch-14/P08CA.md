@@ -1,5 +1,5 @@
 ---
-{"entryId": "generic-p08ca", "code": "P08CA", "title": "P08CA: Interpreting the synchronizer valve low-circuit report", "description": "Read P08CA as a driver electrical fault while keeping the source’s inconsistent timing detail separate from a repair specification.", "status": "draft", "sourceReview": "needs-review", "scope": "2025 GM 25OBDG07A Part 2 monitor tables only; model, engine and transmission applicability are not established by the unresolved application-matrix filename join.", "sourceIds": ["gm-2025-07a-2"], "sourcePages": [{"sourceId": "gm-2025-07a-2", "pages": [926]}], "authoringBatch": "batch-14"}
+{"entryId": "generic-p08ca", "code": "P08CA", "title": "P08CA: Interpreting the synchronizer valve low-circuit report", "description": "Read P08CA as a driver electrical fault while keeping the source’s unresolved timing relationship separate from a repair specification.", "status": "draft", "sourceReview": "needs-review", "scope": "2025 GM 25OBDG07A Part 2 monitor tables only; model, engine and transmission applicability are not established by the unresolved application-matrix filename join.", "sourceIds": ["gm-2025-07a-2"], "sourcePages": [{"sourceId": "gm-2025-07a-2", "pages": [926]}], "authoringBatch": "batch-14"}
 ---
 
 # P08CA: Interpreting the synchronizer valve low-circuit report
@@ -14,7 +14,7 @@ A confirmation period of at least 150 milliseconds is listed. Consequently, a fa
 
 ## A detail requiring source clarification
 
-The same row includes a low-side-output turn-off-time item despite describing an on-state check. This article does not convert that contradictory wording into a connector probing instruction or an exact test sequence. The applicable workshop procedure must resolve that detail for the actual transmission.
+The same row includes a low-side-output turn-off-time item alongside the on-state check. Their relationship is not explained here, so the article does not convert these items into a connector-probing sequence. The applicable workshop procedure must establish how they interact for the actual transmission.
 
 The useful diagnostic distinction remains electrical versus hydraulic: a driver short-to-ground report can explain why commanded valve behavior cannot be trusted, but it does not isolate wiring, coil or internal driver by itself. Record which electrical status is reported and establish valid supply conditions before drawing conclusions from an unsuccessful actuator operation.
 

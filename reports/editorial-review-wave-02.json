@@ -120,7 +120,7 @@
     {
       "code": "P2312",
       "file": "content/code-articles/batch-15/P2312.md",
-      "sha256": "2b4c22deb142780bbc06f12e5a9f4f84c81e39d8c5392aeb79efa89fb9cee709",
+      "sha256": "36511fa1f4db03d264ede549fc0864f6bb8f2fe42637f416160faefe1cebcfbc",
       "sourceIds": [
         "gm-2025-07a-2"
       ],
@@ -137,6 +137,99 @@
       "observations": [
         "The OEM row describes an off-state low-side voltage classification with ignition synchronization, speed above 1,400 rpm, counter difference above nine and a 0.4-second interval.",
         "The source labels coil B while the generic definition labels coil E. The article preserves that unresolved mapping without locating a physical cylinder or claiming a failed component."
+      ],
+      "postReviewUpdate": "Root rechecked the final wording against the original table: the channel difference is now described explicitly as an unresolved mapping, not a definite OEM error."
+    },
+    {
+      "code": "C052B",
+      "file": "content/code-articles/batch-17/C052B.md",
+      "sha256": "b5c02b4185c7e7885fef17f20efd5590c92b67a51ecc9c94286371a138a94057",
+      "sourceIds": [
+        "gm-2025-04a"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04a",
+          "pages": [
+            225,
+            227,
+            228
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "GM pages 225, 227 and 228 separately document serial-transfer, disable-path, thermal and bridge checks under C052B.",
+        "The 390 ms serial maturation and two-count disable-path logic are correctly separated. The article treats the internal pulse test as controller-managed behavior, not a workshop probing instruction."
+      ]
+    },
+    {
+      "code": "P26C2",
+      "file": "content/code-articles/batch-18/P26C2.md",
+      "sha256": "4cbb872b36bd048c8373adaf783c2b6b52ca6b586bf4632e877734ff8e0504bf",
+      "sourceIds": [
+        "gm-2025-03b"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03b",
+          "pages": [
+            849,
+            850
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "GM pages 849\u2013850 require position error of at least 5 degrees and feedback below 50 degrees, with four failing seconds in a five-second window.",
+        "Relay and voltage eligibility plus valid feedback qualify the position interpretation; the monitor alone does not prove a failed valve or thermostat."
+      ]
+    },
+    {
+      "code": "P0210",
+      "file": "content/code-articles/batch-19/P0210.md",
+      "sha256": "9a7effa307a4d337b0cb660904e6f719ad87d38910d08999c6440652cb1c49a9",
+      "sourceIds": [
+        "ford-gasoline-2024-2025-v2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "pages": [
+            139
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "Ford page 139 includes P0210 in the P0201\u2013P0210 injector electrical range, with continuous eligible monitoring, a five-second duration and an 11 V entry threshold.",
+        "The article avoids inferring a ten-cylinder vehicle application from the code range and separates circuit evidence from injector flow."
+      ]
+    },
+    {
+      "code": "P0705",
+      "file": "content/code-articles/batch-20/P0705.md",
+      "sha256": "d30b2d5a1c5d03ad862bc5450144280c3981f349d62c4643a9e558b4ad26c602",
+      "sourceIds": [
+        "ford-gasoline-2024-2025-v2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "pages": [
+            147,
+            148
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against Ford physical pages147\u2013148; wording correction verified after author integration.",
+      "result": "One architecture wording clarification corrected; remaining sampled statements supported.",
+      "observations": [
+        "Ford distinguishes invalid digital patterns from PWM frequency, duty-cycle and analog circuit criteria. The separate monitoring durations and architecture-specific intervals are preserved.",
+        "The source permits digital inputs and/or an analog circuit. The revised article now says analog-circuit faults apply on relevant designs, avoiding an assertion that every digital design must use an analog input."
       ]
     }
   ]

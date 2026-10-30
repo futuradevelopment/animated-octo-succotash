@@ -1,0 +1,2130 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-30T17:32:32.876577+00:00",
+  "reviewerAgent": "writer_15",
+  "batch": "batch-11",
+  "reviewType": "Independent AI editorial read and purposive primary-source sample; not human mechanic certification",
+  "result": "Completed with one minor precision finding corrected during integration; no unresolved manuscript correction identified within stated coverage.",
+  "coverage": {
+    "articleBodyReadCount": 100,
+    "metadataCheckedCount": 100,
+    "exactAssignedUniqueCodes": 100,
+    "deepPrimarySourceArticleSampleCount": 20,
+    "sampleSourceReviewCounts": {
+      "checked": 12,
+      "needs-review": 8
+    },
+    "batchSourceReviewCounts": {
+      "checked": 73,
+      "needs-review": 27
+    },
+    "bodyReadMethod": "All 100 substantive bodies were read for unsupported repair/model/cost claims, misleading thresholds, unresolved mappings and generic filler. The identical source/applicability paragraph was verified across all 100. Twenty selected bodies were additionally compared to their actual primary-source rows and continuation pages.",
+    "sampleSelection": "Purposive coverage of checked and needs-review cases across cam timing, oxygen heaters/sensors, intake/oil temperature, throttle/boost, injectors, knock, coils, fan control, cold-start ignition, internal pedal/ASIC supervision and transmission speed/pressure. Numeric units, row boundaries and internal-to-generic mapping risks were prioritized.",
+    "samplingIsNotExhaustiveFactCheck": true,
+    "sourcePageNumbering": "One-based physical PDF pages, not internal ECM/TCM section numbers"
+  },
+  "primarySource": {
+    "sourceId": "gm-2025-07a-2",
+    "localPdf": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.pdf",
+    "sha256": "dd55fe653e741a668dccf3123df663ff55bb2334a65ea4d92ec17b0f5a398764",
+    "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+    "textUsed": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+    "visualPages": [
+      299,
+      504,
+      552,
+      589,
+      609,
+      611,
+      621,
+      636,
+      638,
+      701,
+      918,
+      919,
+      1062
+    ],
+    "visualNote": "Original PDF rendered for layout, inequalities, units and mapping ambiguity; page 701 had also been directly inspected during the earlier batch-15 source work and was reread as source text during this review."
+  },
+  "findings": [
+    {
+      "id": "B11-001",
+      "severity": "minor",
+      "file": "content/code-articles/batch-11/P0221.md",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        621
+      ],
+      "issue": "Original wording described an absolute-difference branch as having a negative boundary. The PDF prints <0(%): zero is the boundary and the criterion would require a negative result.",
+      "recommendedCorrection": "One branch requires an absolute difference below zero, which is not adopted as a usable service threshold here.",
+      "status": "corrected-during-integration",
+      "correctionAppliedBy": "root",
+      "correctionVerification": "Reread corrected paragraph and original PDF page 621; current file SHA256 is recorded in sample and body inventory.",
+      "retainSourceReview": "needs-review"
+    }
+  ],
+  "similarityScreen": {
+    "scope": "Only the 100 batch-11 articles, not other batches or the internet.",
+    "method": "Exact full Markdown body comparison and pairwise five-token shingle Jaccard on lowercased substantive text; metadata, Markdown headings and shared source/applicability section excluded from shingle comparison.",
+    "pairCount": 4950,
+    "exactDuplicateBodies": 0,
+    "screeningThreshold": 0.3,
+    "pairsAtOrAboveThreshold": 0,
+    "highestPair": {
+      "files": [
+        "content/code-articles/batch-11/P074D.md",
+        "content/code-articles/batch-11/P07D8.md"
+      ],
+      "fiveTokenJaccard": 0.06005221932114883
+    },
+    "editorialAssessment": "No title-only-swapped filler identified in the all-body read. Shared cylinder/gear/channel monitor families explicitly disclose shared logic while distinguishing the targeted channel and diagnostic interpretation. Low lexical similarity is a supporting screen, not proof of usefulness or source accuracy."
+  },
+  "metadataChecks": {
+    "jsonFrontmatterValid": true,
+    "uniqueCodesMatchAssignment": true,
+    "codeMatchesFilename": true,
+    "titlesAndDescriptionsPresent": true,
+    "allDraft": true,
+    "sourcePageLinksMatchMetadata": true,
+    "applicabilityBoundaryPresentInAll100": true,
+    "substantiveWordCountExcludingHeadingsAndSharedSourceSection": {
+      "min": 199,
+      "max": 222
+    },
+    "wordCountNote": "This deliberately narrow substantive-body measure differs from the project total-word validator; it is not a replacement for its 27,527-word batch total."
+  },
+  "samples": [
+    {
+      "file": "content/code-articles/batch-11/P000C.md",
+      "sha256": "21ab3987db68063c20d80751b6c4193ac62d9150cede01078519831e6758d874",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        544,
+        545
+      ],
+      "visualPdfPages": [],
+      "checkedClaims": [
+        "Bank 2 intake-cam response combines more than one second failing to reach target with more than three crankshaft degrees of movement from the stored initial setpoint.",
+        "Closed-loop eligibility and two-trip reporting are preserved; motion alone is not treated as proof of timely response."
+      ],
+      "assessment": "No correction identified.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0018.md",
+      "sha256": "cf01c7205b07c26ed8ba55bd21c914b075102a9426402ae32d8d19679b271af2",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        596,
+        597
+      ],
+      "visualPdfPages": [],
+      "checkedClaims": [
+        "Bank 2 intake-cam offset limits are above 12.59 or below -8.79 crankshaft degrees, not symmetric universal timing specifications.",
+        "Four crankshaft revolutions of valid signals/synchronization qualify a two-cam-revolution comparison; one-trip reporting is separate."
+      ],
+      "assessment": "No correction identified.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0052.md",
+      "sha256": "c6ea06b4f21c9a553e7bcc43c4280f788fd97d747f265a0706a59397d1296530",
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        299
+      ],
+      "visualPdfPages": [
+        299
+      ],
+      "checkedClaims": [
+        "Driver-ON high feedback, two-second detection and two-trip reporting match the row.",
+        "Strategy says bank 1 sensor 2 while release/duty eligibility says bank 2 sensor 1; article retains the mapping issue and does not assign a connector."
+      ],
+      "assessment": "Existing needs-review mapping flag is justified. No new correction.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P00A8.md",
+      "sha256": "dc3bb8cf0551acabb5c96e1c77c4b26ca33c6ba0f578a7987b759d540663c43d",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        876,
+        877
+      ],
+      "visualPdfPages": [],
+      "checkedClaims": [
+        "Physical temperature above 122.76 degrees C and electrical signal above 4800 mV are distinct documented paths.",
+        "Both paths use two seconds and two trips; internal sensor 4 nomenclature is not silently equated to a pin or component location."
+      ],
+      "assessment": "No correction identified.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P00AE.md",
+      "sha256": "08abdbe00677227606df44f314e3bd4471d414ad9310951c2e54b885e7293f91",
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        875
+      ],
+      "visualPdfPages": [],
+      "checkedClaims": [
+        "Absolute raw-versus-filtered temperature difference above 10 K for 20 seconds matches the gradient-check row.",
+        "After-filter bank 2 strategy and filtered sensor 1 wording leave the data-channel mapping unresolved; the article does not invent a wiring cause."
+      ],
+      "assessment": "Existing needs-review channel flag is justified. No new correction.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0160.md",
+      "sha256": "f6b8ee8244bd69ffc0db85d8af5de922c3df6b1c0027fd646ce3335ae389a27d",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        504,
+        505
+      ],
+      "visualPdfPages": [
+        504
+      ],
+      "checkedClaims": [
+        "Bank 2 sensor 2 loading comparison uses three load pulses with prior fault suspicion and readiness.",
+        "Separate resistance path uses greater than 40000 ohms and exhaust temperature greater than 600 degrees C; article calls interrupted ground a monitored hypothesis rather than a located defect."
+      ],
+      "assessment": "No correction identified; font-encoded loading-path values were visually inspected and are not promoted into an external test.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0196.md",
+      "sha256": "b36ddae5ad5f69082f9864f11be3b3f216cc8cbbd0dfd901f52a7ed65b610a3e",
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        611
+      ],
+      "visualPdfPages": [
+        611
+      ],
+      "checkedClaims": [
+        "Cold-start reference comparison includes engine-off duration greater than 28800 seconds, valid sensor signal and completed reference calculation.",
+        "The paired subtraction rows visibly print greater than 14.96 and less than 14.96 degrees C, respectively; one-second/two-trip information is retained without silently repairing the comparator."
+      ],
+      "assessment": "Existing needs-review comparator flag is justified. No new correction.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0221.md",
+      "sha256": "39f136e48a68bb6194825533c36034d408e07eeefbb6f08cda47080558673718",
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        620,
+        621,
+        622
+      ],
+      "visualPdfPages": [
+        621
+      ],
+      "checkedClaims": [
+        "Position-channel difference uses a mapped 5 to 6.25 percent boundary and the charge-model comparison lists 9.0234 percent.",
+        "DRIVE/POSTDRIVE and safety/charge qualifications are retained. The anomalous absolute-difference clause actually prints less than zero percent."
+      ],
+      "assessment": "Minor wording correction applied by root and independently reread: negative boundary replaced by absolute difference below zero. Source ambiguity remains needs-review.",
+      "findingIds": [
+        "B11-001"
+      ],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0241.md",
+      "sha256": "0fa432256615a5a7570b442a735884289c72ebfc20d620e671f91d9ea45f088d",
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        551,
+        552
+      ],
+      "visualPdfPages": [
+        552
+      ],
+      "checkedClaims": [
+        "Electrical path is raw voltage below 0.15 V for 1.5 seconds, ignition on, two trips.",
+        "Physical-range-low row prints greater than 250 hPa with 400 milliseconds and one trip; article explicitly preserves this comparator issue instead of supplying an assumed threshold."
+      ],
+      "assessment": "Existing needs-review comparator flag is justified. No new correction.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P02A5.md",
+      "sha256": "891679b5b72f5ab1ebb22f902982caddf1300b87b37e024b1be7fb94a90e9335",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        705,
+        706
+      ],
+      "visualPdfPages": [],
+      "checkedClaims": [
+        "Cylinder 3 misfire count above 100 is combined with rail-pressure-control minimum-error status.",
+        "Eligibility above 1520/below 6000 rpm, relative charge below 100 percent, no electrical injector failure and no statistical inhibit matches the five-second/two-trip monitor."
+      ],
+      "assessment": "No correction identified; shared cylinder-family logic is openly described.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P02F4.md",
+      "sha256": "7f34eb4f03094914109db76b7a0d0de875578c56df7dba3408453a46259943a1",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        609
+      ],
+      "visualPdfPages": [
+        609
+      ],
+      "checkedClaims": [
+        "Internal ADC buffer has beginning/end controlled-valve-operation alternatives; the PDF displays digital counts, not external voltage or resistance.",
+        "Twenty events, ignition-on/common eligibility and two-trip reporting match the table. The physical cylinder/connector mapping is expressly not supplied by this row."
+      ],
+      "assessment": "No correction identified; generic catalog mapping is not represented as physical connector evidence.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P032A.md",
+      "sha256": "cc0712dfa95ba84077451d3beefa3ae78558912842af233ededd86ccc815a470",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        601
+      ],
+      "visualPdfPages": [],
+      "checkedClaims": [
+        "Knock sensor 3 open-load integration uses 30 events, two trips and a speed-dependent 15 to 120 second schedule.",
+        "PWM duty above 50 percent, rpm above 800/below 5000 and load above 13/below 160 percent qualify the monitor. Internal numerical integration boundary is not treated as an ohmmeter specification."
+      ],
+      "assessment": "No correction identified.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0342.md",
+      "sha256": "fa341d7f6be054b9f03f345e6fd9db4e85aeefd3b024efdeffa3970db7c2145f",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        589,
+        590
+      ],
+      "visualPdfPages": [
+        589
+      ],
+      "checkedClaims": [
+        "Bank 1 intake-cam no-edge/low-level logic requires at least four crankshaft revolutions, recognized crank gap and no backward rotation.",
+        "One-trip reporting and signal-level-at-transition distinction are preserved; absence of edges is separated from timing correlation."
+      ],
+      "assessment": "No correction identified; PDF visual check confirmed the extraction-obscured greater-than-or-equal sign.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0355.md",
+      "sha256": "01951aeacc8280062866539a3b19ce9e7563fa572fe9f9dad9bd092719df327e",
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        701
+      ],
+      "visualPdfPages": [
+        701
+      ],
+      "checkedClaims": [
+        "Low feedback during the driver OFF state is documented open-load evidence, qualified by synchronization, rpm above 1400 and ignition counter difference above nine.",
+        "The row calls the coil B while the catalog calls it E; no physical cylinder assignment is asserted. 0.4 second and two trips match; atypical upper supply value is not used as a service limit."
+      ],
+      "assessment": "Existing needs-review mapping/supply flag is justified. Different internal labels do not prove either definition wrong.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0495.md",
+      "sha256": "0f7168d56674b57a46c04fd8cb9d9af71cac939b91e6efe67fef1b11d8602344",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        815
+      ],
+      "visualPdfPages": [],
+      "checkedClaims": [
+        "Actual fan 1 speed minus maximum estimated speed is compared to a mapped 1300 to 4050 rpm deviation, not a normal fan-speed range.",
+        "Twenty-second assessment, two-trip reporting and qualifying command/supply state are accurately distinguished."
+      ],
+      "assessment": "No correction identified.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P050B.md",
+      "sha256": "4237edd11cfd184e15642177cba3b83c3e3dd6a2887ad1d835493dbd6193c257",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        533,
+        534
+      ],
+      "visualPdfPages": [],
+      "checkedClaims": [
+        "Idle ignition efficiency is compared with catalyst-heating requested efficiency, with heating active and elapsed heating time above ten seconds.",
+        "Mapped 0.27 to 0.999 efficiency deviation, two-second assessment, two-trip reporting and end-of-start/homogeneous/initial-fueling context match the source."
+      ],
+      "assessment": "No correction identified; numerical boundary is not presented as an ignition angle.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P060D.md",
+      "sha256": "4ac0409d7c72981613942a61b9708d158ddd82ba62190f281855d9193145b66b",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        637,
+        638,
+        639,
+        640
+      ],
+      "visualPdfPages": [
+        638
+      ],
+      "checkedClaims": [
+        "Part/full-pedal calculation takes maximum of each signal and 848 mV before comparing absolute difference against 360.6 mV; assessment is 0.026 seconds.",
+        "Null-load ADC test must be inactive; separate learned minimum normalized values are checked for each sensor across monitoring levels."
+      ],
+      "assessment": "No correction identified; visual formula check confirmed the prose accurately describes the floor operation.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P06D1.md",
+      "sha256": "06c5c6e39f5528ed40bcc2a89dad4bf406c05950e50fca2b860b3ca67b983132",
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        636,
+        637
+      ],
+      "visualPdfPages": [
+        636
+      ],
+      "checkedClaims": [
+        "Bank 1 and bank 2 SPI information errors from ignition diagnostic power-stage ASICs share P06D1.",
+        "Twenty events/one trip, synchronization, rpm above 1400 and counter advance above nine match the source; printed 655340 mV upper supply is not adopted as a practical limit."
+      ],
+      "assessment": "Existing needs-review atypical supply-value flag is justified. No new correction.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P07C6.md",
+      "sha256": "208b0c32478a4b8e7c8d8575c9976e9e3250aa8d358df279bad708537861a929",
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        918,
+        919
+      ],
+      "visualPdfPages": [
+        918,
+        919
+      ],
+      "checkedClaims": [
+        "Odd-clutch input high-voltage branch uses above 4230 mV with 30 mV hysteresis; pulse jump greater than 15 microseconds is conditioned by frequency at least 40 Hz.",
+        "VSS1 above 8250/below 10000 mV, at least 300 ms confirmation and P0882/P0883 inhibition are preserved. The less-than-144/greater-than-218 microsecond non-direction clause remains explicitly unresolved."
+      ],
+      "assessment": "Existing needs-review pulse-logic flag is justified. No new correction.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    },
+    {
+      "file": "content/code-articles/batch-11/P0868.md",
+      "sha256": "66dceace66d6f6fe5a585f137574592e3c88062f7a56449bf50ccc5429d63243",
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        1062,
+        1063
+      ],
+      "visualPdfPages": [
+        1062
+      ],
+      "checkedClaims": [
+        "Target-minus-measured system pressure is compared with an attachment-defined limit; 2 bar is hysteresis, not the failure boundary.",
+        "1500 ms confirmation, pressure/pilot-valve electrical eligibility and hydraulic pump/recovery/priming conditions match the row."
+      ],
+      "assessment": "No correction identified; attachment calibration is not invented.",
+      "findingIds": [],
+      "unresolvedManuscriptCorrection": false
+    }
+  ],
+  "bodyReadInventory": [
+    {
+      "file": "content/code-articles/batch-11/P000C.md",
+      "sha256": "21ab3987db68063c20d80751b6c4193ac62d9150cede01078519831e6758d874",
+      "code": "P000C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            544,
+            545
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 219
+    },
+    {
+      "file": "content/code-articles/batch-11/P0018.md",
+      "sha256": "cf01c7205b07c26ed8ba55bd21c914b075102a9426402ae32d8d19679b271af2",
+      "code": "P0018",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            596,
+            597
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 213
+    },
+    {
+      "file": "content/code-articles/batch-11/P0019.md",
+      "sha256": "1fd36dc6a6037871a86c2d4d7df69d8d5971962e40a0081196d4df771fc226b6",
+      "code": "P0019",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            597,
+            598
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 209
+    },
+    {
+      "file": "content/code-articles/batch-11/P0020.md",
+      "sha256": "7eb79ce5b6de0d57726ec3c725cffedb7a3dd77ec18831c194d1de28582e01d3",
+      "code": "P0020",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            744
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 222
+    },
+    {
+      "file": "content/code-articles/batch-11/P0024.md",
+      "sha256": "0a30448af42e68d0b11cbe048c9b51be39c8d5847d1c37f9c01f5b61de57f3c9",
+      "code": "P0024",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            542,
+            543
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 216
+    },
+    {
+      "file": "content/code-articles/batch-11/P0049.md",
+      "sha256": "1dd242c6a47524152e61f73fc7761a2319c7df031e41a5fa11db1e02cef526ea",
+      "code": "P0049",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            884
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 211
+    },
+    {
+      "file": "content/code-articles/batch-11/P0051.md",
+      "sha256": "9f92ec875a2357ef725e17df7ba76f186119a403956b91b1ef9596d561637a04",
+      "code": "P0051",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            299,
+            300
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 214
+    },
+    {
+      "file": "content/code-articles/batch-11/P0052.md",
+      "sha256": "c6ea06b4f21c9a553e7bcc43c4280f788fd97d747f265a0706a59397d1296530",
+      "code": "P0052",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            299
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P00A7.md",
+      "sha256": "7c95111fa8f3346b07ecafccb6155bbf55b71876ebce699af75c059dfe471432",
+      "code": "P00A7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            876,
+            877
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 218
+    },
+    {
+      "file": "content/code-articles/batch-11/P00A8.md",
+      "sha256": "dc3bb8cf0551acabb5c96e1c77c4b26ca33c6ba0f578a7987b759d540663c43d",
+      "code": "P00A8",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            876,
+            877
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 209
+    },
+    {
+      "file": "content/code-articles/batch-11/P00AB.md",
+      "sha256": "06179c4800a1cad822117020293b93900d546d771e2d20a9810f42dffcea9bc5",
+      "code": "P00AB",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            877,
+            878
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 218
+    },
+    {
+      "file": "content/code-articles/batch-11/P00AC.md",
+      "sha256": "3c9c79134a914c34aa5b357ea4cfcbebfc109cf2f8aa17e7847326c71b543273",
+      "code": "P00AC",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            875
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 212
+    },
+    {
+      "file": "content/code-articles/batch-11/P00AD.md",
+      "sha256": "639252d28cf067ed75896808197f382039ada7d5759cd82ff9f61db70ed1aef9",
+      "code": "P00AD",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            875
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 213
+    },
+    {
+      "file": "content/code-articles/batch-11/P00AE.md",
+      "sha256": "08abdbe00677227606df44f314e3bd4471d414ad9310951c2e54b885e7293f91",
+      "code": "P00AE",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            875
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 215
+    },
+    {
+      "file": "content/code-articles/batch-11/P00C0.md",
+      "sha256": "dfcd04418db78657e83d6df86b62595789c5d32a6d6a26f81d7e90ef412ce427",
+      "code": "P00C0",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            857
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 214
+    },
+    {
+      "file": "content/code-articles/batch-11/P00C1.md",
+      "sha256": "ba2815137915e3d2d7f2096a11f36ebb440f5c0c1d157ad149cceaeb770c3a47",
+      "code": "P00C1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            857
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 218
+    },
+    {
+      "file": "content/code-articles/batch-11/P00C2.md",
+      "sha256": "1e740d6bae7e8956910ed9ffde9d03f6a2ce12b4cc22af44fca00d95e37942f9",
+      "code": "P00C2",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            857
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 208
+    },
+    {
+      "file": "content/code-articles/batch-11/P00C5.md",
+      "sha256": "bace750d7080dee2392c058c7e38b26c32dbbb7fc8ee5cfbfc14ab80c0f68cb0",
+      "code": "P00C5",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            884
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P010C.md",
+      "sha256": "22637eef1dd5ec1ebd3426fd9a2cac7caa884f4ea4a3e75b29004d0cf92bf679",
+      "code": "P010C",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            546
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P0160.md",
+      "sha256": "f6b8ee8244bd69ffc0db85d8af5de922c3df6b1c0027fd646ce3335ae389a27d",
+      "code": "P0160",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            504,
+            505
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 215
+    },
+    {
+      "file": "content/code-articles/batch-11/P0196.md",
+      "sha256": "b36ddae5ad5f69082f9864f11be3b3f216cc8cbbd0dfd901f52a7ed65b610a3e",
+      "code": "P0196",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            611
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 217
+    },
+    {
+      "file": "content/code-articles/batch-11/P01E6.md",
+      "sha256": "7515ecfd880e00515db73c4b37cd01c57f3de7060c32f89b8786b4457fede242",
+      "code": "P01E6",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            531
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 221
+    },
+    {
+      "file": "content/code-articles/batch-11/P0221.md",
+      "sha256": "39f136e48a68bb6194825533c36034d408e07eeefbb6f08cda47080558673718",
+      "code": "P0221",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            620,
+            621,
+            622
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 213
+    },
+    {
+      "file": "content/code-articles/batch-11/P0228.md",
+      "sha256": "c1ce74352e92f97afe48c1c845f8f2237e414d8cfe3078a9472335240a7baf00",
+      "code": "P0228",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            623,
+            624
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 219
+    },
+    {
+      "file": "content/code-articles/batch-11/P0240.md",
+      "sha256": "fca4f6319718c7be642192d6c3eebc1900d53f85be3d88f8ccc6589b665646fc",
+      "code": "P0240",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            552,
+            553
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 209
+    },
+    {
+      "file": "content/code-articles/batch-11/P0241.md",
+      "sha256": "0fa432256615a5a7570b442a735884289c72ebfc20d620e671f91d9ea45f088d",
+      "code": "P0241",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            551,
+            552
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 206
+    },
+    {
+      "file": "content/code-articles/batch-11/P0242.md",
+      "sha256": "84120f15dfafbefb2bd84ff3a843c15a31cdc02dff30ec369f7f55a57588131b",
+      "code": "P0242",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            551,
+            552
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 211
+    },
+    {
+      "file": "content/code-articles/batch-11/P0247.md",
+      "sha256": "18c178aafac9e2db27f3ab0ce53ab121e47a25a5cb0c28987cb9f712dc540956",
+      "code": "P0247",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            860
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 208
+    },
+    {
+      "file": "content/code-articles/batch-11/P0249.md",
+      "sha256": "210698fe68ba5def3d351c171c59d40e099c72d7e035c114a44c513af7da4133",
+      "code": "P0249",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            861
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 211
+    },
+    {
+      "file": "content/code-articles/batch-11/P0250.md",
+      "sha256": "f565d9a89bf1febea1c6d42dac4e369f402901d6229355d5834a1118501f219e",
+      "code": "P0250",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            861
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 213
+    },
+    {
+      "file": "content/code-articles/batch-11/P02A5.md",
+      "sha256": "891679b5b72f5ab1ebb22f902982caddf1300b87b37e024b1be7fb94a90e9335",
+      "code": "P02A5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            705,
+            706
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 206
+    },
+    {
+      "file": "content/code-articles/batch-11/P02A9.md",
+      "sha256": "111a5767d7fc6c5324f69d9c942dcf2ba95d3c522723784f44a7a64b763b2782",
+      "code": "P02A9",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            706,
+            707
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 214
+    },
+    {
+      "file": "content/code-articles/batch-11/P02AD.md",
+      "sha256": "c757a3f1f2561231950c757e884da486d3e75a0a791d059ba75427627bea957c",
+      "code": "P02AD",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            707
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 215
+    },
+    {
+      "file": "content/code-articles/batch-11/P02B1.md",
+      "sha256": "e8953fade7d3aad7a20ae05e4ff6c66dc2fc89ecc4b5664f2ee702855232cb18",
+      "code": "P02B1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            708
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 203
+    },
+    {
+      "file": "content/code-articles/batch-11/P02B5.md",
+      "sha256": "da5a9aef216e4851ade57fb0023f9f4f37668984ebdc9cf2ad99feedf7001f61",
+      "code": "P02B5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            709
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 204
+    },
+    {
+      "file": "content/code-articles/batch-11/P02B9.md",
+      "sha256": "2ccff01c97a3f734a6860a1d318cdd00e8f7d6d21678233ec0caa7b6dc7f579e",
+      "code": "P02B9",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            710
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 215
+    },
+    {
+      "file": "content/code-articles/batch-11/P02CA.md",
+      "sha256": "de7c9b869d168617e9e611febb50197872549e87ba66f46deab233a5958bf01c",
+      "code": "P02CA",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            823
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 214
+    },
+    {
+      "file": "content/code-articles/batch-11/P02F4.md",
+      "sha256": "7f34eb4f03094914109db76b7a0d0de875578c56df7dba3408453a46259943a1",
+      "code": "P02F4",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            609
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 204
+    },
+    {
+      "file": "content/code-articles/batch-11/P02F5.md",
+      "sha256": "fd3bfd53bccc367578ee5e36662375af39deb30a79ef7c6859bbc25ff0e66578",
+      "code": "P02F5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            609
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 214
+    },
+    {
+      "file": "content/code-articles/batch-11/P032A.md",
+      "sha256": "cc0712dfa95ba84077451d3beefa3ae78558912842af233ededd86ccc815a470",
+      "code": "P032A",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            601
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 218
+    },
+    {
+      "file": "content/code-articles/batch-11/P032B.md",
+      "sha256": "985d70f20f75ac93051b46f4bb5512ad92ffd506cd8b543f0856ddea5e710c04",
+      "code": "P032B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            601,
+            602
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P0330.md",
+      "sha256": "b19533e8e0a51d23d2f8704d6828c57c7fb60d965149e775e595b9bb9f14b8de",
+      "code": "P0330",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            603
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 204
+    },
+    {
+      "file": "content/code-articles/batch-11/P0331.md",
+      "sha256": "b548562fa25ae40764879feb7352d56999a664cd5c0d97e6671f7b6123b5c88d",
+      "code": "P0331",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            603,
+            604
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 204
+    },
+    {
+      "file": "content/code-articles/batch-11/P0332.md",
+      "sha256": "2645f5718f94de868e0364419c445ae88fc99a0844a7034b220cd8882071b761",
+      "code": "P0332",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            603
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 211
+    },
+    {
+      "file": "content/code-articles/batch-11/P033A.md",
+      "sha256": "8aeef84e5bac963d078e17e9007fa115039262b1833f84962053fa50a635eb6b",
+      "code": "P033A",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            605,
+            606
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P033C.md",
+      "sha256": "5b9b4ae9bd97bb58500fe72a12f65f67dbd32cf02458e62589e268d367c3afea",
+      "code": "P033C",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            605
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 217
+    },
+    {
+      "file": "content/code-articles/batch-11/P0342.md",
+      "sha256": "fa341d7f6be054b9f03f345e6fd9db4e85aeefd3b024efdeffa3970db7c2145f",
+      "code": "P0342",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            589,
+            590
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 211
+    },
+    {
+      "file": "content/code-articles/batch-11/P0346.md",
+      "sha256": "5330911b7d5c2ab59d9e5cde63fdee249bcb05be0f5f62789ee4ba8daa631c17",
+      "code": "P0346",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            591
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 207
+    },
+    {
+      "file": "content/code-articles/batch-11/P0348.md",
+      "sha256": "aff80ef3377a271e39bc481a51774eea8e1576a274197edd5bd85cd3aeef67d5",
+      "code": "P0348",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            590
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P0354.md",
+      "sha256": "2c0b5cc2f550908d4a44aad5f5b07e27a42e0620a590e5b99d4038c273d149e2",
+      "code": "P0354",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            700
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 214
+    },
+    {
+      "file": "content/code-articles/batch-11/P0355.md",
+      "sha256": "01951aeacc8280062866539a3b19ce9e7563fa572fe9f9dad9bd092719df327e",
+      "code": "P0355",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            701
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 217
+    },
+    {
+      "file": "content/code-articles/batch-11/P0357.md",
+      "sha256": "a1535a2436d04e587c3e083adae70c1057b63bdd227f8cfb2f4ea385a8da62da",
+      "code": "P0357",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            702,
+            703
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 202
+    },
+    {
+      "file": "content/code-articles/batch-11/P0358.md",
+      "sha256": "569871511bd46054583e080ff42b92aecb887d02f2ccf90eea8a050528ae591e",
+      "code": "P0358",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            703
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 209
+    },
+    {
+      "file": "content/code-articles/batch-11/P0368.md",
+      "sha256": "14c106a6514e75c025a2357594270d6011e8438ecfe6811cd3867b147c258fae",
+      "code": "P0368",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            591,
+            592
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 204
+    },
+    {
+      "file": "content/code-articles/batch-11/P0391.md",
+      "sha256": "79959aa68247dbebc983de780d0326a4567e8d8af7fc4847ec9259bb7776d3c7",
+      "code": "P0391",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            593,
+            594
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P0392.md",
+      "sha256": "922aaf2234e79d17dac484db7267ddce09172aa7b17677a9e5d5d52adfd808c4",
+      "code": "P0392",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            593
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 211
+    },
+    {
+      "file": "content/code-articles/batch-11/P0449.md",
+      "sha256": "d3d1524ea19576febe55dc4865b885aba45020b2099d08c1d6e69afa0f675016",
+      "code": "P0449",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            694
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 207
+    },
+    {
+      "file": "content/code-articles/batch-11/P0495.md",
+      "sha256": "0f7168d56674b57a46c04fd8cb9d9af71cac939b91e6efe67fef1b11d8602344",
+      "code": "P0495",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            815
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 211
+    },
+    {
+      "file": "content/code-articles/batch-11/P0498.md",
+      "sha256": "61aab111e22399f7d7074a6bff472e3bbcb980c9966ec406daf2692485c65fa8",
+      "code": "P0498",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            694
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 209
+    },
+    {
+      "file": "content/code-articles/batch-11/P0499.md",
+      "sha256": "06ed44d77529ade0430a5b518491e5d0250884a807ee6ca2a6c31906a7ad6a05",
+      "code": "P0499",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            694
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 203
+    },
+    {
+      "file": "content/code-articles/batch-11/P04AB.md",
+      "sha256": "ca60b23aeab50367c8d7ba37d368ea41e63cb553f36a89e4e8544031e2ba83d9",
+      "code": "P04AB",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            749
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 217
+    },
+    {
+      "file": "content/code-articles/batch-11/P04AC.md",
+      "sha256": "6f00d98b99c5cb2250ada6111c91165e0b613e4dbc980df3a4c201d882c1cc40",
+      "code": "P04AC",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            749
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 209
+    },
+    {
+      "file": "content/code-articles/batch-11/P04AD.md",
+      "sha256": "67748263607f72ae2880f597adfa03720d45a6ed092f4b714cafe15dc7f7ea4f",
+      "code": "P04AD",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            749
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 212
+    },
+    {
+      "file": "content/code-articles/batch-11/P050B.md",
+      "sha256": "4237edd11cfd184e15642177cba3b83c3e3dd6a2887ad1d835493dbd6193c257",
+      "code": "P050B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            533,
+            534
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 208
+    },
+    {
+      "file": "content/code-articles/batch-11/P0524.md",
+      "sha256": "b01af004f1d001cd1775e3788cc3ca2c0a8b76a1ec775017bd21f557a2c42366",
+      "code": "P0524",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            746
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 217
+    },
+    {
+      "file": "content/code-articles/batch-11/P0605.md",
+      "sha256": "12e14909b09b9b3623d56cf582363f521cfd6929c8b4b6796173f235831ee45e",
+      "code": "P0605",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            903
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 213
+    },
+    {
+      "file": "content/code-articles/batch-11/P060A.md",
+      "sha256": "a498d0552526ff0c8e01fb46ddfedebd47e67a96ec5c4be7d3ead40def7645a6",
+      "code": "P060A",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            637,
+            904
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 206
+    },
+    {
+      "file": "content/code-articles/batch-11/P060D.md",
+      "sha256": "4ac0409d7c72981613942a61b9708d158ddd82ba62190f281855d9193145b66b",
+      "code": "P060D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            637,
+            638,
+            639,
+            640
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 205
+    },
+    {
+      "file": "content/code-articles/batch-11/P0610.md",
+      "sha256": "5dbda3fd80d4ec4c1acbf4679df79403681a2a32256ea65c90718236545e82f8",
+      "code": "P0610",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            904
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 216
+    },
+    {
+      "file": "content/code-articles/batch-11/P0613.md",
+      "sha256": "7dc8c08c3115b0b73a99be9c8bbab9ef41e983eb4126042ff7be6d1eb259931a",
+      "code": "P0613",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            904
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 214
+    },
+    {
+      "file": "content/code-articles/batch-11/P0642.md",
+      "sha256": "5bebbb95a1d0ee24a32fc9944fd719502c5bb2b9d4dc41beeaa59d26b1695e7e",
+      "code": "P0642",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            909
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 215
+    },
+    {
+      "file": "content/code-articles/batch-11/P0643.md",
+      "sha256": "50c8c75ba0e4ac591d81db30aee2a0ad219d0645ce5ca5d5c41a44ca8c45cfa8",
+      "code": "P0643",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            909
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 204
+    },
+    {
+      "file": "content/code-articles/batch-11/P0652.md",
+      "sha256": "b5d16a59d4bcc6f4e208994e368256e83e27439822e283a9a9209fae36d1efa9",
+      "code": "P0652",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            910
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 208
+    },
+    {
+      "file": "content/code-articles/batch-11/P0659.md",
+      "sha256": "a8bf4927525acfd1ba8c936b5dec82d0e251f64765beea635ce7b8ec69d3d056",
+      "code": "P0659",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            936
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 208
+    },
+    {
+      "file": "content/code-articles/batch-11/P065A.md",
+      "sha256": "902e7106525d8a012661f41829762283a1626311e3059ea7704609e5242b3367",
+      "code": "P065A",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            554,
+            555
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 206
+    },
+    {
+      "file": "content/code-articles/batch-11/P06A5.md",
+      "sha256": "51a532fbfecff7b1c076e6d0c72d059f67f11dbc8161761d46fb82bad13702f3",
+      "code": "P06A5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            908
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 199
+    },
+    {
+      "file": "content/code-articles/batch-11/P06B4.md",
+      "sha256": "72d41c58ec70305edbee00a302fed60790cb5c4af11f6c9df09fc73504c7d02c",
+      "code": "P06B4",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            935
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 209
+    },
+    {
+      "file": "content/code-articles/batch-11/P06D1.md",
+      "sha256": "06c5c6e39f5528ed40bcc2a89dad4bf406c05950e50fca2b860b3ca67b983132",
+      "code": "P06D1",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            636,
+            637
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 217
+    },
+    {
+      "file": "content/code-articles/batch-11/P06D3.md",
+      "sha256": "147ecc5e704d515c2c6a40899893be989fab63dbee20d0e4c4c3acc3d0bfd3ae",
+      "code": "P06D3",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            909
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 206
+    },
+    {
+      "file": "content/code-articles/batch-11/P06D4.md",
+      "sha256": "03385eec139640eb81b12824d2f6a7ee76839bbcf78ebed315529c79bf8cf329",
+      "code": "P06D4",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            909
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 205
+    },
+    {
+      "file": "content/code-articles/batch-11/P072B.md",
+      "sha256": "d061cfab3a27f1f5c2f3186f8fbf35229a8aa775f819ac824addd62339a30887",
+      "code": "P072B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1042
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 201
+    },
+    {
+      "file": "content/code-articles/batch-11/P072D.md",
+      "sha256": "383082fb943555bb99d8c22fb3156d04bb7e6ed87b6dd9d3f68fe2e48eb18617",
+      "code": "P072D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1040
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 200
+    },
+    {
+      "file": "content/code-articles/batch-11/P072E.md",
+      "sha256": "0b6e042b7a18d8f2e33e450e971b8f27e437c5075641c4c15918cae766baf190",
+      "code": "P072E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1040
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 201
+    },
+    {
+      "file": "content/code-articles/batch-11/P072F.md",
+      "sha256": "dc16c825e2e281fcc21ba224dca31cfc055be4e4e4352e07b5127bd2a9cefc6b",
+      "code": "P072F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1040,
+            1041
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 208
+    },
+    {
+      "file": "content/code-articles/batch-11/P073B.md",
+      "sha256": "055dd84976332f6b5a0028b287e9e995878ef6438b30fdecd3e6ac3d3d2e718e",
+      "code": "P073B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1041
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 216
+    },
+    {
+      "file": "content/code-articles/batch-11/P073C.md",
+      "sha256": "ae04717758ecd377b24e34025557eff215d8dd08543ce7f00d049347290d9ab6",
+      "code": "P073C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1041,
+            1042
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 204
+    },
+    {
+      "file": "content/code-articles/batch-11/P074A.md",
+      "sha256": "1d9d37c8b6b71dff6f07c65bbbd7fc7a4d4c59fd0d722900fc70f7829f6eb0e4",
+      "code": "P074A",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1043
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 205
+    },
+    {
+      "file": "content/code-articles/batch-11/P074B.md",
+      "sha256": "27dc9dec0455401d59404d8926ba54e42bed638c5279ba846731cd12eea2dd56",
+      "code": "P074B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1043,
+            1044
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 205
+    },
+    {
+      "file": "content/code-articles/batch-11/P074D.md",
+      "sha256": "c67a8f37b976f75a1827a60442c52428da7c5a191509b221f899dba3fd3111c4",
+      "code": "P074D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1044
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 203
+    },
+    {
+      "file": "content/code-articles/batch-11/P074E.md",
+      "sha256": "da71ffacc73fdace95d8a8751d7cb92eba4306065ac352bedd89a4ff24429651",
+      "code": "P074E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1044,
+            1045
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 209
+    },
+    {
+      "file": "content/code-articles/batch-11/P07C6.md",
+      "sha256": "208b0c32478a4b8e7c8d8575c9976e9e3250aa8d358df279bad708537861a929",
+      "code": "P07C6",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            918,
+            919
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 207
+    },
+    {
+      "file": "content/code-articles/batch-11/P07C7.md",
+      "sha256": "5169c5a8751c502905122a6396b3f7485c68571749e55bb5e0872d316eb3741a",
+      "code": "P07C7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            919
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 204
+    },
+    {
+      "file": "content/code-articles/batch-11/P07C8.md",
+      "sha256": "50a6a3ce29ce1a3ce96ca26d7d5420f1cde14b9b33d91c6a71fb8999cc8edfef",
+      "code": "P07C8",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            919
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P07D8.md",
+      "sha256": "9aecfe240060a458568151d993d3fef6996290608071e5892baf16aa5cbaea62",
+      "code": "P07D8",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1045
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 211
+    },
+    {
+      "file": "content/code-articles/batch-11/P0849.md",
+      "sha256": "60d0982af7e4982740c72c7695befde8853a0f2d817b63e914bff2a18c4b4702",
+      "code": "P0849",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            977
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 210
+    },
+    {
+      "file": "content/code-articles/batch-11/P0868.md",
+      "sha256": "66dceace66d6f6fe5a585f137574592e3c88062f7a56449bf50ccc5429d63243",
+      "code": "P0868",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1062,
+            1063
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 208
+    },
+    {
+      "file": "content/code-articles/batch-11/P0872.md",
+      "sha256": "3937b7c4ad00a30daafee0ff487644b0c8ae7e8ead78b459cb0e74f24cd4b330",
+      "code": "P0872",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            907
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 202
+    },
+    {
+      "file": "content/code-articles/batch-11/P0877.md",
+      "sha256": "f8993c495db29a924ddc7843ebd0ca0afe203e2388a2247ec7783d61782f82b7",
+      "code": "P0877",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            907
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 203
+    },
+    {
+      "file": "content/code-articles/batch-11/P0878.md",
+      "sha256": "89b6bc803daa3e6ee47e05424fcf55b7bf97fd8d486fae9458559665d7db4d29",
+      "code": "P0878",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            907
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 199
+    },
+    {
+      "file": "content/code-articles/batch-11/P0882.md",
+      "sha256": "bdfafe994ea72435de4207c68332587b1a3317e0a1a1a865174c89e767909392",
+      "code": "P0882",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            909,
+            911,
+            919
+          ]
+        }
+      ],
+      "bodyRead": true,
+      "substantiveWordCount": 215
+    }
+  ],
+  "limitations": [
+    "Only 20 of 100 articles received deep primary-row verification; the other 80 received editorial body reading and structural checks, not an exhaustive source audit.",
+    "The 2025 GM 07A Part 2 application-matrix filename join remains unresolved. This review verifies no model, engine, transmission fitment or Corvette applicability.",
+    "Existing needs-review flags remain open. An accurately disclosed OEM table ambiguity is not resolved by this review.",
+    "The review did not validate vehicle-specific service procedures, physical connector locations, repair success, costs, driving safety, every lookup-table attachment or every generic SAE code definition independently.",
+    "This is an AI editorial/source sampling review, not a human mechanic inspection, professional certification, exhaustive publication approval or validation of all site content.",
+    "No manuscripts, shared manifests, commits or publication settings were changed by this reviewer; root applied the single reported wording correction."
+  ]
+}

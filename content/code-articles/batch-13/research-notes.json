@@ -483,7 +483,447 @@
       ],
       "issue": null,
       "review": "checked"
+    },
+    "P051C": {
+      "sourcePages": [
+        71,
+        72
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P051D": {
+      "sourcePages": [
+        71,
+        72
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P052A": {
+      "sourcePages": [
+        77
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P052B": {
+      "sourcePages": [
+        77
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P052C": {
+      "sourcePages": [
+        77
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P052D": {
+      "sourcePages": [
+        77
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P053F": {
+      "sourcePages": [
+        91,
+        92,
+        93,
+        95
+      ],
+      "issue": "Pages93/95 place time-inside-pressure-window / CSER duration >0.70 beneath malfunction heading; pass/fail direction unresolved and not asserted.",
+      "review": "needs-review"
+    },
+    "P055F": {
+      "sourcePages": [
+        136
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P05FF": {
+      "sourcePages": [
+        101
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P061D": {
+      "sourcePages": [
+        100,
+        106,
+        108
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P061F": {
+      "sourcePages": [
+        100,
+        106,
+        108
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P062C": {
+      "sourcePages": [
+        100,
+        106,
+        108
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P0660": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P0698": {
+      "sourcePages": [
+        129,
+        130
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P0699": {
+      "sourcePages": [
+        129,
+        130
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P06D5": {
+      "sourcePages": [
+        130,
+        131
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P0704": {
+      "sourcePages": [
+        102
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P0830": {
+      "sourcePages": [
+        102
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P0833": {
+      "sourcePages": [
+        102
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P08A9": {
+      "sourcePages": [
+        102
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P08AA": {
+      "sourcePages": [
+        102
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P08B6": {
+      "sourcePages": [
+        102
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P08B7": {
+      "sourcePages": [
+        102
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P08B9": {
+      "sourcePages": [
+        102
+      ],
+      "issue": "Page102 uses clutch application cycles in switch section but drive cycles in combined sensor/switch row; exact P08B9 switch completion unit unresolved.",
+      "review": "needs-review"
+    },
+    "P2004": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2005": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2007": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2011": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2015": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2020": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2021": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2022": {
+      "sourcePages": [
+        142
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2066": {
+      "sourcePages": [
+        18,
+        19
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2067": {
+      "sourcePages": [
+        18,
+        19
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2068": {
+      "sourcePages": [
+        18,
+        19
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2107": {
+      "sourcePages": [
+        75,
+        100
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P2111": {
+      "sourcePages": [
+        75,
+        100,
+        105
+      ],
+      "issue": "Page75 desired-versus-actual signed inequalities lack a clearly defined subtraction convention; numerical direction not applied as a universal P2111 threshold.",
+      "review": "needs-review"
+    },
+    "P2112": {
+      "sourcePages": [
+        75,
+        100,
+        105
+      ],
+      "issue": "Page75 stuck-closed signed angle criterion is ambiguous without subtraction convention; exact numerical decision rule omitted pending calibration-specific confirmation.",
+      "review": "needs-review"
+    },
+    "P2118": {
+      "sourcePages": [
+        105
+      ],
+      "issue": null,
+      "review": "checked"
+    },
+    "P219B": {
+      "sourcePages": [
+        24,
+        25
+      ],
+      "issue": null,
+      "review": "checked"
     }
   },
-  "source": "Ford 2024\u20132025 gasoline OBD operation summary; individually read source sections and separately authored explanations. AI source checks are not mechanic certification."
+  "source": "Ford 2024\u20132025 gasoline OBD operation summary; individually read source sections and separately authored explanations. AI source checks are not mechanic certification.",
+  "validation": {
+    "assigned": 100,
+    "written": 100,
+    "uniqueCodes": 100,
+    "metadataErrors": [],
+    "inventoryWordCount": {
+      "minimum": 261,
+      "maximum": 300,
+      "total": 27763
+    },
+    "bodyBeforeSourceFooterWords": {
+      "minimum": 221,
+      "maximum": 251,
+      "total": 23847
+    },
+    "sourceReviewCounts": {
+      "checked": 91,
+      "needs-review": 9
+    },
+    "publication": "draft; renderer unchanged",
+    "articleSha256": {
+      "P0012": "c381e4403f904b32f7b80ef33fb5c3c9dd3ff55a914537ec4bca897459fd41bb",
+      "P0015": "f0a4c6014389a7331e702434ccc4876ff6ecddc434d1d7bb060391e1061fd050",
+      "P0022": "fc827d8929940637cb6f010e7cbcfc57935df5c71c5a75e9974503e2693580cd",
+      "P0025": "23dcb1fe60b57ede6cbc9c6d98da6784d52464907278212485e4d51845755b42",
+      "P0053": "79dd46863b376f19fd680ddfde91856bd12c9f771984b4367f16a760248483b2",
+      "P0055": "1578003bea7dba67c63a5c2163769394a1b8200637666002dad1f01d785c4871",
+      "P0059": "dcb416dac266c817cb69eb1d66154bcb58be99466158509fe65aad39d90d942e",
+      "P0060": "7b60b3a8760da7b0a7a23edbe8570759e5bbc3179414bcbe269319ee2a9fb28d",
+      "P0061": "b30d0e96b79250bdc80f0ede135b8c58f463f0f32f76fabab7bebb8678145433",
+      "P008B": "017dadf57e8c85b5c92d5277c89b8433bc247aa1f7bb1dceee06d833fe3b7683",
+      "P00CE": "23a4992d0842202b7955b18b1e3c3de036ca24b5bcb885c248384a3ef88a9f9d",
+      "P00D2": "67f36bbb888faebf7b9fb5e2003183b4d9fe5ccd057bfaa0e76181e2b8f87ada",
+      "P00D4": "3caee8bc575784dd8bcda8c0f05e162aadd0d6cb8c203a4b58f5fe5b1c54093e",
+      "P00FE": "d3c0664d869dddd47049f89a90fdb0d019240b3c2518ae573d8db49e288db86d",
+      "P0104": "933a63d99516d8e14cadbfcb39f5fb6e2e7cb6b33e75512b6bbbb5b52d3b2690",
+      "P0109": "48948348987981ac613a7ab3278d397b959cf4ee585d5b0830094d124dd07fc6",
+      "P010A": "c960ff0160a8effdef85a3714b0393ef382985fadbeb6cefa4fd03f692231574",
+      "P010E": "28cca9d3a5e95979344d2a9e2627e093a111be7284a9c8d866d023669081afa0",
+      "P0120": "472e2a65c9e5378bfd40b26f5bb0ec78daa749102c67cd2f987482600d756ee5",
+      "P0124": "14798148c30dc77a51e8d8c814e1d43098b40762364197bcba54007c366afa3f",
+      "P0125": "51d93dd1bc212d5e61b0080f496fa55a21ccc316d4f281e78d420d4c4549f2d3",
+      "P0130": "34e4f4e347d92cadb840967ef72c582f77154c01f5192b21d0b1c07230afecdf",
+      "P0134": "fdb0001ccd2298664f14c1982c8588606bc77d2aaefd241f56b3b6b55c09efdc",
+      "P0136": "3e19fe1128b3757922f10e7d9d1af0d47e4384ef7efe1718df1f5a4e105f534b",
+      "P0147": "4064f865d60156a16d4f90e93c0c8db74a6c3ba431ede98db2dcd54d2ae4d486",
+      "P0150": "a650a2ef51040f44098d0140cd8b3317da8ae18ea69ae178285384c8e1f04f83",
+      "P0154": "5ef4d8fd3470dc465c5c74cdc8955343fc4dd91b6fe218a7c3def2cae39a3151",
+      "P0156": "a93647bc106727dd5836d4c3f958f6185fee87c195ad4373178516d4d6f9fc27",
+      "P0167": "d6a2eb59c3355ede0580be8db60b77359c2c90acae7830aab9e2ce9b901bada6",
+      "P0190": "55cb07868fedf5b452d930008b6d11ac652812a82f887bb9497033129d57587c",
+      "P0224": "10f709ed55dba62073b0fa4d0185ed6adbd3c82257639d9a2566d4e9cf927970",
+      "P0225": "76adf9533a9d568dfe746434e3234dbeeab7113475b4f734a7f4858e9b9f8c4d",
+      "P0229": "f08a0bec10fa4dbf76910ca85b0fefc852d94a809016c3a2091b264aaeb8c50e",
+      "P0230": "05898bdf0c89acf2b4527b15730db7f5af567a306b676a68c5b45e13f72a5a07",
+      "P0231": "11357285e025f5603eee9e189e7298ff0601893d74fcf8cfabd4e4071d0a0b3e",
+      "P0232": "b9331aa2679b0fa4b3d08d4692deb6eae9195ea2c5fd457789f8632f0aca7fab",
+      "P025A": "0d842f3ea80d2fb685a1a22be5f6e91384f364566e2bf75c3b31a0828e2c64cb",
+      "P025B": "94a382d0e8bc18375673dd8555f8e4af5d752bb1e873758ab29ef27f62ce1dfb",
+      "P025E": "a8a3159cac1c964dab082243d77ae81f8fdef5d025d41e54f88d063acc3e1eb3",
+      "P027B": "9dfa3a5a57271429eb49ba3a8b3c99d45c807070ed0a8686c871458534ad1390",
+      "P0310": "95bceb0b965c9c8df9aae0b8d8eeda9f46bb31a05fe511cc559fddf06369c57f",
+      "P0313": "8ea5df6722d340e45b52f0269bacdcea63598f04efce9e9b9b5fdb0ec4db6f31",
+      "P0316": "429644d1c9c7edffa3db46a99a86c782ae560b5a480e29e2ca52bc8cb3fc1e0d",
+      "P0339": "ea218d68f62b952ad94beb34f467edae4efe6a7c7b5810640c03d99c650e66e5",
+      "P033F": "9cfd752a2f334fe6ca3a83885ba2e1b4f3799f3f5dbc617d6db599771860ca3c",
+      "P0344": "ad9577fc6ae7cb4b1d514b6e1beb3b31ad6692142fe93be0322e9d2e66626cc4",
+      "P0345": "e8927ef81d01893530aeb0dc2bda90a10c12a197f5883fa45039de126460053c",
+      "P0349": "034d29766b394e71eb5fd14a988b5a0d47d3c2fb1b95c38ae05dcd15b9bd085d",
+      "P0369": "e6a2dbb2fb46720de52896c4af961d2fb816aa8d1b2970941918f4ef763160d8",
+      "P0390": "d19eb46decc817d15e7b8a5c48c4ab53c8828d33c0e0b23b1d508b7470469f44",
+      "P0394": "de52af2a342fef5b24dec7fe8af44787ad62a4bf1830d1c8fcc0370f766b8997",
+      "P0400": "b3c3c876e652514098737ecfbaaffae3a93c97dfa90ca8cdc073e35df3902a03",
+      "P0456": "6c2f8b8dda5eba0d2943f8230f4f4b9a26559a947f2aeccf53aff410bafe932a",
+      "P0457": "8cc28b91164b4eb373e5d11c04e73ce1da569b51c7f44b75f679547eb2c1ebb6",
+      "P0460": "9ae4a1b3f7df8f0041d52741af3bc5a1ea188bfbdb75e7d871fdbd5aeea76716",
+      "P046D": "242d82eaabb033d10fcf630f769d137333e98c6aa224b20b52b108e4689b9b42",
+      "P04F0": "19553d2cecb8e638746b36a54605565aefe6a3a47664c2e54c6337bee3c61716",
+      "P050E": "0e5e30034253697becfbbf1ef268e084a2adcaa23e3cf99330c5aafe27c9d46a",
+      "P051A": "3cfa3cf5e9d661c5a5b34fcba0972b645632dd4dc010f50dadaaf27fcfdf0b72",
+      "P051B": "0cacc734a5a455deb2511e2fde23315d380914612a9feb8bdb4b8dd85534d4c7",
+      "P051C": "5816d5e57388295dfd072cb407e0b002c74663f8a5176fedb543c74203e4bf5f",
+      "P051D": "d00745d89f89e31d78159033d91440d5440d78a35934965c6c1fa708e339e112",
+      "P052A": "afef107beadc7e507525ba9395e0ac439dcba98935c1ec5e12e772e77a99121d",
+      "P052B": "ea5ecf563d9f9a21d86964b00d9aa8d3916198058498eba63486b13c44849d31",
+      "P052C": "c07a5d97c010420d0338eb952c4536366ca4c200d81680f697ced81f4da84b6b",
+      "P052D": "02e2a23a97067d293d58a685f6f62a866c36ed06721eaf84adaaffe9bee73937",
+      "P053F": "aedbc10550cc26be39132d4af1d4cb29d4fc72d001296695f28c097e549ff73d",
+      "P055F": "a16468d5ca5087902d010eceb387bbd1c4af397d8112db7b4be3eaf851ccceda",
+      "P05FF": "f3b5370cdeec62434e6c405fc88be073ce3f859a83ae722ce688a702999b0d10",
+      "P061D": "acb28bc8866e990c451d1b492bfc0184d4128f6be5deb0f772318ab054072a4a",
+      "P061F": "81482dc18700b24f7c54575399150e59942b12cb9357b7ef1576b97729ba290e",
+      "P062C": "ece76e719bdcc43e15204f9a8e058e8c4190a90f572180a6698ead90f70df388",
+      "P0660": "8a3018370825cd53c5b62acfef55a2852cd2e325347a714cb1bc78e83c441cbd",
+      "P0698": "91c2db820a0e27210a9569a4ed83c34f5a047021170fadc3e3f22d9b0885e57a",
+      "P0699": "038e0042752c1b9886678e254fb8637f1bc85146f7710fb566a697d3e68cc17e",
+      "P06D5": "6f01402a9ab7d02c80991bc07fb58cc01a55ca9fa462398db0a1f7851dd6feb6",
+      "P0704": "4fcf1272eeccd56e3890039496c5b9f7033e9e504d875e3618ff91357de0dedd",
+      "P0830": "ddb3aaddf8019c2bc7f47c987a7801af6876ef6ae9fbb8dc99cbb946fbeb7acc",
+      "P0833": "05b78d6664d177020f4d3f252ded8b7a0663d219f236de0cde232d3ed5043a38",
+      "P08A9": "bb282d63139777ebf07fe3b503c0f600558ab81ca6a8c7d13fd418d915846366",
+      "P08AA": "952aca0d730fe813f4139187ac548f1cf4e49b09be49322a35dce8c723daa458",
+      "P08B6": "13d28ffc428d32367ae0770748391285664cd9f2186e0be43424e0de85bc4f3e",
+      "P08B7": "164b1b27fa83b8ae17380cfa07a9447ea9c6c51dbf83e6418f5ece6faf362ec9",
+      "P08B9": "359ce9a3f53fd611e9c074e60a2253d9632ffe0be8bfa1346c717163493b41f5",
+      "P2004": "4e2257624267c9b495a9444854a335e77b103da50c321b1d6db5ff93742391d2",
+      "P2005": "060dc567d69ac0955640d30c34f10badf8dc34ee3dd98d41ccd4a207a2e52866",
+      "P2007": "1498134bce9f80d56ae212891140786cd11919543e6293758433627f7e1f12e4",
+      "P2011": "c41ca1fd210ecce09054aa27b221deab0d09a283985fb63254d652b2df5efd2b",
+      "P2015": "64c8039300e5db1765f8cb7a9b21be38e2934b849db4e15d776cdba0a1a30087",
+      "P2020": "a7496a0f6effe74d347784ee6d55b33598b7f9e86a2c9122db4fc739f4ac2501",
+      "P2021": "3b805478a4aa641c5b8528918bd2e446f57a2173d4c448de8a36bf9589b1640b",
+      "P2022": "1e3d90230042dd18a2857e2f23fd99910763d5ccdc242c4dcc028a4d9018cf26",
+      "P2066": "7707fea031cc49c2e45f6705a9e46a288c4f616395f47af333bc62d25eeb4c2d",
+      "P2067": "79971f60219c97e38b36a01c8c374bd7ee8b5cc23371e48dbafd21f1f8f191fd",
+      "P2068": "c699dc1aeeeebd3bfa74fe3f582bf62564a86fc0635c620bd66351fff3341c5c",
+      "P2107": "8d179f538ac950c46ee3f7410a38b5a88fca049bffda87ff60d0a911c67b87f0",
+      "P2111": "7a5360295b4d6fe4646228fff82a2ef4aae477b8b7be9b9c0d8cd04775852b05",
+      "P2112": "7986fbe3d417f773c3094c98c45c6f0dfae8331148ca8787221a23dfc4fd4f14",
+      "P2118": "1f5aff5c2a9f27af211691951496f1359e353ae6c4a99217c674dc9cb00fe406",
+      "P219B": "09375aa8bd5f355634e06073dcfbc5d0b37dcda204d0b4a457b149df55e7d56a"
+    }
+  },
+  "originalPdfVisualReview": {
+    "sourceId": "ford-gasoline-2024-2025-v2",
+    "physicalPages": [
+      52,
+      75,
+      93,
+      96,
+      102,
+      131,
+      132
+    ],
+    "method": "Rendered original PDF pages with PyMuPDF and visually inspected table headings, labels, inequalities and units.",
+    "result": "All nine retained source-review flags reflect wording visible in the original PDF rather than extraction-only corruption. Numerical or applicability conclusions that depend on these ambiguities are not asserted."
+  }
 }

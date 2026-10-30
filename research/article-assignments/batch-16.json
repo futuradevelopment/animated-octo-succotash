@@ -2168,25 +2168,17 @@
     ]
   },
   {
-    "entryId": "generic-u0477",
-    "code": "U0477",
-    "dictionaryTitle": "Invalid Data Received From Restraints System Sensor G",
-    "canonicalPath": "/codes/generic/u0477/",
+    "entryId": "generic-u0102",
+    "code": "U0102",
+    "dictionaryTitle": "Lost Communication With Transfer Case Control Module",
+    "canonicalPath": "/codes/generic/u0102/",
     "primaryCandidates": [
       {
-        "sourceId": "gm-2025-04b",
-        "page": 1985,
-        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
-        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
-        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
-        "makeIds": []
-      },
-      {
-        "sourceId": "gm-2025-04b",
-        "page": 1986,
-        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
-        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
-        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "sourceId": "gm-2025-04a",
+        "page": 701,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
         "makeIds": []
       }
     ]

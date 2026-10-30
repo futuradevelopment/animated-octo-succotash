@@ -12,7 +12,8 @@
           ]
         }
       ],
-      "issue": "Dictionary coil E conflicts with source row coil B; physical channel unresolved."
+      "issue": "Generic coil letter and source-internal coil letter have not been cross-mapped. No physical cylinder is assigned, and the difference is not proof either nomenclature is erroneous.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2313",
@@ -26,7 +27,8 @@
           ]
         }
       ],
-      "issue": "Dictionary coil E conflicts with source row coil B; physical channel unresolved."
+      "issue": "Generic coil letter and source-internal coil letter have not been cross-mapped. No physical cylinder is assigned, and the difference is not proof either nomenclature is erroneous.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2315",
@@ -40,7 +42,8 @@
           ]
         }
       ],
-      "issue": "Dictionary coil F conflicts with source row coil E; physical channel unresolved."
+      "issue": "Generic coil letter and source-internal coil letter have not been cross-mapped. No physical cylinder is assigned, and the difference is not proof either nomenclature is erroneous.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2316",
@@ -53,7 +56,8 @@
           ]
         }
       ],
-      "issue": "Dictionary coil F conflicts with source row coil E; physical channel unresolved."
+      "issue": "Generic coil letter and source-internal coil letter have not been cross-mapped. No physical cylinder is assigned, and the difference is not proof either nomenclature is erroneous.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2318",
@@ -92,7 +96,8 @@
           ]
         }
       ],
-      "issue": "Dictionary coil H conflicts with source row coil F; physical channel unresolved."
+      "issue": "Generic coil letter and source-internal coil letter have not been cross-mapped. No physical cylinder is assigned, and the difference is not proof either nomenclature is erroneous.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2322",
@@ -105,7 +110,8 @@
           ]
         }
       ],
-      "issue": "Dictionary coil H conflicts with source row coil F; physical channel unresolved."
+      "issue": "Generic coil letter and source-internal coil letter have not been cross-mapped. No physical cylinder is assigned, and the difference is not proof either nomenclature is erroneous.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P23AA",
@@ -145,7 +151,8 @@
           ]
         }
       ],
-      "issue": "P2579 generic A versus source bank2 and P2594 generic B versus source bank1 require mapping review."
+      "issue": "Generic sensor A/B letters have not been mapped to the source-specific bank 2/1 labels. Naming differences do not establish an error; physical applicability remains unresolved.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2580",
@@ -172,7 +179,8 @@
           ]
         }
       ],
-      "issue": "Source lists655350ms timing for high-state check; meaning not independently resolved, omitted as procedural instruction."
+      "issue": "Source lists655350ms timing for high-state check; meaning not independently resolved, omitted as procedural instruction.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2594",
@@ -185,7 +193,8 @@
           ]
         }
       ],
-      "issue": "P2594 generic B versus source bank1; companion mapping reversal remains unresolved."
+      "issue": "Generic sensor A/B letters have not been mapped to the source-specific bank 2/1 labels. Naming differences do not establish an error; physical applicability remains unresolved.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2595",
@@ -211,7 +220,8 @@
           ]
         }
       ],
-      "issue": "Source lists655350ms high-state timing; meaning not independently resolved."
+      "issue": "Source lists655350ms high-state timing; meaning not independently resolved.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P25B3",
@@ -518,7 +528,8 @@
           ]
         }
       ],
-      "issue": "Source criterion labelledresistance while narrative/units are voltage/mV; usevoltageinterpretation with disclosedlabelconflict."
+      "issue": "Source criterion labelledresistance while narrative/units are voltage/mV; usevoltageinterpretation with disclosedlabelconflict.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2743",
@@ -531,7 +542,8 @@
           ]
         }
       ],
-      "issue": "Criterion labelresistance conflicts withvoltage narrative andmVunits; noohmic procedure inferred."
+      "issue": "Criterion labelresistance conflicts withvoltage narrative andmVunits; noohmic procedure inferred.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2746",
@@ -571,7 +583,8 @@
           ]
         }
       ],
-      "issue": "Electrical low2519mV overlaps printedpressedwindow2200\u20133520mV; applicablecalibrationlimits needresolution."
+      "issue": "Electrical low2519mV overlaps printedpressedwindow2200–3520mV; applicablecalibrationlimits needresolution.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2777",
@@ -624,7 +637,8 @@
           ]
         }
       ],
-      "issue": "P277F narrative saysoddclutch whileheading andcriteria explicitlyeven; copied-text inconsistencydisclosed."
+      "issue": "P277F narrative saysoddclutch whileheading andcriteria explicitlyeven; copied-text inconsistencydisclosed.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2780",
@@ -638,7 +652,8 @@
           ]
         }
       ],
-      "issue": "Lowthreshold2519mV overlaps printedpressedwindow2200\u20133520mV; calibration-specificresolutionneeded."
+      "issue": "Lowthreshold2519mV overlaps printedpressedwindow2200–3520mV; calibration-specificresolutionneeded.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P2781",
@@ -883,7 +898,8 @@
           ]
         }
       ],
-      "issue": "P27D2 narrative mentionsanotherrodrelaxation whileexplicitcriteria onlyrod5/4000um; nosecondrodcriterioninferred."
+      "issue": "P27D2 narrative mentionsanotherrodrelaxation whileexplicitcriteria onlyrod5/4000um; nosecondrodcriterioninferred.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
     },
     {
       "code": "P27D5",
@@ -938,8 +954,464 @@
           ]
         }
       ],
-      "issue": "P2808 heading/criteria arestuckoff/lowpressure butcontinuationprosesaysstuckon; contradictiondisclosed."
+      "issue": "P2808 heading/criteria arestuckoff/lowpressure butcontinuationprosesaysstuckon; contradictiondisclosed.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2809",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1012
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2829",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            951,
+            952
+          ]
+        }
+      ],
+      "issue": "P2829 continuationconfirmationlabel saysstuckon underexplicitstuckoffrow; diagnosticdirectionretainedfromheadingandcriteria.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P282A",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            951
+          ]
+        }
+      ],
+      "issue": "P282A confirmationcounter includesstuckofflabel withinstuckonrow; conflictdisclosed.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P282D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            929
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P282F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            930
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2830",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            929,
+            930,
+            941
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2832",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            960,
+            961,
+            962
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2833",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            912
+          ]
+        }
+      ],
+      "issue": "OriginalPDFp912visuallyconfirms incompatibleVREF1enablelimits >5500mVand<4500mV; noautomaticcorrection.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2834",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            912
+          ]
+        }
+      ],
+      "issue": "OriginalPDFp912VREF1enablecomparatorsaremutuallyincompatible; exactsupplyeligibilityunresolved.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2835",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            912
+          ]
+        }
+      ],
+      "issue": "OriginalPDFp912VREF1enablelimitsconflict; frequencycriteriaretainedbutexactsupplyeligibilitynotguessed.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2837",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            963,
+            964,
+            965
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2838",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            913
+          ]
+        }
+      ],
+      "issue": "VREF1enableentries >5500mVand<4500mVareincompatible; noassumedcorrectedwindow.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2839",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            912,
+            913
+          ]
+        }
+      ],
+      "issue": "VREF1enablecomparatorsconflict; criterionspans912–913andnoreferencewindowinvented.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P283A",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            913
+          ]
+        }
+      ],
+      "issue": "VREF1enablelimitscontradict; frequencylogicretainedandprecisesupplywindowdeferred.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P283C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            966,
+            967,
+            968
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P283D",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            914
+          ]
+        }
+      ],
+      "issue": "VREF2enableentriesare >5500mVand<4500mV; exacteligibilityunresolved.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P283E",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            913,
+            914
+          ]
+        }
+      ],
+      "issue": "VREF2enablelimitsconflict; continuationneededforinhibitlistandnocorrectedwindowassumed.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P283F",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            914
+          ]
+        }
+      ],
+      "issue": "VREF2enablecomparatorsincompatible; numericaleligibilitynotcorrectedbyassumption.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2841",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            968,
+            969,
+            970
+          ]
+        }
+      ],
+      "issue": "Rod4staticboundarylineusesrod3measurementonp970; omittedratherthanassumingcorrection.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2842",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            914,
+            915
+          ]
+        }
+      ],
+      "issue": "VREF2enablelimitsareincompatible; criterioncontinuesontop915andexactsupplywindowunresolved.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2843",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            914
+          ]
+        }
+      ],
+      "issue": "VREF2enablelimits >5500mVand<4500mVconflict; nocorrectedwindowinferred.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P2844",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            915
+          ]
+        }
+      ],
+      "issue": "VREF2enablelimitsareincompatible; exacteligibilityremainsunresolved.",
+      "disposition": "The article discloses the limitation and avoids an unsupported specification, corrected value or physical component mapping."
+    },
+    {
+      "code": "P284D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1047
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P284E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1048
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P284F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1048,
+            1049
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2850",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1049,
+            1050
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2853",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1055,
+            1056
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2854",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1058,
+            1059
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2855",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1054,
+            1055
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2856",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1057,
+            1058
+          ]
+        }
+      ],
+      "issue": ""
     }
   ],
-  "method": "Individually read OEM monitor rows, including continuation pages; independently authored code-specific interpretation. AI source checks, not mechanic certification."
+  "method": "Individually read OEM monitor rows, including continuation pages; independently authored code-specific interpretation. AI source checks, not mechanic certification.",
+  "visualChecks": [
+    {
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        701,
+        883,
+        884,
+        908,
+        910,
+        912,
+        1034
+      ],
+      "purpose": "Original PDF visual inspection confirmed coil internal letters, large turbo timing, bank-specific speed comparisons, resistance/voltage label conflict, paddle low threshold, contradictory VREF enables and odd/even narrative mismatch."
+    }
+  ],
+  "validation": {
+    "assigned": 100,
+    "written": 100,
+    "uniqueCodes": 100,
+    "wordCountIncludingHeadingsAndSourceTextExcludingUrls": 25968,
+    "minimumWords": 248,
+    "maximumWords": 273,
+    "sourceReviewCounts": {
+      "checked": 68,
+      "needs-review": 32
+    },
+    "exactBodyDuplicates": 0,
+    "fiveWordJaccardPairsAbovePointThreeExcludingSharedScopeAndHeadings": 0,
+    "limitations": "Structural and bounded text checks do not certify technical accuracy or human mechanic review. All manuscripts remain drafts."
+  }
 }

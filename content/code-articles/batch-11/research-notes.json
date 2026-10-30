@@ -336,14 +336,14 @@
         606
       ],
       "sourceReview": "needs-review",
-      "unresolvedIssue": "P033A generic sensorD designation conflicts with source sensor3 label, also used for C-channel codes; physical assignment unresolved."
+      "unresolvedIssue": "Internal source sensor3 and generic sensorD labels lack a verified physical-channel mapping; no assumption that either naming convention is erroneous."
     },
     "P033C": {
       "sourcePages": [
         605
       ],
       "sourceReview": "needs-review",
-      "unresolvedIssue": "Source labels P033C sensor3 while catalog designates sensorD; exact channel location requires confirmation."
+      "unresolvedIssue": "Internal source sensor3 and generic sensorD labels lack a verified physical-channel mapping; no assumption that either naming convention is erroneous."
     },
     "P0342": {
       "sourcePages": [
@@ -372,14 +372,14 @@
         700
       ],
       "sourceReview": "needs-review",
-      "unresolvedIssue": "Source labels P0354 coilC versus catalog coilD and prints atypical upper battery boundary; hardware mapping and practical supply limits not inferred."
+      "unresolvedIssue": "Internal source label coilC and generic designation coilD have no established physical mapping here; neither is asserted erroneous. Atypical upper battery boundary is not adopted as a service limit."
     },
     "P0355": {
       "sourcePages": [
         701
       ],
       "sourceReview": "needs-review",
-      "unresolvedIssue": "Source coilB label conflicts with generic coilE; atypical upper supply boundary also retained as unresolved documentation detail."
+      "unresolvedIssue": "Internal source label coilB and generic designation coilE have no established physical mapping here; neither is asserted erroneous. Atypical upper supply boundary requires calibration confirmation."
     },
     "P0357": {
       "sourcePages": [
@@ -394,7 +394,7 @@
         703
       ],
       "sourceReview": "needs-review",
-      "unresolvedIssue": "P0358 source coilF label conflicts with generic coilH and has atypical upper supply boundary; no hardware mapping inferred."
+      "unresolvedIssue": "Internal source label coilF and generic designation coilH have no established physical mapping here; neither is asserted erroneous. Atypical upper supply boundary requires calibration confirmation."
     },
     "P0368": {
       "sourcePages": [
@@ -446,6 +446,341 @@
       ],
       "sourceReview": "checked",
       "unresolvedIssue": null
+    },
+    "P04AB": {
+      "sourcePages": [
+        749
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P04AC": {
+      "sourcePages": [
+        749
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P04AD": {
+      "sourcePages": [
+        749
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P050B": {
+      "sourcePages": [
+        533,
+        534
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0524": {
+      "sourcePages": [
+        746
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0605": {
+      "sourcePages": [
+        903
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P060A": {
+      "sourcePages": [
+        637,
+        904
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P060D": {
+      "sourcePages": [
+        637,
+        638,
+        639,
+        640
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0610": {
+      "sourcePages": [
+        904
+      ],
+      "sourceReview": "needs-review",
+      "unresolvedIssue": "Generic vehicle-options definition differs from cited TCM hot-reset recovery implementation; calibration-specific meaning must be confirmed."
+    },
+    "P0613": {
+      "sourcePages": [
+        904
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0642": {
+      "sourcePages": [
+        909
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0643": {
+      "sourcePages": [
+        909
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0652": {
+      "sourcePages": [
+        910
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0659": {
+      "sourcePages": [
+        936
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P065A": {
+      "sourcePages": [
+        554,
+        555
+      ],
+      "sourceReview": "needs-review",
+      "unresolvedIssue": "Published P065A row omits voltage-difference threshold and several enable values; no numerical pass/fail test inferred."
+    },
+    "P06A5": {
+      "sourcePages": [
+        908
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P06B4": {
+      "sourcePages": [
+        935
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P06D1": {
+      "sourcePages": [
+        636,
+        637
+      ],
+      "sourceReview": "needs-review",
+      "unresolvedIssue": "Atypical upper battery boundary655340mV not adopted as a service limit; exact supply eligibility requires confirmation."
+    },
+    "P06D3": {
+      "sourcePages": [
+        909
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P06D4": {
+      "sourcePages": [
+        909
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P072B": {
+      "sourcePages": [
+        1042
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P072D": {
+      "sourcePages": [
+        1040
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P072E": {
+      "sourcePages": [
+        1040
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P072F": {
+      "sourcePages": [
+        1040,
+        1041
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P073B": {
+      "sourcePages": [
+        1041
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P073C": {
+      "sourcePages": [
+        1041,
+        1042
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P074A": {
+      "sourcePages": [
+        1043
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P074B": {
+      "sourcePages": [
+        1043,
+        1044
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P074D": {
+      "sourcePages": [
+        1044
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P074E": {
+      "sourcePages": [
+        1044,
+        1045
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P07C6": {
+      "sourcePages": [
+        918,
+        919
+      ],
+      "sourceReview": "needs-review",
+      "unresolvedIssue": "Non-direction pulse clause prints width<144us and>218us without clear OR; not converted into a service test."
+    },
+    "P07C7": {
+      "sourcePages": [
+        919
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P07C8": {
+      "sourcePages": [
+        919
+      ],
+      "sourceReview": "needs-review",
+      "unresolvedIssue": "Non-direction pulse clause has incompatible printed<144us and>218us bounds without explicit OR; exact branch remains unresolved."
+    },
+    "P07D8": {
+      "sourcePages": [
+        1045
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0849": {
+      "sourcePages": [
+        977
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0868": {
+      "sourcePages": [
+        1062,
+        1063
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
+    },
+    "P0872": {
+      "sourcePages": [
+        907
+      ],
+      "sourceReview": "needs-review",
+      "unresolvedIssue": "Original PDF confirms impossible VREF2>5.5V and<4.5V enable window; strategy high-check wording also conflicts with low input criterion."
+    },
+    "P0877": {
+      "sourcePages": [
+        907
+      ],
+      "sourceReview": "needs-review",
+      "unresolvedIssue": "Original PDF prints incompatible VREF1>5.5V and<4.5V enable conditions; no corrected supply window inferred."
+    },
+    "P0878": {
+      "sourcePages": [
+        907
+      ],
+      "sourceReview": "needs-review",
+      "unresolvedIssue": "Original PDF confirms impossible VREF1 supply enable bounds; numerical corrected window remains unresolved."
+    },
+    "P0882": {
+      "sourcePages": [
+        909,
+        911,
+        919
+      ],
+      "sourceReview": "checked",
+      "unresolvedIssue": null
     }
-  }
+  },
+  "visualSourceChecks": {
+    "gm-2025-07a-2": [
+      546,
+      552,
+      554,
+      555,
+      611,
+      749,
+      857,
+      884,
+      907,
+      918,
+      919,
+      977
+    ]
+  },
+  "labelInterpretation": "Differences between internal OEM channel names and generic code designations are unresolved mapping questions, not proof of erroneous source labels.",
+  "validation": {
+    "assigned": 100,
+    "written": 100,
+    "uniqueCodes": 100,
+    "missing": [],
+    "errors": [],
+    "sourceReviewCounts": {
+      "checked": 73,
+      "needs-review": 27
+    },
+    "words": 27527,
+    "minimumWords": 263,
+    "maximumWords": 290,
+    "published": 0
+  },
+  "completion": "100 of 100 separately authored assigned manuscripts completed; metadata/count validation passed; no publication performed.",
+  "integrationReviewUpdates": [
+    {
+      "code": "P0221",
+      "change": "Clarified that the disputed absolute-difference branch requires a result below zero; the boundary itself is zero. Source-review flag retained.",
+      "reviewReport": "reports/editorial-review-wave-02-batch-11.json"
+    }
+  ]
 }

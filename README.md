@@ -2,9 +2,9 @@
 
 Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted from the existing ErrHive Astro infrastructure into `futuradevelopment/animated-octo-succotash`.
 
-## Published content in this repository
+## Content inventory
 
-The writing inventory contains **1,355 code-article manuscripts for 1,355 distinct codes**. The first wave of 1,000 is complete; the second ten-agent wave has written 355 of its next 1,000. [Read the manuscripts and writing inventory](content/code-articles/README.md). Drafts are counted separately from published content and the full-catalog completion target.
+The writing inventory contains **2,000 code-article manuscripts for 2,000 distinct codes**. The first wave of 1,000 is complete; the second ten-agent wave has also completed its next 1,000. [Read the manuscripts and writing inventory](content/code-articles/README.md). Drafts are counted separately from published content and the full-catalog completion target.
 
 **The 10,000-code-article task is not complete.** The 32 case guides below are separate from the canonical dictionary pages. [Full-corpus research status](docs/FULL_CORPUS_RESEARCH.md) records the evidence gap and source candidates.
 

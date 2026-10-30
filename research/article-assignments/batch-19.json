@@ -2028,17 +2028,17 @@
     ]
   },
   {
-    "entryId": "generic-p068b",
-    "code": "P068B",
-    "dictionaryTitle": "ECM/PCM Power Relay De-Energized Performance - Too Late",
-    "canonicalPath": "/codes/generic/p068b/",
+    "entryId": "generic-p2324",
+    "code": "P2324",
+    "dictionaryTitle": "Ignition Coil I Primary Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2324/",
     "primaryCandidates": [
       {
-        "sourceId": "ford-diesel-2023-2024",
-        "page": 118,
-        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
-        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
-        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 141,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
         "makeIds": [
           "ford"
         ]

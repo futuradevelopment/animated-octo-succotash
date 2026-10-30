@@ -1,10 +1,10 @@
 # Full-catalog code article research
 
-Research snapshot: 2026-10-30. **The requested articles have not been completed.** This change records the entire outstanding scope and corrects the earlier completion counter. It does not publish new diagnostic articles.
+Research snapshot: 2026-10-30. **The full 10,000+ article goal remains incomplete.** This document records the outstanding catalog scope and keeps written manuscripts separate from approved records and public pages.
 
 ## Completion means articles for the whole catalog
 
-A subsequent writing assignment completed the first **1,000 original article manuscripts across 10 writers**. A second wave assigns another 1,000 distinct codes to ten more writers, excluding every first-wave code. [Read the manuscript index](../content/code-articles/README.md) and the measured per-wave [writing inventory](../reports/written-articles.json). These files retain source-review flags and are not yet connected to the public renderer. The earlier full-catalog goal remains incomplete; draft writing is reported separately from approved records and publication.
+Two writing waves have completed **2,000 original article manuscripts across 20 writers**, with 100 assigned codes per writer. The second wave adds 1,000 distinct codes and excludes every first-wave code. [Read the manuscript index](../content/code-articles/README.md) and the measured per-wave [writing inventory](../reports/written-articles.json). These files retain source-review flags and are not yet connected to the public renderer. The earlier full-catalog goal remains incomplete; draft writing is reported separately from approved records and publication.
 
 The task is a useful, separately researched article at every canonical code destination, with a minimum of 10,000 articles. The current inventory has 11,786 canonical code/namespace entries and 10,043 distinct displayed code strings. Manufacturer namespaces can give the same displayed string different meanings. Aliases and model permutations must not inflate the total.
 
@@ -34,7 +34,7 @@ The initial six PDFs and 56 Ford HTML documents provided candidates for **2,105 
 
 The second writing wave adds six GM 2025 parameter files: 03B, 04A, 06A, 06B, 06C and 07A Part 1. The current index therefore contains **12 PDFs totaling 14,721 pages, plus 56 Ford HTML documents**. The expanded candidate index matches **2,280 canonical entries / 2,279 distinct code strings**, with 9,506 canonical entries still lacking a candidate in this acquired set. Each added PDF retains its hash, physical page numbers and document scope; no per-code vehicle fitment is inferred.
 
-These numbers do not measure all manufacturer literature or establish sufficient evidence for an article. Codes can occur in inhibition lists, prerequisite tables or related-code notes rather than their own diagnostic description. Four second-wave assignments were replaced after their candidate matches proved incidental; the replacement codes remained distinct from all existing assignments.
+These numbers do not measure all manufacturer literature or establish sufficient evidence for an article. Codes can occur in inhibition lists, prerequisite tables or related-code notes rather than their own diagnostic description. Thirteen second-wave assignments were replaced after their candidate matches proved incidental or lacked a substantive monitor description; the replacement codes remained distinct from all existing assignments.
 
 The [candidate index](../src/data/diagnostic-source-index.json) retains document URLs, hashes, scope and physical PDF page numbers or HTML navigation references. Ford source matches retain their document restrictions. Generic matches also retain document-specific scope instead of becoming universal instructions.
 
