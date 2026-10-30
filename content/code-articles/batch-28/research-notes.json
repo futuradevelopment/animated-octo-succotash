@@ -1,0 +1,2012 @@
+{
+  "batch": "batch-28",
+  "status": "draft",
+  "articleCount": 100,
+  "checkedCount": 68,
+  "needsReviewCount": 32,
+  "substantiveWordCount": {
+    "minimum": 211,
+    "maximum": 270,
+    "total": 23258,
+    "method": "Main article prose and section headings; excludes main title, JSON metadata and source/applicability footer."
+  },
+  "validationErrors": [],
+  "sourcePageCounts": {
+    "gm-2015-15obdg01-hybrid-diagnostics": 750,
+    "gm-2009-13-2-mode-hybrid": 330,
+    "nhtsa-mc-10210918": 2,
+    "nhtsa-mc-10239477": 1,
+    "nhtsa-mc-10241619": 1,
+    "nhtsa-mc-10247161": 1,
+    "nhtsa-mc-10241595": 1,
+    "nhtsa-mc-11036286": 1,
+    "nhtsa-mc-10115959": 1,
+    "nhtsa-mc-10168790": 1,
+    "nhtsa-mc-10155560": 1,
+    "nhtsa-mc-11032695": 2,
+    "nhtsa-mc-10235318": 1,
+    "nhtsa-mc-10201594": 1,
+    "nhtsa-mc-10187878": 9,
+    "nhtsa-mc-10212959": 1
+  },
+  "authorship": "100 separately authored English explanations. Shared GM monitor families retain their actual channel/sensor identity and published common diagnostic logic; no unique repairs or fitment invented to create artificial variation.",
+  "sourceReviewMeaning": "checked means the cited manufacturer evidence was reviewed, not approval by a mechanic or permission to publish. needs-review records a real unresolved issue in the source; supported explanations remain useful and omitted facts are identified.",
+  "researchMethod": "Read local original manufacturer PDFs and page-ordered text supplied in assignments. Inspected original page images where rotated/merged GM tables, page continuations or incomplete text could cause row misidentification. NHTSA archives are manufacturer communications, not generic dictionary descriptions.",
+  "visualChecks": {
+    "gm-2015-15obdg01-hybrid-diagnostics": [
+      559,
+      560,
+      565,
+      567,
+      596,
+      598,
+      599,
+      635,
+      639,
+      642,
+      699,
+      744
+    ]
+  },
+  "scopeRules": [
+    "GM file-level model lists were not treated as per-code fitment. Numerical limits are restricted to the cited historical controller/monitor.",
+    "NHTSA manufacturer cases preserve model, year, engine/build or market limits, module identity, failure suffix and repair-history details when supplied.",
+    "Historical software-release expectations are described as forecasts at publication, not current availability. Expired program terms are not offered as present coverage.",
+    "High-voltage, braking, steering and restraint explanations do not provide bypass, hazardous probing or disassembly instructions.",
+    "The 14 bundle-only original candidates were replaced by root-approved, globally reserved manufacturer cases; no removed bundle-only code was written."
+  ],
+  "replacementCases": [
+    "B00A0",
+    "P2C94",
+    "U3001",
+    "B00DF",
+    "P0E5F",
+    "P0EEE",
+    "P0743",
+    "P2451",
+    "C0031",
+    "P2C39",
+    "U0252",
+    "B00D5",
+    "P0D2D",
+    "P2CFC"
+  ],
+  "articles": [
+    {
+      "code": "B00A0",
+      "entryId": "generic-b00a0",
+      "file": "B00A0.md",
+      "substantiveWords": 256,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10210918"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10210918",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "B00D5",
+      "entryId": "generic-b00d5",
+      "file": "B00D5.md",
+      "substantiveWords": 265,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10201594"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10201594",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "B00DF",
+      "entryId": "generic-b00df",
+      "file": "B00DF.md",
+      "substantiveWords": 263,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10247161"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10247161",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "C0031",
+      "entryId": "generic-c0031",
+      "file": "C0031.md",
+      "substantiveWords": 270,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10155560"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10155560",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0743",
+      "entryId": "generic-p0743",
+      "file": "P0743.md",
+      "substantiveWords": 265,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10115959"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10115959",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0B86",
+      "entryId": "generic-p0b86",
+      "file": "P0B86.md",
+      "substantiveWords": 213,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "The shared busbar case3 threshold ends without its full cell-voltage comparison; omitted. Channel-to-physical-cell mapping not established."
+    },
+    {
+      "code": "P0B8B",
+      "entryId": "generic-p0b8b",
+      "file": "P0B8B.md",
+      "substantiveWords": 220,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Shared busbar subcase has an incomplete comparison in the original table; no inferred value used."
+    },
+    {
+      "code": "P0B95",
+      "entryId": "generic-p0b95",
+      "file": "P0B95.md",
+      "substantiveWords": 220,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Original busbar branch incomplete; article confines numerical claims to the clear adjacent-cell branches."
+    },
+    {
+      "code": "P0B9A",
+      "entryId": "generic-p0b9a",
+      "file": "P0B9A.md",
+      "substantiveWords": 213,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Incomplete busbar-case comparison is deliberately omitted; no hardware-channel location inferred."
+    },
+    {
+      "code": "P0B9F",
+      "entryId": "generic-p0b9f",
+      "file": "P0B9F.md",
+      "substantiveWords": 217,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Shared source busbar branch lacks a complete comparison; article uses only explicit adjacent-cell and power-loss cases."
+    },
+    {
+      "code": "P0BA0",
+      "entryId": "generic-p0ba0",
+      "file": "P0BA0.md",
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2009-13-2-mode-hybrid"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            269
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BA1",
+      "entryId": "generic-p0ba1",
+      "file": "P0BA1.md",
+      "substantiveWords": 234,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2009-13-2-mode-hybrid"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            269
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BA2",
+      "entryId": "generic-p0ba2",
+      "file": "P0BA2.md",
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2009-13-2-mode-hybrid"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            269
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BA4",
+      "entryId": "generic-p0ba4",
+      "file": "P0BA4.md",
+      "substantiveWords": 220,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Original busbar case3 comparison incomplete; documented general/common-power branches retained without guessing the missing limit."
+    },
+    {
+      "code": "P0BA5",
+      "entryId": "generic-p0ba5",
+      "file": "P0BA5.md",
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2009-13-2-mode-hybrid"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            270
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BA6",
+      "entryId": "generic-p0ba6",
+      "file": "P0BA6.md",
+      "substantiveWords": 228,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2009-13-2-mode-hybrid"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            269
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BA7",
+      "entryId": "generic-p0ba7",
+      "file": "P0BA7.md",
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2009-13-2-mode-hybrid"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            269
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BA9",
+      "entryId": "generic-p0ba9",
+      "file": "P0BA9.md",
+      "substantiveWords": 213,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "One shared busbar comparison is incomplete in the original; no missing value or complete electrical decision tree inferred."
+    },
+    {
+      "code": "P0BAA",
+      "entryId": "generic-p0baa",
+      "file": "P0BAA.md",
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            575
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BAB",
+      "entryId": "generic-p0bab",
+      "file": "P0BAB.md",
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            628
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BAC",
+      "entryId": "generic-p0bac",
+      "file": "P0BAC.md",
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            631,
+            632
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BAE",
+      "entryId": "generic-p0bae",
+      "file": "P0BAE.md",
+      "substantiveWords": 217,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Busbar subcase comparison incomplete in source; omitted rather than inferred."
+    },
+    {
+      "code": "P0BAF",
+      "entryId": "generic-p0baf",
+      "file": "P0BAF.md",
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            575
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BB0",
+      "entryId": "generic-p0bb0",
+      "file": "P0BB0.md",
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            628
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BB1",
+      "entryId": "generic-p0bb1",
+      "file": "P0BB1.md",
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            631,
+            632
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BB3",
+      "entryId": "generic-p0bb3",
+      "file": "P0BB3.md",
+      "substantiveWords": 220,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Original shared busbar branch has an incomplete comparison; only supported adjacent-cell/power-loss behavior used."
+    },
+    {
+      "code": "P0BB4",
+      "entryId": "generic-p0bb4",
+      "file": "P0BB4.md",
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            575
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BB5",
+      "entryId": "generic-p0bb5",
+      "file": "P0BB5.md",
+      "substantiveWords": 212,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            628
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BB6",
+      "entryId": "generic-p0bb6",
+      "file": "P0BB6.md",
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            631,
+            632
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BB8",
+      "entryId": "generic-p0bb8",
+      "file": "P0BB8.md",
+      "substantiveWords": 220,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Original busbar-case comparison is incomplete; electrical mapping and omitted threshold are not inferred."
+    },
+    {
+      "code": "P0BB9",
+      "entryId": "generic-p0bb9",
+      "file": "P0BB9.md",
+      "substantiveWords": 215,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            575
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BBA",
+      "entryId": "generic-p0bba",
+      "file": "P0BBA.md",
+      "substantiveWords": 212,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            628
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BBB",
+      "entryId": "generic-p0bbb",
+      "file": "P0BBB.md",
+      "substantiveWords": 211,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            631,
+            632
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BC3",
+      "entryId": "generic-p0bc3",
+      "file": "P0BC3.md",
+      "substantiveWords": 225,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            586
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0BC4",
+      "entryId": "generic-p0bc4",
+      "file": "P0BC4.md",
+      "substantiveWords": 224,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Source strategy wording says temperature falls below a threshold, while explicit threshold shows converted temperature>87.5C and ADC<680; article retains and explains only the explicit electrical/temperature pair."
+    },
+    {
+      "code": "P0BC5",
+      "entryId": "generic-p0bc5",
+      "file": "P0BC5.md",
+      "substantiveWords": 217,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639,
+            640
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Strategy temperature-direction sentence conflicts with explicit<−40C/ADC>3992 threshold; explicit pair retained and discrepancy disclosed."
+    },
+    {
+      "code": "P0C20",
+      "entryId": "generic-p0c20",
+      "file": "P0C20.md",
+      "substantiveWords": 232,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            699
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Component and section identify auxiliary transmission pump, but strategy text says Drive Motor A; no traction-motor fitment or replacement inferred."
+    },
+    {
+      "code": "P0C34",
+      "entryId": "generic-p0c34",
+      "file": "P0C34.md",
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            586
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C35",
+      "entryId": "generic-p0c35",
+      "file": "P0C35.md",
+      "substantiveWords": 227,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Strategy sentence and explicit converted-temperature direction disagree; article preserves ADC<680/temperature>87.5C and flags wording."
+    },
+    {
+      "code": "P0C36",
+      "entryId": "generic-p0c36",
+      "file": "P0C36.md",
+      "substantiveWords": 213,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639,
+            640
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Original strategy says temperature above threshold; explicit criterion is<−40C with ADC>3992. Wording inconsistency disclosed."
+    },
+    {
+      "code": "P0C43",
+      "entryId": "generic-p0c43",
+      "file": "P0C43.md",
+      "substantiveWords": 224,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            560,
+            561
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Middle thermal-mode branch is incompletely labelled in original table; only explicitly labelled active-heat and passive-cool branches described."
+    },
+    {
+      "code": "P0C44",
+      "entryId": "generic-p0c44",
+      "file": "P0C44.md",
+      "substantiveWords": 224,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            640,
+            641
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Strategy direction wording differs from explicit inlet-temperature/ADC relation; original page split inspected and clear threshold pair retained."
+    },
+    {
+      "code": "P0C45",
+      "entryId": "generic-p0c45",
+      "file": "P0C45.md",
+      "substantiveWords": 221,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            641
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Source strategy direction sentence differs from the explicit<−40C/ADC>3823 comparison; numerical relationship retained with wording flag."
+    },
+    {
+      "code": "P0C47",
+      "entryId": "generic-p0c47",
+      "file": "P0C47.md",
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            561
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C4A",
+      "entryId": "generic-p0c4a",
+      "file": "P0C4A.md",
+      "substantiveWords": 233,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            561,
+            562
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C4E",
+      "entryId": "generic-p0c4e",
+      "file": "P0C4E.md",
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            665
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C4F",
+      "entryId": "generic-p0c4f",
+      "file": "P0C4F.md",
+      "substantiveWords": 230,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            687
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C61",
+      "entryId": "generic-p0c61",
+      "file": "P0C61.md",
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            687
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C62",
+      "entryId": "generic-p0c62",
+      "file": "P0C62.md",
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            687
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C76",
+      "entryId": "generic-p0c76",
+      "file": "P0C76.md",
+      "substantiveWords": 213,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            538
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C77",
+      "entryId": "generic-p0c77",
+      "file": "P0C77.md",
+      "substantiveWords": 228,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C78",
+      "entryId": "generic-p0c78",
+      "file": "P0C78.md",
+      "substantiveWords": 229,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554,
+            555
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C7D",
+      "entryId": "generic-p0c7d",
+      "file": "P0C7D.md",
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            586
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C7E",
+      "entryId": "generic-p0c7e",
+      "file": "P0C7E.md",
+      "substantiveWords": 218,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Source temperature-direction strategy sentence conflicts with explicit ADC/temperature threshold; discrepancy disclosed."
+    },
+    {
+      "code": "P0C7F",
+      "entryId": "generic-p0c7f",
+      "file": "P0C7F.md",
+      "substantiveWords": 218,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639,
+            640
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Explicit<−40C/ADC>3992 criterion conflicts with strategy sentence direction; only the explicit pair is used."
+    },
+    {
+      "code": "P0C82",
+      "entryId": "generic-p0c82",
+      "file": "P0C82.md",
+      "substantiveWords": 225,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            586
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C83",
+      "entryId": "generic-p0c83",
+      "file": "P0C83.md",
+      "substantiveWords": 221,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Source strategy temperature-direction sentence conflicts with its explicit high converted-temperature/low-ADC threshold."
+    },
+    {
+      "code": "P0C84",
+      "entryId": "generic-p0c84",
+      "file": "P0C84.md",
+      "substantiveWords": 215,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639,
+            640
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Explicit cold-temperature/high-ADC limit conflicts with strategy wording; only explicit threshold and prerequisites used."
+    },
+    {
+      "code": "P0C89",
+      "entryId": "generic-p0c89",
+      "file": "P0C89.md",
+      "substantiveWords": 225,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            586
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0C8A",
+      "entryId": "generic-p0c8a",
+      "file": "P0C8A.md",
+      "substantiveWords": 223,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Strategy temperature-direction wording differs from explicit ADC/temperature threshold; unresolved wording is disclosed."
+    },
+    {
+      "code": "P0C8B",
+      "entryId": "generic-p0c8b",
+      "file": "P0C8B.md",
+      "substantiveWords": 216,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            639,
+            640
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Source strategy direction conflicts with explicit<−40C/ADC>3992 threshold; discrepancy retained."
+    },
+    {
+      "code": "P0CD6",
+      "entryId": "generic-p0cd6",
+      "file": "P0CD6.md",
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            561
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CD7",
+      "entryId": "generic-p0cd7",
+      "file": "P0CD7.md",
+      "substantiveWords": 227,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            641,
+            642
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "P0CD7 component/strategy identify outlet sensor but threshold/pass column says Inlet Temp; numeric temperature/ADC criterion omitted pending exact-procedure confirmation."
+    },
+    {
+      "code": "P0CD8",
+      "entryId": "generic-p0cd8",
+      "file": "P0CD8.md",
+      "substantiveWords": 222,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            642
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Source strategy says outlet temperature above threshold while explicit comparison is<−40C/ADC>3823; wording inconsistency disclosed."
+    },
+    {
+      "code": "P0CE2",
+      "entryId": "generic-p0ce2",
+      "file": "P0CE2.md",
+      "substantiveWords": 230,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            559
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CE3",
+      "entryId": "generic-p0ce3",
+      "file": "P0CE3.md",
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            559,
+            560
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CE5",
+      "entryId": "generic-p0ce5",
+      "file": "P0CE5.md",
+      "substantiveWords": 231,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            559
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Threshold prints <=22s beside has-not-reached wording; do not infer a universal failure timeout direction. Clear tracking and learning prerequisite retained."
+    },
+    {
+      "code": "P0CE6",
+      "entryId": "generic-p0ce6",
+      "file": "P0CE6.md",
+      "substantiveWords": 212,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            560
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CE7",
+      "entryId": "generic-p0ce7",
+      "file": "P0CE7.md",
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            560
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CE9",
+      "entryId": "generic-p0ce9",
+      "file": "P0CE9.md",
+      "substantiveWords": 219,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            565
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Original P0CE9 row is truncated in strategy/malfunction wording and sampling interval; only visible open-line condition,16/20 counts and prerequisites retained."
+    },
+    {
+      "code": "P0CEA",
+      "entryId": "generic-p0cea",
+      "file": "P0CEA.md",
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            565,
+            566,
+            745
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CEF",
+      "entryId": "generic-p0cef",
+      "file": "P0CEF.md",
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            566,
+            567
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CF0",
+      "entryId": "generic-p0cf0",
+      "file": "P0CF0.md",
+      "substantiveWords": 219,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            566
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "P0CF0 row text and sampling interval are truncated in original; explicit<2%/0.1V criterion and16/20counts retained without assuming adjacent-row timing."
+    },
+    {
+      "code": "P0CF1",
+      "entryId": "generic-p0cf1",
+      "file": "P0CF1.md",
+      "substantiveWords": 227,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            566
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CF4",
+      "entryId": "generic-p0cf4",
+      "file": "P0CF4.md",
+      "substantiveWords": 250,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            596
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CF5",
+      "entryId": "generic-p0cf5",
+      "file": "P0CF5.md",
+      "substantiveWords": 252,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            596
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0CF6",
+      "entryId": "generic-p0cf6",
+      "file": "P0CF6.md",
+      "substantiveWords": 251,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            596
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Original P0CF6 row visibly truncates strategy/timing details and does not show sampling interval. Article retains threshold, enable conditions, sample count and pass time but does not borrow adjacent-row interval."
+    },
+    {
+      "code": "P0CF9",
+      "entryId": "generic-p0cf9",
+      "file": "P0CF9.md",
+      "substantiveWords": 261,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            600
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D01",
+      "entryId": "generic-p0d01",
+      "file": "P0D01.md",
+      "substantiveWords": 257,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            600
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D0A",
+      "entryId": "generic-p0d0a",
+      "file": "P0D0A.md",
+      "substantiveWords": 248,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            555
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D11",
+      "entryId": "generic-p0d11",
+      "file": "P0D11.md",
+      "substantiveWords": 252,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            555
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D17",
+      "entryId": "generic-p0d17",
+      "file": "P0D17.md",
+      "substantiveWords": 256,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            555
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D18",
+      "entryId": "generic-p0d18",
+      "file": "P0D18.md",
+      "substantiveWords": 249,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            555
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D22",
+      "entryId": "generic-p0d22",
+      "file": "P0D22.md",
+      "substantiveWords": 260,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            598,
+            599,
+            744
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "P0D22 charging-contactor enable field is incomplete across physical pages 598–599. Article omits the unreadable state and explicitly requires applicable service logic; both supported strategies and supporting percentage curve were checked visually."
+    },
+    {
+      "code": "P0D23",
+      "entryId": "generic-p0d23",
+      "file": "P0D23.md",
+      "substantiveWords": 255,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            598
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D26",
+      "entryId": "generic-p0d26",
+      "file": "P0D26.md",
+      "substantiveWords": 257,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            597
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D2A",
+      "entryId": "generic-p0d2a",
+      "file": "P0D2A.md",
+      "substantiveWords": 252,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            598
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": "Source gives AC-voltage branches >=180 V and <160 V but no handling for 160–180 V. Article explicitly preserves that limitation and does not invent interpolation or a universal current threshold."
+    },
+    {
+      "code": "P0D2B",
+      "entryId": "generic-p0d2b",
+      "file": "P0D2B.md",
+      "substantiveWords": 252,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            587
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D2C",
+      "entryId": "generic-p0d2c",
+      "file": "P0D2C.md",
+      "substantiveWords": 263,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            587,
+            588
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D2D",
+      "entryId": "generic-p0d2d",
+      "file": "P0D2D.md",
+      "substantiveWords": 255,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10187878"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10187878",
+          "pages": [
+            1,
+            5,
+            6,
+            8
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D39",
+      "entryId": "generic-p0d39",
+      "file": "P0D39.md",
+      "substantiveWords": 254,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            742
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0D3A",
+      "entryId": "generic-p0d3a",
+      "file": "P0D3A.md",
+      "substantiveWords": 261,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            740
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0E5F",
+      "entryId": "generic-p0e5f",
+      "file": "P0E5F.md",
+      "substantiveWords": 262,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10241595"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10241595",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P0EEE",
+      "entryId": "generic-p0eee",
+      "file": "P0EEE.md",
+      "substantiveWords": 263,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11036286"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11036286",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P2451",
+      "entryId": "generic-p2451",
+      "file": "P2451.md",
+      "substantiveWords": 269,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10168790"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10168790",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P2C39",
+      "entryId": "generic-p2c39",
+      "file": "P2C39.md",
+      "substantiveWords": 262,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11032695"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11032695",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P2C94",
+      "entryId": "generic-p2c94",
+      "file": "P2C94.md",
+      "substantiveWords": 260,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10239477"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10239477",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "P2CFC",
+      "entryId": "generic-p2cfc",
+      "file": "P2CFC.md",
+      "substantiveWords": 264,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10212959"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10212959",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "U0252",
+      "entryId": "generic-u0252",
+      "file": "U0252.md",
+      "substantiveWords": 270,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10235318"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10235318",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    },
+    {
+      "code": "U3001",
+      "entryId": "generic-u3001",
+      "file": "U3001.md",
+      "substantiveWords": 270,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10241619"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10241619",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "unresolvedSourceIssue": null
+    }
+  ]
+}

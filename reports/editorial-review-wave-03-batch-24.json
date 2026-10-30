@@ -1,0 +1,1741 @@
+{
+  "schemaVersion": 1,
+  "reportType": "independent-editorial-review",
+  "reviewer": "writer_21",
+  "authorReviewed": "writer_24",
+  "batch": "batch-24",
+  "completedAt": "2026-10-30T19:03:28.638770+00:00",
+  "status": "complete",
+  "verdict": "Drafts reviewed; one source-registration correction required and editorial improvements recommended. This is not publication approval.",
+  "counts": {
+    "assignedArticles": 100,
+    "allBodiesRead": 100,
+    "bodyOnlyArticles": 80,
+    "deepSourceCheckedArticles": 20,
+    "deepCheckedSubsetOfBodies": true,
+    "exactSourceRevisionTextsRead": 21,
+    "originalOemPdfsChecked": 3,
+    "physicalPdfPagesVisuallyChecked": 8,
+    "articleSha256Recorded": 100,
+    "nonArticleInputFileSha256Recorded": 23,
+    "existingNeedsReviewArticles": 10,
+    "newTechnicalContradictionsInDeepSample": 0,
+    "sourceRegistrationErrors": 1
+  },
+  "method": [
+    "Read every article body, including interpretation, next-check decisions and explicit applicability limitations. All100 are listed with exact reviewed-byte SHA256.",
+    "Independently compared20 varied articles, including all10 needs-review items, against their captured original MediaWiki sourceText at the exact cited revision. Recomputed source-text hashes and inspected the original OEM PDF page images for P1545/P1624.",
+    "Checked the Fuel Trim Info supplemental original revision for P1111. Read all four conflicting pedal-sensor sources together. Compared P1571 assignment dictionary title with the original wiki wording.",
+    "Automated revision/hash/registration checks across all100 are structural checks, not a claim of deep factual review of all100 sources. Opening-paragraph decimal/component identifiers all occur in their own source text.",
+    "Excluded frontmatter, headings and Sources and applicability footers from prose similarity. Compared exact substantive paragraphs of15+words, exact sentences of12+words, and numeric/code-normalized seven-word shingles across4950 pairs. Manual reading assesses semantic repetition that lexical scores miss."
+  ],
+  "findings": [
+    {
+      "id": "B24-01",
+      "severity": "medium",
+      "category": "source-integrity",
+      "codes": [
+        "P1624"
+      ],
+      "location": "frontmatter.sourceIds; src/data/diagnostic-source-index.json",
+      "finding": "Article cites nhtsa-vw-p1624-09g, absent from the reviewed shared diagnostic source index. The article facts are supported by the retained original PDF; this is a registry integration defect.",
+      "correction": "Root should add the source record from wave3/writer24/oem-p1624.json to the shared index, preserving its URL, PDF SHA256, 2-page count, US2015–2017 Jetta/Passat/Golf09G scope and Tech Tip status; rerun source-reference validation.",
+      "sourcePdfSha256": "9e7f73d39fc8bd5b0b07ab8aae3ed337f38bbe2bbd98f0afe30aefbc83764858",
+      "statusAtReview": "open"
+    },
+    {
+      "id": "B24-02",
+      "severity": "low",
+      "category": "citation-precision",
+      "codes": [
+        "P1545"
+      ],
+      "location": "frontmatter.sourcePages for nhtsa-vw-p1545-throttle-wiring and source footer",
+      "finding": "The VW revision2018652/6 is correct but the revision table is on physical page8; the current locator lists only pages1 and5.",
+      "correction": "Add physical page8 to the VW sourcePages list and source-footer page list. Pages1/5 already support application and conditional replacement; page8 directly proves the /6 revision.",
+      "statusAtReview": "recommended"
+    },
+    {
+      "id": "B24-03",
+      "severity": "medium",
+      "category": "editorial-usefulness",
+      "codes": [
+        "P1213",
+        "P1214",
+        "P1215",
+        "P1216",
+        "P1217",
+        "P1218",
+        "P1219",
+        "P1220",
+        "P1239",
+        "P1240",
+        "P1241",
+        "P1242",
+        "P1243",
+        "P1355",
+        "P1358",
+        "P1361",
+        "P1364",
+        "P1814",
+        "P1815",
+        "P1819",
+        "P1820",
+        "P1824",
+        "P1825",
+        "P1829",
+        "P1830",
+        "P1653",
+        "P1847"
+      ],
+      "finding": "No copied substantive paragraphs or12+word sentences were found, but manual reading found substantial semantic repetition within injector, ignition, pressure-valve and ABS-referral families. Repeated content explains circuit versus component, missing pinout/specification, and clearing a fault not proving repair. Separate circuit identities and fault directions are real useful distinctions; wording variation alone should not be counted as new diagnostic depth.",
+      "examples": [
+        {
+          "codes": [
+            "P1214",
+            "P1218"
+          ],
+          "sharedSubstance": "Cylinder/N-code changes; both cover fuse/harness/injector/ECM alternatives, manual-specific resistance testing and post-repair circuit/running checks."
+        },
+        {
+          "codes": [
+            "P1814",
+            "P1824"
+          ],
+          "sharedSubstance": "N215/N91 versus N217/N93 identification; both cover open/ground conditions, unspecified measurements and the01V16-pin corrosion lead."
+        },
+        {
+          "codes": [
+            "P1653",
+            "P1847"
+          ],
+          "sharedSubstance": "Both refer to J104/address03 memory, explain cross-module dependencies and require addressing the originating ABS fault."
+        }
+      ],
+      "correction": "Before treating these as fully developed SEO guides, shorten repeated generic caution passages and seek applicable original repair information for genuinely branch-specific evidence. Retain separate code pages and honest shared-procedure attribution; do not invent tests or forced differences merely to lower similarity.",
+      "statusAtReview": "editorial-improvement-recommended"
+    },
+    {
+      "id": "B24-04",
+      "severity": "info",
+      "category": "unresolved-source-limitations",
+      "codes": [
+        "P1141",
+        "P1155",
+        "P1220",
+        "P1522",
+        "P1560",
+        "P1571",
+        "P1631",
+        "P1633",
+        "P1634",
+        "P1639"
+      ],
+      "finding": "All10 existing needs-review flags are supported by actual source limitations, and the body text preserves them. The review does not resolve original conjecture, anecdote, identifier errors or incompatible generalized pedal curves.",
+      "correction": "Retain these flags unless new application-specific evidence resolves the underlying issue. Do not promote this independent review to human-mechanic approval.",
+      "statusAtReview": "retained"
+    }
+  ],
+  "applicabilityVerification": {
+    "P1545": {
+      "volkswagen": {
+        "document": "2018652/6,2017-03-09",
+        "rows": [
+          {
+            "models": [
+              "(A5) Jetta",
+              "Rabbit",
+              "GTI",
+              "Passat",
+              "Passat Wagon",
+              "Eos"
+            ],
+            "modelYears": "2006–2008",
+            "engine": "2.0L BPY"
+          },
+          {
+            "models": "All in the document model column",
+            "modelYears": "2008–2009",
+            "engine": "2.0L CCTA/CBFA"
+          }
+        ],
+        "vinAndTransmissionColumns": "All within each listed row; not an independent worldwide fitment claim.",
+        "replacementCondition": "Faults recurring after wiring/contact repair and function checks."
+      },
+      "audi": {
+        "document": "2018260/8,2014-09-26",
+        "rows": [
+          {
+            "model": "A6",
+            "years": "2005–2008",
+            "engine": "3.2 FSI"
+          },
+          {
+            "model": "A4",
+            "years": "2005–2008",
+            "engine": "2.0/3.2 FSI"
+          },
+          {
+            "model": "A4 Cabriolet",
+            "years": "2007–2008",
+            "engine": "2.0"
+          },
+          {
+            "model": "TT",
+            "years": "2008 only",
+            "engine": "2.0"
+          },
+          {
+            "model": "A3",
+            "years": "2006–2009",
+            "engine": "2.0"
+          },
+          {
+            "model": "Q7",
+            "years": "2007–2009",
+            "engine": "3.6"
+          }
+        ],
+        "replacementCondition": "Throttle replacement only if faults recur after repair.",
+        "result": "Article avoids broad2005–2009 TT applicability and preserves separate VW/Audi scopes."
+      }
+    },
+    "P1624": {
+      "document": "Technical Tip01-15-06TT /2042297/5,2018-10-19",
+      "market": "United States",
+      "models": [
+        "Jetta",
+        "Passat",
+        "Golf"
+      ],
+      "years": "2015–2017",
+      "transmission": "6-speed09G automatic",
+      "engines": "All within listed model/year/transmission combination",
+      "pinMapping": "T8 pin6 beneath starter; lilac/yellow wire; N216/N217.",
+      "result": "Exact limits and wiring facts match original; no automatic overhaul or warranty promise."
+    },
+    "allBodies": "Explicit qualifiers found for Audi-only examples, ALH/BBW/BEW notes and01V/02E transmission examples. This statement records body review, not independently verified fitment for every vehicle."
+  },
+  "similarity": {
+    "articleCount": 100,
+    "exactRepeatedParagraphs": [],
+    "exactRepeatedSentences12Plus": [],
+    "topNormalized7gramPairs": [
+      {
+        "codes": [
+          "P1814",
+          "P1824"
+        ],
+        "normalized7gramJaccard": 0.0451,
+        "shared7grams": 17
+      },
+      {
+        "codes": [
+          "P1355",
+          "P1361"
+        ],
+        "normalized7gramJaccard": 0.0308,
+        "shared7grams": 12
+      },
+      {
+        "codes": [
+          "P1819",
+          "P1829"
+        ],
+        "normalized7gramJaccard": 0.0306,
+        "shared7grams": 12
+      },
+      {
+        "codes": [
+          "P1355",
+          "P1364"
+        ],
+        "normalized7gramJaccard": 0.0281,
+        "shared7grams": 11
+      },
+      {
+        "codes": [
+          "P1637",
+          "P1649"
+        ],
+        "normalized7gramJaccard": 0.0272,
+        "shared7grams": 11
+      },
+      {
+        "codes": [
+          "P1653",
+          "P1847"
+        ],
+        "normalized7gramJaccard": 0.0251,
+        "shared7grams": 10
+      },
+      {
+        "codes": [
+          "P1820",
+          "P1825"
+        ],
+        "normalized7gramJaccard": 0.0229,
+        "shared7grams": 9
+      },
+      {
+        "codes": [
+          "P1155",
+          "P1830"
+        ],
+        "normalized7gramJaccard": 0.0179,
+        "shared7grams": 7
+      },
+      {
+        "codes": [
+          "P1649",
+          "P1853"
+        ],
+        "normalized7gramJaccard": 0.017,
+        "shared7grams": 7
+      },
+      {
+        "codes": [
+          "P1625",
+          "P1850"
+        ],
+        "normalized7gramJaccard": 0.016,
+        "shared7grams": 6
+      },
+      {
+        "codes": [
+          "P1171",
+          "P1542"
+        ],
+        "normalized7gramJaccard": 0.0156,
+        "shared7grams": 6
+      },
+      {
+        "codes": [
+          "P1637",
+          "P1850"
+        ],
+        "normalized7gramJaccard": 0.0154,
+        "shared7grams": 6
+      },
+      {
+        "codes": [
+          "P1631",
+          "P1634"
+        ],
+        "normalized7gramJaccard": 0.0153,
+        "shared7grams": 6
+      },
+      {
+        "codes": [
+          "P1815",
+          "P1820"
+        ],
+        "normalized7gramJaccard": 0.0153,
+        "shared7grams": 6
+      },
+      {
+        "codes": [
+          "P1163",
+          "P1613"
+        ],
+        "normalized7gramJaccard": 0.0152,
+        "shared7grams": 6
+      },
+      {
+        "codes": [
+          "P1649",
+          "P1850"
+        ],
+        "normalized7gramJaccard": 0.0152,
+        "shared7grams": 6
+      },
+      {
+        "codes": [
+          "P1219",
+          "P1220"
+        ],
+        "normalized7gramJaccard": 0.0129,
+        "shared7grams": 5
+      },
+      {
+        "codes": [
+          "P1239",
+          "P1526"
+        ],
+        "normalized7gramJaccard": 0.0127,
+        "shared7grams": 5
+      },
+      {
+        "codes": [
+          "P1239",
+          "P1355"
+        ],
+        "normalized7gramJaccard": 0.0126,
+        "shared7grams": 5
+      },
+      {
+        "codes": [
+          "P1256",
+          "P1825"
+        ],
+        "normalized7gramJaccard": 0.0126,
+        "shared7grams": 5
+      }
+    ],
+    "sourceLocatorIntegrityErrors": [],
+    "unindexedSourceIds": [
+      [
+        "P1624",
+        "nhtsa-vw-p1624-09g"
+      ]
+    ]
+  },
+  "deepChecks": [
+    {
+      "code": "P1141",
+      "articleSha256": "28c655cbff908fb399aff3428c81dfdbe655e1554682a225c108e8646ec2feb3",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "G 70 or G 71 and vacuum lines are documented alternatives.",
+        "The load-versus-operating-parameters explanation is expressly personal conjecture."
+      ],
+      "result": "Article correctly labels the monitor explanation tentative; it does not invent a threshold or adopt the conjecture as an OEM algorithm.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1141",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17549/P1141/004417",
+          "revisionId": 3379,
+          "revisionTimestamp": "2007-03-10T05:55:09Z",
+          "sourceTextSha256": "254de309bd66c6c6a8642bfe01a4e7d2d98987623382b198a1154976c68694d1",
+          "sourceTextHashRecomputed": "254de309bd66c6c6a8642bfe01a4e7d2d98987623382b198a1154976c68694d1",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17549/P1141/004417"
+        }
+      ]
+    },
+    {
+      "code": "P1155",
+      "articleSha256": "2855910efa5f731641764f6c83322bf974c7bde0f5994f31b4537d931cd0e775",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "Short-to-positive G 71 circuit; electrical connections, sensor and hose routing listed.",
+        "N 75 replacement is a single unquantified case, not a validated remedy."
+      ],
+      "result": "Article explicitly preserves the anecdotal limit and does not recommend routine N75 replacement.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1155",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17563/P1155/004437",
+          "revisionId": 4423,
+          "revisionTimestamp": "2008-04-04T07:00:42Z",
+          "sourceTextSha256": "a28db56193a60e14aad6fa5fab5dd5f1fcb4acdcbd22bec658855620cd87c45d",
+          "sourceTextHashRecomputed": "a28db56193a60e14aad6fa5fab5dd5f1fcb4acdcbd22bec658855620cd87c45d",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17563/P1155/004437"
+        }
+      ]
+    },
+    {
+      "code": "P1220",
+      "articleSha256": "24ac78d0b18553d07f2027cbb121deb9d4b074e8b285b2cd27e46afd0dbbfb12",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "Page title 17627/P 1220 conflicts with the diagnostic heading 17628/P 1220.",
+        "Heading identifies cylinder 8 N 86 short to B+; resistance and wiring checks refer to repair manual."
+      ],
+      "result": "Article discloses the title/heading discrepancy, uses the heading mapping and retains needs-review.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1220",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17627/P1220",
+          "revisionId": 6641,
+          "revisionTimestamp": "2012-05-19T18:18:21Z",
+          "sourceTextSha256": "8ea85b7aaef1a983e2d97837100fce3b7ccc86ee3fd3a44427b3a6a1a18be7e3",
+          "sourceTextHashRecomputed": "8ea85b7aaef1a983e2d97837100fce3b7ccc86ee3fd3a44427b3a6a1a18be7e3",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17627/P1220"
+        }
+      ]
+    },
+    {
+      "code": "P1522",
+      "articleSha256": "65746cd67fd5057ff6981f60501e23b2652e9670750d7ba8adc2a2f85cae297b",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "Heading bank 2; G 163 feedback path and N 208 adjustment path.",
+        "One solution line inconsistently labels N 208 bank 1."
+      ],
+      "result": "Article accurately identifies that internal source inconsistency and requires vehicle-specific bank identification.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1522",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17930/P1522",
+          "revisionId": 6557,
+          "revisionTimestamp": "2012-03-23T20:25:10Z",
+          "sourceTextSha256": "c9e5a2927b3cac75ec9204fac8e8e249393f483d8c678a63806118450abcaeef",
+          "sourceTextHashRecomputed": "c9e5a2927b3cac75ec9204fac8e8e249393f483d8c678a63806118450abcaeef",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17930/P1522"
+        }
+      ]
+    },
+    {
+      "code": "P1560",
+      "articleSha256": "b2e7b51184215d9bd4ea0156c70bd3e22b8a9349e505603fc5204ea0e298e65f",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "Overspeed may cause severe engine damage; abnormal noises and event-history alternatives listed.",
+        "Source includes jocular warranty-void and foot/clearing language."
+      ],
+      "result": "Article excludes the jokes as authority, avoids claiming automatic damage or warranty loss and gives a proportionate inspection boundary.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1560",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17968/P1560/005472",
+          "revisionId": 6683,
+          "revisionTimestamp": "2012-06-06T16:21:28Z",
+          "sourceTextSha256": "323a6bcf7f9b6a3bea369c248430b3e39274b211970f53acaf3e5f8efa3e35db",
+          "sourceTextHashRecomputed": "323a6bcf7f9b6a3bea369c248430b3e39274b211970f53acaf3e5f8efa3e35db",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17968/P1560/005472"
+        }
+      ]
+    },
+    {
+      "code": "P1571",
+      "articleSha256": "87cf6e12a96002aa0cb0f87c3953d8128b0d0ed107a652c14edd0bc8fe81ddc8",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "Heading confirms left mount N 144; possible short/open wording is questioned in the source.",
+        "Symptoms may occur without EPC/MIL; output test is listed without activation specifications."
+      ],
+      "result": "Article correctly distinguishes the local dictionary short-to-B+ label from the less specific source. The assignment dictionary title was independently checked; exact electrical subtype remains unresolved.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1571",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/P1571/%20005489",
+          "revisionId": 9729,
+          "revisionTimestamp": "2025-07-17T20:54:22Z",
+          "sourceTextSha256": "8d336fbc7c9a9627e2ae71a979c85df65d76004d43063a19c4b12b8a330adf8c",
+          "sourceTextHashRecomputed": "8d336fbc7c9a9627e2ae71a979c85df65d76004d43063a19c4b12b8a330adf8c",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "P1571/ 005489"
+        }
+      ]
+    },
+    {
+      "code": "P1631",
+      "articleSha256": "d272e5014264dd6f8c1c8e124171ef0733bb950fece4f649ee9fff637e7c8a7f",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "G 79 high signal; wiring, ECM and pedal alternatives; oxygen-sensor wiring note.",
+        "Source describes opposing pedal-channel directions, conflicting with P 1639."
+      ],
+      "result": "Article does not adopt an unverified transfer curve or universal voltage threshold; conflict remains explicit.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1631",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/18039/P1631",
+          "revisionId": 5418,
+          "revisionTimestamp": "2011-02-25T16:17:53Z",
+          "sourceTextSha256": "ac36ec86ad6c88784047197059a664b467da05494178f6fb0c97fa273dafc068",
+          "sourceTextHashRecomputed": "ac36ec86ad6c88784047197059a664b467da05494178f6fb0c97fa273dafc068",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "18039/P1631"
+        },
+        {
+          "crossCheckedCodes": [
+            "P1631",
+            "P1633",
+            "P1634",
+            "P1639"
+          ],
+          "purpose": "Read all four exact source revisions to establish the conflicting transfer-function descriptions."
+        }
+      ]
+    },
+    {
+      "code": "P1633",
+      "articleSha256": "c64e9bedd64c5fbbeda571bf4ddfd999fcc0be0a09e69aaf41cdba16e0513e14",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "G 185 low signal; pedal assembly rather than throttle body; symptom field Unknown.",
+        "Opposite-direction channel note conflicts with P 1639."
+      ],
+      "result": "Article avoids inventing symptoms and retains the channel-relationship uncertainty.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1633",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/18041/P1633",
+          "revisionId": 2607,
+          "revisionTimestamp": "2006-06-19T18:24:58Z",
+          "sourceTextSha256": "3e9ec50f8ec923601058e70a910702a1b6972ce83d034ae2e5aa1292bec6ce07",
+          "sourceTextHashRecomputed": "3e9ec50f8ec923601058e70a910702a1b6972ce83d034ae2e5aa1292bec6ce07",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "18041/P1633"
+        },
+        {
+          "crossCheckedCodes": [
+            "P1631",
+            "P1633",
+            "P1634",
+            "P1639"
+          ],
+          "purpose": "Read all four exact source revisions to establish the conflicting transfer-function descriptions."
+        }
+      ]
+    },
+    {
+      "code": "P1634",
+      "articleSha256": "2407035565a291b1b5f9bdf18203946ff361daec960e5dfa8de6755dfb27fb9c",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "G 185 high signal; wiring or sensor alternatives, reduced output and warning-lamp possibilities.",
+        "Opposite-direction channel explanation and qualitative pedal-reliability claim."
+      ],
+      "result": "Article neither converts qualitative reliability to a failure probability nor adopts the conflicting curve.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1634",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/18042/P1634/005684",
+          "revisionId": 5708,
+          "revisionTimestamp": "2011-04-14T06:47:30Z",
+          "sourceTextSha256": "99878556e27150156c5579676240b7718af869b73dab72df11dce5545d9e4f52",
+          "sourceTextHashRecomputed": "99878556e27150156c5579676240b7718af869b73dab72df11dce5545d9e4f52",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "18042/P1634/005684"
+        },
+        {
+          "crossCheckedCodes": [
+            "P1631",
+            "P1633",
+            "P1634",
+            "P1639"
+          ],
+          "purpose": "Read all four exact source revisions to establish the conflicting transfer-function descriptions."
+        }
+      ]
+    },
+    {
+      "code": "P1639",
+      "articleSha256": "776e9253391b959b63e3c60b3d2c827d8d5e13baa53a2595079080f9f9dd7af7",
+      "sourceReviewRetained": "needs-review",
+      "claimsChecked": [
+        "G 79/G 185 plausibility; voltage/wiring checks and relevant oxygen-sensor circuitry.",
+        "Both channels increasing at different scales conflicts with the three related pages."
+      ],
+      "result": "Article accurately preserves the unresolved application-specific relationship instead of generalizing percentages.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1639",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/18047/P1639/005689",
+          "revisionId": 6492,
+          "revisionTimestamp": "2012-02-16T16:45:47Z",
+          "sourceTextSha256": "1f8120cf9f71ddaf86af5141999ae1e93f862ac3f4ae44926d1155a9c7156bdc",
+          "sourceTextHashRecomputed": "1f8120cf9f71ddaf86af5141999ae1e93f862ac3f4ae44926d1155a9c7156bdc",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "18047/P1639/005689"
+        },
+        {
+          "crossCheckedCodes": [
+            "P1631",
+            "P1633",
+            "P1634",
+            "P1639"
+          ],
+          "purpose": "Read all four exact source revisions to establish the conflicting transfer-function descriptions."
+        }
+      ]
+    },
+    {
+      "code": "P1545",
+      "articleSha256": "88967ff5e20557f749e1c8e1a93be8da74b643556e05d0066d7324d75eacbeaf",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "Ross-Tech lists dirty/failed throttle, wiring and intake obstruction alternatives.",
+        "Original VW and Audi PDFs have separate model/year/engine tables and conditional post-wiring-repair throttle replacement."
+      ],
+      "result": "Body applicability and replacement sequence match the original PDFs. Add physical VW page8 to the locator to make the cited /6 revision directly traceable (minor citation improvement, not false revision).",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1545",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17953/P1545/005445",
+          "revisionId": 9101,
+          "revisionTimestamp": "2021-03-30T16:26:26Z",
+          "sourceTextSha256": "31c8229ffdbd21766cefb02e82f6304d5c08582521985243b95bc77b7b01202e",
+          "sourceTextHashRecomputed": "31c8229ffdbd21766cefb02e82f6304d5c08582521985243b95bc77b7b01202e",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17953/P1545/005445"
+        },
+        {
+          "sourceId": "nhtsa-vw-p1545-throttle-wiring",
+          "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10123172-9999.pdf",
+          "sha256": "2ce5b42b828ef22955f9cd9181c2dd072396d7622504a0e2f0ea6df88c1aaef8",
+          "pagesVisuallyChecked": [
+            1,
+            5,
+            8
+          ],
+          "pageNumbering": "1-based physical PDF index"
+        },
+        {
+          "sourceId": "nhtsa-audi-p1545-throttle-wiring",
+          "url": "https://static.nhtsa.gov/odi/tsbs/2014/MC-10124818-9999.pdf",
+          "sha256": "c9dba40ab7b8bb23d6f7779884f2a464d1c3bebad742d68035b1afb945ddad83",
+          "pagesVisuallyChecked": [
+            1,
+            2,
+            4
+          ],
+          "pageNumbering": "1-based physical PDF index"
+        }
+      ]
+    },
+    {
+      "code": "P1624",
+      "articleSha256": "5c4805197ef54679ec8c808d3eeb51864e83a08586eff1df0f5856b5ce5923f8",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "Ross-Tech directs diagnosis to TCM fault memory.",
+        "Original US Tech Tip identifies 2015–2017 Jetta/Passat/Golf 09G, T 8 pin 6 under starter, lilac/yellow wire and N 216/N 217; repair/basic-setting/relearn sequence."
+      ],
+      "result": "Technical content matches both original PDF pages. Source ID must be added to the shared index before integrity checks can pass.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1624",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/18032/P1624/005668",
+          "revisionId": 9056,
+          "revisionTimestamp": "2021-03-15T15:05:27Z",
+          "sourceTextSha256": "9657e6620c773f7a51be584f9b2fe1e09e0000b6716b3973845c8b84b568ac1e",
+          "sourceTextHashRecomputed": "9657e6620c773f7a51be584f9b2fe1e09e0000b6716b3973845c8b84b568ac1e",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "18032/P1624/005668"
+        },
+        {
+          "sourceId": "nhtsa-vw-p1624-09g",
+          "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10149890-9999.pdf",
+          "sha256": "9e7f73d39fc8bd5b0b07ab8aae3ed337f38bbe2bbd98f0afe30aefbc83764858",
+          "pagesVisuallyChecked": [
+            1,
+            2
+          ],
+          "pageNumbering": "1-based physical PDF index"
+        }
+      ]
+    },
+    {
+      "code": "P1570",
+      "articleSha256": "aa18fcfd548960eed9336eada1aac19337ee76ab35f849a6871d91e8eda43181",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "Start-and-stall differs from complete no-start; keys/cluster/ECU matching and ECU supply are alternatives.",
+        "Low battery voltage may affect immobilizer operation; source contains a battery-cable-shorting anecdote."
+      ],
+      "result": "Article uses the supported diagnostic distinctions and excludes the cable-shorting anecdote and bypass instructions.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1570",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17978/P1570/005488",
+          "revisionId": 7478,
+          "revisionTimestamp": "2014-09-25T21:37:44Z",
+          "sourceTextSha256": "f289389cb7aaede16271b26b3c19671128e2a15579fad61c9b023ddc39341911",
+          "sourceTextHashRecomputed": "f289389cb7aaede16271b26b3c19671128e2a15579fad61c9b023ddc39341911",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17978/P1570/005488"
+        }
+      ]
+    },
+    {
+      "code": "P1111",
+      "articleSha256": "b9c900224b679b86f21af4440c8a55f94e8b997216ef9fd8fbd88abba1a4243c",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "Bank 1 lean oxygen control with intake, fuel delivery, injectors, airflow, exhaust and oxygen-sensing alternatives.",
+        "Code source says preserve adaptation before clearing; Fuel Trim Info revision 9295 distinguishes additive idle correction from multiplicative correction."
+      ],
+      "result": "The component is not falsely declared failed. Trim distinction and preservation claim are supported by the checked supplemental source; its full-throttle road-test passage is not repeated.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1111",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17519/P1111",
+          "revisionId": 4858,
+          "revisionTimestamp": "2010-02-22T16:09:05Z",
+          "sourceTextSha256": "3003ee5007d8216295c7d74b865cd1db6c730729c5298f686e8afe17885dae78",
+          "sourceTextHashRecomputed": "3003ee5007d8216295c7d74b865cd1db6c730729c5298f686e8afe17885dae78",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17519/P1111"
+        },
+        {
+          "sourceId": "ross-tech-fuel-trim-info",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/Fuel_Trim_Info",
+          "revisionId": 9295,
+          "sourceTextSha256": "0fd81fd744b39db79dda38dd2d5e38cfb05d3df2e3c4db50d4513e633eb38c70",
+          "sourceTextHashRecomputed": "0fd81fd744b39db79dda38dd2d5e38cfb05d3df2e3c4db50d4513e633eb38c70",
+          "sourceContainer": "wave3/writer24/ross-supplementary.json",
+          "locator": "Understanding Fuel Trim: additive/multiplicative correction and resetting learned trim"
+        }
+      ]
+    },
+    {
+      "code": "P1118",
+      "articleSha256": "ca87aea15bd946e536eb6075339dbc9409f00f006ec30f98ab2f6df83e4aca3f",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "17526/P 1118/004376: bank 1 sensor 2 heater open circuit.",
+        "Heater wiring/connectors and heater circuit are alternatives; source symptom line misleadingly says MIL faulty."
+      ],
+      "result": "Article stays with the supported heater circuit and does not turn the anomalous symptom line into a lamp-failure diagnosis.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1118",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17526/P1118/004376",
+          "revisionId": 4011,
+          "revisionTimestamp": "2007-09-25T22:37:23Z",
+          "sourceTextSha256": "9d39ba3e43d56782857d4aff05476dec1d039aa051f1f4d946ac9976c75e4a32",
+          "sourceTextHashRecomputed": "9d39ba3e43d56782857d4aff05476dec1d039aa051f1f4d946ac9976c75e4a32",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17526/P1118/004376"
+        }
+      ]
+    },
+    {
+      "code": "P1213",
+      "articleSha256": "7fe14410ac289c8d93e2ebeab0522e671bbffcc6abf6f9f0be43654056eb7121",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "17621/P 1213 cylinder 1 injector N 30 short to B+.",
+        "Fuse, harness, injector and ECM are listed; resistance and wiring checks defer to repair manual."
+      ],
+      "result": "Code/component mapping is correct. No resistance limit, location, pinout or nozzle-flow diagnosis is invented.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1213",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17621/P1213",
+          "revisionId": 5268,
+          "revisionTimestamp": "2011-02-02T22:31:57Z",
+          "sourceTextSha256": "fbf225eb6d42a02c0b0482d04564c8ae2c4bde113c2e273e43e567846aa5c7ad",
+          "sourceTextHashRecomputed": "fbf225eb6d42a02c0b0482d04564c8ae2c4bde113c2e273e43e567846aa5c7ad",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17621/P1213"
+        }
+      ]
+    },
+    {
+      "code": "P1248",
+      "articleSha256": "8945c6623d98634000ed62d42418273249eec3a9996eed5ddbd6b34d626cdfa6",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "17656/P 1248/004680 injection-start control deviation; timing, fuel supply, recent run-dry and N 108 wiring.",
+        "Ross-Tech bounds the Tech Tip 23-02-03 example to ALH Golf/Jetta 9M/1J and Beetle 1C."
+      ],
+      "result": "Article accurately attributes the bounded Tech Tip reference and avoids exporting fuse34/255 response to other vehicles. The original Tech Tip itself was not obtained in this review.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1248",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17656/P1248/004680",
+          "revisionId": 7052,
+          "revisionTimestamp": "2013-04-11T22:21:34Z",
+          "sourceTextSha256": "9757f1d48b92249cc0e3ee3b07cad8ebd638c82aa479c573cda5ecdf37f7acb8",
+          "sourceTextHashRecomputed": "9757f1d48b92249cc0e3ee3b07cad8ebd638c82aa479c573cda5ecdf37f7acb8",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17656/P1248/004680"
+        }
+      ]
+    },
+    {
+      "code": "P1455",
+      "articleSha256": "50e76afd46888efd204d96af809003bd302ec36ad2a239a36f8e5c67817bb65e",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "17863/P 1455 G 235 implausible EGT signal; fuse, wiring and sensor alternatives.",
+        "North American BBW 2.0L 2004–2005 Golf/Jetta/Bora 1J/9M note."
+      ],
+      "result": "Article preserves named application limits and does not promote the source common-failure wording into a statistical likelihood.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1455",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/17863/P1455",
+          "revisionId": 6869,
+          "revisionTimestamp": "2012-09-07T22:30:14Z",
+          "sourceTextSha256": "bb09913e6b9a6180364cca7d0a716bcdcad624e5d32350d792a5ef9b7a57a2cd",
+          "sourceTextHashRecomputed": "bb09913e6b9a6180364cca7d0a716bcdcad624e5d32350d792a5ef9b7a57a2cd",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "17863/P1455"
+        }
+      ]
+    },
+    {
+      "code": "P1746",
+      "articleSha256": "1a98ca34b3940597f43db2c9f8849db638c0939d0c68a1bf621b56725e6079fa",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "18154/P 1746/005958 transmission-solenoid relay electrical malfunction; low voltage or internal J 743 concerns.",
+        "02E DSG-specific measuring block 005 note."
+      ],
+      "result": "Article retains low-voltage versus internal-controller distinction and bounds block005 to the documented gearbox; no universal voltage or separate-relay replacement asserted.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1746",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/18154/P1746/005958",
+          "revisionId": 8821,
+          "revisionTimestamp": "2020-02-17T23:06:24Z",
+          "sourceTextSha256": "015edbb88c59a8309fe37ddeed647461540c2da34179d9ab2a8de895f8b079ed",
+          "sourceTextHashRecomputed": "015edbb88c59a8309fe37ddeed647461540c2da34179d9ab2a8de895f8b079ed",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "18154/P1746/005958"
+        }
+      ]
+    },
+    {
+      "code": "P1814",
+      "articleSha256": "9db89063d30f8ddf4f386a4204faab22f12f498aa5bf6a81f3a663144df5c4d9",
+      "sourceReviewRetained": "checked",
+      "claimsChecked": [
+        "18222/P 1814 pressure-control valve 1 N 215 open/short to ground; alternate solenoid 4/N 91 designation.",
+        "01V-specific 16-pin valve-body/harness connector corrosion/water note."
+      ],
+      "result": "Mapping and connector scope are correct; article does not transfer the01V connector to every transmission or invent resistance/pressure values.",
+      "sources": [
+        {
+          "sourceId": "ross-tech-p1814",
+          "url": "https://wiki.ross-tech.com/wiki/index.php/18222/P1814",
+          "revisionId": 3628,
+          "revisionTimestamp": "2007-05-05T08:39:35Z",
+          "sourceTextSha256": "f22f11453a98968d7292ddec4e915c9f6f042db25b244074426b0035e40ffb05",
+          "sourceTextHashRecomputed": "f22f11453a98968d7292ddec4e915c9f6f042db25b244074426b0035e40ffb05",
+          "sourceContainer": "wave3/writer24/ross-candidate-content.json",
+          "locator": "18222/P1814"
+        }
+      ]
+    }
+  ],
+  "articleFiles": [
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1111.md",
+      "code": "P1111",
+      "sha256": "b9c900224b679b86f21af4440c8a55f94e8b997216ef9fd8fbd88abba1a4243c",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1118.md",
+      "code": "P1118",
+      "sha256": "ca87aea15bd946e536eb6075339dbc9409f00f006ec30f98ab2f6df83e4aca3f",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1136.md",
+      "code": "P1136",
+      "sha256": "f067b08f6339913e1214bf8143f85185f2aedc02e6d13aae635c939d4f72f4f4",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1139.md",
+      "code": "P1139",
+      "sha256": "b98af4da3437f283d6057711aef7115c987d05a21444eb118dca7082ee5b2209",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1141.md",
+      "code": "P1141",
+      "sha256": "28c655cbff908fb399aff3428c81dfdbe655e1554682a225c108e8646ec2feb3",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1142.md",
+      "code": "P1142",
+      "sha256": "db85110b88c4b1141e1926082c86f784d7ab42c727314956b93528a4e0746f8d",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1143.md",
+      "code": "P1143",
+      "sha256": "2da54c4293069466386d8d26f44ca3a91ec2c27285af43d052fd7b9de332e445",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1144.md",
+      "code": "P1144",
+      "sha256": "9261658fe9586eac0a2560bd53363c3ab014fa9b70d487aefe73a4a9105552d3",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1145.md",
+      "code": "P1145",
+      "sha256": "d986cc7d2e3dda1e916b00088e89615bb3bc7479dd2e055bc6aed6d1ca8ef45c",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1155.md",
+      "code": "P1155",
+      "sha256": "2855910efa5f731641764f6c83322bf974c7bde0f5994f31b4537d931cd0e775",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1163.md",
+      "code": "P1163",
+      "sha256": "b3f5f546bafd47da223cee7ca7372e2712c38ad70848e558d15ca1f39ca0c77f",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1171.md",
+      "code": "P1171",
+      "sha256": "c6e4a2a90df037d5d5f14b40dc12d9ee5a1f6107880ee6c64562928c32d24571",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1213.md",
+      "code": "P1213",
+      "sha256": "7fe14410ac289c8d93e2ebeab0522e671bbffcc6abf6f9f0be43654056eb7121",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1214.md",
+      "code": "P1214",
+      "sha256": "061205d88a1cf3d1978f538bc45f437dce4a716fefb39a0da36732c7f1df63d2",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1215.md",
+      "code": "P1215",
+      "sha256": "bec32b03fff46bf255a5b8423ddd0038289e75bb8d066c26eeba095bb9b1ed44",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1216.md",
+      "code": "P1216",
+      "sha256": "540b881f21a7e51b087d56875b3d17b4d4269bf992b3efcecc4b28766e2c4f37",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1217.md",
+      "code": "P1217",
+      "sha256": "b0ee6a50b2dfd796af27e0981a124edb67d53daacd6c63bacfe5b7ba3ca9713d",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1218.md",
+      "code": "P1218",
+      "sha256": "f6e1d6ae5703b8e97604b5d10d98c558f822ea185909800e5475b8627b911cf3",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1219.md",
+      "code": "P1219",
+      "sha256": "38ad477e8b58ee74d70eb777b12e00c36aa07bbf8b227cc9b85251bef3393127",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1220.md",
+      "code": "P1220",
+      "sha256": "24ac78d0b18553d07f2027cbb121deb9d4b074e8b285b2cd27e46afd0dbbfb12",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1239.md",
+      "code": "P1239",
+      "sha256": "4e800bba98fa0e333b5f4a1303b6c6a59b15fbad3946f8ef25e45331ca3a1252",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1240.md",
+      "code": "P1240",
+      "sha256": "5eb47d606e5959b467b9bc172d0c7eb59522e7684bb0f98ec1a1616570cf27ee",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1241.md",
+      "code": "P1241",
+      "sha256": "2054200ed030f7bfd0737876b2217191ec34269334abf8a0c864fab30481a747",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1242.md",
+      "code": "P1242",
+      "sha256": "69bf259b2720ea88fd456de1d11d8e5b1924053ee204b24bdad965a49b842420",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1243.md",
+      "code": "P1243",
+      "sha256": "95d43762ad083190bcf9365db5c6b277b350aa0c6079d788feda6143b8bc164f",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1247.md",
+      "code": "P1247",
+      "sha256": "4f5e8ea7347f3a9d95d6f57de6c08974334fc6b7a6e48315e0b3d2221dad7971",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1248.md",
+      "code": "P1248",
+      "sha256": "8945c6623d98634000ed62d42418273249eec3a9996eed5ddbd6b34d626cdfa6",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1250.md",
+      "code": "P1250",
+      "sha256": "27019cbd101352cbab5a2d5d6a53cef0a27c555052141560a8f95e5c8ce28ead",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1255.md",
+      "code": "P1255",
+      "sha256": "3f6e26c605ef63147965a0389b4bd9bc5853e222369827fced5522a3581780ea",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1256.md",
+      "code": "P1256",
+      "sha256": "2ef0a49c5038c92f5280d60942a0dcae1eedab0d113865102e43715c7acca76c",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1335.md",
+      "code": "P1335",
+      "sha256": "163529d7b794ed0fc472f4f8c509053e592e6ba3a344b2e67d7622d78231ed5a",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1336.md",
+      "code": "P1336",
+      "sha256": "4743e4d5e85ade09ac30f92ffe38e320d785a50da1b152a6ea8afcb2be095a92",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1337.md",
+      "code": "P1337",
+      "sha256": "3509ffe91e3c8c6737afc5d8a55c15808cbf99bb6244b560b0bdbeefd88409ca",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1338.md",
+      "code": "P1338",
+      "sha256": "441a9cde35a7d5020a1f6ae4c3eb4acba65344681188a3fc6e4d55668fb92dc4",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1340.md",
+      "code": "P1340",
+      "sha256": "0b37afe707342b501d7e1b28e7c9ad36f827864ce30ff3a70ff98b7aa77450d6",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1347.md",
+      "code": "P1347",
+      "sha256": "87df9d1e9b1abc38472e8078418de2e2c892bf6dcb8325855ee24baf6ed43d49",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1354.md",
+      "code": "P1354",
+      "sha256": "af571939cc99867d100e83e48ef21f1b29ca62bd12ad3eacf2986d8649d3d4db",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1355.md",
+      "code": "P1355",
+      "sha256": "552c81e71c8e97083c4be77ffaf2223fea40daa1cda02c63b283a05f8f68fa08",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1358.md",
+      "code": "P1358",
+      "sha256": "9aa552901ebf92741716818bd7dcbe6400fc324f8f660d4b696540391e2f61b4",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1361.md",
+      "code": "P1361",
+      "sha256": "f7af9e60ba4ec7ac4c48417327163a3cb505eb010b7c36216e3827f24fa2f0f2",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1364.md",
+      "code": "P1364",
+      "sha256": "fc178262959f27d3effdbd542fd0455ca5acd308c63471e02537b6d2012b752a",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1370.md",
+      "code": "P1370",
+      "sha256": "c5502fd942d5bc7c1ff701e85afd933471a11e2c0e74a5d417e102e64e507b6e",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1392.md",
+      "code": "P1392",
+      "sha256": "bd395b9392f563ed900c080a09a69485f8aa32c52b432f41586dbc49eed1b7d2",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1423.md",
+      "code": "P1423",
+      "sha256": "e46ea579b1aff20bfe9157ff8df53d64df4f73374661353ba2c99ad7dbff708e",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1424.md",
+      "code": "P1424",
+      "sha256": "b6f6cdbb6110ab2d6b7a187f82164dbc405739eb6794352e5170a4ea2d3ca8a6",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1426.md",
+      "code": "P1426",
+      "sha256": "2e4cb596afb32e2f930f4d8adbac5a119867ea6b098ac7cd9784ad5c470b29b1",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1433.md",
+      "code": "P1433",
+      "sha256": "06fc05d607985e4b94e355c23aa630971a49ac04a152c516a1ef69461e76eb6c",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1455.md",
+      "code": "P1455",
+      "sha256": "50e76afd46888efd204d96af809003bd302ec36ad2a239a36f8e5c67817bb65e",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1458.md",
+      "code": "P1458",
+      "sha256": "2e3ae877c63b2c81257ed2a0bda0ec7c6ac3d479ce71998dad77dfe5f74e859d",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1473.md",
+      "code": "P1473",
+      "sha256": "c4d990d7d7513e48872404c1e3e0e52b48a92ed6c4438c5c93bab9ccf33dffa6",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1476.md",
+      "code": "P1476",
+      "sha256": "2c865519e7d80e5751e53e385b9ae447f0d35bd6fa8115b320a22bcd848afb20",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1503.md",
+      "code": "P1503",
+      "sha256": "253d70f0813e786b33b8b7f49a79e11154b538ff6fb1b9cb1523452b29a05dca",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1519.md",
+      "code": "P1519",
+      "sha256": "1981b8a48fa5d27ca2d17b3b06047ede8234317c69af48b50035f62d1195b728",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1522.md",
+      "code": "P1522",
+      "sha256": "65746cd67fd5057ff6981f60501e23b2652e9670750d7ba8adc2a2f85cae297b",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1523.md",
+      "code": "P1523",
+      "sha256": "8793a070c4ad739dca3c0d6d0b38fcf87a6a24440dcd02211b8e5e798a62be0e",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1526.md",
+      "code": "P1526",
+      "sha256": "7de032ea71710001cd7caff5560faa977e5a2a33e44c6685b82d40fdb094adee",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1527.md",
+      "code": "P1527",
+      "sha256": "e210b115bc05d2dd196dca17848fa23a2a9814ee71fb00819d756cebeb7c6d1d",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1528.md",
+      "code": "P1528",
+      "sha256": "5d04359fefcfacf8df46413acb23e8bcb58c7592135498b38682917daa8893a3",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1531.md",
+      "code": "P1531",
+      "sha256": "7979000d5257ebd36264bf7a9b135617787690b76ff23cf2a9efb1a9d29fa697",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1542.md",
+      "code": "P1542",
+      "sha256": "1a071e28898ff02326a07f33fbd862cc6eff8302e3215e25261dada63e27943d",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1545.md",
+      "code": "P1545",
+      "sha256": "88967ff5e20557f749e1c8e1a93be8da74b643556e05d0066d7324d75eacbeaf",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1555.md",
+      "code": "P1555",
+      "sha256": "ab2a172c742701d7cef7ee72eeed338493b959062ae1c18ee30bf72147cd0742",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1556.md",
+      "code": "P1556",
+      "sha256": "7c15fe324dad05224864902a8657bfcddbf90bcc6ce80677938cc03222e8484b",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1557.md",
+      "code": "P1557",
+      "sha256": "5cdd970c4ab465b511ba299606a1ff4a7d5806a5dee5d01aac2785c378ec33f7",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1560.md",
+      "code": "P1560",
+      "sha256": "b2e7b51184215d9bd4ea0156c70bd3e22b8a9349e505603fc5204ea0e298e65f",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1562.md",
+      "code": "P1562",
+      "sha256": "02dcdf15a6ea37a7812484ffbe1be5d253af273dfdb16a26cfb64d06d76818b2",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1563.md",
+      "code": "P1563",
+      "sha256": "28c1f6cfc701847db7ea868817444c2b956a13c44f59d9a9ae8668548b439318",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1569.md",
+      "code": "P1569",
+      "sha256": "94e39ecd6a20457a4296cb122e7792054fbe758dc7177d35bbebaa78966524e6",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1570.md",
+      "code": "P1570",
+      "sha256": "aa18fcfd548960eed9336eada1aac19337ee76ab35f849a6871d91e8eda43181",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1571.md",
+      "code": "P1571",
+      "sha256": "87cf6e12a96002aa0cb0f87c3953d8128b0d0ed107a652c14edd0bc8fe81ddc8",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1581.md",
+      "code": "P1581",
+      "sha256": "dd6ce4e02e9720c73f11cf145fa73d6b1e251b7af623c3d7dff29d8177bd5497",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1582.md",
+      "code": "P1582",
+      "sha256": "371f3af302870fcabbc7faf5fe4d4633f3947f8925266febc71e1b09eb4a66ae",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1602.md",
+      "code": "P1602",
+      "sha256": "599e2dcf89cb7c9d7290a75e153476878d2fc695ac0a07fff3b5a8f84c617af7",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1609.md",
+      "code": "P1609",
+      "sha256": "6b433241d6859de6cf32c56c463caf904b732355301ff2e704d596668fd35a15",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1612.md",
+      "code": "P1612",
+      "sha256": "7a110f4ab755abc25b65a1842a0f0ccba2eb0ce259809517ea0a9808ad98f341",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1613.md",
+      "code": "P1613",
+      "sha256": "f67691fbd3f5a66656ae9711124de6f467e2e103225b53ad3b74ace15aa34b80",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1624.md",
+      "code": "P1624",
+      "sha256": "5c4805197ef54679ec8c808d3eeb51864e83a08586eff1df0f5856b5ce5923f8",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1625.md",
+      "code": "P1625",
+      "sha256": "59452d3adf3112420899728307a366864b46aa976e344a1b0477f6dd493d4a10",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1631.md",
+      "code": "P1631",
+      "sha256": "d272e5014264dd6f8c1c8e124171ef0733bb950fece4f649ee9fff637e7c8a7f",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1633.md",
+      "code": "P1633",
+      "sha256": "c64e9bedd64c5fbbeda571bf4ddfd999fcc0be0a09e69aaf41cdba16e0513e14",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1634.md",
+      "code": "P1634",
+      "sha256": "2407035565a291b1b5f9bdf18203946ff361daec960e5dfa8de6755dfb27fb9c",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1637.md",
+      "code": "P1637",
+      "sha256": "5a2ac61ccd76f16e52d3eb7a5ffeb595451016c28fd674ee252205438d356f85",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1639.md",
+      "code": "P1639",
+      "sha256": "776e9253391b959b63e3c60b3d2c827d8d5e13baa53a2595079080f9f9dd7af7",
+      "reviewLevel": "deep-source",
+      "sourceReview": "needs-review"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1643.md",
+      "code": "P1643",
+      "sha256": "bfc9a7eeb1d2f154077f78656f16c454036028ea3dcf49a70a7914f82e00c70c",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1647.md",
+      "code": "P1647",
+      "sha256": "4ede7ed0424272c002bcedd0cb58709751745079166841e49940f3641bdf79c8",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1649.md",
+      "code": "P1649",
+      "sha256": "74ee9d3fdde4e9c23c99b695bcee430e2f400d1139edd6a01d109b7a0df8184a",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1653.md",
+      "code": "P1653",
+      "sha256": "bf138f3c345fb7edb3da3e37c55108b5b3af61cb45d6ab5f508fc471c5415158",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1746.md",
+      "code": "P1746",
+      "sha256": "1a98ca34b3940597f43db2c9f8849db638c0939d0c68a1bf621b56725e6079fa",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1814.md",
+      "code": "P1814",
+      "sha256": "9db89063d30f8ddf4f386a4204faab22f12f498aa5bf6a81f3a663144df5c4d9",
+      "reviewLevel": "deep-source",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1815.md",
+      "code": "P1815",
+      "sha256": "a565a665d57f649d1f61bf08a57cda56ba039a13f70aaabc9aa9a6c073cd9079",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1819.md",
+      "code": "P1819",
+      "sha256": "35b8674e8e87d2c88c4620bc7d80d8e17173a11adcda12c652c5da9c9f9761cc",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1820.md",
+      "code": "P1820",
+      "sha256": "37a35cf7251c99b79783ef68341cd2a03cab8fa187b3dc04e08f8666f0df917a",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1824.md",
+      "code": "P1824",
+      "sha256": "55a84fd095a9db323229f6f36a52794f03e1e916b53358b4c7aef3b385d1dabf",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1825.md",
+      "code": "P1825",
+      "sha256": "e03ba3086ab7da2e0c778298274ae7012f4e91dc1698128b6bb4fe2be59be8c0",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1829.md",
+      "code": "P1829",
+      "sha256": "b3ce93d084e7b1506b365302b54321b8633f16fc0e3a3d2bbb9e173b55559b12",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1830.md",
+      "code": "P1830",
+      "sha256": "76f22453fdcfc29768729aad535d1eda0ae78100aaff1af266f06d5a80abcc1e",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1847.md",
+      "code": "P1847",
+      "sha256": "72cb8bbd0f99167317942cc70b689ea2e4f2ddb07a6c6a9d6f312d11f307bf4e",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1848.md",
+      "code": "P1848",
+      "sha256": "9bfe6c709afb842bfb17ed9f89a620ce3a9650671756736e287d7343f2c3ec6a",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1850.md",
+      "code": "P1850",
+      "sha256": "03a4ecb8db53971990227e07f67e99388d90e181c272571588721ecacba48301",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    },
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/P1853.md",
+      "code": "P1853",
+      "sha256": "a01485d77575a92f83018ebea6179cc661baa86820b0ef79d4b8e7b6957a58f5",
+      "reviewLevel": "body-only",
+      "sourceReview": "checked"
+    }
+  ],
+  "inspectedInputFiles": [
+    {
+      "path": "cars-errhive/content/code-articles/batch-24/research-notes.json",
+      "sha256": "05b9c636de98f400263af0e901d9901be88a70c7ca941d7c095a2a12b7a88d2c",
+      "bytes": 36238
+    },
+    {
+      "path": "cars-errhive/research/article-assignments/WRITER_BRIEF.md",
+      "sha256": "100048ae02b109bebbe2b215125cfef11d4e9661dd45e5ebc295ac96579ba943",
+      "bytes": 6466
+    },
+    {
+      "path": "cars-errhive/research/article-assignments/batch-24.json",
+      "sha256": "585ad8bc416ecccf11bd4292bebf9f49a44eecbaff9e45f6f74f48727ea242d9",
+      "bytes": 68024
+    },
+    {
+      "path": "cars-errhive/src/data/diagnostic-source-index.json",
+      "sha256": "5a731f27136e9c9b5be5f886bfbc2847b1dd429b50d16ee51a288d15bc89bc95",
+      "bytes": 5583982
+    },
+    {
+      "path": "wave3/writer24/audi-p1545-throttle-wiring-1.png",
+      "sha256": "9d68ba1f7ed989d1e27ef02ca0eb02263ca5768f04667d744ce547dbc0e0c4d0",
+      "bytes": 102780
+    },
+    {
+      "path": "wave3/writer24/audi-p1545-throttle-wiring-2.png",
+      "sha256": "71e90fb48174f6f8b272e3487d0c33f72ec7229bc35033c8179e88ca0d497e35",
+      "bytes": 110377
+    },
+    {
+      "path": "wave3/writer24/audi-p1545-throttle-wiring-4.png",
+      "sha256": "7c7a86d64acd856905cd13f2fb230a37da48d9993f4f2155987cf7f795d337e7",
+      "bytes": 109873
+    },
+    {
+      "path": "wave3/writer24/audi-p1545-throttle-wiring.pdf",
+      "sha256": "c9dba40ab7b8bb23d6f7779884f2a464d1c3bebad742d68035b1afb945ddad83",
+      "bytes": 239083
+    },
+    {
+      "path": "wave3/writer24/audi-p1545-throttle-wiring.txt",
+      "sha256": "3ad8e7eaa0174c5635a2ab28dc7dedbe85d10a4e79e1e3f4db302808743519af",
+      "bytes": 12772
+    },
+    {
+      "path": "wave3/writer24/oem-p1624.json",
+      "sha256": "6a473de600ae994b0329727d9b3c8c081d68b1c6375d451f2fbf063eb9843ad7",
+      "bytes": 1069
+    },
+    {
+      "path": "wave3/writer24/oem-throttle-sources.json",
+      "sha256": "e9b9f31bc0a7eeb586f473f792b077e2460026ad27ea09e2140bb530b48eed51",
+      "bytes": 2381
+    },
+    {
+      "path": "wave3/writer24/ross-candidate-content.json",
+      "sha256": "b4e94b398cd9e3e9d13e5d364ebcbc66cdbce640181e685bfb577156a5df1360",
+      "bytes": 157375
+    },
+    {
+      "path": "wave3/writer24/ross-pages.json",
+      "sha256": "d14f031ef0eba956a059920b2c40f36bc1b600d1dd80d1501206053a75acd82b",
+      "bytes": 145308
+    },
+    {
+      "path": "wave3/writer24/ross-supplementary.json",
+      "sha256": "e93b370dfa77903a01edf34ca2c13f6a18fdbce5c14cd03e11bca16db226b4d3",
+      "bytes": 43890
+    },
+    {
+      "path": "wave3/writer24/vw-p1545-throttle-wiring-1.png",
+      "sha256": "d924ffe6a6b4d7512c8a10182394baaf27b0459c29b802e1c11364af96e195b9",
+      "bytes": 101020
+    },
+    {
+      "path": "wave3/writer24/vw-p1545-throttle-wiring-5.png",
+      "sha256": "f0cd3d6844140e8e5a371a85124728da1fa72fe15d6f6b07b9649b737dca6b5e",
+      "bytes": 44878
+    },
+    {
+      "path": "wave3/writer24/vw-p1545-throttle-wiring.pdf",
+      "sha256": "2ce5b42b828ef22955f9cd9181c2dd072396d7622504a0e2f0ea6df88c1aaef8",
+      "bytes": 295825
+    },
+    {
+      "path": "wave3/writer24/vw-p1545-throttle-wiring.txt",
+      "sha256": "c23820d7f14e20e8777076893ab3273367352edfb4af572dfe8d59b5c7b67d8e",
+      "bytes": 15424
+    },
+    {
+      "path": "wave3/writer24/vw-p1624-09g.pdf",
+      "sha256": "9e7f73d39fc8bd5b0b07ab8aae3ed337f38bbe2bbd98f0afe30aefbc83764858",
+      "bytes": 192848
+    },
+    {
+      "path": "wave3/writer24/vw-p1624-09g.txt",
+      "sha256": "2f0bce16be735a2742dead05e4d501cba5af1ee017ca975b1d954ff1206cedcb",
+      "bytes": 2922
+    },
+    {
+      "path": "wave3/writer24/vw-p1624-1.png",
+      "sha256": "08267539b4b4356ad7cef62c7192c684387c9d6f549e7ad1eab7ce76d55da652",
+      "bytes": 241052
+    },
+    {
+      "path": "wave3/writer24/vw-p1624-2.png",
+      "sha256": "64f09a3a07616eeb9812f681d6c0b59692a56f0a02edc335b3b36e26d040cf0c",
+      "bytes": 48747
+    },
+    {
+      "path": "wave3/review-batch24-w21/vw-p1545-page8.png",
+      "sha256": "d39bb96d7029e1a3a3f1456d9cf7e18a1732bad38aa822330836d792f70df7b3",
+      "bytes": 91642,
+      "inspection": "Original PDF physical page8 rendered independently and visually read."
+    }
+  ],
+  "limitations": [
+    "80 articles received body review plus structural source-locator checks, not independent deep factual verification. No claim is made that their every technical fact has been re-established.",
+    "Ross-Tech is an independent diagnostic-tool publisher. Its original wiki text is primary evidence of what Ross-Tech states, not OEM proof or verified fitment for every Volkswagen.",
+    "Historical OEM documents establish the cited narrow cases, not current supersession status, worldwide applicability, warranty eligibility, or repair authorization.",
+    "No vehicle testing, mechanic signoff, search-demand validation, publication or indexing occurred.",
+    "Source text and PDF captures remain scratch research evidence; this report does not reproduce the manuals."
+  ],
+  "mutations": "Only this report and reviewer scratch helpers were written; no batch24 article, assignment or shared source index was edited.",
+  "articleFilesChangedBeforeReport": []
+}

@@ -1,0 +1,1956 @@
+[
+  {
+    "entryId": "generic-p0b86",
+    "code": "P0B86",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense P Circuit",
+    "canonicalPath": "/codes/generic/p0b86/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b8b",
+    "code": "P0B8B",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Q Circuit",
+    "canonicalPath": "/codes/generic/p0b8b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b95",
+    "code": "P0B95",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense S Circuit",
+    "canonicalPath": "/codes/generic/p0b95/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b9a",
+    "code": "P0B9A",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense T Circuit",
+    "canonicalPath": "/codes/generic/p0b9a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b9f",
+    "code": "P0B9F",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense U Circuit",
+    "canonicalPath": "/codes/generic/p0b9f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ba0",
+    "code": "P0BA0",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense U Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0ba0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 269,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 574,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ba1",
+    "code": "P0BA1",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense U Circuit Low",
+    "canonicalPath": "/codes/generic/p0ba1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 269,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 279,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 628,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ba2",
+    "code": "P0BA2",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense U Circuit High",
+    "canonicalPath": "/codes/generic/p0ba2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 269,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 279,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 632,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 748,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 749,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ba4",
+    "code": "P0BA4",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense V Circuit",
+    "canonicalPath": "/codes/generic/p0ba4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ba5",
+    "code": "P0BA5",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense V Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0ba5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 270,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 574,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ba6",
+    "code": "P0BA6",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense V Circuit Low",
+    "canonicalPath": "/codes/generic/p0ba6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 269,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 279,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 628,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ba7",
+    "code": "P0BA7",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense V Circuit High",
+    "canonicalPath": "/codes/generic/p0ba7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 269,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 279,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 632,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 748,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 749,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ba9",
+    "code": "P0BA9",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense W Circuit",
+    "canonicalPath": "/codes/generic/p0ba9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0baa",
+    "code": "P0BAA",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense W Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0baa/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 575,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bab",
+    "code": "P0BAB",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense W Circuit Low",
+    "canonicalPath": "/codes/generic/p0bab/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 628,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bac",
+    "code": "P0BAC",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense W Circuit High",
+    "canonicalPath": "/codes/generic/p0bac/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 632,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 748,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 749,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bae",
+    "code": "P0BAE",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense X Circuit",
+    "canonicalPath": "/codes/generic/p0bae/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0baf",
+    "code": "P0BAF",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense X Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0baf/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 575,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bb0",
+    "code": "P0BB0",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense X Circuit Low",
+    "canonicalPath": "/codes/generic/p0bb0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 628,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bb1",
+    "code": "P0BB1",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense X Circuit High",
+    "canonicalPath": "/codes/generic/p0bb1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 632,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 748,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 749,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bb3",
+    "code": "P0BB3",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Y Circuit",
+    "canonicalPath": "/codes/generic/p0bb3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bb4",
+    "code": "P0BB4",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Y Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0bb4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 575,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bb5",
+    "code": "P0BB5",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Y Circuit Low",
+    "canonicalPath": "/codes/generic/p0bb5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 628,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bb6",
+    "code": "P0BB6",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Y Circuit High",
+    "canonicalPath": "/codes/generic/p0bb6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 632,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 748,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 749,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bb8",
+    "code": "P0BB8",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Z Circuit",
+    "canonicalPath": "/codes/generic/p0bb8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bb9",
+    "code": "P0BB9",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Z Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0bb9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 575,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bba",
+    "code": "P0BBA",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Z Circuit Low",
+    "canonicalPath": "/codes/generic/p0bba/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 628,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bbb",
+    "code": "P0BBB",
+    "dictionaryTitle": "Hybrid/EV Battery Voltage Sense Z Circuit High",
+    "canonicalPath": "/codes/generic/p0bbb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 632,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 748,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 749,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bc3",
+    "code": "P0BC3",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor E Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0bc3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 586,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bc4",
+    "code": "P0BC4",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor E Circuit Low",
+    "canonicalPath": "/codes/generic/p0bc4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 639,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0bc5",
+    "code": "P0BC5",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor E Circuit High",
+    "canonicalPath": "/codes/generic/p0bc5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 640,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c20",
+    "code": "P0C20",
+    "dictionaryTitle": "Electric/Auxiliary Transmission Fluid Pump Phase U-V-W Circuit/Open",
+    "canonicalPath": "/codes/generic/p0c20/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 699,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c34",
+    "code": "P0C34",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor F Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0c34/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 586,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c35",
+    "code": "P0C35",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor F Circuit Low",
+    "canonicalPath": "/codes/generic/p0c35/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 639,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c36",
+    "code": "P0C36",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor F Circuit High",
+    "canonicalPath": "/codes/generic/p0c36/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 640,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c43",
+    "code": "P0C43",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Temperature Sensor A Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0c43/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 560,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c44",
+    "code": "P0C44",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Temperature Sensor A Circuit Low",
+    "canonicalPath": "/codes/generic/p0c44/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 640,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c45",
+    "code": "P0C45",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Temperature Sensor A Circuit High",
+    "canonicalPath": "/codes/generic/p0c45/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 641,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c47",
+    "code": "P0C47",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Pump A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0c47/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 274,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 561,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c4a",
+    "code": "P0C4A",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Pump A Control Performance",
+    "canonicalPath": "/codes/generic/p0c4a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 561,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c4e",
+    "code": "P0C4E",
+    "dictionaryTitle": "Drive Motor A Position Exceeded Learning Limit",
+    "canonicalPath": "/codes/generic/p0c4e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 665,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c4f",
+    "code": "P0C4F",
+    "dictionaryTitle": "Drive Motor B Position Exceeded Learning Limit",
+    "canonicalPath": "/codes/generic/p0c4f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 687,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c61",
+    "code": "P0C61",
+    "dictionaryTitle": "Drive Motor B Position Sensor Circuit B Low",
+    "canonicalPath": "/codes/generic/p0c61/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-10-eng-trans-hybrid",
+        "page": 251,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-10-eng-trans-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG10%20ENG-TRANS-HYBRID%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG10 ENG-TRANS-HYBRID Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 328,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+        "page": 304,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2010-10obdg10-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2010/10OBDG10%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 687,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c62",
+    "code": "P0C62",
+    "dictionaryTitle": "Drive Motor B Position Sensor Circuit B High",
+    "canonicalPath": "/codes/generic/p0c62/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-10-eng-trans-hybrid",
+        "page": 251,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-10-eng-trans-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG10%20ENG-TRANS-HYBRID%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG10 ENG-TRANS-HYBRID Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 328,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+        "page": 304,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2010-10obdg10-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2010/10OBDG10%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 687,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c76",
+    "code": "P0C76",
+    "dictionaryTitle": "Hybrid/EV Battery System Discharge Time Too Long",
+    "canonicalPath": "/codes/generic/p0c76/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-10-eng-trans-hybrid",
+        "page": 146,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-10-eng-trans-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG10%20ENG-TRANS-HYBRID%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG10 ENG-TRANS-HYBRID Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 225,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+        "page": 185,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2010-10obdg10-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2010/10OBDG10%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 538,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c77",
+    "code": "P0C77",
+    "dictionaryTitle": "Hybrid/EV Battery System Precharge Time Too Short",
+    "canonicalPath": "/codes/generic/p0c77/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-10-eng-trans-hybrid",
+        "page": 227,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-10-eng-trans-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG10%20ENG-TRANS-HYBRID%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG10 ENG-TRANS-HYBRID Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 275,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+        "page": 241,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2010-10obdg10-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2010/10OBDG10%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 554,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c78",
+    "code": "P0C78",
+    "dictionaryTitle": "Hybrid/EV Battery System Precharge Time Too Long",
+    "canonicalPath": "/codes/generic/p0c78/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 554,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c7d",
+    "code": "P0C7D",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor G Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0c7d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 586,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c7e",
+    "code": "P0C7E",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor G Circuit Low",
+    "canonicalPath": "/codes/generic/p0c7e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 639,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c7f",
+    "code": "P0C7F",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor G Circuit High",
+    "canonicalPath": "/codes/generic/p0c7f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 640,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c82",
+    "code": "P0C82",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor H Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0c82/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 586,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c83",
+    "code": "P0C83",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor H Circuit Low",
+    "canonicalPath": "/codes/generic/p0c83/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 639,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 749,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c84",
+    "code": "P0C84",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor H Circuit High",
+    "canonicalPath": "/codes/generic/p0c84/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 640,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 750,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c89",
+    "code": "P0C89",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor I Range/Performance",
+    "canonicalPath": "/codes/generic/p0c89/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 586,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c8a",
+    "code": "P0C8A",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor I Circuit Low",
+    "canonicalPath": "/codes/generic/p0c8a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 639,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 750,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c8b",
+    "code": "P0C8B",
+    "dictionaryTitle": "Hybrid/EV Battery Temperature Sensor I Circuit High",
+    "canonicalPath": "/codes/generic/p0c8b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 640,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 750,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-b00a0",
+    "code": "B00A0",
+    "dictionaryTitle": "Occupant Classification System",
+    "canonicalPath": "/codes/generic/b00a0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10210918",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10210918.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10210918.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10210918-0001.pdf",
+        "scope": "Manufacturer communication 08-003-22 dated 20220426, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c94",
+    "code": "P2C94",
+    "dictionaryTitle": "Hybrid/EV Battery Contactor Control Supply Circuit Low",
+    "canonicalPath": "/codes/generic/p2c94/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10239477",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10239477.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10239477.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10239477-0001.pdf",
+        "scope": "Manufacturer communication SSM 51783 dated 20230712, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u3001",
+    "code": "U3001",
+    "dictionaryTitle": "Control Module Improper Shutdown Performance",
+    "canonicalPath": "/codes/generic/u3001/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10241619",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10241619.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10241619.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10241619-0001.pdf",
+        "scope": "Manufacturer communication SSM 51894 dated 20230828, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-b00df",
+    "code": "B00DF",
+    "dictionaryTitle": "Passenger Restraints Disable Switch",
+    "canonicalPath": "/codes/generic/b00df/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10247161",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10247161.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10247161.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10247161-0001.pdf",
+        "scope": "Manufacturer communication SSM 52117 dated 20231208, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0e5f",
+    "code": "P0E5F",
+    "dictionaryTitle": "Battery Charger Coupler Temperature A Too High",
+    "canonicalPath": "/codes/generic/p0e5f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10241595",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10241595.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10241595.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10241595-0001.pdf",
+        "scope": "Manufacturer communication SSM 51866 dated 20230816, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0eee",
+    "code": "P0EEE",
+    "dictionaryTitle": "Battery Charger Coupler Temperature B Too High",
+    "canonicalPath": "/codes/generic/p0eee/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-11036286",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/11036286.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/11036286.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2026/MC-11036286-0001.pdf",
+        "scope": "Manufacturer communication SSM 55080 dated 20260813, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0743",
+    "code": "P0743",
+    "dictionaryTitle": "Torque Converter Clutch Circuit Electrical",
+    "canonicalPath": "/codes/generic/p0743/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10115959",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10115959.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10115959.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10115959-9999.pdf",
+        "scope": "Manufacturer communication SSM 46719 dated 20170725, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2451",
+    "code": "P2451",
+    "dictionaryTitle": "EVAP System Switching Valve Stuck Closed",
+    "canonicalPath": "/codes/generic/p2451/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10168790",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10168790.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10168790.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10168790-0001.pdf",
+        "scope": "Manufacturer communication SSM 48301 dated 20191101, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-c0031",
+    "code": "C0031",
+    "dictionaryTitle": "Left Front Wheel Speed Sensor",
+    "canonicalPath": "/codes/generic/c0031/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10155560",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10155560.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10155560.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10155560-9999.pdf",
+        "scope": "Manufacturer communication SSM 47785 dated 20190204, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c39",
+    "code": "P2C39",
+    "dictionaryTitle": "Cylinder Head Temperature Sensor B Range/Performance",
+    "canonicalPath": "/codes/generic/p2c39/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-11032695",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/11032695.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/11032695.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2026/MC-11032695-0001.pdf",
+        "scope": "Manufacturer communication TSB 26-2217 dated 20260506, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "nhtsa-mc-11032695",
+        "page": 2,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/11032695.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/11032695.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2026/MC-11032695-0001.pdf",
+        "scope": "Manufacturer communication TSB 26-2217 dated 20260506, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0252",
+    "code": "U0252",
+    "dictionaryTitle": "Lost Communication With Lighting Control Module - Rear B",
+    "canonicalPath": "/codes/generic/u0252/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10235318",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10235318.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10235318.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10235318-0001.pdf",
+        "scope": "Manufacturer communication SSM 51578 dated 20230425, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-b00d5",
+    "code": "B00D5",
+    "dictionaryTitle": "Restraint System Passenger Disable Indicator",
+    "canonicalPath": "/codes/generic/b00d5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10201594",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10201594.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10201594.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10201594-0001.pdf",
+        "scope": "Manufacturer communication SSM 50127 dated 20210917, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d2d",
+    "code": "P0D2D",
+    "dictionaryTitle": "Drive Motor A Inverter Voltage Sensor A\u201d Circuit",
+    "canonicalPath": "/codes/generic/p0d2d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10187878",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10187878.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10187878.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10187878-0001.pdf",
+        "scope": "Manufacturer communication 21B02-S1 dated 20210225, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2cfc",
+    "code": "P2CFC",
+    "dictionaryTitle": "A/C Clutch Control Circuit",
+    "canonicalPath": "/codes/generic/p2cfc/",
+    "primaryCandidates": [
+      {
+        "sourceId": "nhtsa-mc-10212959",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10212959.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave3/root/nhtsa/10212959.pdf",
+        "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10212959-0001.pdf",
+        "scope": "Manufacturer communication SSM 50811 dated 20220526, archived by NHTSA. Vehicle, engine, build, market, revision and repair-history limits come from the full bulletin. Historical statements about planned updates are not verified current availability.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cd6",
+    "code": "P0CD6",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Temperature Sensor B Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0cd6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 561,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cd7",
+    "code": "P0CD7",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Temperature Sensor B Circuit Low",
+    "canonicalPath": "/codes/generic/p0cd7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 641,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cd8",
+    "code": "P0CD8",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Temperature Sensor B Circuit High",
+    "canonicalPath": "/codes/generic/p0cd8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 642,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ce2",
+    "code": "P0CE2",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Control Valve A Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0ce2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 559,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ce3",
+    "code": "P0CE3",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Control Valve A Control Circuit High",
+    "canonicalPath": "/codes/generic/p0ce3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 559,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ce5",
+    "code": "P0CE5",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Control Valve Position Sensor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0ce5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 559,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ce6",
+    "code": "P0CE6",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Control Valve Position Sensor Circuit Low",
+    "canonicalPath": "/codes/generic/p0ce6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 560,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ce7",
+    "code": "P0CE7",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Control Valve Position Sensor Circuit High",
+    "canonicalPath": "/codes/generic/p0ce7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 560,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ce9",
+    "code": "P0CE9",
+    "dictionaryTitle": "Hybrid/EV Electronics Coolant Pump A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0ce9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 565,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cea",
+    "code": "P0CEA",
+    "dictionaryTitle": "Hybrid/EV Electronics Coolant Pump A Performance",
+    "canonicalPath": "/codes/generic/p0cea/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 565,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cef",
+    "code": "P0CEF",
+    "dictionaryTitle": "Hybrid/EV Electronics Coolant Temperature Sensor A Circuit Range/Perfomance",
+    "canonicalPath": "/codes/generic/p0cef/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 566,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cf0",
+    "code": "P0CF0",
+    "dictionaryTitle": "Hybrid/EV Electronics Coolant Temperature Sensor A Circuit Low",
+    "canonicalPath": "/codes/generic/p0cf0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 566,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cf1",
+    "code": "P0CF1",
+    "dictionaryTitle": "Hybrid/EV Electronics Coolant Temperature Sensor A Circuit High",
+    "canonicalPath": "/codes/generic/p0cf1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 566,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cf4",
+    "code": "P0CF4",
+    "dictionaryTitle": "Control Pilot Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0cf4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 596,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cf5",
+    "code": "P0CF5",
+    "dictionaryTitle": "Control Pilot Circuit Low",
+    "canonicalPath": "/codes/generic/p0cf5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 596,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cf6",
+    "code": "P0CF6",
+    "dictionaryTitle": "Control Pilot Circuit High",
+    "canonicalPath": "/codes/generic/p0cf6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 596,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cf9",
+    "code": "P0CF9",
+    "dictionaryTitle": "Control Pilot Charging Switch A Range/Performance",
+    "canonicalPath": "/codes/generic/p0cf9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 600,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d01",
+    "code": "P0D01",
+    "dictionaryTitle": "Control Pilot Charging Ventilation Switch Range/Performance",
+    "canonicalPath": "/codes/generic/p0d01/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 600,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d0a",
+    "code": "P0D0A",
+    "dictionaryTitle": "Battery Charging System Positive Contactor A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0d0a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 555,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d11",
+    "code": "P0D11",
+    "dictionaryTitle": "Battery Charging System Negative Contactor A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0d11/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 555,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d17",
+    "code": "P0D17",
+    "dictionaryTitle": "Battery Charging System A High Voltage Interlock Circuit Low",
+    "canonicalPath": "/codes/generic/p0d17/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 555,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d18",
+    "code": "P0D18",
+    "dictionaryTitle": "Battery Charging System A High Voltage Interlock Circuit High",
+    "canonicalPath": "/codes/generic/p0d18/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 555,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d22",
+    "code": "P0D22",
+    "dictionaryTitle": "Battery Charger A Output Current Performance",
+    "canonicalPath": "/codes/generic/p0d22/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 598,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d23",
+    "code": "P0D23",
+    "dictionaryTitle": "Battery Charger A Output Shorted",
+    "canonicalPath": "/codes/generic/p0d23/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 598,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d26",
+    "code": "P0D26",
+    "dictionaryTitle": "Battery Charger System Precharge Time Too Long",
+    "canonicalPath": "/codes/generic/p0d26/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 597,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d2a",
+    "code": "P0D2A",
+    "dictionaryTitle": "Battery Charger Input Current Too High",
+    "canonicalPath": "/codes/generic/p0d2a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 598,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d2b",
+    "code": "P0D2B",
+    "dictionaryTitle": "Control Pilot Indicator Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0d2b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 587,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d2c",
+    "code": "P0D2C",
+    "dictionaryTitle": "Charge Status Indicator A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0d2c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 587,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d39",
+    "code": "P0D39",
+    "dictionaryTitle": "Battery Charger A Input Current Sensor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0d39/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 742,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d3a",
+    "code": "P0D3A",
+    "dictionaryTitle": "Battery Charger A Input Current Sensor Circuit Low",
+    "canonicalPath": "/codes/generic/p0d3a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "page": 740,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.logical.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+        "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+        "makeIds": []
+      }
+    ]
+  }
+]

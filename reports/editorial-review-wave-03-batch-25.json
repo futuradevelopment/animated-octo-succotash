@@ -1,0 +1,3551 @@
+{
+  "schemaVersion": 1,
+  "reportType": "independent-editorial-review",
+  "reviewer": "writer_26",
+  "authorReviewed": "writer_25",
+  "batch": "batch-25",
+  "completedAt": "2026-10-30T19:06:29.699974+00:00",
+  "status": "complete",
+  "verdict": "All 100 bodies and scopes reviewed, including 20 independent original-PDF deep checks. One minor manuscript wording correction and one assignment-provenance reconciliation are required. Existing source uncertainties remain draft review flags; this is not publication approval.",
+  "counts": {
+    "assignedArticles": 100,
+    "allBodiesRead": 100,
+    "allScopesRead": 100,
+    "bodyOnlyArticles": 80,
+    "deepSourceCheckedArticles": 20,
+    "deepCheckedSubsetOfBodies": true,
+    "nissanDeepChecks": 8,
+    "gmDeepChecks": 12,
+    "originalOemPdfsChecked": 12,
+    "distinctSelectedPhysicalPdfPagesRead": 44,
+    "additionalCorroboratingPhysicalPdfPagesRead": 3,
+    "physicalPdfPagesVisuallyChecked": 14,
+    "articleSha256Recorded": 100,
+    "existingNeedsReviewArticles": 20,
+    "newManuscriptWordingCorrections": 1,
+    "newAssignmentProvenanceCorrections": 1,
+    "unchangedArticleHashesAtReport": 100
+  },
+  "method": [
+    "Read all 100 full manuscript bodies and all applicability/scope strings. Reviewed whether each explanation preserves the actual component, signal, monitor branch and useful next diagnostic distinction. The 20 deep checks are included in the 100, not additional articles.",
+    "For 20 varied Nissan and GM articles, independently read the cited physical pages from retained original manufacturer PDFs. GM rotated table pages were read with native-order PDF text extraction and checked against selected rendered page images; no conclusion relies on garbled sorted text.",
+    "Deep selection includes Nissan P1126 and final U0134, U0154, U0159 and U0405 substitutions, plus fuel vapor/door, restraint, braking/steering communication, transmission, oxygen-sensor, cooling, HV isolation and battery sensing topics.",
+    "Visually inspected 14 distinct original PDF pages, including the ambiguous fuel-door, battery-sensing and Nissan temperature-conversion rows. Read three additional corroborating pages: Titan EC366/372 for the P1126 meaning conflict, and GM hybrid page 562 for pump-enable fault classification.",
+    "Reviewed source uncertainty flags without converting incomplete tables into invented terminal tests, model applicability or universal thresholds. Recorded exact SHA256 for every reviewed manuscript and every PDF used in the deep checks.",
+    "No manuscripts, assignments or source registry entries were changed by this reviewer. Corrections were sent to root."
+  ],
+  "findings": [
+    {
+      "id": "B25-01",
+      "severity": "medium",
+      "category": "assignment-provenance",
+      "codes": [
+        "P1126"
+      ],
+      "location": "research/article-assignments/batch-25.json: nissan-p1126 primaryCandidates",
+      "finding": "The thermostat article correctly cites 2001 Maxima EC451-452. The assignment candidate list also retains incompatible 2004 Titan EC366 and EC372 entries: EC366 merely references P1126 while diagnosing P1122, and EC372 defines P1126 as throttle-control motor relay circuit open. Correct Maxima evidence is also present in the candidate list; the problem is the mixed meaning, not absence of a valid source.",
+      "correction": "Root should remove or explicitly segregate the Titan candidates from the thermostat article provenance and keep the selected Maxima source/pages. No thermostat manuscript rewrite is requested.",
+      "citations": [
+        "https://www.nissan-techinfo.com/refgh0v/sm/2001/Maxima/EC.pdf#page=451",
+        "https://www.nissan-techinfo.com/refgh0v/sm/2001/Maxima/EC.pdf#page=452",
+        "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=366",
+        "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=372"
+      ],
+      "statusAtReview": "open; exact correction sent to root",
+      "manuscriptFactError": false
+    },
+    {
+      "id": "B25-02",
+      "severity": "low",
+      "category": "unsupported-category-word",
+      "codes": [
+        "P0534"
+      ],
+      "location": "content/code-articles/batch-25/P0534.md: Pressure branches have their own timing",
+      "finding": "The sentence groups communication faults among P0534 monitor inhibits. The cited P0534 row explicitly shows pump/control, valve, sensor and controller prerequisites, but does not establish the communication-fault category. Communication exclusions printed later on page 570 belong to the following P0D69 row. This finding concerns support in the cited row, not a claim that no other P0534 calibration can have a communication prerequisite.",
+      "exactOriginal": "Several pump, sensor and communication faults inhibit evaluation.",
+      "exactReplacement": "Several related pump, valve-control and sensor faults inhibit evaluation.",
+      "correction": "Make the one-sentence wording replacement while preserving the battery/cabin cooling distinction, pressure branches and valid-prerequisite guidance.",
+      "citations": [
+        "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=568",
+        "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=569",
+        "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=570",
+        "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=562"
+      ],
+      "statusAtReview": "open; exact correction sent to root",
+      "manuscriptFactError": true
+    }
+  ],
+  "bodyAssessment": {
+    "codeSpecificUsefulness": "The bodies generally explain distinct monitored states and decisions: electrical versus mechanical/flow faults, message absence versus invalid received content, position feedback versus actuation performance, and sensing faults versus real cell or isolation faults. They are concise diagnostic explanations rather than complete vehicle service procedures.",
+    "scope": "Nissan explanations use the stated model/year/manual scope. GM summaries generally state document/calibration scope and do not invent unverified popular-model fitment. The P0041 Camaro-only and P07CE MYB-specific restrictions are retained.",
+    "sharedFamilyLimitation": "Fourteen battery voltage-sense open articles share the OEM family strategy. They disclose that shared evidence and the missing physical letter-to-cell mapping. Their separate channel labels do not establish 14 different repair procedures. The honest limitation is preferable to fabricated channel-specific failures; source-specific location mapping would be needed for materially deeper individual guides.",
+    "editorialRecommendation": "Keep the shared-family disclosure visible and eventually provide cross-navigation to the common monitor explanation. Do not claim uniqueness through invented causes or physical channel assignments.",
+    "repetitiveBoilerplate": "Applicability and safety statements recur appropriately. No lexical similarity score was used as a substitute for the full-body reading."
+  },
+  "safetyAssessment": {
+    "highVoltage": "P0AA6 and battery-voltage family prose keep qualified HV isolation/service boundaries, do not give unscoped energised probing or pack-opening instructions, and do not treat a cleared DTC or numeric resistance threshold as proof that the system is safe. Useful monitor timing, signal comparisons and uncertainty are retained.",
+    "fuelAndRefrigerant": "EVAP and fuel-door bodies keep vapor/pressure work within applicable procedures. The sampled Nissan leak material does not invite compressed-air pressurization. P0534 keeps refrigerant equipment/service boundaries without discarding the useful cooling-mode and pressure-case distinctions.",
+    "restraint": "U0154 identifies the SDM/AOS communication pathway and expected message without offering occupancy bypass, resistor substitution or inflator probing. A non-MIL classification is not represented as restraint-system approval.",
+    "brakingAndSteering": "U0134, U0159 and U0415 distinguish reporting module and source message, and do not equate a non-MIL network DTC with safe assistance operation.",
+    "result": "No new hazardous hands-on procedure or professional-boundary defect identified in the 100-body review. This editorial review does not certify a vehicle, repair or safety-critical system."
+  },
+  "existingSourceReviewFlags": {
+    "count": 20,
+    "issues": [
+      {
+        "code": "P1448",
+        "issue": "Physical page406 prints inconsistent intake-temperature Celsius/Fahrenheit equivalents; no numeric instruction derived from that line."
+      },
+      {
+        "code": "P1441",
+        "issue": "Existing nissan-p1441 dictionary title says Vacuum Cut Valve Bypass Valve; 2001 Altima factory EC376 explicitly defines P1441 as EVAP very small leak. Vehicle-scoped meaning retained; catalog reconciliation unresolved."
+      },
+      {
+        "code": "P04BB",
+        "issue": "P04BB driver-feedback Boolean conditions span pages593–594 with ambiguous grouping; no simplified exact predicate or terminal test asserted."
+      },
+      {
+        "code": "P04C3",
+        "issue": "Original PDF p594 prints 65.9% > Reported Position <=81.6% for invalid lock-position range, unlike adjacent invalid-band rows. Intended threshold interval unresolved; numbers omitted from instructions."
+      },
+      {
+        "code": "P0AE4",
+        "issue": "Original p554 P0AE4 description says open-circuit faults cannot be detected, while threshold column includes off-state open-load detection. Coverage unresolved; no exact open-fault capability asserted."
+      },
+      {
+        "code": "P0B13",
+        "issue": "P0B13 appears in its own no-active-DTC list on p585. Active-versus-latched status and exact re-enable behavior are not resolved by the summary; no reset instruction inferred."
+      },
+      {
+        "code": "P0B3B",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B40",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B45",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B4A",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B4F",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B54",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B59",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B5E",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B63",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B68",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B6D",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B77",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B7C",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      },
+      {
+        "code": "P0B81",
+        "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+      }
+    ],
+    "assessment": "These flags remain unresolved. Five of the flagged articles were independently deep-checked here: P1441, P1448, P04BB, P04C3 and P0B3B. Other flagged bodies were read, but their original pages were not individually deep-checked in this review."
+  },
+  "deepChecks": [
+    {
+      "code": "P1126",
+      "file": "content/code-articles/batch-25/P1126.md",
+      "fileSha256": "66ee12889f4ce82c0ca3184f93c1b3f07143463692f9d14fd35d7c20fec711f4",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "url": "https://www.nissan-techinfo.com/refgh0v/sm/2001/Maxima/EC.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2001-maxima-ec.pdf",
+          "pdfSha256": "b5f189021510f38b91f01c05c5fcd9a85a4111dcd2341393f3e9c5f3c248031c",
+          "pages": [
+            451,
+            452
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Maxima/EC.pdf#page=451",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Maxima/EC.pdf#page=452"
+          ]
+        }
+      ],
+      "scopeReviewed": "2001 Nissan Maxima factory EC manual, thermostat-function procedure. This meaning is limited to the documented model-year application.",
+      "verifiedClaims": [
+        "The 2001 Maxima EC451 diagnosis concerns failure to reach the expected coolant temperature after sufficient running time; thermostat, seal leakage and coolant-temperature-sensor faults are listed.",
+        "The factory workflow starts with thermostat replacement, then a qualified warm-up confirmation; EC452 follows with coolant-temperature-sensor resistance diagnosis if the fault remains. The article accurately distinguishes that source workflow from proving a sensor reading reflects actual engine temperature.",
+        "The article confines the interpretation to the 2001 Maxima source and does not apply the thermostat meaning to every Nissan P1126."
+      ],
+      "decisionUsefulness": "Explains why a warm-up complaint and a sensor-plausibility problem must be separated, while retaining the actual factory sequence.",
+      "outcome": "Manuscript supported; assignment candidate reconciliation required.",
+      "findingIds": [
+        "B25-01"
+      ],
+      "visuallyInspectedPages": [
+        451
+      ]
+    },
+    {
+      "code": "P0159",
+      "file": "content/code-articles/batch-25/P0159.md",
+      "fileSha256": "b9a7d4836243fef085078e2f0f1daba40f6f1195036d165f8386fd333aaa527a",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "url": "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2004-titan-ec.pdf",
+          "pdfSha256": "ca0a3b48cf75a4228afe56e98ca8e07247b0c2f9e0e32867a08a336cebc3c12e",
+          "pages": [
+            195,
+            196,
+            201,
+            202,
+            204,
+            205
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=195",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=196",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=201",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=202",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=204",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=205"
+          ]
+        }
+      ],
+      "scopeReviewed": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "verifiedClaims": [
+        "Titan EC195 identifies bank 2 downstream HO2S2 response, and explains that rear switching is normally slower because of catalyst oxygen storage.",
+        "The source lists circuit/sensor, fuel-pressure, injector and intake-leak alternatives. The article does not equate a slow rear response with automatic catalyst or sensor replacement.",
+        "The bank-2 work-support test distinguishes OK/NG from an incomplete diagnosis and includes a cool-soak/retry path. Overall-function checking is not guaranteed to confirm a first-trip DTC."
+      ],
+      "decisionUsefulness": "Separates incomplete monitor execution from a failed rear-sensor response test and keeps fuel-control causes in the diagnostic branch.",
+      "outcome": "Supported within stated Titan scope."
+    },
+    {
+      "code": "P0441",
+      "file": "content/code-articles/batch-25/P0441.md",
+      "fileSha256": "1d13221bc51b17e2b7ed953f46d9c2d143a2c3690887f77f258a016284209a0e",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "url": "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2004-titan-ec.pdf",
+          "pdfSha256": "ca0a3b48cf75a4228afe56e98ca8e07247b0c2f9e0e32867a08a336cebc3c12e",
+          "pages": [
+            270,
+            271,
+            272,
+            273
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=270",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=271",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=272",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf#page=273"
+          ]
+        }
+      ],
+      "scopeReviewed": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "verifiedClaims": [
+        "Titan EC270 evaluates purge-related intake vacuum through the EVAP pressure signal with the throttle not closed; the failure is inadequate purge flow, not just an electrical command.",
+        "The manual prioritizes listed accelerator-pedal DTCs before this flow diagnosis and includes purge valve, pressure sensing, hose, canister, purge-port and vent alternatives.",
+        "The 100%/0% active-command vacuum distinction supports the article's separation of commanded state from actual flow. The road/warm-up enable conditions differ from an arbitrary idle check."
+      ],
+      "decisionUsefulness": "Gives a concrete decision between absent command, absent physical purge flow and invalid pressure evidence.",
+      "outcome": "Supported within stated Titan scope."
+    },
+    {
+      "code": "P0745",
+      "file": "content/code-articles/batch-25/P0745.md",
+      "fileSha256": "7938e05a575377b3b3af05624cd89696b83f03707d8185a7768c83bbf44c4350",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "nissan-2001-altima-at",
+          "url": "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/AT.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2001-altima-at.pdf",
+          "pdfSha256": "e47fc0d45514860b5e4d692fc1de62538e92296cc662d6e49f91e51ce52c7eda",
+          "pages": [
+            133,
+            134,
+            136,
+            137
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/AT.pdf#page=133",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/AT.pdf#page=134",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/AT.pdf#page=136",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/AT.pdf#page=137"
+          ]
+        }
+      ],
+      "scopeReviewed": "2001 Nissan Altima, AT section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "verifiedClaims": [
+        "Altima AT133 describes line-pressure-solenoid electrical voltage-drop detection; it is not a direct hydraulic-pressure measurement.",
+        "The source separates solenoid and dropping-resistor/harness checks. The article avoids converting the two resistance paths into an unscoped universal specification.",
+        "The prescribed confirmation uses ignition-on and full accelerator operation; the reference duty behavior depends on throttle state. The article does not substitute an arbitrary idle check."
+      ],
+      "decisionUsefulness": "Prevents an electrical solenoid circuit code from being treated as proof of low line pressure or a failed complete transmission.",
+      "outcome": "Supported within stated 2001 Altima scope."
+    },
+    {
+      "code": "P0780",
+      "file": "content/code-articles/batch-25/P0780.md",
+      "fileSha256": "ff4ec009fc031aa68375a450b68b7da5bdf777f31aa008d65a27188c744abd0b",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "url": "https://www.nissan-techinfo.com/refgh0v/sm/2004/Quest/AT.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2004-quest-at.pdf",
+          "pdfSha256": "2ce8d318fa1909ae46c0a0c518baf8222369b45fbb0390b9098e1d4a7e1faba3",
+          "pages": [
+            554,
+            557
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Quest/AT.pdf#page=554",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2004/Quest/AT.pdf#page=557"
+          ]
+        }
+      ],
+      "scopeReviewed": "2004 Nissan Quest factory AT manual, RE5F22A transmission section, January 2005 revision. The shift-monitor conditions and repair sequence are transmission-specific.",
+      "verifiedClaims": [
+        "Quest RE5F22A AT554 identifies shift-performance failure involving missing rotation change, excessive shift time, abrupt shift or engine flare, and explicitly distinguishes it from a circuit open/short detection.",
+        "Despite that performance definition, the factory decision tree checks solenoid D/E and then pressure-solenoid A/B/C circuits before later control-valve/wiring decisions.",
+        "The source requires a warm, all-gears confirmation and recognizes an existing self-diagnosis indication as a prerequisite issue. The article preserves the order rather than assigning P0780 to a single solenoid."
+      ],
+      "decisionUsefulness": "Explains why shift performance can require electrical checks without making the code an electrical-fault verdict.",
+      "outcome": "Supported within stated Quest transmission scope."
+    },
+    {
+      "code": "P1441",
+      "file": "content/code-articles/batch-25/P1441.md",
+      "fileSha256": "d853c0cca8dc2655dd0cad721496bbb4597d006bb74177f1696d5d326981e9b9",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "url": "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2001-altima-ec.pdf",
+          "pdfSha256": "32d230da72b9418b73feaa544c718859e9216313ef87c08ca23a5bc83c296221",
+          "pages": [
+            376,
+            378,
+            379,
+            380,
+            381,
+            382
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=376",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=378",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=379",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=380",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=381",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=382"
+          ]
+        }
+      ],
+      "scopeReviewed": "2001 Nissan Altima factory EC manual, P1441 very-small-leak procedure. The existing imported Nissan dictionary title conflicts with this documented application.",
+      "verifiedClaims": [
+        "Altima EC376 explicitly defines P1441 as an EVAP very-small-leak diagnosis, distinct from P0440 small leak.",
+        "The source gives P1441 priority when P0440 is also present and calls for settling time after opening/refilling/draining or EVAP work.",
+        "The overall-function check is not itself guaranteed first-trip confirmation; the pressure procedure specifically forbids compressed air and engine starting. The article retains the diagnostic distinction without republishing an improvised pressure test."
+      ],
+      "decisionUsefulness": "Connects leak-size interpretation and test validity to recent cap/refueling/EVAP work.",
+      "outcome": "Vehicle-scoped manuscript supported; existing catalog-title mismatch remains unresolved.",
+      "existingIssue": "The nissan-p1441 dictionary title identifies a vacuum-cut bypass valve while the selected 2001 Altima manual defines a very small leak. Keep needs-review until catalog applicability is reconciled."
+    },
+    {
+      "code": "P1448",
+      "file": "content/code-articles/batch-25/P1448.md",
+      "fileSha256": "19e9b63b71e3f3fd6c56829bb97660c4bd75d9b96f1c2094187acf067e715d00",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "url": "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2001-altima-ec.pdf",
+          "pdfSha256": "32d230da72b9418b73feaa544c718859e9216313ef87c08ca23a5bc83c296221",
+          "pages": [
+            405,
+            406,
+            407,
+            409,
+            410
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=405",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=406",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=407",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=409",
+            "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf#page=410"
+          ]
+        }
+      ],
+      "scopeReviewed": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "verifiedClaims": [
+        "Altima EC405-406 describes a normally open vent valve that closes for the sealed test; command ON should block airflow and OFF should allow it.",
+        "The manual prioritizes P1448 before P0440, and allows the leak-diagnosis path when the valve operation test passes but the system check still fails.",
+        "Sensor/tubing, water separator, waterlogged canister and vacuum-cut alternatives are present. The original EC406 intake-temperature Celsius/Fahrenheit equivalents are inconsistent; the article explicitly declines to turn them into a numeric instruction."
+      ],
+      "decisionUsefulness": "Separates vent-actuation failure from a system leak and preserves the appropriate priority between their codes.",
+      "outcome": "Supported with an accurately disclosed original-source inconsistency.",
+      "existingIssue": "Inconsistent temperature conversion on EC406 remains a source-review flag.",
+      "visuallyInspectedPages": [
+        406
+      ]
+    },
+    {
+      "code": "U0415",
+      "file": "content/code-articles/batch-25/U0415.md",
+      "fileSha256": "9e8262ba22e81399be3fbf94e71d87640f950187dd47f679cee97064bce4d675",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "nissan-2010-altima-bcs",
+          "url": "https://www.nissan-techinfo.com/refgh0v/sm/2010/Altima/BCS.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2010-altima-bcs.pdf",
+          "pdfSha256": "71c2bb4963cfcff0c6bac28c61281bbc267ec76295decb5f6cf0a1541d5f73ec",
+          "pages": [
+            40
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://www.nissan-techinfo.com/refgh0v/sm/2010/Altima/BCS.pdf#page=40"
+          ]
+        }
+      ],
+      "scopeReviewed": "2010 Nissan Altima, BCS section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "verifiedClaims": [
+        "Altima BCS40 concerns the BCM receiving abnormal ABS vehicle-speed information for the stated qualification period.",
+        "The manual first directs ABS self-diagnosis: repair the identified ABS problem when present; the BCM-replacement branch is conditional on the absence of ABS self-diagnosis faults.",
+        "The article distinguishes receiver, message origin and the conditional factory replacement branch. It does not claim that an ABS-module replacement follows from U0415 alone."
+      ],
+      "decisionUsefulness": "Directs diagnosis to the originating ABS information before treating the BCM reporting the code as defective.",
+      "outcome": "Supported within stated 2010 Altima BCM scope."
+    },
+    {
+      "code": "U0134",
+      "file": "content/code-articles/batch-25/U0134.md",
+      "fileSha256": "91bbd73eba9f7e5a837cef0b7e4997bae968394c47ae2a807dd8ca37df15cabd",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG07%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2020-20obdg07-diagnostics.pdf",
+          "pdfSha256": "7f6f0e368a3070bcf76642b937f353cf2d3eb1851dd28d4c6dd233aeca61d0b2",
+          "pages": [
+            1168
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG07%20Diagnostics.pdf#page=1168"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2020 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The 2020 GM table has the EBCM monitoring Active_Rear_Steer_Status_CE (0x176). Missing data for 250 ms or a frame shorter than the DBC definition can qualify.",
+        "The row excludes the first two seconds around power-state transitions, low battery voltage, crank and bus-off conditions. The article retains these reasons a communication monitor may not be valid.",
+        "Type C / non-MIL describes the emissions-lamp treatment, not assurance that rear steering remains fully functional."
+      ],
+      "decisionUsefulness": "Names the receiving module and actual expected message, separating a data-length problem from a wholly absent module.",
+      "outcome": "Supported at document/calibration scope; exact vehicle fitment is not established.",
+      "visuallyInspectedPages": [
+        1168
+      ]
+    },
+    {
+      "code": "U0154",
+      "file": "content/code-articles/batch-25/U0154.md",
+      "fileSha256": "701b35b45723f0a01c0670354a6ba6fe470539f26266b43f24d89f85bf110f4b",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2020-20obdg03e-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG03E%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2020-20obdg03e-diagnostics.pdf",
+          "pdfSha256": "541edd250d4001e1bf75bcbdf2f749b2043ea1dfb927d4e94a18b95c346f00d7",
+          "pages": [
+            1376
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG03E%20Diagnostics.pdf#page=1376"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2020 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The 2020 GM SDM table diagnoses loss of the AOS occupant-sensing RestOccupancyStat_Prtctd_MSG, with a 2.5-second timeout.",
+        "The source qualifies the monitor with battery-voltage limits, network/diagnostic enables, elapsed time after reset or voltage events, and inactive U007500.",
+        "The article does not equate a missing occupant-sensing message with proof of wrong seat-weight calibration and does not offer occupancy simulation or restraint bypass."
+      ],
+      "decisionUsefulness": "Separates a restraint network timeout from the content/accuracy of occupant classification.",
+      "outcome": "Supported at document/calibration scope; safety boundaries appropriate.",
+      "visuallyInspectedPages": [
+        1376
+      ]
+    },
+    {
+      "code": "U0159",
+      "file": "content/code-articles/batch-25/U0159.md",
+      "fileSha256": "779aafa5f7c13e771780851ed6f9842b22e3c3a76128147a0e18bfd128382dfe",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2020-20obdg03c-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG03C%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2020-20obdg03c-diagnostics.pdf",
+          "pdfSha256": "c5bb9e7b224ce9ec6a71aae6174abd322fdaecaa44b7635303022a224c93cb89",
+          "pages": [
+            1815
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG03C%20Diagnostics.pdf#page=1815"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2020 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The brake-system-control table expects APA_Autonomous_Braking_Req_CE from APA_CE, with a timeout greater than 0.250 seconds under enabled communication conditions.",
+        "The article correctly distinguishes the autonomous parking-braking request path from an individual ultrasonic parking-sensor beep or distance complaint.",
+        "The Type C / non-MIL entry is not turned into a claim that parking or braking assistance is safe to rely on."
+      ],
+      "decisionUsefulness": "Identifies the actual failed information path behind a generic parking-assist communication label.",
+      "outcome": "Supported at document/calibration scope.",
+      "visuallyInspectedPages": [
+        1815
+      ]
+    },
+    {
+      "code": "U0405",
+      "file": "content/code-articles/batch-25/U0405.md",
+      "fileSha256": "7256eeeacde8e099b4a69d2f1e12f6a97cf622d38922160c63ce63bfb1c58ac8",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG07%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2020-20obdg07-diagnostics.pdf",
+          "pdfSha256": "7f6f0e368a3070bcf76642b937f353cf2d3eb1851dd28d4c6dd233aeca61d0b2",
+          "pages": [
+            400
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG07%20Diagnostics.pdf#page=400"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2020 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The ECM row identifies Adaptive_Cruise_Disp_Stat_HS with the wrong data length, not simply total message absence.",
+        "Ignition-on/basic enable conditions and 0.5-second continuous qualification belong to this row; the non-MIL classification does not prove normal adaptive-cruise function.",
+        "Possible configuration/service-history questions are presented as interpretation, not as a source-proven radar defect, applicable update or replacement instruction."
+      ],
+      "decisionUsefulness": "Distinguishes invalid received data from a lost-communication timeout and keeps the receiver/source roles clear.",
+      "outcome": "Supported at document/calibration scope.",
+      "visuallyInspectedPages": [
+        400
+      ]
+    },
+    {
+      "code": "P0041",
+      "file": "content/code-articles/batch-25/P0041.md",
+      "fileSha256": "9bb5d768acacf4978ce1b0edb47eda16fdb2e1365c904d4fa39e0c06c6698501",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2010-10obdg02-engine-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2010/10OBDG02%20Engine%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2010-10obdg02-engine-diagnostics.pdf",
+          "pdfSha256": "7c37a319aad4aabfc6a7421e211102fddf4203371c7f7a787801264e25aa976e",
+          "pages": [
+            38
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2010/10OBDG02%20Engine%20Diagnostics.pdf#page=38"
+          ]
+        }
+      ],
+      "scopeReviewed": "2010 GM 10OBDG02 engine diagnostic table, LLT unique section. The P0041 row explicitly says GMX521 Camaro only; exact vehicle build and service procedure still require confirmation.",
+      "verifiedClaims": [
+        "The 2010 GM LLT row explicitly limits the swapped-secondary-oxygen-sensor diagnosis to GMX521 Camaro only.",
+        "The compared signals are B1S2 and B2S2, with opposing signal patterns qualified by catalyst-aging timing, air mass, closed-loop state, modeled rear-sensor temperature and other fault exclusions.",
+        "The article preserves the exact application restriction and sensor identities without presenting the table's asymmetric printed voltage comparisons as universal troubleshooting limits."
+      ],
+      "decisionUsefulness": "Prompts verification of bank and connector identity before attributing a swapped-signal detection to two independently failed sensors.",
+      "outcome": "Supported within explicit GMX521 Camaro / LLT scope.",
+      "visuallyInspectedPages": [
+        38
+      ]
+    },
+    {
+      "code": "P04B8",
+      "file": "content/code-articles/batch-25/P04B8.md",
+      "fileSha256": "bdd322abef0fb365247da5fa4bce7baf44da5939135b8b17650901bff3cbeb64",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.pdf",
+          "pdfSha256": "1a2950d5c248e5b67f2e4ac010ed0420de270acc63fcaa8a8c67466a4e90ddd0",
+          "pages": [
+            593
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=593"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The source defines an invalid fuel-door position-signal band, with 65.9% < reported position <= 81.6%, distinct from the lock/request circuits.",
+        "The monitor uses six failures in eight 500-ms samples with the calibration enable true; it is not an unqualified single-sample mechanical failure.",
+        "The article treats the percentage as encoded feedback rather than a physical door-opening angle."
+      ],
+      "decisionUsefulness": "Separates unusable door-position feedback from a mechanically stuck lock or failed release request.",
+      "outcome": "Supported at document/calibration scope.",
+      "visuallyInspectedPages": [
+        593
+      ]
+    },
+    {
+      "code": "P04BB",
+      "file": "content/code-articles/batch-25/P04BB.md",
+      "fileSha256": "04045ff914228332c3f1640c2a4e92b2c7ff765d9e731d7aa6d771790ef12b11",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.pdf",
+          "pdfSha256": "1a2950d5c248e5b67f2e4ac010ed0420de270acc63fcaa8a8c67466a4e90ddd0",
+          "pages": [
+            593,
+            594
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=593",
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=594"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The fuel-door circuit row evaluates hardware-driver feedback, commanded states and determinate/indeterminate driver fault information.",
+        "The condition formatting spans a page boundary and does not support a confidently reconstructed simplified Boolean predicate.",
+        "The article correctly flags that uncertainty and retains the meaningful distinction between electrical driver feedback and mechanical opening performance without inventing a connector pin test."
+      ],
+      "decisionUsefulness": "Directs attention to driver-feedback evidence rather than using a circuit code as proof of a seized door mechanism.",
+      "outcome": "Supported at the disclosed qualitative level; exact driver predicate remains needs-review.",
+      "existingIssue": "Original pages 593-594 do not unambiguously resolve the complete grouped Boolean expression.",
+      "visuallyInspectedPages": [
+        593,
+        594
+      ]
+    },
+    {
+      "code": "P04C3",
+      "file": "content/code-articles/batch-25/P04C3.md",
+      "fileSha256": "663ddda682a283a43ec4301841d349d281a8486ed6499c2eed40a8a157285ce0",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.pdf",
+          "pdfSha256": "1a2950d5c248e5b67f2e4ac010ed0420de270acc63fcaa8a8c67466a4e90ddd0",
+          "pages": [
+            594
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=594"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The source concerns invalid lock-position resistance/feedback, not the fuel-door position signal itself.",
+        "The original row prints 65.9% > Reported Position <= 81.6%, unlike adjacent invalid-band notation. The article flags the inconsistency and does not silently reverse the inequality.",
+        "Six of eight 500-ms samples and related lock/unlock-performance exclusions belong to this diagnostic grouping."
+      ],
+      "decisionUsefulness": "Distinguishes invalid lock-state evidence from failure to reach a correctly commanded lock state.",
+      "outcome": "Supported with the unresolved printed threshold explicitly retained as a review limitation.",
+      "existingIssue": "The intended invalid interval cannot be safely recovered from the printed inequality alone.",
+      "visuallyInspectedPages": [
+        594
+      ]
+    },
+    {
+      "code": "P0534",
+      "file": "content/code-articles/batch-25/P0534.md",
+      "fileSha256": "1f71eb6f3b79d364b0135249e63bc047d8c920a0f3cb9a7940c4fba0fd88fe3d",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.pdf",
+          "pdfSha256": "1a2950d5c248e5b67f2e4ac010ed0420de270acc63fcaa8a8c67466a4e90ddd0",
+          "pages": [
+            568,
+            569,
+            570
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=568",
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=569",
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=570"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The source is broader than low charge alone: inadequate cooling, low charge and a restricted refrigerant line are named.",
+        "Battery thermal-conditioning response is evaluated through coolant outlet/inlet temperatures, valve state, pump operation and compressor operation; separate threshold tables apply to cabin-plus-battery and battery-only cooling.",
+        "Separate low-side compressor-off, low-side compressor-running and high-side pressure cases have their own timing, ambient-temperature and sensor-validity prerequisites. A single recharge decision is not supported."
+      ],
+      "decisionUsefulness": "Preserves the distinction between cabin comfort and battery cooling, and between thermal-response and refrigerant-pressure branches.",
+      "outcome": "One minor unsupported inhibit-category term requires correction; remaining sampled claims supported.",
+      "findingIds": [
+        "B25-02"
+      ],
+      "visuallyInspectedPages": [
+        569
+      ]
+    },
+    {
+      "code": "P07CE",
+      "file": "content/code-articles/batch-25/P07CE.md",
+      "fileSha256": "78ae9450893c0512ee7ae176e97210f340e04b8b5cefcd73152d79699c790f7e",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG06%20Transmission%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg06-transmission-diagnostics.pdf",
+          "pdfSha256": "768a15b18b4fd46a9b75ba944e459bec413bef9d2549a55942ea12c36b9b2143",
+          "pages": [
+            97
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG06%20Transmission%20Diagnostics.pdf#page=97"
+          ]
+        }
+      ],
+      "scopeReviewed": "2015 GM 15OBDG06 TCM summary, MYB unique section. P07CE is mapped to the tour-mode input in this document; per-vehicle implementation remains unverified.",
+      "verifiedClaims": [
+        "The MYB-unique transmission table identifies mode-switch D as the Tour Mode input remaining TRUE for at least 600 seconds.",
+        "The ignition-voltage and engine-speed enable limits, including the qualifying speed duration, belong to the source; the table uses a special non-MIL classification.",
+        "The article distinguishes a held electrical/input state from the driver's selected operating mode and does not invent a model-specific button, pin or replacement."
+      ],
+      "decisionUsefulness": "Prevents a mode-input monitoring fault from being treated as proof of a mechanical transmission failure.",
+      "outcome": "Supported within MYB-unique document scope.",
+      "visuallyInspectedPages": [
+        97
+      ]
+    },
+    {
+      "code": "P0AA6",
+      "file": "content/code-articles/batch-25/P0AA6.md",
+      "fileSha256": "2c7c0b2f39fd0d875c0710074b7054705c9eddc0bca0934d8622f0f56b7961e8",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.pdf",
+          "pdfSha256": "1a2950d5c248e5b67f2e4ac010ed0420de270acc63fcaa8a8c67466a4e90ddd0",
+          "pages": [
+            553
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=553"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The source evaluates high-voltage-bus/chassis isolation resistance with both contactors open for ten seconds; it does not infer state of charge or cell capacity.",
+        "Inactive/active-fault thresholds differ, representing hysteresis. Failure requires the latest low measurement plus five of the last ten below threshold, with at most one measurement per wake cycle.",
+        "The article correctly treats qualification and recurrence as relevant and does not turn a monitor threshold into a universal safe-to-touch or safe-to-drive criterion."
+      ],
+      "decisionUsefulness": "Separates isolation loss from low cell voltage and explains why a valid professional isolation diagnosis cannot be replaced by clearing the code.",
+      "outcome": "Supported at document/calibration scope; high-voltage work correctly assigned to qualified service.",
+      "visuallyInspectedPages": [
+        553
+      ]
+    },
+    {
+      "code": "P0B3B",
+      "file": "content/code-articles/batch-25/P0B3B.md",
+      "fileSha256": "f0644ee51fa33cd7c0e22be96439752b7259d88eb4b1a99789eb16a91ecaf6bd",
+      "bodyRead": true,
+      "originalPdfTextCompared": true,
+      "citations": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+          "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.pdf",
+          "pdfSha256": "1a2950d5c248e5b67f2e4ac010ed0420de270acc63fcaa8a8c67466a4e90ddd0",
+          "pages": [
+            635,
+            636
+          ],
+          "pageNumbering": "one-based physical PDF pages",
+          "pageCitations": [
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=635",
+            "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf#page=636"
+          ]
+        }
+      ],
+      "scopeReviewed": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "verifiedClaims": [
+        "The original shared table identifies voltage-sense A in an open-sensing family, but provides no letter-to-physical-cell mapping.",
+        "The general adjacent-cell case uses a 1-V difference and the common-power case a 0.5-V difference; the single-power-line note explains how loss of power to the sensing ASIC can make all affected reported voltages zero.",
+        "The Case 3 busbar-positive comparison is incomplete; Case 4 also has inconsistent plus/minus wording. The article does not invent the absent threshold or a physical channel location.",
+        "Communication, balancing/internal-fault and self-test exclusions continue onto page 636; the article correctly requires a valid sensing context before interpreting reported voltage as a failed cell."
+      ],
+      "decisionUsefulness": "Separates an open sense path or shared acquisition-power loss from a genuinely depleted individual cell.",
+      "outcome": "Supported at the disclosed shared-family level; mapping and incomplete source cases remain needs-review.",
+      "existingIssue": "Exact Case 3 limit and physical channel map require applicable service information.",
+      "visuallyInspectedPages": [
+        635,
+        636
+      ]
+    }
+  ],
+  "articleFiles": [
+    {
+      "code": "P0041",
+      "file": "content/code-articles/batch-25/P0041.md",
+      "fileSha256": "9bb5d768acacf4978ce1b0edb47eda16fdb2e1365c904d4fa39e0c06c6698501",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg02-engine-diagnostics",
+          "pages": [
+            38
+          ]
+        }
+      ],
+      "scope": "2010 GM 10OBDG02 engine diagnostic table, LLT unique section. The P0041 row explicitly says GMX521 Camaro only; exact vehicle build and service procedure still require confirmation.",
+      "title": "P0041: rear oxygen-sensor bank assignment needs verification",
+      "status": "draft",
+      "currentSha256AtReport": "9bb5d768acacf4978ce1b0edb47eda16fdb2e1365c904d4fa39e0c06c6698501",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P00C8",
+      "file": "content/code-articles/batch-25/P00C8.md",
+      "fileSha256": "353594faa5c22c9b5ad2aa7b566f0584a528dedb2677bd516661460530c5f5af",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg09-engine-diagnostics",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P00C8: fuel-regulator supply integrity is tested outside device control",
+      "status": "draft",
+      "currentSha256AtReport": "353594faa5c22c9b5ad2aa7b566f0584a528dedb2677bd516661460530c5f5af",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0105",
+      "file": "content/code-articles/batch-25/P0105.md",
+      "fileSha256": "fa9ece16dc5c16f45a898ca678e3def4f7dabfb552705bbbd5ab842cb6af151e",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            163,
+            164,
+            166,
+            167,
+            168
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0105: Maxima uses an ambient-pressure sensor for this diagnosis",
+      "status": "draft",
+      "currentSha256AtReport": "fa9ece16dc5c16f45a898ca678e3def4f7dabfb552705bbbd5ab842cb6af151e",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0110",
+      "file": "content/code-articles/batch-25/P0110.md",
+      "fileSha256": "4a74ec6649cdbc2ee2d3d1e63e9d881835f499cfa236fb1444d6388faa9a4668",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            169,
+            170,
+            172,
+            173
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0110: Maxima has electrical and temperature-comparison branches",
+      "status": "draft",
+      "currentSha256AtReport": "4a74ec6649cdbc2ee2d3d1e63e9d881835f499cfa236fb1444d6388faa9a4668",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0115",
+      "file": "content/code-articles/batch-25/P0115.md",
+      "fileSha256": "44792c2cea8ea5fe6c22df2125b636bbc37e166db1fc373118e8ebe2ac370b81",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            134,
+            135,
+            137,
+            138
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0115: Altima may display a substitute coolant temperature",
+      "status": "draft",
+      "currentSha256AtReport": "44792c2cea8ea5fe6c22df2125b636bbc37e166db1fc373118e8ebe2ac370b81",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0127",
+      "file": "content/code-articles/batch-25/P0127.md",
+      "fileSha256": "69acca72278bde8ec91144e8266057cfbce04ccfe23247acad65c60fe748f810",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            180,
+            181,
+            182
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0127: why the Titan compares intake and coolant temperature",
+      "status": "draft",
+      "currentSha256AtReport": "69acca72278bde8ec91144e8266057cfbce04ccfe23247acad65c60fe748f810",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0159",
+      "file": "content/code-articles/batch-25/P0159.md",
+      "fileSha256": "b9a7d4836243fef085078e2f0f1daba40f6f1195036d165f8386fd333aaa527a",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            195,
+            196,
+            201,
+            202,
+            204,
+            205
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0159: interpreting a slow rear oxygen sensor on Titan bank 2",
+      "status": "draft",
+      "currentSha256AtReport": "b9a7d4836243fef085078e2f0f1daba40f6f1195036d165f8386fd333aaa527a",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P0180",
+      "file": "content/code-articles/batch-25/P0180.md",
+      "fileSha256": "8a4c281099121e6f9c800c4740116aa718c59d556523e29899c47b3db5de7347",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            307,
+            308,
+            310,
+            311
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0180: Maxima compares fuel temperature with other thermal inputs",
+      "status": "draft",
+      "currentSha256AtReport": "8a4c281099121e6f9c800c4740116aa718c59d556523e29899c47b3db5de7347",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0217",
+      "file": "content/code-articles/batch-25/P0217.md",
+      "fileSha256": "e15fab4d659a0d2e8aa5b1cd819fc1337ef30ee1698bd54dc2849d649eef8bb3",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            312,
+            313,
+            314,
+            318,
+            329
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0217: Maxima overheating diagnosis separates cooling and sensor evidence",
+      "status": "draft",
+      "currentSha256AtReport": "e15fab4d659a0d2e8aa5b1cd819fc1337ef30ee1698bd54dc2849d649eef8bb3",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0440",
+      "file": "content/code-articles/batch-25/P0440.md",
+      "fileSha256": "5e61295ed650283263bef427481e0d7ab86a2519f9e51f0da879cbd199ca7809",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            284,
+            285,
+            286,
+            287
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0440: Altima small-leak testing requires a working vent seal",
+      "status": "draft",
+      "currentSha256AtReport": "5e61295ed650283263bef427481e0d7ab86a2519f9e51f0da879cbd199ca7809",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0441",
+      "file": "content/code-articles/batch-25/P0441.md",
+      "fileSha256": "1d13221bc51b17e2b7ed953f46d9c2d143a2c3690887f77f258a016284209a0e",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            270,
+            271,
+            272,
+            273
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0441: when Titan purge flow fails the pressure-response check",
+      "status": "draft",
+      "currentSha256AtReport": "1d13221bc51b17e2b7ed953f46d9c2d143a2c3690887f77f258a016284209a0e",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P0444",
+      "file": "content/code-articles/batch-25/P0444.md",
+      "fileSha256": "cc2e622f82bb96df9cf86e474d0a6778bcd5bda74adbf5aad670975ef5e01d39",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            284,
+            285,
+            288,
+            289
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0444: Titan purge-valve circuit open and the low-voltage branch",
+      "status": "draft",
+      "currentSha256AtReport": "cc2e622f82bb96df9cf86e474d0a6778bcd5bda74adbf5aad670975ef5e01d39",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0445",
+      "file": "content/code-articles/batch-25/P0445.md",
+      "fileSha256": "4a2ce6146477f4a8c1200614de6563c1c2d62dcd18db1d31bbf60933a55eb207",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            284,
+            285,
+            288,
+            289
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0445: why Titan purge-solenoid high feedback needs circuit diagnosis",
+      "status": "draft",
+      "currentSha256AtReport": "4a2ce6146477f4a8c1200614de6563c1c2d62dcd18db1d31bbf60933a55eb207",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0447",
+      "file": "content/code-articles/batch-25/P0447.md",
+      "fileSha256": "0c835035cee25f0bfb99d3ad7bb689cadc6819e67ef2bc1d3d67f94354984ed9",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            291,
+            292,
+            295,
+            296,
+            297
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0447: Titan vent-valve electrical fault versus a valve left open",
+      "status": "draft",
+      "currentSha256AtReport": "0c835035cee25f0bfb99d3ad7bb689cadc6819e67ef2bc1d3d67f94354984ed9",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0450",
+      "file": "content/code-articles/batch-25/P0450.md",
+      "fileSha256": "0f364956de97c12578806acdf6e4017c2fca6b5ed0587bc47dce37f6fdd84ee5",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            390,
+            391,
+            393,
+            394,
+            395
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0450: Maxima EVAP pressure sensing includes its hose connection",
+      "status": "draft",
+      "currentSha256AtReport": "0f364956de97c12578806acdf6e4017c2fca6b5ed0587bc47dce37f6fdd84ee5",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04B8",
+      "file": "content/code-articles/batch-25/P04B8.md",
+      "fileSha256": "bdd322abef0fb365247da5fa4bce7baf44da5939135b8b17650901bff3cbeb64",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            593
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04B8: fuel-door position has entered an invalid signal band",
+      "status": "draft",
+      "currentSha256AtReport": "bdd322abef0fb365247da5fa4bce7baf44da5939135b8b17650901bff3cbeb64",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P04B9",
+      "file": "content/code-articles/batch-25/P04B9.md",
+      "fileSha256": "5d5bec6bedee9c505fede4c6618b63070fd5b84fbd9b6427c800c44637dd856a",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            593
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04B9: fuel-door position feedback is below its allowed range",
+      "status": "draft",
+      "currentSha256AtReport": "5d5bec6bedee9c505fede4c6618b63070fd5b84fbd9b6427c800c44637dd856a",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04BA",
+      "file": "content/code-articles/batch-25/P04BA.md",
+      "fileSha256": "d26ea276e9a2add4b30f90bdf90bde0cf1b6232e345101f9925223a3170058b3",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            593
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04BA: fuel-door position feedback is above the calibrated limit",
+      "status": "draft",
+      "currentSha256AtReport": "d26ea276e9a2add4b30f90bdf90bde0cf1b6232e345101f9925223a3170058b3",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04BB",
+      "file": "content/code-articles/batch-25/P04BB.md",
+      "fileSha256": "04045ff914228332c3f1640c2a4e92b2c7ff765d9e731d7aa6d771790ef12b11",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            593,
+            594
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04BB: fuel-door lock driver reports an electrical fault",
+      "status": "draft",
+      "currentSha256AtReport": "04045ff914228332c3f1640c2a4e92b2c7ff765d9e731d7aa6d771790ef12b11",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P04BC",
+      "file": "content/code-articles/batch-25/P04BC.md",
+      "fileSha256": "bd0a3f28f01c849cb63c4a29a3e519854aaa79c99ac6230149d213ca672356ed",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            594
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04BC: the commanded fuel-door lock transition did not occur",
+      "status": "draft",
+      "currentSha256AtReport": "bd0a3f28f01c849cb63c4a29a3e519854aaa79c99ac6230149d213ca672356ed",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04C0",
+      "file": "content/code-articles/batch-25/P04C0.md",
+      "fileSha256": "2c4e4d98856b40343b1a3162f326ad82d35374172d562d49b73096bf0af99988",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            594
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04C0: fuel-door unlocking failed to produce the expected transition",
+      "status": "draft",
+      "currentSha256AtReport": "2c4e4d98856b40343b1a3162f326ad82d35374172d562d49b73096bf0af99988",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04C3",
+      "file": "content/code-articles/batch-25/P04C3.md",
+      "fileSha256": "663ddda682a283a43ec4301841d349d281a8486ed6499c2eed40a8a157285ce0",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            594
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04C3: fuel-door lock position has an invalid electrical reading",
+      "status": "draft",
+      "currentSha256AtReport": "663ddda682a283a43ec4301841d349d281a8486ed6499c2eed40a8a157285ce0",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P04C4",
+      "file": "content/code-articles/batch-25/P04C4.md",
+      "fileSha256": "ca7eafeff3cebe70f2a3045656de0b34f36e2f967856fbdda926408a5792befa",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            594
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04C4: fuel-door lock feedback changed without an unlock command",
+      "status": "draft",
+      "currentSha256AtReport": "ca7eafeff3cebe70f2a3045656de0b34f36e2f967856fbdda926408a5792befa",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04C5",
+      "file": "content/code-articles/batch-25/P04C5.md",
+      "fileSha256": "97a2882160a58b3f24986cf85091b75ccefdd8fd3f01dffa7c8a40960ff6b3fe",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04C5: lock-position signal is low rather than simply unlocked",
+      "status": "draft",
+      "currentSha256AtReport": "97a2882160a58b3f24986cf85091b75ccefdd8fd3f01dffa7c8a40960ff6b3fe",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04C6",
+      "file": "content/code-articles/batch-25/P04C6.md",
+      "fileSha256": "b76dfdbeea2447f872753d6b78edc8bcd10125268700726f349f50426bd1b48b",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04C6: high lock-position feedback can represent an open circuit",
+      "status": "draft",
+      "currentSha256AtReport": "b76dfdbeea2447f872753d6b78edc8bcd10125268700726f349f50426bd1b48b",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04C8",
+      "file": "content/code-articles/batch-25/P04C8.md",
+      "fileSha256": "56b4ef07df0e3d66df17a03f6a61103a2d5534caea79c66b164067660f462f8b",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04C8: fuel-door open-request switch reports an invalid signal",
+      "status": "draft",
+      "currentSha256AtReport": "56b4ef07df0e3d66df17a03f6a61103a2d5534caea79c66b164067660f462f8b",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P04CB",
+      "file": "content/code-articles/batch-25/P04CB.md",
+      "fileSha256": "1e3ce1ccd5af129d6c6271db147d968e81e6e420111135207a66a57f8d29dbf9",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P04CB: fuel-door request input is electrically high",
+      "status": "draft",
+      "currentSha256AtReport": "1e3ce1ccd5af129d6c6271db147d968e81e6e420111135207a66a57f8d29dbf9",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0505",
+      "file": "content/code-articles/batch-25/P0505.md",
+      "fileSha256": "945bb9dc0416e4e5ccbf8bb2be2d674da5b8400fe9d22090c848633b0004333e",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            429,
+            430,
+            431,
+            433,
+            437
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0505: Maxima idle-air diagnosis includes learning and two fault branches",
+      "status": "draft",
+      "currentSha256AtReport": "945bb9dc0416e4e5ccbf8bb2be2d674da5b8400fe9d22090c848633b0004333e",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0510",
+      "file": "content/code-articles/batch-25/P0510.md",
+      "fileSha256": "368d30ec3f15a06eaa514ebe1feda02d212d8dd0524c4e3207d08b65907097c1",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            335,
+            336,
+            338,
+            339,
+            340
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0510: Altima reports closed throttle while the valve is open",
+      "status": "draft",
+      "currentSha256AtReport": "368d30ec3f15a06eaa514ebe1feda02d212d8dd0524c4e3207d08b65907097c1",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0532",
+      "file": "content/code-articles/batch-25/P0532.md",
+      "fileSha256": "22e0d83ffe0d2ff0ce34ae2fcb4160b4bf689bf785c3a87c28aa73cd03ac96f2",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg07-engine-diagnostics",
+          "pages": [
+            75
+          ]
+        }
+      ],
+      "scope": "2015 GM 15OBDG07 ECM diagnostic table, 4.8L/L20 section. Exact vehicle and A/C configuration are not established by this document alone.",
+      "title": "P0532: A/C pressure-sensor low voltage is an electrical result",
+      "status": "draft",
+      "currentSha256AtReport": "22e0d83ffe0d2ff0ce34ae2fcb4160b4bf689bf785c3a87c28aa73cd03ac96f2",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0533",
+      "file": "content/code-articles/batch-25/P0533.md",
+      "fileSha256": "b81c2c9488a4575c6ef43a086c366a9d00017fe07c52059aa79bf7cd3979f497",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg07-engine-diagnostics",
+          "pages": [
+            75
+          ]
+        }
+      ],
+      "scope": "2015 GM 15OBDG07 ECM diagnostic table, 4.8L/L20 section. Confirm vehicle-specific sensor configuration and service specifications.",
+      "title": "P0533: A/C pressure feedback is near the high electrical limit",
+      "status": "draft",
+      "currentSha256AtReport": "b81c2c9488a4575c6ef43a086c366a9d00017fe07c52059aa79bf7cd3979f497",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0534",
+      "file": "content/code-articles/batch-25/P0534.md",
+      "fileSha256": "1f71eb6f3b79d364b0135249e63bc047d8c920a0f3cb9a7940c4fba0fd88fe3d",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            568,
+            569,
+            570
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0534: hybrid cooling performance can fail for more than low charge",
+      "status": "draft",
+      "currentSha256AtReport": "1f71eb6f3b79d364b0135249e63bc047d8c920a0f3cb9a7940c4fba0fd88fe3d",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P0550",
+      "file": "content/code-articles/batch-25/P0550.md",
+      "fileSha256": "2bfd0db633ccc70e3f45cd63be6f3b294e0b3c085eadfb6c4e3260ae4418341e",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            345,
+            347,
+            348
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0550: Titan steering-pressure feedback and idle compensation",
+      "status": "draft",
+      "currentSha256AtReport": "2bfd0db633ccc70e3f45cd63be6f3b294e0b3c085eadfb6c4e3260ae4418341e",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0645",
+      "file": "content/code-articles/batch-25/P0645.md",
+      "fileSha256": "33d33e3ba5a5550c216695d6a1bccf702dc3c594dc887179e1644efa8c35126b",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg13-engine-diagnostics",
+          "pages": [
+            78
+          ]
+        }
+      ],
+      "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0645: A/C clutch-relay command disagrees with circuit feedback",
+      "status": "draft",
+      "currentSha256AtReport": "33d33e3ba5a5550c216695d6a1bccf702dc3c594dc887179e1644efa8c35126b",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P06E7",
+      "file": "content/code-articles/batch-25/P06E7.md",
+      "fileSha256": "d6318ae6ee63df4f13cd6d81cfdc4a058689a5b4f905145197c9e77cb932e507",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            699
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P06E7: the auxiliary-pump controller sees its 15-volt sensor supply low",
+      "status": "draft",
+      "currentSha256AtReport": "d6318ae6ee63df4f13cd6d81cfdc4a058689a5b4f905145197c9e77cb932e507",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P06E8",
+      "file": "content/code-articles/batch-25/P06E8.md",
+      "fileSha256": "b9d078b6bf6ac74c4519a810e0613a418ead08cf93cfb359e79c00687cb7e0d3",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            699
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P06E8: sensor supply C is above the ATPC limit",
+      "status": "draft",
+      "currentSha256AtReport": "b9d078b6bf6ac74c4519a810e0613a418ead08cf93cfb359e79c00687cb7e0d3",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0745",
+      "file": "content/code-articles/batch-25/P0745.md",
+      "fileSha256": "7938e05a575377b3b3af05624cd89696b83f03707d8185a7768c83bbf44c4350",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-at",
+          "pages": [
+            133,
+            134,
+            136,
+            137
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, AT section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P0745: Altima line-pressure solenoid feedback and duty-cycle context",
+      "status": "draft",
+      "currentSha256AtReport": "7938e05a575377b3b3af05624cd89696b83f03707d8185a7768c83bbf44c4350",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P0775",
+      "file": "content/code-articles/batch-25/P0775.md",
+      "fileSha256": "af37f1d809980b5af55156a41d482017ff9fc7f6e66ed63f5dbbc82266c3164b",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "pages": [
+            549,
+            551,
+            552,
+            553
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Quest factory AT manual, RE5F22A transmission section, January 2005 revision. Other transmission variants require their own procedure.",
+      "title": "P0775: Quest solenoid B command and feedback must agree",
+      "status": "draft",
+      "currentSha256AtReport": "af37f1d809980b5af55156a41d482017ff9fc7f6e66ed63f5dbbc82266c3164b",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0780",
+      "file": "content/code-articles/batch-25/P0780.md",
+      "fileSha256": "ff4ec009fc031aa68375a450b68b7da5bdf777f31aa008d65a27188c744abd0b",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "pages": [
+            554,
+            557
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Quest factory AT manual, RE5F22A transmission section, January 2005 revision. The shift-monitor conditions and repair sequence are transmission-specific.",
+      "title": "P0780: Quest shift performance requires more than an electrical code check",
+      "status": "draft",
+      "currentSha256AtReport": "ff4ec009fc031aa68375a450b68b7da5bdf777f31aa008d65a27188c744abd0b",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P0795",
+      "file": "content/code-articles/batch-25/P0795.md",
+      "fileSha256": "a317fe3d4173ea89115e0a4142b73441bde337f858338d573d120448c9254d9c",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "pages": [
+            558,
+            560,
+            561,
+            562
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Quest factory AT manual, RE5F22A transmission section, January 2005 revision. Hydraulic functions and current references are variant-specific.",
+      "title": "P0795: Quest solenoid C links converter lockup and shift pressure",
+      "status": "draft",
+      "currentSha256AtReport": "a317fe3d4173ea89115e0a4142b73441bde337f858338d573d120448c9254d9c",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P07CE",
+      "file": "content/code-articles/batch-25/P07CE.md",
+      "fileSha256": "78ae9450893c0512ee7ae176e97210f340e04b8b5cefcd73152d79699c790f7e",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "scope": "2015 GM 15OBDG06 TCM summary, MYB unique section. P07CE is mapped to the tour-mode input in this document; per-vehicle implementation remains unverified.",
+      "title": "P07CE: tour-mode request remains asserted too long",
+      "status": "draft",
+      "currentSha256AtReport": "78ae9450893c0512ee7ae176e97210f340e04b8b5cefcd73152d79699c790f7e",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P07D1",
+      "file": "content/code-articles/batch-25/P07D1.md",
+      "fileSha256": "9311c9c7cae3847d4d47127d70b6dc15fdb8865d8c418d1cf98a8a77009025b0",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "scope": "2015 GM 15OBDG06 TCM MYB unique section. Switch E is the comfort-mode input here; model, switch layout and wiring require separate confirmation.",
+      "title": "P07D1: comfort-mode switch input stays true beyond the monitor interval",
+      "status": "draft",
+      "currentSha256AtReport": "9311c9c7cae3847d4d47127d70b6dc15fdb8865d8c418d1cf98a8a77009025b0",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P07D4",
+      "file": "content/code-articles/batch-25/P07D4.md",
+      "fileSha256": "a25eee28e00626f345fd9bcaabfc4ee82a31d07190fc245f0d411076d1c0c763",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "scope": "2015 GM 15OBDG06 TCM MYB unique section. The document maps switch F to normal mode; no specific vehicle or physical switch location is inferred.",
+      "title": "P07D4: normal-mode request remains active in the MYB monitor",
+      "status": "draft",
+      "currentSha256AtReport": "a25eee28e00626f345fd9bcaabfc4ee82a31d07190fc245f0d411076d1c0c763",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0801",
+      "file": "content/code-articles/batch-25/P0801.md",
+      "fileSha256": "0463ad898f03aad9fc6ca8ac5a72d5377d964d7d10f73502124599ba30c71d5f",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg12-engine-diagnostics",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0801: manual-transmission reverse-inhibit driver disagrees with feedback",
+      "status": "draft",
+      "currentSha256AtReport": "0463ad898f03aad9fc6ca8ac5a72d5377d964d7d10f73502124599ba30c71d5f",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P080C",
+      "file": "content/code-articles/batch-25/P080C.md",
+      "fileSha256": "25615033aff244df95c0112742a15e108d3dad2cbfce5b31bda7bab96b76c484",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg07-engine-diagnostics",
+          "pages": [
+            129
+          ]
+        }
+      ],
+      "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P080C: skip-shift low or open feedback is checked while off",
+      "status": "draft",
+      "currentSha256AtReport": "25615033aff244df95c0112742a15e108d3dad2cbfce5b31bda7bab96b76c484",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P080D",
+      "file": "content/code-articles/batch-25/P080D.md",
+      "fileSha256": "07d96f26a4531fc70a822817f30f389b03ba5b26e93ce3adb5c7d41ab6400da5",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg07-engine-diagnostics",
+          "pages": [
+            129
+          ]
+        }
+      ],
+      "scope": "Document-level 2010 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P080D: skip-shift high feedback is evaluated during the on command",
+      "status": "draft",
+      "currentSha256AtReport": "07d96f26a4531fc70a822817f30f389b03ba5b26e93ce3adb5c7d41ab6400da5",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0825",
+      "file": "content/code-articles/batch-25/P0825.md",
+      "fileSha256": "d9f00558b1951c4dc11e5ddec224d8fafdc77dd5473153ff6587cafa8e32528f",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "pages": [
+            568,
+            570,
+            571
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Quest factory AT manual, RE5F22A transmission section, January 2005 revision. The source labels P0825 as a non-OBD-II enhanced diagnostic item.",
+      "title": "P0825: Quest lever switch produces an impossible input pattern",
+      "status": "draft",
+      "currentSha256AtReport": "d9f00558b1951c4dc11e5ddec224d8fafdc77dd5473153ff6587cafa8e32528f",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0827",
+      "file": "content/code-articles/batch-25/P0827.md",
+      "fileSha256": "15da3d11af1746559025fbf990f7f191077431310d937fa2e5f32cfc8119648d",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            83
+          ]
+        }
+      ],
+      "scope": "2015 GM 15OBDG06 transmission summary, MGG unique section. Thresholds and enable conditions are document-specific; vehicle fitment is not established.",
+      "title": "P0827: manual-shift input is low relative to ignition voltage",
+      "status": "draft",
+      "currentSha256AtReport": "15da3d11af1746559025fbf990f7f191077431310d937fa2e5f32cfc8119648d",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0828",
+      "file": "content/code-articles/batch-25/P0828.md",
+      "fileSha256": "e306a77813727d6136c97bf94aeef3f7684faff2bc68dccc81d4b7b828907d67",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            83
+          ]
+        }
+      ],
+      "scope": "2015 GM 15OBDG06 TCM MGG unique section. No vehicle model, switch location or universal voltage specification is inferred.",
+      "title": "P0828: manual-shift input exceeds its normalized high limit",
+      "status": "draft",
+      "currentSha256AtReport": "e306a77813727d6136c97bf94aeef3f7684faff2bc68dccc81d4b7b828907d67",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P085F",
+      "file": "content/code-articles/batch-25/P085F.md",
+      "fileSha256": "895d9639f15c9eee1048ab8ae5d0b27cad885277be7898d9ce7c95137d76536f",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            85
+          ]
+        }
+      ],
+      "scope": "2015 GM 15OBDG06 TCM MGG unique section. Two P085F in-range branches are documented; exact vehicle mapping and service test remain separate.",
+      "title": "P085F: manual-shift input can be stuck inside a valid electrical range",
+      "status": "draft",
+      "currentSha256AtReport": "895d9639f15c9eee1048ab8ae5d0b27cad885277be7898d9ce7c95137d76536f",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0863",
+      "file": "content/code-articles/batch-25/P0863.md",
+      "fileSha256": "1a4a2863c0e98fb9853aff5112ef8cd4389857b98e3c5333515c28a9e66e6833",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg03-transmission-diagnostics",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0863: the TCM reports a ROM-assembly read or communication error",
+      "status": "draft",
+      "currentSha256AtReport": "1a4a2863c0e98fb9853aff5112ef8cd4389857b98e3c5333515c28a9e66e6833",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0885",
+      "file": "content/code-articles/batch-25/P0885.md",
+      "fileSha256": "65995ef19bd30cb83d023598d570cbc9ea9e2c81e657912121f183e41bc09a4f",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg03-transmission-diagnostics",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0885: TCM power-source voltage falls despite adequate system voltage",
+      "status": "draft",
+      "currentSha256AtReport": "65995ef19bd30cb83d023598d570cbc9ea9e2c81e657912121f183e41bc09a4f",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0A05",
+      "file": "content/code-articles/batch-25/P0A05.md",
+      "fileSha256": "ca3cc50be699741bfb24e7ab3a9903d45ff65de753c63bc188f26330b40dec7b",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+      "title": "P0A05: power-electronics coolant-pump driver has an open-circuit result",
+      "status": "draft",
+      "currentSha256AtReport": "ca3cc50be699741bfb24e7ab3a9903d45ff65de753c63bc188f26330b40dec7b",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0A0C",
+      "file": "content/code-articles/batch-25/P0A0C.md",
+      "fileSha256": "0a538c01433f9496ebdef0d50ec9fdb99915f555b339ae1e16718789814c64b5",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            553
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0A0C: interlock feedback is low when its source is active",
+      "status": "draft",
+      "currentSha256AtReport": "0a538c01433f9496ebdef0d50ec9fdb99915f555b339ae1e16718789814c64b5",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0A0D",
+      "file": "content/code-articles/batch-25/P0A0D.md",
+      "fileSha256": "b0c6255aa458e397c32f3213072bada5b818a9304f5fdb73f04aa441cbd6ba78",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            553
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0A0D: interlock feedback is high under one of two source states",
+      "status": "draft",
+      "currentSha256AtReport": "b0c6255aa458e397c32f3213072bada5b818a9304f5fdb73f04aa441cbd6ba78",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0A7F",
+      "file": "content/code-articles/batch-25/P0A7F.md",
+      "fileSha256": "aff00eadc382650b88ca815a43baba70ad5cadef1acbf0ad6d62d951197779be",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            586
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0A7F: battery deterioration is evaluated under qualified power conditions",
+      "status": "draft",
+      "currentSha256AtReport": "aff00eadc382650b88ca815a43baba70ad5cadef1acbf0ad6d62d951197779be",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0AA6",
+      "file": "content/code-articles/batch-25/P0AA6.md",
+      "fileSha256": "2c7c0b2f39fd0d875c0710074b7054705c9eddc0bca0934d8622f0f56b7961e8",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            553
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0AA6: battery isolation resistance is too low under the test state",
+      "status": "draft",
+      "currentSha256AtReport": "2c7c0b2f39fd0d875c0710074b7054705c9eddc0bca0934d8622f0f56b7961e8",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P0AD9",
+      "file": "content/code-articles/batch-25/P0AD9.md",
+      "fileSha256": "7c9875a8ee99413f94962d865f2a590e4347d83274168b196bb3a79913e73477",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0AD9: positive-contactor driver response does not match the command",
+      "status": "draft",
+      "currentSha256AtReport": "7c9875a8ee99413f94962d865f2a590e4347d83274168b196bb3a79913e73477",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0ADD",
+      "file": "content/code-articles/batch-25/P0ADD.md",
+      "fileSha256": "9ff9d19c0963f7256d9be57250e4350bd3c2f10e0932a049967e8e02d69ffb66",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0ADD: negative-contactor control feedback fails its state comparison",
+      "status": "draft",
+      "currentSha256AtReport": "9ff9d19c0963f7256d9be57250e4350bd3c2f10e0932a049967e8e02d69ffb66",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0AE2",
+      "file": "content/code-articles/batch-25/P0AE2.md",
+      "fileSha256": "920c4d95a1607a147bb73a52e4383d456c3b4319217c0db45b30e292bf942e2d",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0AE2: precharge path appears closed from the bus-to-battery ratio",
+      "status": "draft",
+      "currentSha256AtReport": "920c4d95a1607a147bb73a52e4383d456c3b4319217c0db45b30e292bf942e2d",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0AE4",
+      "file": "content/code-articles/batch-25/P0AE4.md",
+      "fileSha256": "0f867b8046cbcd7b7c2574fcea1c6c87d79fadbb315bd3ed5f4a7995d8c4b3f8",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0AE4: precharge driver feedback is inconsistent with its command",
+      "status": "draft",
+      "currentSha256AtReport": "0f867b8046cbcd7b7c2574fcea1c6c87d79fadbb315bd3ed5f4a7995d8c4b3f8",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B10",
+      "file": "content/code-articles/batch-25/P0B10.md",
+      "fileSha256": "5f7842074962691f074c462f9d8798919dbed913f7344b40e14f4909b8c12751",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            643
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B10: fine battery-current sensing is below its lower range",
+      "status": "draft",
+      "currentSha256AtReport": "5f7842074962691f074c462f9d8798919dbed913f7344b40e14f4909b8c12751",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B11",
+      "file": "content/code-articles/batch-25/P0B11.md",
+      "fileSha256": "fecca40b48d64dad312719dfa64529b4abd1ed14d40b814905d90f97bdf3ec63",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            643
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B11: fine current-sensor feedback is above its upper range",
+      "status": "draft",
+      "currentSha256AtReport": "fecca40b48d64dad312719dfa64529b4abd1ed14d40b814905d90f97bdf3ec63",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B13",
+      "file": "content/code-articles/batch-25/P0B13.md",
+      "fileSha256": "1c31d332d274d4e678d7f2bc03ac018b06e4c78b56bdbee62db3e48094c56f04",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            585
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B13: fine and coarse battery-current measurements disagree",
+      "status": "draft",
+      "currentSha256AtReport": "1c31d332d274d4e678d7f2bc03ac018b06e4c78b56bdbee62db3e48094c56f04",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B3B",
+      "file": "content/code-articles/batch-25/P0B3B.md",
+      "fileSha256": "f0644ee51fa33cd7c0e22be96439752b7259d88eb4b1a99789eb16a91ecaf6bd",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B3B: battery sense channel A needs an open-line investigation",
+      "status": "draft",
+      "currentSha256AtReport": "f0644ee51fa33cd7c0e22be96439752b7259d88eb4b1a99789eb16a91ecaf6bd",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P0B40",
+      "file": "content/code-articles/batch-25/P0B40.md",
+      "fileSha256": "edaa45379d893251630ba332aab1f70e401dbaf8f507f23ba464c6fc0aae347c",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B40: zero battery readings do not automatically mean dead cells",
+      "status": "draft",
+      "currentSha256AtReport": "edaa45379d893251630ba332aab1f70e401dbaf8f507f23ba464c6fc0aae347c",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B45",
+      "file": "content/code-articles/batch-25/P0B45.md",
+      "fileSha256": "b399baa1d50120eceab4dbd21510590caada87b16af9bb95c590ca8d3f586453",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B45: sense circuit C should be read alongside adjacent channels",
+      "status": "draft",
+      "currentSha256AtReport": "b399baa1d50120eceab4dbd21510590caada87b16af9bb95c590ca8d3f586453",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B4A",
+      "file": "content/code-articles/batch-25/P0B4A.md",
+      "fileSha256": "f78af8ec526b7f39eb221ff361597050634af59017bc89a6f9db20bcec6f8daa",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B4A: busbar sensing and cell condition must be separated",
+      "status": "draft",
+      "currentSha256AtReport": "f78af8ec526b7f39eb221ff361597050634af59017bc89a6f9db20bcec6f8daa",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B4F",
+      "file": "content/code-articles/batch-25/P0B4F.md",
+      "fileSha256": "a287e3127737b5f9db092ca4d7098596b65be649ca2f6e85db380efd91866cb0",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B4F: sense channel E needs valid module communication first",
+      "status": "draft",
+      "currentSha256AtReport": "a287e3127737b5f9db092ca4d7098596b65be649ca2f6e85db380efd91866cb0",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B54",
+      "file": "content/code-articles/batch-25/P0B54.md",
+      "fileSha256": "bc8f8209cc9a047dcf70ff301e3ad781a6aabf48067208577c31f2291c0c7218",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B54: sense circuit F uses a sustained open-detection window",
+      "status": "draft",
+      "currentSha256AtReport": "bc8f8209cc9a047dcf70ff301e3ad781a6aabf48067208577c31f2291c0c7218",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B59",
+      "file": "content/code-articles/batch-25/P0B59.md",
+      "fileSha256": "1ad121cc3ec10c46931fcb13ab8ee3558a2778867263536a9b464e92cf05b3fa",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B59: cell-balancing faults can prevent a valid sense-G evaluation",
+      "status": "draft",
+      "currentSha256AtReport": "1ad121cc3ec10c46931fcb13ab8ee3558a2778867263536a9b464e92cf05b3fa",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B5E",
+      "file": "content/code-articles/batch-25/P0B5E.md",
+      "fileSha256": "2ae573cd453619178ddc391425a53f408fb491bbbec2d27f7ac0d8f9ee0e3f6f",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B5E: sense-H readings need the controller test state recorded",
+      "status": "draft",
+      "currentSha256AtReport": "2ae573cd453619178ddc391425a53f408fb491bbbec2d27f7ac0d8f9ee0e3f6f",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B63",
+      "file": "content/code-articles/batch-25/P0B63.md",
+      "fileSha256": "bfb066796d893e0809d4dda5895cd07e9e36586580d5278a2053b370a74916c6",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B63: sense circuit I is a channel label, not a pack replacement order",
+      "status": "draft",
+      "currentSha256AtReport": "bfb066796d893e0809d4dda5895cd07e9e36586580d5278a2053b370a74916c6",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B68",
+      "file": "content/code-articles/batch-25/P0B68.md",
+      "fileSha256": "91170b14888ed00854c7a840a4b416d8abfbc886007e8d3e51b9393744e41f39",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B68: sense-J diagnosis continues the shared open-line monitor",
+      "status": "draft",
+      "currentSha256AtReport": "91170b14888ed00854c7a840a4b416d8abfbc886007e8d3e51b9393744e41f39",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B6D",
+      "file": "content/code-articles/batch-25/P0B6D.md",
+      "fileSha256": "fad0e816ab53ce2d00c064f70ccf47c3da094b96a2822549f1ffdc00553e4509",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B6D: common sensing power can affect the circuit-K voltage pattern",
+      "status": "draft",
+      "currentSha256AtReport": "fad0e816ab53ce2d00c064f70ccf47c3da094b96a2822549f1ffdc00553e4509",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B77",
+      "file": "content/code-articles/batch-25/P0B77.md",
+      "fileSha256": "02e6ff5d48944d7ba021a7d0819646ef35ab3a6dc866e755bb8938eaeba68843",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B77: sense-M fault needs the exact pack channel map",
+      "status": "draft",
+      "currentSha256AtReport": "02e6ff5d48944d7ba021a7d0819646ef35ab3a6dc866e755bb8938eaeba68843",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B7C",
+      "file": "content/code-articles/batch-25/P0B7C.md",
+      "fileSha256": "349c1800d2f09bfd2937f13cc2c2e83db6b53ee57a68693e0bfab9dbf20c6e8d",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B7C: sense-N verification must show a valid completed monitor",
+      "status": "draft",
+      "currentSha256AtReport": "349c1800d2f09bfd2937f13cc2c2e83db6b53ee57a68693e0bfab9dbf20c6e8d",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P0B81",
+      "file": "content/code-articles/batch-25/P0B81.md",
+      "fileSha256": "039fa38ded34442857655ddca17bd2a39f7b2931e13a36e387d1aa13ec2410e9",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "scope": "Document-level 2015 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "P0B81: sense-O readings must be distinguished from actual cell voltage",
+      "status": "draft",
+      "currentSha256AtReport": "039fa38ded34442857655ddca17bd2a39f7b2931e13a36e387d1aa13ec2410e9",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1126",
+      "file": "content/code-articles/batch-25/P1126.md",
+      "fileSha256": "66ee12889f4ce82c0ca3184f93c1b3f07143463692f9d14fd35d7c20fec711f4",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            451,
+            452
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima factory EC manual, thermostat-function procedure. This meaning is limited to the documented model-year application.",
+      "title": "P1126: the 2001 Maxima thermostat warm-up diagnosis",
+      "status": "draft",
+      "currentSha256AtReport": "66ee12889f4ce82c0ca3184f93c1b3f07143463692f9d14fd35d7c20fec711f4",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P1148",
+      "file": "content/code-articles/batch-25/P1148.md",
+      "fileSha256": "88ab865188c57443ec92bb30d5d929873a69de1cda6782b529ba89c1dbe1139d",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            476,
+            477
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1148: Maxima bank-1 closed-loop control has not become active",
+      "status": "draft",
+      "currentSha256AtReport": "88ab865188c57443ec92bb30d5d929873a69de1cda6782b529ba89c1dbe1139d",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1165",
+      "file": "content/code-articles/batch-25/P1165.md",
+      "fileSha256": "c8cf1a6e12ac27eb95c117c6f4c0f023adc6c5e631a918124703ea19425883a7",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            478,
+            479,
+            481,
+            482,
+            483
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1165: Maxima swirl-vacuum switch stays in the wrong state",
+      "status": "draft",
+      "currentSha256AtReport": "c8cf1a6e12ac27eb95c117c6f4c0f023adc6c5e631a918124703ea19425883a7",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1211",
+      "file": "content/code-articles/batch-25/P1211.md",
+      "fileSha256": "ce7fdf859ce0bef7d815df10c0d656dfa2d858715778c893474e37e1c770895d",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            407
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1211: Titan engine controller is reporting a TCS-side malfunction",
+      "status": "draft",
+      "currentSha256AtReport": "ce7fdf859ce0bef7d815df10c0d656dfa2d858715778c893474e37e1c770895d",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1212",
+      "file": "content/code-articles/batch-25/P1212.md",
+      "fileSha256": "0bf264343f0b52af018f46d6573841414cb91333553098b9ee95f7309aab1f51",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            408
+          ]
+        }
+      ],
+      "scope": "2004 Nissan Titan, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1212: Titan TCS communication is missing at the engine controller",
+      "status": "draft",
+      "currentSha256AtReport": "0bf264343f0b52af018f46d6573841414cb91333553098b9ee95f7309aab1f51",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1320",
+      "file": "content/code-articles/batch-25/P1320.md",
+      "fileSha256": "00f70b970297f8ef29d7729f8fee52332b86ec79efddd5ae6733e6be624e2bb3",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            506,
+            507,
+            511,
+            512,
+            514,
+            515,
+            516
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1320: Maxima ignition-signal diagnosis starts with companion sensor codes",
+      "status": "draft",
+      "currentSha256AtReport": "00f70b970297f8ef29d7729f8fee52332b86ec79efddd5ae6733e6be624e2bb3",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1402",
+      "file": "content/code-articles/batch-25/P1402.md",
+      "fileSha256": "754399e0b081e904edf3ec5aa9c5dbd3df14aa527a1712542ed951d65746b290",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            368,
+            369,
+            371,
+            372,
+            373
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1402: Altima EGR flow is detected when no flow is requested",
+      "status": "draft",
+      "currentSha256AtReport": "754399e0b081e904edf3ec5aa9c5dbd3df14aa527a1712542ed951d65746b290",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1440",
+      "file": "content/code-articles/batch-25/P1440.md",
+      "fileSha256": "55d0235bbd90e06aa4326d7b58e5771f0f24b285342e8b77ded8ccdcc68aea42",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            531,
+            532,
+            362,
+            363,
+            364
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Maxima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1440: Maxima small-leak diagnosis uses positive tank pressure",
+      "status": "draft",
+      "currentSha256AtReport": "55d0235bbd90e06aa4326d7b58e5771f0f24b285342e8b77ded8ccdcc68aea42",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1441",
+      "file": "content/code-articles/batch-25/P1441.md",
+      "fileSha256": "d853c0cca8dc2655dd0cad721496bbb4597d006bb74177f1696d5d326981e9b9",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            376,
+            378,
+            379,
+            380,
+            381,
+            382
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima factory EC manual, P1441 very-small-leak procedure. The existing imported Nissan dictionary title conflicts with this documented application.",
+      "title": "P1441: the 2001 Altima uses this code for a very small EVAP leak",
+      "status": "draft",
+      "currentSha256AtReport": "d853c0cca8dc2655dd0cad721496bbb4597d006bb74177f1696d5d326981e9b9",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P1444",
+      "file": "content/code-articles/batch-25/P1444.md",
+      "fileSha256": "68d6e77c5c959f3fff117dd6932bc81279e5c533998c5f1abe2f4b4df9aab4ac",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            386,
+            387,
+            388,
+            390,
+            391,
+            392
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1444: Altima detects purge when the valve should be closed",
+      "status": "draft",
+      "currentSha256AtReport": "68d6e77c5c959f3fff117dd6932bc81279e5c533998c5f1abe2f4b4df9aab4ac",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1446",
+      "file": "content/code-articles/batch-25/P1446.md",
+      "fileSha256": "eef33f0d0184dbf084b676072d27095f36124405b5fd6f51174735a56dce1a58",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            393,
+            394,
+            395,
+            396,
+            397
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1446: Altima vent restriction can imitate a valve stuck closed",
+      "status": "draft",
+      "currentSha256AtReport": "eef33f0d0184dbf084b676072d27095f36124405b5fd6f51174735a56dce1a58",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1447",
+      "file": "content/code-articles/batch-25/P1447.md",
+      "fileSha256": "b47c29df6ad90ecfc736b9c72d691695f20623ae6a2522513b7083c1b85a18a5",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            398,
+            399,
+            401,
+            402,
+            403
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1447: Altima purge monitoring depends on throttle-state information",
+      "status": "draft",
+      "currentSha256AtReport": "b47c29df6ad90ecfc736b9c72d691695f20623ae6a2522513b7083c1b85a18a5",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1448",
+      "file": "content/code-articles/batch-25/P1448.md",
+      "fileSha256": "19e9b63b71e3f3fd6c56829bb97660c4bd75d9b96f1c2094187acf067e715d00",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "needs-review",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            405,
+            406,
+            407,
+            409,
+            410
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1448: Altima vent does not seal when EVAP diagnosis requests it",
+      "status": "draft",
+      "currentSha256AtReport": "19e9b63b71e3f3fd6c56829bb97660c4bd75d9b96f1c2094187acf067e715d00",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "P1490",
+      "file": "content/code-articles/batch-25/P1490.md",
+      "fileSha256": "4dc07648f82354b4124dfd68dfe882158a77aac0cf9f791ca4b4ee2ee513ed03",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            415,
+            416,
+            418,
+            419
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1490: Altima vacuum-cut bypass has an electrical control fault",
+      "status": "draft",
+      "currentSha256AtReport": "4dc07648f82354b4124dfd68dfe882158a77aac0cf9f791ca4b4ee2ee513ed03",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1491",
+      "file": "content/code-articles/batch-25/P1491.md",
+      "fileSha256": "d5740ee1ec9315766be9652f0a280c88bf9f819718f8bd3484a58a061d07a94d",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            420,
+            421,
+            422,
+            423,
+            424
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1491: Altima bypass performance depends on valves and vapor plumbing",
+      "status": "draft",
+      "currentSha256AtReport": "d5740ee1ec9315766be9652f0a280c88bf9f819718f8bd3484a58a061d07a94d",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1706",
+      "file": "content/code-articles/batch-25/P1706.md",
+      "fileSha256": "0f7fc348fca3bd843b7aa0ab0f204fde2468ae3d7e56dd50ed1b8bf5d1930a26",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            428,
+            429,
+            431,
+            432
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, EC section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1706: Altima park-neutral input fails to change during use",
+      "status": "draft",
+      "currentSha256AtReport": "0f7fc348fca3bd843b7aa0ab0f204fde2468ae3d7e56dd50ed1b8bf5d1930a26",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "P1760",
+      "file": "content/code-articles/batch-25/P1760.md",
+      "fileSha256": "503a7a1557f27e639f08bb461221b0d0b61510d56b599867b20dbfe5333b86b0",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": false,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-at",
+          "pages": [
+            154,
+            156,
+            157
+          ]
+        }
+      ],
+      "scope": "2001 Nissan Altima, AT section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "P1760: Altima overrun-clutch solenoid circuit response is abnormal",
+      "status": "draft",
+      "currentSha256AtReport": "503a7a1557f27e639f08bb461221b0d0b61510d56b599867b20dbfe5333b86b0",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "full body and scope; no independent source deep check"
+    },
+    {
+      "code": "U0134",
+      "file": "content/code-articles/batch-25/U0134.md",
+      "fileSha256": "91bbd73eba9f7e5a837cef0b7e4997bae968394c47ae2a807dd8ca37df15cabd",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            1168
+          ]
+        }
+      ],
+      "scope": "Document-level 2020 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "U0134: brake controller did not receive a usable rear-steer status message",
+      "status": "draft",
+      "currentSha256AtReport": "91bbd73eba9f7e5a837cef0b7e4997bae968394c47ae2a807dd8ca37df15cabd",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "U0154",
+      "file": "content/code-articles/batch-25/U0154.md",
+      "fileSha256": "701b35b45723f0a01c0670354a6ba6fe470539f26266b43f24d89f85bf110f4b",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg03e-diagnostics",
+          "pages": [
+            1376
+          ]
+        }
+      ],
+      "scope": "Document-level 2020 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "U0154: restraint controller times out waiting for occupant status",
+      "status": "draft",
+      "currentSha256AtReport": "701b35b45723f0a01c0670354a6ba6fe470539f26266b43f24d89f85bf110f4b",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "U0159",
+      "file": "content/code-articles/batch-25/U0159.md",
+      "fileSha256": "779aafa5f7c13e771780851ed6f9842b22e3c3a76128147a0e18bfd128382dfe",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg03c-diagnostics",
+          "pages": [
+            1815
+          ]
+        }
+      ],
+      "scope": "Document-level 2020 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "U0159: parking-assist braking-request message is late",
+      "status": "draft",
+      "currentSha256AtReport": "779aafa5f7c13e771780851ed6f9842b22e3c3a76128147a0e18bfd128382dfe",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "U0405",
+      "file": "content/code-articles/batch-25/U0405.md",
+      "fileSha256": "7256eeeacde8e099b4a69d2f1e12f6a97cf622d38922160c63ce63bfb1c58ac8",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            400
+          ]
+        }
+      ],
+      "scope": "Document-level 2020 GM diagnostic table; per-code vehicle/engine/calibration applicability not established.",
+      "title": "U0405: cruise-control status arrived with the wrong data length",
+      "status": "draft",
+      "currentSha256AtReport": "7256eeeacde8e099b4a69d2f1e12f6a97cf622d38922160c63ce63bfb1c58ac8",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    },
+    {
+      "code": "U0415",
+      "file": "content/code-articles/batch-25/U0415.md",
+      "fileSha256": "9e8262ba22e81399be3fbf94e71d87640f950187dd47f679cee97064bce4d675",
+      "bodyRead": true,
+      "scopeRead": true,
+      "sourceReview": "checked",
+      "deepCheckSelected": true,
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2010-altima-bcs",
+          "pages": [
+            40
+          ]
+        }
+      ],
+      "scope": "2010 Nissan Altima, BCS section. Exact engine, drivetrain and diagnostic applicability must be checked in the cited procedure.",
+      "title": "U0415: Altima BCM receives abnormal vehicle-speed information",
+      "status": "draft",
+      "currentSha256AtReport": "9e8262ba22e81399be3fbf94e71d87640f950187dd47f679cee97064bce4d675",
+      "unchangedSinceBodyRead": true,
+      "reviewDepth": "body plus original-PDF deep check"
+    }
+  ],
+  "sourceSnapshots": [
+    {
+      "sourceId": "gm-2010-10obdg02-engine-diagnostics",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2010/10OBDG02%20Engine%20Diagnostics.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2010-10obdg02-engine-diagnostics.pdf",
+      "pdfSha256": "7c37a319aad4aabfc6a7421e211102fddf4203371c7f7a787801264e25aa976e",
+      "selectedArticlePhysicalPagesRead": [
+        38
+      ],
+      "physicalPagesVisuallyInspected": [
+        38
+      ]
+    },
+    {
+      "sourceId": "nissan-2004-titan-ec",
+      "url": "https://www.nissan-techinfo.com/refgh0v/sm/2004/Titan/EC.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2004-titan-ec.pdf",
+      "pdfSha256": "ca0a3b48cf75a4228afe56e98ca8e07247b0c2f9e0e32867a08a336cebc3c12e",
+      "selectedArticlePhysicalPagesRead": [
+        195,
+        196,
+        201,
+        202,
+        204,
+        205,
+        270,
+        271,
+        272,
+        273
+      ],
+      "physicalPagesVisuallyInspected": []
+    },
+    {
+      "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG01%20Hybrid%20Diagnostics.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg01-hybrid-diagnostics.pdf",
+      "pdfSha256": "1a2950d5c248e5b67f2e4ac010ed0420de270acc63fcaa8a8c67466a4e90ddd0",
+      "selectedArticlePhysicalPagesRead": [
+        553,
+        568,
+        569,
+        570,
+        593,
+        594,
+        635,
+        636
+      ],
+      "physicalPagesVisuallyInspected": [
+        553,
+        569,
+        593,
+        594,
+        635,
+        636
+      ]
+    },
+    {
+      "sourceId": "nissan-2001-altima-at",
+      "url": "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/AT.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2001-altima-at.pdf",
+      "pdfSha256": "e47fc0d45514860b5e4d692fc1de62538e92296cc662d6e49f91e51ce52c7eda",
+      "selectedArticlePhysicalPagesRead": [
+        133,
+        134,
+        136,
+        137
+      ],
+      "physicalPagesVisuallyInspected": []
+    },
+    {
+      "sourceId": "nissan-2004-quest-at",
+      "url": "https://www.nissan-techinfo.com/refgh0v/sm/2004/Quest/AT.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2004-quest-at.pdf",
+      "pdfSha256": "2ce8d318fa1909ae46c0a0c518baf8222369b45fbb0390b9098e1d4a7e1faba3",
+      "selectedArticlePhysicalPagesRead": [
+        554,
+        557
+      ],
+      "physicalPagesVisuallyInspected": []
+    },
+    {
+      "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2015/15OBDG06%20Transmission%20Diagnostics.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2015-15obdg06-transmission-diagnostics.pdf",
+      "pdfSha256": "768a15b18b4fd46a9b75ba944e459bec413bef9d2549a55942ea12c36b9b2143",
+      "selectedArticlePhysicalPagesRead": [
+        97
+      ],
+      "physicalPagesVisuallyInspected": [
+        97
+      ]
+    },
+    {
+      "sourceId": "nissan-2001-maxima-ec",
+      "url": "https://www.nissan-techinfo.com/refgh0v/sm/2001/Maxima/EC.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2001-maxima-ec.pdf",
+      "pdfSha256": "b5f189021510f38b91f01c05c5fcd9a85a4111dcd2341393f3e9c5f3c248031c",
+      "selectedArticlePhysicalPagesRead": [
+        451,
+        452
+      ],
+      "physicalPagesVisuallyInspected": [
+        451
+      ]
+    },
+    {
+      "sourceId": "nissan-2001-altima-ec",
+      "url": "https://www.nissan-techinfo.com/refgh0v/sm/2001/Altima/EC.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2001-altima-ec.pdf",
+      "pdfSha256": "32d230da72b9418b73feaa544c718859e9216313ef87c08ca23a5bc83c296221",
+      "selectedArticlePhysicalPagesRead": [
+        376,
+        378,
+        379,
+        380,
+        381,
+        382,
+        405,
+        406,
+        407,
+        409,
+        410
+      ],
+      "physicalPagesVisuallyInspected": [
+        406
+      ]
+    },
+    {
+      "sourceId": "gm-2020-20obdg07-diagnostics",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG07%20Diagnostics.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2020-20obdg07-diagnostics.pdf",
+      "pdfSha256": "7f6f0e368a3070bcf76642b937f353cf2d3eb1851dd28d4c6dd233aeca61d0b2",
+      "selectedArticlePhysicalPagesRead": [
+        400,
+        1168
+      ],
+      "physicalPagesVisuallyInspected": [
+        400,
+        1168
+      ]
+    },
+    {
+      "sourceId": "gm-2020-20obdg03e-diagnostics",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG03E%20Diagnostics.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2020-20obdg03e-diagnostics.pdf",
+      "pdfSha256": "541edd250d4001e1bf75bcbdf2f749b2043ea1dfb927d4e94a18b95c346f00d7",
+      "selectedArticlePhysicalPagesRead": [
+        1376
+      ],
+      "physicalPagesVisuallyInspected": [
+        1376
+      ]
+    },
+    {
+      "sourceId": "gm-2020-20obdg03c-diagnostics",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2020/20OBDG03C%20Diagnostics.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer22/gm-2020-20obdg03c-diagnostics.pdf",
+      "pdfSha256": "c5bb9e7b224ce9ec6a71aae6174abd322fdaecaa44b7635303022a224c93cb89",
+      "selectedArticlePhysicalPagesRead": [
+        1815
+      ],
+      "physicalPagesVisuallyInspected": [
+        1815
+      ]
+    },
+    {
+      "sourceId": "nissan-2010-altima-bcs",
+      "url": "https://www.nissan-techinfo.com/refgh0v/sm/2010/Altima/BCS.pdf",
+      "pdfPath": "/workspace/scratch/dbf135311373/wave3/writer25/nissan-2010-altima-bcs.pdf",
+      "pdfSha256": "71c2bb4963cfcff0c6bac28c61281bbc267ec76295decb5f6cf0a1541d5f73ec",
+      "selectedArticlePhysicalPagesRead": [
+        40
+      ],
+      "physicalPagesVisuallyInspected": []
+    }
+  ],
+  "additionalSourcePages": [
+    {
+      "sourceId": "nissan-2004-titan-ec",
+      "physicalPages": [
+        366,
+        372
+      ],
+      "purpose": "P1126 incompatible candidate meaning and companion-only reference."
+    },
+    {
+      "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+      "physicalPages": [
+        562
+      ],
+      "purpose": "P1E8C/P1E8D pump-enable classification while checking P0534 prerequisite language."
+    }
+  ],
+  "inspectedInputFiles": [
+    {
+      "file": "research/article-assignments/batch-25.json",
+      "fileSha256": "ffa8d5eb98ce59394a352ada1efc9cc30221ef44b3a8396ef797f5f7e178d851"
+    },
+    {
+      "file": "content/code-articles/batch-25/research-notes.json",
+      "fileSha256": "d8bfbd9b0cf78c31365943dec94bf66273f282facc4464ad8a5b735855e1eb71"
+    },
+    {
+      "file": "src/data/diagnostic-source-index.json",
+      "fileSha256": "5a731f27136e9c9b5be5f886bfbc2847b1dd429b50d16ee51a288d15bc89bc95"
+    }
+  ],
+  "limitations": [
+    "Only the selected 20 articles received independent original-PDF fact checking. The other 80 received full-body and scope review, not a blanket independent verification of every cited technical claim.",
+    "The 14 voltage-sense articles share a genuine OEM diagnostic family. This report does not imply unique repair paths or verified physical channel locations for them.",
+    "All articles remain drafts. Author sourceReview=checked means source-checked drafting, not mechanic approval, guaranteed model fitment, publication readiness or guaranteed search traffic.",
+    "File hashes record the reviewed bytes. Later root corrections require their own follow-up check; any changed files are listed below."
+  ],
+  "mutations": {
+    "manuscriptsModified": false,
+    "sharedAssignmentsModified": false,
+    "sharedSourcesModified": false,
+    "writtenRepositoryFiles": [
+      "reports/editorial-review-wave-03-batch-25.json"
+    ],
+    "scratchHelpersWritten": true
+  },
+  "articleFilesChangedBeforeReport": []
+}

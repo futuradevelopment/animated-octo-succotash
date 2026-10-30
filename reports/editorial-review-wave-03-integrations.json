@@ -1,0 +1,268 @@
+{
+  "status": "completed",
+  "corrections": [
+    {
+      "finding": "B25-02",
+      "file": "content/code-articles/batch-25/P0534.md",
+      "beforeSha256": "1f71eb6f3b79d364b0135249e63bc047d8c920a0f3cb9a7940c4fba0fd88fe3d",
+      "afterSha256": "2b45abbc4bad1bf9dbe11fe9845e7c48d77e6bede1a5f3b61f0d4eee9029b004",
+      "resolution": "Removed unsupported communication-fault inhibit category; retained the row-supported pump, valve and sensor prerequisites."
+    },
+    {
+      "finding": "B24-02",
+      "file": "content/code-articles/batch-24/P1545.md",
+      "beforeSha256": "88967ff5e20557f749e1c8e1a93be8da74b643556e05d0066d7324d75eacbeaf",
+      "afterSha256": "e8c1192102ce0789e5e81c9c06fd78f4f966ea081991202c2d88ac44f920b13e",
+      "resolution": "Added the physical revision-table page8 to metadata and visible source footer."
+    },
+    {
+      "finding": "B25-01",
+      "file": "research/article-assignments/batch-25.json",
+      "resolution": "Thermostat assignment now retains only the matching2001Maxima primary candidates; incompatible2004Titan meaning removed."
+    },
+    {
+      "finding": "B24-01",
+      "sourceId": "nhtsa-vw-p1624-09g",
+      "resolution": "Registered the retained Volkswagen Technical Tip with original URL, PDF hash, physical page count and limited scope."
+    }
+  ],
+  "remaining": [
+    "Original needs-review source limitations remain disclosed. Independent AI review is not mechanic certification."
+  ],
+  "editorialRevisionB24_03": {
+    "request": "Root follow-up addressing independent review finding B24-03.",
+    "changedArticles": [
+      "P1213",
+      "P1214",
+      "P1215",
+      "P1216",
+      "P1217",
+      "P1218",
+      "P1219",
+      "P1220",
+      "P1239",
+      "P1240",
+      "P1241",
+      "P1242",
+      "P1243",
+      "P1355",
+      "P1358",
+      "P1361",
+      "P1364",
+      "P1653",
+      "P1814",
+      "P1815",
+      "P1819",
+      "P1820",
+      "P1824",
+      "P1825",
+      "P1829",
+      "P1830",
+      "P1847"
+    ],
+    "changedCount": 27,
+    "method": "Individually condensed the 27 narrow family articles; removed repeated absence-of-pinout warnings, repeated code-clearing cautions and generic concluding caveats. Retained actual component/cylinder/fault direction, source-supported diagnostic branches, transmission-specific connector notes and bounded bulletin leads. Explicitly identify genuinely shared diagnostic methods instead of implying different repairs. P1220 source discrepancy and needs-review retained.",
+    "additionalEvidence": "Existing source revisions re-used; a quick lookup of retained NHTSA CSV metadata did not establish the cited ignition bulletin, so no unverified additional OEM claims were added. P1653/P1847 now cite one another\u2019s original source page to support the explicit shared-referral comparison.",
+    "previousArticleWords": 6806,
+    "revisedArticleWords": 5155,
+    "revisedArticleWordCountRange": [
+      183,
+      203
+    ],
+    "reviewStatesChanged": false,
+    "structuralValidation": "All100 assignment identities, draft states, search descriptions, minimum150totalbodywords and source locators checked.",
+    "assembledRegistryValidation": "passed",
+    "otherFilesChangedByRootSinceSnapshot": [],
+    "articleRevisions": [
+      {
+        "code": "P1213",
+        "beforeSha256": "7fe14410ac289c8d93e2ebeab0522e671bbffcc6abf6f9f0be43654056eb7121",
+        "afterSha256": "00e07c0a7f740b3f6c8a8930576ef9be8fe0982152874b4de07bbc412a61c931",
+        "beforeWords": 255,
+        "afterWords": 184
+      },
+      {
+        "code": "P1214",
+        "beforeSha256": "061205d88a1cf3d1978f538bc45f437dce4a716fefb39a0da36732c7f1df63d2",
+        "afterSha256": "8e4b574f6ffbe44106c240d17d67e0e7f804f94d714e8fd47ded8784ffb6873a",
+        "beforeWords": 256,
+        "afterWords": 189
+      },
+      {
+        "code": "P1215",
+        "beforeSha256": "bec32b03fff46bf255a5b8423ddd0038289e75bb8d066c26eeba095bb9b1ed44",
+        "afterSha256": "b4bf2ac75c3b88c017c2a361b7b489cf8ea2c38afa83dc7d1075c14fe94e90aa",
+        "beforeWords": 252,
+        "afterWords": 192
+      },
+      {
+        "code": "P1216",
+        "beforeSha256": "540b881f21a7e51b087d56875b3d17b4d4269bf992b3efcecc4b28766e2c4f37",
+        "afterSha256": "d096c13ab51f175b61f51a74d974240e15368341938035fd902c67481fad35e4",
+        "beforeWords": 253,
+        "afterWords": 189
+      },
+      {
+        "code": "P1217",
+        "beforeSha256": "b0ee6a50b2dfd796af27e0981a124edb67d53daacd6c63bacfe5b7ba3ca9713d",
+        "afterSha256": "05832846e174872e293848594e70af210b83497f005406b33274fc88c864232a",
+        "beforeWords": 246,
+        "afterWords": 188
+      },
+      {
+        "code": "P1218",
+        "beforeSha256": "f6e1d6ae5703b8e97604b5d10d98c558f822ea185909800e5475b8627b911cf3",
+        "afterSha256": "f3d40be332e50d2b4eed4c7ba6dd1a118a20ad450943b136b42cd29fa87cccfc",
+        "beforeWords": 260,
+        "afterWords": 183
+      },
+      {
+        "code": "P1219",
+        "beforeSha256": "38ad477e8b58ee74d70eb777b12e00c36aa07bbf8b227cc9b85251bef3393127",
+        "afterSha256": "6d225ac0b5a676c6c14248e3a4759937e9e06f261aebcbefb677cbf5533d5d09",
+        "beforeWords": 255,
+        "afterWords": 189
+      },
+      {
+        "code": "P1220",
+        "beforeSha256": "24ac78d0b18553d07f2027cbb121deb9d4b074e8b285b2cd27e46afd0dbbfb12",
+        "afterSha256": "1bf5d05517e8d3841700f9d162d7f1b0bc7d279a4cfb7a5dec4633b2785f6881",
+        "beforeWords": 249,
+        "afterWords": 183
+      },
+      {
+        "code": "P1239",
+        "beforeSha256": "4e800bba98fa0e333b5f4a1303b6c6a59b15fbad3946f8ef25e45331ca3a1252",
+        "afterSha256": "809cf3e66a2ecc94c3c5824a909138303db0af9897559501b60c42cdba7973e2",
+        "beforeWords": 253,
+        "afterWords": 192
+      },
+      {
+        "code": "P1240",
+        "beforeSha256": "5eb47d606e5959b467b9bc172d0c7eb59522e7684bb0f98ec1a1616570cf27ee",
+        "afterSha256": "0a8159c38ac0cd090a7bdba03845719f24b06eed8e37f1a1d2abb5c46a143f34",
+        "beforeWords": 257,
+        "afterWords": 187
+      },
+      {
+        "code": "P1241",
+        "beforeSha256": "2054200ed030f7bfd0737876b2217191ec34269334abf8a0c864fab30481a747",
+        "afterSha256": "fa41e2045d659e6ef26f2d5e8a9446ed8fa1ead97e224a236426a5af3a7c7c90",
+        "beforeWords": 249,
+        "afterWords": 190
+      },
+      {
+        "code": "P1242",
+        "beforeSha256": "69bf259b2720ea88fd456de1d11d8e5b1924053ee204b24bdad965a49b842420",
+        "afterSha256": "7261ac049307ea3687f6d25416d4725e290476e1be50532d9b6495e0108f42a2",
+        "beforeWords": 252,
+        "afterWords": 185
+      },
+      {
+        "code": "P1243",
+        "beforeSha256": "95d43762ad083190bcf9365db5c6b277b350aa0c6079d788feda6143b8bc164f",
+        "afterSha256": "7f1183de72d7b3d0b111614a0ec8269a0e7525c1b9030ddd55de7560697cd087",
+        "beforeWords": 253,
+        "afterWords": 184
+      },
+      {
+        "code": "P1355",
+        "beforeSha256": "552c81e71c8e97083c4be77ffaf2223fea40daa1cda02c63b283a05f8f68fa08",
+        "afterSha256": "d1eb328c78c90e93a42eab01b8f40df9c17215636b57339af460a4d3fa40f6d3",
+        "beforeWords": 254,
+        "afterWords": 198
+      },
+      {
+        "code": "P1358",
+        "beforeSha256": "9aa552901ebf92741716818bd7dcbe6400fc324f8f660d4b696540391e2f61b4",
+        "afterSha256": "c2289396e654cd42ba908b0106ff5c0f3db99341f3e518884a0d5ebdb1bd6a5f",
+        "beforeWords": 248,
+        "afterWords": 194
+      },
+      {
+        "code": "P1361",
+        "beforeSha256": "f7af9e60ba4ec7ac4c48417327163a3cb505eb010b7c36216e3827f24fa2f0f2",
+        "afterSha256": "96eb6e68a0c9003876cd4a2b7611ae3443ded9d381216ba699d5f7dea753e349",
+        "beforeWords": 251,
+        "afterWords": 193
+      },
+      {
+        "code": "P1364",
+        "beforeSha256": "fc178262959f27d3effdbd542fd0455ca5acd308c63471e02537b6d2012b752a",
+        "afterSha256": "634ba41ffa0b28cba81041879bfdcb260599986160f8c944f5078f82fbd8e84a",
+        "beforeWords": 253,
+        "afterWords": 198
+      },
+      {
+        "code": "P1653",
+        "beforeSha256": "bf138f3c345fb7edb3da3e37c55108b5b3af61cb45d6ab5f508fc471c5415158",
+        "afterSha256": "e54724647d95536cf15cbc3fa2ef6888f21386066e3e2212349b28e8972c68c1",
+        "beforeWords": 254,
+        "afterWords": 200
+      },
+      {
+        "code": "P1814",
+        "beforeSha256": "9db89063d30f8ddf4f386a4204faab22f12f498aa5bf6a81f3a663144df5c4d9",
+        "afterSha256": "71f2ce9828bb838f722b99046534cb6a7f9565970a5bf86ae5428de4fd1f7848",
+        "beforeWords": 254,
+        "afterWords": 190
+      },
+      {
+        "code": "P1815",
+        "beforeSha256": "a565a665d57f649d1f61bf08a57cda56ba039a13f70aaabc9aa9a6c073cd9079",
+        "afterSha256": "170c99478692445c9116aeabf3ceb51693a9d6786c4c556dff11651ff9c4196a",
+        "beforeWords": 247,
+        "afterWords": 195
+      },
+      {
+        "code": "P1819",
+        "beforeSha256": "35b8674e8e87d2c88c4620bc7d80d8e17173a11adcda12c652c5da9c9f9761cc",
+        "afterSha256": "c22c7cdab535673139949553869a6f73109d5a12b5111e39dda2dc62710fd6db",
+        "beforeWords": 260,
+        "afterWords": 193
+      },
+      {
+        "code": "P1820",
+        "beforeSha256": "37a35cf7251c99b79783ef68341cd2a03cab8fa187b3dc04e08f8666f0df917a",
+        "afterSha256": "4e29a2a90d41b1f6eee3108588cc22757d730c7d4675a2953e95cae2f0983352",
+        "beforeWords": 249,
+        "afterWords": 190
+      },
+      {
+        "code": "P1824",
+        "beforeSha256": "55a84fd095a9db323229f6f36a52794f03e1e916b53358b4c7aef3b385d1dabf",
+        "afterSha256": "41540c8b065ddf29739394ffc14db1a9269a96dae2510b0378c781c8aeacb233",
+        "beforeWords": 249,
+        "afterWords": 189
+      },
+      {
+        "code": "P1825",
+        "beforeSha256": "e03ba3086ab7da2e0c778298274ae7012f4e91dc1698128b6bb4fe2be59be8c0",
+        "afterSha256": "29d8d76591b358f88a630909985895f056fa931d68c718b23dcf944fd9ec5bc3",
+        "beforeWords": 248,
+        "afterWords": 188
+      },
+      {
+        "code": "P1829",
+        "beforeSha256": "b3ce93d084e7b1506b365302b54321b8633f16fc0e3a3d2bbb9e173b55559b12",
+        "afterSha256": "10b39c303c0558ecdde3ddc5644658c3583d83c23f4c128e3b5cf83119cd01e4",
+        "beforeWords": 249,
+        "afterWords": 194
+      },
+      {
+        "code": "P1830",
+        "beforeSha256": "76f22453fdcfc29768729aad535d1eda0ae78100aaff1af266f06d5a80abcc1e",
+        "afterSha256": "63469023cc29ed21209d6f3dcac7da5208303ed1fae6d3a7e187eccad9d9e09b",
+        "beforeWords": 250,
+        "afterWords": 195
+      },
+      {
+        "code": "P1847",
+        "beforeSha256": "72cb8bbd0f99167317942cc70b689ea2e4f2ddb07a6c6a9d6f312d11f307bf4e",
+        "afterSha256": "f94df59ab218cc5ac7118a341c471de1b8ce9dcd1ce952916595a3b2b1ff4f1c",
+        "beforeWords": 250,
+        "afterWords": 203
+      }
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
+import {readDiagnosticSourceIndex} from './diagnostic-sources.mjs';
 
 export const ARTICLE_TARGET=10000;
 // Unsupported symptoms, causes or repairs must be omitted, not invented to fill
@@ -137,14 +138,24 @@ export async function writeArticleCoverage(root=process.cwd()){
  const data=path.join(root,'src/data');
  const [entries,guides,sourceIndex,articles,...sourceLists]=await Promise.all([
   readOptional(path.join(data,'dtc.json'),[]),readOptional(path.join(data,'authored-guides.json'),[]),
-  readOptional(path.join(data,'diagnostic-source-index.json'),{}),readOptional(path.join(data,'code-articles.json'),[]),
+  readDiagnosticSourceIndex(path.join(data,'diagnostic-source-index.json')).catch(error=>{if(error.code==='ENOENT')return {};throw error;}),readOptional(path.join(data,'code-articles.json'),[]),
   ...['dataset-sources.json','oem-sources.json','editorial-sources.json'].map(name=>readOptional(path.join(data,name),[]))
  ]);
  if(!entries.length)throw new Error('Cannot create a complete backlog without the canonical code catalog');
  const {summary,backlog}=buildArticleCoverage({entries,guides,sourceIndex,articles,sources:sourceLists.flat()});
  const output=path.join(root,'reports');await fs.mkdir(output,{recursive:true});
  await fs.writeFile(path.join(output,'article-coverage-summary.json'),JSON.stringify(summary,null,2)+'\n');
- await fs.writeFile(path.join(output,'article-backlog.jsonl'),backlog.map(row=>JSON.stringify(row)).join('\n')+'\n');
+ const backlogDirectory=path.join(output,'article-backlog');await fs.mkdir(backlogDirectory,{recursive:true});
+ const parts=[];
+ for(let offset=0;offset<backlog.length;offset+=250){
+  const rows=backlog.slice(offset,offset+250),name=`part-${String(parts.length+1).padStart(3,'0')}.jsonl`;
+  await fs.writeFile(path.join(backlogDirectory,name),rows.map(row=>JSON.stringify(row)).join('\n')+'\n');
+  parts.push({file:name,entries:rows.length,firstEntry:rows[0].entryId,lastEntry:rows.at(-1).entryId});
+ }
+ const kept=new Set(parts.map(part=>part.file));
+ for(const name of await fs.readdir(backlogDirectory))if(/^part-\d+\.jsonl$/.test(name)&&!kept.has(name))await fs.unlink(path.join(backlogDirectory,name));
+ await fs.writeFile(path.join(backlogDirectory,'index.json'),JSON.stringify({format:'JSON Lines in ordered parts',entries:backlog.length,parts},null,2)+'\n');
+ await fs.rm(path.join(output,'article-backlog.jsonl'),{force:true});
  return summary;
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(path.resolve(process.argv[1])).href){

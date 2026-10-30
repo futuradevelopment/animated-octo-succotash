@@ -1,0 +1,2084 @@
+{
+  "batch": "batch-26",
+  "writer": "writer_26",
+  "checkedOn": "2026-10-30",
+  "status": "writing-complete",
+  "assigned": 100,
+  "writtenInOwnedDirectory": 100,
+  "authored": 100,
+  "checkedDrafts": 89,
+  "needsReview": 11,
+  "words": 27705,
+  "wordCountRange": [
+    232,
+    318
+  ],
+  "substantiveWords": 20859,
+  "substantiveWordCountRange": [
+    177,
+    233
+  ],
+  "method": [
+    "Read original manufacturer bulletins downloaded from NHTSA, retaining original URL, SHA-256 and physical PDF page boundaries. Catalog summaries were used only for discovery; actual document scope governs the articles.",
+    "Individually authored English articles with specific diagnostic branches, firmware conditions, component inspection findings and verification boundaries. No title-to-generic-prose generator was used.",
+    "All 100 proposed final manuscripts have parseable metadata and bounded source-page references. All remain drafts; source checked is not human mechanic approval.",
+    "Visually checked scanned C0529 and P2AF5 pages, Kia P2562 voltage/adaptation table, both Mercedes P0944 pages, P0248 applicability table and P26FB vacuum-orifice page.",
+    "No inferred universal make or model coverage from NHTSA tags. No invented repair prices, pinouts, diagnostic measurements or present warranty entitlement. High-voltage, brake, airbag and fuel work is bounded to qualified service procedures.",
+    "Source files and extracted text remain in scratch; repository manuscripts contain original explanations and direct source links."
+  ],
+  "sourceDocumentCount": 99,
+  "unresolvedIssues": [
+    {
+      "code": "C0033",
+      "issue": "The STAR case PDF has no complete vehicle applicability table. Catalog associations are not promoted to verified model or VIN fitment."
+    },
+    {
+      "code": "C0044",
+      "issue": "STAR source lacks vehicle applicability and supplies a conditional assembly-serviceability instruction, not a complete diagnostic test. Article explicitly limits its claims."
+    },
+    {
+      "code": "C058E",
+      "issue": "Brief GPOP source supplies platform/model-year labels and conditional paired replacement, but lacks complete vehicle applicability or diagnostic steps."
+    },
+    {
+      "code": "P0169",
+      "issue": "Printed ANP water-limit figures were not independently verified and are omitted as diagnostic or legal acceptance thresholds. The documented fuel-sensor mechanism is retained with market and engine limits."
+    },
+    {
+      "code": "P0248",
+      "issue": "Written March 3, 2025 endpoint conflicts with MDH 0325XX. Article avoids claiming an exact cutoff and uses the unambiguous metric clip thresholds."
+    },
+    {
+      "code": "P04EE",
+      "issue": "The written March 15, 2023 production cutoff conflicts with the printed MDH 0523XX. The article does not assume which is correct."
+    },
+    {
+      "code": "P083F",
+      "issue": "The diagnosis section permits symptomatic vehicles outside the VIN list, then states VIN-only applicability. The article conservatively requires dealer clarification."
+    },
+    {
+      "code": "P0C73",
+      "issue": "The introductory contamination note is broader than the illustrated simple-versus-severe branch on physical page 4. Current Kia guidance is needed for repair classification. NHTSA EV catalog tags are excluded by the OEM HEV/PHEV scope."
+    },
+    {
+      "code": "P2110",
+      "issue": "The source prints -7 °C with -20 °F, an inconsistent conversion. The article omits the exact temperature and retains only the below-freezing context."
+    },
+    {
+      "code": "P2540",
+      "issue": "The original STAR PDF lacks a complete model and engine applicability table. The dual-filter case is explained without inventing fitment."
+    },
+    {
+      "code": "P26FB",
+      "issue": "STAR case provides substantive vacuum and valve diagnostic branches but no complete model, engine or VIN applicability table. Software investigation is historical, not a claim of an available current fix."
+    }
+  ],
+  "replacementHistory": [
+    {
+      "removed": "P04CA",
+      "replacement": "P04FC",
+      "reason": "Original code was only an incidental companion mention; root approved replacement."
+    },
+    {
+      "removed": "P2BE0",
+      "replacement": "P26FB",
+      "reason": "Engineering contact/photo request alone was insufficient; replacement has direct vacuum-orifice and valve-integrity diagnostics."
+    },
+    {
+      "removed": "P0251",
+      "replacement": "P0944",
+      "reason": "Accessible Jaguar document only requested technical assistance; replacement has original Mercedes diagnostic branches."
+    }
+  ],
+  "additionalEvidenceChanges": {
+    "P2280": "Changed from engineering-contact filter note to 18-130-22 Rev. A / NHTSA 10230344, covering the one-trip to two-trip monitor change.",
+    "P0E55": "Uses newer 08-283-26 / NHTSA 11035167, which explicitly supersedes 08-333-25.",
+    "U0594": "Rejected catalog summary attached to a later revision that no longer mentioned this code; uses actual matching 08-014-21 / NHTSA 10187133.",
+    "B0020": "Uses actual seat-jumper inspection and repair bulletin 10-001-20 / NHTSA 10223975, not an engineering-contact request."
+  },
+  "validation": {
+    "errors": [],
+    "duplicateNormalizedBodies": 0,
+    "fiveWordShingleMaxJaccard": [
+      0.03611738148984198,
+      "P22D3",
+      "P0DE6"
+    ],
+    "similarityScreenOnly": "A low text-overlap score does not establish mechanical accuracy.",
+    "sharedSourceIndexAndAssignments": "Passed for all 100 repository manuscripts after root integration; one publisher-label correction for nhtsa-mc-10205289 was separately reported to root."
+  },
+  "articles": [
+    {
+      "code": "U0212",
+      "file": "content/code-articles/batch-26/U0212.md",
+      "words": 275,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11010693"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11010693",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0080",
+      "file": "content/code-articles/batch-26/U0080.md",
+      "words": 279,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11032858"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11032858",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P04FC",
+      "file": "content/code-articles/batch-26/P04FC.md",
+      "words": 269,
+      "substantiveWords": 208,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10181608"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10181608",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P253D",
+      "file": "content/code-articles/batch-26/P253D.md",
+      "words": 282,
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10144802"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10144802",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0197",
+      "file": "content/code-articles/batch-26/U0197.md",
+      "words": 287,
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10121797"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10121797",
+          "pages": [
+            1,
+            2,
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P215C",
+      "file": "content/code-articles/batch-26/P215C.md",
+      "words": 285,
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10148601"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10148601",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0513",
+      "file": "content/code-articles/batch-26/P0513.md",
+      "words": 278,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10198457"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10198457",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C003A",
+      "file": "content/code-articles/batch-26/C003A.md",
+      "words": 278,
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10188819"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10188819",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0594",
+      "file": "content/code-articles/batch-26/U0594.md",
+      "words": 301,
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10187133"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10187133",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U3033",
+      "file": "content/code-articles/batch-26/U3033.md",
+      "words": 284,
+      "substantiveWords": 214,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11024551"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11024551",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P203E",
+      "file": "content/code-articles/batch-26/P203E.md",
+      "words": 291,
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11008745"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11008745",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U019F",
+      "file": "content/code-articles/batch-26/U019F.md",
+      "words": 280,
+      "substantiveWords": 212,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11038176"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11038176",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P06EF",
+      "file": "content/code-articles/batch-26/P06EF.md",
+      "words": 277,
+      "substantiveWords": 215,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10169232"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10169232",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2757",
+      "file": "content/code-articles/batch-26/P2757.md",
+      "words": 305,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10121724"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10121724",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0158",
+      "file": "content/code-articles/batch-26/U0158.md",
+      "words": 278,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10221232"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10221232",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0184",
+      "file": "content/code-articles/batch-26/U0184.md",
+      "words": 266,
+      "substantiveWords": 212,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10159890"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10159890",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P083F",
+      "file": "content/code-articles/batch-26/P083F.md",
+      "words": 276,
+      "substantiveWords": 211,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-11028221"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11028221",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0137",
+      "file": "content/code-articles/batch-26/U0137.md",
+      "words": 282,
+      "substantiveWords": 229,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10175617"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10175617",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P207F",
+      "file": "content/code-articles/batch-26/P207F.md",
+      "words": 280,
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10140217"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10140217",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0880",
+      "file": "content/code-articles/batch-26/P0880.md",
+      "words": 286,
+      "substantiveWords": 227,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10214154"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10214154",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0019",
+      "file": "content/code-articles/batch-26/U0019.md",
+      "words": 263,
+      "substantiveWords": 206,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10229807"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10229807",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0208",
+      "file": "content/code-articles/batch-26/U0208.md",
+      "words": 276,
+      "substantiveWords": 208,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10149674"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10149674",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2172",
+      "file": "content/code-articles/batch-26/P2172.md",
+      "words": 265,
+      "substantiveWords": 193,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10138930"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10138930",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P3442",
+      "file": "content/code-articles/batch-26/P3442.md",
+      "words": 261,
+      "substantiveWords": 191,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10160012"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10160012",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0070",
+      "file": "content/code-articles/batch-26/P0070.md",
+      "words": 256,
+      "substantiveWords": 193,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11026646"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11026646",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2422",
+      "file": "content/code-articles/batch-26/P2422.md",
+      "words": 264,
+      "substantiveWords": 213,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10152892"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10152892",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2181",
+      "file": "content/code-articles/batch-26/P2181.md",
+      "words": 261,
+      "substantiveWords": 194,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10159951"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10159951",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0264",
+      "file": "content/code-articles/batch-26/U0264.md",
+      "words": 288,
+      "substantiveWords": 231,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10193961"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10193961",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0111",
+      "file": "content/code-articles/batch-26/U0111.md",
+      "words": 273,
+      "substantiveWords": 205,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11032834"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11032834",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0DAB",
+      "file": "content/code-articles/batch-26/P0DAB.md",
+      "words": 268,
+      "substantiveWords": 206,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11014166"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11014166",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U300A",
+      "file": "content/code-articles/batch-26/U300A.md",
+      "words": 246,
+      "substantiveWords": 191,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11015963"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11015963",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0033",
+      "file": "content/code-articles/batch-26/C0033.md",
+      "words": 259,
+      "substantiveWords": 199,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-11018617"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11018617",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B0020",
+      "file": "content/code-articles/batch-26/B0020.md",
+      "words": 305,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10223975"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10223975",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0169",
+      "file": "content/code-articles/batch-26/P0169.md",
+      "words": 260,
+      "substantiveWords": 207,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-11030123"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11030123",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P06E9",
+      "file": "content/code-articles/batch-26/P06E9.md",
+      "words": 249,
+      "substantiveWords": 188,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10234482"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10234482",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2540",
+      "file": "content/code-articles/batch-26/P2540.md",
+      "words": 267,
+      "substantiveWords": 209,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-11018605"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11018605",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0A0F",
+      "file": "content/code-articles/batch-26/P0A0F.md",
+      "words": 261,
+      "substantiveWords": 209,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10136620"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10136620",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0565",
+      "file": "content/code-articles/batch-26/U0565.md",
+      "words": 243,
+      "substantiveWords": 192,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11000797"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11000797",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0D27",
+      "file": "content/code-articles/batch-26/P0D27.md",
+      "words": 261,
+      "substantiveWords": 195,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10234486"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10234486",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0810",
+      "file": "content/code-articles/batch-26/P0810.md",
+      "words": 268,
+      "substantiveWords": 207,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11001226"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11001226",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0E55",
+      "file": "content/code-articles/batch-26/P0E55.md",
+      "words": 274,
+      "substantiveWords": 209,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11035167"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11035167",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P016C",
+      "file": "content/code-articles/batch-26/P016C.md",
+      "words": 295,
+      "substantiveWords": 233,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10196551"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10196551",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P26FB",
+      "file": "content/code-articles/batch-26/P26FB.md",
+      "words": 302,
+      "substantiveWords": 216,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-10174167"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10174167",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0287",
+      "file": "content/code-articles/batch-26/U0287.md",
+      "words": 260,
+      "substantiveWords": 198,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11035326"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11035326",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P04EE",
+      "file": "content/code-articles/batch-26/P04EE.md",
+      "words": 269,
+      "substantiveWords": 199,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-10242781"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10242781",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0928",
+      "file": "content/code-articles/batch-26/P0928.md",
+      "words": 255,
+      "substantiveWords": 199,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10148928"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10148928",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P250F",
+      "file": "content/code-articles/batch-26/P250F.md",
+      "words": 277,
+      "substantiveWords": 199,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11009409"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11009409",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P06E4",
+      "file": "content/code-articles/batch-26/P06E4.md",
+      "words": 295,
+      "substantiveWords": 233,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10187124"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10187124",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P258B",
+      "file": "content/code-articles/batch-26/P258B.md",
+      "words": 288,
+      "substantiveWords": 226,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10184451"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10184451",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0901",
+      "file": "content/code-articles/batch-26/P0901.md",
+      "words": 261,
+      "substantiveWords": 196,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10121858"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10121858",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2299",
+      "file": "content/code-articles/batch-26/P2299.md",
+      "words": 260,
+      "substantiveWords": 191,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10121696"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10121696",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0529",
+      "file": "content/code-articles/batch-26/C0529.md",
+      "words": 245,
+      "substantiveWords": 183,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10231683"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10231683",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P202E",
+      "file": "content/code-articles/batch-26/P202E.md",
+      "words": 240,
+      "substantiveWords": 184,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10224744"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10224744",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0887",
+      "file": "content/code-articles/batch-26/P0887.md",
+      "words": 259,
+      "substantiveWords": 193,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10148970"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10148970",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0199",
+      "file": "content/code-articles/batch-26/U0199.md",
+      "words": 246,
+      "substantiveWords": 192,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10128930"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10128930",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U015C",
+      "file": "content/code-articles/batch-26/U015C.md",
+      "words": 269,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11038632"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11038632",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2281",
+      "file": "content/code-articles/batch-26/P2281.md",
+      "words": 265,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10148901"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10148901",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0AD4",
+      "file": "content/code-articles/batch-26/P0AD4.md",
+      "words": 241,
+      "substantiveWords": 183,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11027235"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11027235",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U3017",
+      "file": "content/code-articles/batch-26/U3017.md",
+      "words": 239,
+      "substantiveWords": 177,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11035167"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11035167",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P032F",
+      "file": "content/code-articles/batch-26/P032F.md",
+      "words": 240,
+      "substantiveWords": 178,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11035974"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11035974",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P084F",
+      "file": "content/code-articles/batch-26/P084F.md",
+      "words": 254,
+      "substantiveWords": 192,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11033327"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11033327",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P05BD",
+      "file": "content/code-articles/batch-26/P05BD.md",
+      "words": 232,
+      "substantiveWords": 179,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11025041"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11025041",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2110",
+      "file": "content/code-articles/batch-26/P2110.md",
+      "words": 261,
+      "substantiveWords": 183,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-10248951"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10248951",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P04B6",
+      "file": "content/code-articles/batch-26/P04B6.md",
+      "words": 253,
+      "substantiveWords": 181,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11032840"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11032840",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0645",
+      "file": "content/code-articles/batch-26/U0645.md",
+      "words": 251,
+      "substantiveWords": 193,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10223809"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10223809",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P250C",
+      "file": "content/code-articles/batch-26/P250C.md",
+      "words": 260,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10243319"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10243319",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2173",
+      "file": "content/code-articles/batch-26/P2173.md",
+      "words": 303,
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10178681"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10178681",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2AF6",
+      "file": "content/code-articles/batch-26/P2AF6.md",
+      "words": 249,
+      "substantiveWords": 187,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10241073"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10241073",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0248",
+      "file": "content/code-articles/batch-26/P0248.md",
+      "words": 304,
+      "substantiveWords": 226,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-11017151"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11017151",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0E80",
+      "file": "content/code-articles/batch-26/P0E80.md",
+      "words": 303,
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10239945"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10239945",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P08A6",
+      "file": "content/code-articles/batch-26/P08A6.md",
+      "words": 299,
+      "substantiveWords": 229,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11029675"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11029675",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2C90",
+      "file": "content/code-articles/batch-26/P2C90.md",
+      "words": 301,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10241084"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10241084",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0044",
+      "file": "content/code-articles/batch-26/C0044.md",
+      "words": 279,
+      "substantiveWords": 213,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-11018602"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11018602",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P22D3",
+      "file": "content/code-articles/batch-26/P22D3.md",
+      "words": 302,
+      "substantiveWords": 227,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11034322"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11034322",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P288B",
+      "file": "content/code-articles/batch-26/P288B.md",
+      "words": 284,
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10187120"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10187120",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0944",
+      "file": "content/code-articles/batch-26/P0944.md",
+      "words": 301,
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10205289"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10205289",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2280",
+      "file": "content/code-articles/batch-26/P2280.md",
+      "words": 303,
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10230344"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10230344",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0615",
+      "file": "content/code-articles/batch-26/U0615.md",
+      "words": 299,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11031666"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11031666",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0E7F",
+      "file": "content/code-articles/batch-26/P0E7F.md",
+      "words": 287,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10241108"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10241108",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0094",
+      "file": "content/code-articles/batch-26/C0094.md",
+      "words": 294,
+      "substantiveWords": 209,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11036153"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11036153",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0A3C",
+      "file": "content/code-articles/batch-26/P0A3C.md",
+      "words": 314,
+      "substantiveWords": 228,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10152899"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10152899",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P05B2",
+      "file": "content/code-articles/batch-26/P05B2.md",
+      "words": 301,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10189289"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10189289",
+          "pages": [
+            1,
+            2,
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P26AB",
+      "file": "content/code-articles/batch-26/P26AB.md",
+      "words": 281,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10188644"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10188644",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P26A3",
+      "file": "content/code-articles/batch-26/P26A3.md",
+      "words": 290,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11006531"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11006531",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C058E",
+      "file": "content/code-articles/batch-26/C058E.md",
+      "words": 279,
+      "substantiveWords": 213,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-11020604"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11020604",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0168",
+      "file": "content/code-articles/batch-26/U0168.md",
+      "words": 290,
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11005285"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11005285",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2000",
+      "file": "content/code-articles/batch-26/P2000.md",
+      "words": 302,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10189383"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10189383",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0C73",
+      "file": "content/code-articles/batch-26/P0C73.md",
+      "words": 294,
+      "substantiveWords": 217,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "nhtsa-mc-10188138"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10188138",
+          "pages": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2BAF",
+      "file": "content/code-articles/batch-26/P2BAF.md",
+      "words": 281,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10168460"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10168460",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2562",
+      "file": "content/code-articles/batch-26/P2562.md",
+      "words": 317,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10109715"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10109715",
+          "pages": [
+            1,
+            2,
+            3,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2AF5",
+      "file": "content/code-articles/batch-26/P2AF5.md",
+      "words": 251,
+      "substantiveWords": 191,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11038654"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11038654",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0253",
+      "file": "content/code-articles/batch-26/P0253.md",
+      "words": 309,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11015894"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11015894",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P059A",
+      "file": "content/code-articles/batch-26/P059A.md",
+      "words": 290,
+      "substantiveWords": 213,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11012046"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11012046",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0512",
+      "file": "content/code-articles/batch-26/P0512.md",
+      "words": 318,
+      "substantiveWords": 213,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10217601"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10217601",
+          "pages": [
+            1,
+            2,
+            4,
+            6,
+            7,
+            14,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0D21",
+      "file": "content/code-articles/batch-26/P0D21.md",
+      "words": 290,
+      "substantiveWords": 202,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11034897"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11034897",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P209F",
+      "file": "content/code-articles/batch-26/P209F.md",
+      "words": 289,
+      "substantiveWords": 203,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11029672"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11029672",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P023E",
+      "file": "content/code-articles/batch-26/P023E.md",
+      "words": 297,
+      "substantiveWords": 212,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-10190725"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10190725",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0BBE",
+      "file": "content/code-articles/batch-26/P0BBE.md",
+      "words": 304,
+      "substantiveWords": 214,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11029667"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11029667",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0DE6",
+      "file": "content/code-articles/batch-26/P0DE6.md",
+      "words": 285,
+      "substantiveWords": 212,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11032836"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11032836",
+          "pages": [
+            1,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0A0A",
+      "file": "content/code-articles/batch-26/P0A0A.md",
+      "words": 291,
+      "substantiveWords": 209,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "nhtsa-mc-11030409"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11030409",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "written": 100
+}

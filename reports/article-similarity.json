@@ -1,5 +1,5 @@
 {
-  "articles": 2000,
+  "articles": 3000,
   "method": "Five-word Jaccard similarity after removing headings/source sections and normalizing code strings/numbers. Candidate pairs share at least 25 low-frequency shingles; report threshold 0.45. This detects some textual repetition, not factual correctness or all semantic duplication.",
   "similarPairs": []
 }

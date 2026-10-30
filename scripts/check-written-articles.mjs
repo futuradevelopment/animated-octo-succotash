@@ -1,9 +1,10 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {readDiagnosticSourceIndex} from './diagnostic-sources.mjs';
 
 const root=process.cwd();
 const manifest=JSON.parse(await fs.readFile(path.join(root,'research/article-assignments/manifest.json'),'utf8'));
-const sources=JSON.parse(await fs.readFile(path.join(root,'src/data/diagnostic-source-index.json'),'utf8')).sources;
+const sources=(await readDiagnosticSourceIndex(path.join(root,'src/data/diagnostic-source-index.json'))).sources;
 const sourceMap=new Map(sources.map(source=>[source.id,source]));
 const failures=[],warnings=[],articles=[],batches=[];
 const bodies=new Map();
@@ -38,17 +39,21 @@ for(const batch of manifest.batches){
   if(wordCount<150)issues.push('insufficient_written_content');
   if(!body.includes(code)||(body.match(/^## /gm)||[]).length<2)issues.push('missing_article_structure');
   if(!Array.isArray(metadata.sourceIds)||!metadata.sourceIds.length||metadata.sourceIds.some(id=>!sourceMap.has(id)))issues.push('unresolved_source');
-  if(!Array.isArray(metadata.sourcePages)||!metadata.sourcePages.length)issues.push('missing_page_evidence');
+  if(!metadata.sourcePages?.length&&!metadata.sourceLocators?.length)issues.push('missing_source_evidence');
   for(const evidence of metadata.sourcePages||[]){
    const source=sourceMap.get(evidence.sourceId);
-   if(!source||!metadata.sourceIds?.includes(evidence.sourceId)||!evidence.pages?.length||evidence.pages.some(page=>!Number.isInteger(page)||page<1||(source.pageCount&&page>source.pageCount)))issues.push('invalid_page_evidence');
+   if(!source||!metadata.sourceIds?.includes(evidence.sourceId)||!Number.isInteger(source.pageCount)||!evidence.pages?.length||evidence.pages.some(page=>!Number.isInteger(page)||page<1||page>source.pageCount))issues.push('invalid_page_evidence');
+  }
+  for(const evidence of metadata.sourceLocators||[]){
+   const source=sourceMap.get(evidence.sourceId);
+   if(!source||!metadata.sourceIds?.includes(evidence.sourceId)||typeof evidence.locator!=='string'||!evidence.locator.trim())issues.push('invalid_locator_evidence');
   }
   if(!/https:\/\//.test(body))issues.push('missing_visible_source_link');
   const normalized=body.replace(/^#.*$/gm,'').replace(/https?:\/\/\S+/g,'URL').replace(/\b[PBCU][0-3][0-9A-F]{3}\b/g,'CODE').replace(/\s+/g,' ').trim().toLowerCase();
   if(bodies.has(normalized))issues.push(`duplicate_body:${bodies.get(normalized)}`);else bodies.set(normalized,relativePath);
   if(metadata.sourceReview==='needs-review')warnings.push({file:relativePath,issue:'source_review_pending'});
   failures.push(...issues.map(issue=>({file:relativePath,issue})));
-  articles.push({code,entryId:metadata.entryId,batch:batch.batch,path:relativePath,title:metadata.title,wordCount,sourceReview:metadata.sourceReview,sourceIds:metadata.sourceIds,sourcePages:metadata.sourcePages});written++;
+  articles.push({code,entryId:metadata.entryId,batch:batch.batch,path:relativePath,title:metadata.title,wordCount,sourceReview:metadata.sourceReview,sourceIds:metadata.sourceIds,sourcePages:metadata.sourcePages,sourceLocators:metadata.sourceLocators});written++;
  }
  batches.push({batch:batch.batch,assigned:assignments.length,written,missing:assignments.filter(item=>!articles.some(article=>article.entryId===item.entryId)).map(item=>item.code)});
 }
@@ -59,6 +64,16 @@ if(new Set(articles.map(article=>article.code)).size!==articles.length)failures.
 const counts={assigned:manifest.target,written:articles.length,uniqueCodes:new Set(articles.map(article=>article.code)).size,sourceCheckedDrafts:articles.filter(article=>article.sourceReview==='checked').length,sourceReviewPending:articles.filter(article=>article.sourceReview==='needs-review').length,words:articles.reduce((sum,article)=>sum+article.wordCount,0),minimumWords:articles.length?Math.min(...articles.map(article=>article.wordCount)):0,maximumWords:articles.length?Math.max(...articles.map(article=>article.wordCount)):0,publishedByThisBatch:0};
 const waves=(manifest.waves||[]).map(wave=>{const rows=articles.filter(article=>wave.batches.includes(article.batch));return {wave:wave.wave,assigned:wave.target,written:rows.length,uniqueCodes:new Set(rows.map(article=>article.code)).size,sourceCheckedDrafts:rows.filter(article=>article.sourceReview==='checked').length,sourceReviewPending:rows.filter(article=>article.sourceReview==='needs-review').length,words:rows.reduce((sum,article)=>sum+article.wordCount,0)};});
 const report={checkedAt:new Date().toISOString(),status:failures.length?'failed':articles.length===manifest.target?'writing-complete':'in-progress',counts,waves,batches,failures,warnings,limitations:['This report measures written drafts and metadata integrity, not mechanical accuracy, human review, live publication, indexing or traffic.',`The overall 10,000+ code-article goal remains separate from these ${manifest.target.toLocaleString('en-US')} assigned manuscripts.`],articles};
-await fs.writeFile(path.join(root,'reports/written-articles.json'),JSON.stringify(report,null,2)+'\n');
+const inventoryDirectory=path.join(root,'reports/written-articles');await fs.mkdir(inventoryDirectory,{recursive:true});
+const articleFiles=[];
+for(let offset=0;offset<articles.length;offset+=250){
+ const name=`part-${String(articleFiles.length+1).padStart(3,'0')}.json`;
+ await fs.writeFile(path.join(inventoryDirectory,name),JSON.stringify(articles.slice(offset,offset+250),null,2)+'\n');
+ articleFiles.push(`written-articles/${name}`);
+}
+const keptParts=new Set(articleFiles.map(file=>path.basename(file)));
+for(const name of await fs.readdir(inventoryDirectory))if(/^part-\d+\.json$/.test(name)&&!keptParts.has(name))await fs.unlink(path.join(inventoryDirectory,name));
+const {articles:articleRecords,...reportSummary}=report;
+await fs.writeFile(path.join(root,'reports/written-articles.json'),JSON.stringify({...reportSummary,articleFiles},null,2)+'\n');
 console.log(JSON.stringify({status:report.status,counts,batches:batches.map(({batch,assigned,written})=>({batch,assigned,written})),failures:failures.slice(0,30)},null,2));
 if(failures.length||(process.argv.includes('--require-complete')&&articles.length!==manifest.target))process.exitCode=1;

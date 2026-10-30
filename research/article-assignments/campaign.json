@@ -1,0 +1,26 @@
+{
+  "goal": 10000,
+  "articleUnit": "One separately authored manuscript per distinct assigned code string, with exact namespace and evidence scope.",
+  "waveSize": 1000,
+  "writersPerWave": 10,
+  "articlesPerWriter": 100,
+  "completedWaves": [
+    1,
+    2,
+    3
+  ],
+  "currentWave": 4,
+  "remainingPlannedWaves": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "execution": "Continue within the authorized work session; this record is a resumable work plan, not a background scheduler or a claim of publication.",
+  "qualityGate": "No invented diagnostic criteria, namespace swapping, title-only variants or counted source mentions. Every batch retains source evidence and unresolved-review notes.",
+  "publication": "Manuscripts stay drafts until separately integrated and validated in the site renderer.",
+  "currentWaveStatus": "primary-source research; no fourth-wave writing assignments counted yet"
+}

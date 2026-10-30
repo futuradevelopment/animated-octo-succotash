@@ -1,0 +1,5139 @@
+[
+  {
+    "code": "P000C",
+    "entryId": "generic-p000c",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P000C.md",
+    "title": "P000C: What slow intake-cam response means on bank 2",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          544,
+          545
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0018",
+    "entryId": "generic-p0018",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0018.md",
+    "title": "P0018: Bank 2 intake-cam correlation needs valid timing signals",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          596,
+          597
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0019",
+    "entryId": "generic-p0019",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0019.md",
+    "title": "P0019: How the bank 2 exhaust-cam correlation check is enabled",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          597,
+          598
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0020",
+    "entryId": "generic-p0020",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0020.md",
+    "title": "P0020: An open intake-cam actuator circuit is tested in the off state",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          744
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0024",
+    "entryId": "generic-p0024",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0024.md",
+    "title": "P0024: Bank 2 exhaust-cam target error is more specific than a stuck sensor",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          542,
+          543
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0049",
+    "entryId": "generic-p0049",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0049.md",
+    "title": "P0049: Turbo overspeed is evaluated from a processed speed signal",
+    "wordCount": 273,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          884
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0051",
+    "entryId": "generic-p0051",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0051.md",
+    "title": "P0051: Low heater-driver feedback is different from low oxygen output",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          299,
+          300
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0052",
+    "entryId": "generic-p0052",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0052.md",
+    "title": "P0052: High heater-driver feedback requires a commanded-on comparison",
+    "wordCount": 271,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          299
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00A7",
+    "entryId": "generic-p00a7",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00A7.md",
+    "title": "P00A7: Bank 2 manifold-temperature low checks use two signal domains",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          876,
+          877
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00A8",
+    "entryId": "generic-p00a8",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00A8.md",
+    "title": "P00A8: Separate an intake-temperature high value from a high circuit signal",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          876,
+          877
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00AB",
+    "entryId": "generic-p00ab",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00AB.md",
+    "title": "P00AB: An intake-temperature plausibility fault can be biased or stuck",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          877,
+          878
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00AC",
+    "entryId": "generic-p00ac",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00AC.md",
+    "title": "P00AC: A below-range inlet-temperature value needs channel confirmation",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          875
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00AD",
+    "entryId": "generic-p00ad",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00AD.md",
+    "title": "P00AD: The high inlet-temperature check is a physical-range monitor",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          875
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00AE",
+    "entryId": "generic-p00ae",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00AE.md",
+    "title": "P00AE: A temperature jump is judged against a filtered reference",
+    "wordCount": 278,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          875
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00C0",
+    "entryId": "generic-p00c0",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00C0.md",
+    "title": "P00C0: Bypass-valve circuit continuity differs from a stuck valve",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          857
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00C1",
+    "entryId": "generic-p00c1",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00C1.md",
+    "title": "P00C1: The bypass-driver low check runs with the output off",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          857
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00C2",
+    "entryId": "generic-p00c2",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00C2.md",
+    "title": "P00C2: The bypass-driver high code is supported by current feedback",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          857
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00C5",
+    "entryId": "generic-p00c5",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P00C5.md",
+    "title": "P00C5: Turbo B overspeed needs the correct speed-channel mapping",
+    "wordCount": 271,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          884
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P010C",
+    "entryId": "generic-p010c",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P010C.md",
+    "title": "P010C: A low MAF result may be a SENT data-range fault",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          546
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0160",
+    "entryId": "generic-p0160",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0160.md",
+    "title": "P0160: Rear oxygen-sensor inactivity can involve loading and resistance checks",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          504,
+          505
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0196",
+    "entryId": "generic-p0196",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0196.md",
+    "title": "P0196: Oil-temperature plausibility depends on the cold-soak reference",
+    "wordCount": 277,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          611
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P01E6",
+    "entryId": "generic-p01e6",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P01E6.md",
+    "title": "P01E6: Coolant sensor 3 high is a voltage-boundary diagnosis",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          531
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0221",
+    "entryId": "generic-p0221",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0221.md",
+    "title": "P0221: Throttle sensor 2 rationality also uses the air-charge model",
+    "wordCount": 285,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          620,
+          621,
+          622
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0228",
+    "entryId": "generic-p0228",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0228.md",
+    "title": "P0228: A high bank 2 throttle-position input is not a position mismatch",
+    "wordCount": 289,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          623,
+          624
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0240",
+    "entryId": "generic-p0240",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0240.md",
+    "title": "P0240: Boost-sensor plausibility is checked with the engine stopped",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          552,
+          553
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0241",
+    "entryId": "generic-p0241",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0241.md",
+    "title": "P0241: Low boost-sensor voltage is distinct from low boost pressure",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          551,
+          552
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0242",
+    "entryId": "generic-p0242",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0242.md",
+    "title": "P0242: High boost-sensor voltage requires an electrical interpretation",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          551,
+          552
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0247",
+    "entryId": "generic-p0247",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0247.md",
+    "title": "P0247: An open wastegate-driver report requires a quiet diagnostic window",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          860
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0249",
+    "entryId": "generic-p0249",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0249.md",
+    "title": "P0249: Wastegate output 1 low is reported by the H-bridge",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          861
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0250",
+    "entryId": "generic-p0250",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0250.md",
+    "title": "P0250: Wastegate output 1 high identifies a short-to-supply report",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          861
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02A5",
+    "entryId": "generic-p02a5",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02A5.md",
+    "title": "P02A5: Cylinder 3 injector leakage is inferred from combined evidence",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          705,
+          706
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02A9",
+    "entryId": "generic-p02a9",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02A9.md",
+    "title": "P02A9: Cylinder 4 leakage detection excludes an electrical injector fault",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          706,
+          707
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02AD",
+    "entryId": "generic-p02ad",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02AD.md",
+    "title": "P02AD: Cylinder 5 misfire evidence must be paired with rail-control status",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          707
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02B1",
+    "entryId": "generic-p02b1",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02B1.md",
+    "title": "P02B1: The cylinder 6 leakage monitor needs an eligible operating window",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          708
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02B5",
+    "entryId": "generic-p02b5",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02B5.md",
+    "title": "P02B5: Cylinder 7 leakage is a monitor conclusion, not a direct leak measurement",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          709
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02B9",
+    "entryId": "generic-p02b9",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02B9.md",
+    "title": "P02B9: Cylinder 8 leakage evidence must remain cylinder-specific",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          710
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02CA",
+    "entryId": "generic-p02ca",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02CA.md",
+    "title": "P02CA: Overboost compares pressure with a changing request",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          823
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02F4",
+    "entryId": "generic-p02f4",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02F4.md",
+    "title": "P02F4: Cylinder 7 injector performance can concern an internal ADC buffer",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          609
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02F5",
+    "entryId": "generic-p02f5",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P02F5.md",
+    "title": "P02F5: Cylinder 8 injector performance uses event-based signal plausibility",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          609
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P032A",
+    "entryId": "generic-p032a",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P032A.md",
+    "title": "P032A: Knock-sensor C open-load detection uses accumulated evidence",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          601
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P032B",
+    "entryId": "generic-p032b",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P032B.md",
+    "title": "P032B: Knock-sensor C performance uses a normalized reference level",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          601,
+          602
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0330",
+    "entryId": "generic-p0330",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0330.md",
+    "title": "P0330: Knock sensor B circuit monitoring waits for repeated eligible events",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          603
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0331",
+    "entryId": "generic-p0331",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0331.md",
+    "title": "P0331: A high knock reference is different from a low circuit fault",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          603,
+          604
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0332",
+    "entryId": "generic-p0332",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0332.md",
+    "title": "P0332: Knock sensor B low is based on filtered output",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          603
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P033A",
+    "entryId": "generic-p033a",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P033A.md",
+    "title": "P033A: Knock-sensor D circuit evidence needs a channel-label check",
+    "wordCount": 279,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          605,
+          606
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P033C",
+    "entryId": "generic-p033c",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P033C.md",
+    "title": "P033C: Knock-sensor D low must be separated from an ambiguous sensor number",
+    "wordCount": 281,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          605
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0342",
+    "entryId": "generic-p0342",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0342.md",
+    "title": "P0342: A low intake-cam signal means missing edges as the crank turns",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          589,
+          590
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0346",
+    "entryId": "generic-p0346",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0346.md",
+    "title": "P0346: Bank 2 intake-cam performance checks the signal pattern",
+    "wordCount": 269,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          591
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0348",
+    "entryId": "generic-p0348",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0348.md",
+    "title": "P0348: A high bank 2 intake-cam input is diagnosed when edges disappear",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          590
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0354",
+    "entryId": "generic-p0354",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0354.md",
+    "title": "P0354: Coil D open-circuit interpretation needs the actual driver mapping",
+    "wordCount": 282,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          700
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0355",
+    "entryId": "generic-p0355",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0355.md",
+    "title": "P0355: Coil E open-load evidence needs the internal driver mapping",
+    "wordCount": 281,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          701
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0357",
+    "entryId": "generic-p0357",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0357.md",
+    "title": "P0357: Coil G continuity is monitored with its driver switched off",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          702,
+          703
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0358",
+    "entryId": "generic-p0358",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0358.md",
+    "title": "P0358: Coil H circuit diagnosis needs its internal channel mapping",
+    "wordCount": 272,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          703
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0368",
+    "entryId": "generic-p0368",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0368.md",
+    "title": "P0368: Bank 1 exhaust-cam high means a missing-edge electrical state",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          591,
+          592
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0391",
+    "entryId": "generic-p0391",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0391.md",
+    "title": "P0391: Bank 2 exhaust-cam performance checks edge order and spacing",
+    "wordCount": 278,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          593,
+          594
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0392",
+    "entryId": "generic-p0392",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0392.md",
+    "title": "P0392: A low bank 2 exhaust-cam signal is assessed when edges stop",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          593
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0449",
+    "entryId": "generic-p0449",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0449.md",
+    "title": "P0449: The EVAP vent open-load fault can arrive as a CAN status message",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          694
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0495",
+    "entryId": "generic-p0495",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0495.md",
+    "title": "P0495: Fan speed high is judged against an estimated limit",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          815
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0498",
+    "entryId": "generic-p0498",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0498.md",
+    "title": "P0498: EVAP vent circuit low is a power-stage grounding report",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          694
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0499",
+    "entryId": "generic-p0499",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0499.md",
+    "title": "P0499: EVAP vent circuit high reflects a short-to-battery status",
+    "wordCount": 264,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          694
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04AB",
+    "entryId": "generic-p04ab",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P04AB.md",
+    "title": "P04AB: Purge valve B open-load detection uses a voltage window",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          749
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04AC",
+    "entryId": "generic-p04ac",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P04AC.md",
+    "title": "P04AC: Purge valve B low is an off-state driver-voltage fault",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          749
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04AD",
+    "entryId": "generic-p04ad",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P04AD.md",
+    "title": "P04AD: Purge valve B high is detected from energized-driver current",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          749
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P050B",
+    "entryId": "generic-p050b",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P050B.md",
+    "title": "P050B: Cold-start timing performance is compared with catalyst-heating intent",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          533,
+          534
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0524",
+    "entryId": "generic-p0524",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0524.md",
+    "title": "P0524: Low oil-pressure detection uses a mapped limit and debounce",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          746
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0605",
+    "entryId": "generic-p0605",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0605.md",
+    "title": "P0605: A TCM flash-memory read error is different from a checksum complaint",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          903
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P060A",
+    "entryId": "generic-p060a",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P060A.md",
+    "title": "P060A: Processor-performance codes need the reporting module identified",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          637,
+          904
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P060D",
+    "entryId": "generic-p060d",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P060D.md",
+    "title": "P060D: Pedal plausibility includes signal scaling and learned values",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          637,
+          638,
+          639,
+          640
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0610",
+    "entryId": "generic-p0610",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0610.md",
+    "title": "P0610: A TCM recovery reset differs from the generic vehicle-options label",
+    "wordCount": 280,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          904
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0613",
+    "entryId": "generic-p0613",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0613.md",
+    "title": "P0613: TCM processor diagnosis can identify an operating-system startup fault",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          904
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0642",
+    "entryId": "generic-p0642",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0642.md",
+    "title": "P0642: Reference A low is a qualified supply-rail measurement",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          909
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0643",
+    "entryId": "generic-p0643",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0643.md",
+    "title": "P0643: Reference A high must be distinguished from high battery supply",
+    "wordCount": 265,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          909
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0652",
+    "entryId": "generic-p0652",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0652.md",
+    "title": "P0652: Reference B low identifies the second TCM reference rail",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          910
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0659",
+    "entryId": "generic-p0659",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0659.md",
+    "title": "P0659: An actuator supply high fault can be discovered during shutdown",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          936
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P065A",
+    "entryId": "generic-p065a",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P065A.md",
+    "title": "P065A: Generator performance compares alternator and battery information",
+    "wordCount": 271,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          554,
+          555
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06A5",
+    "entryId": "generic-p06a5",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P06A5.md",
+    "title": "P06A5: Reference D high can be a 10.5-volt speed-sensor supply check",
+    "wordCount": 266,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          908
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06B4",
+    "entryId": "generic-p06b4",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P06B4.md",
+    "title": "P06B4: Sensor supply B low may originate from a protective switch report",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          935
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06D1",
+    "entryId": "generic-p06d1",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P06D1.md",
+    "title": "P06D1: Ignition-control performance can be an internal SPI communication error",
+    "wordCount": 285,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          636,
+          637
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06D3",
+    "entryId": "generic-p06d3",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P06D3.md",
+    "title": "P06D3: Reference E low identifies the VSS2 speed-sensor supply",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          909
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06D4",
+    "entryId": "generic-p06d4",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P06D4.md",
+    "title": "P06D4: Reference E high uses the VSS2 rail’s own voltage scale",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          909
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P072B",
+    "entryId": "generic-p072b",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P072B.md",
+    "title": "P072B: Stuck in reverse is judged from failed disengagement attempts",
+    "wordCount": 263,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1042
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P072D",
+    "entryId": "generic-p072d",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P072D.md",
+    "title": "P072D: Second gear can be declared stuck after repeated neutral requests",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1040
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P072E",
+    "entryId": "generic-p072e",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P072E.md",
+    "title": "P072E: Third-gear disengagement uses a different fork-feedback branch",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1040
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P072F",
+    "entryId": "generic-p072f",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P072F.md",
+    "title": "P072F: Fourth-gear stuck diagnosis follows the shift toward neutral",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1040,
+          1041
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P073B",
+    "entryId": "generic-p073b",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P073B.md",
+    "title": "P073B: Sixth gear stuck means repeated failure to disengage it",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1041
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P073C",
+    "entryId": "generic-p073c",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P073C.md",
+    "title": "P073C: Seventh-gear stuck detection follows position sensor 2",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1041,
+          1042
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P074A",
+    "entryId": "generic-p074a",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P074A.md",
+    "title": "P074A: Second gear may fail engagement because synchronizer speed is unsuitable",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1043
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P074B",
+    "entryId": "generic-p074b",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P074B.md",
+    "title": "P074B: Third-gear engagement failure needs speed and state history",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1043,
+          1044
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P074D",
+    "entryId": "generic-p074d",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P074D.md",
+    "title": "P074D: Fifth-gear engagement is judged over repeated qualified attempts",
+    "wordCount": 266,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1044
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P074E",
+    "entryId": "generic-p074e",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P074E.md",
+    "title": "P074E: Sixth-gear engagement failure is distinct from being stuck in sixth",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1044,
+          1045
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07C6",
+    "entryId": "generic-p07c6",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P07C6.md",
+    "title": "P07C6: Intermediate speed A high includes pulse-quality checks",
+    "wordCount": 271,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          918,
+          919
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07C7",
+    "entryId": "generic-p07c7",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P07C7.md",
+    "title": "P07C7: Intermediate speed B low is an average signal-voltage check",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          919
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07C8",
+    "entryId": "generic-p07c8",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P07C8.md",
+    "title": "P07C8: Intermediate speed B high can also report implausible pulse encoding",
+    "wordCount": 275,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          919
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07D8",
+    "entryId": "generic-p07d8",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P07D8.md",
+    "title": "P07D8: Eighth-gear engagement failure depends on speed and actuation progress",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1045
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0849",
+    "entryId": "generic-p0849",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0849.md",
+    "title": "P0849: Pressure sensor B intermittency can be a clutch-2 zero-offset check",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          977
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0868",
+    "entryId": "generic-p0868",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0868.md",
+    "title": "P0868: Low transmission pressure is measured against the current target",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1062,
+          1063
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0872",
+    "entryId": "generic-p0872",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0872.md",
+    "title": "P0872: Pressure sensor C low has a clear voltage path and an unclear supply window",
+    "wordCount": 268,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          907
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0877",
+    "entryId": "generic-p0877",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0877.md",
+    "title": "P0877: Pressure sensor D low refers to the differential-pressure input here",
+    "wordCount": 268,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          907
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0878",
+    "entryId": "generic-p0878",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0878.md",
+    "title": "P0878: Pressure sensor D high is an electrical limit, not a pressure verdict",
+    "wordCount": 265,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          907
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0882",
+    "entryId": "generic-p0882",
+    "batch": "batch-11",
+    "path": "content/code-articles/batch-11/P0882.md",
+    "title": "P0882: TCM supply low is checked outside cranking",
+    "wordCount": 290,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          909,
+          911,
+          919
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0001",
+    "entryId": "generic-p0001",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0001.md",
+    "title": "P0001: Why an unpowered fuel-volume valve can trigger an open-circuit fault",
+    "wordCount": 295,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0002",
+    "entryId": "generic-p0002",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0002.md",
+    "title": "P0002: Fuel-volume regulator performance can mean a hot ECU driver",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0003",
+    "entryId": "generic-p0003",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0003.md",
+    "title": "P0003: Low driver feedback with the fuel-volume valve switched off",
+    "wordCount": 290,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0004",
+    "entryId": "generic-p0004",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0004.md",
+    "title": "P0004: An energized fuel-volume valve exceeds its current limit",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0069",
+    "entryId": "generic-p0069",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0069.md",
+    "title": "P0069: MAP and barometric pressure are compared near engine-off conditions",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0088",
+    "entryId": "generic-p0088",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0088.md",
+    "title": "P0088: Separate sustained rail-pressure overshoot from a rapid pressure ceiling",
+    "wordCount": 293,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P008A",
+    "entryId": "generic-p008a",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P008A.md",
+    "title": "P008A: Continuous low supply pressure and repeated short drops are different triggers",
+    "wordCount": 293,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0093",
+    "entryId": "generic-p0093",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0093.md",
+    "title": "P0093: Why a large fuel-leak code can come from excessive valve demand",
+    "wordCount": 289,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00BC",
+    "entryId": "generic-p00bc",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P00BC.md",
+    "title": "P00BC: Low measured airflow has several distinct plausibility tests",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          75,
+          77,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00BD",
+    "entryId": "generic-p00bd",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P00BD.md",
+    "title": "P00BD: High airflow plausibility depends on the monitor route and model",
+    "wordCount": 278,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          75,
+          77,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00F3",
+    "entryId": "generic-p00f3",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P00F3.md",
+    "title": "P00F3: Humidity-sensor performance is checked through its temperature reading",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0100",
+    "entryId": "generic-p0100",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0100.md",
+    "title": "P0100: The MAF circuit threshold is not published in this Ford summary",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0139",
+    "entryId": "generic-p0139",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0139.md",
+    "title": "P0139: A diesel tailpipe oxygen response is timed during fuel shutoff",
+    "wordCount": 288,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P016D",
+    "entryId": "generic-p016d",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P016D.md",
+    "title": "P016D: Fuel-pressure adaptation times out before a new factor is learned",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0170",
+    "entryId": "generic-p0170",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0170.md",
+    "title": "P0170: A diesel fuel-trim fault uses a filtered global fueling error",
+    "wordCount": 288,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P025C",
+    "entryId": "generic-p025c",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P025C.md",
+    "title": "P025C: A low lift-pump control signal depends on the engine architecture",
+    "wordCount": 293,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P025D",
+    "entryId": "generic-p025d",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P025D.md",
+    "title": "P025D: High feedback in the low-side fuel-pump control path",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0263",
+    "entryId": "generic-p0263",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0263.md",
+    "title": "P0263: Cylinder-one balance depends on learned crankshaft information",
+    "wordCount": 289,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          19,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0266",
+    "entryId": "generic-p0266",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0266.md",
+    "title": "P0266: Cylinder-two contribution is judged against available fuel correction",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          19,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0269",
+    "entryId": "generic-p0269",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0269.md",
+    "title": "P0269: A cylinder-three balance fault can be specific to cold-start control",
+    "wordCount": 288,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          19,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0272",
+    "entryId": "generic-p0272",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0272.md",
+    "title": "P0272: Cylinder-four balance requires a completed wheel learn",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          19,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0275",
+    "entryId": "generic-p0275",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0275.md",
+    "title": "P0275: Cylinder-five correction can exceed the cold-start balancing allowance",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          19,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0278",
+    "entryId": "generic-p0278",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0278.md",
+    "title": "P0278: Cylinder-six balance should not be confused with an injector circuit test",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          19,
+          59,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0279",
+    "entryId": "generic-p0279",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0279.md",
+    "title": "P0279: Cylinder-seven injector low is an electrical classification",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          16,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0280",
+    "entryId": "generic-p0280",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0280.md",
+    "title": "P0280: Cylinder-seven injector high means a high-to-low-side short here",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0281",
+    "entryId": "generic-p0281",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0281.md",
+    "title": "P0281: Cylinder-seven balance is a correction result, not an automatic injector verdict",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          19,
+          59,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0282",
+    "entryId": "generic-p0282",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0282.md",
+    "title": "P0282: Cylinder-eight injector low should be read as a driver-detected short",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          16,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0283",
+    "entryId": "generic-p0283",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0283.md",
+    "title": "P0283: A cylinder-eight high-circuit code can identify a cross-side short",
+    "wordCount": 290,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0284",
+    "entryId": "generic-p0284",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0284.md",
+    "title": "P0284: Cylinder-eight balancing must be interpreted with operating mode",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          19,
+          59,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02EC",
+    "entryId": "generic-p02ec",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P02EC.md",
+    "title": "P02EC: High intake airflow is a closed-loop air-mass control discrepancy",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02ED",
+    "entryId": "generic-p02ed",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P02ED.md",
+    "title": "P02ED: Low intake airflow must be compared with the controller’s target",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P040B",
+    "entryId": "generic-p040b",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P040B.md",
+    "title": "P040B: EGR temperature plausibility needs a rise after the qualifying load",
+    "wordCount": 270,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P040C",
+    "entryId": "generic-p040c",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P040C.md",
+    "title": "P040C: EGR temperature sensor A has a low electrical signal",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P042F",
+    "entryId": "generic-p042f",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P042F.md",
+    "title": "P042F: EGR stuck closed uses actuator-position evidence rather than flow alone",
+    "wordCount": 281,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          68,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0471",
+    "entryId": "generic-p0471",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0471.md",
+    "title": "P0471: Exhaust pressure offset is compared with ambient pressure after shutdown",
+    "wordCount": 265,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0472",
+    "entryId": "generic-p0472",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0472.md",
+    "title": "P0472: Exhaust-pressure low-circuit evidence must retain the source’s labeling caveat",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          69,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0473",
+    "entryId": "generic-p0473",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0473.md",
+    "title": "P0473: A high exhaust-pressure circuit signal is separate from real overpressure",
+    "wordCount": 277,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          69,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0474",
+    "entryId": "generic-p0474",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P0474.md",
+    "title": "P0474: An erratic exhaust-pressure code can be a model disagreement",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          69,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04D9",
+    "entryId": "generic-p04d9",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P04D9.md",
+    "title": "P04D9: Low EGR flow reaches the closed-loop control limit",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04DA",
+    "entryId": "generic-p04da",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P04DA.md",
+    "title": "P04DA: Excessive EGR flow is detected as a control-ratio error",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05A1",
+    "entryId": "generic-p05a1",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P05A1.md",
+    "title": "P05A1: Grille shutter A endstop diagnosis changes between learning and normal operation",
+    "wordCount": 262,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05A2",
+    "entryId": "generic-p05a2",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P05A2.md",
+    "title": "P05A2: Grille shutter A open-circuit diagnosis includes timed coil checks",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05A7",
+    "entryId": "generic-p05a7",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P05A7.md",
+    "title": "P05A7: Grille shutter A reports its internal supply below the allowed level",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          109,
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P062A",
+    "entryId": "generic-p062a",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P062A.md",
+    "title": "P062A: Lift-pump feedback leaves its narrow duty-cycle window",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P062E",
+    "entryId": "generic-p062e",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P062E.md",
+    "title": "P062E: Bank-two injector-driver performance concerns the high-voltage supply",
+    "wordCount": 292,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P064A",
+    "entryId": "generic-p064a",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P064A.md",
+    "title": "P064A: Fuel-pump module diagnosis includes timing and command plausibility",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06A6",
+    "entryId": "generic-p06a6",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P06A6.md",
+    "title": "P06A6: Sensor reference A can invalidate several otherwise unrelated monitors",
+    "wordCount": 292,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          104,
+          105,
+          8,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06A7",
+    "entryId": "generic-p06a7",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P06A7.md",
+    "title": "P06A7: Sensor reference B is a separate monitored supply group",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          104,
+          105,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06A8",
+    "entryId": "generic-p06a8",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P06A8.md",
+    "title": "P06A8: Sensor reference C needs its own circuit identification",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2073",
+    "entryId": "generic-p2073",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2073.md",
+    "title": "P2073: Idle airflow adaptation is compared with a calibration-specific allowance",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2074",
+    "entryId": "generic-p2074",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2074.md",
+    "title": "P2074: High-load airflow correlation can fail its learned value or fail to stabilize",
+    "wordCount": 260,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P208E",
+    "entryId": "generic-p208e",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P208E.md",
+    "title": "P208E: Reductant valve stuck closed is evaluated over injection strokes",
+    "wordCount": 265,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          84
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P218F",
+    "entryId": "generic-p218f",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P218F.md",
+    "title": "P218F: Reductant performance uses correlation between dosing, pump effort, and pressure",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          84
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21C2",
+    "entryId": "generic-p21c2",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P21C2.md",
+    "title": "P21C2: Reductant heater relay open detection uses a commanded power-stage state",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21C3",
+    "entryId": "generic-p21c3",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P21C3.md",
+    "title": "P21C3: Reductant heater relay low-circuit detection uses excessive current",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21C4",
+    "entryId": "generic-p21c4",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P21C4.md",
+    "title": "P21C4: Reductant heater voltage remains present with the power stage off",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21C7",
+    "entryId": "generic-p21c7",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P21C7.md",
+    "title": "P21C7: Reductant power-relay monitoring checks both commanded directions",
+    "wordCount": 260,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21CC",
+    "entryId": "generic-p21cc",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P21CC.md",
+    "title": "P21CC: The reductant control module reports supply voltage above its limit",
+    "wordCount": 257,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          82,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21CD",
+    "entryId": "generic-p21cd",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P21CD.md",
+    "title": "P21CD: A reductant quality-module low-supply code includes a wider voltage statement",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          87,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2200",
+    "entryId": "generic-p2200",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2200.md",
+    "title": "P2200: An upstream NOx circuit code includes controller self-check failures",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P220E",
+    "entryId": "generic-p220e",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P220E.md",
+    "title": "P220E: Upstream NOx heater performance has electrical and control branches",
+    "wordCount": 287,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P220F",
+    "entryId": "generic-p220f",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P220F.md",
+    "title": "P220F: Tailpipe NOx heater sensing can fail even when some heating occurs",
+    "wordCount": 286,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2263",
+    "entryId": "generic-p2263",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2263.md",
+    "title": "P2263: Boost-system performance uses an accumulated underboost deviation",
+    "wordCount": 265,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P226C",
+    "entryId": "generic-p226c",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P226C.md",
+    "title": "P226C: Turbo response monitoring needs the correct engine-specific test",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P228E",
+    "entryId": "generic-p228e",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P228E.md",
+    "title": "P228E: A low learning-limit fault is about fuel-pressure adaptation",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          10,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P228F",
+    "entryId": "generic-p228f",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P228F.md",
+    "title": "P228F: An upper adaptation boundary is not the same as rail overpressure",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          10,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2291",
+    "entryId": "generic-p2291",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2291.md",
+    "title": "P2291: Cranking rail pressure remains below the starting monitor boundary",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P229E",
+    "entryId": "generic-p229e",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P229E.md",
+    "title": "P229E: Tailpipe NOx processor and circuit faults share this code in Ford’s summary",
+    "wordCount": 285,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          25,
+          26,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2457",
+    "entryId": "generic-p2457",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2457.md",
+    "title": "P2457: EGR cooler undercooling is evaluated against coolant temperature",
+    "wordCount": 291,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          37,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P245B",
+    "entryId": "generic-p245b",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P245B.md",
+    "title": "P245B: EGR bypass performance is checked through temperature response",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P246C",
+    "entryId": "generic-p246c",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P246C.md",
+    "title": "P246C: DPF restriction reaches the forced-power-limitation threshold",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P249F",
+    "entryId": "generic-p249f",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P249F.md",
+    "title": "P249F: DPF regeneration spends too little time in closed-loop control",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          53
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24A2",
+    "entryId": "generic-p24a2",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P24A2.md",
+    "title": "P24A2: Incomplete DPF regeneration is judged by soot remaining afterward",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24AE",
+    "entryId": "generic-p24ae",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P24AE.md",
+    "title": "P24AE: Particulate-sensor current stays too high after sensor regeneration",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24B3",
+    "entryId": "generic-p24b3",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P24B3.md",
+    "title": "P24B3: The particulate-sensor heater is checked while regeneration heating is on",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24B4",
+    "entryId": "generic-p24b4",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P24B4.md",
+    "title": "P24B4: Unexpected heater voltage appears while the particulate sensor is measuring",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24B7",
+    "entryId": "generic-p24b7",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P24B7.md",
+    "title": "P24B7: Particulate-sensor heater resistance changes with temperature",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24C6",
+    "entryId": "generic-p24c6",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P24C6.md",
+    "title": "P24C6: Particulate-sensor temperature circuit faults use electrical limits",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24D0",
+    "entryId": "generic-p24d0",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P24D0.md",
+    "title": "P24D0: Particulate-sensor supply voltage is judged by voltage drop under heater demand",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24FE",
+    "entryId": "generic-p24fe",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P24FE.md",
+    "title": "P24FE: An incorrect SCR catalyst code uses cumulative conversion evidence",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P259E",
+    "entryId": "generic-p259e",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P259E.md",
+    "title": "P259E: A low boost-control limit uses a large sustained pressure error",
+    "wordCount": 262,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P259F",
+    "entryId": "generic-p259f",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P259F.md",
+    "title": "P259F: High boost-control limit means actual boost exceeds the target",
+    "wordCount": 259,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P263D",
+    "entryId": "generic-p263d",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P263D.md",
+    "title": "P263D: Reductant heater driver performance can be an electronics temperature fault",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          85
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2681",
+    "entryId": "generic-p2681",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2681.md",
+    "title": "P2681: Coolant bypass valve open-load detection is an electrical finding",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2682",
+    "entryId": "generic-p2682",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2682.md",
+    "title": "P2682: Coolant bypass control low means a reported short to ground",
+    "wordCount": 263,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2683",
+    "entryId": "generic-p2683",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2683.md",
+    "title": "P2683: Coolant bypass actuator high is a short-to-power classification",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2692",
+    "entryId": "generic-p2692",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2692.md",
+    "title": "P2692: Cylinder-seven injector data is missing or fails validation",
+    "wordCount": 289,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2693",
+    "entryId": "generic-p2693",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2693.md",
+    "title": "P2693: Cylinder-eight injector coding needs a valid individual record",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2698",
+    "entryId": "generic-p2698",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2698.md",
+    "title": "P2698: Downstream injection leakage can be inferred from temperature or oxygen",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          54,
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B11",
+    "entryId": "generic-p2b11",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2B11.md",
+    "title": "P2B11: Cylinder-one injection pulse offset exceeds its learning window",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B13",
+    "entryId": "generic-p2b13",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2B13.md",
+    "title": "P2B13: Cylinder-two offset learning is an energizing-time comparison",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B15",
+    "entryId": "generic-p2b15",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2B15.md",
+    "title": "P2B15: Cylinder-three pulse adaptation can fail in either timing direction",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B17",
+    "entryId": "generic-p2b17",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2B17.md",
+    "title": "P2B17: Cylinder-four learning must be judged during the calibration function",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B19",
+    "entryId": "generic-p2b19",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2B19.md",
+    "title": "P2B19: Cylinder-five pulse-offset learning is not injector data coding",
+    "wordCount": 288,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          21,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B1B",
+    "entryId": "generic-p2b1b",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2B1B.md",
+    "title": "P2B1B: Cylinder-six calibration detects a pulse duration beyond its target allowance",
+    "wordCount": 287,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B1D",
+    "entryId": "generic-p2b1d",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2B1D.md",
+    "title": "P2B1D: Cylinder-seven pulse learning differs from its injector circuit faults",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          21,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B1F",
+    "entryId": "generic-p2b1f",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/P2B1F.md",
+    "title": "P2B1F: Cylinder-eight pulse offset reaches a calibration limit",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          21,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0109",
+    "entryId": "generic-u0109",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/U0109.md",
+    "title": "U0109: A fuel-pump communication code may use duty-cycle limits",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U05A1",
+    "entryId": "generic-u05a1",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/U05A1.md",
+    "title": "U05A1: The upstream NOx sensor rejects invalid or late PCM information",
+    "wordCount": 291,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U05A2",
+    "entryId": "generic-u05a2",
+    "batch": "batch-12",
+    "path": "content/code-articles/batch-12/U05A2.md",
+    "title": "U05A2: Tailpipe NOx invalid-data faults require message context",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0012",
+    "entryId": "generic-p0012",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0012.md",
+    "title": "P0012: Why retarded intake timing needs a commanded-position comparison",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          79,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0015",
+    "entryId": "generic-p0015",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0015.md",
+    "title": "P0015: Interpreting a bank 1 exhaust cam that stays retarded",
+    "wordCount": 287,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          79,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0022",
+    "entryId": "generic-p0022",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0022.md",
+    "title": "P0022: Bank 2 intake timing and the limits of a bank comparison",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          79,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0025",
+    "entryId": "generic-p0025",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0025.md",
+    "title": "P0025: What an over-retarded bank 2 exhaust cam result means",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          79,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0053",
+    "entryId": "generic-p0053",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0053.md",
+    "title": "P0053: Heater current evidence behind a bank 1 oxygen sensor resistance code",
+    "wordCount": 300,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          30,
+          31,
+          44,
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0055",
+    "entryId": "generic-p0055",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0055.md",
+    "title": "P0055: A sensor 3 heater resistance code is not a rear sensor location guide",
+    "wordCount": 291,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          52,
+          53,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0059",
+    "entryId": "generic-p0059",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0059.md",
+    "title": "P0059: Reading bank 2 front heater current without borrowing bank 1 limits",
+    "wordCount": 295,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          30,
+          31,
+          44,
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0060",
+    "entryId": "generic-p0060",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0060.md",
+    "title": "P0060: Bank 2 rear oxygen heater current versus sensor impedance",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          52,
+          53,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0061",
+    "entryId": "generic-p0061",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0061.md",
+    "title": "P0061: When bank 2 sensor 3 heater current is the relevant evidence",
+    "wordCount": 294,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          52,
+          53,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P008B",
+    "entryId": "generic-p008b",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P008B.md",
+    "title": "P008B: High fuel supply pressure and an ambiguous published threshold",
+    "wordCount": 284,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          96,
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00CE",
+    "entryId": "generic-p00ce",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P00CE.md",
+    "title": "P00CE: Why several air temperature readings are compared after a long soak",
+    "wordCount": 287,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          118,
+          119
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00D2",
+    "entryId": "generic-p00d2",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P00D2.md",
+    "title": "P00D2: Bank 1 oxygen heater performance and the impedance test distinction",
+    "wordCount": 280,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          52,
+          53,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00D4",
+    "entryId": "generic-p00d4",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P00D4.md",
+    "title": "P00D4: Interpreting a bank 2 oxygen heater impedance result",
+    "wordCount": 285,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          52,
+          53,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00FE",
+    "entryId": "generic-p00fe",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P00FE.md",
+    "title": "P00FE: A restricted EVAP vapor line is evaluated in two stages",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0104",
+    "entryId": "generic-p0104",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0104.md",
+    "title": "P0104: Why a brief MAF dropout can matter more than its average reading",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0109",
+    "entryId": "generic-p0109",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0109.md",
+    "title": "P0109: MAP intermittency is an event-count diagnosis",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          125,
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P010A",
+    "entryId": "generic-p010a",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P010A.md",
+    "title": "P010A: Digital MAF sensor B failure is distinct from lost communication",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          122,
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P010E",
+    "entryId": "generic-p010e",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P010E.md",
+    "title": "P010E: Sensor B airflow interruptions need time-resolved evidence",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0120",
+    "entryId": "generic-p0120",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0120.md",
+    "title": "P0120: A SENT throttle sensor can report a fault while still communicating",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0124",
+    "entryId": "generic-p0124",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0124.md",
+    "title": "P0124: Short throttle sensor interruptions can use different detection rules",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          103,
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0125",
+    "entryId": "generic-p0125",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0125.md",
+    "title": "P0125: Coolant temperature has not caught up with the closed-loop model",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0130",
+    "entryId": "generic-p0130",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0130.md",
+    "title": "P0130: Why an older oxygen circuit code may have several modern equivalents",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          32,
+          34,
+          35,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0134",
+    "entryId": "generic-p0134",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0134.md",
+    "title": "P0134: No oxygen-sensor activity does not identify one universal electrical fault",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          33,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0136",
+    "entryId": "generic-p0136",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0136.md",
+    "title": "P0136: Rear oxygen activity is judged after several other tests finish",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          45,
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0147",
+    "entryId": "generic-p0147",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0147.md",
+    "title": "P0147: The bank 1 sensor 3 heater circuit has its own identity",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          52,
+          53,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0150",
+    "entryId": "generic-p0150",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0150.md",
+    "title": "P0150: Bank 2 oxygen circuit diagnosis needs the modern circuit identity",
+    "wordCount": 294,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          32,
+          34,
+          35,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0154",
+    "entryId": "generic-p0154",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0154.md",
+    "title": "P0154: Bank 2 no-activity evidence and the later pump-current monitor",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          33,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0156",
+    "entryId": "generic-p0156",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0156.md",
+    "title": "P0156: Bank 2 rear sensor activity requires a completed functional check",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          45,
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0167",
+    "entryId": "generic-p0167",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0167.md",
+    "title": "P0167: Bank 2 sensor 3 heater circuit monitoring is separate from resistance testing",
+    "wordCount": 289,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          52,
+          53,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0190",
+    "entryId": "generic-p0190",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0190.md",
+    "title": "P0190: A fuel pressure sensor can fail while its reading remains in range",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          122
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0224",
+    "entryId": "generic-p0224",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0224.md",
+    "title": "P0224: Intermittent throttle sensor B is different from an A/B mismatch",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0225",
+    "entryId": "generic-p0225",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0225.md",
+    "title": "P0225: Sensor C refers to the second digital throttle in this Ford strategy",
+    "wordCount": 287,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0229",
+    "entryId": "generic-p0229",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0229.md",
+    "title": "P0229: A short interruption at the second throttle can precede a communication-loss code",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0230",
+    "entryId": "generic-p0230",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0230.md",
+    "title": "P0230: The fuel pump power-relay circuit is not the pump pressure test",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          139,
+          140,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0231",
+    "entryId": "generic-p0231",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0231.md",
+    "title": "P0231: Low secondary fuel-pump circuit feedback needs the correct system context",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          139,
+          140
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0232",
+    "entryId": "generic-p0232",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0232.md",
+    "title": "P0232: High secondary fuel-pump circuit status is an electrical category",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          139,
+          140
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P025A",
+    "entryId": "generic-p025a",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P025A.md",
+    "title": "P025A: A fuel-pump command circuit fault differs from invalid command data",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          140,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P025B",
+    "entryId": "generic-p025b",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P025B.md",
+    "title": "P025B: The fuel pump module is reporting invalid control data",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          140,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P025E",
+    "entryId": "generic-p025e",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P025E.md",
+    "title": "P025E: Brief boost-sensor excursions are counted across the trip",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P027B",
+    "entryId": "generic-p027b",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P027B.md",
+    "title": "P027B: Invalid pump B control data has a specific feedback signature",
+    "wordCount": 262,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0310",
+    "entryId": "generic-p0310",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0310.md",
+    "title": "P0310: Cylinder 10 misfire evidence depends on the evaluation window",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0313",
+    "entryId": "generic-p0313",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0313.md",
+    "title": "P0313: Low fuel is part of the misfire context, not a complete diagnosis",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0316",
+    "entryId": "generic-p0316",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0316.md",
+    "title": "P0316: Misfire in the first thousand revolutions needs start-up evidence",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0339",
+    "entryId": "generic-p0339",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0339.md",
+    "title": "P0339: Crank signal timing can be wrong even when pulses are present",
+    "wordCount": 277,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          131
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P033F",
+    "entryId": "generic-p033f",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P033F.md",
+    "title": "P033F: Noisy crank data can undermine misfire and synchronization evidence",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0344",
+    "entryId": "generic-p0344",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0344.md",
+    "title": "P0344: Unexpected intake cam events can trigger an intermittent circuit result",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          132
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0345",
+    "entryId": "generic-p0345",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0345.md",
+    "title": "P0345: Bank 2 intake cam circuit evaluation depends on engine-event relationships",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          132
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0349",
+    "entryId": "generic-p0349",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0349.md",
+    "title": "P0349: Bank 2 intake cam intermittency can be a misplaced event",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          132
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0369",
+    "entryId": "generic-p0369",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0369.md",
+    "title": "P0369: Resolve the bank 1 cam-channel label before diagnosing intermittency",
+    "wordCount": 270,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          132
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0390",
+    "entryId": "generic-p0390",
+    "batch": "batch-13",
+    "path": "content/code-articles/batch-13/P0390.md",
+    "title": "P0390: Bank 2 exhaust cam circuit monitoring is an event-pattern check",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          132
+        ]
+      }
+    ]
+  }
+]

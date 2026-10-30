@@ -1,0 +1,2413 @@
+[
+  {
+    "entryId": "generic-p0008",
+    "code": "P0008",
+    "dictionaryTitle": "Engine Position System Performance Bank 1",
+    "canonicalPath": "/codes/generic/p0008/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 2,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 2,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-04-engine",
+        "page": 23,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0009",
+    "code": "P0009",
+    "dictionaryTitle": "Engine Position System Performance Bank 2",
+    "canonicalPath": "/codes/generic/p0009/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 2,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 2,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-04-engine",
+        "page": 23,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p006d",
+    "code": "P006D",
+    "dictionaryTitle": "Barometric Pressure - Turbocharger/Supercharger Inlet Pressure Correlation Bank 1",
+    "canonicalPath": "/codes/generic/p006d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-11-engine",
+        "page": 102,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-11-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG11%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG11 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p009a",
+    "code": "P009A",
+    "dictionaryTitle": "Intake Air Temperature/Ambient Air Temperature Correlation",
+    "canonicalPath": "/codes/generic/p009a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 7,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 8,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 9,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p00b6",
+    "code": "P00B6",
+    "dictionaryTitle": "Radiator Coolant Temperature/Engine Coolant Temperature Correlation",
+    "canonicalPath": "/codes/generic/p00b6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 4,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p00b7",
+    "code": "P00B7",
+    "dictionaryTitle": "Engine Coolant Flow Low/Performance",
+    "canonicalPath": "/codes/generic/p00b7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 4,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p011b",
+    "code": "P011B",
+    "dictionaryTitle": "Engine Coolant Temperature/Intake Air Temperature Correlation",
+    "canonicalPath": "/codes/generic/p011b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-05-engine",
+        "page": 9,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 18,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0126",
+    "code": "P0126",
+    "dictionaryTitle": "Insufficient Coolant Temperature for Stable Operation",
+    "canonicalPath": "/codes/generic/p0126/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-05-engine",
+        "page": 9,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 17,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p012b",
+    "code": "P012B",
+    "dictionaryTitle": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p012b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 19,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-11-engine",
+        "page": 103,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-11-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG11%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG11 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p012c",
+    "code": "P012C",
+    "dictionaryTitle": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit Low",
+    "canonicalPath": "/codes/generic/p012c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 21,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-11-engine",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-11-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG11%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG11 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p012d",
+    "code": "P012D",
+    "dictionaryTitle": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit High",
+    "canonicalPath": "/codes/generic/p012d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 21,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-11-engine",
+        "page": 106,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-11-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG11%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG11 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p023a",
+    "code": "P023A",
+    "dictionaryTitle": "Charge Air Cooler Coolant Pump A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p023a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 51,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0244",
+    "code": "P0244",
+    "dictionaryTitle": "Turbocharger/Supercharger Wastegate Actuator A Range/Performance",
+    "canonicalPath": "/codes/generic/p0244/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "page": 35,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 18,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p02e7",
+    "code": "P02E7",
+    "dictionaryTitle": "Diesel Intake Air Flow A Position Sensor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p02e7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 7,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0337",
+    "code": "P0337",
+    "dictionaryTitle": "Crankshaft Position Sensor A Circuit Low",
+    "canonicalPath": "/codes/generic/p0337/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-05-engine",
+        "page": 10,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 19,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0338",
+    "code": "P0338",
+    "dictionaryTitle": "Crankshaft Position Sensor A Circuit High",
+    "canonicalPath": "/codes/generic/p0338/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 12,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 15,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-04-engine",
+        "page": 30,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 18,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0350",
+    "code": "P0350",
+    "dictionaryTitle": "Ignition Coil Primary/Secondary Circuit/Open",
+    "canonicalPath": "/codes/generic/p0350/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-09-engine",
+        "page": 22,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0385",
+    "code": "P0385",
+    "dictionaryTitle": "Crankshaft Position Sensor B Circuit",
+    "canonicalPath": "/codes/generic/p0385/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-09-engine",
+        "page": 23,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0386",
+    "code": "P0386",
+    "dictionaryTitle": "Crankshaft Position Sensor B Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0386/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-09-engine",
+        "page": 23,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p040f",
+    "code": "P040F",
+    "dictionaryTitle": "EGR Temperature Sensor A/B Correlation",
+    "canonicalPath": "/codes/generic/p040f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 13,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0411",
+    "code": "P0411",
+    "dictionaryTitle": "AIR System A Incorrect Flow Detected",
+    "canonicalPath": "/codes/generic/p0411/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 24,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 64,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 36,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0412",
+    "code": "P0412",
+    "dictionaryTitle": "AIR System Switching Valve A Circuit",
+    "canonicalPath": "/codes/generic/p0412/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 65,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 37,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-09-engine",
+        "page": 27,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-11-engine",
+        "page": 36,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-11-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG11%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG11 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0418",
+    "code": "P0418",
+    "dictionaryTitle": "AIR System Control A Circuit",
+    "canonicalPath": "/codes/generic/p0418/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "page": 34,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 65,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 37,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-09-engine",
+        "page": 27,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p046c",
+    "code": "P046C",
+    "dictionaryTitle": "EGR Sensor A Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p046c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 13,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0501",
+    "code": "P0501",
+    "dictionaryTitle": "Vehicle Speed Sensor A Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0501/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 18,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 22,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-05-engine",
+        "page": 10,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 20,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0502",
+    "code": "P0502",
+    "dictionaryTitle": "Vehicle Speed Sensor A Circuit Low",
+    "canonicalPath": "/codes/generic/p0502/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 14,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 37,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 19,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 23,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0503",
+    "code": "P0503",
+    "dictionaryTitle": "Vehicle Speed Sensor A Circuit Intermittent/Erratic/High",
+    "canonicalPath": "/codes/generic/p0503/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 37,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 78,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 48,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-09-trans",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p050c",
+    "code": "P050C",
+    "dictionaryTitle": "Cold Start Engine Coolant Temperature Performance",
+    "canonicalPath": "/codes/generic/p050c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "page": 23,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0556",
+    "code": "P0556",
+    "dictionaryTitle": "Brake Booster Pressure Sensor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0556/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 53,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 82,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0557",
+    "code": "P0557",
+    "dictionaryTitle": "Brake Booster Pressure Sensor Circuit Low",
+    "canonicalPath": "/codes/generic/p0557/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 53,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 82,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0558",
+    "code": "P0558",
+    "dictionaryTitle": "Brake Booster Pressure Sensor Circuit High",
+    "canonicalPath": "/codes/generic/p0558/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 53,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 82,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0597",
+    "code": "P0597",
+    "dictionaryTitle": "Thermostat Heater Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0597/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 40,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0598",
+    "code": "P0598",
+    "dictionaryTitle": "Thermostat Heater Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0598/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 40,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0599",
+    "code": "P0599",
+    "dictionaryTitle": "Thermostat Heater Control Circuit High",
+    "canonicalPath": "/codes/generic/p0599/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 40,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0609",
+    "code": "P0609",
+    "dictionaryTitle": "Control Module VSS Output B",
+    "canonicalPath": "/codes/generic/p0609/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 88,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0632",
+    "code": "P0632",
+    "dictionaryTitle": "Odometer Not Programmed - ECM/PCM",
+    "canonicalPath": "/codes/generic/p0632/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 22,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0640",
+    "code": "P0640",
+    "dictionaryTitle": "Intake Air Heater Control Circuit",
+    "canonicalPath": "/codes/generic/p0640/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 17,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p064c",
+    "code": "P064C",
+    "dictionaryTitle": "Glow Plug Control Module 1",
+    "canonicalPath": "/codes/generic/p064c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 17,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p065e",
+    "code": "P065E",
+    "dictionaryTitle": "Intake Manifold Tuning Valve Performance Bank 1",
+    "canonicalPath": "/codes/generic/p065e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 83,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0695",
+    "code": "P0695",
+    "dictionaryTitle": "Fan 3 Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0695/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 86,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0696",
+    "code": "P0696",
+    "dictionaryTitle": "Fan 3 Control Circuit High",
+    "canonicalPath": "/codes/generic/p0696/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 86,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0719",
+    "code": "P0719",
+    "dictionaryTitle": "Brake Switch B Circuit Low",
+    "canonicalPath": "/codes/generic/p0719/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 20,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 86,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p071a",
+    "code": "P071A",
+    "dictionaryTitle": "Transmission Mode Switch A Circuit",
+    "canonicalPath": "/codes/generic/p071a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-02-trans",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-trans",
+        "page": 6,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-trans",
+        "page": 9,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0724",
+    "code": "P0724",
+    "dictionaryTitle": "Brake Switch B Circuit High",
+    "canonicalPath": "/codes/generic/p0724/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "page": 20,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 87,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0748",
+    "code": "P0748",
+    "dictionaryTitle": "Pressure Control Solenoid A Electrical",
+    "canonicalPath": "/codes/generic/p0748/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-04-trans",
+        "page": 4,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-trans",
+        "page": 24,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0753",
+    "code": "P0753",
+    "dictionaryTitle": "Shift Solenoid A Electrical",
+    "canonicalPath": "/codes/generic/p0753/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-09-trans",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0758",
+    "code": "P0758",
+    "dictionaryTitle": "Shift Solenoid B Electrical",
+    "canonicalPath": "/codes/generic/p0758/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-09-trans",
+        "page": 7,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0778",
+    "code": "P0778",
+    "dictionaryTitle": "Pressure Control Solenoid B Electrical",
+    "canonicalPath": "/codes/generic/p0778/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-04-trans",
+        "page": 4,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-trans",
+        "page": 24,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0786",
+    "code": "P0786",
+    "dictionaryTitle": "Shift Timing Solenoid A Range/Performance",
+    "canonicalPath": "/codes/generic/p0786/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-05-trans",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-trans",
+        "page": 4,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0787",
+    "code": "P0787",
+    "dictionaryTitle": "Shift Timing Solenoid A Low",
+    "canonicalPath": "/codes/generic/p0787/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-trans",
+        "page": 7,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-05-trans",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-trans",
+        "page": 4,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0788",
+    "code": "P0788",
+    "dictionaryTitle": "Shift Timing Solenoid A High",
+    "canonicalPath": "/codes/generic/p0788/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-trans",
+        "page": 7,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-05-trans",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-trans",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0798",
+    "code": "P0798",
+    "dictionaryTitle": "Pressure Control Solenoid C Electrical",
+    "canonicalPath": "/codes/generic/p0798/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-04-trans",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-trans",
+        "page": 25,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0803",
+    "code": "P0803",
+    "dictionaryTitle": "Upshift/Skip Shift Solenoid Control Circuit",
+    "canonicalPath": "/codes/generic/p0803/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 91,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0806",
+    "code": "P0806",
+    "dictionaryTitle": "Clutch Position Sensor A Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0806/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 44,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 22,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 25,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 91,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0807",
+    "code": "P0807",
+    "dictionaryTitle": "Clutch Position Sensor A Circuit Low",
+    "canonicalPath": "/codes/generic/p0807/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 44,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 22,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 25,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 91,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0808",
+    "code": "P0808",
+    "dictionaryTitle": "Clutch Position Sensor A Circuit High",
+    "canonicalPath": "/codes/generic/p0808/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 45,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 22,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 25,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 91,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p080a",
+    "code": "P080A",
+    "dictionaryTitle": "Clutch Position Not Learned",
+    "canonicalPath": "/codes/generic/p080a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 45,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-02-engine",
+        "page": 22,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-02-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG02%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG02 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-03-engine",
+        "page": 26,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 91,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0851",
+    "code": "P0851",
+    "dictionaryTitle": "Park/Neutral Switch Input Circuit Low",
+    "canonicalPath": "/codes/generic/p0851/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 19,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 132,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0852",
+    "code": "P0852",
+    "dictionaryTitle": "Park/Neutral Switch Input Circuit High",
+    "canonicalPath": "/codes/generic/p0852/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 19,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0894",
+    "code": "P0894",
+    "dictionaryTitle": "Transmission Component Slipping",
+    "canonicalPath": "/codes/generic/p0894/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-allison-trans",
+        "page": 41,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-allison-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20Allison%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 Allison TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-trans",
+        "page": 25,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0972",
+    "code": "P0972",
+    "dictionaryTitle": "Shift Solenoid A Control Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0972/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-allison-trans",
+        "page": 33,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-allison-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20Allison%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 Allison TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0975",
+    "code": "P0975",
+    "dictionaryTitle": "Shift Solenoid B Control Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0975/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-allison-trans",
+        "page": 35,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-allison-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20Allison%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 Allison TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0989",
+    "code": "P0989",
+    "dictionaryTitle": "Transmission Fluid Pressure Sensor/Switch E Circuit Low",
+    "canonicalPath": "/codes/generic/p0989/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-03-trans",
+        "page": 41,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0990",
+    "code": "P0990",
+    "dictionaryTitle": "Transmission Fluid Pressure Sensor/Switch E Circuit High",
+    "canonicalPath": "/codes/generic/p0990/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-03-trans",
+        "page": 41,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-03-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG03%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG03 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a06",
+    "code": "P0A06",
+    "dictionaryTitle": "Motor Electronics Coolant Pump A Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0a06/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 127,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 16,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a07",
+    "code": "P0A07",
+    "dictionaryTitle": "Motor Electronics Coolant Pump A Control Circuit High",
+    "canonicalPath": "/codes/generic/p0a07/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 127,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "page": 17,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-13-2-mode-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG13%202-Mode%20Hybrid%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG13 2-Mode Hybrid Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a1e",
+    "code": "P0A1E",
+    "dictionaryTitle": "Starter/Generator Control Module",
+    "canonicalPath": "/codes/generic/p0a1e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 124,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a37",
+    "code": "P0A37",
+    "dictionaryTitle": "Generator Temperature Sensor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0a37/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 125,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a38",
+    "code": "P0A38",
+    "dictionaryTitle": "Generator Temperature Sensor Circuit Low",
+    "canonicalPath": "/codes/generic/p0a38/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 125,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a39",
+    "code": "P0A39",
+    "dictionaryTitle": "Generator Temperature Sensor Circuit High",
+    "canonicalPath": "/codes/generic/p0a39/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 125,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a3b",
+    "code": "P0A3B",
+    "dictionaryTitle": "Generator A Over Temperature",
+    "canonicalPath": "/codes/generic/p0a3b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 125,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a4b",
+    "code": "P0A4B",
+    "dictionaryTitle": "Generator Position Sensor Circuit",
+    "canonicalPath": "/codes/generic/p0a4b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 127,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a4c",
+    "code": "P0A4C",
+    "dictionaryTitle": "Generator Position Sensor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0a4c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 127,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a50",
+    "code": "P0A50",
+    "dictionaryTitle": "Generator Position Sensor Circuit Overspeed",
+    "canonicalPath": "/codes/generic/p0a50/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 127,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a7c",
+    "code": "P0A7C",
+    "dictionaryTitle": "Motor Electronics Over Temperature",
+    "canonicalPath": "/codes/generic/p0a7c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 122,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a82",
+    "code": "P0A82",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Cooling Fan 1 Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p0a82/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 136,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a83",
+    "code": "P0A83",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Cooling Fan 1 Stuck On",
+    "canonicalPath": "/codes/generic/p0a83/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 136,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a84",
+    "code": "P0A84",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Cooling Fan 1 Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0a84/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 136,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a85",
+    "code": "P0A85",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Cooling Fan 1 Control Circuit High",
+    "canonicalPath": "/codes/generic/p0a85/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 136,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a87",
+    "code": "P0A87",
+    "dictionaryTitle": "14 Volt Power Module Current Sensor A Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0a87/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 120,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a88",
+    "code": "P0A88",
+    "dictionaryTitle": "14 Volt Power Module Current Sensor A Circuit Low",
+    "canonicalPath": "/codes/generic/p0a88/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 120,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a89",
+    "code": "P0A89",
+    "dictionaryTitle": "14 Volt Power Module Current Sensor A Circuit High",
+    "canonicalPath": "/codes/generic/p0a89/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 120,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a8e",
+    "code": "P0A8E",
+    "dictionaryTitle": "14 Volt Power Module System Voltage High",
+    "canonicalPath": "/codes/generic/p0a8e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 119,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0a92",
+    "code": "P0A92",
+    "dictionaryTitle": "Hybrid Generator Performance",
+    "canonicalPath": "/codes/generic/p0a92/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 130,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0aa1",
+    "code": "P0AA1",
+    "dictionaryTitle": "Hybrid/EV Battery Positive Contactor Circuit Stuck Closed",
+    "canonicalPath": "/codes/generic/p0aa1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 137,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0aa2",
+    "code": "P0AA2",
+    "dictionaryTitle": "Hybrid/EV Battery Positive Contactor Circuit Stuck Open",
+    "canonicalPath": "/codes/generic/p0aa2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 143,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0adb",
+    "code": "P0ADB",
+    "dictionaryTitle": "Hybrid/EV Battery Positive Contactor Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0adb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 137,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0adc",
+    "code": "P0ADC",
+    "dictionaryTitle": "Hybrid/EV Battery Positive Contactor Control Circuit High",
+    "canonicalPath": "/codes/generic/p0adc/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 137,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0af7",
+    "code": "P0AF7",
+    "dictionaryTitle": "14 Volt Power Module Internal Temperature Too High",
+    "canonicalPath": "/codes/generic/p0af7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 121,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0af8",
+    "code": "P0AF8",
+    "dictionaryTitle": "Hybrid/EV Battery System Voltage",
+    "canonicalPath": "/codes/generic/p0af8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 119,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0afa",
+    "code": "P0AFA",
+    "dictionaryTitle": "Hybrid/EV Battery System Voltage Low",
+    "canonicalPath": "/codes/generic/p0afa/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 119,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b09",
+    "code": "P0B09",
+    "dictionaryTitle": "Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit/Open",
+    "canonicalPath": "/codes/generic/p0b09/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 121,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2a04",
+    "code": "P2A04",
+    "dictionaryTitle": "O2 Sensor Circuit Range/Performance Bank 2 Sensor 2",
+    "canonicalPath": "/codes/generic/p2a04/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 131,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p3400",
+    "code": "P3400",
+    "dictionaryTitle": "Cylinder Deactivation System Bank 1",
+    "canonicalPath": "/codes/generic/p3400/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 133,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-10-eng-trans-hybrid",
+        "page": 88,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-10-eng-trans-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG10%20ENG-TRANS-HYBRID%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG10 ENG-TRANS-HYBRID Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0001",
+    "code": "U0001",
+    "dictionaryTitle": "High Speed CAN Communication Bus",
+    "canonicalPath": "/codes/generic/u0001/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-trans",
+        "page": 10,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-04-engine",
+        "page": 43,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-04-trans",
+        "page": 1,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-04-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG04%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG04 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-05-trans",
+        "page": 6,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-trans",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-06-trans",
+        "page": 21,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-06-trans-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG06%20TRANS%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG06 TRANS Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0106",
+    "code": "U0106",
+    "dictionaryTitle": "Lost Communication With Glow Plug Control Module 1",
+    "canonicalPath": "/codes/generic/u0106/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "page": 25,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-duramax-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20DURAMAX%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 DURAMAX Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "chevrolet-p1133",
+    "code": "P1133",
+    "dictionaryTitle": "HO2S Insufficient Switching",
+    "canonicalPath": "/codes/chevrolet/p1133/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-01-gmdat-engine",
+        "page": 46,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-01-gmdat-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG01%20GMDAT%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG01 GMDAT Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-05-engine",
+        "page": 6,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-05-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG05%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG05 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 95,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-08-engine",
+        "page": 60,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-08-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG08%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG08 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "chevrolet-p1134",
+    "code": "P1134",
+    "dictionaryTitle": "HO2S Transition Time Ratio",
+    "canonicalPath": "/codes/chevrolet/p1134/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-09-engine",
+        "page": 46,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-09-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG09%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG09 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0302",
+    "code": "U0302",
+    "dictionaryTitle": "Software Incompatibility With Transmission Control Module",
+    "canonicalPath": "/codes/generic/u0302/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-12-engine",
+        "page": 110,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-12-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG12%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG12 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  },
+  {
+    "entryId": "chevrolet-p1153",
+    "code": "P1153",
+    "dictionaryTitle": "HO2S Insufficient Switching",
+    "canonicalPath": "/codes/chevrolet/p1153/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "page": 97,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-07-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG07%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG07 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-11-engine",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-11-engine-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG11%20Engine%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG11 Engine Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      },
+      {
+        "sourceId": "gm-2009-10-eng-trans-hybrid",
+        "page": 65,
+        "localText": "/workspace/scratch/dbf135311373/wave3/writer21/older/gm-2009-10-eng-trans-hybrid-reading.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2009/09OBDG10%20ENG-TRANS-HYBRID%20Diagnostics.pdf",
+        "scope": "2009 General Motors diagnostic parameter file 09OBDG10 ENG-TRANS-HYBRID Diagnostics.pdf. Section-specific modules and calibrations; no per-code model or engine applicability established.",
+        "makeIds": [],
+        "primaryColumnVerified": true
+      }
+    ]
+  }
+]

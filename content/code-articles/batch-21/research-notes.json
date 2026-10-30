@@ -1,0 +1,1746 @@
+{
+  "batch": "batch-21",
+  "author": "AI writing agent; not mechanic certification",
+  "status": "writing-complete",
+  "articles": {
+    "P0008": {
+      "entryId": "generic-p0008",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "issue": "Printed paired greater-than/less-than cam criteria do not clearly provide both directional limits; no universal angular threshold asserted.",
+      "sha256": "66cbdbce89253b0da38bf4c5a8a495377d68221658f881fd0149f8c40384aec3",
+      "wordCount": 286,
+      "substantiveWordCount": 210
+    },
+    "P0009": {
+      "entryId": "generic-p0009",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "issue": "Shared alignment threshold row lacks unambiguous separate directional limits.",
+      "sha256": "3b0933a7c01d198cdbc18d2a47c26486b9124583c04367a689fa9e2ebccd18a5",
+      "wordCount": 292,
+      "substantiveWordCount": 216
+    },
+    "P006D": {
+      "entryId": "generic-p006d",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "dee5481d1ca35b5d5c5522a7289311ed9e30a3aafd62cd667373edfab29118f1",
+      "wordCount": 292,
+      "substantiveWordCount": 215
+    },
+    "P009A": {
+      "entryId": "generic-p009a",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-12-engine",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "38d975d3e3d9b75e75aac56ad2d3d5b1ac9932c7a862ed369097ea342c405d1e",
+      "wordCount": 289,
+      "substantiveWordCount": 215
+    },
+    "P00B6": {
+      "entryId": "generic-p00b6",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "ff2c6c6e692321872a36d68f9a390cdf0597c60cfba84198466320a868821bbd",
+      "wordCount": 295,
+      "substantiveWordCount": 217
+    },
+    "P00B7": {
+      "entryId": "generic-p00b7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "d8812a27a3258a1c0268a9d5d9c4098297445a96f1b8bbab2559aa0d097e6c03",
+      "wordCount": 316,
+      "substantiveWordCount": 218
+    },
+    "P011B": {
+      "entryId": "generic-p011b",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-05-engine",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "6c7be4d1dd83b2d6d04000ed88bd68642cc724de8b957fd5a53e95f049bde229",
+      "wordCount": 297,
+      "substantiveWordCount": 217
+    },
+    "P0126": {
+      "entryId": "generic-p0126",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-05-engine",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "7eabb58f9c8fa40ad541c7e68e1fc92cf6cbf549fcf0aa981afca8e69abcbefd",
+      "wordCount": 296,
+      "substantiveWordCount": 222
+    },
+    "P012B": {
+      "entryId": "generic-p012b",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "issue": "Minimum total weight-factor entry and supporting matrix attribution require calibration-level clarification; no isolated threshold used as repair criterion.",
+      "sha256": "29a3b75218f43c0bf409ed37c978fa78331989663aa278e7693c8d9364476f53",
+      "wordCount": 334,
+      "substantiveWordCount": 216
+    },
+    "P012C": {
+      "entryId": "generic-p012c",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "issue": "Threshold cell prints 3.0% of 5V together with 0.2V; arithmetic differs. Values not promoted to a workshop limit.",
+      "sha256": "85d82fb5a14a7cd7f2b67c3287edd3cee21470a2a9d7c65164fda2bb96d72879",
+      "wordCount": 282,
+      "substantiveWordCount": 208
+    },
+    "P012D": {
+      "entryId": "generic-p012d",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "64e3092cbaf1b7df9c429cbc60ad7124d7cacbb3d4b293d069cc27548d3a7d50",
+      "wordCount": 295,
+      "substantiveWordCount": 217
+    },
+    "P023A": {
+      "entryId": "generic-p023a",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            51
+          ]
+        }
+      ],
+      "issue": "Source prints one failure out of zero samples; unsupported denominator omitted from diagnostic guidance.",
+      "sha256": "20d42cd3af10986545a930bc8169a9ec4ddf265f8c36a60d308fdcc308a69ae5",
+      "wordCount": 282,
+      "substantiveWordCount": 208
+    },
+    "P0244": {
+      "entryId": "generic-p0244",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            35
+          ]
+        }
+      ],
+      "issue": "GM table defines P0244 as boost-valve circuit open, unlike generic range/performance title; applicability must be resolved.",
+      "sha256": "0531de901abfb2166a017d1473ae217b770a05661aece69b0f7ce24a3fb0472f",
+      "wordCount": 283,
+      "substantiveWordCount": 206
+    },
+    "P02E7": {
+      "entryId": "generic-p02e7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "809659e2aa01e7a6d1cacaccfbf34546c1d8aae617d70813b72cc7a174ad6c5f",
+      "wordCount": 294,
+      "substantiveWordCount": 216
+    },
+    "P0337": {
+      "entryId": "generic-p0337",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-05-engine",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "issue": "GM group05 behavior-based position-loss description differs from generic circuit-low label; no voltage threshold published for this row.",
+      "sha256": "8fb94cfc0cc94f429f4560b14625dc19347b1953de3e7293ba3c19e7c8f76ba5",
+      "wordCount": 293,
+      "substantiveWordCount": 215
+    },
+    "P0338": {
+      "entryId": "generic-p0338",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "issue": "Group02 uses tooth-count rationality for generic circuit-high code; numeric tooth criterion and applicability require exact calibration procedure.",
+      "sha256": "f5544ea023fb84bffd7a10117855cff1d6922e0086c0788f37609a6861933d67",
+      "wordCount": 290,
+      "substantiveWordCount": 211
+    },
+    "P0350": {
+      "entryId": "generic-p0350",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-09-engine",
+          "pages": [
+            22
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "1dc9b2bc3519c6e94ec74b991941bf5017ebfdeba09404d17c59f148352ba56a",
+      "wordCount": 283,
+      "substantiveWordCount": 207
+    },
+    "P0385": {
+      "entryId": "generic-p0385",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-09-engine",
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "580780ca256802b9da042983902dcb7cd9b228effa9289087ffe24511380a221",
+      "wordCount": 289,
+      "substantiveWordCount": 212
+    },
+    "P0386": {
+      "entryId": "generic-p0386",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-09-engine",
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "03a0ababee35f20f2212a1265f607ba4ac1935289cbe1f09a6eb4f24fdb515b5",
+      "wordCount": 282,
+      "substantiveWordCount": 208
+    },
+    "P040F": {
+      "entryId": "generic-p040f",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "issue": "Printed absolute-temperature-difference inequality appears inconsistent with bias-failure description; sign not silently reversed.",
+      "sha256": "a5a4779855f952ba7838946e5eaaba77bff937978fe2c33b7fcbcd039dd62d31",
+      "wordCount": 291,
+      "substantiveWordCount": 213
+    },
+    "P0411": {
+      "entryId": "generic-p0411",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "8df1adc6bde3c2ad29296011378d455b57cef1a71f823e7d174538566ba0635a",
+      "wordCount": 299,
+      "substantiveWordCount": 223
+    },
+    "P0412": {
+      "entryId": "generic-p0412",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "0c0ed3feea56ce7150a96866f7ff3637219c8e8370cf55fc925731c24eabb554",
+      "wordCount": 284,
+      "substantiveWordCount": 210
+    },
+    "P0418": {
+      "entryId": "generic-p0418",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "53efd073d21787300551c965c42b8ed4b8183f942a8e19bf2a5cc0265c1923ed",
+      "wordCount": 291,
+      "substantiveWordCount": 213
+    },
+    "P046C": {
+      "entryId": "generic-p046c",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "01b95422368716fbfbeb913ea2ef271c3a922d0f3fa2e7561c12d041c2e6a789",
+      "wordCount": 296,
+      "substantiveWordCount": 219
+    },
+    "P0501": {
+      "entryId": "generic-p0501",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "0ffc5b02e50d2f9ae5ac0400ccb0d4dc9030f7e0e35d5f66b5efadee6e4c3566",
+      "wordCount": 296,
+      "substantiveWordCount": 219
+    },
+    "P0502": {
+      "entryId": "generic-p0502",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "2258fe2e15f68702366d4859a477b06ad3c6e0d03869749af2509ecd78031451",
+      "wordCount": 293,
+      "substantiveWordCount": 212
+    },
+    "P0503": {
+      "entryId": "generic-p0503",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            37,
+            38
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "d17a536091ea7ce45dacdd6f14d878afff21583d7c733ce675bdd1251c3cd73a",
+      "wordCount": 304,
+      "substantiveWordCount": 206
+    },
+    "P050C": {
+      "entryId": "generic-p050c",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            23,
+            24
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "becd7c67953f8f48a53cad4c6236274d8590ae9e3017cb31c63e1219bbb3c5f7",
+      "wordCount": 298,
+      "substantiveWordCount": 201
+    },
+    "P0556": {
+      "entryId": "generic-p0556",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            53
+          ]
+        }
+      ],
+      "issue": "Manifold-pressure comparison prints a value without a clear comparison operator; not used as an actionable limit.",
+      "sha256": "f7f1ef458b4d55144ded2635242beef2b034383decdf5aa10e78f1f072dbac2e",
+      "wordCount": 285,
+      "substantiveWordCount": 211
+    },
+    "P0557": {
+      "entryId": "generic-p0557",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            53
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "161d8328c0aabcd5aed3685ee9a2dc04cf4efdd67476491f102746bcafaf226a",
+      "wordCount": 283,
+      "substantiveWordCount": 208
+    },
+    "P0558": {
+      "entryId": "generic-p0558",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            53
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "50028b441bc02fb6fb9a337c52aedab40a015e495c5939f1303905c8fa1836ff",
+      "wordCount": 291,
+      "substantiveWordCount": 213
+    },
+    "P0597": {
+      "entryId": "generic-p0597",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            40
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "516c794398c3f7dc8b6fa6c953808e63b0e5486297202c88342e610f7e237bdb",
+      "wordCount": 289,
+      "substantiveWordCount": 209
+    },
+    "P0598": {
+      "entryId": "generic-p0598",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            40
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "23d7ce5ca57411e010a33f8e775227c924ecda62bac3c3fe3f59a1a790a85167",
+      "wordCount": 288,
+      "substantiveWordCount": 210
+    },
+    "P0599": {
+      "entryId": "generic-p0599",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            40
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "11fa7b32c53867f2a72737c2f02d87650171af0d09569becf28e485845614c88",
+      "wordCount": 288,
+      "substantiveWordCount": 208
+    },
+    "P0609": {
+      "entryId": "generic-p0609",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            88
+          ]
+        }
+      ],
+      "issue": "Frequency cell says solenoid operation despite vehicle-speed output identity; component implication not inferred.",
+      "sha256": "8b6c5ac0953f986e994f33b81131a832d62f44ea433125c75fa264c81a2f5ff2",
+      "wordCount": 279,
+      "substantiveWordCount": 201
+    },
+    "P0632": {
+      "entryId": "generic-p0632",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            22
+          ]
+        }
+      ],
+      "issue": "GM group06 identifies missing wheel-circumference programming while generic label says odometer not programmed; exact controller applicability unresolved.",
+      "sha256": "ac98604a0e3a4f608bee945c8d06a31886195fc6e19041d01b85baaca7cc519d",
+      "wordCount": 284,
+      "substantiveWordCount": 209
+    },
+    "P0640": {
+      "entryId": "generic-p0640",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "f8fba161a162ec67977a3919aefe8e559651b95820ed1fc10a21a19a1532d891",
+      "wordCount": 287,
+      "substantiveWordCount": 206
+    },
+    "P064C": {
+      "entryId": "generic-p064c",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "263944bf9e56439e6f85c75277ed9b01471fc824946f27709aff72cc140d289d",
+      "wordCount": 295,
+      "substantiveWordCount": 218
+    },
+    "P065E": {
+      "entryId": "generic-p065e",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-12-engine",
+          "pages": [
+            83,
+            84
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "38632705849c8deef3798b76f2f5d582984c2b0d6323352cd3f1f01bcf02f017",
+      "wordCount": 305,
+      "substantiveWordCount": 205
+    },
+    "P0695": {
+      "entryId": "generic-p0695",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-12-engine",
+          "pages": [
+            86
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "ed72aaee4052c8a6594e6bd61740ea30222060ee79411e556c07c5960df07eed",
+      "wordCount": 297,
+      "substantiveWordCount": 216
+    },
+    "P0696": {
+      "entryId": "generic-p0696",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-12-engine",
+          "pages": [
+            86
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "68a317011d6e2d9f459b41040879b03c75e609ba21c4a86af8294649fcaff214",
+      "wordCount": 288,
+      "substantiveWordCount": 208
+    },
+    "P0719": {
+      "entryId": "generic-p0719",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "c75864f0f2ec208f6a95f10132c4dfef79f7825b5a73fd7f4595fbb9dc045062",
+      "wordCount": 281,
+      "substantiveWordCount": 206
+    },
+    "P071A": {
+      "entryId": "generic-p071a",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-trans",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "940ee1fabb2f8c4186589bcd20e02d0b70478e309677a564900defc722e68f48",
+      "wordCount": 291,
+      "substantiveWordCount": 212
+    },
+    "P0724": {
+      "entryId": "generic-p0724",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "42bae6a2927d843c18964a77c336d749a6c863afb89e8472a53d8eaaac721e98",
+      "wordCount": 284,
+      "substantiveWordCount": 204
+    },
+    "P0748": {
+      "entryId": "generic-p0748",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-trans",
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "52f6654397466f46856fac4011395ab7da476f9a723faeaca07df996f7314701",
+      "wordCount": 306,
+      "substantiveWordCount": 208
+    },
+    "P0753": {
+      "entryId": "generic-p0753",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-09-trans",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "cf5c192a74ce23cc4513d7d4a2ac78d12ee789fd963cd9f8bb567932ddb044ea",
+      "wordCount": 284,
+      "substantiveWordCount": 204
+    },
+    "P0758": {
+      "entryId": "generic-p0758",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-09-trans",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "dac7e2a810f7daa2e6d955bf24759b345a228cb3c32ce70b110ad34553faf3f9",
+      "wordCount": 294,
+      "substantiveWordCount": 214
+    },
+    "P0778": {
+      "entryId": "generic-p0778",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-trans",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "f8db5299d62a8711f8dd12044045d33d2bf28e1501c6385dc90c057ddfd546f5",
+      "wordCount": 309,
+      "substantiveWordCount": 211
+    },
+    "P0786": {
+      "entryId": "generic-p0786",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-05-trans",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "29ab2083efa06b2fa5dd35689720d73001f06e8e107532eed08facdc19c2434a",
+      "wordCount": 278,
+      "substantiveWordCount": 201
+    },
+    "P0787": {
+      "entryId": "generic-p0787",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-trans",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "92250f284c309d1e3b7a68c5298aaa70b197e62bb63b803aa649fd79c9595b2b",
+      "wordCount": 283,
+      "substantiveWordCount": 203
+    },
+    "P0788": {
+      "entryId": "generic-p0788",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-trans",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "b5dad00fecbc2ce711b6d802c4f57be0d38734929b783cfd971a64284d7a124d",
+      "wordCount": 291,
+      "substantiveWordCount": 212
+    },
+    "P0798": {
+      "entryId": "generic-p0798",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-trans",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "a55d58e994b68bf9e6c6ffd89a4902319153866938848965e347c57e547ba638",
+      "wordCount": 283,
+      "substantiveWordCount": 207
+    },
+    "P0803": {
+      "entryId": "generic-p0803",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            91
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "8d4859e7bc8c296e9260407e751e6ffdb3cb5a91c9c35b58c01a186a9e45d351",
+      "wordCount": 289,
+      "substantiveWordCount": 210
+    },
+    "P0806": {
+      "entryId": "generic-p0806",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            44
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "d3f2de52f58301c02adc0cf5e2ca2f431458ff68b29ab63d365808feb8d359da",
+      "wordCount": 283,
+      "substantiveWordCount": 201
+    },
+    "P0807": {
+      "entryId": "generic-p0807",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            44,
+            45
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "a7494755fb5d1b6014d9f378d2afef1aae5e424c2be586c4a7c4a4690ad21178",
+      "wordCount": 309,
+      "substantiveWordCount": 206
+    },
+    "P0808": {
+      "entryId": "generic-p0808",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "59b4713221dbde0b9f8d87696dbad205a8fb4d16386740bb2e8afb1ce7267794",
+      "wordCount": 290,
+      "substantiveWordCount": 210
+    },
+    "P080A": {
+      "entryId": "generic-p080a",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-engine",
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "7075136c89b54d5e187381174e0561b37aa893e9330e8b9c63459fe19848700a",
+      "wordCount": 288,
+      "substantiveWordCount": 207
+    },
+    "P0851": {
+      "entryId": "generic-p0851",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "2388f5d7dabd1bcb10fddb0a3c35e57ecf16f846ebfb8e8a61a9d9f99800814e",
+      "wordCount": 289,
+      "substantiveWordCount": 208
+    },
+    "P0852": {
+      "entryId": "generic-p0852",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "4bb0320d34a737f26d3f98fe7163288e0bde28396a79211d918c330b50511cff",
+      "wordCount": 285,
+      "substantiveWordCount": 208
+    },
+    "P0894": {
+      "entryId": "generic-p0894",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-allison-trans",
+          "pages": [
+            41
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "1513b59919d19c3ea20bd7238423f3ba8df930393cd902a17b9eb66ed0a9655d",
+      "wordCount": 295,
+      "substantiveWordCount": 214
+    },
+    "P0972": {
+      "entryId": "generic-p0972",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-allison-trans",
+          "pages": [
+            33,
+            34
+          ]
+        }
+      ],
+      "issue": "Allison defines generic range/performance P0972 as electrical open; scope explicitly limited to documented implementation.",
+      "sha256": "1a4e7fae523969e1fc0a0da26e121aee101b476d4ead4493f1ea54e6265cc71c",
+      "wordCount": 307,
+      "substantiveWordCount": 208
+    },
+    "P0975": {
+      "entryId": "generic-p0975",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-allison-trans",
+          "pages": [
+            35
+          ]
+        }
+      ],
+      "issue": "Allison uses P0975 for electrical open rather than generic range/performance wording; exact implementation required.",
+      "sha256": "f76926dc10ed2d88722d6cb472754fbfbbd1f7950bb839445dbc78304e80a05f",
+      "wordCount": 282,
+      "substantiveWordCount": 201
+    },
+    "P0989": {
+      "entryId": "generic-p0989",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-03-trans",
+          "pages": [
+            41
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "937bcab54c7283db3ce4187700bf25de23f72895cd55e6c68b37155e6cc50073",
+      "wordCount": 287,
+      "substantiveWordCount": 207
+    },
+    "P0990": {
+      "entryId": "generic-p0990",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-03-trans",
+          "pages": [
+            41,
+            42
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "3b53fdcf62ecd218dfb277617d287ac639ff6bf0c63661f4c70e66b35ab96f6a",
+      "wordCount": 304,
+      "substantiveWordCount": 203
+    },
+    "P0A06": {
+      "entryId": "generic-p0a06",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            127
+          ]
+        }
+      ],
+      "issue": "BAS table P0A06 heading includes contradictory low/high wording; only clear pump-on echo-feedback logic described.",
+      "sha256": "d75737b793a6a823c723b48f2fabeaf654c8852df02d0e45cc01e3394caf22e3",
+      "wordCount": 282,
+      "substantiveWordCount": 205
+    },
+    "P0A07": {
+      "entryId": "generic-p0a07",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            127
+          ]
+        }
+      ],
+      "issue": "BAS table P0A07 mixes high/low labels; off-command feedback logic retained without inventing voltage-direction mapping.",
+      "sha256": "a6de921cb71bfbf780d1a98160c31c33fbe36a3c1a90d4d3656290e846ada852",
+      "wordCount": 285,
+      "substantiveWordCount": 205
+    },
+    "P0A1E": {
+      "entryId": "generic-p0a1e",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            124
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "4d7a941f885defaa5337cf2f7cd74906b6685b9f5a32de81afd44a75567cd0ec",
+      "wordCount": 293,
+      "substantiveWordCount": 220
+    },
+    "P0A37": {
+      "entryId": "generic-p0a37",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            125
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "2e952ff15b24d97bc4a2ed059da269b5f24ffa71d1e39f166ff83ede50ce8522",
+      "wordCount": 282,
+      "substantiveWordCount": 201
+    },
+    "P0A38": {
+      "entryId": "generic-p0a38",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            125
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "a03885bd87edac021649164cb08ae51010e893153c1b9b36c75a71cc5a5ca0e8",
+      "wordCount": 290,
+      "substantiveWordCount": 214
+    },
+    "P0A39": {
+      "entryId": "generic-p0a39",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            125
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "5de1088f115fac22f9cbffc1b54666966730ce2ed2f24e0abfc96b729924124d",
+      "wordCount": 289,
+      "substantiveWordCount": 211
+    },
+    "P0A3B": {
+      "entryId": "generic-p0a3b",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            125
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "0f91e74422194b815b1b9a50b38530913d5c8e9dd850324f9a6159069b723e04",
+      "wordCount": 288,
+      "substantiveWordCount": 212
+    },
+    "P0A4B": {
+      "entryId": "generic-p0a4b",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            127
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "5252caa65fdff38ea6df2e06079dbcfd3186d013f8afbfaeb92a5a79e9f8e5ab",
+      "wordCount": 285,
+      "substantiveWordCount": 208
+    },
+    "P0A4C": {
+      "entryId": "generic-p0a4c",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            127
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "0b669868d50aacaac91b13ceb10927ac9feeaf8cfdd4b5addfff0db6fa51174b",
+      "wordCount": 283,
+      "substantiveWordCount": 202
+    },
+    "P0A50": {
+      "entryId": "generic-p0a50",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            127
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "39143c0d85254ff2cae22a329c2901f9199e139fb96d949a1bccccb14ccc9076",
+      "wordCount": 280,
+      "substantiveWordCount": 203
+    },
+    "P0A7C": {
+      "entryId": "generic-p0a7c",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            122
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "113678ca29ae7bfc5445e9352e88e48da537c4093967c26f49233f5ae78d77f9",
+      "wordCount": 280,
+      "substantiveWordCount": 200
+    },
+    "P0A82": {
+      "entryId": "generic-p0a82",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            136
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "613628715b0107a99226adc0cab307c5a06e2047534d183ed0b599b0b6505a88",
+      "wordCount": 285,
+      "substantiveWordCount": 204
+    },
+    "P0A83": {
+      "entryId": "generic-p0a83",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            136
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "40badf089166490939c65323d56a39478cd29cab2973d103cb6c7a8fc3358dc7",
+      "wordCount": 287,
+      "substantiveWordCount": 206
+    },
+    "P0A84": {
+      "entryId": "generic-p0a84",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            136
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "6143c5491537fcd00a0e2ad6aa996ff148bb5e7b58279771b207dd0a38e3d228",
+      "wordCount": 285,
+      "substantiveWordCount": 207
+    },
+    "P0A85": {
+      "entryId": "generic-p0a85",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            136
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "b6b08fc51344374140605deeb7373a872f89cb5bb00fd38abf5097d08d7046ba",
+      "wordCount": 287,
+      "substantiveWordCount": 209
+    },
+    "P0A87": {
+      "entryId": "generic-p0a87",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            120
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "136b7a451f6715edd09852b82f841915e7bf05f90d8a058063f228e2f7cb304d",
+      "wordCount": 282,
+      "substantiveWordCount": 205
+    },
+    "P0A88": {
+      "entryId": "generic-p0a88",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            120
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "a2e190712b963207bc31fa80ae785298513ec86eb00bc1272a46bc5280877829",
+      "wordCount": 292,
+      "substantiveWordCount": 215
+    },
+    "P0A89": {
+      "entryId": "generic-p0a89",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            120
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "c6baf56206a4fb048d820afe1743c7fe95e4ce897b1d3299d7d1a64c7e6b71f4",
+      "wordCount": 284,
+      "substantiveWordCount": 206
+    },
+    "P0A8E": {
+      "entryId": "generic-p0a8e",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            119
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "cae5c436a8b59825bafd704a9b5217bc25b13fbf2fac29401a4fe6cc85507a7e",
+      "wordCount": 287,
+      "substantiveWordCount": 209
+    },
+    "P0A92": {
+      "entryId": "generic-p0a92",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            130
+          ]
+        }
+      ],
+      "issue": "Speed-error threshold unit absent; MAP-named prerequisite described as mass airflow in source. Numerical limit and ambiguous sensor identity not inferred.",
+      "sha256": "4561543ea31be3aed80119fe401c1627c0a5951596418c563aa903e806ecd4cd",
+      "wordCount": 289,
+      "substantiveWordCount": 209
+    },
+    "P0AA1": {
+      "entryId": "generic-p0aa1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            137
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "2af8bf11791b4e65e123d77e4f3c5b4a95f14f0fcb13c8d24e162531dfe6dcad",
+      "wordCount": 285,
+      "substantiveWordCount": 205
+    },
+    "P0AA2": {
+      "entryId": "generic-p0aa2",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            143
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "645e035f36599568e27af67171b8065794d4a6010deec4c40890ebb3342beb9d",
+      "wordCount": 286,
+      "substantiveWordCount": 202
+    },
+    "P0ADB": {
+      "entryId": "generic-p0adb",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            137
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "bb280037145ec92cd378a007f841c70533ffdb6861e03f7de032104e6fbde449",
+      "wordCount": 286,
+      "substantiveWordCount": 209
+    },
+    "P0ADC": {
+      "entryId": "generic-p0adc",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            137
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "edec4ab9aab541e612698a14cbb3b3fe15fc1c3620ed387d195939edf09242c4",
+      "wordCount": 282,
+      "substantiveWordCount": 206
+    },
+    "P0AF7": {
+      "entryId": "generic-p0af7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            121
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "71ac7cf854e430c326594b283b2cf94c1457a3efaea252ec25aa2c0f3026e4ea",
+      "wordCount": 282,
+      "substantiveWordCount": 205
+    },
+    "P0AF8": {
+      "entryId": "generic-p0af8",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            119
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "611126007f4fa8426a167b2fca071ef5adc4c1eb9734b49609a9ced453ca8f55",
+      "wordCount": 283,
+      "substantiveWordCount": 208
+    },
+    "P0AFA": {
+      "entryId": "generic-p0afa",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            119
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "075624863ad66df2580fc74e875c1f6a556318278bc8d7e0d2458a6c82100843",
+      "wordCount": 288,
+      "substantiveWordCount": 208
+    },
+    "P0B09": {
+      "entryId": "generic-p0b09",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            121
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "e8ec46db2a855d60cdd346dec10f9dbf22ed24b96c4e32d53e3f1917a6ca9bc8",
+      "wordCount": 284,
+      "substantiveWordCount": 208
+    },
+    "P1133": {
+      "entryId": "chevrolet-p1133",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            95,
+            96
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "2f9382a27924258b92ec14f2bd9efba01c8ba5725b126e6c43b73d4cfc2e7ec3",
+      "wordCount": 316,
+      "substantiveWordCount": 214
+    },
+    "P1134": {
+      "entryId": "chevrolet-p1134",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-09-engine",
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "issue": "Heater-temperature qualification prints implausible ±1280°C range; omitted as usable operating specification.",
+      "sha256": "a09da64db9da92696892a89fb33574f80fd7287d5c72fa23337f550a65b7cf9d",
+      "wordCount": 284,
+      "substantiveWordCount": 205
+    },
+    "P1153": {
+      "entryId": "chevrolet-p1153",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "35a6adc1a57e520503f67b2317a2b28597e8b27ccfe1346c0f426a08cbec6cca",
+      "wordCount": 296,
+      "substantiveWordCount": 217
+    },
+    "P2A04": {
+      "entryId": "generic-p2a04",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            131,
+            132
+          ]
+        }
+      ],
+      "issue": "Threshold inequalities and failure-to-reach wording need exact calibration interpretation; no numerical sensor-condemnation threshold asserted.",
+      "sha256": "841c0ccf21e9694dfb4710425a95f300fd72b7dc578b2bf6e6140c40e8284540",
+      "wordCount": 314,
+      "substantiveWordCount": 216
+    },
+    "P3400": {
+      "entryId": "generic-p3400",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            133,
+            134
+          ]
+        }
+      ],
+      "issue": "Printed absolute manifold-pressure residual is compared with a negative threshold; invalid literal expression omitted as actionable criterion.",
+      "sha256": "c46f50b3740f9bcb9603131718f06734172675abcd0c92fb9c50fd3f15a0f345",
+      "wordCount": 316,
+      "substantiveWordCount": 217
+    },
+    "U0001": {
+      "entryId": "generic-u0001",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-trans",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "36c8922aaa14f15c52ce8371d6cb60388d4007310981274971c1730504e6fa4d",
+      "wordCount": 290,
+      "substantiveWordCount": 208
+    },
+    "U0106": {
+      "entryId": "generic-u0106",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            25
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "c469267a64a5a9dee22ebd6d7203c33d28a17dd21be0b2c98cf9aa5562c89a25",
+      "wordCount": 288,
+      "substantiveWordCount": 209
+    },
+    "U0302": {
+      "entryId": "generic-u0302",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-12-engine",
+          "pages": [
+            110
+          ]
+        }
+      ],
+      "issue": null,
+      "sha256": "fc24643ba37a73af776d7f847ee6e50be99bd03508f199da5728d1de2a443649",
+      "wordCount": 287,
+      "substantiveWordCount": 212
+    }
+  },
+  "summary": {
+    "assigned": 100,
+    "written": 100,
+    "sourceCheckedDrafts": 80,
+    "sourceReviewPending": 20,
+    "totalWords": 29055,
+    "wordRange": [
+      278,
+      334
+    ],
+    "substantiveWords": 20957,
+    "substantiveWordRange": [
+      200,
+      223
+    ],
+    "published": 0
+  },
+  "method": "Individual original prose authored after reviewing each assigned primary monitor row, including continuation pages. Rotated 2009 PDF tables extracted in native reading order; ambiguous layouts cross-checked against original rendered pages. No title-to-generic-prose generator.",
+  "originalPdfPagesVisuallyInspected": [
+    {
+      "sourceId": "gm-2009-01-duramax-engine",
+      "page": 13
+    },
+    {
+      "sourceId": "gm-2009-01-gmdat-engine",
+      "page": 4
+    },
+    {
+      "sourceId": "gm-2009-02-engine",
+      "page": 12
+    },
+    {
+      "sourceId": "gm-2009-02-engine",
+      "page": 2
+    },
+    {
+      "sourceId": "gm-2009-02-engine",
+      "page": 53
+    },
+    {
+      "sourceId": "gm-2009-04-trans",
+      "page": 4
+    },
+    {
+      "sourceId": "gm-2009-05-engine",
+      "page": 9
+    },
+    {
+      "sourceId": "gm-2009-05-trans",
+      "page": 5
+    },
+    {
+      "sourceId": "gm-2009-06-engine",
+      "page": 20
+    },
+    {
+      "sourceId": "gm-2009-07-engine",
+      "page": 131
+    },
+    {
+      "sourceId": "gm-2009-07-engine",
+      "page": 133
+    },
+    {
+      "sourceId": "gm-2009-07-engine",
+      "page": 21
+    },
+    {
+      "sourceId": "gm-2009-07-engine",
+      "page": 5
+    },
+    {
+      "sourceId": "gm-2009-07-engine",
+      "page": 51
+    },
+    {
+      "sourceId": "gm-2009-08-engine",
+      "page": 127
+    },
+    {
+      "sourceId": "gm-2009-08-engine",
+      "page": 130
+    },
+    {
+      "sourceId": "gm-2009-08-engine",
+      "page": 137
+    },
+    {
+      "sourceId": "gm-2009-08-engine",
+      "page": 143
+    },
+    {
+      "sourceId": "gm-2009-09-engine",
+      "page": 46
+    }
+  ],
+  "selectionCorrections": [
+    {
+      "removed": [
+        "P1105",
+        "P1106",
+        "P1107",
+        "P1108",
+        "P1135"
+      ],
+      "reason": "Only available group05 manufacturer definitions did not match Chevrolet canonical meanings."
+    },
+    {
+      "removed": [
+        "C0035",
+        "C0040",
+        "C0045",
+        "C056D",
+        "P0040"
+      ],
+      "reason": "Replacement primary rows described different systems or wheel locations from generic canonical entries."
+    }
+  ],
+  "scopeLimits": [
+    "All manuscripts remain drafts; checked means source support checked by the authoring agent, not mechanic approval.",
+    "Document-specific monitor parameters do not prove every vehicle/engine in the broader GM file supports each code.",
+    "Unresolved numerical, labeling and applicability issues are disclosed per article; no guessed replacement parts, prices, pinouts or model fitments.",
+    "Full copyrighted PDF text retained only in scratch research; articles use independent explanation, not reproduced diagnostic tables."
+  ],
+  "validationFailures": []
+}

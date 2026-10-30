@@ -2,7 +2,7 @@
 
 The user explicitly requested 10 writer agents, each writing 100 useful SEO articles. The overall project still aims to cover the full 10,000+ catalog. This assignment is actual writing, not another audit or plan. Write all 100 assigned articles to your owned directory. Keep working until done; checkpoint files in small batches. Do not stop at an outline, source list or a handful of examples.
 
-Batches 01–10 form the first completed wave. Batches 11–20 form the next 1,000-code wave and must exclude every code already assigned in the first wave. The shared manifest tracks 2,000 distinct canonical codes across both waves. If a candidate proves to be only an incidental mention, request a documented substitution from root; never pad an article around missing evidence. Root verifies that replacement codes are still unassigned.
+Batches 01–10 and 11–20 are completed waves. Batches 21–30 form the third wave. The user authorized continuation in waves of ten writers with 100 articles each toward 10,000. Only evidence-backed assignments count; scheduled batch numbers are not written articles. Exclude every previously assigned code string. If a candidate proves to be only an incidental mention or a mismatched manufacturer definition, request a documented substitution from root; never pad an article around missing evidence. Root verifies replacement codes remain unassigned.
 
 Repo: /workspace/scratch/dbf135311373/cars-errhive
 Inputs: /workspace/scratch/dbf135311373/article-writing-inputs/batch-NN.json
@@ -20,7 +20,7 @@ One UTF-8 Markdown file named CODE.md (uppercase) per code. Start with JSON fron
 
 Use a complete concise sentence for the search description; never truncate a paragraph mid-sentence.
 
-Then an actual English article, with a main heading and useful subsections. Aim about 200–350 words of substantive prose; use a different appropriate length if evidence warrants it, without filler. Include direct source links with physical PDF page fragments (#page=N). Retain limitations in the article itself.
+Then an actual English article, with a main heading and useful subsections. Aim about 200–350 words of substantive prose; use a different appropriate length if evidence warrants it, without filler. Include direct source links with physical PDF page fragments (#page=N). Retain limitations in the article itself. For HTML sources, use sourceLocators:[{sourceId,locator}] with the actual row, heading or revision. Do not invent PDF page numbers for HTML. Ross-Tech is an independent diagnostic-tool publisher; label it accurately and never imply an OEM instruction.
 
 Write concrete meaning, what the controller detects, diagnostic interpretation/decisions, verification and applicability. Symptoms, likely causes and remedies are included only when sources support them. A monitor explainer can be useful without pretending to be a complete workshop repair procedure. Give at least two meaningful observations that change interpretation or the next diagnostic check, derived from the particular monitor. Do not fill sections with scan/inspect/clear/replace boilerplate. Explain differences from nearby codes only when verified.
 

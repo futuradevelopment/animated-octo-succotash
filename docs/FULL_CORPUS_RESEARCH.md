@@ -4,7 +4,7 @@ Research snapshot: 2026-10-30. **The full 10,000+ article goal remains incomplet
 
 ## Completion means articles for the whole catalog
 
-Two writing waves have completed **2,000 original article manuscripts across 20 writers**, with 100 assigned codes per writer. The second wave adds 1,000 distinct codes and excludes every first-wave code. [Read the manuscript index](../content/code-articles/README.md) and the measured per-wave [writing inventory](../reports/written-articles.json). These files retain source-review flags and are not yet connected to the public renderer. The earlier full-catalog goal remains incomplete; draft writing is reported separately from approved records and publication.
+Three writing waves completed **3,000 original manuscripts across 30 writers**, with 100 per writer. The third wave adds 1,000 distinct codes, and fourth-wave source research is underway. The user has authorized continuing the same process toward 10,000; unassigned or planned work is not counted as completed. [Read the live manuscript inventory](../content/code-articles/README.md) for current file counts and review flags. These files are drafts, not connected to the public renderer. The full-catalog goal remains incomplete; writing, approval and publication are separate states.
 
 The task is a useful, separately researched article at every canonical code destination, with a minimum of 10,000 articles. The current inventory has 11,786 canonical code/namespace entries and 10,043 distinct displayed code strings. Manufacturer namespaces can give the same displayed string different meanings. Aliases and model permutations must not inflate the total.
 
@@ -22,7 +22,7 @@ A concrete collision illustrates the risk. The community Chevrolet label for P16
 
 The audit also groups 7,354 entries into 2,113 lexical families after normalizing bank, cylinder, channel and similar labels. Merely changing those labels in the same diagnostic prose would reproduce the content problem reported by the user. This is a similarity warning, not a finding that all members of a family require different underlying tests.
 
-The compact audit, its methods and evidence URLs are in [source-corpus-audit.json](../reports/source-corpus-audit.json). Its large per-entry appendix is represented by the reproducible [article backlog](../reports/article-backlog.jsonl).
+The compact audit, its methods and evidence URLs are in [source-corpus-audit.json](../reports/source-corpus-audit.json). Its large per-entry appendix is represented by the reproducible [article backlog](../reports/article-backlog/index.json).
 
 ## Primary-source acquisition and measured coverage
 
@@ -32,11 +32,13 @@ Research also acquired the official 1999 Ford PCED chart and description pages p
 
 The initial six PDFs and 56 Ford HTML documents provided candidates for **2,105 canonical entries** representing **2,104 distinct code strings**, leaving 9,681 entries without candidates in that initial acquired set. These were acquisition measurements, not completed-article counts.
 
-The second writing wave adds six GM 2025 parameter files: 03B, 04A, 06A, 06B, 06C and 07A Part 1. The current index therefore contains **12 PDFs totaling 14,721 pages, plus 56 Ford HTML documents**. The expanded candidate index matches **2,280 canonical entries / 2,279 distinct code strings**, with 9,506 canonical entries still lacking a candidate in this acquired set. Each added PDF retains its hash, physical page numbers and document scope; no per-code vehicle fitment is inferred.
+The second writing wave adds six GM 2025 parameter files: 03B, 04A, 06A, 06B, 06C and 07A Part 1. At the end of that wave, the index contained **12 PDFs totaling 14,721 pages, plus 56 Ford HTML documents**. That snapshot matched **2,280 canonical entries / 2,279 distinct code strings**, with 9,506 canonical entries lacking a candidate in that acquired set. Each added PDF retains its hash, physical page numbers and document scope; no per-code vehicle fitment is inferred.
+
+The third wave expands acquisition to historical GM hybrid and powertrain tables, official Nissan service manuals, historical Ford PCED diagnostic descriptions, manufacturer bulletins archived by NHTSA, and Ross-Tech original VAG diagnostic research. HTML claims retain exact row or revision locators, rather than invented PDF page numbers. Ross-Tech is explicitly labelled an independent diagnostic-tool publisher. NHTSA catalog summaries are discovery aids; the complete original bulletin controls vehicle scope and diagnosis. The source index and regenerated coverage report contain the current acquisition counts.
 
 These numbers do not measure all manufacturer literature or establish sufficient evidence for an article. Codes can occur in inhibition lists, prerequisite tables or related-code notes rather than their own diagnostic description. Thirteen second-wave assignments were replaced after their candidate matches proved incidental or lacked a substantive monitor description; the replacement codes remained distinct from all existing assignments.
 
-The [candidate index](../src/data/diagnostic-source-index.json) retains document URLs, hashes, scope and physical PDF page numbers or HTML navigation references. Ford source matches retain their document restrictions. Generic matches also retain document-specific scope instead of becoming universal instructions.
+The [candidate index](../src/data/diagnostic-source-index.json) points to readable source-record parts that retain document URLs, hashes, scope and physical PDF page numbers or HTML navigation references. Ford source matches retain their document restrictions. Generic matches also retain document-specific scope instead of becoming universal instructions.
 
 The [official GM 2025 application matrix](../research/gm-2025-application-matrix.json) supplies 74 rows and 63 distinct application tuples. Exact filenames establish file-level candidate makes for the sampled 03A and 04B documents; each code still requires section-level applicability review. The matrix prints `25OBDG047A Part 2.pdf`, while the download index uses `25OBDG07A Part 2.pdf`. That unresolved discrepancy prevents automatically assigning makes to the sampled 07A file. Corporate ownership is never a substitute for application evidence.
 
@@ -65,3 +67,9 @@ Work still required across the complete backlog:
 5. Verify the rendered articles and full-catalog coverage before treating the task as complete.
 
 This research and tracking work does **not** fulfill the article-writing request by itself. The outstanding set remains explicit in the backlog; it is not silently reduced to a small guide collection.
+
+## Research data storage
+
+The growing source registry, writing inventory and per-entry backlog are stored in readable parts. The source manifest records every source file and expected record count; the loader rejects missing counts and duplicate IDs. The backlog index lists ordered JSON Lines parts covering every canonical entry. This preserves the complete research data while avoiding multi-megabyte write requests. Article manuscripts remain separate Markdown files.
+
+The [third-wave review summary](../reports/editorial-review-wave-03-summary.json) records 200 body reads and 40 deep source checks in two batches, plus integrated citation, provenance and wording corrections. Twenty-seven VAG family articles were shortened to remove repeated general cautions. These are bounded AI editorial checks, not human mechanic certification.

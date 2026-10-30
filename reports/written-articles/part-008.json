@@ -1,0 +1,5279 @@
+[
+  {
+    "code": "P2BB9",
+    "entryId": "generic-p2bb9",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2BB9.md",
+    "title": "P2BB9: Coolant sensor 6 circuit high has contradictory assignment wording",
+    "wordCount": 275,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          892,
+          893
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2BBA",
+    "entryId": "generic-p2bba",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2BBA.md",
+    "title": "P2BBA: Sensor 6’s implausible temperature jump uses its own response model",
+    "wordCount": 289,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          894,
+          895,
+          896
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C05",
+    "entryId": "generic-p2c05",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C05.md",
+    "title": "P2C05: Intake profile-position sensor A has a driver-level circuit check",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          897
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C06",
+    "entryId": "generic-p2c06",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C06.md",
+    "title": "P2C06: Intake Hall sensor A reports a profile shift that was never requested",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          898
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C07",
+    "entryId": "generic-p2c07",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C07.md",
+    "title": "P2C07: Sensor A circuit low belongs to the powered intake-profile output",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          898,
+          899
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C08",
+    "entryId": "generic-p2c08",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C08.md",
+    "title": "P2C08: Intake sensor A circuit high is checked after the output is switched off",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          899,
+          900
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C09",
+    "entryId": "generic-p2c09",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C09.md",
+    "title": "P2C09: Intake profile-position channel B has its own open-circuit result",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          901,
+          902
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C0A",
+    "entryId": "generic-p2c0a",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C0A.md",
+    "title": "P2C0A: Hall sensor B can report a valid-looking sequence at the wrong time",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          902
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C0B",
+    "entryId": "generic-p2c0b",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C0B.md",
+    "title": "P2C0B: The intake B-channel low fault requires an energized output",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          901,
+          903,
+          904
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C0C",
+    "entryId": "generic-p2c0c",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C0C.md",
+    "title": "P2C0C: Intake channel B retains a power-short indication while commanded off",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          903,
+          904
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C0D",
+    "entryId": "generic-p2c0d",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C0D.md",
+    "title": "P2C0D: Intake profile channel C is electrically open under its on command",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          905,
+          906
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C0E",
+    "entryId": "generic-p2c0e",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C0E.md",
+    "title": "P2C0E: Intake Hall sensor C reports movement without a requested shift",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          906
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C0F",
+    "entryId": "generic-p2c0f",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C0F.md",
+    "title": "P2C0F: Intake channel C circuit low is evaluated with drive applied",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          906,
+          907,
+          908
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C10",
+    "entryId": "generic-p2c10",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C10.md",
+    "title": "P2C10: Intake profile sensor C has an off-state power-short check",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          907,
+          908
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C12",
+    "entryId": "generic-p2c12",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C12.md",
+    "title": "P2C12: Exhaust camshaft sensor A must not be confused with intake sensor B",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          909,
+          910
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C13",
+    "entryId": "generic-p2c13",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C13.md",
+    "title": "P2C13: Exhaust Hall sensor A reports a shift with no matching request",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          910
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C14",
+    "entryId": "generic-p2c14",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C14.md",
+    "title": "P2C14: Exhaust sensor A circuit low is a powered-driver classification",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          909,
+          911,
+          912
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C15",
+    "entryId": "generic-p2c15",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C15.md",
+    "title": "P2C15: Exhaust profile sensor A circuit high is judged with the driver off",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          911,
+          912
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C16",
+    "entryId": "generic-p2c16",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C16.md",
+    "title": "P2C16: Exhaust profile-position sensor B is checked for an energized open path",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          913,
+          914
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C17",
+    "entryId": "generic-p2c17",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C17.md",
+    "title": "P2C17: Exhaust Hall sensor B can report movement that the controller never commanded",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          914
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C18",
+    "entryId": "generic-p2c18",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C18.md",
+    "title": "P2C18: The exhaust B-channel low fault requires an on-state electrical check",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          913,
+          915,
+          916
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C19",
+    "entryId": "generic-p2c19",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C19.md",
+    "title": "P2C19: Exhaust sensor B remains electrically high after switch-off",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          915,
+          916
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C48",
+    "entryId": "generic-p2c48",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2C48.md",
+    "title": "P2C48: Coolant-pump performance is inferred from phase-current behavior",
+    "wordCount": 268,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04a"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04a",
+        "pages": [
+          670,
+          1274
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2D31",
+    "entryId": "generic-p2d31",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2D31.md",
+    "title": "P2D31: The intake tuning valve’s learned closed stop exceeds its accepted range",
+    "wordCount": 292,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          932,
+          933
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2D32",
+    "entryId": "generic-p2d32",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2D32.md",
+    "title": "P2D32: One tuning-valve code covers current and temperature reports",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          933
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2DE7",
+    "entryId": "generic-p2de7",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2DE7.md",
+    "title": "P2DE7: Cold-start coolant valve C misses a settled position request",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          928
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2DE8",
+    "entryId": "generic-p2de8",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2DE8.md",
+    "title": "P2DE8: Cold-start valve D is on the open side while missing its target",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          929,
+          930
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2DE9",
+    "entryId": "generic-p2de9",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2DE9.md",
+    "title": "P2DE9: Cold-start pump underspeed is measured against stable demand",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          931,
+          932
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E81",
+    "entryId": "generic-p2e81",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2E81.md",
+    "title": "P2E81: Cold-start valve D remains on the closed side during a tracking error",
+    "wordCount": 272,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          933,
+          934
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E82",
+    "entryId": "generic-p2e82",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/P2E82.md",
+    "title": "P2E82: Cold-start pump overspeed produces a negative tracking error",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          935,
+          936
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U010C",
+    "entryId": "generic-u010c",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U010C.md",
+    "title": "U010C: Turbo-control communication uses separate message timeouts",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04a"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04a",
+        "pages": [
+          703,
+          704
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0164",
+    "entryId": "generic-u0164",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0164.md",
+    "title": "U0164: HVAC communication loss is checked after reset and network recovery",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          120,
+          121
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0414",
+    "entryId": "generic-u0414",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0414.md",
+    "title": "U0414: Four-wheel-drive data arrives but fails integrity checks",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          1042
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0424",
+    "entryId": "generic-u0424",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0424.md",
+    "title": "U0424: HVAC data integrity failures received by the body controller",
+    "wordCount": 308,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          128,
+          129,
+          130
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0428",
+    "entryId": "generic-u0428",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0428.md",
+    "title": "U0428: Steering-angle messages that fail validity or integrity checks",
+    "wordCount": 305,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04a"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04a",
+        "pages": [
+          253,
+          254
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0610",
+    "entryId": "generic-u0610",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0610.md",
+    "title": "U0610: Mass-airflow sensor B communication timing failures",
+    "wordCount": 318,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          626
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0611",
+    "entryId": "generic-u0611",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0611.md",
+    "title": "U0611: Intake-air temperature sensor 1 communication faults",
+    "wordCount": 315,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          780,
+          781
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0613",
+    "entryId": "generic-u0613",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0613.md",
+    "title": "U0613: Intake-air temperature sensor 2 and shared communication events",
+    "wordCount": 320,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          780,
+          781
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0618",
+    "entryId": "generic-u0618",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0618.md",
+    "title": "U0618: Missing LIN response from coolant bypass valve D",
+    "wordCount": 310,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          1058,
+          1059
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U062F",
+    "entryId": "generic-u062f",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U062F.md",
+    "title": "U062F: Coolant pump C missing its low-temperature-loop LIN response",
+    "wordCount": 308,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04a"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04a",
+        "pages": [
+          745,
+          746
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0644",
+    "entryId": "generic-u0644",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0644.md",
+    "title": "U0644: Wastegate position sensor A SENT communication failure",
+    "wordCount": 297,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          1063
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0665",
+    "entryId": "generic-u0665",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0665.md",
+    "title": "U0665: Bank 2 fuel-rail pressure sensor SENT signal loss",
+    "wordCount": 310,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          656,
+          657
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0672",
+    "entryId": "generic-u0672",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0672.md",
+    "title": "U0672: Engine coolant pump LIN communication timeout",
+    "wordCount": 309,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          1066,
+          1067
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0680",
+    "entryId": "generic-u0680",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0680.md",
+    "title": "U0680: Barometric pressure sensor B communication events",
+    "wordCount": 320,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          632,
+          633
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0688",
+    "entryId": "generic-u0688",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0688.md",
+    "title": "U0688: Throttle-position sensor G SENT communication failure",
+    "wordCount": 316,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          710,
+          711,
+          715
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U068A",
+    "entryId": "generic-u068a",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U068A.md",
+    "title": "U068A: Barometric pressure sensor C and source-specific communication labels",
+    "wordCount": 307,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          632
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0693",
+    "entryId": "generic-u0693",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U0693.md",
+    "title": "U0693: Humidity sensor SENT error reports",
+    "wordCount": 308,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          647
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U069B",
+    "entryId": "generic-u069b",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U069B.md",
+    "title": "U069B: Exhaust-temperature sensor 4 SENT communication faults",
+    "wordCount": 306,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04a",
+      "gm-2025-06c"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04a",
+        "pages": [
+          1262
+        ]
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "pages": [
+          936
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3006",
+    "entryId": "generic-u3006",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U3006.md",
+    "title": "U3006: Brake-controller input power A undervoltage paths",
+    "wordCount": 325,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b",
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          200
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3007",
+    "entryId": "generic-u3007",
+    "batch": "batch-18",
+    "path": "content/code-articles/batch-18/U3007.md",
+    "title": "U3007: Brake-controller input power B and redundant-supply faults",
+    "wordCount": 314,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-03b",
+      "gm-2025-07a-1"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-03b",
+        "pages": [
+          200
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "pages": [
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0210",
+    "entryId": "generic-p0210",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0210.md",
+    "title": "P0210: What an injector circuit code proves about cylinder 10",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          139
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0219",
+    "entryId": "generic-p0219",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0219.md",
+    "title": "P0219: Engine overspeed limits differ between the documented diesel examples",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02E4",
+    "entryId": "generic-p02e4",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P02E4.md",
+    "title": "P02E4: A diesel throttle jammed result requires active position control",
+    "wordCount": 283,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          101
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02FA",
+    "entryId": "generic-p02fa",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P02FA.md",
+    "title": "P02FA: Learned endstop failure must be checked after learning completes",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          101
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0500",
+    "entryId": "generic-p0500",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0500.md",
+    "title": "P0500: A diesel vehicle-speed code can describe missing CAN information",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0504",
+    "entryId": "generic-p0504",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0504.md",
+    "title": "P0504: Brake-switch correlation is accumulated across braking events",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0520",
+    "entryId": "generic-p0520",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0520.md",
+    "title": "P0520: Distinguish a digital oil-pressure fault from an analog voltage limit",
+    "wordCount": 297,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          135
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0544",
+    "entryId": "generic-p0544",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0544.md",
+    "title": "P0544: An exhaust-temperature circuit code can be a model-rationality result",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0547",
+    "entryId": "generic-p0547",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0547.md",
+    "title": "P0547: Bank2 exhaust-temperature plausibility needs the correct operating window",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0548",
+    "entryId": "generic-p0548",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0548.md",
+    "title": "P0548: Bank2 low EGT voltage is an electrical threshold, not cold exhaust proof",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0549",
+    "entryId": "generic-p0549",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0549.md",
+    "title": "P0549: A high EGT circuit reading has an explicit warm-up qualification",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05B0",
+    "entryId": "generic-p05b0",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P05B0.md",
+    "title": "P05B0: Why grille shutter B endstop learning changes the diagnosis",
+    "wordCount": 298,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          126,
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05B1",
+    "entryId": "generic-p05b1",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P05B1.md",
+    "title": "P05B1: The movement-timed coil checks behind grille shutter B faults",
+    "wordCount": 300,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05B6",
+    "entryId": "generic-p05b6",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P05B6.md",
+    "title": "P05B6: Why grille shutter B can report low internal voltage with normal battery voltage",
+    "wordCount": 298,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          129
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05C0",
+    "entryId": "generic-p05c0",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P05C0.md",
+    "title": "P05C0: What grille shutter A overtemperature actually measures",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05C1",
+    "entryId": "generic-p05c1",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P05C1.md",
+    "title": "P05C1: Keep grille shutter B thermal faults separate from its other subtypes",
+    "wordCount": 293,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          127,
+          128,
+          129
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0611",
+    "entryId": "generic-p0611",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0611.md",
+    "title": "P0611: This diesel injector-module fault monitors an internal voltage quantity",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P061A",
+    "entryId": "generic-p061a",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P061A.md",
+    "title": "P061A: Torque supervision can fail without a check-engine light",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          106,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P061B",
+    "entryId": "generic-p061b",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P061B.md",
+    "title": "P061B: One torque-calculation code can describe different supervised events",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          106,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0677",
+    "entryId": "generic-p0677",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0677.md",
+    "title": "P0677: Cylinder7 glow-plug open monitoring requires an active heating command",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0678",
+    "entryId": "generic-p0678",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0678.md",
+    "title": "P0678: Cylinder8 open-load evidence depends on glow heating mode",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P068C",
+    "entryId": "generic-p068c",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P068C.md",
+    "title": "P068C: Cylinder7 glow-control low is a short-to-ground classification",
+    "wordCount": 270,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          115,
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P068D",
+    "entryId": "generic-p068d",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P068D.md",
+    "title": "P068D: Zero current alone cannot distinguish every glow-plug fault",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          114,
+          115
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P068E",
+    "entryId": "generic-p068e",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P068E.md",
+    "title": "P068E: Cylinder8 glow-control low uses a different category from open load",
+    "wordCount": 277,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          115,
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P068F",
+    "entryId": "generic-p068f",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P068F.md",
+    "title": "P068F: Cylinder8 high-circuit evidence needs the driver’s classification",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          114,
+          115
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0693",
+    "entryId": "generic-p0693",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0693.md",
+    "title": "P0693: Fan2 circuit low can include an open relay circuit in this Ford monitor",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          117
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0694",
+    "entryId": "generic-p0694",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0694.md",
+    "title": "P0694: Fan2 high-control monitoring reports a short-to-power category",
+    "wordCount": 263,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          117
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06B9",
+    "entryId": "generic-p06b9",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P06B9.md",
+    "title": "P06B9: Cylinder1 glow resistance is checked after basic electrical faults",
+    "wordCount": 275,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06BA",
+    "entryId": "generic-p06ba",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P06BA.md",
+    "title": "P06BA: Cylinder2 performance can fail after an open-circuit check passes",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06BB",
+    "entryId": "generic-p06bb",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P06BB.md",
+    "title": "P06BB: Cylinder3 resistance monitoring begins after the basic fault checks",
+    "wordCount": 272,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06BC",
+    "entryId": "generic-p06bc",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P06BC.md",
+    "title": "P06BC: A cylinder4 glow performance fault is not just an open-circuit result",
+    "wordCount": 277,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06BD",
+    "entryId": "generic-p06bd",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P06BD.md",
+    "title": "P06BD: Cylinder5 glow resistance requires more evidence than continuity",
+    "wordCount": 279,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06BE",
+    "entryId": "generic-p06be",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P06BE.md",
+    "title": "P06BE: Cylinder6 performance monitoring follows the open and short checks",
+    "wordCount": 263,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06BF",
+    "entryId": "generic-p06bf",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P06BF.md",
+    "title": "P06BF: The cylinder7 resistance check is explicitly limited to the V8 example",
+    "wordCount": 271,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06C0",
+    "entryId": "generic-p06c0",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P06C0.md",
+    "title": "P06C0: Cylinder8 glow performance needs the operating resistance test",
+    "wordCount": 269,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0710",
+    "entryId": "generic-p0710",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0710.md",
+    "title": "P0710: Transmission-temperature circuit evidence must be separated from a substituted value",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          121
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0850",
+    "entryId": "generic-p0850",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0850.md",
+    "title": "P0850: A park/neutral plausibility code is not a direct mechanical-park verdict",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C2F",
+    "entryId": "generic-p0c2f",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P0C2F.md",
+    "title": "P0C2F: Why a hybrid speed-plausibility fault is more than a missing sensor signal",
+    "wordCount": 290,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          106,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P211A",
+    "entryId": "generic-p211a",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P211A.md",
+    "title": "P211A: Identify throttle B before interpreting a stuck-open report",
+    "wordCount": 297,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P211B",
+    "entryId": "generic-p211b",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P211B.md",
+    "title": "P211B: A stuck-closed throttle B result is a control-state finding",
+    "wordCount": 290,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P211C",
+    "entryId": "generic-p211c",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P211C.md",
+    "title": "P211C: Motor-current performance is different from throttle position error",
+    "wordCount": 293,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P226E",
+    "entryId": "generic-p226e",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P226E.md",
+    "title": "P226E: Bank2 GPF deterioration monitoring depends on pressure normalization",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2282",
+    "entryId": "generic-p2282",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2282.md",
+    "title": "P2282: An inferred intake leak needs a nearly closed throttle and healthy inputs",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2324",
+    "entryId": "generic-p2324",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2324.md",
+    "title": "P2324: Coil-driver low evidence depends on ignition architecture",
+    "wordCount": 269,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2020-2023"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "pages": [
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2380",
+    "entryId": "generic-p2380",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2380.md",
+    "title": "P2380: EGR sensor internal status must be separated from lost communication",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          57,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2425",
+    "entryId": "generic-p2425",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2425.md",
+    "title": "P2425: An EGR cooling-valve open-load report is an actuator-circuit finding",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          101,
+          102
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2426",
+    "entryId": "generic-p2426",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2426.md",
+    "title": "P2426: A low EGR cooling-valve circuit is distinct from an open-load fault",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          101,
+          102
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2427",
+    "entryId": "generic-p2427",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2427.md",
+    "title": "P2427: A high EGR cooling-valve circuit needs its own electrical evidence",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          101,
+          102
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P243B",
+    "entryId": "generic-p243b",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P243B.md",
+    "title": "P243B: Bank2 GPF restriction monitoring needs warm, sustained exhaust flow",
+    "wordCount": 272,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P245E",
+    "entryId": "generic-p245e",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P245E.md",
+    "title": "P245E: Digital pressure sensor B circuit status differs from an analog voltage fault",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P245F",
+    "entryId": "generic-p245f",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P245F.md",
+    "title": "P245F: Pressure-sensor B performance is assessed after electrical checks",
+    "wordCount": 281,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2460",
+    "entryId": "generic-p2460",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2460.md",
+    "title": "P2460: Low pressure-sensor B voltage does not directly prove low filter pressure",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          7,
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2461",
+    "entryId": "generic-p2461",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2461.md",
+    "title": "P2461: High pressure-sensor B voltage is not a filter-restriction measurement",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          7,
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2462",
+    "entryId": "generic-p2462",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2462.md",
+    "title": "P2462: Intermittent pressure-sensor B faults need a time record, not one good reading",
+    "wordCount": 288,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          7,
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2533",
+    "entryId": "generic-p2533",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2533.md",
+    "title": "P2533: Why an ignition-state fault can appear in throttle supervision",
+    "wordCount": 299,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          107,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2600",
+    "entryId": "generic-p2600",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2600.md",
+    "title": "P2600: Locate the monitored coolant-pump function before testing an open circuit",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2601",
+    "entryId": "generic-p2601",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2601.md",
+    "title": "P2601: A pump A performance result is not the same as an open circuit",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2602",
+    "entryId": "generic-p2602",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2602.md",
+    "title": "P2602: Low pump-control evidence must be separated from low supply voltage",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2603",
+    "entryId": "generic-p2603",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2603.md",
+    "title": "P2603: Read a high coolant-pump control fault as driver evidence",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2610",
+    "entryId": "generic-p2610",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2610.md",
+    "title": "P2610: An unreliable off timer can distort a cold-soak diagnosis",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          120,
+          129
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P261A",
+    "entryId": "generic-p261a",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P261A.md",
+    "title": "P261A: Pump B open-circuit monitoring has a specific cooling-loop role",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P261B",
+    "entryId": "generic-p261b",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P261B.md",
+    "title": "P261B: Separate pump B performance from a definite stalled rotor",
+    "wordCount": 283,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P261C",
+    "entryId": "generic-p261c",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P261C.md",
+    "title": "P261C: A low pump B control circuit is not a measured flow shortage",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P261D",
+    "entryId": "generic-p261d",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P261D.md",
+    "title": "P261D: Interpret pump B high-control evidence before choosing a repair",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26AC",
+    "entryId": "generic-p26ac",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26AC.md",
+    "title": "P26AC: The B bypass valve controls transmission cooling in this Ford example",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26AE",
+    "entryId": "generic-p26ae",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26AE.md",
+    "title": "P26AE: A high transmission-cooling valve circuit is a short-to-battery classification",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26BD",
+    "entryId": "generic-p26bd",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26BD.md",
+    "title": "P26BD: Cabin-heating valve D has its own output-circuit monitor",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26BF",
+    "entryId": "generic-p26bf",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26BF.md",
+    "title": "P26BF: A cabin-heating valve high-circuit result needs electrical localization",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26C3",
+    "entryId": "generic-p26c3",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26C3.md",
+    "title": "P26C3: Internal range supervision preserves A, B and correlation distinctions",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          106,
+          107,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26C4",
+    "entryId": "generic-p26c4",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26C4.md",
+    "title": "P26C4: Clutch-pedal supervision can identify a channel or a disagreement",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          107,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26C5",
+    "entryId": "generic-p26c5",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26C5.md",
+    "title": "P26C5: An exhaust-valve open report is different from a stuck-valve result",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26C6",
+    "entryId": "generic-p26c6",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26C6.md",
+    "title": "P26C6: A low exhaust-valve circuit report must retain the bank1 identity",
+    "wordCount": 275,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26C7",
+    "entryId": "generic-p26c7",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26C7.md",
+    "title": "P26C7: A high exhaust-valve circuit is separate from a stuck position",
+    "wordCount": 266,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26EA",
+    "entryId": "generic-p26ea",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26EA.md",
+    "title": "P26EA: Pump B internal-error feedback is not lost communication",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26FE",
+    "entryId": "generic-p26fe",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P26FE.md",
+    "title": "P26FE: Exhaust-valve performance includes position and reported-state evidence",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27B2",
+    "entryId": "generic-p27b2",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P27B2.md",
+    "title": "P27B2: Range-control supervision can involve parking-lock safety",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          107,
+          108,
+          163,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27B3",
+    "entryId": "generic-p27b3",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P27B3.md",
+    "title": "P27B3: The transmission architecture determines what this supervision code means",
+    "wordCount": 288,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          107,
+          108,
+          163,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27B4",
+    "entryId": "generic-p27b4",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P27B4.md",
+    "title": "P27B4: Gear-direction supervision distinguishes launch from wrong-direction events",
+    "wordCount": 267,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27B5",
+    "entryId": "generic-p27b5",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P27B5.md",
+    "title": "P27B5: Overspeed protection and ratio plausibility are different supervision branches",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27B6",
+    "entryId": "generic-p27b6",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P27B6.md",
+    "title": "P27B6: Transmission tie-up protection and deceleration supervision need different context",
+    "wordCount": 266,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B62",
+    "entryId": "generic-p2b62",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2B62.md",
+    "title": "P2B62: Pump supply-voltage status is separate from a low output circuit",
+    "wordCount": 273,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B63",
+    "entryId": "generic-p2b63",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2B63.md",
+    "title": "P2B63: An actuator-stuck report should not be reduced to an open circuit",
+    "wordCount": 281,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B64",
+    "entryId": "generic-p2b64",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2B64.md",
+    "title": "P2B64: Pump controller temperature is different from coolant temperature",
+    "wordCount": 277,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B65",
+    "entryId": "generic-p2b65",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2B65.md",
+    "title": "P2B65: An overspeed or dry-run classification is not direct proof of trapped air",
+    "wordCount": 278,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B9C",
+    "entryId": "generic-p2b9c",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2B9C.md",
+    "title": "P2B9C: Pump A actuator-stuck status is narrower than a cooling-system diagnosis",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B9D",
+    "entryId": "generic-p2b9d",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2B9D.md",
+    "title": "P2B9D: Pump A supply status cannot be inferred from one battery reading",
+    "wordCount": 266,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B9E",
+    "entryId": "generic-p2b9e",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2B9E.md",
+    "title": "P2B9E: A pump A thermal report does not directly measure engine overheating",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B9F",
+    "entryId": "generic-p2b9f",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2B9F.md",
+    "title": "P2B9F: An underspeed report needs a command relationship and correct pump identity",
+    "wordCount": 269,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2BFB",
+    "entryId": "generic-p2bfb",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2BFB.md",
+    "title": "P2BFB: Bank2 exhaust-valve performance must retain its feedback path",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C4C",
+    "entryId": "generic-p2c4c",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2C4C.md",
+    "title": "P2C4C: Do not borrow throttle-voltage limits for a clutch-actuation sensor",
+    "wordCount": 267,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          102,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C4D",
+    "entryId": "generic-p2c4d",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2C4D.md",
+    "title": "P2C4D: High clutch-actuation feedback needs its own circuit specification",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          102,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C50",
+    "entryId": "generic-p2c50",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/P2C50.md",
+    "title": "P2C50: A valid clutch-actuation signal can still fail rationality",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          102,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U016C",
+    "entryId": "generic-u016c",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/U016C.md",
+    "title": "U016C: Missing pump B feedback is different from an internal-error message",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0300",
+    "entryId": "generic-u0300",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/U0300.md",
+    "title": "U0300: Software mismatch is different from software corruption",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          108,
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0429",
+    "entryId": "generic-u0429",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/U0429.md",
+    "title": "U0429: Invalid steering-column data is not the same as a missing message",
+    "wordCount": 283,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          107,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0515",
+    "entryId": "generic-u0515",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/U0515.md",
+    "title": "U0515: Remote-park data validity has an application-specific boundary",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          107,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U055A",
+    "entryId": "generic-u055a",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/U055A.md",
+    "title": "U055A: Special-purpose module data must be judged against the actual upfitter configuration",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          107,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0600",
+    "entryId": "generic-u0600",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/U0600.md",
+    "title": "U0600: Digital oil-pressure communication needs a SENT-specific interpretation",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          135
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0608",
+    "entryId": "generic-u0608",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/U0608.md",
+    "title": "U0608: Throttle B uses a position channel named C in this Ford monitor",
+    "wordCount": 276,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0612",
+    "entryId": "generic-u0612",
+    "batch": "batch-19",
+    "path": "content/code-articles/batch-19/U0612.md",
+    "title": "U0612: Resolve the sensor-name mismatch before locating the communication fault",
+    "wordCount": 276,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          122
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P068A",
+    "entryId": "generic-p068a",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P068A.md",
+    "title": "P068A: A relay that de-energizes too early is a timing classification",
+    "wordCount": 266,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2",
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06B8",
+    "entryId": "generic-p06b8",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P06B8.md",
+    "title": "P06B8: NVRAM monitoring differs from processor resets and missing solenoid data",
+    "wordCount": 257,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2",
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0705",
+    "entryId": "generic-p0705",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0705.md",
+    "title": "P0705: An invalid range pattern is different from a bad PWM frequency",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147,
+          148
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0706",
+    "entryId": "generic-p0706",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0706.md",
+    "title": "P0706: A plausible selector position can still carry the wrong signal frequency",
+    "wordCount": 294,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147,
+          148,
+          155,
+          157
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0715",
+    "entryId": "generic-p0715",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0715.md",
+    "title": "P0715: Why turbine-speed circuit evidence comes before a road-speed comparison",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          149,
+          150,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0718",
+    "entryId": "generic-p0718",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0718.md",
+    "title": "P0718: Intermittent turbine-speed circuitry is not the same as noisy speed data",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          149,
+          150,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P071D",
+    "entryId": "generic-p071d",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P071D.md",
+    "title": "P071D: Manual-override input consistency is separate from a high or low signal",
+    "wordCount": 266,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P071E",
+    "entryId": "generic-p071e",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P071E.md",
+    "title": "P071E: Manual-override input low is not the same as a consistency fault",
+    "wordCount": 256,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P071F",
+    "entryId": "generic-p071f",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P071F.md",
+    "title": "P071F: Manual-override input high needs the correct input mapping",
+    "wordCount": 249,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0720",
+    "entryId": "generic-p0720",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0720.md",
+    "title": "P0720: An output-speed circuit fault can be detected while the vehicle is stationary",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          148,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0729",
+    "entryId": "generic-p0729",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0729.md",
+    "title": "P0729: Sixth-gear ratio evidence depends on which transmission reports the code",
+    "wordCount": 286,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0731",
+    "entryId": "generic-p0731",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0731.md",
+    "title": "P0731: First-gear ratio checks require a stable commanded gear",
+    "wordCount": 287,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0732",
+    "entryId": "generic-p0732",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0732.md",
+    "title": "P0732: Second-gear ratio errors need timing and repeat-count context",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0733",
+    "entryId": "generic-p0733",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0733.md",
+    "title": "P0733: Third-gear ratio disagreement is a comparison, not a component verdict",
+    "wordCount": 291,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0734",
+    "entryId": "generic-p0734",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0734.md",
+    "title": "P0734: Fourth-gear ratio verification must include the end of the shift",
+    "wordCount": 284,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0735",
+    "entryId": "generic-p0735",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0735.md",
+    "title": "P0735: Fifth-gear ratio evidence must be separated from engagement evidence",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0736",
+    "entryId": "generic-p0736",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0736.md",
+    "title": "P0736: Reverse needs its own diagnostic scope rather than a forward-gear threshold",
+    "wordCount": 288,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0740",
+    "entryId": "generic-p0740",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0740.md",
+    "title": "P0740: An open converter-clutch circuit is separate from a slipping converter",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          153,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0742",
+    "entryId": "generic-p0742",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0742.md",
+    "title": "P0742: Confirm the failure type before treating this as a stuck converter clutch",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          153,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0744",
+    "entryId": "generic-p0744",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0744.md",
+    "title": "P0744: A published code-mapping conflict changes the diagnostic branch",
+    "wordCount": 277,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          153,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0750",
+    "entryId": "generic-p0750",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0750.md",
+    "title": "P0750: Solenoid A open-circuit evidence does not prove hydraulic failure",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0751",
+    "entryId": "generic-p0751",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0751.md",
+    "title": "P0751: A failed-off solenoid A result depends on commanded transitions",
+    "wordCount": 287,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0752",
+    "entryId": "generic-p0752",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0752.md",
+    "title": "P0752: A failed-on solenoid A result must be read against the intended state",
+    "wordCount": 288,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0754",
+    "entryId": "generic-p0754",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0754.md",
+    "title": "P0754: Intermittent solenoid A circuitry needs an electrical event record",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0755",
+    "entryId": "generic-p0755",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0755.md",
+    "title": "P0755: Solenoid B continuity and solenoid B function are separate questions",
+    "wordCount": 285,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0756",
+    "entryId": "generic-p0756",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0756.md",
+    "title": "P0756: Solenoid B failed-off evidence is accumulated across control events",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0757",
+    "entryId": "generic-p0757",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0757.md",
+    "title": "P0757: Solenoid B failed-on monitoring needs the requested state as context",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0759",
+    "entryId": "generic-p0759",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0759.md",
+    "title": "P0759: Solenoid B intermittency should remain distinct from a sticking diagnosis",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0760",
+    "entryId": "generic-p0760",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0760.md",
+    "title": "P0760: An open solenoid C path is not established by a poor shift alone",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0761",
+    "entryId": "generic-p0761",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0761.md",
+    "title": "P0761: Solenoid C failed-off monitoring weighs unsuccessful and successful events",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0762",
+    "entryId": "generic-p0762",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0762.md",
+    "title": "P0762: A solenoid C failed-on result is a functional-state contradiction",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0764",
+    "entryId": "generic-p0764",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0764.md",
+    "title": "P0764: Intermittent solenoid C circuitry needs the complete failure report",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0765",
+    "entryId": "generic-p0765",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0765.md",
+    "title": "P0765: Solenoid D open-circuit evidence requires the exact reporting format",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0766",
+    "entryId": "generic-p0766",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0766.md",
+    "title": "P0766: Solenoid D failed-off behavior is judged through eligible response events",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0767",
+    "entryId": "generic-p0767",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0767.md",
+    "title": "P0767: Solenoid D failed-on evidence should not be renamed as a power short",
+    "wordCount": 274,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0769",
+    "entryId": "generic-p0769",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0769.md",
+    "title": "P0769: An intermittent D-channel circuit result needs a different record from a failed shift",
+    "wordCount": 282,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P076F",
+    "entryId": "generic-p076f",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P076F.md",
+    "title": "P076F: Seventh-gear ratio and unknown gear state are different documented uses",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0770",
+    "entryId": "generic-p0770",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0770.md",
+    "title": "P0770: Solenoid E open-circuit monitoring is based on driver evidence",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0771",
+    "entryId": "generic-p0771",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0771.md",
+    "title": "P0771: Solenoid E failed-off functionality can remain relevant after a good event",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0772",
+    "entryId": "generic-p0772",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0772.md",
+    "title": "P0772: Solenoid E failed-on behavior is distinct from a high circuit signal",
+    "wordCount": 266,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0774",
+    "entryId": "generic-p0774",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0774.md",
+    "title": "P0774: Intermittent E-channel circuitry needs its own event evidence",
+    "wordCount": 267,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0791",
+    "entryId": "generic-p0791",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0791.md",
+    "title": "P0791: Intermediate-speed circuit A must not be confused with its plausibility checks",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          149,
+          155,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0794",
+    "entryId": "generic-p0794",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0794.md",
+    "title": "P0794: Intermediate-speed A intermittency needs more than an averaged speed trace",
+    "wordCount": 264,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          149,
+          155,
+          157
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07B7",
+    "entryId": "generic-p07b7",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P07B7.md",
+    "title": "P07B7: Parking-lock input A frequency and mismatch need separate attention from pulse level",
+    "wordCount": 256,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07BD",
+    "entryId": "generic-p07bd",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P07BD.md",
+    "title": "P07BD: Parking-lock input B has its own frequency or mismatch classification",
+    "wordCount": 249,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07D9",
+    "entryId": "generic-p07d9",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P07D9.md",
+    "title": "P07D9: Eighth-gear ratio evidence requires a held gear and reliable speed inputs",
+    "wordCount": 280,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07F6",
+    "entryId": "generic-p07f6",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P07F6.md",
+    "title": "P07F6: Ninth-gear ratio monitoring is a repeated operating-condition check",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07F7",
+    "entryId": "generic-p07f7",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P07F7.md",
+    "title": "P07F7: Tenth-gear ratio evidence must include stability and repeated failure",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          152,
+          153
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0973",
+    "entryId": "generic-p0973",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0973.md",
+    "title": "P0973: A low solenoid A circuit result is not a low hydraulic-pressure measurement",
+    "wordCount": 281,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0974",
+    "entryId": "generic-p0974",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0974.md",
+    "title": "P0974: A solenoid A circuit-high report differs from a functionally failed-on result",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0976",
+    "entryId": "generic-p0976",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0976.md",
+    "title": "P0976: Solenoid B circuit low identifies an electrical branch, not a pressure target",
+    "wordCount": 279,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0977",
+    "entryId": "generic-p0977",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0977.md",
+    "title": "P0977: A high B-channel circuit code must remain separate from functional sticking",
+    "wordCount": 278,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0979",
+    "entryId": "generic-p0979",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0979.md",
+    "title": "P0979: Solenoid C circuit low is an electrical classification that needs isolation",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P097A",
+    "entryId": "generic-p097a",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P097A.md",
+    "title": "P097A: The architecture table maps this to solenoid A’s open-circuit branch",
+    "wordCount": 264,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P097B",
+    "entryId": "generic-p097b",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P097B.md",
+    "title": "P097B: Solenoid B open-circuit identification depends on the detailed code representation",
+    "wordCount": 262,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          157,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P097C",
+    "entryId": "generic-p097c",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P097C.md",
+    "title": "P097C: The C open-circuit mapping must not be confused with C functional failure",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          159
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P097D",
+    "entryId": "generic-p097d",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P097D.md",
+    "title": "P097D: Solenoid D open-circuit reporting has a specific architecture mapping",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          161,
+          162
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P097E",
+    "entryId": "generic-p097e",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P097E.md",
+    "title": "P097E: Use the E-channel open-circuit mapping without guessing a valve location",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P097F",
+    "entryId": "generic-p097f",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P097F.md",
+    "title": "P097F: Solenoid F open-circuit reporting has a stable failure-type identifier",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0980",
+    "entryId": "generic-p0980",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0980.md",
+    "title": "P0980: Solenoid C circuit high is not proof that the C function is stuck on",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0981",
+    "entryId": "generic-p0981",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0981.md",
+    "title": "P0981: The Ford table associates this with an electronic one-way-clutch control",
+    "wordCount": 273,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          159,
+          160,
+          161,
+          162
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0982",
+    "entryId": "generic-p0982",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0982.md",
+    "title": "P0982: A low D-channel circuit report belongs to the ground-short branch",
+    "wordCount": 262,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0983",
+    "entryId": "generic-p0983",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0983.md",
+    "title": "P0983: A high D-channel electrical result is separate from D failed-on functionality",
+    "wordCount": 264,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0985",
+    "entryId": "generic-p0985",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0985.md",
+    "title": "P0985: Solenoid E circuit low calls for electrical evidence rather than a pressure assumption",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0986",
+    "entryId": "generic-p0986",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0986.md",
+    "title": "P0986: An E-channel power-short report is not identical to failed-on functionality",
+    "wordCount": 264,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0998",
+    "entryId": "generic-p0998",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0998.md",
+    "title": "P0998: The F-channel low-circuit label must stay tied to its reporting scheme",
+    "wordCount": 264,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0999",
+    "entryId": "generic-p0999",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0999.md",
+    "title": "P0999: Confirm the F-channel high-circuit identifier before applying a test",
+    "wordCount": 260,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0A14",
+    "entryId": "generic-p0a14",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0A14.md",
+    "title": "P0A14: Active mount A open-circuit monitoring is an electrical driver check",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0A15",
+    "entryId": "generic-p0a15",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0A15.md",
+    "title": "P0A15: Active mount A circuit low is distinct from the open and high categories",
+    "wordCount": 273,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0A16",
+    "entryId": "generic-p0a16",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0A16.md",
+    "title": "P0A16: Active mount A circuit high does not establish a mechanical mount failure",
+    "wordCount": 259,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0AB6",
+    "entryId": "generic-p0ab6",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0AB6.md",
+    "title": "P0AB6: Active mount B open-circuit evidence belongs to the B control path",
+    "wordCount": 270,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0AB7",
+    "entryId": "generic-p0ab7",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0AB7.md",
+    "title": "P0AB7: A low mount B circuit result needs its exact channel and failure type",
+    "wordCount": 263,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0AB8",
+    "entryId": "generic-p0ab8",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0AB8.md",
+    "title": "P0AB8: Mount B circuit high is a controller-reported electrical category",
+    "wordCount": 269,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0B0D",
+    "entryId": "generic-p0b0d",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0B0D.md",
+    "title": "P0B0D: The auxiliary-pump module label can describe an incorrect-speed report",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          155,
+          156,
+          159,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C27",
+    "entryId": "generic-p0c27",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0C27.md",
+    "title": "P0C27: Auxiliary-pump undercurrent is a decoded operating report, not feedback duty low",
+    "wordCount": 261,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C28",
+    "entryId": "generic-p0c28",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0C28.md",
+    "title": "P0C28: Auxiliary-pump overcurrent must not be confused with feedback duty high",
+    "wordCount": 258,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C29",
+    "entryId": "generic-p0c29",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0C29.md",
+    "title": "P0C29: The pump performance category combines current and speed evidence",
+    "wordCount": 253,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C2A",
+    "entryId": "generic-p0c2a",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0C2A.md",
+    "title": "P0C2A: A reported pump stall does not prove the motor is permanently seized",
+    "wordCount": 264,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C2C",
+    "entryId": "generic-p0c2c",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0C2C.md",
+    "title": "P0C2C: Auxiliary-pump feedback frequency is separate from encoded pump performance",
+    "wordCount": 259,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C2D",
+    "entryId": "generic-p0c2d",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0C2D.md",
+    "title": "P0C2D: Low feedback duty cycle is not the same as low pump current",
+    "wordCount": 260,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C2E",
+    "entryId": "generic-p0c2e",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P0C2E.md",
+    "title": "P0C2E: High feedback duty cycle must be separated from pump overcurrent",
+    "wordCount": 255,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          156,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25B0",
+    "entryId": "generic-p25b0",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P25B0.md",
+    "title": "P25B0: Fuel-level sensor A can be stuck even when its electrical value looks plausible",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25B1",
+    "entryId": "generic-p25b1",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P25B1.md",
+    "title": "P25B1: Fuel-level sensor B stuck monitoring uses consumption history",
+    "wordCount": 275,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25B2",
+    "entryId": "generic-p25b2",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P25B2.md",
+    "title": "P25B2: An A-or-B stuck result does not identify which fuel-level sender failed",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P260F",
+    "entryId": "generic-p260f",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P260F.md",
+    "title": "P260F: EVAP processor performance is separate from a measured tank leak",
+    "wordCount": 277,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          14,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2707",
+    "entryId": "generic-p2707",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2707.md",
+    "title": "P2707: Solenoid F failed-off monitoring evaluates response history",
+    "wordCount": 264,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2708",
+    "entryId": "generic-p2708",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2708.md",
+    "title": "P2708: A functionally failed-on F result is judged against the requested state",
+    "wordCount": 268,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2709",
+    "entryId": "generic-p2709",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2709.md",
+    "title": "P2709: The F electrical code has architecture-dependent detail in Ford’s tables",
+    "wordCount": 270,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2710",
+    "entryId": "generic-p2710",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2710.md",
+    "title": "P2710: The Ford F-channel tables disagree on the displayed failure mapping",
+    "wordCount": 274,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          151,
+          152,
+          155,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2745",
+    "entryId": "generic-p2745",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2745.md",
+    "title": "P2745: Intermediate-speed B circuitry requires the correct sensor architecture",
+    "wordCount": 255,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          149,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2748",
+    "entryId": "generic-p2748",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2748.md",
+    "title": "P2748: Intermediate-speed B intermittency is distinct from its noise and dropout checks",
+    "wordCount": 262,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          149
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2758",
+    "entryId": "generic-p2758",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2758.md",
+    "title": "P2758: Converter-clutch stuck-on evidence requires an off command",
+    "wordCount": 259,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          153,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2760",
+    "entryId": "generic-p2760",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2760.md",
+    "title": "P2760: Converter-clutch intermittency belongs to the electrical reporting path",
+    "wordCount": 255,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          153
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2769",
+    "entryId": "generic-p2769",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2769.md",
+    "title": "P2769: Converter-clutch circuit low describes a ground-side electrical category",
+    "wordCount": 255,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          153,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2770",
+    "entryId": "generic-p2770",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2770.md",
+    "title": "P2770: Converter-clutch circuit high is separate from a clutch that will not release",
+    "wordCount": 254,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          153,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2801",
+    "entryId": "generic-p2801",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2801.md",
+    "title": "P2801: Range sensor B frequency must be checked separately from its position duty cycle",
+    "wordCount": 272,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147,
+          148,
+          155,
+          157
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2804",
+    "entryId": "generic-p2804",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2804.md",
+    "title": "P2804: Confirm Ford’s general B-circuit classification before assuming intermittency",
+    "wordCount": 262,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          147,
+          148
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2BEC",
+    "entryId": "generic-p2bec",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2BEC.md",
+    "title": "P2BEC: Bank 1 lean control in direct-injection mode needs the correct fuel-trim context",
+    "wordCount": 271,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          99
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2BED",
+    "entryId": "generic-p2bed",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2BED.md",
+    "title": "P2BED: Direct-injection bank 1 rich control needs mode-specific evidence",
+    "wordCount": 268,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          99
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2BEE",
+    "entryId": "generic-p2bee",
+    "batch": "batch-20",
+    "path": "content/code-articles/batch-20/P2BEE.md",
+    "title": "P2BEE: Direct-injection bank 2 lean control should not be mixed with another fuel mode",
+    "wordCount": 266,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          99
+        ]
+      }
+    ]
+  }
+]

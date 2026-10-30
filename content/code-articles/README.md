@@ -1,17 +1,18 @@
-# 2,000 code article manuscripts
+# 3,000 code article manuscripts
 
-Both requested writing waves are complete: **2,000 separately stored manuscripts for 2,000 distinct canonical codes** out of 2,000 assignments. Each wave assigns ten agents 100 new codes each. The second wave excludes every code from the first.
+**3,000 separately stored manuscripts for 3,000 distinct canonical codes**, from 3,000 current assignments. Completed writing waves: 1, 2, 3. Each full wave assigns ten writers 100 new codes each. All assignments exclude previously assigned code strings.
 
-The manuscripts contain 545,843 words under the inventory counter, including headings and source text but excluding URL targets. Every article has a canonical entry ID, title, complete search description and exact source-page references.
+The inventory counts 819,235 words including headings and source text, excluding URL targets. Each manuscript records a canonical identity, search metadata, exact evidence locators and its applicability limits.
 
-**Publication status: drafts.** These files are not connected to the public renderer. 1,657 have author source checks; 343 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
+**Publication status: drafts.** These files are not connected to the public renderer. 2,483 have author source checks; 517 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
 
 ## Writing waves
 
-| Wave | Written / assigned | Source details needing review |
+| Wave | Written / target | Source details needing review |
 | --- | ---: | ---: |
 | 1 | 1,000 / 1,000 | 110 |
 | 2 | 1,000 / 1,000 | 233 |
+| 3 | 1,000 / 1,000 | 174 |
 
 ## Articles by writer
 
@@ -37,20 +38,33 @@ The manuscripts contain 545,843 words under the inventory counter, including hea
 | [batch-18](batch-18/) | 100 / 100 | 21 |
 | [batch-19](batch-19/) | 100 / 100 | 25 |
 | [batch-20](batch-20/) | 100 / 100 | 10 |
+| [batch-21](batch-21/) | 100 / 100 | 20 |
+| [batch-22](batch-22/) | 100 / 100 | 14 |
+| [batch-23](batch-23/) | 100 / 100 | 26 |
+| [batch-24](batch-24/) | 100 / 100 | 10 |
+| [batch-25](batch-25/) | 100 / 100 | 20 |
+| [batch-26](batch-26/) | 100 / 100 | 11 |
+| [batch-27](batch-27/) | 100 / 100 | 10 |
+| [batch-28](batch-28/) | 100 / 100 | 32 |
+| [batch-29](batch-29/) | 100 / 100 | 22 |
+| [batch-30](batch-30/) | 100 / 100 | 9 |
 
 ## Read examples
 
 - [P0300: misfire pattern and monitor eligibility](batch-02/P0300.md)
 - [P0401: EGR flow modelling and verification](batch-06/P0401.md)
-- [P0001: fuel-volume valve feedback and command state](batch-12/P0001.md)
-- [P0012: cam timing target error versus crank/cam alignment](batch-13/P0012.md)
-- [P0883: TCM overvoltage and inhibited transmission tests](batch-14/P0883.md)
-- [P2864: shift-rod position versus independent engagement evidence](batch-16/P2864.md)
+- [P0012: cam timing error versus crank/cam alignment](batch-13/P0012.md)
+- [P0218: sustained transmission heat](batch-22/P0218.md)
+- [P1000: Ford readiness monitors](batch-23/P1000.md)
+- [P1111: VAG lean control diagnosis](batch-24/P1111.md)
+- [P0127: Nissan intake-air temperature](batch-25/P0127.md)
 
 ## Evidence and review
 
-These original explanations use documented GM and Ford monitors. Each source covers particular years, systems and calibrations; a file-level vehicle list does not establish each code's applicability. The manuscripts do not claim universal repair procedures. Ambiguous OEM specifications and unresolved internal-channel mappings are identified or omitted. No repair costs, failure probabilities or unsupported model fitments are invented.
+Original articles use documented monitor behavior or scoped diagnostic cases. Manufacturer manuals, manufacturer communications hosted by NHTSA, and independent diagnostic-tool research retain their actual publishers and exact applicability. A file-level model list or a catalog tag does not prove per-code fitment. Historical calibrations are not universal repair specifications. No unsupported prices, failure probabilities, vehicle compatibility or replacement instructions are invented.
 
-The first wave received additional reviews of all 200 bodies in two batches and deep checks of 48 samples across three batches. The second wave received additional reads of all 200 bodies in two batches and deep checks of 48 distinct articles across ten batches. Its [review summary](../../reports/editorial-review-wave-02-summary.json) links the evidence, file hashes and three integrated wording corrections; only the listed files and claims were sampled. These checks do not certify every technical statement in the complete collection.
+The first two waves have separate recorded additional reviews. The [second-wave review summary](../../reports/editorial-review-wave-02-summary.json) identifies its sampled files, source checks and integrated wording corrections. The [third-wave review](../../reports/editorial-review-wave-03-summary.json) adds 200 body reads and 40 deep source checks across two further batches, with citation/provenance corrections and 27 concise family-article revisions. These bounded checks do not certify every article or extend to unreviewed later waves.
 
-Run `npm run articles:complete` to validate all assigned files and metadata; it fails while writing is incomplete. The [writing inventory](../../reports/written-articles.json) records every manuscript, separate wave totals and review state. The [similarity report](../../reports/article-similarity.json) documents its bounded text-repetition screen. The full 10,000+ catalog remains a separate goal, and manuscripts are counted separately from approved records and published pages.
+`npm run articles:complete` validates assigned files and metadata and fails while writing is incomplete. The [writing inventory](../../reports/written-articles.json) records exact totals and review states. The [similarity report](../../reports/article-similarity.json) is a bounded text screen; check its recorded scope before applying its findings to newer files.
+
+The [10,000-article campaign](../../research/article-assignments/campaign.json) records the authorized continuation. Planned batches, source candidates, written manuscripts, approved records and published pages are separate counts.
