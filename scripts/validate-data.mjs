@@ -97,7 +97,10 @@ export function validateDataset(data,{minimumCodes=MINIMUM_CANONICAL_CODES}={}){
  for(const guide of data.authoredGuides||[]){
   check('authored-guide-id',Boolean(guide.id)&&!guideIds.has(guide.id),guide.id);guideIds.add(guide.id);
   check('authored-guide-slug',slug.test(guide.slug||'')&&!guideSlugs.has(guide.slug),guide.id);guideSlugs.add(guide.slug);
-  check('authored-guide-vehicle',makeById.has(guide.makeId)&&guide.modelIds?.length>0&&guide.modelIds.every(id=>modelById.get(id)?.makeId===guide.makeId),guide.id);
+  const guideMakeIds=guide.makeIds||[guide.makeId];
+  check('authored-guide-makes',guideMakeIds.length>0&&new Set(guideMakeIds).size===guideMakeIds.length&&guideMakeIds.includes(guide.makeId)&&guideMakeIds.every(id=>makeById.has(id)&&id!=='generic'),guide.id);
+  const engineScoped=guide.modelIds?.length===0&&guide.engineCodes?.length>0&&guide.engineCodes.every(code=>typeof code==='string'&&code.trim())&&guideMakeIds.length===1;
+  check('authored-guide-vehicle',makeById.has(guide.makeId)&&(engineScoped||(guide.modelIds?.length>0&&guide.modelIds.every(id=>guideMakeIds.includes(modelById.get(id)?.makeId))&&guideMakeIds.every(makeId=>guide.modelIds.some(id=>modelById.get(id)?.makeId===makeId)))),guide.id);
   check('authored-guide-primary-evidence',guide.sourceIds?.length>0&&guide.sourceIds.every(id=>sourceById.get(id)?.kind==='manufacturer'),guide.id);
   check('authored-guide-scope',guide.scope?.length>0&&guide.scope.every(item=>item.label&&item.value),guide.id);
   check('authored-guide-reviewed-date',validDate(guide.updatedOn),guide.id);
@@ -106,6 +109,10 @@ export function validateDataset(data,{minimumCodes=MINIMUM_CANONICAL_CODES}={}){
   for(const section of sections)if(section.table)check('authored-guide-table-shape',section.table.columns.length>=2&&section.table.rows.length>0&&section.table.rows.every(row=>row.length===section.table.columns.length&&row.every(cell=>typeof cell==='string'&&cell.trim())),{guide:guide.id,section:section.id});
   const body=sections.flatMap(section=>[...(section.paragraphs||[]),...(section.bullets||[]),...(section.table?.rows.flat()||[])]).join(' ').replace(/\b[PBCU][0-3][0-9A-F]{3,5}\b/gi,'CODE').toLowerCase().replace(/\s+/g,' ').trim();
   check('authored-guide-distinct-body',Boolean(body)&&!guideBodies.has(body),guide.id);guideBodies.add(body);
+ }
+ for(const bulletin of bulletins)if(bulletin.guideSlug){
+  const guide=(data.authoredGuides||[]).find(item=>item.slug===bulletin.guideSlug);
+  check('bulletin-guide-resolves',Boolean(guide)&&(guide.makeIds||[guide.makeId]).includes(bulletin.makeId)&&bulletin.modelIds.every(id=>guide.modelIds.includes(id)),bulletin.id);
  }
  check('canonical-code-launch-target',indexableRoutes.size>=minimumCodes,{minimum:minimumCodes,actual:indexableRoutes.size,scope:'Unique indexable dictionary code routes only. These are not counted as authored diagnostic articles.'});
  const result=collector.report();

@@ -3,7 +3,7 @@ import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {parseHTML} from 'linkedom';
 import * as cars from '../src/lib/cars.ts';
-import {authoredGuides,guidePath,guidesForCode} from '../src/lib/authored-guides.ts';
+import {authoredGuides,guidePath,guidesForCode,guideMakes} from '../src/lib/authored-guides.ts';
 import {ads} from '../src/lib/ads.ts';
 import {validateDataset,MINIMUM_CANONICAL_CODES} from './validate-data.mjs';
 import {clean,createCheckCollector,walkFiles,routeFromFile,fileForRoute,reachableRoutes,flattenSchema,xmlLocations} from './lib/audit-utils.mjs';
@@ -72,7 +72,7 @@ export async function audit(root=process.cwd()){
    check('code-safety-link',sourceLinks.has('/safety/'),route);
    const scopeText=clean(document.querySelector('#applicability')?.textContent);
    check('code-scope-static',Boolean(scopeText)&&(entry.scope==='generic'?/generic obd-ii/i.test(scopeText):(entry.makeIds||[entry.makeId]).every(id=>scopeText.includes(cars.getMake(id).name))),route);
-   const applicableGuides=guidesForCode(entry.code).filter(guide=>entry.scope==='generic'||(entry.makeIds||[entry.makeId]).includes(guide.makeId));
+   const applicableGuides=guidesForCode(entry.code).filter(guide=>entry.scope==='generic'||guideMakes(guide).some(id=>(entry.makeIds||[entry.makeId]).includes(id)));
    check('code-reviewed-guide-links',applicableGuides.every(guide=>sourceLinks.has(guidePath(guide))),route);
    check('source-and-report-anchors',ids.has('sources')&&ids.has('report'),route);
    check('reference-attribution-visible',sourceById.get(entry.sourceId)?.kind!=='dataset'||/community/i.test(mainText),route);

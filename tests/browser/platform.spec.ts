@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import {authoredGuides,guidePath,guidesForCode} from '../../src/lib/authored-guides';
+import {authoredGuides,guidePath,guidesForCode,guideMakes} from '../../src/lib/authored-guides';
 import {codes,models,makes,codePath,modelPath,makePath,codesForMake,bulletinsForMake,getSource} from '../../src/lib/cars';
 
 const generic=codes.find(entry=>entry.code==='P0A80'&&entry.scope==='generic')!;
@@ -124,7 +124,7 @@ for(const makeId of ['audi','porsche'])test(`${makeId} manufacturer documents ar
 
 test('P0299 dictionary links to distinct vehicle-specific Audi and Porsche guides',async({page},testInfo)=>{
  const reference=codes.find(entry=>entry.code==='P0299'&&entry.scope==='generic')!;
- const reviewed=guidesForCode('P0299');
+ const reviewed=guidesForCode('P0299').filter(guide=>['audi','porsche'].includes(guide.makeId));
  expect(reviewed.map(guide=>guide.makeId).sort()).toEqual(['audi','porsche']);
  expect(new Set(reviewed.map(guide=>guide.sourceIds.join('|'))).size).toBe(2);
  for(const guide of reviewed){
@@ -145,6 +145,41 @@ test('P0299 dictionary links to distinct vehicle-specific Audi and Porsche guide
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth+1)).toBe(true);
   await page.screenshot({path:`reports/browser/${testInfo.project.name}-${guide.makeId}-guide.jpg`,type:'jpeg',quality:65,fullPage:true});
  }
- await page.goto(codePath(generic));await expect(page.locator('#reviewed-guides')).toHaveCount(0);
+ await page.goto(codePath(generic));await expect(page.locator('#reviewed-guides [data-authored-guide]')).toHaveCount(guidesForCode(generic.code).length);
  expect(authoredGuides.length).toBeGreaterThanOrEqual(reviewed.length);
+});
+
+
+test('diagnostic guide filters find a code within the selected make and reset cleanly',async({page},testInfo)=>{
+ const guide=authoredGuides.find(item=>item.makeId==='toyota')!;
+ await page.goto('/guides/?make=toyota');await expect(page.locator('#guide-make')).toHaveValue('toyota');
+ await page.locator('#guide-query').fill(guide.codes[0]);
+ const visible=page.locator('#guide-results [data-guide-id]:visible');
+ await expect(visible).toHaveCount(authoredGuides.filter(item=>guideMakes(item).includes('toyota')&&item.codes.includes(guide.codes[0])).length);
+ await expect(page.locator(`#guide-results [data-guide-id="${guide.id}"]`)).toBeVisible();
+ await page.screenshot({path:`reports/browser/${testInfo.project.name}-guide-finder.jpg`,type:'jpeg',quality:65,fullPage:true});
+ await page.locator('#guide-query').fill('no-matching-diagnostic-guide');await expect(page.locator('#guide-empty')).toBeVisible();await expect(visible).toHaveCount(0);
+ await page.locator('#guide-empty-reset').click();await expect(visible).toHaveCount(authoredGuides.length);await expect(page.locator('#guide-query')).toHaveValue('');await expect(page.locator('#guide-make')).toHaveValue('');
+});
+
+test('every diagnostic guide remains discoverable without JavaScript',async({browser,baseURL})=>{
+ const context=await browser.newContext({javaScriptEnabled:false,baseURL});const page=await context.newPage();
+ try{await page.goto('/guides/');await expect(page.locator('#guide-filters')).toBeHidden();for(const guide of authoredGuides)await expect(page.locator(`a[href="${guidePath(guide)}"]`)).toBeVisible();}finally{await context.close();}
+});
+
+test('shared GM diagnosis is one article linked from both manufacturer and model hubs',async({page})=>{
+ const guide=authoredGuides.find(item=>guideMakes(item).includes('chevrolet')&&guideMakes(item).includes('gmc'))!;
+ expect(guide).toBeTruthy();
+ for(const makeId of guideMakes(guide)){await page.goto(makePath(makeId));await expect(page.locator(`[data-authored-guide="${guide.id}"]`)).toHaveAttribute('href',guidePath(guide));}
+ for(const id of guide.modelIds){const model=models.find(item=>item.id===id)!;await page.goto(modelPath(model));await expect(page.locator(`[data-authored-guide="${guide.id}"]`)).toHaveAttribute('href',guidePath(guide));}
+ await page.goto(guidePath(guide));await expect(page.locator('main')).toContainText('Chevrolet');await expect(page.locator('main')).toContainText('GMC');
+});
+
+for(const makeId of ['toyota','ford','mazda'])test(`${makeId} new diagnosis renders its actual scope, findings and citations`,async({page},testInfo)=>{
+ const guide=authoredGuides.find(item=>item.makeId===makeId)!;await page.goto(guidePath(guide));await expect(page.locator('h1')).toHaveText(guide.title);
+ for(const scope of guide.scope)await expect(page.locator('main')).toContainText(scope.value);
+ for(const section of guide.sections){await expect(page.locator(`#${section.id}`)).toBeVisible();for(const paragraph of section.paragraphs||[])await expect(page.locator(`#${section.id}`)).toContainText(paragraph);}
+ for(const id of guide.sourceIds)await expect(page.locator(`#sources a[href="${getSource(id).url}"]`)).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth+1)).toBe(true);
+ await page.screenshot({path:`reports/browser/${testInfo.project.name}-${makeId}-new-guide.jpg`,type:'jpeg',quality:65,fullPage:true});
 });

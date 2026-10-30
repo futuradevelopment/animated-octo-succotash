@@ -14,7 +14,9 @@ export interface AuthoredGuide {
  title:string;
  description:string;
  makeId:string;
+ makeIds?:string[];
  modelIds:string[];
+ engineCodes?:string[];
  codes:string[];
  updatedOn:string;
  sourceIds:string[];
@@ -26,4 +28,7 @@ export interface AuthoredGuide {
 const file=join(process.cwd(),'src/data/authored-guides.json');
 export const authoredGuides:AuthoredGuide[]=existsSync(file)?JSON.parse(readFileSync(file,'utf8')):[];
 export const guidePath=(guide:AuthoredGuide)=>`/guides/${guide.slug}/`;
+export const guideMakes=(guide:AuthoredGuide)=>guide.makeIds||[guide.makeId];
 export const guidesForCode=(code:string)=>authoredGuides.filter(guide=>guide.codes.includes(code.toUpperCase()));
+export const guidesForMake=(makeId:string)=>authoredGuides.filter(guide=>guideMakes(guide).includes(makeId));
+export const guidesForModel=(modelId:string)=>authoredGuides.filter(guide=>guide.modelIds.includes(modelId));

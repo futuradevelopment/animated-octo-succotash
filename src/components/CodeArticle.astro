@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import CodeCard from './CodeCard.astro';
 import {getMake,getSource,getRelatedCodes,makePath,systemPath,systems,site,codePath,type CodeEntry} from '../lib/cars';
-import {guidesForCode,guidePath} from '../lib/authored-guides';
+import {guidesForCode,guidePath,guideMakes} from '../lib/authored-guides';
 interface Props {entry:CodeEntry;}
 const {entry}=Astro.props;
 const make=getMake(entry.makeId);
@@ -10,7 +10,7 @@ const makeIds=entry.makeIds?.length?entry.makeIds:[entry.makeId];
 const definitionSource=getSource(entry.sourceId);
 const system=systems.find(item=>item.id===entry.system);
 const related=getRelatedCodes(entry,6);
-const reviewedGuides=guidesForCode(entry.code).filter(guide=>entry.scope==='generic'||makeIds.includes(guide.makeId));
+const reviewedGuides=guidesForCode(entry.code).filter(guide=>entry.scope==='generic'||guideMakes(guide).some(id=>makeIds.includes(id)));
 const scopeLabel=entry.scope==='generic'?'Generic OBD-II':makeIds.map(id=>getMake(id).name).join(' / ');
 const referenceLabel=entry.scope==='generic'?'OBD-II':makeIds.length>1?'Shared manufacturer':make.name;
 const title=`${referenceLabel} ${entry.code}: ${entry.title}`;
@@ -25,7 +25,7 @@ const schema=[{'@context':'https://schema.org','@type':'DefinedTerm',name:entry.
   </header>
   <div class="container reference-body">
    <section id="applicability" class="applicability-panel"><h2>Reference scope</h2><p class="applicability-makes">{entry.scope==='generic'?'Generic OBD-II definition.':<>The source associates this definition with {makeIds.map((id,i)=><>{i>0?', ':''}<a href={makePath(id)}>{getMake(id).name}</a></>)}.</>}</p><p>A manufacturer label does not establish the model, year, engine or module to which a diagnosis applies. <a href="/safety/">Read the safety and diagnostic limits</a>.</p></section>
-   {reviewedGuides.length>0&&<section id="reviewed-guides" class="section"><div class="section-head"><div><p class="eyebrow">Separately researched</p><h2>Vehicle-specific diagnosis</h2></div></div><p class="reference-guide-intro">These guides address the exact vehicles and conditions in their sources. Select the guide that matches your vehicle.</p><div class="code-grid">{reviewedGuides.map(guide=><a class="notice" data-authored-guide={guide.id} href={guidePath(guide)}><p class="eyebrow">{getMake(guide.makeId).name}</p><h3>{guide.title}</h3><p>{guide.description}</p></a>)}</div></section>}
+   {reviewedGuides.length>0&&<section id="reviewed-guides" class="section"><div class="section-head"><div><p class="eyebrow">Separately researched</p><h2>Vehicle-specific diagnosis</h2></div></div><p class="reference-guide-intro">These guides address the exact vehicles and conditions in their sources. Select the guide that matches your vehicle.</p><div class="code-grid">{reviewedGuides.map(guide=><a class="notice" data-authored-guide={guide.id} href={guidePath(guide)}><p class="eyebrow">{guideMakes(guide).map(id=>getMake(id).name).join(' / ')}</p><h3>{guide.title}</h3><p>{guide.description}</p></a>)}</div></section>}
    <section id="sources" class="sources-block"><div class="section-head"><h2>Definition source</h2></div><ol class="source-list"><li><div class="source-meta"><span class="source-kind">{definitionSource.kind==='dataset'?'Community reference data':definitionSource.kind==='manufacturer'?'Manufacturer documentation':'Public agency reference'}</span><span>{definitionSource.publisher}</span></div><a href={definitionSource.url} target="_blank" rel="noopener noreferrer">{definitionSource.title} <span aria-hidden="true">↗</span></a><p>Source checked <time datetime={definitionSource.checkedOn}>{definitionSource.checkedOn}</time>{definitionSource.license&&<> · {definitionSource.license}</>}</p></li></ol></section>
    <aside id="report" class="reference-feedback"><h2>Report a definition issue</h2><p>Include this page, the exact scanner display and the source that supports a correction.</p><a class="text-link" href="/contact/">Correction details <span aria-hidden="true">↗</span></a></aside>
   </div>

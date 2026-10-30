@@ -26,10 +26,11 @@
     "makeId": "ford",
     "name": "F-150",
     "slug": "f-150",
-    "years": "2018",
-    "summary": "2.7L EcoBoost misfire and lean-code evidence.",
+    "years": "2015–2016; 2018 (separate cases)",
+    "summary": "Separate throttle-control and 2.7L misfire cases.",
     "sourceIds": [
-      "oem-ford-f150-27-misfire-lean"
+      "oem-ford-f150-27-misfire-lean",
+      "oem-ford-throttle-16b32"
     ]
   },
   {
@@ -159,9 +160,10 @@
     "name": "Golf",
     "slug": "golf",
     "years": "2010–2014",
-    "summary": "2.0L TDI EGR-flow evidence.",
+    "summary": "CJAA diesel filter case.",
     "sourceIds": [
-      "oem-vw-tdi-p0401"
+      "oem-vw-tdi-egr-2034898-r23",
+      "oem-vw-dpf-adaptation-261302"
     ]
   },
   {
@@ -170,9 +172,10 @@
     "name": "Jetta",
     "slug": "jetta",
     "years": "2009–2014",
-    "summary": "TDI EGR-flow evidence with engine/year restrictions.",
+    "summary": "CBEA/CJAA diesel filter case.",
     "sourceIds": [
-      "oem-vw-tdi-p0401"
+      "oem-vw-tdi-egr-2034898-r23",
+      "oem-vw-dpf-adaptation-261302"
     ]
   },
   {
@@ -191,10 +194,11 @@
     "makeId": "bmw",
     "name": "X6 xDrive50i",
     "slug": "x6-xdrive50i",
-    "years": "2011–2012",
-    "summary": "N63 native-code injector diagnostic evidence.",
+    "years": "2014",
+    "summary": "N63 native-code injector case.",
     "sourceIds": [
-      "oem-bmw-native-injector-context"
+      "oem-bmw-native-injector-context",
+      "oem-bmw-n63-injector-test-plan-130712"
     ]
   },
   {
@@ -202,8 +206,8 @@
     "makeId": "kia",
     "name": "Soul",
     "slug": "soul",
-    "years": "2010–2019; 2020-onward SK3 in May 2022 source",
-    "summary": "Timing-code evidence after engine replacement.",
+    "years": "2010–2019; SK3 scope in May 2022 source",
+    "summary": "PS731 application.",
     "sourceIds": [
       "oem-kia-soul-post-replacement-timing"
     ]
@@ -214,7 +218,7 @@
     "name": "Elantra GT",
     "slug": "elantra-gt",
     "years": "2018",
-    "summary": "1.6L Turbo P 0128 calibration evidence.",
+    "summary": "T3T application.",
     "sourceIds": [
       "oem-hyundai-p0128-calibration"
     ]
@@ -225,7 +229,7 @@
     "name": "Veloster",
     "slug": "veloster",
     "years": "2019",
-    "summary": "1.6L Turbo P 0128 calibration evidence.",
+    "summary": "T3T application.",
     "sourceIds": [
       "oem-hyundai-p0128-calibration"
     ]
@@ -235,10 +239,11 @@
     "makeId": "jeep",
     "name": "Renegade",
     "slug": "renegade",
-    "years": "2016",
-    "summary": "2.4L diagnostic-calibration evidence with build limits.",
+    "years": "2016; 2019 (separate engine cases)",
+    "summary": "Separate 2016/2019 cases.",
     "sourceIds": [
-      "oem-jeep-renegade-2016-calibration"
+      "oem-jeep-renegade-2016-calibration",
+      "oem-jeep-renegade-2019-p0456"
     ]
   },
   {
@@ -247,9 +252,11 @@
     "name": "Challenger",
     "slug": "challenger",
     "years": "2022",
-    "summary": "5.7L EVAP-code calibration evidence.",
+    "summary": "EVAP calibration cases separated by engine sales code.",
     "sourceIds": [
-      "oem-dodge-challenger-evap-calibration"
+      "oem-dodge-challenger-evap-calibration",
+      "oem-dodge-challenger-ezc-evap",
+      "oem-dodge-challenger-esg-evap"
     ]
   },
   {
@@ -258,9 +265,9 @@
     "name": "1500",
     "slug": "1500",
     "years": "2019",
-    "summary": "3.6L eTorque P 0128 software evidence.",
+    "summary": "ERG eTorque case with revision history.",
     "sourceIds": [
-      "oem-ram1500-p0128-calibration"
+      "oem-ram1500-p0128-1807022"
     ]
   },
   {
@@ -269,9 +276,9 @@
     "name": "2500",
     "slug": "2500",
     "years": "2016",
-    "summary": "6.7L diesel EGR/diagnostic software evidence.",
+    "summary": "6.7L diagnostic update; revised code scope.",
     "sourceIds": [
-      "oem-ram-diesel-p0401"
+      "oem-ram-diesel-1813022-reva"
     ]
   },
   {
@@ -280,9 +287,9 @@
     "name": "3500",
     "slug": "3500",
     "years": "2016",
-    "summary": "6.7L diesel EGR/diagnostic software evidence.",
+    "summary": "6.7L diagnostic update; revised code scope.",
     "sourceIds": [
-      "oem-ram-diesel-p0401"
+      "oem-ram-diesel-1813022-reva"
     ]
   },
   {
@@ -314,9 +321,9 @@
     "name": "A8",
     "slug": "a8",
     "years": "2013–2016",
-    "summary": "4.0 TFSI breather-noise and idle-code documentation.",
+    "summary": "4.0 TFSI two-check breather case.",
     "sourceIds": [
-      "oem-audi-40tfsi-breather-2040644"
+      "oem-audi-40tfsi-breather-2040644-r13"
     ]
   },
   {
@@ -336,7 +343,7 @@
     "name": "Cayenne",
     "slug": "cayenne",
     "years": "2011–2012 S/Turbo; 2019–2022",
-    "summary": "Separate early camshaft and later EVAP evidence, each limited to its documented generation.",
+    "summary": "Separate documented cases; read the scope of each.",
     "sourceIds": [
       "oem-porsche-camshaft-adjuster-diagnosis",
       "oem-porsche-evap-analysis-2205"
@@ -348,10 +355,176 @@
     "name": "Panamera",
     "slug": "panamera",
     "years": "2010–2012; 2017–2022",
-    "summary": "Generation-specific camshaft and EVAP records with separate model-year restrictions.",
+    "summary": "Separate documented cases; read the scope of each.",
     "sourceIds": [
       "oem-porsche-camshaft-adjuster-diagnosis",
-      "oem-porsche-evap-analysis-2205"
+      "oem-porsche-evap-analysis-2205",
+      "oem-porsche-panamera-ah08"
+    ]
+  },
+  {
+    "id": "toyota-prius",
+    "makeId": "toyota",
+    "name": "Prius",
+    "slug": "prius",
+    "years": "2004–2020 liftback",
+    "summary": "Battery cooling-path diagnostic evidence.",
+    "sourceIds": [
+      "oem-toyota-prius-battery-cooling-2020",
+      "oem-toyota-prius-battery-cooling-2013"
+    ]
+  },
+  {
+    "id": "honda-accord",
+    "makeId": "honda",
+    "name": "Accord",
+    "slug": "accord",
+    "years": "2008–2012 V6 automatic",
+    "summary": "Cylinder-specific misfire diagnostic evidence.",
+    "sourceIds": [
+      "oem-honda-accord-v6-misfire-13078",
+      "oem-honda-accord-2012-owner-manual"
+    ]
+  },
+  {
+    "id": "chevrolet-cruze",
+    "makeId": "chevrolet",
+    "name": "Cruze",
+    "slug": "cruze",
+    "years": "2011–2014",
+    "summary": "1.4L PCV/manifold diagnostic evidence.",
+    "sourceIds": [
+      "oem-gm-cruze-pcv-special-coverage",
+      "oem-gm-cruze-pcv-manifold-pip5197a"
+    ]
+  },
+  {
+    "id": "ford-escape",
+    "makeId": "ford",
+    "name": "Escape",
+    "slug": "escape",
+    "years": "2013",
+    "summary": "Refueling-related start evidence; build and engine restrictions.",
+    "sourceIds": [
+      "oem-ford-refuel-start-purge-160075"
+    ]
+  },
+  {
+    "id": "ford-fusion",
+    "makeId": "ford",
+    "name": "Fusion",
+    "slug": "fusion",
+    "years": "2013–2014",
+    "summary": "Refueling-related start evidence; build and engine restrictions.",
+    "sourceIds": [
+      "oem-ford-refuel-start-purge-160075"
+    ]
+  },
+  {
+    "id": "hyundai-elantra",
+    "makeId": "hyundai",
+    "name": "Elantra",
+    "slug": "elantra",
+    "years": "2017",
+    "summary": "2.0L MPI TLL campaign case.",
+    "sourceIds": [
+      "oem-hyundai-elantra-thermostat-tll"
+    ]
+  },
+  {
+    "id": "kia-forte",
+    "makeId": "kia",
+    "name": "Forte",
+    "slug": "forte",
+    "years": "2017–2018",
+    "summary": "YDm 2.0L MPI P0016 case with production limits.",
+    "sourceIds": [
+      "oem-kia-forte-p0016-eng170-r1"
+    ]
+  },
+  {
+    "id": "jeep-grand-cherokee",
+    "makeId": "jeep",
+    "name": "Grand Cherokee",
+    "slug": "grand-cherokee",
+    "years": "2023",
+    "summary": "WL 3.6L filler-tube leak diagnosis with build limit.",
+    "sourceIds": [
+      "oem-jeep-grand-cherokee-p0456-filler"
+    ]
+  },
+  {
+    "id": "nissan-rogue",
+    "makeId": "nissan",
+    "name": "Rogue",
+    "slug": "rogue",
+    "years": "2018",
+    "summary": "Vehicle-specific diagnostic articles.",
+    "sourceIds": [
+      "oem-nissan-evap-cap",
+      "oem-nissan-rogue-2018-owner"
+    ]
+  },
+  {
+    "id": "nissan-pathfinder",
+    "makeId": "nissan",
+    "name": "Pathfinder",
+    "slug": "pathfinder",
+    "years": "2013–2020 V6 CVT",
+    "summary": "Vehicle-specific diagnostic articles.",
+    "sourceIds": [
+      "oem-nissan-v6-cvt-judder-039q",
+      "oem-nissan-cvt-judder-logic-014c"
+    ]
+  },
+  {
+    "id": "subaru-outback",
+    "makeId": "subaru",
+    "name": "Outback",
+    "slug": "outback",
+    "years": "2019 2.5L/2020 2.4L CVT; 2020–2022 TCV cases",
+    "summary": "Vehicle-specific diagnostic articles.",
+    "sourceIds": [
+      "oem-subaru-cvt-solenoid-diagnosis",
+      "oem-subaru-thermo-valve-design",
+      "oem-subaru-thermo-valve-extension",
+      "oem-subaru-cvt-repair-policy-2025"
+    ]
+  },
+  {
+    "id": "subaru-legacy",
+    "makeId": "subaru",
+    "name": "Legacy",
+    "slug": "legacy",
+    "years": "2019 2.5L; 2020 2.4L CVT cases",
+    "summary": "Vehicle-specific diagnostic articles.",
+    "sourceIds": [
+      "oem-subaru-cvt-solenoid-diagnosis",
+      "oem-subaru-cvt-repair-policy-2025"
+    ]
+  },
+  {
+    "id": "subaru-forester",
+    "makeId": "subaru",
+    "name": "Forester",
+    "slug": "forester",
+    "years": "2019–2021 TCV case",
+    "summary": "Vehicle-specific diagnostic articles.",
+    "sourceIds": [
+      "oem-subaru-thermo-valve-design",
+      "oem-subaru-thermo-valve-extension"
+    ]
+  },
+  {
+    "id": "mazda-cx-5",
+    "makeId": "mazda",
+    "name": "CX-5",
+    "slug": "cx-5",
+    "years": "2021–2024 non-turbo case",
+    "summary": "Vehicle-specific diagnostic articles.",
+    "sourceIds": [
+      "oem-mazda-p0126-thermostat-set",
+      "oem-mazda-sspd8-repair"
     ]
   }
 ]

@@ -173,5 +173,2558 @@
         ]
       }
     ]
+  },
+  {
+    "id": "toyota-v6-high-load-misfire-diagnosis",
+    "slug": "toyota-camry-avalon-v6-p0300-high-load",
+    "title": "Toyota Camry and Avalon V6 P0300: when calibration is the right branch",
+    "description": "Match the high-load event and installed calibration before programming.",
+    "makeId": "toyota",
+    "modelIds": [
+      "toyota-camry",
+      "toyota-avalon"
+    ],
+    "codes": [
+      "P0300",
+      "P0305",
+      "P0306",
+      "P1605",
+      "P030000",
+      "P030027",
+      "P030085",
+      "P030500",
+      "P030600",
+      "P160500"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-toyota-v6-high-load-misfire",
+      "oem-toyota-camry-transaxle-software-confirmation"
+    ],
+    "summary": "The recorded driving conditions and installed calibration decide whether this software case fits.",
+    "scope": [
+      {
+        "label": "Vehicles",
+        "value": "2018 Camry and 2019 Avalon, 2GR-FKS V6; applicable WMI 4T1, VDS BZ1HK / BZ1FB respectively."
+      },
+      {
+        "label": "Reviewed documents",
+        "value": "T-SB-0071-18 Rev2; Camry companion T-SB-0010-18 Rev1. Verify current VIN-specific instructions."
+      }
+    ],
+    "sections": [
+      {
+        "id": "match-event",
+        "title": "Match the event before choosing a repair",
+        "paragraphs": [
+          "Toyota describes misfires around 5,000–6,500 rpm, 100% or greater engine load and full accelerator input. Have the technician compare the recorded event with that pattern; do not reproduce it yourself."
+        ]
+      },
+      {
+        "id": "calibration-decision",
+        "title": "A software update has an entry and an exit condition",
+        "table": {
+          "columns": [
+            "Finding",
+            "Direction"
+          ],
+          "rows": [
+            [
+              "Listed misfire/rough-idle display absent",
+              "This bulletin does not apply; use normal diagnosis."
+            ],
+            [
+              "Matching case; applicable calibration not installed",
+              "Evaluate the documented ECM update."
+            ],
+            [
+              "Applicable calibration already installed",
+              "Return to normal diagnosis; repeating this update is not the prescribed fix."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "camry-hardware",
+        "title": "Why a Camry needs a transmission identity check",
+        "paragraphs": [
+          "The companion bulletin explains that some 2018 Camrys need different ECM software for different transaxle hardware. A mismatch can produce harsh shifts or shift flare. Selecting a file from the model year alone is therefore insufficient.",
+          "For a replacement transaxle, Toyota uses its part number to distinguish the production change. When checking the installed unit without replacing it, the technician uses the assembly serial number and production-change table. The result governs the matching ECM hardware and calibration. This identification step is not a recommendation to replace the transmission."
+        ]
+      },
+      {
+        "id": "repair-record",
+        "title": "What a useful repair record should show",
+        "bullets": [
+          "Full scan display, event conditions and original calibration ID.",
+          "For Camry, the transaxle identification used to select the matching software.",
+          "The resulting calibration ID and confirmation of operation after service."
+        ],
+        "paragraphs": [
+          "These are editorial questions for checking the reasoning behind an estimate. A proposal for coils, plugs or transmission replacement should explain its own measured evidence; this particular software case does not establish that those parts have failed."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "honda-crv-misfire-rich-after-update",
+    "slug": "honda-cr-v-p0300-p0172-after-software-update",
+    "title": "Honda CR-V P0300 and P0172: separate update, plug and camshaft branches",
+    "description": "2017–2018 CR-V: repair history, spark-plug findings and a separate noise inspection determine which Honda procedure applies.",
+    "makeId": "honda",
+    "modelIds": [
+      "honda-cr-v"
+    ],
+    "codes": [
+      "P0300",
+      "P0301",
+      "P0302",
+      "P0303",
+      "P0304",
+      "P0172"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-honda-crv-misfire-extension",
+      "oem-honda-crv-update-19025"
+    ],
+    "summary": "A repeat misfire after an update and a whirling engine noise are different diagnostic branches. Neither justifies replacing every part mentioned in the bulletin.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2017–2018 CR-V EX, EX-L or Touring; Honda VIN inquiry required."
+      },
+      {
+        "label": "Repair history",
+        "value": "Check applicable 18-114, 18-124 or 19-025 work before applying 19-037 version 5."
+      }
+    ],
+    "sections": [
+      {
+        "id": "prerequisite",
+        "title": "An earlier update may be incomplete",
+        "paragraphs": [
+          "Bulletin 19-025 addresses certain vehicles with an A/C controller that could not be programmed. Its repair includes engine/transmission software and, when required, controller replacement. The scan-tool HVAC status distinguishes Not Complete from Completed or Not Applicable; the latter two skip controller replacement.",
+          "That means an invoice saying only 'software updated' may not settle whether all applicable work was completed. Ask for the VIN campaign result and controller completion status before accepting a repeat of the same job."
+        ]
+      },
+      {
+        "id": "plug-branch",
+        "title": "Recurring codes lead to plug inspection",
+        "table": {
+          "columns": [
+            "Finding after prerequisites",
+            "19-037 direction"
+          ],
+          "rows": [
+            [
+              "Spark plugs are not fouled",
+              "Continue normal troubleshooting."
+            ],
+            [
+              "Fouled plugs",
+              "Replace the plugs and check for recurring applicable codes."
+            ],
+            [
+              "Applicable codes return after replacement",
+              "This bulletin's repair branch ends; continue normal troubleshooting."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "noise-branch",
+        "title": "Camshaft work needs separate evidence",
+        "paragraphs": [
+          "For whirling noise, Honda requires a controlled comparison with its reference sound, then cam-lobe inspection if the noise matches. Camshafts that match the good reference return to normal diagnosis. A qualifying worn appearance leads to camshaft/rocker-arm replacement. These are workshop checks, not a home revving test."
+        ]
+      },
+      {
+        "id": "review-estimate",
+        "title": "Compare the estimate with the branch actually found",
+        "paragraphs": [
+          "Ask the workshop to distinguish the original complaint from anything discovered during inspection. For a plug estimate, request the fouling finding; for internal engine work, request the noise and camshaft findings. Those questions help you understand why the scope of the repair changed.",
+          "Historical warranty terms do not establish present coverage. Ask Honda to check eligibility; the bulletin revision date does not restart warranty time."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acura-mdx-tlx-p0430-software",
+    "slug": "acura-mdx-tlx-p0430-software-check",
+    "title": "Acura MDX and TLX P0430: check software before condemning the catalyst",
+    "description": "Acura's documented P0430 software case requires exact vehicle eligibility and transmission-software confirmation.",
+    "makeId": "acura",
+    "modelIds": [
+      "acura-mdx",
+      "acura-tlx"
+    ],
+    "codes": [
+      "P0430"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-acura-p0430-calibration",
+      "oem-acura-p0430-15053-history"
+    ],
+    "summary": "P0430 can reflect how the controller interprets sensor data. Confirm that this documented software case fits before approving a converter.",
+    "scope": [
+      {
+        "label": "MDX",
+        "value": "2014–2017, excluding Sport Hybrid; 2017 VIN limits apply."
+      },
+      {
+        "label": "TLX",
+        "value": "2015–2018 V6 only; 2018 VIN limits apply. Compare the complete VIN with 17-034 version 4."
+      }
+    ],
+    "sections": [
+      {
+        "id": "software-cause",
+        "title": "What the bulletin actually changes",
+        "paragraphs": [
+          "Acura identifies a possible PCM interpretation error and prescribes a PGM-FI update plus 9-speed automatic software confirmation where fitted. It does not prescribe catalyst replacement for this condition."
+        ]
+      },
+      {
+        "id": "already-updated",
+        "title": "An update message needs checking",
+        "table": {
+          "columns": [
+            "Result",
+            "Required distinction"
+          ],
+          "rows": [
+            [
+              "Update available",
+              "Match the correct vehicle and program."
+            ],
+            [
+              "Already updated / no update available",
+              "Check the PGM-FI Data List program number against the bulletin."
+            ],
+            [
+              "9AT fitted",
+              "Confirm its software separately."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "old-invoice",
+        "title": "Why an old invoice may describe a different update",
+        "paragraphs": [
+          "The superseded 15-053 version 1 covered 2014–2015 MDX and listed a PGM-FI-only correction. Its specified program IDs are historical evidence of that earlier job, not a substitute for the later reviewed 17-034 check. Keep the invoice, but ask the technician to compare the installed program with the applicable later instructions."
+        ]
+      },
+      {
+        "id": "decision",
+        "title": "Before approving the converter",
+        "paragraphs": [
+          "Request the eligibility result, installed program number and evidence supporting any hardware diagnosis. An old update invoice alone neither proves the catalyst is healthy nor establishes its failure. Programming belongs with a suitably equipped workshop."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lexus-rx450h-p0430-sensor-test",
+    "slug": "lexus-rx450h-p0430-b2s2-test",
+    "title": "2010 Lexus RX450h P0430: the B2S2 result that changes the repair",
+    "description": "The RX450h bulletin selects a bank-2 downstream oxygen-sensor repair only after a specific warm-engine scan result.",
+    "makeId": "lexus",
+    "modelIds": [
+      "lexus-rx-450h"
+    ],
+    "codes": [
+      "P0430"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-lexus-rx450h-p0430",
+      "oem-lexus-rx450h-p0430-history"
+    ],
+    "summary": "The name of P0430 does not select the replacement part. Lexus requires a specific downstream-sensor test before this repair applies.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2010 RX450h, 2GR-FXE; L-SB-0005-15."
+      },
+      {
+        "label": "Test state",
+        "value": "P0430 confirmed with Techstream; engine at normal operating temperature."
+      }
+    ],
+    "sections": [
+      {
+        "id": "qualifying-test",
+        "title": "The two qualifying readings use OR, not AND",
+        "table": {
+          "columns": [
+            "Warm-engine result",
+            "Bulletin direction"
+          ],
+          "rows": [
+            [
+              "O2 B2S2 voltage is 1.275 V",
+              "Qualifies for the specified bank-2 O2 sensor and harness-clamp repair."
+            ],
+            [
+              "O2 B2S2 impedance exceeds 300 ohms",
+              "Also qualifies, independently of the voltage criterion."
+            ],
+            [
+              "Neither condition occurs",
+              "This bulletin does not apply; use normal repair-manual diagnosis."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "scope-history",
+        "title": "Why some searches also mention 2011",
+        "paragraphs": [
+          "The older L-SB-0127-11 Rev2 included 2010–2011 vehicles and production-VIN boundaries. L-SB-0005-15 explicitly supersedes it and lists 2010 only. That historical page explains the conflicting search result; it does not establish 2011 coverage under the replacement bulletin."
+        ]
+      },
+      {
+        "id": "record-readings",
+        "title": "Ask for the actual scan result",
+        "paragraphs": [
+          "Ask for the B2S2 voltage, impedance and test conditions. 'The oxygen sensor is bad' omits the finding that selects this repair. Use the table to discuss workshop results; do not probe a running hybrid or hot exhaust yourself.",
+          "If neither qualifying result is present, ask which repair-manual test supports the proposed next part. Do not turn the rejection of this particular sensor bulletin into proof that the catalyst must be replaced. The workshop should verify the outcome after the repair."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toyota-prius-p0a80-cooling-path",
+    "slug": "toyota-prius-p0a80-p0a7f-cooling-fan",
+    "title": "Toyota Prius P0A80 and P0A7F: what cooling-fan debris does—and does not—prove",
+    "description": "Understand Toyota's debris-related hybrid-battery case without mistaking fan cleaning for a guaranteed battery repair.",
+    "makeId": "toyota",
+    "modelIds": [
+      "toyota-prius"
+    ],
+    "codes": [
+      "P0A80",
+      "P0A7F",
+      "P1AC000",
+      "P1A8000"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-toyota-prius-battery-cooling-2020",
+      "oem-toyota-prius-battery-cooling-2013"
+    ],
+    "summary": "Debris can be part of a documented battery fault, but the manufacturer's repair is not simply 'clean the fan and erase the code.'",
+    "scope": [
+      {
+        "label": "Article scope",
+        "value": "2004–2020 Prius liftback. Prius c and Prius v are different applications and are not covered by this article."
+      },
+      {
+        "label": "Reviewed evidence",
+        "value": "T-SB-0074-20 and the separate historical 2004–2009 case, T-SB-0153-13."
+      }
+    ],
+    "sections": [
+      {
+        "id": "inspect-cooling",
+        "title": "First establish which cooling arrangement is fitted",
+        "paragraphs": [
+          "The 2020 bulletin lists filter arrangements by model year but warns that its table is only a guideline. The actual vehicle and repair manual decide. For the filter-equipped branch, an unclogged filter sends diagnosis back to the repair manual; dirt must not simply be assumed from the fault code."
+        ]
+      },
+      {
+        "id": "battery-not-cleaning",
+        "title": "The older Prius case includes battery replacement",
+        "paragraphs": [
+          "For 2004–2009 Prius, the 2013 bulletin first checks whether the cooling fan is clogged. If not, the debris bulletin does not apply and normal code diagnosis follows. Its confirmed clogged-fan branch includes cleaning, replacing the HV battery assembly and fitting an intake filter. Finding this bulletin therefore does not support a promise that cleaning alone will restore a failed pack."
+        ]
+      },
+      {
+        "id": "newer-instructions",
+        "title": "Keep maintenance and fault repair separate",
+        "paragraphs": [
+          "The later 2020 document also includes HV battery replacement when the listed faults are present, followed by its cooling-system work. It separately identifies power-management calibration checks for specified applications. For 2010–2012 Prius, its calibration files are selected through recall J0V; that is not a universal update for every Prius."
+        ]
+      },
+      {
+        "id": "workshop-evidence",
+        "title": "What to request with a battery estimate",
+        "bullets": [
+          "The exact diagnostic display and the vehicle-specific procedure used.",
+          "Photos or recorded findings showing whether the intake filter or fan was actually obstructed.",
+          "A separate explanation of battery repair, cooling-path service and any applicable calibration work."
+        ],
+        "paragraphs": [
+          "These are editorial requests to make the estimate reviewable. Keep the owner task to describing warning messages and providing service history. Leave fan removal, battery access and programming to a hybrid-qualified technician; do not open the battery case to investigate this article."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "honda-accord-v6-p0301-fouling",
+    "slug": "honda-accord-v6-p0301-p0304-fouled-plugs",
+    "title": "Honda Accord V6 P0301–P0304: software, fouled plugs or piston rings?",
+    "description": "Plug fouling, software and cylinder codes select the documented repair branch.",
+    "makeId": "honda",
+    "modelIds": [
+      "honda-accord"
+    ],
+    "codes": [
+      "P0301",
+      "P0302",
+      "P0303",
+      "P0304"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-honda-accord-v6-misfire-13078",
+      "oem-honda-accord-2012-owner-manual"
+    ],
+    "summary": "A misfire code alone does not select an engine rebuild.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2008–2012 Accord V6 automatic; 13-078, July 24, 2014. Confirm VIN eligibility and current service information."
+      }
+    ],
+    "sections": [
+      {
+        "id": "fouling-first",
+        "title": "Read the plug finding before the parts list",
+        "table": {
+          "columns": [
+            "Confirmed findings",
+            "Documented direction"
+          ],
+          "rows": [
+            [
+              "No listed code, or affected plug not fouled",
+              "Normal troubleshooting; this bulletin does not apply."
+            ],
+            [
+              "Fouled affected plug; older software",
+              "Update PCM and replace plugs 1–4."
+            ],
+            [
+              "Fouled affected plug; current software; P0301/P0302/P0303",
+              "Piston/ring work on cylinders 1–3; plugs 1–4."
+            ],
+            [
+              "Fouled affected plug; current software; P0304 also or alone",
+              "Piston/ring work on cylinders 1–4; plugs 1–4."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "software-year",
+        "title": "2012 does not use the outdated-software shortcut",
+        "paragraphs": [
+          "The bulletin says all 2012 vehicles already had its current software. Do not assume an update-only branch applies to every year."
+        ]
+      },
+      {
+        "id": "owner-safety",
+        "title": "A warning that goes away still deserves inspection",
+        "paragraphs": [
+          "The 2012 Accord Sedan owner's manual says to have a recurring malfunction lamp checked even if it subsequently goes out, and warns that continued operation can damage the engine or emissions controls. It also distinguishes readiness status: disconnecting or losing the battery can erase readiness codes, affecting an emissions test. A lamp reset is not a diagnostic finding."
+        ]
+      },
+      {
+        "id": "estimate-evidence",
+        "title": "Before authorizing internal engine work",
+        "paragraphs": [
+          "Request affected-plug photos and the software ID. Check present coverage separately. Internal engine work needs a qualified workshop."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ford-f150-27-p0300-p0171-injector-calibration",
+    "slug": "ford-f150-27-p0300-p0171-injector-calibration",
+    "title": "2018 F-150 P0300 and P0171: when injectors are actually implicated",
+    "description": "Follow the code and build-date branches before approving injector replacement.",
+    "makeId": "ford",
+    "modelIds": [
+      "ford-f-150"
+    ],
+    "codes": [
+      "P0300",
+      "P0301",
+      "P0302",
+      "P0303",
+      "P0304",
+      "P0305",
+      "P0306",
+      "P0316",
+      "P0171",
+      "P0174",
+      "P2196",
+      "P2198"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-ford-f150-27-misfire-lean",
+      "oem-ford-f150-2018-owner-warnings"
+    ],
+    "summary": "Software and injector leakage follow different branches in Ford 20-2324.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2018 F-150, 2.7L EcoBoost"
+      },
+      {
+        "label": "Reviewed bulletin",
+        "value": "20-2324, September 17, 2020"
+      }
+    ],
+    "sections": [
+      {
+        "id": "software-first",
+        "title": "The companion codes matter",
+        "paragraphs": [
+          "P2196/P2198 or other codes specifically listed in Step 1 of 20-2324 lead first to PCM programming. P0300 or P0171 alone does not establish that software branch."
+        ]
+      },
+      {
+        "id": "build-and-pressure",
+        "title": "Build date gates the injector investigation",
+        "table": {
+          "columns": [
+            "Recorded evidence",
+            "Ford branch"
+          ],
+          "rows": [
+            [
+              "Built on/after July 12, 2018",
+              "This bulletin’s injector branch does not apply."
+            ],
+            [
+              "Earlier build plus qualifying misfire/fuel-trim codes",
+              "Technician checks fuel-rail pressure decay after shutdown."
+            ],
+            [
+              "Leak-down criterion met",
+              "Documented direction: replace direct-injection injectors."
+            ],
+            [
+              "Criterion absent or remaining codes",
+              "Use Ford PC/ED diagnosis."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pressure-record",
+        "title": "Ask for the actual pressure record",
+        "paragraphs": [
+          "Editorial review point: an invoice saying “injectors because P0300” skips the finding that would justify that decision. Request the recorded pressure trace, the scan-tool units and the current workshop specification used to judge it. The public bulletin prints an inconsistent pressure-unit pair; it should not become a home-testing threshold. Ask the technician to resolve it against current service information."
+        ]
+      },
+      {
+        "id": "flashing-warning",
+        "title": "A flashing lamp changes the urgency",
+        "paragraphs": [
+          "Ford’s owner manual says flashing during engine operation can mean misfire and damaging exhaust temperatures. Avoid heavy acceleration or deceleration and obtain immediate service. The key-on readiness flashing sequence is a different indication."
+        ]
+      },
+      {
+        "id": "repair-discussion",
+        "title": "Separate the two proposed repairs",
+        "paragraphs": [
+          "Ask the estimate to identify which code triggered programming and which measured result justified fuel-system work. If both are proposed, each needs its own reason. Keep the original scan report with the invoice so a recurrence can be compared with the initial fault. These are editorial documentation requests, not extra Ford-mandated tests. Fuel-system work belongs with a qualified technician."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colorado-canyon-p0171-p0174-calibration",
+    "slug": "colorado-canyon-p0171-p0174-calibration",
+    "title": "Colorado and Canyon P0171 + P0174: inspect connections, then calibration",
+    "description": "A paired-code case for 2020–2021 LGZ trucks, with a defined path if faults return.",
+    "makeId": "chevrolet",
+    "modelIds": [
+      "chevrolet-colorado",
+      "gmc-canyon"
+    ],
+    "codes": [
+      "P0171",
+      "P0174"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-gm-colorado-canyon-paired-lean",
+      "oem-chevrolet-colorado-2021-manual"
+    ],
+    "summary": "GM 21-NA-105 addresses both lean codes occurring together.",
+    "scope": [
+      {
+        "label": "Vehicles",
+        "value": "2020–2021 Colorado/Canyon, LGZ; built through May 1, 2021"
+      },
+      {
+        "label": "Evidence boundary",
+        "value": "Reviewed May 2021 bulletin"
+      }
+    ],
+    "sections": [
+      {
+        "id": "inspection",
+        "title": "Four connections before programming",
+        "paragraphs": [
+          "Inspect PCV/oil-separator connections, oil-cap seating, a cracked filler adapter and dipstick seating. GM then requires checking/updating ECM software whether or not an inspection concern was found."
+        ]
+      },
+      {
+        "id": "outcome",
+        "title": "What happens after the update?",
+        "table": {
+          "columns": [
+            "Result or mismatch",
+            "Next decision"
+          ],
+          "rows": [
+            [
+              "No codes return",
+              "The bulletin’s verification is satisfied."
+            ],
+            [
+              "Codes return",
+              "Continue the specific GM service-information diagnosis."
+            ],
+            [
+              "Only one lean code or different engine/build",
+              "Do not assume this paired-code case fits."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "proof",
+        "title": "What should the repair record contain?",
+        "paragraphs": [
+          "Editorial checklist: request the inspection findings, the installed calibration identifier and the result of the post-repair check. “Updated computer” describes an operation, but does not tell you whether the original complaint returned. If sensors or injectors are also quoted, ask for the separate test result supporting those parts. The paired code names alone are not that explanation."
+        ]
+      },
+      {
+        "id": "inspection-readiness",
+        "title": "An extinguished lamp is not inspection readiness",
+        "paragraphs": [
+          "The bulletin notes that code clearing resets inspection status. The 2021 Colorado manual explains that incomplete emissions checks can prevent an inspection pass after servicing; routine driving may be needed before readiness returns. Ask the shop to report readiness separately from “no current codes.”"
+        ]
+      },
+      {
+        "id": "warning",
+        "title": "If the lamp flashes while driving",
+        "paragraphs": [
+          "For the 2021 Colorado, Chevrolet advises reducing speed and avoiding hard acceleration and grades. If flashing continues, park safely; follow the manual’s restart/service guidance. A steady lamp still needs diagnosis. Canyon and other model-year owners should follow their own manual."
+        ]
+      }
+    ],
+    "makeIds": [
+      "chevrolet",
+      "gmc"
+    ]
+  },
+  {
+    "id": "silverado-sierra-p0420-p0430-air-filter-seal",
+    "slug": "silverado-sierra-p0420-p0430-air-filter-seal",
+    "title": "Silverado and Sierra P0420/P0430: check the airbox before exhaust parts",
+    "description": "Look for an intake sealing failure before authorizing catalyst or oxygen-sensor work.",
+    "makeId": "chevrolet",
+    "modelIds": [
+      "chevrolet-silverado",
+      "chevrolet-suburban",
+      "chevrolet-tahoe",
+      "gmc-sierra",
+      "gmc-yukon"
+    ],
+    "codes": [
+      "P0420",
+      "P0430"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-gm-v8-catalyst-airbox",
+      "oem-chevrolet-silverado-2017-manual"
+    ],
+    "summary": "GM 16-NA-111 links bypassed intake debris with exhaust-component damage.",
+    "scope": [
+      {
+        "label": "Trucks",
+        "value": "2014–2018 Silverado/Sierra: L83/L86/LV1/LV3"
+      },
+      {
+        "label": "SUVs",
+        "value": "2015–2018 Suburban/Tahoe/Yukon: L83/L86"
+      },
+      {
+        "label": "Revision",
+        "value": "16-NA-111 version 3, August 2017"
+      }
+    ],
+    "sections": [
+      {
+        "id": "evidence",
+        "title": "Look beyond the filter’s dirty side",
+        "paragraphs": [
+          "Check cover tabs/fasteners, filter-seal contact, dirt past the filter and debris in the outlet duct. GM requires proper housing sealing before parts replacement."
+        ]
+      },
+      {
+        "id": "branches",
+        "title": "What the inspection can justify",
+        "table": {
+          "columns": [
+            "Confirmed finding",
+            "GM direction"
+          ],
+          "rows": [
+            [
+              "Debris bypass and faulty filter seal",
+              "Replace the filter as necessary."
+            ],
+            [
+              "Housing cannot seal correctly",
+              "Use the air-cleaner assembly repair procedure."
+            ],
+            [
+              "Airbox sealing established",
+              "Diagnose/repair the catalyst codes as needed."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "photos",
+        "title": "Ask for evidence at both ends of the proposed repair",
+        "paragraphs": [
+          "Editorial questions: can the shop show the bypass path, rather than only a photograph of a dirty filter? Which observation identifies the damaged exhaust component? A quote should distinguish correcting the entry path from repairing damage already present. If no bypass evidence exists, ask what other diagnosis supports the exhaust repair. This case does not supply a universal replacement list."
+        ]
+      },
+      {
+        "id": "handling",
+        "title": "Do not create another path for dirt",
+        "paragraphs": [
+          "The 2017 Silverado manual prohibits running with the air-cleaner housing open, using water or compressed air to clean the filter/components, or driving without the filter. It directs inspection of sealing surfaces and replacement of a damaged element. Other models need their matching manual’s access procedure."
+        ]
+      },
+      {
+        "id": "handover",
+        "title": "Keep the repair explanation specific",
+        "paragraphs": [
+          "Request the identified sealing fault, how it was corrected and what subsequent assessment justified each exhaust part. These editorial requests make the work reviewable without asking an owner to dismantle a hot exhaust system or reproduce a fault on the road. A replacement air filter on the invoice alone does not document the complete diagnosis."
+        ]
+      }
+    ],
+    "makeIds": [
+      "chevrolet",
+      "gmc"
+    ]
+  },
+  {
+    "id": "chevrolet-cruze-p0171-p1101-pcv-diaphragm",
+    "slug": "chevrolet-cruze-p0171-p1101-pcv-diaphragm",
+    "title": "Chevrolet Cruze P0171/P1101: the PCV leak and manifold valve check",
+    "description": "Distinguish a leaking camshaft-cover diaphragm from the intake-manifold cause that can damage it.",
+    "makeId": "chevrolet",
+    "modelIds": [
+      "chevrolet-cruze"
+    ],
+    "codes": [
+      "P0171",
+      "P1101",
+      "P0106",
+      "P0299",
+      "P0507",
+      "P2096"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-gm-cruze-pcv-special-coverage",
+      "oem-gm-cruze-pcv-manifold-pip5197a"
+    ],
+    "summary": "For this Cruze engine, a camshaft-cover fault and an intake-manifold fault are separate findings.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2011–2014 Cruze, 1.4L LUJ/LUV"
+      },
+      {
+        "label": "Sources",
+        "value": "N202299080 (July 2020); PIP5197A (February 2015)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "diaphragm",
+        "title": "Confirm the diaphragm leak",
+        "paragraphs": [
+          "N202299080 describes a cracked PCV regulator diaphragm allowing extra intake air, rough idle and lean/airflow codes. Its workshop check first confirms cap/dipstick seating, then PCV noise and vacuum at the external vent. Noise plus vent vacuum supports camshaft-cover replacement; absence sends the case outside that special-coverage repair."
+        ]
+      },
+      {
+        "id": "upstream",
+        "title": "Why a cover-only repair may miss something",
+        "paragraphs": [
+          "PIP5197A adds an intake-manifold non-return-valve check because a missing valve can damage the diaphragm. An obscured valve must be verified, not assumed missing. Confirmed absence calls for manifold replacement. The bulletin then calls for cleaning induction-system oil and checking whether oil use, leakage or codes recur."
+        ]
+      },
+      {
+        "id": "branch",
+        "title": "If the manifold valve is present",
+        "paragraphs": [
+          "The broader PIP5197A path checks oil-fouled plugs, compression/leakage, cap/dipstick sealing, intake leaks and crankcase pressure. It distinguishes excessive positive pressure from excessive vacuum; a technician must interpret measurements under the specified conditions. A present valve does not end every oil-consumption investigation."
+        ]
+      },
+      {
+        "id": "coverage",
+        "title": "A historical program is not today’s payment decision",
+        "paragraphs": [
+          "N202299080 limited its coverage to the leaking PCV condition, not an unrelated oil leak, and required VIN eligibility. Its stated limit was ten years or 120,000 miles from original service, whichever came first. Have the dealer check current vehicle history; this article does not promise free repair."
+        ]
+      },
+      {
+        "id": "estimate",
+        "title": "Three questions that expose an incomplete estimate",
+        "paragraphs": [
+          "These are editorial questions to discuss with the technician. The engine-running checks and internal tests above describe workshop evidence, not instructions to reach into a running engine. Keep the before/after findings together so recurring symptoms are not treated as an unrelated new guess."
+        ],
+        "bullets": [
+          "Which observation confirmed the cover’s PCV leak?",
+          "Was the manifold valve verified, and what was found?",
+          "If oil consumption remains, what measured result chooses the next branch?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ford-escape-fusion-p1450-after-refueling",
+    "slug": "ford-escape-fusion-p1450-after-refueling",
+    "title": "Ford Escape/Fusion P1450 after refueling: match the purge-valve case",
+    "description": "Separate a documented post-refueling start problem from a capless-inlet warning.",
+    "makeId": "ford",
+    "modelIds": [
+      "ford-escape",
+      "ford-fusion"
+    ],
+    "codes": [
+      "P1450",
+      "P0456"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-ford-refuel-start-purge-160075",
+      "oem-ford-escape-2013-refueling",
+      "oem-ford-escape-2013-empty-tank"
+    ],
+    "summary": "The timing of the starting problem matters as much as the code.",
+    "scope": [
+      {
+        "label": "Vehicles",
+        "value": "2013 Escape; 2013–2014 Fusion; built on/before November 9, 2013"
+      },
+      {
+        "label": "Engines in repair table",
+        "value": "Escape 1.6/2.0L; Fusion 1.5L (2014), 1.6/2.0L"
+      },
+      {
+        "label": "Bulletin",
+        "value": "16-0075, April 25, 2016"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pattern",
+        "title": "The documented pattern",
+        "paragraphs": [
+          "Ford describes difficult starting, failure to start or falling engine speed after refueling, sometimes with P1450/P0456. For the applicable vehicle and complaint, 16-0075 specifies canister-purge-valve replacement through the workshop procedure."
+        ]
+      },
+      {
+        "id": "inlet",
+        "title": "A capless-inlet warning is a different observation",
+        "paragraphs": [
+          "The 2013 Escape manual separately describes a warning caused by an inlet that has not closed. With the vehicle parked and off, its guidance checks visible debris and uses the supplied fuel funnel or nozzle to help the inlet reseal. It prohibits overfilling. The warning can take several driving cycles to disappear."
+        ]
+      },
+      {
+        "id": "empty",
+        "title": "Did the vehicle actually run out of fuel?",
+        "paragraphs": [
+          "Ford’s separate running-out-of-fuel guidance says restarting can take longer after refilling an empty tank. It also warns against prying the capless mechanism or using foreign objects/unsuitable funnels. That history should be reported, not silently equated with the bulletin’s purge fault."
+        ]
+      },
+      {
+        "id": "decision",
+        "title": "Use the history to choose the next conversation",
+        "table": {
+          "columns": [
+            "What you observed",
+            "Editorial question for service"
+          ],
+          "rows": [
+            [
+              "Repeated start trouble immediately after ordinary refueling",
+              "Ask whether the exact build/engine and complaint meet 16-0075."
+            ],
+            [
+              "Inlet warning without the starting pattern",
+              "Discuss inlet closure and the scan findings separately."
+            ],
+            [
+              "Later build, different engine or persistent fault after repair",
+              "Request the current vehicle-specific diagnosis; this case does not settle it."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "record",
+        "title": "Bring a sequence, not a guessed part",
+        "paragraphs": [
+          "Record whether the engine started normally before fueling, whether the tank was empty, what happened immediately afterward and the exact scan codes. Tell the shop whether the problem recurred after a previous purge repair. Do not disconnect vapor lines or use repeated stalls as a test. Ask how the repair will be checked against the original starting complaint."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ford-f150-p2111-p2112-throttle-body-16b32",
+    "slug": "ford-f150-p2111-p2112-throttle-body-16b32",
+    "title": "F-150 P2111/P2112: why the 2015 and 2016 repair branches differ",
+    "description": "Use the VIN-specific 16B32 history before treating every throttle-control fault alike.",
+    "makeId": "ford",
+    "modelIds": [
+      "ford-f-150"
+    ],
+    "codes": [
+      "P2111",
+      "P2112"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-ford-throttle-16b32"
+    ],
+    "summary": "Ford’s historical 16B32 action distinguished PCM programming from throttle-body replacement.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "Certain 2015–2016 F-150; VIN verification required"
+      },
+      {
+        "label": "Build windows",
+        "value": "Dearborn: August 1, 2015–May 17, 2016; Kansas City: August 31, 2015–April 27, 2016"
+      },
+      {
+        "label": "Document",
+        "value": "16B32, September 14, 2016"
+      }
+    ],
+    "sections": [
+      {
+        "id": "failure",
+        "title": "What the program described",
+        "paragraphs": [
+          "Contaminated throttle-motor contacts could increase resistance, set P2111/P2112 and cause limited-power operation at a fixed engine speed. This is not proof that every truck displaying either code has that defect."
+        ]
+      },
+      {
+        "id": "year",
+        "title": "The repair table did not treat both years alike",
+        "table": {
+          "columns": [
+            "Verified application",
+            "Historical 16B32 direction"
+          ],
+          "rows": [
+            [
+              "Affected 2015 F-150",
+              "PCM programming."
+            ],
+            [
+              "Affected 2016 F-150",
+              "Electronic throttle-body replacement."
+            ],
+            [
+              "Faults after programming",
+              "Normal service diagnosis."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "history",
+        "title": "Check the earlier repair before repeating it",
+        "paragraphs": [
+          "Editorial review: ask for the VIN campaign history and the operation actually completed. “Throttle recall done” is too vague to tell you whether software or hardware was addressed. If symptoms have returned, compare the current fault record with that earlier work. Do not assume an old program instruction proves that the same operation is now the correct repair."
+        ]
+      },
+      {
+        "id": "limitations",
+        "title": "What this document cannot promise",
+        "paragraphs": [
+          "The reviewed customer-satisfaction program expired September 30, 2017. It does not establish current free-repair eligibility. Current diagnosis and coverage need a Ford VIN check."
+        ]
+      },
+      {
+        "id": "service-request",
+        "title": "Describe reduced power precisely",
+        "paragraphs": [
+          "Tell the service adviser whether accelerator response changed, whether the truck was moving or idling and which warnings appeared. If power loss makes it unsafe to continue, stop somewhere safe and arrange assistance; do not reproduce it in traffic. Request the measured reason for any replacement, the installed software identification if updated and the technician’s verification result. These are editorial safety and handover recommendations, not a new Ford diagnostic procedure."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "audi-a3-a4-p2187-p2279-pcv",
+    "slug": "audi-a3-a4-p2187-p2279-pcv",
+    "title": "Audi A3/A4 P2187, P2279 or P1297: match the PCV hardware first",
+    "description": "Identify the applicable hardware and update history.",
+    "makeId": "audi",
+    "modelIds": [
+      "audi-a3",
+      "audi-a4"
+    ],
+    "codes": [
+      "P2187",
+      "P2279",
+      "P1297"
+    ],
+    "sourceIds": [
+      "oem-audi-crankcase-ventilation-2015505",
+      "oem-audi-17d9-update-notice"
+    ],
+    "updatedOn": "2026-10-30",
+    "summary": "A repeat repair deserves an explanation of what differs from the previous repair.",
+    "scope": [
+      {
+        "label": "Vehicles",
+        "value": "2005–2008 A4 BPG/BWT; 2006–2008 A3 BPY; VIN-limited."
+      },
+      {
+        "label": "Applicability",
+        "value": "Match the complete VIN to the table in 2015505/10."
+      }
+    ],
+    "sections": [
+      {
+        "id": "failure-pattern",
+        "title": "What the codes and symptoms have in common",
+        "paragraphs": [
+          "Audi links these faults to crankcase pressure-control or turbo-intake-pipe problems. Excess pressure can cause oil leakage; excessive vacuum can whistle and hold an unlocked filler cap firmly. Neither observation alone confirms a failed part."
+        ]
+      },
+      {
+        "id": "installed-parts",
+        "title": "The installed hardware changes the repair",
+        "table": {
+          "columns": [
+            "Workshop finding",
+            "Documented direction"
+          ],
+          "rows": [
+            [
+              "Improved valve and pipe already fitted",
+              "Use guided fault finding; replace only the failed component."
+            ],
+            [
+              "Old components fitted",
+              "Match the updated valve/pipe combination to the VIN."
+            ],
+            [
+              "Replacement valve has one check valve",
+              "A compatible check-valve turbo pipe is required."
+            ],
+            [
+              "Replacement valve has two check valves",
+              "The bulletin does not require that additional pipe."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "history",
+        "title": "An update record is useful evidence",
+        "paragraphs": [
+          "The separate March 2012 Audi notice identifies 17D9, 24T4 and 24T3 as updates, with applicability checked in the dealer campaign/action system. They concern different components: pressure control, fuel-pressure sensing and intake-manifold runner control. Audi did not describe them as recalls or promise individual owner notification.",
+          "Therefore, an owner who received no letter cannot infer that every relevant update was completed. Ask service to retrieve the VIN-specific record and identify which update applied. Do not treat all three campaign numbers as instructions to replace three parts."
+        ]
+      },
+      {
+        "id": "repeat-visit",
+        "title": "If the same fault returns after a PCV repair",
+        "paragraphs": [
+          "Use the earlier invoice as a comparison document. Request the installed part numbers, the reason the workshop selected them, and the evidence supporting today’s recommendation. A proposal that simply repeats the old invoice leaves an unanswered question: what failed or remained unresolved?",
+          "These are questions for evaluating the diagnosis, not additional Audi test requirements. Leave running-engine checks and component removal to a technician. This guide does not provide a universal crankcase-pressure specification or a parts-shopping list."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "audi-a8-p2279-p0507-breather-noise",
+    "slug": "audi-a8-p2279-p0507-breather-noise",
+    "title": "Audi A8 P2279/P0507 and a warm-idle whistle: the two-check breather diagnosis",
+    "description": "Two observations must agree before this Audi bulletin supports an oil-separator replacement.",
+    "makeId": "audi",
+    "modelIds": [
+      "audi-a8"
+    ],
+    "codes": [
+      "P2279",
+      "P227900",
+      "P0507",
+      "P050700"
+    ],
+    "sourceIds": [
+      "oem-audi-40tfsi-breather-2040644-r13"
+    ],
+    "updatedOn": "2026-10-30",
+    "summary": "The useful question is whether both observations were recorded on this vehicle.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2013–2016 Audi A8, 4.0 TFSI."
+      },
+      {
+        "label": "Reviewed bulletin",
+        "value": "2040644/13; factory displays P227900 and P050700."
+      }
+    ],
+    "sections": [
+      {
+        "id": "symptom-match",
+        "title": "Match the complaint before naming the part",
+        "paragraphs": [
+          "Audi describes a metallic whistle or grinding noise, usually at warm idle, sometimes with an intermittent warning lamp. A leaking crankcase-breather pressure regulator can produce that combination. The code descriptions concern an intake leak or unexpectedly high idle."
+        ]
+      },
+      {
+        "id": "two-checks",
+        "title": "Both checks are required",
+        "paragraphs": [
+          "The workshop compares the noise with Audi’s reference recording and checks whether opening the filler cap changes it. The documented replacement branch requires both results."
+        ],
+        "table": {
+          "columns": [
+            "Observed result",
+            "What it supports"
+          ],
+          "rows": [
+            [
+              "Reference sound matches; cap opening affects it",
+              "The bulletin directs oil-separator/breather replacement."
+            ],
+            [
+              "Only one result matches",
+              "The stated replacement condition is incomplete."
+            ],
+            [
+              "Noise cannot be reproduced",
+              "An unobserved result must not be recorded as a passed check."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "recording",
+        "title": "Make an intermittent complaint reproducible",
+        "paragraphs": [
+          "For your service booking, describe when you noticed the sound and whether the engine had already warmed up. If you already have a safe recording, bring it. Do not lean into a running engine or open the filler cap to create a demonstration yourself.",
+          "Ask the technician to document the two findings separately. “Sounds like a breather” and “both prescribed observations matched” communicate different amounts of evidence."
+        ]
+      },
+      {
+        "id": "scope-and-return",
+        "title": "What this guide does not establish",
+        "paragraphs": [
+          "This article does not establish a cause for every engine noise or every intake-leak fault. A different engine, an absent symptom or an incomplete comparison leaves the proposed repair insufficiently supported by this particular document.",
+          "Before collecting the car, ask how the workshop checked your original complaint after the repair. Keep the findings with the invoice so a later recurrence can be compared with what was actually observed. These are editorial documentation suggestions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vw-golf-jetta-tdi-p0401-soot-dpf",
+    "slug": "vw-golf-jetta-tdi-p0401-soot-dpf",
+    "title": "VW Golf/Jetta TDI P0401: the DPF and EGR-filter repair",
+    "description": "A soot finding, airflow check and adaptation determine this repair.",
+    "makeId": "volkswagen",
+    "modelIds": [
+      "volkswagen-golf",
+      "volkswagen-jetta"
+    ],
+    "codes": [
+      "P0401",
+      "P2002",
+      "P240F"
+    ],
+    "sourceIds": [
+      "oem-vw-tdi-egr-2034898-r23",
+      "oem-vw-dpf-adaptation-261302"
+    ],
+    "updatedOn": "2026-10-30",
+    "summary": "An EGR-flow fault needs a finding that explains the repair being proposed.",
+    "scope": [
+      {
+        "label": "Vehicles",
+        "value": "2009 Jetta/Jetta Wagon CBEA; 2010–2014 Golf and Jetta variants CJAA; 2.0 TDI."
+      },
+      {
+        "label": "Reviewed revision",
+        "value": "2034898/23; this is a diesel-specific case."
+      }
+    ],
+    "sections": [
+      {
+        "id": "soot",
+        "title": "The first branch is an actual soot finding",
+        "table": {
+          "columns": [
+            "Inspection at the EGR-filter/DPF connection",
+            "Bulletin direction"
+          ],
+          "rows": [
+            [
+              "Black soot found inside the connection",
+              "Replace DPF and EGR filter together."
+            ],
+            [
+              "No soot found",
+              "Continue guided diagnosis; this repair branch does not apply."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "airflow",
+        "title": "What the later airflow check changes",
+        "paragraphs": [
+          "After repair, a correctly running, fault-free engine is tested at warm idle. Activated block 67, field 3 with EGR off selects smoke-testing at/above the specified threshold, or snow-flap/air-filter inspection below it.",
+          "Match the current guided-test units; arbitrary scanner values do not apply."
+        ]
+      },
+      {
+        "id": "scope-of-parts",
+        "title": "An estimate should explain additional exhaust parts",
+        "paragraphs": [
+          "No automatic EGR-cooler, exhaust-flap or separate NOx/sulfur-catalyst replacement is prescribed. Assembly configuration affects necessary parts."
+        ]
+      },
+      {
+        "id": "reset",
+        "title": "Resetting soot values belongs after replacement",
+        "paragraphs": [
+          "Volkswagen’s separate TT 26-13-02 limits the ash/soot adaptation reset to a replaced DPF. Guided Functions performs the adaptation; the specified verification checks the reset values, completes service regeneration and rechecks faults and warning lamps.",
+          "The implication for an owner is straightforward: a reset record is evidence of a programming step, not evidence that a physical filter was replaced. Ask for both the repair record and the subsequent verification results. Do not use an adaptation reset to disguise a filter that is still fitted."
+        ]
+      },
+      {
+        "id": "handover",
+        "title": "A useful workshop handover",
+        "paragraphs": [
+          "Request a photo or written description of the inspection finding, identification of the installed exhaust assembly, and the reason for any extra component on the estimate. Ask which airflow branch applied and how the completed repair was verified.",
+          "These are editorial questions for checking that the invoice describes the work. Exhaust removal, pressurized testing and service regeneration belong in an equipped workshop; this article is not a procedure for removing or defeating emissions equipment."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vw-atlas-p0420-p0430-catalyst-software",
+    "slug": "vw-atlas-p0420-p0430-catalyst-software",
+    "title": "2018 VW Atlas P0420/P0430: why the catalyst and software repair go together",
+    "description": "Identify the applicable Atlas bulletin and distinguish catalyst faults from the separate software-only code group.",
+    "makeId": "volkswagen",
+    "modelIds": [
+      "volkswagen-atlas"
+    ],
+    "codes": [
+      "P0420",
+      "P0430"
+    ],
+    "sourceIds": [
+      "oem-vw-atlas-catalyst",
+      "oem-vw-atlas-2058272"
+    ],
+    "updatedOn": "2026-10-30",
+    "summary": "A repair estimate should identify both the hardware work and the calibration that accompanies it.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2018 Atlas, 3.6L CDVC; bulletin VIN pattern CA_JC000001–CA_JC999999."
+      },
+      {
+        "label": "Boundary",
+        "value": "2058261/4 removed model year 2019; confirm current VIN instructions."
+      }
+    ],
+    "sections": [
+      {
+        "id": "paired-remedy",
+        "title": "The matched repair contains two linked actions",
+        "paragraphs": [
+          "Volkswagen’s 2058261/4 pairs improved catalyst hardware with an ECM update intended to reduce thermal stress. For the applicable P0420/P0430 condition, it requires the replacement and update together before further component diagnosis.",
+          "This is a vehicle-specific instruction. It does not establish that a catalyst-efficiency code on a different car has the same remedy."
+        ]
+      },
+      {
+        "id": "other-codes",
+        "title": "Different stored codes can lead to a different document",
+        "paragraphs": [
+          "The separate 2058272/1 covers P0456 and P2096/P2097/P2098/P2099 on the listed 2018–2019 3.6L Atlas range. It addresses erroneous codes with ECM programming before parts diagnosis. That software-only route must not be mistaken for the catalyst-replacement instruction."
+        ],
+        "table": {
+          "columns": [
+            "Code group on the complete scan",
+            "Document to match"
+          ],
+          "rows": [
+            [
+              "P0420 and/or P0430",
+              "2058261/4, within its narrower vehicle scope."
+            ],
+            [
+              "P0456 or the listed post-catalyst fuel-trim codes",
+              "2058272/1 and current VIN applicability."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "programming-record",
+        "title": "A successful update needs a completion record",
+        "paragraphs": [
+          "The software bulletin requires the complete SVM confirmation process. For a 2018 vehicle whose SVM update fails, it directs checking applicable update 23X1 completion. It also warns that inadequate voltage can damage the module and that fans can operate during programming.",
+          "Reflashing is workshop work. A code-clear receipt alone does not document which calibration was installed or whether the update completed."
+        ]
+      },
+      {
+        "id": "previous-repairs",
+        "title": "If one part of the repair was already done",
+        "paragraphs": [
+          "Bring the previous invoice and ask service to compare its part and software records with the current instruction. Do not assume that “ECU updated” on an old invoice identifies the same update, or that a previous catalyst replacement included every later software change.",
+          "The question for the workshop is what remains applicable to this VIN and repair history. Request a written explanation of any new hardware recommendation and how completion will be demonstrated. These are editorial checks on the estimate, not a reason to repeat a documented completed repair."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bmw-x6-n63-29e0-2b16-injector-diagnosis",
+    "slug": "bmw-x6-n63-29e0-2b16-injector-diagnosis",
+    "title": "BMW X6 N63 29E0 and misfire faults: one injector or an entire bank?",
+    "description": "Native codes, test results and injector indexes explain the repair quantity.",
+    "makeId": "bmw",
+    "modelIds": [
+      "bmw-x6-xdrive50i"
+    ],
+    "codes": [
+      "29E0",
+      "29E1",
+      "2B16",
+      "2B17",
+      "2B18",
+      "2B19",
+      "2B1A",
+      "2B1B",
+      "2B1C",
+      "2B1D",
+      "2B22",
+      "2B23"
+    ],
+    "sourceIds": [
+      "oem-bmw-native-injector-context",
+      "oem-bmw-n63-injector-test-plan-130712"
+    ],
+    "updatedOn": "2026-10-30",
+    "summary": "A multi-injector estimate should explain both the failed cylinder and the hardware compatibility rule.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2014 E71 X6 xDrive50i, N63; production March 27, 2013–June 25, 2014."
+      },
+      {
+        "label": "Evidence",
+        "value": "SI B01 02 19 plus historical SI B13 07 12; verify current ISTA/parts instructions."
+      }
+    ],
+    "sections": [
+      {
+        "id": "native-codes",
+        "title": "Keep the native fault numbers intact",
+        "paragraphs": [
+          "BMW’s injector document associates long cranking, rough running, black exhaust smoke and fuel-fouled plugs with possible injector faults. Codes 29E0/29E1 concern mixture control; 2B16–2B1D identify cylinder misfires. It still requires ISTA confirmation of leaking or defective injectors.",
+          "Do not translate these numbers into guessed generic P-codes. Preserve the original scan report so a workshop can match the correct test plan."
+        ]
+      },
+      {
+        "id": "test-order",
+        "title": "The misfire test plan comes first",
+        "paragraphs": [
+          "SI B13 07 12 starts with the misfire test plan, including when the complaint is reproducible without a stored misfire code. It says to carry out that plan’s directed repair before other proposed fuel-pressure or mixture test plans. A rough-running complaint alone is not its authorization to replace every injector."
+        ]
+      },
+      {
+        "id": "index",
+        "title": "The index can change the quantity",
+        "table": {
+          "columns": [
+            "Confirmed fault and installed hardware",
+            "Historical replacement rule"
+          ],
+          "rows": [
+            [
+              "Affected bank contains injectors below index 11",
+              "Follow the bank-set replacement instruction."
+            ],
+            [
+              "Affected bank already has index 11 or higher",
+              "Replace the failed injector rather than automatically renewing the bank."
+            ],
+            [
+              "Proposed mix of index 10-or-lower with index 11-or-higher",
+              "These groups must not be mixed within the same bank."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "coverage",
+        "title": "Diagnosis and payment eligibility are separate decisions",
+        "paragraphs": [
+          "SI B01 02 19 is a VIN-limited US warranty-extension notice, not a recall. Historical time/mileage terms cannot confirm today’s coverage; request the vehicle-record and in-service-date check separately from diagnosis."
+        ]
+      },
+      {
+        "id": "estimate",
+        "title": "What should be on the estimate?",
+        "paragraphs": [
+          "Ask the workshop to identify the failed cylinder, the test result supporting that finding, and the indexes already installed on its bank. If more than one injector is proposed, the estimate should explain whether that quantity follows a compatibility rule or multiple confirmed failures.",
+          "Request separate identification of consequential items and the verification planned after repair. These questions help compare two estimates that otherwise show different quantities with no explanation. Fuel-system opening and injector installation require professional equipment and current repair instructions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mercedes-m270-m274-p012800-thermostat",
+    "slug": "mercedes-m270-m274-p012800-thermostat",
+    "title": "Mercedes P012800 on M270/M274: check software and the thermostat test",
+    "description": "Engine identity and a cold-start check determine the appropriate diagnosis.",
+    "makeId": "mercedes-benz",
+    "modelIds": [],
+    "codes": [
+      "P0128",
+      "P012800"
+    ],
+    "sourceIds": [
+      "oem-mercedes-p012800-engine-scope",
+      "oem-mercedes-p012800-production-063817",
+      "oem-mercedes-p012800-phev-074508"
+    ],
+    "updatedOn": "2026-10-30",
+    "summary": "The same fault display appears in different Mercedes instructions; vehicle identification determines which one applies.",
+    "scope": [
+      {
+        "label": "Engine scope",
+        "value": "M270/M274; the main source provides no complete model-year list."
+      },
+      {
+        "label": "Hybrid boundary",
+        "value": "205/253 plug-in hybrids have a separate reviewed instruction."
+      }
+    ],
+    "sections": [
+      {
+        "id": "warm-up",
+        "title": "What the fault actually describes",
+        "paragraphs": [
+          "LI20.10-P-060902 version 7 describes coolant warming more slowly than the ECU’s expected curve. It directs checking available engine software and following XENTRY’s R48 thermostat-heating-element test. Thermostat replacement is conditional on that guided diagnosis."
+        ]
+      },
+      {
+        "id": "build-date",
+        "title": "Why production history matters",
+        "paragraphs": [
+          "The separate LI20.10-P-063817 version 5 applies to engines manufactured from June 2016. For vehicles produced before May 2017 it specifies a software update, followed by a cooled-engine test drive. If the fault returns, the historical route is the R48 test, a fresh quick test with freeze-frame data, and a technical-support case.",
+          "This is a documented production-specific branch, not proof that the older software package remains the correct installation today. Ask Mercedes service to select the current instruction for the VIN."
+        ]
+      },
+      {
+        "id": "hybrid",
+        "title": "A plug-in hybrid is not an interchangeable application",
+        "paragraphs": [
+          "LI20.10-P-074508 addresses 205/253 plug-in hybrids. Its July 2022 instructions begin with HVAC software and guided diagnosis. If the guided test passes, it says not to repair; the document reported an engine-software correction in development at that time.",
+          "That historical development status cannot establish present availability. The technician must check current information rather than order a thermostat solely because the same code appears."
+        ]
+      },
+      {
+        "id": "verification",
+        "title": "A warm engine leaving the shop is not the complete check",
+        "paragraphs": [
+          "The main version-7 bulletin specifies complete warm-up, fault clearing, at least eight hours of cooling, then a test drive reaching at least 70°C coolant temperature. If cooling-system work is needed, it calls for new coolant and the applicable thermostat/filter-screen service information.",
+          "That sequence explains why the workshop may need the vehicle overnight. Ask the booking adviser how they will allow for the cold-start verification rather than assuming a quick code clear finishes the job."
+        ]
+      },
+      {
+        "id": "service-request",
+        "title": "A focused service request",
+        "paragraphs": [
+          "Provide the exact scan display and describe the circumstances in which you noticed the warning. Ask for the engine identification, chosen bulletin, software status, guided-test outcome and verification result on the repair order.",
+          "Do not open a hot cooling system or attempt programming from this article. The useful owner decision is whether the diagnosis and proposed repair agree, not how to bypass the prescribed test."
+        ]
+      }
+    ],
+    "engineCodes": [
+      "M270",
+      "M274"
+    ]
+  },
+  {
+    "id": "hyundai-p0128-campaign-comparison",
+    "slug": "hyundai-p0128-elantra-veloster-thermostat-software",
+    "title": "Hyundai P0128: when the answer is a thermostat, and when it is software",
+    "description": "Compare the 2017 Elantra thermostat campaign with the 2018 Elantra GT and 2019 Veloster 1.6T software campaign before authorizing a repair.",
+    "makeId": "hyundai",
+    "modelIds": [
+      "hyundai-elantra",
+      "hyundai-elantra-gt",
+      "hyundai-veloster"
+    ],
+    "codes": [
+      "P0128"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-hyundai-p0128-calibration",
+      "oem-hyundai-elantra-thermostat-tll"
+    ],
+    "summary": "Two Hyundai campaigns address the same code with different remedies. The model, engine and VIN decide which evidence is relevant.",
+    "scope": [
+      {
+        "label": "Hardware case",
+        "value": "Certain 2017 Elantra AD/ADa, 2.0L Nu MPI; campaign TLL"
+      },
+      {
+        "label": "Software case",
+        "value": "Certain 2018 Elantra GT PD and 2019 Veloster JS, 1.6L Turbo; campaign T3T"
+      },
+      {
+        "label": "Eligibility",
+        "value": "Hyundai campaign lookup for the complete VIN; these are separate applications."
+      }
+    ],
+    "sections": [
+      {
+        "id": "two-campaigns",
+        "title": "Start with the engine, not the word Elantra",
+        "paragraphs": [
+          "P0128 concerns coolant temperature remaining below the thermostat-regulation expectation. In TLL, Hyundai identifies a thermostat malfunction and specifies replacement for eligible vehicles, even without the code. T3T instead revises the ECM's diagnostic logic. A repair recommendation copied between these applications loses the fact that makes it valid."
+        ]
+      },
+      {
+        "id": "which-repair",
+        "title": "Which documented branch matches?",
+        "table": {
+          "columns": [
+            "Confirmed application",
+            "Documented response"
+          ],
+          "rows": [
+            [
+              "2017 Elantra 2.0L MPI; TLL eligibility",
+              "Thermostat replacement under 18-01-012."
+            ],
+            [
+              "2018 GT / 2019 Veloster 1.6T; T3T eligibility",
+              "ECM update under 20-01-036H."
+            ],
+            [
+              "Different engine, year or ineligible VIN",
+              "Neither campaign establishes the repair; use vehicle-specific diagnosis."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "tll-completion",
+        "title": "A thermostat job includes restoring coolant circulation",
+        "paragraphs": [
+          "The TLL procedure includes controlled refilling and air removal, using GDS coolant-filling mode, followed by a leak check and confirmation of coolant-temperature operation. An invoice that only names the new thermostat does not tell you whether those completion checks occurred. Never open a hot cooling system."
+        ]
+      },
+      {
+        "id": "t3t-completion",
+        "title": "A software job needs an actual calibration change",
+        "paragraphs": [
+          "T3T lists model-specific GDS update events: 606 for GT and 569 for Veloster, or later applicable events. Completion includes diagnostic-menu and BlueLink code checks, then an operating check. A reader reset is not programming."
+        ]
+      },
+      {
+        "id": "questions",
+        "title": "Ask for a repair decision you can verify",
+        "bullets": [
+          "Which campaign and complete vehicle configuration support this estimate?",
+          "For a hardware repair: what were the leak and temperature checks after refilling?",
+          "For programming: which calibration was installed, and what happened on the operating check?"
+        ],
+        "paragraphs": [
+          "Both bulletins describe their scoped condition as having no drivability symptoms. That wording does not clear a vehicle with overheating, coolant loss or another symptom for continued driving. Those observations require their own assessment."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kia-p0016-soul-forte-distinction",
+    "slug": "kia-p0016-soul-reluctor-forte-adaptive-reset",
+    "title": "Kia P0016: Soul reluctor alignment or Forte adaptive reset?",
+    "description": "A post-replacement Soul timing fault and a scoped Forte CVVT condition require different checks. Compare the evidence before replacing another part.",
+    "makeId": "kia",
+    "modelIds": [
+      "kia-soul",
+      "kia-forte"
+    ],
+    "codes": [
+      "P0011",
+      "P0014",
+      "P0016",
+      "P0017"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-kia-soul-post-replacement-timing",
+      "oem-kia-forte-p0016-eng170-r1"
+    ],
+    "summary": "The first question is whether the timing code appeared after engine replacement. A reset prescribed for another Kia is not evidence for the same repair here.",
+    "scope": [
+      {
+        "label": "Soul case",
+        "value": "PS731 engine table: AM/PS 2010–2019 and SK3 scope documented May 2022; verify current KGIS applicability."
+      },
+      {
+        "label": "Forte case",
+        "value": "2017–2018 YDm 2.0L MPI, built May 15, 2016–June 22, 2018; ENG170 revision 1."
+      }
+    ],
+    "sections": [
+      {
+        "id": "soul-history",
+        "title": "Soul: compare the scans before and after replacement",
+        "paragraphs": [
+          "PS731 concerns these codes appearing only after engine replacement. A mispositioned camshaft pulse wheel can send an incorrect signal. Inspect its orientation at top dead center; do not infer a failed sensor or chain."
+        ]
+      },
+      {
+        "id": "soul-evidence",
+        "title": "Two wheel types need different reference points",
+        "table": {
+          "columns": [
+            "Technician identifies",
+            "PS731 alignment reference"
+          ],
+          "rows": [
+            [
+              "Half-moon, two-flank wheel",
+              "Wheel edge relative to the camshaft-cap bolt indentation."
+            ],
+            [
+              "Castle, four-flank wheel",
+              "Flank edge relative to the top of the camshaft."
+            ]
+          ]
+        },
+        "paragraphs": [
+          "Use the illustrated factory procedure; this is not an owner repositioning instruction."
+        ]
+      },
+      {
+        "id": "forte-branch",
+        "title": "Forte: a separate, limited adaptive-value procedure",
+        "paragraphs": [
+          "ENG170 revision 1 addresses P0016 from a stuck intake CVVT assembly on its listed Forte population. Kia prescribes an ECU adaptive-value reset with KDS, then at least two drive cycles to confirm operation. Other stored codes may need separate shop-manual diagnosis. Its production range is broader than the original 2017 bulletin; the revision matters.",
+          "The factory reset runs with ignition on and engine off, with communication and power maintained. This is a controlled workshop routine, not an invitation to disconnect the battery. The Forte remedy cannot be imported into the Soul reluctor case merely because both scanners display P0016."
+        ]
+      },
+      {
+        "id": "repair-record",
+        "title": "What should the repairer show you?",
+        "bullets": [
+          "For a Soul return visit: the original scan, replacement-engine identification and the alignment finding—not just another parts estimate.",
+          "For an eligible Forte: the applicable revision, additional-code assessment and the post-reset operating result."
+        ],
+        "paragraphs": [
+          "If the proposed repair cannot be connected to either documented condition, ask the repairer to identify the vehicle-specific diagnostic path being used. Neither bulletin establishes a universal Kia P0016 repair."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeep-renegade-13-p0456-leak-test",
+    "slug": "jeep-renegade-2019-p0456-leak-test-software",
+    "title": "2019 Jeep Renegade P0456: test for a leak before the software update",
+    "description": "Understand the leak-test result, software status and capless filler on the 2019 Renegade 1.3L.",
+    "makeId": "jeep",
+    "modelIds": [
+      "jeep-renegade"
+    ],
+    "codes": [
+      "P0456",
+      "P1CEA",
+      "U0100"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-jeep-renegade-2019-p0456",
+      "oem-jeep-renegade-2019-user-guide"
+    ],
+    "summary": "The leak-test result must remain part of the diagnosis even when a software update is available.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2019 Renegade BV, 1.3L turbo MultiAir with ESS, sales code EYF; North America/EMEA"
+      },
+      {
+        "label": "Reviewed instruction",
+        "value": "18-028-20 revision A, May 20, 2020; RRT 20-034 eligibility checked by VIN"
+      }
+    ],
+    "sections": [
+      {
+        "id": "slvt",
+        "title": "Get the leak-test result on the repair order",
+        "paragraphs": [
+          "Revision A requires wiTECH Small Leak Verification Test for P0456. It also addresses P1CEA and U0100. Unrelated faults require diagnosis and repair before the update path. A stored leak code does not identify the leaking component."
+        ]
+      },
+      {
+        "id": "decision",
+        "title": "Separate three questions",
+        "table": {
+          "columns": [
+            "Question",
+            "Why the answer changes the job"
+          ],
+          "rows": [
+            [
+              "Did SLVT find a leak?",
+              "Diagnose a demonstrated leak; the flash bulletin does not negate it."
+            ],
+            [
+              "VIN on the historical RRT list?",
+              "A listed vehicle with current software can complete by inspection."
+            ],
+            [
+              "Unlisted VIN, matching condition?",
+              "A symptom-based repair route also exists."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "capless",
+        "title": "Do not buy a gas cap for the documented capless system",
+        "paragraphs": [
+          "The 2019 Renegade user guide describes a capless filler with a flap operated by the fuel nozzle. It warns against adding plugs or objects to the filler neck. If your car has this arrangement, a generic internet instruction to tighten a screw-on cap does not fit it. Tell the workshop about any filler damage or refueling difficulty instead of improvising a seal."
+        ]
+      },
+      {
+        "id": "owner-observations",
+        "title": "Useful observations without dismantling anything",
+        "paragraphs": [
+          "Bring the scan report and note whether the warning followed refueling, a repair or an intermittent no-crank episode. Keep those as observations, not a diagnosis. A workshop can then connect the leak-test finding and software status to the actual complaint rather than treating every reported symptom as one fault.",
+          "The user guide calls for immediate service if the engine warning flashes; persistent illumination also needs service. This article does not classify a flashing warning or poor running as a harmless EVAP fault."
+        ]
+      },
+      {
+        "id": "completion",
+        "title": "A completed job should answer both questions",
+        "paragraphs": [
+          "Ask what the leak test established and which PCM version is now installed. If a part was replaced, ask where the fault was demonstrated and how the repair was checked. These are editorial review questions, not additional steps claimed to appear in the bulletin."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dodge-challenger-2022-evap-calibration-selection",
+    "slug": "dodge-challenger-2022-p0456-p0455-software",
+    "title": "2022 Dodge Challenger P0456 or P0455: choose the correct EVAP bulletin",
+    "description": "Compare the EZH, EZC and ESG engine bulletins, understand the manual-transmission completion step, and separate a software case from a demonstrated leak.",
+    "makeId": "dodge",
+    "modelIds": [
+      "dodge-challenger"
+    ],
+    "codes": [
+      "P0455",
+      "P0456",
+      "P0440",
+      "P0441"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-dodge-challenger-evap-calibration",
+      "oem-dodge-challenger-ezc-evap",
+      "oem-dodge-challenger-esg-evap",
+      "oem-stellantis-evap-accessory-damage"
+    ],
+    "summary": "Dodge published separate software instructions for three Challenger engines. Matching the fault code is only the first part of matching the repair.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2022 Challenger LA; engine sales code EZH, EZC or ESG as listed below"
+      },
+      {
+        "label": "Codes",
+        "value": "P0455/P0456 leak detection; P0440 system fault; P0441 purge performance"
+      }
+    ],
+    "sections": [
+      {
+        "id": "engine-table",
+        "title": "Use the engine sales code to select the document",
+        "table": {
+          "columns": [
+            "2022 engine application",
+            "Reviewed bulletin"
+          ],
+          "rows": [
+            [
+              "5.7L Hemi MDS VVT, EZH",
+              "18-091-23; August 16, 2023"
+            ],
+            [
+              "5.7L Hemi VVT, EZC",
+              "18-090-23; August 16, 2023"
+            ],
+            [
+              "6.4L SRT Hemi MDS, ESG",
+              "18-096-23; August 29, 2023"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "All three identify PCM software as the cause of a condition involving one or more of those codes. That supports a calibration investigation on the matching vehicle; it does not identify a leaking component or extend the remedy to another model year."
+        ]
+      },
+      {
+        "id": "diagnostic-prerequisite",
+        "title": "What would make a flash-only estimate incomplete?",
+        "paragraphs": [
+          "The 5.7L EZH bulletin requires related-system checks and resolution of other faults before reprogramming. A repair order should therefore distinguish the supported software condition from any additional diagnosis. A measured leak, damage or separate code must not disappear from the explanation simply because an update exists."
+        ]
+      },
+      {
+        "id": "physical-evidence",
+        "title": "For a failed leak test, include modification history",
+        "paragraphs": [
+          "A separate Stellantis STAR experience note, S2325000006, advises inspecting accessory-installation damage when P0455/P0456 accompany a failed SLVT. Its examples include over-drilled holes and fasteners rubbing through components. This is a general diagnostic lead, not a Challenger-specific defect finding or authorization to replace parts. With no abnormality found, the note returns the technician to normal diagnosis."
+        ]
+      },
+      {
+        "id": "completion",
+        "title": "Manual-transmission completion differs",
+        "paragraphs": [
+          "The two 5.7L bulletins include a Top Gear Learn branch for sales code DEC manual transmission after programming. The reviewed 6.4L bulletin does not prescribe that branch. Have the workshop use the selected document and transmission configuration; do not attempt a road-speed relearn from a summary page."
+        ]
+      },
+      {
+        "id": "estimate",
+        "title": "Ask for findings, not a shopping list",
+        "bullets": [
+          "Which engine sales code and bulletin match my VIN?",
+          "Was the conclusion software-only, or was a physical leak actually demonstrated?",
+          "If parts are proposed, where is the failed location or functional test?",
+          "Which programming and transmission-specific completion checks were performed?"
+        ],
+        "paragraphs": [
+          "Keep photos or invoices for recent accessory work available. They can help the technician decide where to look, but they are not proof that the installer caused this warning."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ram1500-etorque-p0128-three-modules",
+    "slug": "ram-1500-2019-p0128-etorque-calibration",
+    "title": "2019 Ram 1500 eTorque P0128: check the revision and all three modules",
+    "description": "Check the later bulletin, companion faults and PCM/HCP/TCM completion before approving an eTorque repair.",
+    "makeId": "ram",
+    "modelIds": [
+      "ram-1500"
+    ],
+    "codes": [
+      "P0128",
+      "P0456",
+      "P06EF",
+      "P0175",
+      "P258B"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-ram1500-p0128-calibration",
+      "oem-ram1500-p0128-1807022",
+      "oem-ram1500-p0128-1805820"
+    ],
+    "summary": "An old build cutoff or an incomplete controller update can leave the repair decision unresolved.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2019 Ram 1500 DT, 3.6L eTorque ERG"
+      },
+      {
+        "label": "Later reviewed scope",
+        "value": "18-070-22: North America, APAC, EMEA and LATAM; current VIN-specific instructions still required."
+      }
+    ],
+    "sections": [
+      {
+        "id": "revision",
+        "title": "Do not reject the case using the old April cutoff",
+        "paragraphs": [
+          "The earlier 18-009-19 revision B limited its application to trucks built through April 12, 2019. The intervening 18-058-20 superseded revision C, retained the 2019 ERG application and omitted that cutoff. The later reviewed 18-070-22 supersedes 18-058-20 and expands the listed markets. This history is a reason to inspect the revision attached to an estimate, not to claim every truck qualifies today."
+        ]
+      },
+      {
+        "id": "p0128",
+        "title": "What P0128 establishes—and what it does not",
+        "paragraphs": [
+          "18-070-22 lists P0128 but requires related-system checks and correction of unlisted faults first. It supplies no thermostat-failure test. Ask which independent finding supports any proposed thermostat replacement."
+        ]
+      },
+      {
+        "id": "three-modules",
+        "title": "Complete the controller checks",
+        "table": {
+          "columns": [
+            "Controller",
+            "Required completion in the reviewed bulletin"
+          ],
+          "rows": [
+            [
+              "PCM",
+              "Applicable update."
+            ],
+            [
+              "HCP",
+              "Current applicable software."
+            ],
+            [
+              "TCM",
+              "Current applicable software."
+            ]
+          ]
+        },
+        "paragraphs": [
+          "Ask for the final calibration identifiers on the work order. That gives a later repairer something more useful than the phrase 'computer updated'. Programming and hybrid-system work belong to a qualified workshop."
+        ]
+      },
+      {
+        "id": "companion-code",
+        "title": "A companion P0456 changes the evidence needed",
+        "paragraphs": [
+          "Companion P0456 requires wiTECH SLVT in the later bulletin. Ask how each fault was resolved."
+        ]
+      },
+      {
+        "id": "return-visit",
+        "title": "If the warning returns",
+        "paragraphs": [
+          "Bring the earlier invoice and the new scan together. Ask whether the same fault returned, whether the intended calibration was installed, and what independent test now supports the proposed next repair. Those questions distinguish a recurring complaint from a new one without prescribing an unsupported repeat flash or thermostat replacement."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeep-grand-cherokee-2023-p0456-filler",
+    "slug": "jeep-grand-cherokee-2023-p0456-filler-tube",
+    "title": "2023 Jeep Grand Cherokee P0456: prove a filler-tube leak before replacement",
+    "description": "Use the initial SLVT, weld-area finding and repeated leak test to evaluate a filler-tube estimate.",
+    "makeId": "jeep",
+    "modelIds": [
+      "jeep-grand-cherokee"
+    ],
+    "codes": [
+      "P0456"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-jeep-grand-cherokee-p0456-filler",
+      "oem-stellantis-evap-accessory-damage"
+    ],
+    "summary": "A matching vehicle and code do not justify replacement without the specified leak finding.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2023 Grand Cherokee WL, 3.6L ERC, built through November 26, 2022; North America"
+      },
+      {
+        "label": "Document",
+        "value": "14-007-23, August 11, 2023; historical RSU 23-238 is not a promise of current coverage."
+      }
+    ],
+    "sections": [
+      {
+        "id": "gates",
+        "title": "Three findings control the repair",
+        "table": {
+          "columns": [
+            "Workshop result",
+            "Documented direction"
+          ],
+          "rows": [
+            [
+              "Initial Small Leak Verification Test passes",
+              "Inspection-only completion; no filler replacement under this branch."
+            ],
+            [
+              "SLVT fails",
+              "Leak-test the EVAP system and inspect the vapor-recirculation tube at the bracket weld."
+            ],
+            [
+              "No leak found there",
+              "The bulletin ends without authorizing its replacement."
+            ],
+            [
+              "Leak confirmed",
+              "Replace the filler tube; repeat SLVT."
+            ],
+            [
+              "SLVT still fails after replacement",
+              "Continue diagnosis; the replacement has not resolved the test failure."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "location",
+        "title": "The location matters as much as the code",
+        "paragraphs": [
+          "Ask the technician to identify the failed weld-area location in a photo or inspection note. A test that proves the system leaks is different from evidence that this assembly leaks. That distinction is especially useful when an estimate lists several EVAP parts without explaining which one failed."
+        ]
+      },
+      {
+        "id": "accessory",
+        "title": "Make recent accessory work part of the history",
+        "paragraphs": [
+          "Stellantis experience note S2325000006 separately describes damaged vapor-system components after accessory installation, including fastener contact and excessive drilling. It applies as a lead after a failed small-leak test, not proof of this Grand Cherokee defect. The note establishes no vehicle-specific conclusion; normal diagnosis continues if inspection finds nothing."
+        ]
+      },
+      {
+        "id": "confirmation",
+        "title": "What counts as a useful completion record?",
+        "paragraphs": [
+          "Ask for the first SLVT result, the confirmed location and the post-repair SLVT result on the invoice. If the last test still fails, the work should be described as an incomplete diagnosis rather than a successful repair with a stubborn warning light. Keep the evidence together if another workshop takes over.",
+          "The historical RSU expired after 18 months. Confirm current eligibility and charges separately; the technical bulletin does not guarantee free work."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "porsche-cayenne-panamera-camshaft-faults",
+    "slug": "porsche-cayenne-panamera-camshaft-faults",
+    "title": "Porsche Cayenne and Panamera camshaft codes: evidence before an engine estimate",
+    "description": "Read the fault combination, mechanical findings and campaign history as separate pieces of evidence.",
+    "makeId": "porsche",
+    "modelIds": [
+      "porsche-cayenne",
+      "porsche-panamera"
+    ],
+    "codes": [
+      "P000A",
+      "P0011",
+      "P000C",
+      "P0021",
+      "P0068",
+      "P1074",
+      "P0300",
+      "P1023",
+      "P1026",
+      "P1031",
+      "P053F"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-porsche-camshaft-adjuster-diagnosis",
+      "oem-porsche-panamera-ah08"
+    ],
+    "summary": "A timing complaint needs a documented mechanical finding before a major repair decision.",
+    "scope": [
+      {
+        "label": "Diagnostic case",
+        "value": "2011–2012 Cayenne S/Turbo; 2010–2012 Panamera/S/Turbo."
+      },
+      {
+        "label": "Campaign document",
+        "value": "Separate Panamera/Panamera 4 AH08 instructions; campaign assignment is VIN-specific."
+      }
+    ],
+    "sections": [
+      {
+        "id": "read-together",
+        "title": "Read the fault families together",
+        "paragraphs": [
+          "Porsche ATI 1201/1584 associates camshaft-adjuster failures with timing, sensor, misfire, airflow and fuel-pressure faults. Its first step is a Vehicle Analysis Log and DME fault review. A fuel-pressure or airflow code by itself is not confirmation of adjuster failure."
+        ]
+      },
+      {
+        "id": "mechanical-evidence",
+        "title": "What the workshop must establish",
+        "table": {
+          "columns": [
+            "Finding",
+            "Meaning in the 2012 diagnostic case"
+          ],
+          "rows": [
+            [
+              "Intake timing faults",
+              "Investigate the affected bank."
+            ],
+            [
+              "Bank 1 camshaft does not turn during the specified manual check",
+              "Possible adjuster failure."
+            ],
+            [
+              "Bank 2 concern",
+              "Direct inspection requires cover removal."
+            ],
+            [
+              "Broken adjuster bolt heads",
+              "Assess repair feasibility versus engine replacement; a feasible repair calls for both adjusters."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "campaign-history",
+        "title": "A recall record answers a different question",
+        "paragraphs": [
+          "The January 2018 Panamera AH08 instructions require vehicle assignment to the campaign. They prescribe replacement fastening screws and, where necessary, one or both controllers. They also describe a prior-repair exception: when both controllers already have part number 948.105.051.22 or a later index, the campaign work is not repeated and the prior completion is documented.",
+          "These campaign instructions have their own vehicle scope. They do not establish that every car in the earlier diagnostic bulletin has an open recall, or that a recall repair will resolve every timing code."
+        ]
+      },
+      {
+        "id": "assess-estimate",
+        "title": "Turn an engine estimate into an evidence trail",
+        "paragraphs": [
+          "Ask the service adviser to separate three answers: what the scan recorded, what inspection actually demonstrated, and what the vehicle history shows. A quote that jumps directly from a code to an engine leaves the central diagnostic question unanswered.",
+          "Request photographs or a written description of the observed damage, the affected bank, and the reason a smaller repair is or is not feasible. For a campaign decision, ask for the VIN inquiry and previous repair record rather than a model-year assumption. These are editorial review questions, not extra Porsche test steps."
+        ]
+      },
+      {
+        "id": "workshop-only",
+        "title": "Do not reproduce the internal checks yourself",
+        "paragraphs": [
+          "Leave internal engine checks to qualified service using the complete procedure. Describe abnormal running without trying to reproduce it. This guide helps assess a decision; it does not provide dismantling instructions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-rogue-p0456-fuel-cap-leak-test",
+    "slug": "nissan-rogue-p0456-fuel-cap-leak-test",
+    "title": "2018 Nissan Rogue P0456: a loose cap or a real EVAP leak?",
+    "description": "Separate the dashboard cap message, stored leak codes and a measured leak before replacing parts.",
+    "makeId": "nissan",
+    "modelIds": [
+      "nissan-rogue"
+    ],
+    "codes": [
+      "P0442",
+      "P0455",
+      "P0456"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-nissan-evap-cap",
+      "oem-nissan-rogue-2018-owner"
+    ],
+    "summary": "A cap warning is useful evidence; it is not a failed-part diagnosis.",
+    "scope": [
+      {
+        "label": "Example vehicle",
+        "value": "2018 Nissan Rogue with a conventional fuel cap."
+      },
+      {
+        "label": "Technical reference",
+        "value": "NTB13-097I, March 2021; exact vehicle procedure still applies."
+      }
+    ],
+    "sections": [
+      {
+        "id": "owner-check",
+        "title": "What the owner can check",
+        "paragraphs": [
+          "For the 2018 Rogue, Nissan specifies inserting the cap straight and turning it clockwise until one click. After reseating it, the Loose Fuel Cap message can be dismissed with the steering-wheel OK button held for about a second. Do this while stopped.",
+          "The manual distinguishes that message from the malfunction lamp. A lamp caused by a loose or missing cap may take a few trips to extinguish. If it remains, arrange inspection. A blinking lamp is a different condition associated with misfire; do not treat it as a cap reminder."
+        ]
+      },
+      {
+        "id": "measured-test",
+        "title": "What separates the two repair branches",
+        "paragraphs": [
+          "For stored P0442, P0455 or P0456, NTB13-097I calls for a controlled EVAP leak test. The technician secures the cap, closes the vent through CONSULT and monitors test pressure for ten minutes."
+        ],
+        "table": {
+          "columns": [
+            "Result",
+            "Documented direction"
+          ],
+          "rows": [
+            [
+              "Pressure stable and purge valve not leaking",
+              "No leak found: loose-cap explanation; no cap or other EVAP parts replacement."
+            ],
+            [
+              "Pressure drops or purge valve leaks",
+              "Continue vehicle-specific leak diagnosis."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "test-connection",
+        "title": "Why the test connection matters",
+        "paragraphs": [
+          "The bulletin distinguishes systems with a service port from those without one. On its 2018-and-newer no-port arrangement, the purge valve needs a separate leak check. A test that excludes that valve cannot, by itself, clear it. The bulletin does not use a test drive to confirm these leak codes."
+        ]
+      },
+      {
+        "id": "before-purchase",
+        "title": "Before buying a cap, valve or canister",
+        "paragraphs": [
+          "Ask which component leaked and how the shop located it. If the only finding is that the original cap was loose, ask why a replacement is proposed. If the cap was already secure, ask for the leak-test result rather than accepting a guess based on the code number.",
+          "Keep a note of the last refueling and whether the cap message appeared first. That chronology helps explain the complaint without assigning a cause. Repeatedly dismissing the message is not a substitute for resolving a returning fault."
+        ]
+      },
+      {
+        "id": "scope-boundary",
+        "title": "Keep this example tied to the vehicle",
+        "paragraphs": [
+          "These owner controls are specific to the cited Rogue manual. Other Nissan models can use different displays and fuel-filler arrangements. Pressurizing fuel-vapor plumbing and commanding valves belong to a trained workshop using the applicable equipment and procedure."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-pathfinder-p17f0-p17f1-cvt-judder",
+    "slug": "nissan-pathfinder-p17f0-p17f1-cvt-judder",
+    "title": "Nissan Pathfinder P17F0 and P17F1: why the repair branches differ",
+    "description": "Understand the required judder complaint, chain-inspection branch and diagnostic-software check.",
+    "makeId": "nissan",
+    "modelIds": [
+      "nissan-pathfinder"
+    ],
+    "codes": [
+      "P17F0",
+      "P17F1"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-nissan-v6-cvt-judder-039q",
+      "oem-nissan-cvt-judder-logic-014c"
+    ],
+    "summary": "The complete complaint and stored code determine which CVT decision path can be used.",
+    "scope": [
+      {
+        "label": "Repair case",
+        "value": "2013–2020 Pathfinder R52, V6 CVT."
+      },
+      {
+        "label": "Reviewed procedure",
+        "value": "NTB17-039Q, December 2023; no four-cylinder or later-generation extrapolation."
+      }
+    ],
+    "sections": [
+      {
+        "id": "entry-conditions",
+        "title": "The bulletin has three entry conditions",
+        "paragraphs": [
+          "NTB17-039Q requires reported transmission judder plus P17F0 or P17F1, with no other stored DTCs. Missing judder, neither code, or additional codes takes the vehicle outside this particular repair flow. A scan result alone therefore does not authorize its repair."
+        ]
+      },
+      {
+        "id": "repair-branches",
+        "title": "P17F0 and P17F1 are not interchangeable",
+        "table": {
+          "columns": [
+            "Qualified finding",
+            "December 2023 repair branch"
+          ],
+          "rows": [
+            [
+              "P17F0",
+              "CVT sub-assembly and valve-body replacement."
+            ],
+            [
+              "P17F1, chain inspection acceptable",
+              "Valve body only."
+            ],
+            [
+              "P17F1, chain inspection unacceptable",
+              "Sub-assembly and valve body."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "inspection-record",
+        "title": "The inspection must support the quote",
+        "paragraphs": [
+          "The P17F1 branch uses physical chain inspection. The older CONSULT CVT INSPECTION test is not accepted for warranty repairs in this bulletin. The procedure also checks TCM programming and requires the specified follow-up service after control-valve replacement."
+        ]
+      },
+      {
+        "id": "earlier-software",
+        "title": "Early vehicles have a separate software question",
+        "paragraphs": [
+          "NTB15-014C describes added diagnostic logic for judder. For Pathfinder, its application is 2013–2014 vehicles and certain 2015 V6 vehicles built before April 14, 2015, subject to the listed VIN limits. Applicability also requires a match between the installed TCM part number and the bulletin table.",
+          "That update helps the control module store the relevant diagnostic codes. It is not evidence that worn transmission hardware is repaired by software. A technician should record the existing identifier and determine whether this separate update applies; do not assume every 2013–2020 Pathfinder needs it."
+        ]
+      },
+      {
+        "id": "authorize",
+        "title": "Make the authorization match the branch",
+        "paragraphs": [
+          "On the repair order, ask for the exact code, the reported sensation and the chain-inspection outcome. If the proposal is a whole transmission, ask why that assembly is being selected instead of the documented sub-assembly or valve-body route. Other findings may justify a different decision, but they should be stated.",
+          "Keep the diagnostic and repair authorizations separate if the shop cannot know the chain condition until inspection. Agree on what evidence will be supplied before additional parts are approved. These are editorial purchasing questions; they do not change Nissan’s technical procedure."
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "This is not a home transmission test",
+        "paragraphs": [
+          "Internal CVT inspection and programming require qualified service. Describe the symptom as you experienced it; do not deliberately provoke repeated judder to gather more evidence. Ask the workshop whether the vehicle should be transported based on its actual condition."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "subaru-p2682-thermo-control-valve",
+    "slug": "subaru-p2682-thermo-control-valve",
+    "title": "Subaru P2682: confirm the thermo control valve and repair eligibility",
+    "description": "Distinguish the documented sensor-intrusion concern, revised part identification and VIN-specific coverage.",
+    "makeId": "subaru",
+    "modelIds": [
+      "subaru-outback",
+      "subaru-forester"
+    ],
+    "codes": [
+      "P2682"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-subaru-thermo-valve-design",
+      "oem-subaru-thermo-valve-extension"
+    ],
+    "summary": "The code, installed component and vehicle coverage are separate checks.",
+    "scope": [
+      {
+        "label": "Selected vehicles",
+        "value": "2020–2022 Outback; 2019–2021 Forester, with the applicable thermo control valve."
+      },
+      {
+        "label": "Reviewed documents",
+        "value": "09-80-21R, April 2024 revision; 09-119-24 warranty extension."
+      }
+    ],
+    "sections": [
+      {
+        "id": "documented-failure",
+        "title": "What Subaru documented",
+        "paragraphs": [
+          "Subaru describes coolant vapor entering the valve’s sensor area, with P2682 or P26A-family faults possible. The updated assembly improves shaft durability and sensor waterproofing. This identifies a known failure mechanism; it does not establish that every cooling complaint or every stored code is caused by that mechanism."
+        ]
+      },
+      {
+        "id": "part-identification",
+        "title": "The part number alone can be misleading",
+        "paragraphs": [
+          "In 09-80-21R, all 21319AA040 valves incorporate the design change. The 21319AA010 number continued across the change, so its production-date code matters; parts made after June 7, 2021 incorporate it. The date marking cannot be read with the valve installed. Order the current part against the VIN rather than treating this historical number as a shopping instruction."
+        ]
+      },
+      {
+        "id": "eligibility",
+        "title": "Check coverage before accepting a customer-pay repair",
+        "paragraphs": [
+          "The April 2024 extension describes 15 years or 150,000 miles of TCV coverage for specified vehicles. It explicitly requires a Subaru Vehicle Coverage Inquiry before repair. Its Outback/Legacy list includes 2022, while the cited design-change bulletin lists 2020–2021; the two scope lists serve different purposes.",
+          "A matching model year does not establish present eligibility. Ask the retailer to check the VIN, in-service date, mileage and repair circumstances. The extension also describes reimbursement for certain earlier out-of-pocket repairs, with limits for amounts already reimbursed. Keep the repair invoice and payment proof if that question applies to you."
+        ]
+      },
+      {
+        "id": "complete-repair",
+        "title": "What a complete repair needs to account for",
+        "paragraphs": [
+          "Subaru retains the full service-manual procedure. It specifically identifies the high-pressure fuel delivery pipe, intake-manifold gaskets and EGR-cooler gaskets as one-time-use items involved in this work. This is more than exchanging an accessible external sensor."
+        ]
+      },
+      {
+        "id": "evidence-questions",
+        "title": "Three useful questions for the service adviser",
+        "bullets": [
+          "Which diagnostic finding confirms the TCV concern on this vehicle, and which competing fault was ruled out?",
+          "What does the vehicle coverage inquiry show, and is the proposed part the current VIN-matched replacement?",
+          "Does the written estimate include the required associated parts and verification after installation?"
+        ]
+      },
+      {
+        "id": "owner-boundary",
+        "title": "What to record without dismantling anything",
+        "paragraphs": [
+          "Record the complete code display, warning messages and any change in cabin heat or indicated engine temperature. These are observations to give the workshop, not confirmation of valve failure. Do not remove fuel-system parts or open a hot cooling system to inspect the valve. The questions above are editorial aids, not a replacement diagnosis."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "subaru-outback-p2764-cvt-electrical",
+    "slug": "subaru-outback-p2764-cvt-electrical",
+    "title": "Subaru Outback P2764: check the electrical branch before condemning the CVT",
+    "description": "Why module location, fluid temperature and recorded circuit measurements matter to this fault.",
+    "makeId": "subaru",
+    "modelIds": [
+      "subaru-outback",
+      "subaru-legacy"
+    ],
+    "codes": [
+      "P2764"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-subaru-cvt-solenoid-diagnosis",
+      "oem-subaru-cvt-repair-policy-2025"
+    ],
+    "summary": "A solenoid-related code needs an electrical diagnosis with the correct vehicle specifications.",
+    "scope": [
+      {
+        "label": "Selected cases",
+        "value": "2019 Legacy/Outback 2.5L CVT; 2020 Legacy/Outback 2.4L CVT."
+      },
+      {
+        "label": "References",
+        "value": "16-131-20R diagnosis; 16-155-25R repair and coverage policy."
+      }
+    ],
+    "sections": [
+      {
+        "id": "choose-chart",
+        "title": "Choose the chart before choosing the component",
+        "paragraphs": [
+          "P2764 belongs to Subaru’s LOW-code group. The charts also split by TCM location: outside or inside the transmission. The workshop must select both the code group and the correct module arrangement."
+        ]
+      },
+      {
+        "id": "temperature",
+        "title": "Why a cold measurement is not the whole result",
+        "paragraphs": [
+          "The procedure compares cold and warm conditions, around 20°C and 80°C. Results and relevant fluid temperatures must be recorded. Vehicle-specific connector pins and normal resistance values come from the service manual, not this generic chart."
+        ]
+      },
+      {
+        "id": "circuit-evidence",
+        "title": "What the circuit investigation can distinguish",
+        "paragraphs": [
+          "Connector faults, harness damage and internal wiring checks precede component conclusions. The internal work starts only after fluid has cooled. This is professional electrical diagnosis, not permission to probe unknown terminals."
+        ]
+      },
+      {
+        "id": "component-or-assembly",
+        "title": "A whole CVT is not the only documented repair scope",
+        "paragraphs": [
+          "For these selected vehicles, July 2025 bulletin 16-155-25R requires component repairs when they will correct the failure. Its list includes the valve body, harness and TCM; valve-body replacement is qualified by the absence of fluid contamination from an internal failure. More extensive damage can change the decision.",
+          "The same bulletin describes a 10-year/100,000-mile CVT extension, subject to a Subaru Vehicle Coverage Inquiry and other terms. Its extra one-year window for certain out-of-limit vehicles ended June 30, 2026. Do not present that temporary window as ongoing coverage. The VIN inquiry must establish what applies now."
+        ]
+      },
+      {
+        "id": "ask-for-evidence",
+        "title": "What to ask before authorizing the work",
+        "paragraphs": [
+          "Request the diagnostic worksheet alongside the estimate. It should let you understand the tested circuit, the measured result and the reason the proposed repair follows. If the quoted scope is larger than the isolated fault appears to require, ask which additional finding explains the difference.",
+          "After an earlier repair, bring the invoice and ask what changed between the two visits. A repeat code can justify more investigation without proving that the same part should simply be purchased again. These are editorial questions for reviewing the evidence, not an alternative workshop procedure."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mazda-cx5-p0126-thermostat-set",
+    "slug": "mazda-cx5-p0126-thermostat-set",
+    "title": "Mazda CX-5 P0126: when the thermostat-set repair applies",
+    "description": "Check the companion code and recorded coolant temperature before choosing a cooling-system repair.",
+    "makeId": "mazda",
+    "modelIds": [
+      "mazda-cx-5"
+    ],
+    "codes": [
+      "P0126"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-mazda-p0126-thermostat-set",
+      "oem-mazda-sspd8-repair"
+    ],
+    "summary": "The important distinction is whether the recorded fault fits Mazda’s specific thermostat case.",
+    "scope": [
+      {
+        "label": "Case vehicle",
+        "value": "2021–2024 CX-5, naturally aspirated 2.0L/2.5L; 2.5T excluded."
+      },
+      {
+        "label": "Fault display",
+        "value": "P0126:00; reviewed procedure 01-005/24."
+      }
+    ],
+    "sections": [
+      {
+        "id": "symptom-context",
+        "title": "Symptoms support the case, but do not select the part",
+        "paragraphs": [
+          "Mazda describes delayed warm-up, variable indicated temperature, a prolonged blue temperature lamp or weak cabin heat, particularly at idle. Record which symptom occurred rather than treating every poor-heater complaint as this fault."
+        ]
+      },
+      {
+        "id": "qualification",
+        "title": "Two findings change the diagnostic direction",
+        "table": {
+          "columns": [
+            "Finding",
+            "Direction in 01-005/24"
+          ],
+          "rows": [
+            [
+              "P2B61:00 accompanies the complaint",
+              "This procedure does not apply; use Mazda’s diagnostic instructions."
+            ],
+            [
+              "Freeze-frame coolant temperature around 40–80°C (104–176°F)",
+              "Proceed through the bulletin’s qualified repair path."
+            ],
+            [
+              "Freeze-frame coolant temperature outside that range",
+              "Use normal diagnosis; do not apply this repair from P0126 alone."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "repair-scope",
+        "title": "The reviewed repair uses a thermostat set",
+        "paragraphs": [
+          "The reviewed 01-005/24 procedure replaces the thermostat within the coolant-control-valve assembly using a thermostat set, then checks for coolant leakage. Do not automatically carry forward an older recommendation for a complete valve assembly. The selected repair still needs current vehicle-specific confirmation."
+        ]
+      },
+      {
+        "id": "coverage",
+        "title": "What the service program adds",
+        "paragraphs": [
+          "Mazda’s March 2025 SSPD8 instructions direct dealers to verify the complaint and use the latest 01-005/24 procedure. They describe a warranty extension for the specified fail-safe-thermostat repair, not preventive replacement of a working part. Owners without the affected condition are not asked to bring the car in solely for this program.",
+          "The program has its own VIN and eligibility requirements. Ask for the vehicle inquiry before authorizing customer-pay work. Its owner guidance also discusses reimbursement for eligible prior repairs paid by the owner; retain the invoice and proof of payment and ask Mazda to confirm the current process. Publication of the program does not itself guarantee coverage for your car."
+        ]
+      },
+      {
+        "id": "compare-quotes",
+        "title": "How to compare two different repair estimates",
+        "paragraphs": [
+          "Ask each shop to identify the companion-code result, the saved coolant temperature, and the procedure revision it used. If one quote includes an entire control valve and the other a thermostat set, ask what vehicle-specific finding explains that difference. Comparing totals without comparing the diagnosed fault can obscure the real disagreement.",
+          "These are editorial questions for an informed authorization, not instructions to open the cooling system. After repair, ask what verification was performed and what result would justify returning. Avoid selecting a repair purely because someone with a different model year reported the same code."
+        ]
+      }
+    ]
   }
 ]
