@@ -137,7 +137,7 @@
   },
   {
     "id": "oem-ram1500-p0128-calibration",
-    "title": "18-009-19 RevB",
+    "title": "18-009-19 revision B — historical scope (May 9, 2019)",
     "publisher": "FCA US LLC",
     "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10162544-9999.pdf",
     "checkedOn": "2026-10-30",
@@ -145,7 +145,7 @@
   },
   {
     "id": "oem-ram-diesel-p0401",
-    "title": "18-130-22",
+    "title": "18-130-22 — superseded July 9, 2022 version",
     "publisher": "FCA US LLC",
     "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10223796-9999.pdf",
     "checkedOn": "2026-10-30",
@@ -212,6 +212,366 @@
     "title": "2013060/7 (2015-03-12)",
     "publisher": "Audi of America",
     "url": "https://static.nhtsa.gov/odi/tsbs/2015/MC-10119942-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-toyota-camry-transaxle-software-confirmation",
+    "title": "T-SB-0010-18 Rev1 — Transaxle/software confirmation (2018-11-15)",
+    "publisher": "Toyota Motor Sales, USA",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10152194-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-honda-crv-update-19025",
+    "title": "19-025 version 1 — CR-V prerequisite update (2019-03-01)",
+    "publisher": "American Honda Motor Co.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10154475-0001.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-acura-p0430-15053-history",
+    "title": "15-053 version 1 — Superseded P0430 software history (2015-12-22)",
+    "publisher": "American Honda Motor Co.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2015/SB-10099805-9340.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-lexus-rx450h-p0430-history",
+    "title": "L-SB-0127-11 Rev2 — Superseded application (2014-04-07)",
+    "publisher": "Lexus / Toyota Motor Sales, USA",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2011/SB-10060760-2280.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-toyota-prius-battery-cooling-2020",
+    "title": "T-SB-0074-20 — Battery cooling-path faults (2020-08-05)",
+    "publisher": "Toyota Motor Sales, USA",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10179698-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-toyota-prius-battery-cooling-2013",
+    "title": "T-SB-0153-13 — 2004–2009 Prius debris case (2013-10-08)",
+    "publisher": "Toyota Motor Sales, USA",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10132091-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-honda-accord-v6-misfire-13078",
+    "title": "13-078 — Accord V6 misfire diagnostic branches (2014-07-24)",
+    "publisher": "American Honda Motor Co.",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2014/MC-10128569-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-honda-accord-2012-owner-manual",
+    "title": "2012 Accord Sedan Owner's Manual — Malfunction indicator and readiness, page 398",
+    "publisher": "American Honda Motor Co.",
+    "url": "https://techinfo.honda.com/rjanisis/pubs/om/A51212/A51212OM.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-chevrolet-colorado-2021-manual",
+    "title": "2021 Colorado owner manual — warning lamps and emissions readiness",
+    "publisher": "General Motors",
+    "url": "https://www.chevrolet.com/ownercenter/content/dam/gmownercenter/gmna/dynamic/manuals/2021/chevrolet/colorado/2021-chevrolet-colorado-owners-manual.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-chevrolet-silverado-2017-manual",
+    "title": "2017 Silverado owner manual — engine air cleaner",
+    "publisher": "General Motors",
+    "url": "https://www.chevrolet.com/ownercenter/content/dam/gmownercenter/gmna/dynamic/manuals/2017/Chevrolet/Silverado%201500/Owner%27s%20Manual.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-gm-cruze-pcv-special-coverage",
+    "title": "N202299080 revision 00 — PCV diagnosis (July 2020)",
+    "publisher": "General Motors",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10178406-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-gm-cruze-pcv-manifold-pip5197a",
+    "title": "PIP5197A — PCV and manifold diagnosis (February 2015)",
+    "publisher": "General Motors",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2015/MC-10114390-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-ford-refuel-start-purge-160075",
+    "title": "16-0075 — refueling-related start concern (April 25, 2016)",
+    "publisher": "Ford Motor Company",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10205040-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-ford-escape-2013-refueling",
+    "title": "2013 Escape owner manual — refueling",
+    "publisher": "Ford Motor Company",
+    "url": "https://www.fordservicecontent.com/Ford_Content/vdirsnet/OwnerManual/Home/Content?ProcUid=G1448579&Uid=G1448545&buildtype=webit&countryCode=USA&div=f&languageCode=en&userMarket=USA&vFilteringEnabled=False&variantid=2458",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-ford-escape-2013-empty-tank",
+    "title": "2013 Escape owner manual — running out of fuel",
+    "publisher": "Ford Motor Company",
+    "url": "https://www.fordservicecontent.com/Ford_Content/vdirsnet/OwnerManual/Home/Content?ProcUid=G1448578&Uid=G1448544&buildtype=web&countryCode=USA&div=f&languageCode=en&moidRef=G539551&userMarket=USA&vFilteringEnabled=False&variantid=2458",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-ford-throttle-16b32",
+    "title": "16B32 — throttle-body repair (September 14, 2016)",
+    "publisher": "Ford Motor Company",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2016/MC-10109085-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-audi-17d9-update-notice",
+    "title": "17D9 / 24T4 / 24T3 notice (March 2012)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2012/SB-10044087-2249.pdf",
+    "publisher": "Audi of America",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-audi-40tfsi-breather-2040644-r13",
+    "title": "2040644/13 (2022-03-25)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10209407-0001.pdf",
+    "publisher": "Audi of America",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-vw-tdi-egr-2034898-r23",
+    "title": "2034898/23 (2022-06-14)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10214486-0001.pdf",
+    "publisher": "Volkswagen Group of America",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-vw-dpf-adaptation-261302",
+    "title": "TT 26-13-02 (2013-10-04)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10157509-9999.pdf",
+    "publisher": "Volkswagen Group of America",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-vw-atlas-2058272",
+    "title": "2058272/1 (2020-03-16)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10172980-0001.pdf",
+    "publisher": "Volkswagen Group of America",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-bmw-n63-injector-test-plan-130712",
+    "title": "SI B13 07 12 (April 2014)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2014/MC-10148258-9999.pdf",
+    "publisher": "BMW of North America",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-mercedes-p012800-production-063817",
+    "title": "LI20.10-P-063817 version 5 (2018-03-26)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10144104-9999.pdf",
+    "publisher": "Daimler AG",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-mercedes-p012800-phev-074508",
+    "title": "LI20.10-P-074508 version 1 (2022-07-13)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10217151-0001.pdf",
+    "publisher": "Mercedes-Benz AG",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-hyundai-elantra-thermostat-tll",
+    "title": "18-01-012 — TLL thermostat campaign (April 2018)",
+    "publisher": "Hyundai Motor America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10138234-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-kia-forte-p0016-eng170-r1",
+    "title": "ENG170 revision 1 — Forte P0016 (August 8, 2018)",
+    "publisher": "Kia Motors America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10144233-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-jeep-renegade-2019-p0456",
+    "title": "18-028-20 revision A (May 20, 2020)",
+    "publisher": "FCA US LLC",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10176583-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-jeep-renegade-2019-user-guide",
+    "title": "2019 Renegade user guide — warning lamp and capless filler",
+    "publisher": "FCA US LLC",
+    "url": "https://vehicleinfo.mopar.com/assets/publications/en-us/Jeep/2019/Renegade/103671_19BV_926_AA_DIGITAL.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-dodge-challenger-ezc-evap",
+    "title": "18-090-23 — Challenger EZC (August 16, 2023)",
+    "publisher": "FCA US LLC",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10243253-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-dodge-challenger-esg-evap",
+    "title": "18-096-23 — Challenger ESG (August 29, 2023)",
+    "publisher": "FCA US LLC",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10243283-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-stellantis-evap-accessory-damage",
+    "title": "STAR S2325000006 — diagnostic experience note (June 2023)",
+    "publisher": "Stellantis US LLC",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10241022-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-ram1500-p0128-1805820",
+    "title": "18-058-20 — superseded revision bridge (August 5, 2020)",
+    "publisher": "FCA US LLC",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10180250-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-ram1500-p0128-1807022",
+    "title": "18-070-22 — later reviewed Ram eTorque scope (April 2, 2022)",
+    "publisher": "FCA US LLC",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10228025-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-jeep-grand-cherokee-p0456-filler",
+    "title": "14-007-23 — filler-tube diagnostic branch (August 11, 2023)",
+    "publisher": "FCA US LLC",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10243246-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-ram-diesel-1813022-reva",
+    "title": "18-130-22 revision A — codes removed (July 20, 2022)",
+    "publisher": "FCA US LLC",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10223808-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-porsche-panamera-ah08",
+    "title": "AH08 / 67/17 — Panamera campaign instructions, January 2018",
+    "publisher": "Porsche Cars North America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10128650-9999.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-nissan-rogue-2018-owner",
+    "title": "2018 Rogue owner manual — fuel cap and warning lamps",
+    "publisher": "Nissan North America",
+    "url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/rogue/2018/2018-Nissan-Rogue-owner-manual.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-nissan-v6-cvt-judder-039q",
+    "title": "NTB17-039Q — December 2023",
+    "publisher": "Nissan North America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10248651-0001.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-nissan-cvt-judder-logic-014c",
+    "title": "NTB15-014C — May 2022",
+    "publisher": "Nissan North America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10218743-0001.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-subaru-thermo-valve-design",
+    "title": "09-80-21R — April 2024 revision",
+    "publisher": "Subaru of America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-10253903-0001.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-subaru-thermo-valve-extension",
+    "title": "09-119-24 — April 2024",
+    "publisher": "Subaru of America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-10253930-0001.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-subaru-cvt-solenoid-diagnosis",
+    "title": "16-131-20R — February 2023 revision",
+    "publisher": "Subaru of America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10232240-0001.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-mazda-p0126-thermostat-set",
+    "title": "01-005/24 — reviewed 2024 revision",
+    "publisher": "Mazda North American Operations",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-11006981-0001.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-mazda-sspd8-repair",
+    "title": "SSPD8 repair and eligibility instructions — March 2025",
+    "publisher": "Mazda North American Operations",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2025/MC-11016300-0001.pdf",
+    "checkedOn": "2026-10-30",
+    "kind": "manufacturer"
+  },
+  {
+    "id": "oem-subaru-cvt-repair-policy-2025",
+    "title": "16-155-25R — July 2025 revision",
+    "publisher": "Subaru of America",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2025/MC-11021247-0001.pdf",
     "checkedOn": "2026-10-30",
     "kind": "manufacturer"
   }

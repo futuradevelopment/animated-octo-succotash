@@ -16,14 +16,15 @@
       "P160500"
     ],
     "years": "2018 Camry; 2019 Avalon",
-    "summary": "Toyota documents a high-load/high-speed misfire condition with an ECM calibration response.",
-    "action": "Have a Toyota technician match the recorded conditions and current calibration. Do not recreate the high-load condition yourself.",
-    "limitations": "Camry: WMI 4T1 / VDS BZ1HK; Avalon: WMI 4T1 / VDS BZ1FB. Camry hardware/software confirmation is required. Other engines and years are outside this bulletin.",
+    "summary": "Scoped V6 misfire case.",
+    "action": "Read the linked diagnostic guide.",
+    "limitations": "Vehicle and calibration checks apply.",
     "sourceIds": [
       "oem-toyota-v6-high-load-misfire"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10185782-9999.pdf",
-    "engine": "2GR-FKS V6"
+    "engine": "2GR-FKS V6",
+    "guideSlug": "toyota-camry-avalon-v6-p0300-high-load"
   },
   {
     "id": "ford-f150-27-misfire-lean",
@@ -45,15 +46,16 @@
       "P0174"
     ],
     "years": "2018",
-    "summary": "Ford describes separate calibration and injector leak-down branches; a code alone does not identify a failed injector.",
-    "action": "Record all codes and the build date for Ford diagnosis. For a flashing running-engine warning, avoid hard acceleration/deceleration and obtain immediate service.",
-    "limitations": "The injector/lean/misfire branch requires production before July 12, 2018 plus diagnostic confirmation. Software work depends on companion codes. Internal fuel-system testing is professional.",
+    "summary": "Read the full diagnostic guide.",
+    "action": "See the documented decision branches.",
+    "limitations": "Vehicle-specific scope applies.",
     "sourceIds": [
       "oem-ford-f150-27-misfire-lean",
       "oem-ford-f150-2018-owner-warnings"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10180534-0001.pdf",
-    "engine": "2.7L EcoBoost"
+    "engine": "2.7L EcoBoost",
+    "guideSlug": "ford-f150-27-p0300-p0171-injector-calibration"
   },
   {
     "id": "gm-colorado-canyon-paired-lean-chevrolet",
@@ -67,14 +69,15 @@
       "P0174"
     ],
     "years": "2020–2021; production through May 1, 2021",
-    "summary": "GM describes paired lean codes with a possible software cause.",
-    "action": "Ask service to check intake/oil-system connections and ECM calibration before further diagnosis.",
-    "limitations": "Both codes are part of the documented condition. This is not an automatic sensor or injector replacement.",
+    "summary": "Read the full diagnostic guide.",
+    "action": "See the documented decision branches.",
+    "limitations": "Vehicle-specific scope applies.",
     "sourceIds": [
       "oem-gm-colorado-canyon-paired-lean"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10194116-9999.pdf",
-    "engine": "LGZ"
+    "engine": "LGZ",
+    "guideSlug": "colorado-canyon-p0171-p0174-calibration"
   },
   {
     "id": "gm-colorado-canyon-paired-lean-gmc",
@@ -88,14 +91,15 @@
       "P0174"
     ],
     "years": "2020–2021; production through May 1, 2021",
-    "summary": "GM describes paired lean codes with a possible software cause.",
-    "action": "Ask service to check intake/oil-system connections and ECM calibration before further diagnosis.",
-    "limitations": "Both codes are part of the documented condition. This is not an automatic sensor or injector replacement.",
+    "summary": "Read the full diagnostic guide.",
+    "action": "See the documented decision branches.",
+    "limitations": "Vehicle-specific scope applies.",
     "sourceIds": [
       "oem-gm-colorado-canyon-paired-lean"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10194116-9999.pdf",
-    "engine": "LGZ"
+    "engine": "LGZ",
+    "guideSlug": "colorado-canyon-p0171-p0174-calibration"
   },
   {
     "id": "gm-v8-catalyst-airbox-chevrolet",
@@ -111,14 +115,15 @@
       "P0430"
     ],
     "years": "2014–2018 Silverado; 2015–2018 Suburban/Tahoe",
-    "summary": "Debris bypassing an improperly sealed airbox can affect exhaust components.",
-    "action": "Have service validate airbox sealing before replacing parts.",
-    "limitations": "Only the listed engine RPOs and model years are covered; the code does not prove catalyst failure.",
+    "summary": "Read the full diagnostic guide.",
+    "action": "See the documented decision branches.",
+    "limitations": "Vehicle-specific scope applies.",
     "sourceIds": [
       "oem-gm-v8-catalyst-airbox"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10140299-9999.pdf",
-    "engine": "Silverado: L83/L86/LV1/LV3; Suburban/Tahoe: L83/L86"
+    "engine": "Silverado: L83/L86/LV1/LV3; Suburban/Tahoe: L83/L86",
+    "guideSlug": "silverado-sierra-p0420-p0430-air-filter-seal"
   },
   {
     "id": "gm-v8-catalyst-airbox-gmc",
@@ -133,14 +138,15 @@
       "P0430"
     ],
     "years": "2014–2018 Sierra; 2015–2018 Yukon",
-    "summary": "Debris bypassing an improperly sealed airbox can affect exhaust components.",
-    "action": "Have service validate airbox sealing before replacing parts.",
-    "limitations": "Only the listed engine RPOs and model years are covered; the code does not prove catalyst failure.",
+    "summary": "Read the full diagnostic guide.",
+    "action": "See the documented decision branches.",
+    "limitations": "Vehicle-specific scope applies.",
     "sourceIds": [
       "oem-gm-v8-catalyst-airbox"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10140299-9999.pdf",
-    "engine": "Sierra: L83/L86/LV1/LV3; Yukon: L83/L86"
+    "engine": "Sierra: L83/L86/LV1/LV3; Yukon: L83/L86",
+    "guideSlug": "silverado-sierra-p0420-p0430-air-filter-seal"
   },
   {
     "id": "honda-crv-misfire-extension",
@@ -158,13 +164,14 @@
       "P0172"
     ],
     "years": "2017–2018",
-    "summary": "Honda distinguishes a recurring-code repair branch from an engine-noise branch after applicable earlier updates.",
-    "action": "Have Honda check VIN eligibility and completion of 18-114, 18-124 or 19-025 before applying 19-037.",
-    "limitations": "EX, EX-L, Touring only; iN VIN eligibility required. Historical warranty-extension text does not establish coverage today.",
+    "summary": "Prerequisite, plug and noise branches.",
+    "action": "Read the linked diagnostic guide.",
+    "limitations": "VIN eligibility required; historical warranty terms are not present coverage.",
     "sourceIds": [
       "oem-honda-crv-misfire-extension"
     ],
-    "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-10253309-0001.pdf"
+    "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-10253309-0001.pdf",
+    "guideSlug": "honda-cr-v-p0300-p0172-after-software-update"
   },
   {
     "id": "acura-p0430-calibration",
@@ -178,14 +185,15 @@
       "P0430"
     ],
     "years": "MDX 2014–2017; TLX 2015–2018",
-    "summary": "Acura describes software interpreting sensor data as catalyst deterioration.",
-    "action": "Have Acura confirm applicability, PGM-FI calibration and required transmission software.",
-    "limitations": "2017 MDX VIN limits: 2WD: 5FRYD3...HB000001–HB014264/5J8YD3...HL000001–HL000229; SH-AWD: 5FRYD4...HB000001–HB040999/5J8YD4...HL000001–HL000507. 2018 TLX: 2WD: 19UUB2...JA000001–JA003458; SH-AWD: 19UUB3...JA000001–JA001898. Confirm the complete VIN and current bulletin.",
+    "summary": "P0430 software case.",
+    "action": "Read the linked diagnostic guide.",
+    "limitations": "2017 MDX and 2018 TLX VIN limits remain in source 17-034; full VIN confirmation is required.",
     "sourceIds": [
       "oem-acura-p0430-calibration"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10129426-9999.pdf",
-    "engine": "TLX: V6; MDX excludes Sport Hybrid"
+    "engine": "TLX: V6; MDX excludes Sport Hybrid",
+    "guideSlug": "acura-mdx-tlx-p0430-software-check"
   },
   {
     "id": "lexus-rx450h-p0430",
@@ -198,18 +206,19 @@
       "P0430"
     ],
     "years": "2010",
-    "summary": "Lexus requires specified bank2 downstream oxygen-sensor readings before the bulletin repair applies.",
-    "action": "Ask a Lexus technician to perform the documented tests; otherwise normal diagnosis applies.",
-    "limitations": "The replacement bulletin covers 2010 only. Do not import 2011 applicability from its superseded predecessor or replace a catalyst from the code alone.",
+    "summary": "Qualified B2S2 test case.",
+    "action": "Read the linked diagnostic guide.",
+    "limitations": "2010 only; the source's test conditions must match.",
     "sourceIds": [
       "oem-lexus-rx450h-p0430"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2015/MC-10111225-9999.pdf",
-    "engine": "2GR-FXE"
+    "engine": "2GR-FXE",
+    "guideSlug": "lexus-rx450h-p0430-b2s2-test"
   },
   {
     "id": "nissan-evap-cap",
-    "title": "EVAP leak codes and fuel-cap verification",
+    "title": "EVAP leak-test case",
     "makeId": "nissan",
     "modelIds": [],
     "codes": [
@@ -217,35 +226,40 @@
       "P0455",
       "P0456"
     ],
-    "years": "2012 and newer in the March 2021 bulletin",
-    "summary": "Nissan identifies a loose cap as one possible trigger and separates it from an actual EVAP leak.",
-    "action": "For a loose-cap warning, stop safely and check cap installation using the exact owner manual. Persistent codes need professional diagnosis.",
-    "limitations": "Excludes LEAF and Titan XD V8 diesel. Do not extend this historical scope to later capless designs without confirmation. No automatic cap or EVAP-part replacement.",
+    "years": "2012 onward in the 2021 source",
+    "summary": "EVAP leak-test case.",
+    "action": "Read the Rogue example.",
+    "limitations": "Source excludes LEAF and Titan XD V8 diesel. Owner instructions in this guide are Rogue-specific.",
     "sourceIds": [
       "oem-nissan-evap-cap"
     ],
-    "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10190202-0001.pdf"
+    "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10190202-0001.pdf",
+    "guideSlug": "nissan-rogue-p0456-fuel-cap-leak-test"
   },
   {
     "id": "vw-tdi-p0401",
-    "title": "TDI EGR-flow and soot-restriction checks",
+    "title": "TDI filter diagnosis",
     "makeId": "volkswagen",
     "modelIds": [
       "volkswagen-golf",
       "volkswagen-jetta"
     ],
     "codes": [
-      "P0401"
+      "P0401",
+      "P2002",
+      "P240F"
     ],
     "years": "Jetta/Jetta Wagon 2009; Golf,Jetta Sedan/SportWagen 2010–2014",
-    "summary": "Volkswagen documents an EGR-flow case requiring EGR/DPF inspection and charge-air leak checks.",
-    "action": "Have a qualified diesel technician follow the matched bulletin and current diagnostic guidance.",
-    "limitations": "This diesel-specific evidence does not apply to gasoline Golf/Jetta models. It does not authorize emissions-system removal.",
+    "summary": "Soot-confirmed case.",
+    "action": "See the diagnostic guide.",
+    "limitations": "CBEA/CJAA diesel scope.",
     "sourceIds": [
-      "oem-vw-tdi-p0401"
+      "oem-vw-tdi-egr-2034898-r23",
+      "oem-vw-dpf-adaptation-261302"
     ],
-    "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10198580-0001.pdf",
-    "engine": "2009: CBEA 2.0L TDI; 2010–2014: CJAA 2.0L TDI"
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10214486-0001.pdf",
+    "engine": "CBEA/CJAA 2.0 TDI",
+    "guideSlug": "vw-golf-jetta-tdi-p0401-soot-dpf"
   },
   {
     "id": "vw-atlas-catalyst",
@@ -259,18 +273,19 @@
       "P0430"
     ],
     "years": "2018",
-    "summary": "Volkswagen requires the qualified catalyst hardware repair and ECM update together.",
-    "action": "Have service verify VIN and campaign/update history before applying the bulletin.",
-    "limitations": "VIN pattern CA_JC000001–CA_JC999999. The revision removed 2019 vehicles because of campaign action; this is not 2019 coverage.",
+    "summary": "Paired hardware/software case.",
+    "action": "See the diagnostic guide.",
+    "limitations": "2018 CDVC/VIN scope; 2019 is excluded from this revision.",
     "sourceIds": [
       "oem-vw-atlas-catalyst"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10174463-0001.pdf",
-    "engine": "3.6L CDVC"
+    "engine": "3.6L CDVC",
+    "guideSlug": "vw-atlas-p0420-p0430-catalyst-software"
   },
   {
     "id": "bmw-native-injector-context",
-    "title": "N63 native DME faults and injector diagnosis",
+    "title": "N63 injector diagnosis",
     "makeId": "bmw",
     "modelIds": [
       "bmw-x6-xdrive50i"
@@ -289,15 +304,17 @@
       "2B22",
       "2B23"
     ],
-    "years": "2011–2012; built July 2010–July 2012",
-    "summary": "BMW documents injector-related starting, mixture and misfire symptoms only when ISTA testing confirms that branch.",
-    "action": "Provide the complete native codes and VIN to BMW service.",
-    "limitations": "US-specification/VIN restrictions apply. This is a limited-extension document, not a recall or current coverage promise. Native codes are not mapped to generic P-codes here.",
+    "years": "2014; built 2013-03-27–2014-06-25",
+    "summary": "N63 injector diagnosis.",
+    "action": "See the diagnostic guide.",
+    "limitations": "Historical US/VIN limits apply.",
     "sourceIds": [
-      "oem-bmw-native-injector-context"
+      "oem-bmw-native-injector-context",
+      "oem-bmw-n63-injector-test-plan-130712"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10160280-9999.pdf",
-    "engine": "E71/N63"
+    "engine": "E71/N63",
+    "guideSlug": "bmw-x6-n63-29e0-2b16-injector-diagnosis"
   },
   {
     "id": "kia-soul-post-replacement-timing",
@@ -312,15 +329,16 @@
       "P0016",
       "P0017"
     ],
-    "years": "AM 2010–2013; PS 2014–2019; SK3 2020-onward as documented May 2022",
-    "summary": "An incorrectly positioned camshaft reluctor can trigger these codes following engine replacement.",
-    "action": "Tell the repairer whether the codes first appeared after replacement; internal timing checks belong to a technician.",
-    "limitations": "The codes must have been absent beforehand. Later-year coverage requires current KGIS confirmation; this is not every Soul timing fault.",
+    "years": "AM/PS 2010–2019; SK3 as documented May 2022",
+    "summary": "PS731 case.",
+    "action": "Compare repair histories.",
+    "limitations": "Engine/wheel scope: PS731 and current KGIS.",
     "sourceIds": [
       "oem-kia-soul-post-replacement-timing"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10212199-0001.pdf",
-    "engine": "2010–11: Beta 2.0L/Gamma 1.6L; 2012–13: Gamma 1.6L GDI/Nu 2.0L GDI; 2014–19: Gamma 1.6L GDI/Nu 2.0L GDI; SK3: Nu 2.0L MPI"
+    "engine": "PS731 table.",
+    "guideSlug": "kia-p0016-soul-reluctor-forte-adaptive-reset"
   },
   {
     "id": "hyundai-p0128-calibration",
@@ -334,32 +352,37 @@
       "P0128"
     ],
     "years": "2018 Elantra GT PD; 2019 Veloster JS",
-    "summary": "Campaign T3T addresses a scoped ECM diagnostic-logic condition.",
-    "action": "Ask Hyundai to check the VIN for an open campaign and the applicable software.",
-    "limitations": "Only certain vehicles qualify. The bulletin’s no-drivability-symptom statement must not be generalized to overheating or unrelated P 0128 cases.",
+    "summary": "T3T case.",
+    "action": "Compare campaign branches.",
+    "limitations": "VIN-specific; distinct from TLL.",
     "sourceIds": [
       "oem-hyundai-p0128-calibration"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10181000-0001.pdf",
-    "engine": "1.6L Turbo"
+    "engine": "1.6L Turbo",
+    "guideSlug": "hyundai-p0128-elantra-veloster-thermostat-software"
   },
   {
     "id": "mercedes-p012800-engine-scope",
-    "title": "P012800 and guided thermostat diagnosis",
+    "title": "Warm-up diagnosis",
     "makeId": "mercedes-benz",
     "modelIds": [],
     "codes": [
+      "P0128",
       "P012800"
     ],
     "years": "Model years not specified by this engine-scoped source",
-    "summary": "Mercedes describes slow coolant warm-up and requires software checking plus guided thermostat-heating-element diagnosis.",
-    "action": "Have Mercedes service verify engine, VIN and current XENTRY instructions.",
-    "limitations": "The source supplies no exact model/year applicability list. Replacement is conditional; this record must not be attached to every Mercedes model.",
+    "summary": "Engine-scoped warm-up diagnosis.",
+    "action": "See the diagnostic guide.",
+    "limitations": "Engine and VIN matching required.",
     "sourceIds": [
-      "oem-mercedes-p012800-engine-scope"
+      "oem-mercedes-p012800-engine-scope",
+      "oem-mercedes-p012800-production-063817",
+      "oem-mercedes-p012800-phev-074508"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10179907-9999.pdf",
-    "engine": "M270/M274"
+    "engine": "M270/M274",
+    "guideSlug": "mercedes-m270-m274-p012800-thermostat"
   },
   {
     "id": "jeep-renegade-2016-calibration",
@@ -397,14 +420,15 @@
       "P0441"
     ],
     "years": "2022",
-    "summary": "Dodge associates this scoped EVAP-code condition with PCM software.",
-    "action": "Ask service to verify related systems and other faults before reprogramming.",
-    "limitations": "No support here for other engines or years. The update is professional work, not an owner reset procedure.",
+    "summary": "EZH software case.",
+    "action": "Match the engine-specific document before the update.",
+    "limitations": "Additional engines use separate sources in the guide.",
     "sourceIds": [
       "oem-dodge-challenger-evap-calibration"
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10243255-9999.pdf",
-    "engine": "5.7L V8 Hemi MDS VVT EZH; LA"
+    "engine": "5.7L V8 Hemi MDS VVT EZH; LA",
+    "guideSlug": "dodge-challenger-2022-p0456-p0455-software"
   },
   {
     "id": "ram1500-p0128-calibration",
@@ -416,26 +440,26 @@
     "codes": [
       "P0128"
     ],
-    "years": "2019; built through April 12, 2019",
-    "summary": "P 0128 is among this PCM-update bulletin’s conditions.",
-    "action": "Have service confirm the fault and current PCM, HCP and TCM software.",
-    "limitations": "Build and engine restrictions are essential. The code alone does not establish thermostat failure.",
+    "years": "2019",
+    "summary": "eTorque revision history.",
+    "action": "Check controller completion.",
+    "limitations": "Use 18-070-22 scope.",
     "sourceIds": [
-      "oem-ram1500-p0128-calibration"
+      "oem-ram1500-p0128-1807022"
     ],
-    "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10162544-9999.pdf",
-    "engine": "3.6L V6 eTorque ERG; DT; NAFTA"
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10228025-9999.pdf",
+    "engine": "3.6L eTorque ERG; DT",
+    "guideSlug": "ram-1500-2019-p0128-etorque-calibration"
   },
   {
     "id": "ram-diesel-p0401",
-    "title": "Cummins diagnostic software update",
+    "title": "Cummins update with corrected revision scope",
     "makeId": "ram",
     "modelIds": [
       "ram-2500",
       "ram-3500"
     ],
     "codes": [
-      "P0401",
       "P0128",
       "P0300",
       "P0301-00",
@@ -446,13 +470,13 @@
       "P0306-00"
     ],
     "years": "2016; North America",
-    "summary": "These are selected codes from the scoped ECM/PCM update; unrelated faults require diagnosis first.",
-    "action": "Ask Ram service to verify VIN applicability, calibration and the transmission-specific completion procedure.",
-    "limitations": "RSU 16-041 eligibility is VIN-based. This is not an emissions-delete instruction or a general repair for every diesel Ram.",
+    "summary": "The later revision removes P0401 from the listed update conditions.",
+    "action": "Use revision A and diagnose unlisted faults separately.",
+    "limitations": "The superseded July 9 version is not evidence for a P0401 software repair. RSU eligibility requires a VIN check.",
     "sourceIds": [
-      "oem-ram-diesel-p0401"
+      "oem-ram-diesel-1813022-reva"
     ],
-    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10223796-9999.pdf",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10223808-9999.pdf",
     "engine": "6.7L I6 Cummins Turbo Diesel ETK; DJ/D2"
   },
   {
@@ -478,7 +502,7 @@
   },
   {
     "id": "audi-crankcase-ventilation-lean-leak",
-    "title": "Crankcase ventilation with lean or intake-leak codes",
+    "title": "Pressure-control diagnosis",
     "makeId": "audi",
     "modelIds": [
       "audi-a3",
@@ -491,34 +515,38 @@
     ],
     "years": "2005–2008 A4; 2006–2008 A3",
     "engine": "A4: BPG (2005–2006), BWT (2007–2008); A3: BPY",
-    "summary": "Audi describes these ECM codes alongside possible crankcase-pressure faults, noises or oil leakage. Existing valve and pipe versions affect diagnosis.",
-    "action": "Have the workshop confirm VIN applicability, the applicable 17D9 update and installed hardware before following the diagnostic branch.",
-    "limitations": "A4: 2005 VIN 405683–999999; 2006–2007 000001–999999; 2008 000001–170087. A3: 2006 VIN 000150–999999; 2007 000001–999999; 2008 000001–151827. These are the bulletin’s displayed VIN ranges, not complete VINs; full vehicle identification and engine confirmation remain necessary.",
+    "summary": "VIN-limited pressure-control case.",
+    "action": "See the diagnostic guide.",
+    "limitations": "Full VIN and engine matching required; see source applicability table.",
     "sourceIds": [
       "oem-audi-crankcase-ventilation-2015505"
     ],
-    "url": "https://static.nhtsa.gov/odi/tsbs/2012/SB-10043872-9159.pdf"
+    "url": "https://static.nhtsa.gov/odi/tsbs/2012/SB-10043872-9159.pdf",
+    "guideSlug": "audi-a3-a4-p2187-p2279-pcv"
   },
   {
     "id": "audi-40tfsi-breather-idle-codes",
-    "title": "4.0 TFSI breather noise with intake or idle codes",
+    "title": "Two-check breather diagnosis",
     "makeId": "audi",
     "modelIds": [
       "audi-a8"
     ],
     "codes": [
       "P2279",
-      "P0507"
+      "P227900",
+      "P0507",
+      "P050700"
     ],
     "years": "2013–2016",
     "engine": "4.0 TFSI",
-    "summary": "Audi describes warm-idle noise, intermittent warning lamps and these ECM codes. Breather leakage is a possible cause, not a diagnosis from the code alone.",
-    "action": "Have a qualified technician match the documented noise and crankcase behavior before choosing a repair.",
-    "limitations": "This record covers the bulletin’s A8 application with 4.0 TFSI; all VINs are listed within that scope. Other engines and years are outside this record. Both prescribed diagnostic checks must support the replacement branch.",
+    "summary": "Two-check breather case.",
+    "action": "See the diagnostic guide.",
+    "limitations": "A8 scope only.",
     "sourceIds": [
-      "oem-audi-40tfsi-breather-2040644"
+      "oem-audi-40tfsi-breather-2040644-r13"
     ],
-    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10138314-9999.pdf"
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10209407-0001.pdf",
+    "guideSlug": "audi-a8-p2279-p0507-breather-noise"
   },
   {
     "id": "porsche-macan-turbo-p0299",
@@ -565,7 +593,7 @@
   },
   {
     "id": "porsche-camshaft-adjuster-diagnosis",
-    "title": "Early Cayenne and Panamera camshaft fault context",
+    "title": "Camshaft diagnostic case",
     "makeId": "porsche",
     "modelIds": [
       "porsche-cayenne",
@@ -584,14 +612,15 @@
       "P000C",
       "P0021"
     ],
-    "years": "2011–2012 Cayenne S/Turbo; 2010–2012 Panamera/S/Turbo",
-    "engine": "92A Cayenne S/Turbo; 970 Panamera/S/Turbo",
-    "summary": "Porsche lists several fault families that can accompany a camshaft-adjuster problem. Those codes alone do not establish that mechanical failure has occurred.",
-    "action": "Keep the complete scan log for a Porsche technician. Internal timing checks and any repair decision need the manufacturer’s diagnostic procedure.",
-    "limitations": "Only the listed early 92A and 970 variants and years are covered. The source additionally lists the P0340–P0349 sensor-code range. Do not infer applicability to other Cayenne or Panamera generations, or attempt internal engine inspection from this reference.",
+    "years": "2010–2012 Panamera; 2011–2012 Cayenne",
+    "engine": "See exact variants in the guide.",
+    "summary": "Camshaft fault case.",
+    "action": "Read the diagnostic guide.",
+    "limitations": "The guide specifies the covered variants.",
     "sourceIds": [
       "oem-porsche-camshaft-adjuster-diagnosis"
     ],
-    "url": "https://static.nhtsa.gov/odi/tsbs/2012/MC-10116407-9999.pdf"
+    "url": "https://static.nhtsa.gov/odi/tsbs/2012/MC-10116407-9999.pdf",
+    "guideSlug": "porsche-cayenne-panamera-camshaft-faults"
   }
 ]

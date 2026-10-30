@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T14:07:26.417Z",
+  "checkedAt": "2026-10-30T14:53:06.013Z",
   "status": "passed",
   "counts": {
     "codes": 11786,
@@ -9,10 +9,10 @@
     "sharedManufacturerReferences": 1026,
     "noindexCodes": 0,
     "makes": 34,
-    "models": 32,
-    "sources": 33,
+    "models": 46,
+    "sources": 78,
     "systems": 4,
-    "authoredDiagnosticGuides": 2
+    "authoredDiagnosticGuides": 32
   },
   "canonicalCodesByMake": {
     "bmw": 250,
@@ -44,13 +44,13 @@
     "chassis": 478,
     "network": 1228
   },
-  "checks": 276239,
+  "checks": 276918,
   "failed": 0,
   "failures": [],
   "omittedFailures": 0,
   "counters": {
     "source-unique-id": {
-      "checks": 33,
+      "checks": 78,
       "failed": 0
     },
     "make-unique-id": {
@@ -58,15 +58,15 @@
       "failed": 0
     },
     "model-unique-id": {
-      "checks": 32,
+      "checks": 46,
       "failed": 0
     },
     "source-input-unique-id": {
-      "checks": 33,
+      "checks": 78,
       "failed": 0
     },
     "source-catalog-consistent": {
-      "checks": 33,
+      "checks": 78,
       "failed": 0
     },
     "make-slug": {
@@ -78,15 +78,15 @@
       "failed": 0
     },
     "source-url": {
-      "checks": 33,
+      "checks": 78,
       "failed": 0
     },
     "source-checked-date": {
-      "checks": 33,
+      "checks": 78,
       "failed": 0
     },
     "source-kind": {
-      "checks": 33,
+      "checks": 78,
       "failed": 0
     },
     "code-id-unique": {
@@ -186,19 +186,19 @@
       "failed": 0
     },
     "model-make-exists": {
-      "checks": 32,
+      "checks": 46,
       "failed": 0
     },
     "model-slug": {
-      "checks": 32,
+      "checks": 46,
       "failed": 0
     },
     "model-existence-evidence": {
-      "checks": 32,
+      "checks": 46,
       "failed": 0
     },
     "model-source-exists": {
-      "checks": 35,
+      "checks": 68,
       "failed": 0
     },
     "bulletin-id-unique": {
@@ -226,39 +226,47 @@
       "failed": 0
     },
     "authored-guide-id": {
-      "checks": 2,
+      "checks": 32,
       "failed": 0
     },
     "authored-guide-slug": {
-      "checks": 2,
+      "checks": 32,
+      "failed": 0
+    },
+    "authored-guide-makes": {
+      "checks": 32,
       "failed": 0
     },
     "authored-guide-vehicle": {
-      "checks": 2,
+      "checks": 32,
       "failed": 0
     },
     "authored-guide-primary-evidence": {
-      "checks": 2,
+      "checks": 32,
       "failed": 0
     },
     "authored-guide-scope": {
-      "checks": 2,
+      "checks": 32,
       "failed": 0
     },
     "authored-guide-reviewed-date": {
-      "checks": 2,
+      "checks": 32,
       "failed": 0
     },
     "authored-guide-sections": {
-      "checks": 2,
+      "checks": 32,
       "failed": 0
     },
     "authored-guide-table-shape": {
-      "checks": 2,
+      "checks": 27,
       "failed": 0
     },
     "authored-guide-distinct-body": {
-      "checks": 2,
+      "checks": 32,
+      "failed": 0
+    },
+    "bulletin-guide-resolves": {
+      "checks": 23,
       "failed": 0
     },
     "canonical-code-launch-target": {

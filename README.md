@@ -2,7 +2,7 @@
 
 Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted from the existing ErrHive Astro infrastructure into `futuradevelopment/animated-octo-succotash`.
 
-## Initial library
+## Published content in this repository
 
 | Content | Count |
 | --- | ---: |
@@ -10,9 +10,9 @@ Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted f
 | Generic OBD-II definitions | 9,249 |
 | Manufacturer-specific reference definitions | 2,537 |
 | Distinct displayed DTC strings | 10,043 |
-| Model context hubs | 32 |
+| Model context hubs | 46 |
 | Scoped manufacturer bulletin records | 26 |
-| Individually authored diagnostic case guides | 2 |
+| Individually authored diagnostic case guides | 32 |
 
 These are **dictionary entries**, not 11,786 diagnostic articles. Dictionary pages contain the definition, scope and source without repeated repair instructions; separately authored case guides have their own vehicle-specific evidence and diagnostic branches. The MIT-licensed community dictionary is pinned and retains source-row evidence. Obvious contaminated, reserved, malformed and conflicting records are excluded. Manufacturer documents provide separately attributed model-specific context. See [data provenance](docs/DATA_PROVENANCE.md), [model research](docs/MODEL_RESEARCH.md), and [data licensing](DATA_LICENSE.md).
 

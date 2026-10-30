@@ -21,6 +21,29 @@ test('a different title and code cannot turn copied diagnostic prose into a new 
  fails(data,'authored-guide-distinct-body');
 });
 
+test('one shared diagnostic article requires an evidenced model for every covered make',()=>{
+ const data=fixture();data.sources.push({id:'oem',url:'https://example.org/manual',checkedOn:'2026-10-30',kind:'manufacturer'});
+ data.models.push({id:'ford-example',makeId:'ford',slug:'example',sourceIds:['oem']},{id:'lincoln-example',makeId:'lincoln',slug:'example',sourceIds:['oem']});
+ const guide={id:'shared',slug:'shared',makeId:'ford',makeIds:['ford','lincoln'],modelIds:['ford-example','lincoln-example'],sourceIds:['oem'],updatedOn:'2026-10-30',scope:[{label:'Vehicles',value:'Both documented applications'}],sections:[{id:'condition',title:'Condition',paragraphs:['A verified shared condition and one diagnostic path.']}]};
+ data.authoredGuides=[guide];assert.equal(validate(data).status,'passed');
+ guide.modelIds=['ford-example'];fails(data,'authored-guide-vehicle');
+ guide.modelIds=['ford-example','lincoln-example'];guide.makeIds=['ford'];fails(data,'authored-guide-vehicle');
+});
+
+test('engine-scoped evidence does not require invented model associations',()=>{
+ const data=fixture();data.sources.push({id:'oem',url:'https://example.org/manual',checkedOn:'2026-10-30',kind:'manufacturer'});
+ data.authoredGuides=[{id:'engine-case',slug:'engine-case',makeId:'ford',modelIds:[],engineCodes:['EXAMPLE'],sourceIds:['oem'],updatedOn:'2026-10-30',scope:[{label:'Engine',value:'EXAMPLE only'}],sections:[{id:'condition',paragraphs:['A documented engine-scoped diagnostic case.']}]}];
+ assert.equal(validate(data).status,'passed');data.authoredGuides[0].engineCodes=[];fails(data,'authored-guide-vehicle');
+});
+
+test('bulletin links must resolve to a guide covering the same models and make',()=>{
+ const data=fixture();data.sources.push({id:'oem',url:'https://example.org/manual',checkedOn:'2026-10-30',kind:'manufacturer'});
+ data.models.push({id:'ford-example',makeId:'ford',slug:'example',sourceIds:['oem']});
+ data.authoredGuides=[{id:'case',slug:'case',makeId:'ford',modelIds:['ford-example'],sourceIds:['oem'],updatedOn:'2026-10-30',scope:[{label:'Vehicle',value:'Scoped example'}],sections:[{id:'condition',paragraphs:['A distinct documented condition.']}]}];
+ data.bulletins=[{id:'bulletin',makeId:'ford',modelIds:['ford-example'],codes:['P1234'],sourceIds:['oem'],years:'2020',summary:'Scope',action:'Diagnosis',limitations:'Exact vehicle only',guideSlug:'case'}];
+ assert.equal(validate(data).status,'passed');data.bulletins[0].guideSlug='missing';fails(data,'bulletin-guide-resolves');
+});
+
 test('complete reference retains one canonical route and verifiable source row',()=>{
  const data=fixture(),result=validate(data);assert.equal(result.status,'passed',JSON.stringify(result.failures));assert.equal(result.counts.indexableCanonicalCodes,1);assert.equal(canonicalCodeRoute(data.codes[0]),'/codes/ford/p1234/');
 });

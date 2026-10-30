@@ -1,11 +1,67 @@
 ---
 import Base from '../../layouts/Base.astro';
-import {authoredGuides,guidePath} from '../../lib/authored-guides';
-import {getMake} from '../../lib/cars';
+import {authoredGuides,guidePath,guideMakes} from '../../lib/authored-guides';
+import {getMake,models} from '../../lib/cars';
+const availableMakes=[...new Set(authoredGuides.flatMap(guideMakes))].map(getMake).sort((a,b)=>a.name.localeCompare(b.name));
 ---
 <Base title="Vehicle-specific diagnostic guides" description="Read diagnostic guides that explain the documented causes, decision points and repair boundaries for a specific vehicle and trouble code." breadcrumbs={[{label:'Home',href:'/'},{label:'Guides'}]}>
- <div class="container"><header class="page-head"><p class="eyebrow">DIAGNOSIS WITH VEHICLE CONTEXT</p><h1>Follow the evidence.</h1><p class="lede">A useful guide explains what would distinguish one cause from another. Start with the vehicle and engine covered by the source.</p></header>
- <section class="section" aria-label="Published diagnostic guides"><div class="model-preview-grid">{authoredGuides.map(guide=><a class="model-preview authored-guide-card" href={guidePath(guide)} data-guide-id={guide.id}><div class="model-preview-top"><span class="eyebrow">{getMake(guide.makeId).name} · {guide.codes.join(' / ')}</span><span aria-hidden="true">↗</span></div><h2>{guide.title}</h2><p class="model-summary">{guide.description}</p><span class="model-preview-footer">Read the diagnostic guide <span aria-hidden="true">→</span></span></a>)}</div>{!authoredGuides.length&&<p class="notice">Vehicle-specific guides will appear here after their source review is complete.</p>}</section>
- <div class="prose guide-library-note"><p>Looking up a definition? The <a href="/codes/">code dictionary</a> lists reference labels separately from these diagnostic guides.</p><p><a href="/tools/">Scan-report checklist</a> · <a href="/safety/">Safety boundaries</a> · <a href="/models/">Documented vehicle cases</a></p></div></div>
+ <div class="container">
+  <header class="page-head"><p class="eyebrow">DIAGNOSIS WITH VEHICLE CONTEXT</p><h1>Follow the evidence.</h1><p class="lede">Find a guide for your code and vehicle. Each article explains the findings that change the diagnosis, with the model, engine and year limits shown up front.</p></header>
+  <form id="guide-filters" class="guide-filters" role="search" aria-label="Find a diagnostic guide" hidden>
+   <div class="guide-query-field"><label for="guide-query">Code, model or problem</label><input id="guide-query" name="q" type="search" maxlength="200" placeholder="e.g. P0299, A4 or misfire" autocomplete="off" aria-controls="guide-results" /></div>
+   <div class="guide-make-field"><label for="guide-make">Make</label><select id="guide-make" name="make" aria-controls="guide-results"><option value="">All makes</option>{availableMakes.map(make=><option value={make.id}>{make.name}</option>)}</select></div>
+   <button type="reset" class="button-secondary">Clear filters</button>
+  </form>
+  <section class="section guide-results-section" aria-label="Published diagnostic guides">
+   <p id="guide-count" class="guide-count" role="status" aria-live="polite" aria-atomic="true">{authoredGuides.length} diagnostic {authoredGuides.length===1?'guide':'guides'}</p>
+   <div id="guide-results" class="model-preview-grid">{authoredGuides.map(guide=>{
+    const makeIds=guideMakes(guide);
+    const modelNames=models.filter(model=>guide.modelIds.includes(model.id)).map(model=>`${getMake(model.makeId).name} ${model.name}`);
+    return <a class="model-preview authored-guide-card" href={guidePath(guide)} data-guide-id={guide.id} data-guide-makes={makeIds.join(' ')} data-guide-codes={guide.codes.join(' ')}><div class="model-preview-top"><span class="eyebrow">{makeIds.map(id=>getMake(id).name).join(' / ')} · {guide.codes.join(' / ')}</span><span aria-hidden="true">↗</span></div><h2>{guide.title}</h2><p class="model-summary">{guide.description}</p><p class="guide-vehicles">{modelNames.join(' · ')}</p><span class="model-preview-footer">Read the diagnostic guide <span aria-hidden="true">→</span></span></a>;
+   })}</div>
+   <div id="guide-empty" class="notice guide-empty" hidden><h2>No guide matches these filters.</h2><p>Try a shorter model name, check the code or select another make. A missing guide does not mean the code is invalid.</p><p><a href="/search/">Look up the code definition</a> or <button type="button" id="guide-empty-reset">show every guide</button>.</p></div>
+   {!authoredGuides.length&&<p class="notice">Vehicle-specific guides will appear here after their source review is complete.</p>}
+  </section>
+  <div class="prose guide-library-note"><p>Looking up a definition? The <a href="/codes/">code dictionary</a> lists reference labels separately from these diagnostic guides.</p><p><a href="/tools/">Scan-report checklist</a> · <a href="/safety/">Safety boundaries</a> · <a href="/models/">Documented vehicle cases</a></p></div>
+ </div>
 </Base>
-<style>.authored-guide-card h2{font-size:27px;line-height:1.2;letter-spacing:-.035em}.guide-library-note{margin-bottom:65px}.authored-guide-card{min-width:0}.model-preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:700px){.model-preview-grid{grid-template-columns:1fr}}</style>
+<script>
+ import {matchesGuide} from '../../lib/guide-search';
+ const form=document.querySelector<HTMLFormElement>('#guide-filters')!;
+ const query=document.querySelector<HTMLInputElement>('#guide-query')!;
+ const make=document.querySelector<HTMLSelectElement>('#guide-make')!;
+ const status=document.querySelector<HTMLElement>('#guide-count')!;
+ const empty=document.querySelector<HTMLElement>('#guide-empty')!;
+ const cards=[...document.querySelectorAll<HTMLAnchorElement>('[data-guide-id]')].map(element=>({element,makeIds:(element.dataset.guideMakes||'').split(' '),codes:(element.dataset.guideCodes||'').split(' '),text:element.textContent||''}));
+ let timer:ReturnType<typeof setTimeout>;
+ function filter(){
+  let count=0;
+  for(const card of cards){const matches=matchesGuide(card,query.value,make.value);card.element.hidden=!matches;if(matches)count++;}
+  status.textContent=(query.value.trim()||make.value)?`${count} of ${cards.length} diagnostic guides match`:`${cards.length} diagnostic ${cards.length===1?'guide':'guides'}`;
+  empty.hidden=count>0||cards.length===0;
+ }
+ function saveFilters(){
+  const url=new URL(location.href);
+  for(const [key,value] of [['q',query.value.trim()],['make',make.value]]){if(value)url.searchParams.set(key,value);else url.searchParams.delete(key);}
+  history.replaceState(history.state,'',url.pathname+url.search+url.hash);
+ }
+ function restoreFilters(){
+  const parameters=new URLSearchParams(location.search);
+  query.value=(parameters.get('q')||'').slice(0,200);
+  const selected=parameters.get('make')||'';
+  make.value=[...make.options].some(option=>option.value===selected)?selected:'';
+  filter();
+ }
+ function update(){clearTimeout(timer);saveFilters();filter();}
+ query.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(update,150);});
+ make.addEventListener('change',update);
+ form.addEventListener('submit',event=>{event.preventDefault();update();});
+ form.addEventListener('reset',event=>{event.preventDefault();query.value='';make.value='';update();query.focus();});
+ document.querySelector('#guide-empty-reset')!.addEventListener('click',()=>form.reset());
+ window.addEventListener('popstate',()=>{clearTimeout(timer);restoreFilters();});
+ restoreFilters();
+ form.hidden=false;
+</script>
+<style>
+ .guide-filters{display:flex;align-items:end;gap:18px;padding:25px;background:var(--teal-soft);border-top:2px solid var(--teal);margin-top:10px}.guide-filters>div{min-width:0}.guide-query-field{flex:1.7}.guide-make-field{flex:1}.guide-filters label{display:block;font-size:12px;font-weight:700;margin-bottom:8px}.guide-filters input,.guide-filters select{width:100%;height:48px;border:1px solid #a5b4a9;border-radius:0;padding:10px 12px;background:var(--white);color:var(--ink);font-size:14px}.guide-filters .button-secondary{white-space:nowrap;background:var(--white);border-color:#a5b4a9}.guide-results-section{padding-top:28px}.guide-count{font:12px/1.6 var(--mono);color:var(--muted);margin-bottom:22px}.authored-guide-card h2{font-size:27px;line-height:1.2;letter-spacing:-.035em}.guide-library-note{margin-bottom:65px}.authored-guide-card{min-width:0;display:flex;flex-direction:column}.authored-guide-card .model-preview-top{align-items:flex-start}.authored-guide-card .eyebrow{overflow-wrap:anywhere}.authored-guide-card .model-summary{margin-bottom:14px}.guide-vehicles{font-size:11px;color:var(--muted);margin-bottom:22px;line-height:1.7}.authored-guide-card .model-preview-footer{margin-top:auto}.model-preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.guide-empty h2{font-size:25px;line-height:1.2;margin-bottom:14px}.guide-empty p{max-width:720px}.guide-empty button{font:inherit;padding:0;border:0;background:none;color:inherit;text-decoration:underline;text-underline-offset:4px;min-height:44px}@media(max-width:700px){.model-preview-grid{grid-template-columns:1fr}.guide-filters{flex-wrap:wrap;padding:20px;gap:16px}.guide-query-field{flex-basis:100%}.guide-make-field{flex-basis:calc(100% - 155px)}.guide-filters .button-secondary{padding-inline:15px}.authored-guide-card h2{font-size:25px}}@media(max-width:380px){.guide-make-field{flex-basis:100%}.guide-filters .button-secondary{width:100%}}
+</style>
