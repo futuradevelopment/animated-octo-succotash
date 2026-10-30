@@ -1,0 +1,105 @@
+{
+  "authoringBatch": "batch-02",
+  "articleCount": 100,
+  "status": "draft",
+  "sourceReviewCounts": {
+    "checked": 92,
+    "needs-review": 8
+  },
+  "sourceBasis": "2025 GM 25OBDG03A ECM monitor tables, checked against supplied excerpts and full local text continuation pages. Alternative source variants were not silently combined into the articles.",
+  "scopePolicy": "All articles limit facts to cited physical pages and explicitly require vehicle/engine/controller applicability confirmation. File-level make matrices were not used to claim per-code model applicability.",
+  "unresolvedIssues": [
+    {
+      "code": "P0141",
+      "pages": [
+        182
+      ],
+      "issue": "Printed current inequality is impossible (0.2 > amps > 1.1); the duty-cycle enable names B1S1 within a B1S2 row.",
+      "handling": "Explains heater-current monitoring and verified enable timing; omits a numeric heater-current limit and does not silently change channel identity."
+    },
+    {
+      "code": "P0187",
+      "pages": [
+        200
+      ],
+      "issue": "Heading and strategy identify temperature sensor 2; measured-variable column labels sensor 1.",
+      "handling": "Explains second-channel digital range monitoring and verified P126F/P128D dependencies; omits a numeric sensor-2 limit until mapping is verified."
+    },
+    {
+      "code": "P0188",
+      "pages": [
+        201
+      ],
+      "issue": "Heading and strategy identify temperature sensor 2; measured-variable column labels sensor 1.",
+      "handling": "Explains second-channel high digital payload and message prerequisites; does not assign the printed raw limit to sensor 2 without review."
+    },
+    {
+      "code": "P018B",
+      "pages": [
+        202,
+        203
+      ],
+      "issue": "Stuck-sensor narrative is paired with sensed pressure change >=30 kPa without a clearly resolved pass-versus-fail role.",
+      "handling": "Explains intrusive response test and triggers; explicitly leaves the numerical direction unresolved."
+    },
+    {
+      "code": "P0262",
+      "pages": [
+        227
+      ],
+      "issue": "Threshold cell contains malformed amperage comparison (25 amp >= through low side driver) beside a voltage-feedback narrative.",
+      "handling": "Explains cylinder 1 on-state short-to-power logic, counter and enable conditions; does not present a current test limit."
+    },
+    {
+      "code": "P0265",
+      "pages": [
+        229
+      ],
+      "issue": "Threshold cell contains malformed amperage comparison beside voltage-feedback narrative.",
+      "handling": "Explains cylinder 2 on-state short-to-power evidence; numeric current criterion remains unresolved."
+    },
+    {
+      "code": "P0268",
+      "pages": [
+        231
+      ],
+      "issue": "Threshold cell contains malformed amperage comparison beside voltage-feedback narrative.",
+      "handling": "Explains cylinder 3 on-state short-to-power monitor without inventing a corrected current limit."
+    },
+    {
+      "code": "P0299",
+      "pages": [
+        232,
+        233,
+        234
+      ],
+      "issue": "Narrative describes positive desired-minus-actual underboost error, but steady-state threshold cell shows a less-than sign.",
+      "handling": "Explains steady and transient failure paths and counters; does not invert the sign or publish a fabricated fixed deviation limit."
+    }
+  ],
+  "reviewerNotes": [
+    "P0443 explicitly retains the cited row's diagnostic-disabled status; the described electrical logic is not claimed active for every calibration.",
+    "P0521 distinguishes running high/low pump-stage tests from engine-off logic marked disabled in the cited calibration.",
+    "P0563 uses ECM page 332 rather than the alternative module match on page 20.",
+    "P0565 uses the 20-second/25-second limit actually printed in 03A page 334; it does not import the 89-second/99-second limit from 04B.",
+    "P0462 is scoped to the FTZM-connected sender; P0463 is scoped to the directly ECM-connected sender. Their thresholds are not assumed reciprocal or interchangeable.",
+    "P0452/P0453 pressure conversions with awkward sign notation and P0522/P0523 poorly rendered equations are not used to infer generic conversions; the readable electrical percentage/voltage thresholds support the explanations.",
+    "P0446 explains the primary source's vent restriction performance interpretation despite the broader generic dictionary circuit title.",
+    "Repeated technical principles in cylinder-specific families have source support. Every body was individually authored; no exact duplicate substantive paragraphs occur."
+  ],
+  "validation": {
+    "exactAssignedCodeSet": true,
+    "uniqueCodeFiles": 100,
+    "parseableJsonFrontMatter": true,
+    "draftStatusOnAll": true,
+    "physicalSourcePagesWithinDocument": true,
+    "pageFragmentLinksForEveryCitedPage": true,
+    "wordCountIncludingHeadingsAndSourceSection": {
+      "minimum": 258,
+      "maximum": 301,
+      "mean": 273.5
+    },
+    "exactDuplicateSubstantiveParagraphs": 0,
+    "errors": []
+  }
+}

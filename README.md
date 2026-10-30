@@ -4,6 +4,8 @@ Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted f
 
 ## Published content in this repository
 
+The current writing assignment covers **1,000 code articles by 10 writers**. [Read the manuscripts and writing inventory](content/code-articles/README.md). Drafts are counted separately from published content and the full-catalog completion target.
+
 **The 10,000-code-article task is not complete.** The 32 case guides below are separate from the canonical dictionary pages. [Full-corpus research status](docs/FULL_CORPUS_RESEARCH.md) records the evidence gap and source candidates.
 
 | Content | Count |

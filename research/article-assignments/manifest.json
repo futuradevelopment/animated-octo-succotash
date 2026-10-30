@@ -1,0 +1,86 @@
+{
+  "target": 1000,
+  "batches": [
+    {
+      "batch": "batch-01",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-01.json",
+      "outputDirectory": "content/code-articles/batch-01",
+      "firstCode": "C0001",
+      "lastCode": "P0133"
+    },
+    {
+      "batch": "batch-02",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-02.json",
+      "outputDirectory": "content/code-articles/batch-02",
+      "firstCode": "P0135",
+      "lastCode": "P0568"
+    },
+    {
+      "batch": "batch-03",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-03.json",
+      "outputDirectory": "content/code-articles/batch-03",
+      "firstCode": "P056C",
+      "lastCode": "P2089"
+    },
+    {
+      "batch": "batch-04",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-04.json",
+      "outputDirectory": "content/code-articles/batch-04",
+      "firstCode": "P2090",
+      "lastCode": "P2B96"
+    },
+    {
+      "batch": "batch-05",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-05.json",
+      "outputDirectory": "content/code-articles/batch-05",
+      "firstCode": "P2C1E",
+      "lastCode": "P0273"
+    },
+    {
+      "batch": "batch-06",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-06.json",
+      "outputDirectory": "content/code-articles/batch-06",
+      "firstCode": "P0274",
+      "lastCode": "P067A"
+    },
+    {
+      "batch": "batch-07",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-07.json",
+      "outputDirectory": "content/code-articles/batch-07",
+      "firstCode": "P067B",
+      "lastCode": "P2295"
+    },
+    {
+      "batch": "batch-08",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-08.json",
+      "outputDirectory": "content/code-articles/batch-08",
+      "firstCode": "P2296",
+      "lastCode": "P281B"
+    },
+    {
+      "batch": "batch-09",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-09.json",
+      "outputDirectory": "content/code-articles/batch-09",
+      "firstCode": "P281D",
+      "lastCode": "U0669"
+    },
+    {
+      "batch": "batch-10",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-10.json",
+      "outputDirectory": "content/code-articles/batch-10",
+      "firstCode": "U067C",
+      "lastCode": "P0879"
+    }
+  ],
+  "method": "1000 distinct generic canonical codes with primary-position matches in GM monitor tables. All matches require individual source review before authoring; mentions alone are insufficient."
+}

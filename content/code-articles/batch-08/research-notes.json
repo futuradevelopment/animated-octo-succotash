@@ -1,0 +1,73 @@
+[
+  {
+    "code": "P22A1",
+    "issue": "Malfunction text says NOx1 while heading, strategy and enable signals identify NOx2. Article explicitly preserves sensor-2 scope and flags the conflicting wording.",
+    "sourcePages": [
+      1428,
+      1429
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P22A7",
+    "issue": "Heater normalized-resistance threshold signs appear inconsistent with out-of-range narrative. Numeric pass/fail formula omitted; timing and monitor mechanism retained.",
+    "sourcePages": [
+      1434
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P22B7",
+    "issue": "Several enable-condition numeric cells are blank in the source row. Article retains documented threshold and counter but does not borrow neighboring conditions.",
+    "sourcePages": [
+      1438
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P22FB",
+    "issue": "Continuation page 1441 prints other-mode speed >1620 rpm and <1225 rpm. Impossible interval is not adopted; article flags calibration review.",
+    "sourcePages": [
+      1439,
+      1440,
+      1441
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P22FE",
+    "issue": "Afterrun continuation contains questionable units and idle-speed values. Core internal test and ratio supported; detailed drive recipe intentionally omitted.",
+    "sourcePages": [
+      1442,
+      1443,
+      1444,
+      1445,
+      1446
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P233A",
+    "issue": "Source failure-count numerator and denominator are blank; no exact fault-setting duration asserted.",
+    "sourcePages": [
+      816
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P233B",
+    "issue": "The sample interval is present but failure-count fields are missing. No definitive monitor duration stated.",
+    "sourcePages": [
+      817
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P233C",
+    "issue": "Failed-sample counts are blank in the source. Article does not infer an exact detection time.",
+    "sourcePages": [
+      818
+    ],
+    "resolution": "needs-review"
+  }
+]

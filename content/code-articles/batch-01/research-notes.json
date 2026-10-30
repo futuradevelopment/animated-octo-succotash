@@ -1,0 +1,1569 @@
+{
+  "authoringBatch": "batch-01",
+  "status": "complete",
+  "assignedCount": 100,
+  "writtenCount": 100,
+  "method": "Each assigned code row was checked in the supplied primary-source page extracts. Full local PDF text continuations were read where rows crossed pages or a match was only a supporting-table mention. Articles contain explicitly authored per-code explanations and independent diagnostic interpretation. No external vehicle fitment was inferred. No articles were published.",
+  "validation": {
+    "uniqueAssignedCodeFiles": 100,
+    "parseableJsonFrontMatter": true,
+    "allSourcePagesExistInLocalPrimarySourceTexts": true,
+    "allCitedPagesHaveDirectPdfPageLinks": true,
+    "completeSentenceDescriptions": true,
+    "duplicateArticleBodies": 0,
+    "wordCountMinExcludingLinks": 251,
+    "wordCountMaxExcludingLinks": 279,
+    "totalWordsExcludingLinks": 26323
+  },
+  "unresolvedIssues": [
+    {
+      "code": "C0502",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        38
+      ],
+      "issue": "The signal-pattern branch describes invalid data in prose but prints Signal is not valid = False. The separate supply-short current branch is clear.",
+      "handling": "Article explains the verified supply-current branch and flags the Boolean inconsistency; sourceReview is needs-review. Exact Boolean branch should be resolved from OEM service clarification before publication."
+    }
+  ],
+  "boundedSourceLimitations": [
+    {
+      "codes": [
+        "C0501",
+        "C0507",
+        "C050D",
+        "C0513"
+      ],
+      "issue": "Magnetic flux units are unclear in extracted air-gap rows.",
+      "handling": "No flux magnitude or physical gap specification is asserted; rotations, speed and standstill-protocol requirements are explained."
+    },
+    {
+      "codes": [
+        "C0582"
+      ],
+      "issue": "The same code appears for bridge-driver checks on page 5 and temperature-signal summation plausibility on page 13.",
+      "handling": "Both source locations are cited and the shared assignment is preserved without silently redefining the code."
+    },
+    {
+      "codes": [
+        "P0072",
+        "P00EA"
+      ],
+      "issue": "Printed low-resistance temperature annotations conflict with the stated thermistor relationship.",
+      "handling": "Resistance criteria and stated relationship are used; dubious temperature conversions are omitted and acknowledged."
+    },
+    {
+      "codes": [
+        "P0091",
+        "P0092",
+        "P00C9",
+        "P00CA"
+      ],
+      "issue": "Ancillary current specifications are controller/pump dependent or not a suitable universal external test.",
+      "handling": "Articles retain clearly supported driver side, command state, enable conditions and sample qualification without inventing pin voltages or resistance limits."
+    },
+    {
+      "codes": [
+        "P0011",
+        "P0014",
+        "P0101",
+        "P0106",
+        "P0121",
+        "P0128",
+        "P00C6"
+      ],
+      "issue": "Complete thresholds or final combinations depend on referenced calibration tables.",
+      "handling": "No unprovided fixed threshold or matrix combination is invented; source-specific partial criteria and limitations are stated."
+    },
+    {
+      "codes": [
+        "P0133"
+      ],
+      "issue": "The gm-2025-03a page 819 candidate only mentions P0133 in a supporting green-sensor delay table; it is not a main diagnostic row. The gm-2025-07a-2 file-to-model/engine join remains unresolved.",
+      "handling": "Used actual P0133 ECM monitor path on gm-2025-07a-2 physical pages 348–350. Metadata and article explicitly exclude inferred model or engine assignment."
+    }
+  ],
+  "articles": [
+    {
+      "code": "C0001",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            33,
+            34
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 260,
+      "descriptionCharacters": 100
+    },
+    {
+      "code": "C0002",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            34,
+            35
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 267,
+      "descriptionCharacters": 76
+    },
+    {
+      "code": "C0003",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            35,
+            36
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 271,
+      "descriptionCharacters": 91
+    },
+    {
+      "code": "C0004",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            36,
+            37
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 81
+    },
+    {
+      "code": "C0011",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            25,
+            26
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 267,
+      "descriptionCharacters": 101
+    },
+    {
+      "code": "C0018",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            27,
+            28
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 268,
+      "descriptionCharacters": 89
+    },
+    {
+      "code": "C001C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            31,
+            32
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 268,
+      "descriptionCharacters": 97
+    },
+    {
+      "code": "C001D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            32,
+            33
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 82
+    },
+    {
+      "code": "C0024",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            23,
+            24
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 262,
+      "descriptionCharacters": 98
+    },
+    {
+      "code": "C0051",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1036
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 258,
+      "descriptionCharacters": 102
+    },
+    {
+      "code": "C0501",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            41,
+            42,
+            43,
+            44
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 251,
+      "descriptionCharacters": 90
+    },
+    {
+      "code": "C0502",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            38
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 103
+    },
+    {
+      "code": "C0504",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            40,
+            41
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 255,
+      "descriptionCharacters": 146
+    },
+    {
+      "code": "C0505",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1064
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 259,
+      "descriptionCharacters": 85
+    },
+    {
+      "code": "C0507",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 258,
+      "descriptionCharacters": 93
+    },
+    {
+      "code": "C0508",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            52
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 260,
+      "descriptionCharacters": 88
+    },
+    {
+      "code": "C0509",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            51,
+            52
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 258,
+      "descriptionCharacters": 119
+    },
+    {
+      "code": "C050A",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            54,
+            55
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 253,
+      "descriptionCharacters": 98
+    },
+    {
+      "code": "C050B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1066
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 260,
+      "descriptionCharacters": 98
+    },
+    {
+      "code": "C050C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 269,
+      "descriptionCharacters": 95
+    },
+    {
+      "code": "C050D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            48
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 270,
+      "descriptionCharacters": 91
+    },
+    {
+      "code": "C050F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 254,
+      "descriptionCharacters": 93
+    },
+    {
+      "code": "C0510",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            47,
+            48
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 258,
+      "descriptionCharacters": 101
+    },
+    {
+      "code": "C0511",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1068
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 87
+    },
+    {
+      "code": "C0512",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            60
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 262,
+      "descriptionCharacters": 85
+    },
+    {
+      "code": "C0513",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            62
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 259,
+      "descriptionCharacters": 97
+    },
+    {
+      "code": "C0515",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            59
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 267,
+      "descriptionCharacters": 98
+    },
+    {
+      "code": "C0516",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            61,
+            62
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 259,
+      "descriptionCharacters": 89
+    },
+    {
+      "code": "C0517",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1070
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 256,
+      "descriptionCharacters": 114
+    },
+    {
+      "code": "C053F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 274,
+      "descriptionCharacters": 96
+    },
+    {
+      "code": "C0552",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            71
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 263,
+      "descriptionCharacters": 89
+    },
+    {
+      "code": "C0553",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            76
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 264,
+      "descriptionCharacters": 90
+    },
+    {
+      "code": "C0554",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            77
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 267,
+      "descriptionCharacters": 89
+    },
+    {
+      "code": "C055F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 263,
+      "descriptionCharacters": 80
+    },
+    {
+      "code": "C057F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 260,
+      "descriptionCharacters": 102
+    },
+    {
+      "code": "C0582",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            5,
+            13
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 259,
+      "descriptionCharacters": 135
+    },
+    {
+      "code": "C0595",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 257,
+      "descriptionCharacters": 101
+    },
+    {
+      "code": "C05B0",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 272,
+      "descriptionCharacters": 162
+    },
+    {
+      "code": "C05D5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            22,
+            23
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 260,
+      "descriptionCharacters": 102
+    },
+    {
+      "code": "P0010",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            79
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 117
+    },
+    {
+      "code": "P0011",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            80
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 266,
+      "descriptionCharacters": 88
+    },
+    {
+      "code": "P0013",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            81
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 266,
+      "descriptionCharacters": 99
+    },
+    {
+      "code": "P0014",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            82
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 262,
+      "descriptionCharacters": 91
+    },
+    {
+      "code": "P0016",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            83
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 112
+    },
+    {
+      "code": "P0017",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            84
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 117
+    },
+    {
+      "code": "P0030",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            85
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 94
+    },
+    {
+      "code": "P0031",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            86
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 263,
+      "descriptionCharacters": 84
+    },
+    {
+      "code": "P0032",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            87
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 259,
+      "descriptionCharacters": 83
+    },
+    {
+      "code": "P0033",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            88
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 251,
+      "descriptionCharacters": 117
+    },
+    {
+      "code": "P0034",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            89
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 263,
+      "descriptionCharacters": 95
+    },
+    {
+      "code": "P0035",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            90
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 267,
+      "descriptionCharacters": 92
+    },
+    {
+      "code": "P0036",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            91
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 258,
+      "descriptionCharacters": 97
+    },
+    {
+      "code": "P0037",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            92
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 96
+    },
+    {
+      "code": "P0038",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            93
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 259,
+      "descriptionCharacters": 91
+    },
+    {
+      "code": "P0054",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            94
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 267,
+      "descriptionCharacters": 104
+    },
+    {
+      "code": "P0068",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            95
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 270,
+      "descriptionCharacters": 66
+    },
+    {
+      "code": "P0071",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            96,
+            97,
+            98,
+            99
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 264,
+      "descriptionCharacters": 115
+    },
+    {
+      "code": "P0072",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            100
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 259,
+      "descriptionCharacters": 85
+    },
+    {
+      "code": "P0073",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            101
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 257,
+      "descriptionCharacters": 82
+    },
+    {
+      "code": "P0074",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            102
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 268,
+      "descriptionCharacters": 84
+    },
+    {
+      "code": "P0089",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            103,
+            104
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 270,
+      "descriptionCharacters": 106
+    },
+    {
+      "code": "P0090",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            105
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 263,
+      "descriptionCharacters": 107
+    },
+    {
+      "code": "P0091",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            106
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 256,
+      "descriptionCharacters": 115
+    },
+    {
+      "code": "P0092",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            107
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 255,
+      "descriptionCharacters": 101
+    },
+    {
+      "code": "P0096",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            108,
+            109
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 272,
+      "descriptionCharacters": 129
+    },
+    {
+      "code": "P0097",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            110
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 174
+    },
+    {
+      "code": "P0098",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            111
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 255,
+      "descriptionCharacters": 101
+    },
+    {
+      "code": "P0099",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            112
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 259,
+      "descriptionCharacters": 126
+    },
+    {
+      "code": "P00C6",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            113,
+            114
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 100
+    },
+    {
+      "code": "P00C7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            115,
+            116,
+            117
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 263,
+      "descriptionCharacters": 121
+    },
+    {
+      "code": "P00C9",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            118
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 257,
+      "descriptionCharacters": 96
+    },
+    {
+      "code": "P00CA",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            119
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 260,
+      "descriptionCharacters": 130
+    },
+    {
+      "code": "P00E9",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            120,
+            121
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 262,
+      "descriptionCharacters": 130
+    },
+    {
+      "code": "P00EA",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            122
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 257,
+      "descriptionCharacters": 121
+    },
+    {
+      "code": "P00EB",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            123
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 253,
+      "descriptionCharacters": 77
+    },
+    {
+      "code": "P00EC",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            124
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 264,
+      "descriptionCharacters": 88
+    },
+    {
+      "code": "P00F4",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            125
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 258,
+      "descriptionCharacters": 98
+    },
+    {
+      "code": "P00F5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            126
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 81
+    },
+    {
+      "code": "P00F6",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            127
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 260,
+      "descriptionCharacters": 88
+    },
+    {
+      "code": "P0101",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            128,
+            129,
+            130
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 278,
+      "descriptionCharacters": 108
+    },
+    {
+      "code": "P0102",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            131
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 270,
+      "descriptionCharacters": 113
+    },
+    {
+      "code": "P0103",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            132
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 262,
+      "descriptionCharacters": 110
+    },
+    {
+      "code": "P0106",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            133,
+            134,
+            135
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 273,
+      "descriptionCharacters": 110
+    },
+    {
+      "code": "P0107",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            136
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 269,
+      "descriptionCharacters": 75
+    },
+    {
+      "code": "P0108",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            137
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 267,
+      "descriptionCharacters": 81
+    },
+    {
+      "code": "P0111",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            138,
+            139
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 273,
+      "descriptionCharacters": 132
+    },
+    {
+      "code": "P0112",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            140
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 109
+    },
+    {
+      "code": "P0113",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            141
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 82
+    },
+    {
+      "code": "P0114",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            142
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 269,
+      "descriptionCharacters": 99
+    },
+    {
+      "code": "P0116",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            143,
+            144,
+            145,
+            146,
+            147,
+            148
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 270,
+      "descriptionCharacters": 93
+    },
+    {
+      "code": "P0117",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            149
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 268,
+      "descriptionCharacters": 110
+    },
+    {
+      "code": "P0118",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            150
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 267,
+      "descriptionCharacters": 101
+    },
+    {
+      "code": "P0119",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            151,
+            152,
+            153
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 103
+    },
+    {
+      "code": "P0121",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            154,
+            155,
+            156
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 275,
+      "descriptionCharacters": 123
+    },
+    {
+      "code": "P0122",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            157
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 260,
+      "descriptionCharacters": 56
+    },
+    {
+      "code": "P0123",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            158
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 78
+    },
+    {
+      "code": "P0128",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            159,
+            160
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 278,
+      "descriptionCharacters": 128
+    },
+    {
+      "code": "P0131",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            161,
+            162
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 261,
+      "descriptionCharacters": 103
+    },
+    {
+      "code": "P0132",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            164
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 265,
+      "descriptionCharacters": 126
+    },
+    {
+      "code": "P0133",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            348,
+            349,
+            350
+          ]
+        }
+      ],
+      "wordsExcludingLinkLabelsAndUrls": 279,
+      "descriptionCharacters": 93
+    }
+  ],
+  "focusedVisualVerification": [
+    {
+      "code": "P0133",
+      "sourceId": "gm-2025-07a-2",
+      "physicalPdfPages": [
+        348,
+        349,
+        350
+      ],
+      "method": "Rendered the original local PDF at 2x resolution with PyMuPDF and directly inspected all three page images. Verified inequalities, decimal-comma values, units and row continuation visually, rather than inferring encoded glyphs from extracted text.",
+      "confirmedFacts": [
+        {
+          "pages": [
+            348,
+            349
+          ],
+          "fact": "Arithmetic mean step-response delay is >0.38 second and arithmetic mean transition time is >0.4 second in both lean-rich and rich-lean directions."
+        },
+        {
+          "pages": [
+            349
+          ],
+          "fact": "The separate identification-measurement branch lists identified delay >1 second and identified transition time >1.5 seconds in both directions."
+        },
+        {
+          "pages": [
+            350
+          ],
+          "fact": "The enable-condition row visibly reads lambda sensor 1 temperature >=655 degrees C, alongside upstream LSU ready-for-operation status."
+        }
+      ],
+      "outcome": "Existing article thresholds and temperature wording are confirmed; no factual article correction required. Unresolved model/engine mapping remains explicitly excluded.",
+      "reviewDate": "2026-10-30"
+    }
+  ]
+}

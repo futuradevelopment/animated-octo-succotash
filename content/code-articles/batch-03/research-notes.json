@@ -1,0 +1,54 @@
+[
+  {
+    "code": "P058D",
+    "issue": "04B page 73 post-crank delay entry says >5,000 seconds, inconsistent with likely delay representation; exact duration omitted. Comparison threshold and crank inhibition remain verified."
+  },
+  {
+    "code": "P0687",
+    "issue": "03A page 419 strategy says driver off but malfunction criteria says driver on. High/short-to-power meaning and enable/sample data verified; command-state requirement left explicitly unresolved."
+  },
+  {
+    "code": "P0713",
+    "issue": "Both source rows have erroneous Low Voltage component label despite high-resistance/open-short-to-voltage strategy; timing cell repeats fail time instead of clearly naming sample time. High electrical meaning verified; exact window omitted."
+  },
+  {
+    "code": "P0721",
+    "issue": "03A p1102 and 04B p2055 have contradictory nontransitional-direction prose and malformed period bounds. Supported direction-versus-speed concept and transitional >225 RPM path retained; exact period specification omitted."
+  },
+  {
+    "code": "P0841",
+    "issue": "03A P0841 performance row maps sensor A to secondary pulley, while P0842/P0843 map A to primary. Mapping unresolved; no physical component selection inferred."
+  },
+  {
+    "code": "P0842",
+    "issue": "Sensor A primary-pulley mapping in P0842 conflicts with secondary-pulley mapping in P0841. PWM threshold verified; physical mapping explicitly unresolved."
+  },
+  {
+    "code": "P0843",
+    "issue": "Sensor A primary-pulley mapping in P0843 conflicts with P0841 secondary mapping. Verified >95% PWM criterion retained; physical mapping unresolved."
+  },
+  {
+    "code": "P0846",
+    "issue": "03A P0846 maps B performance to primary pulley while P0847/P0848 map B circuits to secondary. Mapping unresolved; supported comparative logic retained."
+  },
+  {
+    "code": "P0847",
+    "issue": "Sensor B secondary mapping in P0847 conflicts with primary mapping in P0846. Electrical threshold verified; component selection withheld."
+  },
+  {
+    "code": "P0848",
+    "issue": "Sensor B secondary mapping in P0848 conflicts with primary mapping in P0846. >95% PWM criterion verified; physical mapping unresolved."
+  },
+  {
+    "code": "P0E32",
+    "issue": "Auto-cranking event threshold says >2 failed events but time field says 2 failures of 3. Exact event-count claim omitted; bypass and stabilization sample criteria verified."
+  },
+  {
+    "code": "P0E37",
+    "issue": "Auto-crank event branch has >2 threshold versus 2-of-3 event wording. Exact count unresolved; mode-specific voltage/sample facts retained."
+  },
+  {
+    "code": "P2089",
+    "issue": "03A high-side strategy/criteria say driver off while enable says commanded on. 07A p743 is a different low-side driver design, not a resolution; file/model join unresolved and explicitly bounded."
+  }
+]
