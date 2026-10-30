@@ -1,9 +1,12 @@
 # ErrHive Cars quality report
 
-Generated 2026-10-30T14:54:41.194Z. These are repository and build measurements, not proof of public deployment, indexing, search demand or rankings.
+Generated 2026-10-30T15:27:15.917Z. These are repository and build measurements, not proof of public deployment, indexing, search demand or rankings.
 
 | Measure | Actual |
 | --- | ---: |
+| Approved code-article records | 0 |
+| Code entries tracked for article research | 11786 |
+| Code entries with scoped source candidates (not verified articles) | 2105 |
 | Individually authored diagnostic guides | 32 |
 | Indexable dictionary code pages | 11786 |
 | Generic definitions | 9249 |
@@ -24,7 +27,7 @@ Generated 2026-10-30T14:54:41.194Z. These are repository and build measurements,
 
 Data validation: **passed**, 276918 checks and 0 failures. Static output audit: **passed**, 1879148 checks and 0 failures. Reports retain aggregate check counters and capped failure details. The static audit processes one HTML document and one search shard at a time. Read the current CI run for Node tests, production-browser checks, and screenshots.
 
-The dictionary target is at least **10,000 distinct indexable canonical code entries**. This is not a target or claim for researched diagnostic articles. Authored guides are counted separately and checked for duplicate body content. Directory pages, model hubs and shared make associations do not count toward it. Current target result: **met**.
+The user target is at least **10,000 separately authored, useful code articles**, covering the existing code catalog. Current approved code-article records: **0**. Current target result: **not met**. The 32 scoped case guides remain separate content. The dictionary-size check preserves the imported inventory; it does not measure article completion. Candidate source mentions also do not count as articles. Run `npm run article:target` for the explicit completion gate; it fails while the target is unmet. Structural screening is not proof of factual accuracy or live publication.
 
 ## Evidence boundaries
 

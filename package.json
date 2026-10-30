@@ -14,7 +14,9 @@
     "verify": "npm run check && npm run build && npm test && npm run audit",
     "audit:performance": "node scripts/performance-audit.mjs",
     "test:browser": "playwright test",
-    "reports": "node scripts/write-reports.mjs"
+    "reports": "node scripts/write-reports.mjs",
+    "article:coverage": "node scripts/article-coverage.mjs",
+    "article:target": "node scripts/article-coverage.mjs --require-target"
   },
   "dependencies": {
     "astro": "7.4.2",

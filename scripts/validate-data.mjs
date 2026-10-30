@@ -5,7 +5,7 @@ import {isDeepStrictEqual} from 'node:util';
 import {createCheckCollector,validDate} from './lib/audit-utils.mjs';
 
 export const CODE_PATTERN=/^[PBCU][0-3][0-9A-F]{3}$/;
-export const MINIMUM_CANONICAL_CODES=10000;
+export const MINIMUM_DICTIONARY_ENTRIES=10000;
 const slug=/^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const normalize=value=>String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'');
 export const canonicalCodeRoute=entry=>`/codes/${entry.makeId}/${entry.code.toLowerCase()}/`;
@@ -14,7 +14,7 @@ export function isGenericAllocation(code){
  return /^[PBCU]0/.test(code)||/^P2/.test(code)||/^U3/.test(code)||(/^P3/.test(code)&&parseInt(code.slice(1),16)>=0x3400);
 }
 export function isManufacturerAllocation(code){return CODE_PATTERN.test(code)&&(/^(?:P1|[BCU][12])/.test(code)||(/^P3/.test(code)&&parseInt(code.slice(1),16)<0x3400));}
-export function validateDataset(data,{minimumCodes=MINIMUM_CANONICAL_CODES}={}){
+export function validateDataset(data,{minimumCodes=MINIMUM_DICTIONARY_ENTRIES}={}){
  const collector=createCheckCollector(),check=collector.check;
  const codes=data.allCodes||data.codes||[],makes=data.makes||[],models=data.models||[],sources=data.sources||[],systems=data.systems||[],bulletins=data.bulletins||[];
  const sourceById=new Map(),makeById=new Map(),modelById=new Map(),systemIds=new Set(systems.map(s=>typeof s==='string'?s:s.id));
@@ -114,7 +114,7 @@ export function validateDataset(data,{minimumCodes=MINIMUM_CANONICAL_CODES}={}){
   const guide=(data.authoredGuides||[]).find(item=>item.slug===bulletin.guideSlug);
   check('bulletin-guide-resolves',Boolean(guide)&&(guide.makeIds||[guide.makeId]).includes(bulletin.makeId)&&bulletin.modelIds.every(id=>guide.modelIds.includes(id)),bulletin.id);
  }
- check('canonical-code-launch-target',indexableRoutes.size>=minimumCodes,{minimum:minimumCodes,actual:indexableRoutes.size,scope:'Unique indexable dictionary code routes only. These are not counted as authored diagnostic articles.'});
+ check('dictionary-inventory-floor',indexableRoutes.size>=minimumCodes,{minimum:minimumCodes,actual:indexableRoutes.size,scope:'Unique indexable dictionary code routes only. These are not counted as authored diagnostic articles.'});
  const result=collector.report();
  return {status:result.failed?'failed':'passed',counts:{codes:codes.length,indexableCanonicalCodes:indexableRoutes.size,genericCodes:genericCodes.size,manufacturerCodes:codes.length-genericCodes.size,sharedManufacturerReferences:shared,noindexCodes:noindex,makes:makes.length,models:models.length,sources:sources.length,systems:systems.length,authoredDiagnosticGuides:(data.authoredGuides||[]).length},canonicalCodesByMake:makeCounts,canonicalCodesBySystem:systemCounts,...result};
 }

@@ -5,7 +5,7 @@ import {parseHTML} from 'linkedom';
 import * as cars from '../src/lib/cars.ts';
 import {authoredGuides,guidePath,guidesForCode,guideMakes} from '../src/lib/authored-guides.ts';
 import {ads} from '../src/lib/ads.ts';
-import {validateDataset,MINIMUM_CANONICAL_CODES} from './validate-data.mjs';
+import {validateDataset,MINIMUM_DICTIONARY_ENTRIES} from './validate-data.mjs';
 import {clean,createCheckCollector,walkFiles,routeFromFile,fileForRoute,reachableRoutes,flattenSchema,xmlLocations} from './lib/audit-utils.mjs';
 
 export async function audit(root=process.cwd()){
@@ -16,7 +16,7 @@ export async function audit(root=process.cwd()){
  const modelByRoute=new Map(models.map(model=>[modelPath(model),model])),sourceById=new Map(sources.map(source=>[source.id,source]));
  const guideByRoute=new Map(authoredGuides.map(guide=>[guidePath(guide),guide]));
  const expectedIndexable=new Set(getIndexableRoutes()),expectedCodes=new Set(codes.filter(entry=>entry.status==='published_indexable').map(codePath));
- check('canonical-code-coverage-target',expectedCodes.size>=MINIMUM_CANONICAL_CODES,{minimum:MINIMUM_CANONICAL_CODES,actual:expectedCodes.size});
+ check('dictionary-output-inventory-floor',expectedCodes.size>=MINIMUM_DICTIONARY_ENTRIES,{minimum:MINIMUM_DICTIONARY_ENTRIES,actual:expectedCodes.size});
  check('search-intentionally-noindex',!expectedIndexable.has('/search/'),'/search/');
  const files=new Set(),htmlFiles=[];for await(const file of walkFiles(dist)){files.add(file);if(file.endsWith('.html'))htmlFiles.push(file);}
  check('html-generated',htmlFiles.length>0,htmlFiles.length);check('real-not-found-document',files.has(path.join(dist,'404.html')),'Static-host HTTP status still requires the CI browser/deployment check.');

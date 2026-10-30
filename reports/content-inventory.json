@@ -1,8 +1,27 @@
 {
-  "generatedAt": "2026-10-30T14:54:41.194Z",
+  "generatedAt": "2026-10-30T15:27:15.917Z",
   "site": "https://cars.errhive.com",
-  "minimumCanonicalCodePages": 10000,
-  "targetMet": true,
+  "minimumReviewedCodeArticles": 10000,
+  "targetMet": false,
+  "articleCoverage": {
+    "canonicalEntries": 11786,
+    "distinctCodeStrings": 10043,
+    "trackedEntries": 11786,
+    "approvedCodeArticles": 0,
+    "approvedDistinctCodeStrings": 0,
+    "remainingDistinctCodeStrings": 10043,
+    "remainingToMinimum": 10000,
+    "remainingCatalogEntries": 11786,
+    "scopedVehicleGuides": 32,
+    "entriesLinkedToScopedGuides": 52,
+    "entriesWithSourceCandidates": 2105,
+    "distinctCodesWithSourceCandidates": 2104,
+    "entriesNeedingResearch": 9681,
+    "candidateDocuments": 62,
+    "submittedArticleRecords": 0,
+    "rejectedArticleRecords": 0
+  },
+  "dictionaryInventoryFloorMet": true,
   "counts": {
     "codes": 11786,
     "indexableCanonicalCodes": 11786,
@@ -53,6 +72,6 @@
     "powertrain": 9891,
     "network": 1228
   },
-  "countingRule": "Each indexable canonical code URL counts once. Shared manufacturer discovery labels, directory pagination, model hubs, source pages and noindex references do not increase the target count.",
+  "countingRule": "The target counts separately authored and reviewed code-article records only. Dictionary entries, scoped case guides, source candidates, aliases and model hubs are reported separately and cannot satisfy it.",
   "definitionEvidence": "Community reference definitions retain upstream source row, revision and file hashes. OEM contextual guidance is separately attributed and does not turn the entire dataset into manufacturer-verified definitions."
 }

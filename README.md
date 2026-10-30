@@ -4,6 +4,8 @@ Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted f
 
 ## Published content in this repository
 
+**The 10,000-code-article task is not complete.** The 32 case guides below are separate from the canonical dictionary pages. [Full-corpus research status](docs/FULL_CORPUS_RESEARCH.md) records the evidence gap and source candidates.
+
 | Content | Count |
 | --- | ---: |
 | Distinct canonical code reference pages | 11,786 |
@@ -31,7 +33,7 @@ npm run verify
 npm run reports
 ```
 
-`verify` runs Astro diagnostics, source validation, a production build, Node regression tests and the streaming static-output audit. The launch gate requires at least 10,000 distinct indexable code canonicals. Generated counts are written to `reports/content-inventory.json`; the sitemap includes eligible supporting URLs separately.
+`verify` runs Astro diagnostics, source validation, a production build, Node regression tests and the streaming static-output audit. The dictionary-size check preserves at least 10,000 imported reference entries; it does not satisfy the user's article target. `npm run article:coverage` tracks the whole code catalog; `npm run article:target` fails until every canonical entry has a separately authored code-article record passing its review/evidence requirements and the total reaches at least 10,000. Generated counts are written to `reports/content-inventory.json`; the sitemap includes eligible supporting URLs separately.
 
 Browser checks run with `npm run test:browser`. Performance checks use three sequential Lighthouse samples for every route/device profile and the official representative-run calculation; all samples remain available. CI builds once and reuses that output. Reports and screenshot evidence are also written to job logs when artifact uploads are unavailable.
 

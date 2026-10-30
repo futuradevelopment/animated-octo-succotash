@@ -1,0 +1,785 @@
+{
+  "target": {
+    "minimumReviewedCodeArticles": 10000,
+    "scope": "Every existing canonical code entry needs one separately authored and reviewed article, and the approved total must also meet the minimum. Make aliases, dictionary definitions, source mentions and links to vehicle-case guides do not add completed articles.",
+    "minimumMet": false,
+    "entireCatalogCovered": false,
+    "met": false
+  },
+  "counts": {
+    "canonicalEntries": 11786,
+    "distinctCodeStrings": 10043,
+    "trackedEntries": 11786,
+    "approvedCodeArticles": 0,
+    "approvedDistinctCodeStrings": 0,
+    "remainingDistinctCodeStrings": 10043,
+    "remainingToMinimum": 10000,
+    "remainingCatalogEntries": 11786,
+    "scopedVehicleGuides": 32,
+    "entriesLinkedToScopedGuides": 52,
+    "entriesWithSourceCandidates": 2105,
+    "distinctCodesWithSourceCandidates": 2104,
+    "entriesNeedingResearch": 9681,
+    "candidateDocuments": 62,
+    "submittedArticleRecords": 0,
+    "rejectedArticleRecords": 0
+  },
+  "candidateCatalog": [
+    {
+      "id": "ford-gasoline-2024-2025-v2",
+      "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+      "publisher": "Ford Motor Company",
+      "title": "2024–2025 MY V2 OBD System Operation Summary for Gasoline Engines",
+      "documentScope": "Ford gasoline engines, model years 2024–2025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+      "makeIds": [
+        "ford",
+        "lincoln"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 923
+    },
+    {
+      "id": "ford-diesel-2023-2024",
+      "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+      "publisher": "Ford Motor Company",
+      "title": "2023–2024 MY OBD System Operation Summary for Diesel Engines",
+      "documentScope": "Ford diesel engines, model years 2023–2024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 509
+    },
+    {
+      "id": "ford-gasoline-2020-2023",
+      "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+      "publisher": "Ford Motor Company",
+      "title": "2020–2023 MY OBD System Operation Summary for Gasoline Engines",
+      "documentScope": "Ford gasoline engines, model years 2020–2023. Individual vehicles and engines have not been mapped.",
+      "makeIds": [
+        "ford",
+        "lincoln"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 592
+    },
+    {
+      "id": "gm-2025-03a",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+      "publisher": "General Motors",
+      "title": "25OBDG03A — 2025 Engine and Transmission Diagnostic Parameters",
+      "documentScope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+      "makeIds": [
+        "buick",
+        "cadillac",
+        "chevrolet",
+        "gmc"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 714
+    },
+    {
+      "id": "gm-2025-04b",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+      "publisher": "General Motors",
+      "title": "25OBDG04B — 2025 Engine and Transmission Diagnostic Parameters",
+      "documentScope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+      "makeIds": [
+        "chevrolet",
+        "gmc"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1321
+    },
+    {
+      "id": "gm-2025-07a-2",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+      "publisher": "General Motors",
+      "title": "25OBDG07A Part 2 — 2025 Engine and Transmission Diagnostic Parameters",
+      "documentScope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+      "makeIds": [],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1169
+    },
+    {
+      "id": "ford-pced-1999-chart",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/14/VX24001.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: Diagnostic Trouble Code (DTC) Charts",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 291
+    },
+    {
+      "id": "ford-pced-1999-descriptions",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/14/VX24002.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: Diagnostic Trouble Code (DTC) Descriptions",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 195
+    },
+    {
+      "id": "ford-pced-1999-14-vx25010",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/14/VX25010.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DB: Engine Fuel Temperature (EFT) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 4
+    },
+    {
+      "id": "ford-pced-1999-14-vx25100",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/14/VX25100.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KM: WOT A/C Cutoff Relay, A/C Circuits",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 2
+    },
+    {
+      "id": "ford-pced-1999-15-vx25008",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25008.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DA: Intake Air Temperature (IAT)/Engine Coolant Temperature (ECT)/Engine Oil Temperature (EOT) Sensors",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 11
+    },
+    {
+      "id": "ford-pced-1999-15-vx25012",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25012.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DC: Mass Air Flow (MAF) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 9
+    },
+    {
+      "id": "ford-pced-1999-15-vx25014",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25014.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DD: Fuel Rail Pressure (FRP) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 6
+    },
+    {
+      "id": "ford-pced-1999-15-vx25016",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25016.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DE: Flexible Fuel (FF) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25018",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25018.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DF: Vehicle Speed Circuit Check",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25020",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25020.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DG: Knock Sensor (KS)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 4
+    },
+    {
+      "id": "ford-pced-1999-15-vx25022",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25022.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DH: Throttle Position (TP) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 8
+    },
+    {
+      "id": "ford-pced-1999-15-vx25024",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25024.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DL: Cylinder Head Temperature (CHT) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 10
+    },
+    {
+      "id": "ford-pced-1999-15-vx25026",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25026.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DP: Vehicle Speed Sensor (VSS)/Transfer Case Speed Sensor (TCSS)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 6
+    },
+    {
+      "id": "ford-pced-1999-15-vx25028",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25028.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DQ: Barometric Pressure (BARO) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 4
+    },
+    {
+      "id": "ford-pced-1999-15-vx25030",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25030.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DR: Camshaft Position (CMP) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25032",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25032.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DS: Air Conditioning Pressure (ACP) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25034",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25034.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DT: Power Steering Pressure (PSP) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 0
+    },
+    {
+      "id": "ford-pced-1999-15-vx25036",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25036.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT DU: Intake Air Temperature 2 (IAT2) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25042",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25042.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT FD: Brake Pedal Position (BPP) Switch",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 2
+    },
+    {
+      "id": "ford-pced-1999-15-vx25044",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25044.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT FF: Power Steering Pressure (PSP) Switch",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 0
+    },
+    {
+      "id": "ford-pced-1999-15-vx25046",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25046.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT FH: Generator Load Input (GLI)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25048",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25048.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT H: Fuel Control",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 27
+    },
+    {
+      "id": "ford-pced-1999-15-vx25050",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25050.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HA: Natural Gas Fuel Control",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 16
+    },
+    {
+      "id": "ford-pced-1999-15-vx25052",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25052.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HB: Natural Gas Fuel Delivery System",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 2
+    },
+    {
+      "id": "ford-pced-1999-15-vx25056",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25056.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HD: Misfire Detection Monitor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 19
+    },
+    {
+      "id": "ford-pced-1999-15-vx25058",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25058.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HE: Exhaust Gas Recirculation (EGR) Systems",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 8
+    },
+    {
+      "id": "ford-pced-1999-15-vx25060",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25060.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HF: Catalyst Efficiency Monitor and Exhaust Systems",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 28
+    },
+    {
+      "id": "ford-pced-1999-15-vx25064",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25064.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HK: Variable Cam Timing (VCT)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 5
+    },
+    {
+      "id": "ford-pced-1999-15-vx25066",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25066.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HM: Secondary Air Injection (AIR) System",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 4
+    },
+    {
+      "id": "ford-pced-1999-15-vx25068",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25068.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HU: Intake Air Systems",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 8
+    },
+    {
+      "id": "ford-pced-1999-15-vx25070",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25070.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HX: Evaporative Emission (EVAP) Monitor and System",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 11
+    },
+    {
+      "id": "ford-pced-1999-15-vx25072",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25072.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT HY: Generator/Regulator System",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25074",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25074.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT JB: Secondary Ignition",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 2
+    },
+    {
+      "id": "ford-pced-1999-15-vx25078",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25078.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT JE: Integrated Ignition Coil 1, 2, 3 or 4 Failure",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 5
+    },
+    {
+      "id": "ford-pced-1999-15-vx25080",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25080.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT JF: Integrated Ignition Coil On Plug Coil 1 Through 10 Failure",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25084",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25084.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KA: Fuel Pump Relay",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 4
+    },
+    {
+      "id": "ford-pced-1999-15-vx25086",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25086.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KB: Fuel Pump Driver Module (FPDM)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 7
+    },
+    {
+      "id": "ford-pced-1999-15-vx25088",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25088.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KC: Fuel Shutoff Valve Relay",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25090",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25090.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KE: Idle Air Control (IAC) Valve",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 5
+    },
+    {
+      "id": "ford-pced-1999-15-vx25092",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25092.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KF: Fan Control (FC) Relay",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 2
+    },
+    {
+      "id": "ford-pced-1999-15-vx25094",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25094.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KH: Hydraulic Cooling Fan",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25096",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25096.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KJ: Supercharge Bypass Control",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25102",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25102.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT KP: Charge Air Cooler Pump (CAC)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25106",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25106.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT NC: Ignition Engine Speed Input Circuit",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25107",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25107.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT ND: Engine RPM/Vehicle Speed Limiter",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25109",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25109.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT QA: Unable To Activate Self-Test/SCP Communication Error/DTC Not Listed",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25111",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25111.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT QB: Diagnostic Trouble Code (DTC) P0603/P1605/P1633",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25113",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25113.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT QC: OBD II Monitor Testing Not Complete - DTC P1000",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25115",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25115.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT QD: Diagnostic Trouble Code (DTC) P1260",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25117",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25117.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT TA: Park/Neutral Position (PNP)/Clutch Pedal Position (CPP) Switches",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-pced-1999-15-vx25119",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25119.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT TB: Transmission Control Switch (TCS)/Transmission Control Indicator Lamp (TCIL)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25121",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25121.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT TG: 4x4 Low (4x4L) Range",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 2
+    },
+    {
+      "id": "ford-pced-1999-15-vx25123",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25123.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT TH: Reverse Switch (RS)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ford-pced-1999-15-vx25125",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25125.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT TJ: Output Shaft Speed (OSS) Sensor",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 5
+    },
+    {
+      "id": "ford-pced-1999-15-vx25127",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25127.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT X: Constant Control Relay Module (CCRM)",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 5
+    },
+    {
+      "id": "ford-pced-1999-15-vx25129",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/15/VX25129.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1999 Ford PCED: PPT Z: Intermittent",
+      "documentScope": "US-market 1999 Ford PCED. Applicability is limited by the chart row, test introduction, engine and operating state. This navigation match does not establish applicability to later vehicles or other Ford-group makes.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 0
+    }
+  ],
+  "articleIssues": [],
+  "limitations": [
+    "A candidate is an exact code-string mention in a scoped document, not a confirmed definition, diagnosis, cause or repair.",
+    "Manufacturer candidates require explicit make labels; corporate ownership and filename similarity never infer applicability.",
+    "Generic code candidates retain document-specific scope; they do not establish universal model or engine compatibility.",
+    "Approved article records require recorded review and complete claim evidence. Structural screening cannot verify factual accuracy or live publication.",
+    "Existing model-case guides remain separate content. Linking one to a code does not create a separately authored code article."
+  ]
+}
