@@ -1,6 +1,6 @@
 # ErrHive Cars source inventory
 
-25 source records and 25 unique URLs. Dataset and manufacturer evidence are labeled separately. Dates describe source review, not manufacturer endorsement or an independent repair test.
+33 source records and 33 unique URLs. Dataset and manufacturer evidence are labeled separately. Dates describe source review, not manufacturer endorsement or an independent repair test.
 
 | ID | Type | Source | Checked |
 | --- | --- | --- | --- |
@@ -24,6 +24,14 @@
 | oem-dodge-challenger-evap-calibration | manufacturer | [FCA US LLC: 18-091-23](https://static.nhtsa.gov/odi/tsbs/2023/MC-10243255-9999.pdf) | 2026-10-30 |
 | oem-ram1500-p0128-calibration | manufacturer | [FCA US LLC: 18-009-19 RevB](https://static.nhtsa.gov/odi/tsbs/2019/MC-10162544-9999.pdf) | 2026-10-30 |
 | oem-ram-diesel-p0401 | manufacturer | [FCA US LLC: 18-130-22](https://static.nhtsa.gov/odi/tsbs/2022/MC-10223796-9999.pdf) | 2026-10-30 |
+| oem-audi-caeb-underboost-2031245 | manufacturer | [Audi of America: 2031245/6 (2013-07-09)](https://static.nhtsa.gov/odi/tsbs/2013/SB-10052519-8307.pdf) | 2026-10-30 |
+| oem-audi-crankcase-ventilation-2015505 | manufacturer | [Audi of America: 2015505/10 — Crankcase ventilation diagnostic bulletin (2012-03-16)](https://static.nhtsa.gov/odi/tsbs/2012/SB-10043872-9159.pdf) | 2026-10-30 |
+| oem-audi-40tfsi-breather-2040644 | manufacturer | [Audi of America: 2040644/10 — 4.0 TFSI breather diagnostic bulletin (2018-03-28)](https://static.nhtsa.gov/odi/tsbs/2018/MC-10138314-9999.pdf) | 2026-10-30 |
+| oem-porsche-macan-turbo-p0299 | manufacturer | [Porsche Cars North America: ATI 1502/2470 — P0299 (2015)](https://static.nhtsa.gov/odi/tsbs/2015/MC-10126444-9999.pdf) | 2026-10-30 |
+| oem-porsche-evap-analysis-2205 | manufacturer | [Porsche Cars North America: ATI 2205.1 / 2023 — Cayenne and Panamera EVAP analysis, February 28, 2022](https://static.nhtsa.gov/odi/tsbs/2022/MC-10208704-0001.pdf) | 2026-10-30 |
+| oem-porsche-camshaft-adjuster-diagnosis | manufacturer | [Porsche Cars North America: ATI 1201 / 1584 — Camshaft diagnosis, December 3, 2012](https://static.nhtsa.gov/odi/tsbs/2012/MC-10116407-9999.pdf) | 2026-10-30 |
+| oem-audi-caeb-underboost-2031245-r5-history | manufacturer | [Audi of America: 2031245/5 (2013-06-07), superseded historical scope](https://static.nhtsa.gov/odi/tsbs/2013/SB-10052519-6931.pdf) | 2026-10-30 |
+| oem-audi-recirculation-valve-2013060 | manufacturer | [Audi of America: 2013060/7 (2015-03-12)](https://static.nhtsa.gov/odi/tsbs/2015/MC-10119942-9999.pdf) | 2026-10-30 |
 | epa-check-engine | public-agency | [U.S. Environmental Protection Agency: What To Do With the Check Engine Light](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100MHPD.TXT) | 2026-10-30 |
 | oregon-obd | public-agency | [Oregon Department of Environmental Quality: On-board Diagnostics Frequently Asked Questions](https://www.oregon.gov/deq/vehicle-inspection/pages/obd.aspx) | 2026-10-30 |
 | nhtsa-ev-safety | public-agency | [National Highway Traffic Safety Administration: Electric and Hybrid Vehicles: Battery, Charging & Safety](https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles) | 2026-10-30 |

@@ -93,9 +93,23 @@ export function validateDataset(data,{minimumCodes=MINIMUM_CANONICAL_CODES}={}){
   check('bulletin-scope-visible',Boolean(bulletin.years&&bulletin.limitations&&bulletin.summary&&bulletin.action),bulletin.id);
   check('bulletin-code-list',Array.isArray(bulletin.codes)&&bulletin.codes.length>0&&bulletin.codes.every(code=>typeof code==='string'&&code.trim()),bulletin.id);
  }
- check('canonical-code-launch-target',indexableRoutes.size>=minimumCodes,{minimum:minimumCodes,actual:indexableRoutes.size,scope:'Unique indexable code routes only. Directories, model hubs, aliases and noindex pages do not count.'});
+ const guideIds=new Set(),guideSlugs=new Set(),guideBodies=new Set();
+ for(const guide of data.authoredGuides||[]){
+  check('authored-guide-id',Boolean(guide.id)&&!guideIds.has(guide.id),guide.id);guideIds.add(guide.id);
+  check('authored-guide-slug',slug.test(guide.slug||'')&&!guideSlugs.has(guide.slug),guide.id);guideSlugs.add(guide.slug);
+  check('authored-guide-vehicle',makeById.has(guide.makeId)&&guide.modelIds?.length>0&&guide.modelIds.every(id=>modelById.get(id)?.makeId===guide.makeId),guide.id);
+  check('authored-guide-primary-evidence',guide.sourceIds?.length>0&&guide.sourceIds.every(id=>sourceById.get(id)?.kind==='manufacturer'),guide.id);
+  check('authored-guide-scope',guide.scope?.length>0&&guide.scope.every(item=>item.label&&item.value),guide.id);
+  check('authored-guide-reviewed-date',validDate(guide.updatedOn),guide.id);
+  const sections=guide.sections||[],sectionIds=sections.map(section=>section.id);
+  check('authored-guide-sections',sections.length>0&&new Set(sectionIds).size===sectionIds.length&&sectionIds.every(id=>slug.test(id)&&!['sources','related-vehicles','scope-title'].includes(id)),guide.id);
+  for(const section of sections)if(section.table)check('authored-guide-table-shape',section.table.columns.length>=2&&section.table.rows.length>0&&section.table.rows.every(row=>row.length===section.table.columns.length&&row.every(cell=>typeof cell==='string'&&cell.trim())),{guide:guide.id,section:section.id});
+  const body=sections.flatMap(section=>[...(section.paragraphs||[]),...(section.bullets||[]),...(section.table?.rows.flat()||[])]).join(' ').replace(/\b[PBCU][0-3][0-9A-F]{3,5}\b/gi,'CODE').toLowerCase().replace(/\s+/g,' ').trim();
+  check('authored-guide-distinct-body',Boolean(body)&&!guideBodies.has(body),guide.id);guideBodies.add(body);
+ }
+ check('canonical-code-launch-target',indexableRoutes.size>=minimumCodes,{minimum:minimumCodes,actual:indexableRoutes.size,scope:'Unique indexable dictionary code routes only. These are not counted as authored diagnostic articles.'});
  const result=collector.report();
- return {status:result.failed?'failed':'passed',counts:{codes:codes.length,indexableCanonicalCodes:indexableRoutes.size,genericCodes:genericCodes.size,manufacturerCodes:codes.length-genericCodes.size,sharedManufacturerReferences:shared,noindexCodes:noindex,makes:makes.length,models:models.length,sources:sources.length,systems:systems.length},canonicalCodesByMake:makeCounts,canonicalCodesBySystem:systemCounts,...result};
+ return {status:result.failed?'failed':'passed',counts:{codes:codes.length,indexableCanonicalCodes:indexableRoutes.size,genericCodes:genericCodes.size,manufacturerCodes:codes.length-genericCodes.size,sharedManufacturerReferences:shared,noindexCodes:noindex,makes:makes.length,models:models.length,sources:sources.length,systems:systems.length,authoredDiagnosticGuides:(data.authoredGuides||[]).length},canonicalCodesByMake:makeCounts,canonicalCodesBySystem:systemCounts,...result};
 }
 export async function validateData(root=process.cwd()){
  const data=await import('../src/lib/cars.ts');

@@ -10,10 +10,13 @@ Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted f
 | Generic OBD-II definitions | 9,249 |
 | Manufacturer-specific reference definitions | 2,537 |
 | Distinct displayed DTC strings | 10,043 |
-| Model context hubs | 26 |
-| Scoped manufacturer bulletin records | 20 |
+| Model context hubs | 32 |
+| Scoped manufacturer bulletin records | 26 |
+| Individually authored diagnostic case guides | 2 |
 
-These are **reference pages**, not 11,786 individually OEM-verified repair procedures. The MIT-licensed community dictionary is pinned and retains source-row evidence. Obvious contaminated, reserved, malformed and conflicting records are excluded. Manufacturer documents provide separately attributed model-specific context. See [data provenance](docs/DATA_PROVENANCE.md), [model research](docs/MODEL_RESEARCH.md), and [data licensing](DATA_LICENSE.md).
+These are **dictionary entries**, not 11,786 diagnostic articles. Dictionary pages contain the definition, scope and source without repeated repair instructions; separately authored case guides have their own vehicle-specific evidence and diagnostic branches. The MIT-licensed community dictionary is pinned and retains source-row evidence. Obvious contaminated, reserved, malformed and conflicting records are excluded. Manufacturer documents provide separately attributed model-specific context. See [data provenance](docs/DATA_PROVENANCE.md), [model research](docs/MODEL_RESEARCH.md), and [data licensing](DATA_LICENSE.md).
+
+Audi and Porsche are discoverable through scoped manufacturer documents and model hubs; their coverage does not imply a complete brand-specific code dictionary.
 
 One generic definition has one canonical URL. Shared manufacturer definitions retain every supported discovery label without generating duplicates. Model pages state documented years, engine restrictions and bulletin limits; the site does not fabricate model × code combinations. Featured makes and codes are editorial selections, not measured search-volume rankings.
 

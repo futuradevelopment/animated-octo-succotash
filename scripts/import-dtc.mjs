@@ -151,7 +151,12 @@ const makes = Object.values(makesByLabel).map(([id, name, region]) => ({ id, nam
   ...(aliasesByMake[id] ? { aliases: aliasesByMake[id] } : {}),
 }));
 // These marques have separately sourced model/bulletin hubs, not dataset code rows.
-makes.push({ id: 'hyundai', name: 'Hyundai', region: 'South Korea' }, { id: 'ram', name: 'Ram', region: 'United States' });
+makes.push(
+  { id: 'audi', name: 'Audi', region: 'Germany' },
+  { id: 'hyundai', name: 'Hyundai', region: 'South Korea' },
+  { id: 'porsche', name: 'Porsche', region: 'Germany' },
+  { id: 'ram', name: 'Ram', region: 'United States' },
+);
 makes.sort((a, b) => a.id.localeCompare(b.id));
 const sources = [{
   id: sourceId, title: 'DTC Database: pinned community code definitions', publisher: 'Wal33D (Waleed Judah)',

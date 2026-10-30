@@ -1,0 +1,177 @@
+[
+  {
+    "id": "audi-caeb-p0299-wastegate-case",
+    "slug": "audi-a4-caeb-p0299-wastegate",
+    "title": "Audi A4 P0299: confirm the CAEB wastegate diagnosis",
+    "description": "A4 CAEB: distinguish intake faults, sporadic codes and confirmed wastegate wear before replacing a turbocharger.",
+    "makeId": "audi",
+    "modelIds": [
+      "audi-a4"
+    ],
+    "codes": [
+      "P0299",
+      "P029900"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-audi-caeb-underboost-2031245",
+      "oem-audi-caeb-underboost-2031245-r5-history",
+      "oem-audi-recirculation-valve-2013060"
+    ],
+    "summary": "A turbocharger estimate needs evidence that the applicable diagnostic branch fits.",
+    "scope": [
+      {
+        "label": "Case vehicle",
+        "value": "Audi A4, model years 2009–2010, CAEB engine"
+      },
+      {
+        "label": "Recorded display",
+        "value": "Static P029900; warning lamp on"
+      },
+      {
+        "label": "Evidence boundary",
+        "value": "Reviewed revision: 2031245/6. Check current VIN-specific instructions."
+      }
+    ],
+    "sections": [
+      {
+        "id": "code-versus-component",
+        "title": "A boost shortfall is only the starting point",
+        "paragraphs": [
+          "P0299 reports insufficient boost. Audi bulletin 2013060/7 illustrates why a component recommendation needs more evidence: for 2005–2007 A3/A4/A4 Cabriolet with 2.0 TFSI, a technician inspects the N249 recirculation-valve membrane and replaces the valve only if it is torn.",
+          "That earlier-vehicle check does not establish a recirculation-valve fault on this CAEB application. The inference is practical: the proposed part, observed failure and applicable vehicle instructions must agree."
+        ]
+      },
+      {
+        "id": "revision-scope",
+        "title": "An older bulletin can send you down the wrong branch",
+        "paragraphs": [
+          "Revision 2031245/5 listed 2009–2012 CAEB A4/A5/A5 Cabriolet/Q5 and explicitly removed 2013 vehicles and A6. The later reviewed revision supersedes that broader application. Do not transfer its Q5 or 2011–2012 coverage into this A4 case."
+        ]
+      },
+      {
+        "id": "diagnostic-branches",
+        "title": "Which finding changes the next step?",
+        "paragraphs": [
+          "Workshop sequence from 2031245/6; not an owner road-test or dismantling procedure."
+        ],
+        "table": {
+          "columns": [
+            "Workshop finding",
+            "Audi diagnostic direction"
+          ],
+          "rows": [
+            [
+              "Intake leak/blockage or additional fault",
+              "Address first, then reassess."
+            ],
+            [
+              "Sporadic P029900",
+              "Workshop clear-and-road-test check for recurrence."
+            ],
+            [
+              "P023400 present",
+              "Separate TSB 2021082 route."
+            ],
+            [
+              "Matching vehicle, static P029900, warning lamp and wastegate play",
+              "Confirm link-plate movement along the actuator rod."
+            ],
+            [
+              "Required conditions absent",
+              "Follow guided diagnosis; no basis here for turbo replacement."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "clip-limitation",
+        "title": "What the clip instruction actually accompanies",
+        "paragraphs": [
+          "The documented clip accompanies a new replacement turbocharger. It is not a remedy prescribed for adding to an already worn unit."
+        ]
+      },
+      {
+        "id": "estimate-evidence",
+        "title": "Make the estimate explain the decision",
+        "paragraphs": [
+          "Ask the workshop to show the failed-condition evidence and the vehicle-specific procedure supporting its selected repair. Ask which other branch was considered, why it was rejected, and how the proposed repair will be checked afterward.",
+          "These are editorial questions for assessing an estimate, not additional tests mandated by the bulletins. Current VIN-specific instructions still need checking. The reviewed documents do not establish a universal wear measurement, repair price or likelihood of failure for this case."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "porsche-macan-turbo-p0299",
+    "slug": "porsche-macan-turbo-p0299",
+    "title": "2015 Porsche Macan Turbo P0299: software or hardware?",
+    "description": "Use recorded rpm, engine load and DME version to guide diagnosis before parts.",
+    "makeId": "porsche",
+    "modelIds": [
+      "porsche-macan"
+    ],
+    "codes": [
+      "P0299"
+    ],
+    "updatedOn": "2026-10-30",
+    "sourceIds": [
+      "oem-porsche-macan-turbo-p0299"
+    ],
+    "summary": "Porsche describes requested-versus-actual boost disagreement lasting over three seconds; P0299 does not prove turbocharger failure.",
+    "scope": [
+      {
+        "label": "Vehicle",
+        "value": "2015 Macan Turbo"
+      },
+      {
+        "label": "Evidence",
+        "value": "August 2015 bulletin; later years and electric Macans unverified."
+      }
+    ],
+    "sections": [
+      {
+        "id": "freeze-frame",
+        "title": "Read the freeze-frame data",
+        "paragraphs": [
+          "These are leads, not confirmed causes."
+        ],
+        "table": {
+          "columns": [
+            "Recorded conditions",
+            "Diagnostic lead"
+          ],
+          "rows": [
+            [
+              "Below 2,500 rpm and below 60% load",
+              "Investigate software."
+            ],
+            [
+              "Above 2,500 rpm and above 60% load",
+              "Investigate hardware: boost-control leaks or disconnected hoses."
+            ],
+            [
+              "Mixed conditions or either exact threshold",
+              "Bulletin specifies no branch."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "software-history",
+        "title": "Check the software history",
+        "paragraphs": [
+          "DME W08B10684UM06 or later already contains this correction, strengthening the hardware investigation."
+        ]
+      },
+      {
+        "id": "before-parts",
+        "title": "Before authorizing parts",
+        "bullets": [
+          "Ask for the stored rpm/load, DME identifier and intake/intercooler/boost-control findings.",
+          "Guided fault causes must be addressed before the software remedy. The historical procedure used PIWIS II 15.500 or newer.",
+          "Do not recreate load conditions or reflash the vehicle yourself. Have a technician confirm the current procedure."
+        ]
+      }
+    ]
+  }
+]

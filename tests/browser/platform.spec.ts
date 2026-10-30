@@ -1,5 +1,6 @@
 import {test,expect} from '@playwright/test';
-import {codes,models,makes,codePath,modelPath,makePath,codesForMake,getGuide,getSource} from '../../src/lib/cars';
+import {authoredGuides,guidePath,guidesForCode} from '../../src/lib/authored-guides';
+import {codes,models,makes,codePath,modelPath,makePath,codesForMake,bulletinsForMake,getSource} from '../../src/lib/cars';
 
 const generic=codes.find(entry=>entry.code==='P0A80'&&entry.scope==='generic')!;
 const manufacturer=codes.find(entry=>entry.scope==='manufacturer')!;
@@ -70,9 +71,9 @@ test('make directory pagination keeps canonical links and avoids repeated entrie
  await expect(page.locator('nav.pagination a[aria-current="page"]')).toHaveText('2');
 });
 
-test('essential definition, safety, sources and correction context work without JavaScript',async({browser,baseURL})=>{
+test('dictionary definition, scope, source and safety link work without JavaScript',async({browser,baseURL})=>{
  const context=await browser.newContext({javaScriptEnabled:false,baseURL});const page=await context.newPage();
- try{await page.goto(codePath(generic));await expect(page.locator('[data-code-definition]')).toContainText(generic.title);await expect(page.locator('#first-check')).toBeVisible();await expect(page.locator('#sources')).toContainText(getSource(generic.sourceId).publisher);await expect(page.locator('#report')).toBeVisible();for(const text of getGuide(generic).safety)await expect(page.locator('main')).toContainText(text);await page.goto('/search/');const fallback=page.locator('noscript a[href="/codes/"]');await expect(fallback).toBeVisible();await expect(fallback).toHaveText('paginated code directory');await fallback.click();await expect(page).toHaveURL(/\/codes\/$/);await expect(page.locator('.directory-grid [data-code-id]')).toHaveCount(100);}finally{await context.close();}
+ try{await page.goto(codePath(generic));await expect(page.locator('[data-code-definition]')).toContainText(generic.title);await expect(page.locator('article[data-reference-kind="dictionary"]')).toBeVisible();await expect(page.locator('#applicability')).toContainText('Generic OBD-II');await expect(page.locator('#applicability a[href="/safety/"]')).toBeVisible();await expect(page.locator('#first-check,#next-steps,.diagnostic-steps')).toHaveCount(0);await expect(page.locator('#sources')).toContainText(getSource(generic.sourceId).publisher);await expect(page.locator('#report')).toBeVisible();await expect(page.locator('[data-reference-limit]')).toContainText('definition, not a repair instruction');await page.goto('/search/');const fallback=page.locator('noscript a[href="/codes/"]');await expect(fallback).toBeVisible();await expect(fallback).toHaveText('paginated code directory');await fallback.click();await expect(page).toHaveURL(/\/codes\/$/);await expect(page.locator('.directory-grid [data-code-id]')).toHaveCount(100);}finally{await context.close();}
 });
 
 test('report and source fragment anchors resolve on a code page',async({page})=>{
@@ -90,4 +91,60 @@ test('320px and360px layouts keep cards, definitions, pagination and search in t
 test('clearing pending search removes busy state and prevents stale results',async({page})=>{
  let release!:()=>void;const pending=new Promise<void>(resolve=>{release=resolve;});await page.route('**/search-data/index.json',async route=>{await pending;await route.continue();});
  try{await page.goto('/search/');await page.locator('#query').fill('P0A80');await expect(page.locator('#search-results')).toHaveAttribute('aria-busy','true');await page.locator('#clear-search').click();await expect(page.locator('#search-results')).not.toHaveAttribute('aria-busy','true');release();await expect(page.locator('#search-results a')).toHaveCount(0);await expect(page.locator('#search-status')).toContainText('Enter a code');}finally{release();}
+});
+
+for(const makeId of ['audi','porsche'])test(`${makeId} manufacturer documents are discoverable from the homepage and code finder`,async({page},testInfo)=>{
+ const make=makes.find(item=>item.id===makeId)!;
+ const bulletin=bulletinsForMake(makeId).find(item=>item.modelIds.length>0)!;
+ const scopedModel=models.find(item=>item.id===bulletin.modelIds[0])!;
+ const source=getSource(bulletin.sourceIds[0]);
+ await page.goto('/');
+ const tile=page.locator(`.make-grid a[href="${makePath(makeId)}"]`);
+ await expect(tile).toBeVisible();await expect(tile).toContainText(make.name);await tile.click();
+ await expect(page.locator('h1')).toContainText(make.name);
+ await expect(page.getByText('No matching references here yet.',{exact:true})).toHaveCount(0);
+ const documentedCase=page.locator(`[data-bulletin-id="${bulletin.id}"]`);
+ await expect(documentedCase).toBeVisible();await expect(documentedCase).toContainText(bulletin.codes.join(', '));await expect(documentedCase).toContainText(bulletin.limitations);
+ await expect(documentedCase.getByRole('link',{name:source.title,exact:true})).toHaveAttribute('href',source.url);
+ await page.screenshot({path:`reports/browser/${testInfo.project.name}-${makeId}.jpg`,type:'jpeg',quality:65,fullPage:false});
+ await page.locator(`#model-documentation a[href="${modelPath(scopedModel)}"]`).click();
+ await expect(page.locator('h1')).toContainText(scopedModel.name);await expect(page.locator('main')).toContainText(bulletin.codes[0]);
+ await expect(page.locator(`main a[href="${source.url}"]`).first()).toBeVisible();
+ const requests:string[]=[];page.on('request',request=>{if(request.url().includes('/search-data/'))requests.push(request.url());});
+ await page.goto('/search/');await page.locator('#make').selectOption(makeId);
+ await expect(page.locator('#search-status')).toHaveText(`${make.name} manufacturer documents are available.`);
+ const documentationLink=page.locator(`#search-hint a[href="${makePath(makeId)}"]`);await expect(documentationLink).toBeVisible();
+ await page.locator('#query').fill(bulletin.codes[0]);await page.locator('#code-search button[type="submit"]').click();
+ await expect(page.locator('#search-status')).toHaveText(`${make.name} manufacturer documents are available.`);
+ await expect(page.locator('#search-error')).toBeHidden();await expect(page.locator('#search-empty')).toBeHidden();await expect(page.locator('#search-results a')).toHaveCount(0);
+ expect(requests.some(url=>url.includes(`/search-data/${makeId}.json`)||url.includes('/search-data/parts/'))).toBe(false);
+ await documentationLink.click();await expect(page).toHaveURL(new RegExp(makePath(makeId).replaceAll('/','\\/')+'$'));
+});
+
+
+test('P0299 dictionary links to distinct vehicle-specific Audi and Porsche guides',async({page},testInfo)=>{
+ const reference=codes.find(entry=>entry.code==='P0299'&&entry.scope==='generic')!;
+ const reviewed=guidesForCode('P0299');
+ expect(reviewed.map(guide=>guide.makeId).sort()).toEqual(['audi','porsche']);
+ expect(new Set(reviewed.map(guide=>guide.sourceIds.join('|'))).size).toBe(2);
+ for(const guide of reviewed){
+  await page.goto(codePath(reference));
+  const link=page.locator(`#reviewed-guides a[href="${guidePath(guide)}"]`);
+  await expect(link).toBeVisible();await expect(link).toContainText(guide.title);await link.click();
+  await expect(page.locator('h1')).toHaveText(guide.title);
+  const article=page.locator('main');
+  for(const scope of guide.scope)await expect(article).toContainText(scope.value);
+  for(const id of guide.sourceIds)await expect(article.locator(`a[href="${getSource(id).url}"]`).first()).toBeVisible();
+  for(const section of guide.sections){
+   await expect(article.getByRole('heading',{name:section.title,exact:true})).toBeVisible();
+   for(const paragraph of section.paragraphs||[])await expect(article).toContainText(paragraph);
+   for(const row of section.table?.rows||[])for(const value of row)await expect(article).toContainText(value);
+  }
+  if(guide.makeId==='audi'){await expect(article).toContainText('CAEB');await expect(article).toContainText(/wastegate/i);}
+  if(guide.makeId==='porsche'){await expect(article).toContainText(/2,?500/);await expect(article).toContainText('60%');}
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth+1)).toBe(true);
+  await page.screenshot({path:`reports/browser/${testInfo.project.name}-${guide.makeId}-guide.jpg`,type:'jpeg',quality:65,fullPage:true});
+ }
+ await page.goto(codePath(generic));await expect(page.locator('#reviewed-guides')).toHaveCount(0);
+ expect(authoredGuides.length).toBeGreaterThanOrEqual(reviewed.length);
 });

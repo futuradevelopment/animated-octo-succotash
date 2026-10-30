@@ -1,6 +1,6 @@
 # Manufacturer model evidence
 
-Checked 2026-10-30. This addition contains **26 model hubs across 14 makes**, **20 scoped bulletin records**, and **19 primary sources**. Every model has a named OEM application record; no model/code article cross product was generated.
+Checked 2026-10-30. This addition contains **32 model hubs across 16 makes**, **26 scoped bulletin records**, and **27 primary sources**. Every model has a named OEM application record; no model/code article cross product was generated.
 
 `src/data/models.json`, `bulletins.json` and `oem-sources.json` are JSON arrays using the agreed core contract. Source kind is `manufacturer`: NHTSA hosts the OEM documents but does not become their author or grant an open-content license. Manufacturer source IDs use the `oem-` prefix.
 
@@ -10,6 +10,8 @@ The `years` field identifies the evidence covered by this hub, not every year th
 
 | Make | Model hubs | Evidence boundary |
 | --- | --- | --- |
+| Audi | A3, A4, A8 | Separate engine/VIN-scoped crankcase, underboost and breather bulletins. |
+| Porsche | Macan, Cayenne, Panamera | Historical Turbo, early camshaft and later EVAP-analysis records remain separate. |
 | Toyota | Camry, Avalon | The reviewed V6 high-load bulletin only. |
 | Ford | F-150 | Engine and branch-specific production cutoff retained. |
 | Chevrolet | Colorado, Silverado, Suburban, Tahoe | Separate lean/calibration and airbox/catalyst sources. |
@@ -25,7 +27,7 @@ The `years` field identifies the evidence covered by this hub, not every year th
 | Dodge | Challenger | Scoped engine/year calibration evidence. |
 | Ram | 1500, 2500, 3500 | Separate gasoline/eTorque and diesel sources. |
 
-Nissan's broad EVAP guidance and Mercedes' engine-scoped guidance deliberately have empty `modelIds`. The core must not attach them automatically to all models of those makes. Hyundai and Ram require make records even though the community dictionary has no corresponding label; their OEM evidence establishes the brands independently.
+Nissan's broad EVAP guidance and Mercedes' engine-scoped guidance deliberately have empty `modelIds`. The core must not attach them automatically to all models of those makes. Audi, Hyundai, Porsche and Ram have independently sourced OEM model/bulletin hubs even though no usable community dictionary rows are published for those makes. The original Audi cause-list file remains excluded; Porsche was absent from the imported dictionary. These limitations must not hide the supported brands from navigation or imply that generic definitions apply to every model.
 
 Raw codes retain manufacturer suffixes and namespaces. Toyota's extended codes, Mercedes P012800, BMW native codes and Ram's suffixed misfire codes are not silently converted into five-character generic codes. A matching canonical code may link to a general definition; that link does not broaden the bulletin's vehicle applicability.
 
@@ -56,6 +58,10 @@ The separate research evidence file contains ten OEM source groups, 17 brand/cat
 
 - All model, bulletin and source IDs are unique; every source reference resolves.
 - Each bulletin's listed model IDs share its make ID, and each model has an explicit bulletin.
-- Conservative per-source prose counts across model summaries, bulletin fields and source titles/publishers remain below 200 words; the maximum is 124 before this concise research note.
+- Conservative per-source prose counts across model summaries, bulletin fields and source titles/publishers remain below 200 words; source budgets are checked before adding new records.
 - Shared GM source budgets include both brand records together. No copied manual passages, invented repair durations or fabricated VINs were added.
 - Full application build/integration checks remain the core owner's responsibility after source merging.
+
+## Audi and Porsche coverage
+
+The added manufacturer sources are listed in RESEARCH_SOURCES.md and linked from each model and make hub. Audi uses the later reviewed CAEB revision 2031245/6, limiting the A4 underboost case to 2009–2010. The superseded /5 revision is retained only as a historical comparison in the authored guide; its Q5 association is not published as an applicable repair case. Separate A3/A4 VIN and engine limits and A8 4.0 TFSI scope remain. Porsche retains distinct model generations; the 2015 Macan document is not extrapolated to the present day. Its 2022 EVAP document is an evidence request, not a repair instruction. These additions create two make hubs and six model hubs, not new generic-code copies.
