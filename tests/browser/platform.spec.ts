@@ -31,7 +31,7 @@ test('homepage scanner lookup finds P0A80 including its hexadecimal letter',asyn
 
 test('blank search downloads no lookup data until interaction',async({page})=>{
  const requests:string[]=[];page.on('request',request=>{if(request.url().includes('/search-data/'))requests.push(request.url());});
- await page.goto('/search/');await expect(page.locator('#search-status')).toContainText('Enter a code');
+ await page.goto('/');await page.locator('.site-header').getByRole('link',{name:'Find a code',exact:true}).click();await expect(page).toHaveURL(/\/search\/$/);await expect(page.locator('#search-status')).toContainText('Enter a code');
  await expect(page.locator('#search-results a')).toHaveCount(0);expect(requests).toEqual([]);
  await page.locator('#query').fill('P0A80');await expect(page.locator(`#search-results a[data-code-id="${generic.id}"]`)).toBeVisible();
  expect(requests.some(url=>url.includes('/search-data/index.json'))).toBe(true);

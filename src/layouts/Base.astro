@@ -24,7 +24,7 @@ const navigation=[{href:'/makes/',label:'By make'},{href:'/models/',label:'By mo
    <div class="container header-inner">
     <a class="brand" href="/" aria-label="ErrHive Cars home"><img src="/mark.svg" alt="" width="34" height="34"/><span>errhive<span class="brand-slash">/</span><span class="brand-cars">cars</span></span></a>
     <nav class="primary-nav" aria-label="Main navigation">{navigation.map(item=><a href={item.href} aria-current={Astro.url.pathname.startsWith(item.href)?'page':undefined}>{item.label}</a>)}</nav>
-    <a class="header-search" href="/search/"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span>Find a code</span></a>
+    <a class="header-search" href="/search/" aria-label="Find a code"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span>Find a code</span></a>
     <details class="mobile-menu"><summary aria-label="Open navigation"><span></span><span></span></summary><nav aria-label="Mobile navigation">{navigation.map(item=><a href={item.href}>{item.label}<span aria-hidden="true">↗</span></a>)}<a href="/about/">About ErrHive Cars<span aria-hidden="true">↗</span></a><a href="/sources/">Our sources<span aria-hidden="true">↗</span></a></nav></details>
    </div>
   </header>
