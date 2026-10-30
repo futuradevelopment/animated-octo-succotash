@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import {authoredGuides,guidePath,type AuthoredGuide} from '../../lib/authored-guides';
+import {getMake,getSource,models,makePath,modelPath,site} from '../../lib/cars';
+export function getStaticPaths(){return authoredGuides.map(guide=>({params:{slug:guide.slug},props:{guide}}));}
+const {guide}=Astro.props as {guide:AuthoredGuide};
+const make=getMake(guide.makeId);
+const sourceRecords=[...new Set(guide.sourceIds)].map(getSource);
+const relatedModels=models.filter(model=>guide.modelIds.includes(model.id));
+const schema=[{'@context':'https://schema.org','@type':'Article',headline:guide.title,description:guide.description,dateModified:guide.updatedOn,mainEntityOfPage:new URL(guidePath(guide),site.url).href,author:{'@type':'Organization',name:site.name},citation:sourceRecords.map(source=>source.url)}];
+---
+<Base title={guide.title} description={guide.description} kind="article" breadcrumbs={[{label:'Home',href:'/'},{label:'Guides',href:'/guides/'},{label:guide.title}]} schema={schema}>
+ <article class="container prose-page authored-guide" data-guide-id={guide.id}>
+  <header class="page-head"><p class="eyebrow">{make.name} / Vehicle-specific diagnosis</p><h1>{guide.title}</h1><p class="lede">{guide.summary}</p><p class="guide-meta">Displays covered: {guide.codes.join(' · ')} <span aria-hidden="true">/</span> Reviewed <time datetime={guide.updatedOn}>{guide.updatedOn}</time></p></header>
+  <section class="guide-scope" aria-labelledby="scope-title"><h2 id="scope-title">Check the vehicle first.</h2><dl>{guide.scope.map(item=><div><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl></section>
+  <nav class="guide-contents" aria-label="In this guide">{guide.sections.map(section=><a href={`#${section.id}`}>{section.title}</a>)}<a href="#sources">Source documents</a></nav>
+  <div class="prose">
+   {guide.sections.map(section=><section id={section.id} class="guide-section"><h2 id={`${section.id}-title`}>{section.title}</h2>{section.paragraphs?.map(paragraph=><p>{paragraph}</p>)}{section.bullets&&section.bullets.length>0&&<ul>{section.bullets.map(item=><li>{item}</li>)}</ul>}{section.table&&<div class="guide-table-scroll" role="region" aria-labelledby={`${section.id}-title`} tabindex="0"><table><thead><tr>{section.table.columns.map(column=><th scope="col">{column}</th>)}</tr></thead><tbody>{section.table.rows.map(row=><tr>{row.map((cell,index)=>index===0?<th scope="row">{cell}</th>:<td>{cell}</td>)}</tr>)}</tbody></table></div>}</section>)}
+   <section id="sources" class="guide-section"><h2>Source documents</h2><ol class="source-list">{sourceRecords.map(source=><li><p class="source-meta">{source.publisher} · Manufacturer documentation</p><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<span aria-hidden="true"> ↗</span></a><p class="small">Source reviewed <time datetime={source.checkedOn}>{source.checkedOn}</time>.</p></li>)}</ol></section>
+   <section id="related-vehicles" class="guide-section"><h2>Vehicle documentation</h2><ul>{relatedModels.map(model=><li><a href={modelPath(model)}>{make.name} {model.name}: documented cases and model scope</a></li>)}<li><a href={makePath(make.id)}>All {make.name} documentation</a></li></ul><p><a href="/safety/">Safety and workshop boundaries</a> · <a href="/guides/">More diagnostic guides</a></p></section>
+  </div>
+ </article>
+</Base>
+<style>
+ .authored-guide{max-width:1000px;min-width:0}.guide-meta{margin-top:25px;font:11px/1.8 var(--mono);color:var(--muted);overflow-wrap:anywhere}.guide-meta>span{margin-inline:10px}.guide-scope{background:var(--teal-soft);border-top:3px solid var(--teal);padding:28px;margin-bottom:30px}.guide-scope h2{font-size:25px;margin-bottom:20px}.guide-scope dl{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 30px}.guide-scope dt{font-size:12px;font-weight:700;color:var(--muted)}.guide-scope dd{margin:5px 0 0;line-height:1.6;overflow-wrap:anywhere}.guide-contents{display:flex;flex-wrap:wrap;gap:12px 25px;border-bottom:1px solid var(--line);padding:0 0 25px;font-size:13px;line-height:1.6}.guide-section{margin-block:42px;scroll-margin-top:24px}.guide-section h2{font-size:30px;line-height:1.2;margin-bottom:20px}.guide-table-scroll{width:100%;max-width:100%;overflow-x:auto;border:1px solid var(--line);margin-block:24px}.guide-table-scroll table{border-collapse:collapse;width:100%;min-width:520px;font-size:14px;line-height:1.7}.guide-table-scroll th,.guide-table-scroll td{text-align:left;vertical-align:top;padding:17px 20px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.guide-table-scroll thead th{background:var(--graphite);color:var(--white);font-size:12px}.guide-table-scroll tbody th{font-weight:700;width:32%;background:var(--white)}.guide-table-scroll tbody tr:last-child th,.guide-table-scroll tbody tr:last-child td{border-bottom:0}.guide-section .source-meta{margin:0 0 6px}.guide-section .small{margin-top:8px}@media(max-width:600px){.guide-scope{padding:22px}.guide-scope dl{grid-template-columns:1fr;gap:17px}.guide-section h2{font-size:26px}.guide-table-scroll th,.guide-table-scroll td{padding:14px}.guide-contents{display:grid;gap:11px}.guide-meta>span{margin-inline:5px}}
+</style>

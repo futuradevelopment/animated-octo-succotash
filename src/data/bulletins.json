@@ -454,5 +454,144 @@
     ],
     "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10223796-9999.pdf",
     "engine": "6.7L I6 Cummins Turbo Diesel ETK; DJ/D2"
+  },
+  {
+    "id": "audi-caeb-underboost-wastegate",
+    "title": "Static P029900",
+    "makeId": "audi",
+    "modelIds": [
+      "audi-a4"
+    ],
+    "codes": [
+      "P029900"
+    ],
+    "years": "2009–2010",
+    "engine": "CAEB",
+    "summary": "CAEB wastegate evaluation.",
+    "action": "Follow current Audi guided diagnosis.",
+    "limitations": "Requires matching vehicle and fault conditions.",
+    "sourceIds": [
+      "oem-audi-caeb-underboost-2031245"
+    ],
+    "url": "https://static.nhtsa.gov/odi/tsbs/2013/SB-10052519-8307.pdf",
+    "guideSlug": "audi-a4-caeb-p0299-wastegate"
+  },
+  {
+    "id": "audi-crankcase-ventilation-lean-leak",
+    "title": "Crankcase ventilation with lean or intake-leak codes",
+    "makeId": "audi",
+    "modelIds": [
+      "audi-a3",
+      "audi-a4"
+    ],
+    "codes": [
+      "P1297",
+      "P2187",
+      "P2279"
+    ],
+    "years": "2005–2008 A4; 2006–2008 A3",
+    "engine": "A4: BPG (2005–2006), BWT (2007–2008); A3: BPY",
+    "summary": "Audi describes these ECM codes alongside possible crankcase-pressure faults, noises or oil leakage. Existing valve and pipe versions affect diagnosis.",
+    "action": "Have the workshop confirm VIN applicability, the applicable 17D9 update and installed hardware before following the diagnostic branch.",
+    "limitations": "A4: 2005 VIN 405683–999999; 2006–2007 000001–999999; 2008 000001–170087. A3: 2006 VIN 000150–999999; 2007 000001–999999; 2008 000001–151827. These are the bulletin’s displayed VIN ranges, not complete VINs; full vehicle identification and engine confirmation remain necessary.",
+    "sourceIds": [
+      "oem-audi-crankcase-ventilation-2015505"
+    ],
+    "url": "https://static.nhtsa.gov/odi/tsbs/2012/SB-10043872-9159.pdf"
+  },
+  {
+    "id": "audi-40tfsi-breather-idle-codes",
+    "title": "4.0 TFSI breather noise with intake or idle codes",
+    "makeId": "audi",
+    "modelIds": [
+      "audi-a8"
+    ],
+    "codes": [
+      "P2279",
+      "P0507"
+    ],
+    "years": "2013–2016",
+    "engine": "4.0 TFSI",
+    "summary": "Audi describes warm-idle noise, intermittent warning lamps and these ECM codes. Breather leakage is a possible cause, not a diagnosis from the code alone.",
+    "action": "Have a qualified technician match the documented noise and crankcase behavior before choosing a repair.",
+    "limitations": "This record covers the bulletin’s A8 application with 4.0 TFSI; all VINs are listed within that scope. Other engines and years are outside this record. Both prescribed diagnostic checks must support the replacement branch.",
+    "sourceIds": [
+      "oem-audi-40tfsi-breather-2040644"
+    ],
+    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10138314-9999.pdf"
+  },
+  {
+    "id": "porsche-macan-turbo-p0299",
+    "title": "Macan P0299",
+    "makeId": "porsche",
+    "modelIds": [
+      "porsche-macan"
+    ],
+    "codes": [
+      "P0299"
+    ],
+    "years": "2015",
+    "engine": "Turbo",
+    "summary": "Documented diagnostic branches.",
+    "action": "Read the case guide.",
+    "limitations": "2015 Turbo only.",
+    "sourceIds": [
+      "oem-porsche-macan-turbo-p0299"
+    ],
+    "url": "https://static.nhtsa.gov/odi/tsbs/2015/MC-10126444-9999.pdf",
+    "guideSlug": "porsche-macan-turbo-p0299"
+  },
+  {
+    "id": "porsche-evap-analysis-2205",
+    "title": "Cayenne and Panamera EVAP evidence request",
+    "makeId": "porsche",
+    "modelIds": [
+      "porsche-cayenne",
+      "porsche-panamera"
+    ],
+    "codes": [
+      "P0456",
+      "P0441",
+      "P0442"
+    ],
+    "years": "2019–2022 Cayenne; 2017–2022 Panamera",
+    "summary": "Porsche requested vehicles with these EVAP faults for investigation. The document establishes a scoped code association, not a confirmed cause or a prescribed component replacement.",
+    "action": "Keep the complete fault display, vehicle details and symptoms for a Porsche service provider to evaluate against current vehicle-specific instructions.",
+    "limitations": "Cayenne types 9YA/9YB and Panamera type 971 only. Fault combinations and sub-fault details can differ with engine and DME software. This historical analysis request is not a recall, universal fix or current warranty promise.",
+    "sourceIds": [
+      "oem-porsche-evap-analysis-2205"
+    ],
+    "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10208704-0001.pdf"
+  },
+  {
+    "id": "porsche-camshaft-adjuster-diagnosis",
+    "title": "Early Cayenne and Panamera camshaft fault context",
+    "makeId": "porsche",
+    "modelIds": [
+      "porsche-cayenne",
+      "porsche-panamera"
+    ],
+    "codes": [
+      "P0068",
+      "P1074",
+      "P0300",
+      "P1023",
+      "P1026",
+      "P1031",
+      "P053F",
+      "P000A",
+      "P0011",
+      "P000C",
+      "P0021"
+    ],
+    "years": "2011–2012 Cayenne S/Turbo; 2010–2012 Panamera/S/Turbo",
+    "engine": "92A Cayenne S/Turbo; 970 Panamera/S/Turbo",
+    "summary": "Porsche lists several fault families that can accompany a camshaft-adjuster problem. Those codes alone do not establish that mechanical failure has occurred.",
+    "action": "Keep the complete scan log for a Porsche technician. Internal timing checks and any repair decision need the manufacturer’s diagnostic procedure.",
+    "limitations": "Only the listed early 92A and 970 variants and years are covered. The source additionally lists the P0340–P0349 sensor-code range. Do not infer applicability to other Cayenne or Panamera generations, or attempt internal engine inspection from this reference.",
+    "sourceIds": [
+      "oem-porsche-camshaft-adjuster-diagnosis"
+    ],
+    "url": "https://static.nhtsa.gov/odi/tsbs/2012/MC-10116407-9999.pdf"
   }
 ]

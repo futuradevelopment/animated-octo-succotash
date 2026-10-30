@@ -3,6 +3,7 @@ import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {parseHTML} from 'linkedom';
 import * as cars from '../src/lib/cars.ts';
+import {authoredGuides,guidePath,guidesForCode} from '../src/lib/authored-guides.ts';
 import {ads} from '../src/lib/ads.ts';
 import {validateDataset,MINIMUM_CANONICAL_CODES} from './validate-data.mjs';
 import {clean,createCheckCollector,walkFiles,routeFromFile,fileForRoute,reachableRoutes,flattenSchema,xmlLocations} from './lib/audit-utils.mjs';
@@ -10,9 +11,10 @@ import {clean,createCheckCollector,walkFiles,routeFromFile,fileForRoute,reachabl
 export async function audit(root=process.cwd()){
  const dist=path.join(root,'dist'),collector=createCheckCollector(),check=collector.check;
  const validation=validateDataset(cars);check('data-integrity',validation.status==='passed',validation.failures);
- const {site,codes,models,sources,codePath,modelPath,getGuide,getIndexableRoutes}=cars;
+ const {site,codes,models,sources,codePath,modelPath,getIndexableRoutes}=cars;
  const codeByRoute=new Map(codes.map(entry=>[codePath(entry),entry])),codeById=new Map(codes.map(entry=>[entry.id,entry]));
  const modelByRoute=new Map(models.map(model=>[modelPath(model),model])),sourceById=new Map(sources.map(source=>[source.id,source]));
+ const guideByRoute=new Map(authoredGuides.map(guide=>[guidePath(guide),guide]));
  const expectedIndexable=new Set(getIndexableRoutes()),expectedCodes=new Set(codes.filter(entry=>entry.status==='published_indexable').map(codePath));
  check('canonical-code-coverage-target',expectedCodes.size>=MINIMUM_CANONICAL_CODES,{minimum:MINIMUM_CANONICAL_CODES,actual:expectedCodes.size});
  check('search-intentionally-noindex',!expectedIndexable.has('/search/'),'/search/');
@@ -57,18 +59,35 @@ export async function audit(root=process.cwd()){
   const mainText=clean(document.querySelector('main')?.textContent),sourceLinks=new Set([...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')));
   const entry=codeByRoute.get(route);
   if(entry){
-   codePages++;const guide=getGuide(entry);
+   codePages++;
    check('code-definition-static',mainText.includes(clean(entry.title)),route);
    const definition=document.querySelector('[data-code-definition]');check('code-definition-marked',Boolean(definition)&&clean(definition.textContent).includes(clean(entry.title)),route);
    check('code-identity-static',mainText.includes(entry.code),route);
-   check('code-source-visible',guide.sourceIds.every(id=>sourceLinks.has(sourceById.get(id)?.url)),route);
-   check('code-safety-static',guide.safety.every(text=>mainText.includes(clean(text))),route);
-   check('code-limits-static',guide.limitations.every(text=>mainText.includes(clean(text))),route);
-   check('code-article-schema',schema.some(s=>['Article','TechArticle'].includes(s['@type'])),route);
+   check('code-source-visible',sourceLinks.has(sourceById.get(entry.sourceId)?.url),route);
+   check('code-dictionary-label',Boolean(document.querySelector('article[data-reference-kind="dictionary"]'))&&/code dictionary/i.test(mainText),route);
+   check('code-defined-term-schema',schema.some(s=>s['@type']==='DefinedTerm'&&s.termCode===entry.code&&s.name===entry.title),route);
+   check('code-not-repair-schema',!schema.some(s=>['Article','TechArticle','HowTo'].includes(s['@type'])),route);
+   check('code-no-template-diagnosis',document.querySelectorAll('#first-check,#next-steps,.diagnostic-steps').length===0,route);
+   check('code-definition-boundary',/definition, not a repair instruction/i.test(document.querySelector('[data-reference-limit]')?.textContent||''),route);
+   check('code-safety-link',sourceLinks.has('/safety/'),route);
+   const scopeText=clean(document.querySelector('#applicability')?.textContent);
+   check('code-scope-static',Boolean(scopeText)&&(entry.scope==='generic'?/generic obd-ii/i.test(scopeText):(entry.makeIds||[entry.makeId]).every(id=>scopeText.includes(cars.getMake(id).name))),route);
+   const applicableGuides=guidesForCode(entry.code).filter(guide=>entry.scope==='generic'||(entry.makeIds||[entry.makeId]).includes(guide.makeId));
+   check('code-reviewed-guide-links',applicableGuides.every(guide=>sourceLinks.has(guidePath(guide))),route);
    check('source-and-report-anchors',ids.has('sources')&&ids.has('report'),route);
    check('reference-attribution-visible',sourceById.get(entry.sourceId)?.kind!=='dataset'||/community/i.test(mainText),route);
   }
   if(/^\/codes\/[^/]+\/[^/]+\/$/.test(route)&&!/^\/codes\/page\/\d+\/$/.test(route))check('no-invented-code-pages',Boolean(entry),route);
+  const authoredGuide=guideByRoute.get(route);
+  if(authoredGuide){
+   check('authored-guide-article-schema',schema.some(s=>['Article','TechArticle'].includes(s['@type'])),route);
+   check('authored-guide-sources-visible',authoredGuide.sourceIds.every(id=>sourceLinks.has(sourceById.get(id)?.url)),route);
+   check('authored-guide-scope-visible',authoredGuide.scope.length>0&&authoredGuide.scope.every(item=>mainText.includes(clean(item.value))),route);
+   check('authored-guide-substance-visible',authoredGuide.sections.length>0&&authoredGuide.sections.every(section=>{
+    const content=[...(section.paragraphs||[]),...(section.bullets||[]),...(section.table?.rows.flat()||[])];
+    return content.length>0&&mainText.includes(clean(section.title))&&content.every(text=>mainText.includes(clean(text)));
+   }),route);
+  }
   const model=modelByRoute.get(route);
   if(model){
    check('model-existence-source-visible',model.sourceIds.every(id=>sourceLinks.has(sourceById.get(id)?.url)),route);

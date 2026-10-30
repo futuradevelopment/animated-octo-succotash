@@ -12,6 +12,15 @@ function fixture(){return {codes:[record()],makes:[{id:'generic',name:'Generic O
 const validate=data=>validateDataset(data,{minimumCodes:0});
 const fails=(data,name)=>assert.ok(validate(data).counters[name]?.failed>0,`Expected ${name} failure`);
 
+test('a different title and code cannot turn copied diagnostic prose into a new guide',()=>{
+ const data=fixture();data.sources.push({id:'oem',url:'https://example.org/manual',checkedOn:'2026-10-30',kind:'manufacturer'});
+ data.models.push({id:'ford-example',makeId:'ford',slug:'example',sourceIds:['oem']});
+ const guide={id:'first',slug:'first',title:'First diagnosis',makeId:'ford',modelIds:['ford-example'],sourceIds:['oem'],updatedOn:'2026-10-30',scope:[{label:'Vehicle',value:'Documented example'}],sections:[{id:'evidence',title:'Evidence',paragraphs:['A particular recorded condition must explain P1234 before selecting a repair.']}]};
+ data.authoredGuides=[guide];assert.equal(validate(data).status,'passed');
+ data.authoredGuides.push({...guide,id:'second',slug:'second',title:'Different code title',sections:[{...guide.sections[0],paragraphs:['A particular recorded condition must explain P1235 before selecting a repair.']}]});
+ fails(data,'authored-guide-distinct-body');
+});
+
 test('complete reference retains one canonical route and verifiable source row',()=>{
  const data=fixture(),result=validate(data);assert.equal(result.status,'passed',JSON.stringify(result.failures));assert.equal(result.counts.indexableCanonicalCodes,1);assert.equal(canonicalCodeRoute(data.codes[0]),'/codes/ford/p1234/');
 });

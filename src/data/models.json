@@ -284,5 +284,74 @@
     "sourceIds": [
       "oem-ram-diesel-p0401"
     ]
+  },
+  {
+    "id": "audi-a3",
+    "makeId": "audi",
+    "name": "A3",
+    "slug": "a3",
+    "years": "2006–2008",
+    "summary": "BPY crankcase-ventilation evidence with VIN restrictions.",
+    "sourceIds": [
+      "oem-audi-crankcase-ventilation-2015505"
+    ]
+  },
+  {
+    "id": "audi-a4",
+    "makeId": "audi",
+    "name": "A4",
+    "slug": "a4",
+    "years": "2005–2008; 2009–2010 (separate bulletins)",
+    "summary": "Engine-specific crankcase-ventilation and underboost cases.",
+    "sourceIds": [
+      "oem-audi-crankcase-ventilation-2015505",
+      "oem-audi-caeb-underboost-2031245"
+    ]
+  },
+  {
+    "id": "audi-a8",
+    "makeId": "audi",
+    "name": "A8",
+    "slug": "a8",
+    "years": "2013–2016",
+    "summary": "4.0 TFSI breather-noise and idle-code documentation.",
+    "sourceIds": [
+      "oem-audi-40tfsi-breather-2040644"
+    ]
+  },
+  {
+    "id": "porsche-macan",
+    "makeId": "porsche",
+    "name": "Macan",
+    "slug": "macan",
+    "years": "2015 Turbo",
+    "summary": "2015 Turbo diagnostic case.",
+    "sourceIds": [
+      "oem-porsche-macan-turbo-p0299"
+    ]
+  },
+  {
+    "id": "porsche-cayenne",
+    "makeId": "porsche",
+    "name": "Cayenne",
+    "slug": "cayenne",
+    "years": "2011–2012 S/Turbo; 2019–2022",
+    "summary": "Separate early camshaft and later EVAP evidence, each limited to its documented generation.",
+    "sourceIds": [
+      "oem-porsche-camshaft-adjuster-diagnosis",
+      "oem-porsche-evap-analysis-2205"
+    ]
+  },
+  {
+    "id": "porsche-panamera",
+    "makeId": "porsche",
+    "name": "Panamera",
+    "slug": "panamera",
+    "years": "2010–2012; 2017–2022",
+    "summary": "Generation-specific camshaft and EVAP records with separate model-year restrictions.",
+    "sourceIds": [
+      "oem-porsche-camshaft-adjuster-diagnosis",
+      "oem-porsche-evap-analysis-2205"
+    ]
   }
 ]
