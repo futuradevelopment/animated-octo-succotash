@@ -1,0 +1,1906 @@
+[
+  {
+    "entryId": "generic-p248d",
+    "code": "P248D",
+    "dictionaryTitle": "Reductant Heater B Sense Circuit High",
+    "canonicalPath": "/codes/generic/p248d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 403,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2494",
+    "code": "P2494",
+    "dictionaryTitle": "EGR Cooler Bypass Position Sensor Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2494/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 1208,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 882,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2495",
+    "code": "P2495",
+    "dictionaryTitle": "EGR Cooler Bypass Position Sensor Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2495/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 1209,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 883,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p24a5",
+    "code": "P24A5",
+    "dictionaryTitle": "EGR Cooler Bypass Control Stuck/Open Bank 1",
+    "canonicalPath": "/codes/generic/p24a5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 1219,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 893,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p24c4",
+    "code": "P24C4",
+    "dictionaryTitle": "EGR Cooler Bypass Position Sensor Exceeded Learning Limit Bank 1",
+    "canonicalPath": "/codes/generic/p24c4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 1225,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 899,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p25a2",
+    "code": "P25A2",
+    "dictionaryTitle": "Brake System Control Module A Requested MIL Illumination",
+    "canonicalPath": "/codes/generic/p25a2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 657,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p263a",
+    "code": "P263A",
+    "dictionaryTitle": "MIL Control Circuit Low",
+    "canonicalPath": "/codes/generic/p263a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 553,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p263b",
+    "code": "P263B",
+    "dictionaryTitle": "MIL Control Circuit High",
+    "canonicalPath": "/codes/generic/p263b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 554,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26c0",
+    "code": "P26C0",
+    "dictionaryTitle": "Engine Coolant Bypass Valve D Stuck/Open",
+    "canonicalPath": "/codes/generic/p26c0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 847,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26c2",
+    "code": "P26C2",
+    "dictionaryTitle": "Engine Coolant Bypass Valve D Stuck Closed",
+    "canonicalPath": "/codes/generic/p26c2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 849,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26ce",
+    "code": "P26CE",
+    "dictionaryTitle": "Engine Coolant Pump Overspeed/Air In System",
+    "canonicalPath": "/codes/generic/p26ce/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 851,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26e4",
+    "code": "P26E4",
+    "dictionaryTitle": "Starter Relay B Circuit",
+    "canonicalPath": "/codes/generic/p26e4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 853,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26e5",
+    "code": "P26E5",
+    "dictionaryTitle": "Starter Relay B Circuit Low",
+    "canonicalPath": "/codes/generic/p26e5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 854,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26e6",
+    "code": "P26E6",
+    "dictionaryTitle": "Starter Relay B Circuit High",
+    "canonicalPath": "/codes/generic/p26e6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 855,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26fa",
+    "code": "P26FA",
+    "dictionaryTitle": "Coolant Pump C Overspeed/Air in System",
+    "canonicalPath": "/codes/generic/p26fa/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 660,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2728",
+    "code": "P2728",
+    "dictionaryTitle": "Pressure Control Solenoid E Control Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p2728/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1299,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1312,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 777,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 790,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2731",
+    "code": "P2731",
+    "dictionaryTitle": "Pressure Control Solenoid F",
+    "canonicalPath": "/codes/generic/p2731/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1643,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2761",
+    "code": "P2761",
+    "dictionaryTitle": "Torque Converter Clutch Pressure Control Solenoid Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2761/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1306,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1312,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 784,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 790,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2762",
+    "code": "P2762",
+    "dictionaryTitle": "Torque Converter Clutch Pressure Control Solenoid Control Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p2762/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1307,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1312,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 785,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 790,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2763",
+    "code": "P2763",
+    "dictionaryTitle": "Torque Converter Clutch Pressure Control Solenoid Control Circuit High",
+    "canonicalPath": "/codes/generic/p2763/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1308,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1312,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 786,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 790,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2764",
+    "code": "P2764",
+    "dictionaryTitle": "Torque Converter Clutch Pressure Control Solenoid Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2764/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1309,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1312,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 787,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 790,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27ef",
+    "code": "P27EF",
+    "dictionaryTitle": "Transmission Range Control B Position Sensor/Switch Circuit/Open",
+    "canonicalPath": "/codes/generic/p27ef/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1697,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27f0",
+    "code": "P27F0",
+    "dictionaryTitle": "Transmission Range Control B Position Sensor/Switch Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p27f0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1698,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27f1",
+    "code": "P27F1",
+    "dictionaryTitle": "Transmission Range Control B Position Sensor/Switch Circuit Low",
+    "canonicalPath": "/codes/generic/p27f1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1703,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27f2",
+    "code": "P27F2",
+    "dictionaryTitle": "Transmission Range Control B Position Sensor/Switch Circuit High",
+    "canonicalPath": "/codes/generic/p27f2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1704,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2aa5",
+    "code": "P2AA5",
+    "dictionaryTitle": "EGR Cooler Bypass Control Circuit Driver Current/Temperature Too High Bank 1",
+    "canonicalPath": "/codes/generic/p2aa5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 1254,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 928,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b0b",
+    "code": "P2B0B",
+    "dictionaryTitle": "Cold Start Cylinder 4 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b0b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 867,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 561,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b0c",
+    "code": "P2B0C",
+    "dictionaryTitle": "Cold Start Cylinder 5 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b0c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 562,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b0d",
+    "code": "P2B0D",
+    "dictionaryTitle": "Cold Start Cylinder 6 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b0d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 563,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b0e",
+    "code": "P2B0E",
+    "dictionaryTitle": "Cold Start Cylinder 7 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b0e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 564,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b0f",
+    "code": "P2B0F",
+    "dictionaryTitle": "Cold Start Cylinder 8 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b0f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 565,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b2d",
+    "code": "P2B2D",
+    "dictionaryTitle": "Engine Coolant Temperature Sensor 5 Circuit Low",
+    "canonicalPath": "/codes/generic/p2b2d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 868,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b2e",
+    "code": "P2B2E",
+    "dictionaryTitle": "Engine Coolant Temperature Sensor 5 Circuit High",
+    "canonicalPath": "/codes/generic/p2b2e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 869,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b33",
+    "code": "P2B33",
+    "dictionaryTitle": "A Camshaft Profile Actuator B Control Circuit/Open Bank 1",
+    "canonicalPath": "/codes/generic/p2b33/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 870,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b34",
+    "code": "P2B34",
+    "dictionaryTitle": "A Camshaft Profile Actuator B Control Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2b34/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 871,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b35",
+    "code": "P2B35",
+    "dictionaryTitle": "A Camshaft Profile Actuator B Control Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2b35/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 872,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b39",
+    "code": "P2B39",
+    "dictionaryTitle": "B Camshaft Profile Actuator B Control Circuit/Open Bank 1",
+    "canonicalPath": "/codes/generic/p2b39/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 873,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b3a",
+    "code": "P2B3A",
+    "dictionaryTitle": "B Camshaft Profile Actuator B Control Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2b3a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 874,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b3b",
+    "code": "P2B3B",
+    "dictionaryTitle": "B Camshaft Profile Actuator B Control Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2b3b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 875,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b4f",
+    "code": "P2B4F",
+    "dictionaryTitle": "A Camshaft Profile Actuator B Control Performance/Stuck Off Bank 1",
+    "canonicalPath": "/codes/generic/p2b4f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 876,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b51",
+    "code": "P2B51",
+    "dictionaryTitle": "B Camshaft Profile Actuator B Control Performance/Stuck Off Bank 1",
+    "canonicalPath": "/codes/generic/p2b51/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 877,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b53",
+    "code": "P2B53",
+    "dictionaryTitle": "A Camshaft Profile Actuator B Control Stuck On Bank 1",
+    "canonicalPath": "/codes/generic/p2b53/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 878,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b85",
+    "code": "P2B85",
+    "dictionaryTitle": "Engine Coolant Pump Underspeed",
+    "canonicalPath": "/codes/generic/p2b85/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 880,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2ba0",
+    "code": "P2BA0",
+    "dictionaryTitle": "Coolant Pump C Underspeed",
+    "canonicalPath": "/codes/generic/p2ba0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 665,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2ba2",
+    "code": "P2BA2",
+    "dictionaryTitle": "Engine Coolant Pump Stuck/Stalled",
+    "canonicalPath": "/codes/generic/p2ba2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 888,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2bb5",
+    "code": "P2BB5",
+    "dictionaryTitle": "Engine Coolant Temperature Sensor 5 Circuit Intermittent/Erratic",
+    "canonicalPath": "/codes/generic/p2bb5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 889,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2bb8",
+    "code": "P2BB8",
+    "dictionaryTitle": "Engine Coolant Temperature Sensor 6 Circuit Low",
+    "canonicalPath": "/codes/generic/p2bb8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 892,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2bb9",
+    "code": "P2BB9",
+    "dictionaryTitle": "Engine Coolant Temperature Sensor 6 Circuit High",
+    "canonicalPath": "/codes/generic/p2bb9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 893,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2bba",
+    "code": "P2BBA",
+    "dictionaryTitle": "Engine Coolant Temperature Sensor 6 Circuit Intermittent/Erratic",
+    "canonicalPath": "/codes/generic/p2bba/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 894,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c05",
+    "code": "P2C05",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor A Circuit Bank 1",
+    "canonicalPath": "/codes/generic/p2c05/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 897,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c06",
+    "code": "P2C06",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor A Range/Performance Bank 1",
+    "canonicalPath": "/codes/generic/p2c06/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 898,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c07",
+    "code": "P2C07",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor A Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2c07/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 899,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c08",
+    "code": "P2C08",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor A Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2c08/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 900,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c09",
+    "code": "P2C09",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor B Circuit Bank 1",
+    "canonicalPath": "/codes/generic/p2c09/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 901,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c0a",
+    "code": "P2C0A",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor B Range/Performance Bank 1",
+    "canonicalPath": "/codes/generic/p2c0a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 902,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c0b",
+    "code": "P2C0B",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor B Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2c0b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 903,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c0c",
+    "code": "P2C0C",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor B Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2c0c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 904,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c0d",
+    "code": "P2C0D",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor C Circuit Bank 1",
+    "canonicalPath": "/codes/generic/p2c0d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 905,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c0e",
+    "code": "P2C0E",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor C Range/Performance Bank 1",
+    "canonicalPath": "/codes/generic/p2c0e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 906,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c0f",
+    "code": "P2C0F",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor C Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2c0f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 907,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c10",
+    "code": "P2C10",
+    "dictionaryTitle": "A Camshaft Profile Actuator Position Sensor C Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2c10/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 908,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c12",
+    "code": "P2C12",
+    "dictionaryTitle": "B Camshaft Profile Actuator Position Sensor A Circuit Bank 1",
+    "canonicalPath": "/codes/generic/p2c12/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 909,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c13",
+    "code": "P2C13",
+    "dictionaryTitle": "B Camshaft Profile Actuator Position Sensor A Range/Performance Bank 1",
+    "canonicalPath": "/codes/generic/p2c13/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 910,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c14",
+    "code": "P2C14",
+    "dictionaryTitle": "B Camshaft Profile Actuator Position Sensor A Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2c14/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 911,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c15",
+    "code": "P2C15",
+    "dictionaryTitle": "B Camshaft Profile Actuator Position Sensor A Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2c15/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 912,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c16",
+    "code": "P2C16",
+    "dictionaryTitle": "B Camshaft Profile Actuator Position Sensor B Circuit Bank 1",
+    "canonicalPath": "/codes/generic/p2c16/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 913,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c17",
+    "code": "P2C17",
+    "dictionaryTitle": "B Camshaft Profile Actuator Position Sensor B Range/Performance Bank 1",
+    "canonicalPath": "/codes/generic/p2c17/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 914,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c18",
+    "code": "P2C18",
+    "dictionaryTitle": "B Camshaft Profile Actuator Position Sensor B Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2c18/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 915,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c19",
+    "code": "P2C19",
+    "dictionaryTitle": "B Camshaft Profile Actuator Position Sensor B Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2c19/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 916,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c48",
+    "code": "P2C48",
+    "dictionaryTitle": "Coolant Pump C Control Circuit Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p2c48/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 670,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d31",
+    "code": "P2D31",
+    "dictionaryTitle": "Intake Manifold Tuning Valve Exceeded Learning Limit Bank 1",
+    "canonicalPath": "/codes/generic/p2d31/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 932,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d32",
+    "code": "P2D32",
+    "dictionaryTitle": "Intake Manifold Tuning Valve Control Circuit Driver Current/Temperature Too High Bank 1",
+    "canonicalPath": "/codes/generic/p2d32/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 933,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2de7",
+    "code": "P2DE7",
+    "dictionaryTitle": "Cold Start Engine Coolant Bypass Valve C Range/Performance",
+    "canonicalPath": "/codes/generic/p2de7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 928,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2de8",
+    "code": "P2DE8",
+    "dictionaryTitle": "Cold Start Engine Coolant Bypass Valve D Stuck Open",
+    "canonicalPath": "/codes/generic/p2de8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 929,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2de9",
+    "code": "P2DE9",
+    "dictionaryTitle": "Cold Start Engine Coolant Pump Underspeed",
+    "canonicalPath": "/codes/generic/p2de9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 931,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2e81",
+    "code": "P2E81",
+    "dictionaryTitle": "Cold Start Engine Coolant Bypass Valve D Stuck Closed",
+    "canonicalPath": "/codes/generic/p2e81/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 933,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2e82",
+    "code": "P2E82",
+    "dictionaryTitle": "Cold Start Engine Coolant Pump Overspeed",
+    "canonicalPath": "/codes/generic/p2e82/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 935,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u010c",
+    "code": "U010C",
+    "dictionaryTitle": "Lost Communication With Turbocharger/Supercharger Control Module A",
+    "canonicalPath": "/codes/generic/u010c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 703,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 461,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0164",
+    "code": "U0164",
+    "dictionaryTitle": "Lost Communication With HVAC Control Module",
+    "canonicalPath": "/codes/generic/u0164/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 120,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0414",
+    "code": "U0414",
+    "dictionaryTitle": "Invalid Data Received From Four-Wheel Drive Clutch Control Module",
+    "canonicalPath": "/codes/generic/u0414/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1042,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0424",
+    "code": "U0424",
+    "dictionaryTitle": "Invalid Data Received From HVAC Control Module",
+    "canonicalPath": "/codes/generic/u0424/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 128,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0428",
+    "code": "U0428",
+    "dictionaryTitle": "Invalid Data Received From Steering Angle Sensor Module",
+    "canonicalPath": "/codes/generic/u0428/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 253,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 254,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0610",
+    "code": "U0610",
+    "dictionaryTitle": "Lost Communication With Mass or Volume Air Flow Sensor B",
+    "canonicalPath": "/codes/generic/u0610/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 626,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0611",
+    "code": "U0611",
+    "dictionaryTitle": "Lost Communication With Intake Air Temperature Sensor 1 Bank 1",
+    "canonicalPath": "/codes/generic/u0611/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 780,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 781,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0613",
+    "code": "U0613",
+    "dictionaryTitle": "Lost Communication With Intake Air Temperature Sensor 2 Bank 1",
+    "canonicalPath": "/codes/generic/u0613/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 780,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 781,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0618",
+    "code": "U0618",
+    "dictionaryTitle": "Lost Communication With Engine Coolant Bypass Valve D",
+    "canonicalPath": "/codes/generic/u0618/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1058,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u062f",
+    "code": "U062F",
+    "dictionaryTitle": "Lost Communication With Coolant Pump C",
+    "canonicalPath": "/codes/generic/u062f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 745,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0644",
+    "code": "U0644",
+    "dictionaryTitle": "Lost Communication With Wastegate Position Sensor A",
+    "canonicalPath": "/codes/generic/u0644/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1063,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0665",
+    "code": "U0665",
+    "dictionaryTitle": "Lost Communication With Fuel Rail Pressure Sensor Bank 2",
+    "canonicalPath": "/codes/generic/u0665/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 656,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 657,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0672",
+    "code": "U0672",
+    "dictionaryTitle": "Lost Communication With Engine Coolant Pump",
+    "canonicalPath": "/codes/generic/u0672/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 1066,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0680",
+    "code": "U0680",
+    "dictionaryTitle": "Lost Communication With Barometric Pressure Sensor B",
+    "canonicalPath": "/codes/generic/u0680/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 632,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 633,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0688",
+    "code": "U0688",
+    "dictionaryTitle": "Lost Communication With Throttle Position Sensor/Switch G",
+    "canonicalPath": "/codes/generic/u0688/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 710,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 715,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u068a",
+    "code": "U068A",
+    "dictionaryTitle": "Lost Communication With Barometric Pressure Sensor C",
+    "canonicalPath": "/codes/generic/u068a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 632,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0693",
+    "code": "U0693",
+    "dictionaryTitle": "Lost Communication With Humidity Sensor",
+    "canonicalPath": "/codes/generic/u0693/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 647,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u069b",
+    "code": "U069B",
+    "dictionaryTitle": "Lost Communication With Exhaust Gas Temperature Sensor Bank 1 Sensor 4",
+    "canonicalPath": "/codes/generic/u069b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-04a",
+        "page": 1262,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG04A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 936,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u3006",
+    "code": "U3006",
+    "dictionaryTitle": "Control Module Input Power A Circuit/Open",
+    "canonicalPath": "/codes/generic/u3006/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 200,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 112,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u3007",
+    "code": "U3007",
+    "dictionaryTitle": "Control Module Input Power B Circuit/Open",
+    "canonicalPath": "/codes/generic/u3007/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03b",
+        "page": 200,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG03B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-1",
+        "page": 112,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-1.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%201.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG07A Part 1.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p015c",
+    "code": "P015C",
+    "dictionaryTitle": "O2 Sensor Delayed Response - Rich to Lean Bank 2 Sensor 1",
+    "canonicalPath": "/codes/generic/p015c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 121,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 122,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 122,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 123,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p015d",
+    "code": "P015D",
+    "dictionaryTitle": "O2 Sensor Delayed Response - Lean to Rich Bank 2 Sensor 1",
+    "canonicalPath": "/codes/generic/p015d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 125,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 126,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 126,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06a",
+        "page": 127,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06A.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06A.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0600",
+    "code": "P0600",
+    "dictionaryTitle": "Serial Communication Link",
+    "canonicalPath": "/codes/generic/p0600/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-06c",
+        "page": 1311,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06c.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06C.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06C.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-06b",
+        "page": 789,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-06b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG06B.pdf",
+        "scope": "2025 General Motors diagnostic parameter file 25OBDG06B.pdf. Individual sections describe specific modules, systems and calibrations. No per-code vehicle or engine assignment has been established.",
+        "makeIds": []
+      }
+    ]
+  }
+]

@@ -1,6 +1,8 @@
-# 1,000 code articles: writing assignment
+# Code articles: 1,000 manuscripts per writing wave
 
 The user explicitly requested 10 writer agents, each writing 100 useful SEO articles. The overall project still aims to cover the full 10,000+ catalog. This assignment is actual writing, not another audit or plan. Write all 100 assigned articles to your owned directory. Keep working until done; checkpoint files in small batches. Do not stop at an outline, source list or a handful of examples.
+
+Batches 01–10 form the first completed wave. Batches 11–20 form the next 1,000-code wave and must exclude every code already assigned in the first wave. The shared manifest tracks 2,000 distinct canonical codes across both waves. If a candidate proves to be only an incidental mention, request a documented substitution from root; never pad an article around missing evidence. Root verifies that replacement codes are still unassigned.
 
 Repo: /workspace/scratch/dbf135311373/cars-errhive
 Inputs: /workspace/scratch/dbf135311373/article-writing-inputs/batch-NN.json

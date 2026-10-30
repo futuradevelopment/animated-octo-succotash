@@ -1,0 +1,945 @@
+{
+  "batch": "batch-15",
+  "articles": [
+    {
+      "code": "P2312",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            701
+          ]
+        }
+      ],
+      "issue": "Dictionary coil E conflicts with source row coil B; physical channel unresolved."
+    },
+    {
+      "code": "P2313",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            700,
+            701
+          ]
+        }
+      ],
+      "issue": "Dictionary coil E conflicts with source row coil B; physical channel unresolved."
+    },
+    {
+      "code": "P2315",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            701,
+            702
+          ]
+        }
+      ],
+      "issue": "Dictionary coil F conflicts with source row coil E; physical channel unresolved."
+    },
+    {
+      "code": "P2316",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            701
+          ]
+        }
+      ],
+      "issue": "Dictionary coil F conflicts with source row coil E; physical channel unresolved."
+    },
+    {
+      "code": "P2318",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            702
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2319",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            702
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2321",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            703
+          ]
+        }
+      ],
+      "issue": "Dictionary coil H conflicts with source row coil F; physical channel unresolved."
+    },
+    {
+      "code": "P2322",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            703
+          ]
+        }
+      ],
+      "issue": "Dictionary coil H conflicts with source row coil F; physical channel unresolved."
+    },
+    {
+      "code": "P23AA",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            857,
+            858
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2537",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            37
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2579",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            884
+          ]
+        }
+      ],
+      "issue": "P2579 generic A versus source bank2 and P2594 generic B versus source bank1 require mapping review."
+    },
+    {
+      "code": "P2580",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            883,
+            884
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2581",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            883
+          ]
+        }
+      ],
+      "issue": "Source lists655350ms timing for high-state check; meaning not independently resolved, omitted as procedural instruction."
+    },
+    {
+      "code": "P2594",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            884
+          ]
+        }
+      ],
+      "issue": "P2594 generic B versus source bank1; companion mapping reversal remains unresolved."
+    },
+    {
+      "code": "P2595",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            884
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2596",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            883
+          ]
+        }
+      ],
+      "issue": "Source lists655350ms high-state timing; meaning not independently resolved."
+    },
+    {
+      "code": "P25B3",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            865,
+            866
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P25B4",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            863,
+            864,
+            865
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P25B5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            867,
+            868
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P25B6",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            866,
+            867
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P25C6",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            77
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P25C7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            77
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2618",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            596
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2619",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            596
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2629",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            332
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2632",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            883
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2633",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            883
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2634",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            882,
+            883
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2669",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            936
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2671",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            937
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2684",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            937
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2685",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            921
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2686",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            937
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P26E7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            937,
+            938
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P26E8",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            921
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P26E9",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            938
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2735",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1002
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2741",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            988,
+            989
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2742",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            908
+          ]
+        }
+      ],
+      "issue": "Source criterion labelledresistance while narrative/units are voltage/mV; usevoltageinterpretation with disclosedlabelconflict."
+    },
+    {
+      "code": "P2743",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            908
+          ]
+        }
+      ],
+      "issue": "Criterion labelresistance conflicts withvoltage narrative andmVunits; noohmic procedure inferred."
+    },
+    {
+      "code": "P2746",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            983
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2775",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            949
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2776",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            910,
+            949
+          ]
+        }
+      ],
+      "issue": "Electrical low2519mV overlaps printedpressedwindow2200\u20133520mV; applicablecalibrationlimits needresolution."
+    },
+    {
+      "code": "P2777",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            910
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2779",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            949,
+            950
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P277E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1034
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P277F",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1034
+          ]
+        }
+      ],
+      "issue": "P277F narrative saysoddclutch whileheading andcriteria explicitlyeven; copied-text inconsistencydisclosed."
+    },
+    {
+      "code": "P2780",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            911,
+            949
+          ]
+        }
+      ],
+      "issue": "Lowthreshold2519mV overlaps printedpressedwindow2200\u20133520mV; calibration-specificresolutionneeded."
+    },
+    {
+      "code": "P2781",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            910
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27B9",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1015,
+            1016
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27BA",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1020,
+            1021
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27BD",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            926
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27BF",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            927
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27C0",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            926,
+            927,
+            940
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27C1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1016,
+            1017
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27C2",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1021
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27C5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            927
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27C7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            927,
+            928
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27C8",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            927,
+            940
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27C9",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1017,
+            1018
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27CA",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1021,
+            1022
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27CD",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            928
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27CF",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            928
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27D0",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            928,
+            941
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27D1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1018,
+            1019
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27D2",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1022
+          ]
+        }
+      ],
+      "issue": "P27D2 narrative mentionsanotherrodrelaxation whileexplicitcriteria onlyrod5/4000um; nosecondrodcriterioninferred."
+    },
+    {
+      "code": "P27D5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            928,
+            929
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27D7",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            929
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P27D8",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            929,
+            941
+          ]
+        }
+      ],
+      "issue": ""
+    },
+    {
+      "code": "P2808",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1012,
+            1013
+          ]
+        }
+      ],
+      "issue": "P2808 heading/criteria arestuckoff/lowpressure butcontinuationprosesaysstuckon; contradictiondisclosed."
+    }
+  ],
+  "method": "Individually read OEM monitor rows, including continuation pages; independently authored code-specific interpretation. AI source checks, not mechanic certification."
+}

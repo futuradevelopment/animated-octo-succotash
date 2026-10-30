@@ -1,0 +1,143 @@
+{
+  "wave": 2,
+  "reviewer": "Root AI agent",
+  "scope": "Sampled article claims only; not human mechanic certification or verification of every article.",
+  "samples": [
+    {
+      "code": "P000C",
+      "file": "content/code-articles/batch-11/P000C.md",
+      "sha256": "21ab3987db68063c20d80751b6c4193ac62d9150cede01078519831e6758d874",
+      "sourceIds": [
+        "gm-2025-07a-2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            544,
+            545
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "Primary row spans physical pages 544\u2013545: target time above one second is combined with movement above three crankshaft degrees.",
+        "Closed-loop control and two-trip reporting are supported; corrupted extracted enable values are not repeated."
+      ]
+    },
+    {
+      "code": "P0001",
+      "file": "content/code-articles/batch-12/P0001.md",
+      "sha256": "803e902af189c336573ed76d6b74cf5653511d2c371aa2fdd652245fd8bddd6f",
+      "sourceIds": [
+        "ford-diesel-2023-2024"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "ford-diesel-2023-2024",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "Ford diesel page 12 explicitly differentiates unpowered 2.8\u20134.8 V feedback from the lower band used for P0003 and the energized overcurrent test for P0004.",
+        "The typical 0.3-second duration is supported; the article does not convert control-chip feedback into a connector test."
+      ]
+    },
+    {
+      "code": "P0012",
+      "file": "content/code-articles/batch-13/P0012.md",
+      "sha256": "c381e4403f904b32f7b80ef33fb5c3c9dd3ff55a914537ec4bca897459fd41bb",
+      "sourceIds": [
+        "ford-gasoline-2024-2025-v2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "pages": [
+            79,
+            80
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "Ford gasoline pages 79\u201380 support the 400 rpm minimum, ECT-dependent start delay, commanded enablement, and functional versus accumulated target-error windows.",
+        "Mode $06 monitor $35 / test $81 is supported; the article does not diagnose a timing-tooth slip from an over-retarded code."
+      ]
+    },
+    {
+      "code": "P0883",
+      "file": "content/code-articles/batch-14/P0883.md",
+      "sha256": "06a042741468b8a7ad9e61f602e0f944d823fd1819ccc02296a72843ee359951",
+      "sourceIds": [
+        "gm-2025-07a-2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            911,
+            925
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "GM page 911 supports the 18.3 V threshold, 0.3 V hysteresis, 500 ms confirmation and exclusions for cranking and stop key state.",
+        "Page 925 explicitly lists P0883 as an inhibiting code for solenoid electrical diagnostics, supporting the article\u2019s interpretation of uncompleted downstream tests."
+      ]
+    },
+    {
+      "code": "P2864",
+      "file": "content/code-articles/batch-16/P2864.md",
+      "sha256": "da811714b3f09544b7b938d0063d24367e613bba7eddae2eeb8a7ef57abda66e",
+      "sourceIds": [
+        "gm-2025-07a-2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            971,
+            972
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "GM pages 971\u2013972 support the rod 5 B-side engagement comparison, 1,100 micrometre mismatch, hydraulic enablement and force target above 600 N.",
+        "Page 972 also contains disengagement and static learned-position checks; the article treats force as a monitor condition rather than an instruction to apply force."
+      ]
+    },
+    {
+      "code": "P2312",
+      "file": "content/code-articles/batch-15/P2312.md",
+      "sha256": "2b4c22deb142780bbc06f12e5a9f4f84c81e39d8c5392aeb79efa89fb9cee709",
+      "sourceIds": [
+        "gm-2025-07a-2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            701
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF, plus dictionary identity.",
+      "result": "No unsupported substantive statement found in sampled article; unresolved channel mapping remains explicitly flagged.",
+      "observations": [
+        "The OEM row describes an off-state low-side voltage classification with ignition synchronization, speed above 1,400 rpm, counter difference above nine and a 0.4-second interval.",
+        "The source labels coil B while the generic definition labels coil E. The article preserves that unresolved mapping without locating a physical cylinder or claiming a failed component."
+      ]
+    }
+  ]
+}

@@ -7,9 +7,15 @@ const sources=JSON.parse(await fs.readFile(path.join(root,'src/data/diagnostic-s
 const sourceMap=new Map(sources.map(source=>[source.id,source]));
 const failures=[],warnings=[],articles=[],batches=[];
 const bodies=new Map();
+const assignedEntries=new Set(),assignedCodes=new Set();
 const exactCode=/^[PBCU][0-3][0-9A-F]{3}$/;
 for(const batch of manifest.batches){
  const assignments=JSON.parse(await fs.readFile(path.join(root,batch.assignment),'utf8'));
+ if(assignments.length!==batch.count)failures.push({batch:batch.batch,issue:'assignment_count_mismatch'});
+ for(const item of assignments){
+  if(assignedEntries.has(item.entryId)||assignedCodes.has(item.code))failures.push({batch:batch.batch,code:item.code,issue:'duplicate_assignment'});
+  assignedEntries.add(item.entryId);assignedCodes.add(item.code);
+ }
  const expected=new Map(assignments.map(item=>[item.code,item]));
  const filenames=await fs.readdir(path.join(root,batch.outputDirectory)).catch(error=>{if(error.code==='ENOENT')return [];throw error;});
  let written=0;
@@ -48,8 +54,11 @@ for(const batch of manifest.batches){
 }
 const uniqueEntries=new Set(articles.map(article=>article.entryId));
 if(uniqueEntries.size!==articles.length)failures.push({issue:'duplicate_assigned_entries'});
+if(assignedEntries.size!==manifest.target)failures.push({issue:'manifest_target_mismatch'});
+if(new Set(articles.map(article=>article.code)).size!==articles.length)failures.push({issue:'duplicate_written_codes'});
 const counts={assigned:manifest.target,written:articles.length,uniqueCodes:new Set(articles.map(article=>article.code)).size,sourceCheckedDrafts:articles.filter(article=>article.sourceReview==='checked').length,sourceReviewPending:articles.filter(article=>article.sourceReview==='needs-review').length,words:articles.reduce((sum,article)=>sum+article.wordCount,0),minimumWords:articles.length?Math.min(...articles.map(article=>article.wordCount)):0,maximumWords:articles.length?Math.max(...articles.map(article=>article.wordCount)):0,publishedByThisBatch:0};
-const report={checkedAt:new Date().toISOString(),status:failures.length?'failed':articles.length===manifest.target?'writing-complete':'in-progress',counts,batches,failures,warnings,limitations:['This report measures written drafts and metadata integrity, not mechanical accuracy, human review, live publication, indexing or traffic.','The overall 10,000+ code-article goal remains separate from this 1,000-article writing assignment.'],articles};
+const waves=(manifest.waves||[]).map(wave=>{const rows=articles.filter(article=>wave.batches.includes(article.batch));return {wave:wave.wave,assigned:wave.target,written:rows.length,uniqueCodes:new Set(rows.map(article=>article.code)).size,sourceCheckedDrafts:rows.filter(article=>article.sourceReview==='checked').length,sourceReviewPending:rows.filter(article=>article.sourceReview==='needs-review').length,words:rows.reduce((sum,article)=>sum+article.wordCount,0)};});
+const report={checkedAt:new Date().toISOString(),status:failures.length?'failed':articles.length===manifest.target?'writing-complete':'in-progress',counts,waves,batches,failures,warnings,limitations:['This report measures written drafts and metadata integrity, not mechanical accuracy, human review, live publication, indexing or traffic.',`The overall 10,000+ code-article goal remains separate from these ${manifest.target.toLocaleString('en-US')} assigned manuscripts.`],articles};
 await fs.writeFile(path.join(root,'reports/written-articles.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({status:report.status,counts,batches:batches.map(({batch,assigned,written})=>({batch,assigned,written})),failures:failures.slice(0,30)},null,2));
 if(failures.length||(process.argv.includes('--require-complete')&&articles.length!==manifest.target))process.exitCode=1;

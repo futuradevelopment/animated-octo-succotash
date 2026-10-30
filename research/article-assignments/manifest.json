@@ -1,5 +1,5 @@
 {
-  "target": 1000,
+  "target": 2000,
   "batches": [
     {
       "batch": "batch-01",
@@ -80,7 +80,131 @@
       "outputDirectory": "content/code-articles/batch-10",
       "firstCode": "U067C",
       "lastCode": "P0879"
+    },
+    {
+      "batch": "batch-11",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-11.json",
+      "outputDirectory": "content/code-articles/batch-11",
+      "firstCode": "P000C",
+      "lastCode": "P0882",
+      "wave": 2
+    },
+    {
+      "batch": "batch-12",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-12.json",
+      "outputDirectory": "content/code-articles/batch-12",
+      "firstCode": "P0001",
+      "lastCode": "P05A7",
+      "wave": 2
+    },
+    {
+      "batch": "batch-13",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-13.json",
+      "outputDirectory": "content/code-articles/batch-13",
+      "firstCode": "P0012",
+      "lastCode": "P219B",
+      "wave": 2
+    },
+    {
+      "batch": "batch-14",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-14.json",
+      "outputDirectory": "content/code-articles/batch-14",
+      "firstCode": "P0883",
+      "lastCode": "P2310",
+      "wave": 2
+    },
+    {
+      "batch": "batch-15",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-15.json",
+      "outputDirectory": "content/code-articles/batch-15",
+      "firstCode": "P2312",
+      "lastCode": "P2856",
+      "wave": 2
+    },
+    {
+      "batch": "batch-16",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-16.json",
+      "outputDirectory": "content/code-articles/batch-16",
+      "firstCode": "P2864",
+      "lastCode": "U05AA",
+      "wave": 2
+    },
+    {
+      "batch": "batch-17",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-17.json",
+      "outputDirectory": "content/code-articles/batch-17",
+      "firstCode": "C052B",
+      "lastCode": "P248C",
+      "wave": 2
+    },
+    {
+      "batch": "batch-18",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-18.json",
+      "outputDirectory": "content/code-articles/batch-18",
+      "firstCode": "P248D",
+      "lastCode": "P0600",
+      "wave": 2
+    },
+    {
+      "batch": "batch-19",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-19.json",
+      "outputDirectory": "content/code-articles/batch-19",
+      "firstCode": "P0210",
+      "lastCode": "P2462",
+      "wave": 2
+    },
+    {
+      "batch": "batch-20",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-20.json",
+      "outputDirectory": "content/code-articles/batch-20",
+      "firstCode": "P0705",
+      "lastCode": "P2709",
+      "wave": 2
     }
   ],
-  "method": "1000 distinct generic canonical codes with primary-position matches in GM monitor tables. All matches require individual source review before authoring; mentions alone are insufficient."
+  "method": "Two writing waves, each ten agents assigned100new distinct generic canonical codes. Wave2 excludes every Wave1 code; candidates come from Ford monitor summaries and GM diagnostic tables. Every match requires individual source and applicability review; a mention alone is not diagnostic evidence.",
+  "waves": [
+    {
+      "wave": 1,
+      "target": 1000,
+      "batches": [
+        "batch-01",
+        "batch-02",
+        "batch-03",
+        "batch-04",
+        "batch-05",
+        "batch-06",
+        "batch-07",
+        "batch-08",
+        "batch-09",
+        "batch-10"
+      ]
+    },
+    {
+      "wave": 2,
+      "target": 1000,
+      "batches": [
+        "batch-11",
+        "batch-12",
+        "batch-13",
+        "batch-14",
+        "batch-15",
+        "batch-16",
+        "batch-17",
+        "batch-18",
+        "batch-19",
+        "batch-20"
+      ]
+    }
+  ]
 }
