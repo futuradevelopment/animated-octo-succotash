@@ -13,7 +13,11 @@
     "duplicateArticleBodies": 0,
     "wordCountMinExcludingLinks": 251,
     "wordCountMaxExcludingLinks": 279,
-    "totalWordsExcludingLinks": 26323
+    "totalWordsExcludingLinks": 26323,
+    "sourceReviewCounts": {
+      "checked": 97,
+      "needs-review": 3
+    }
   },
   "unresolvedIssues": [
     {
@@ -80,7 +84,7 @@
         "P0133"
       ],
       "issue": "The gm-2025-03a page 819 candidate only mentions P0133 in a supporting green-sensor delay table; it is not a main diagnostic row. The gm-2025-07a-2 file-to-model/engine join remains unresolved.",
-      "handling": "Used actual P0133 ECM monitor path on gm-2025-07a-2 physical pages 348–350. Metadata and article explicitly exclude inferred model or engine assignment."
+      "handling": "Used actual P0133 ECM monitor path on gm-2025-07a-2 physical pages 348\u2013350. Metadata and article explicitly exclude inferred model or engine assignment."
     }
   ],
   "articles": [
@@ -906,7 +910,7 @@
     },
     {
       "code": "P0072",
-      "sourceReview": "checked",
+      "sourceReview": "needs-review",
       "sourcePages": [
         {
           "sourceId": "gm-2025-03a",
@@ -1136,7 +1140,7 @@
     },
     {
       "code": "P00EA",
-      "sourceReview": "checked",
+      "sourceReview": "needs-review",
       "sourcePages": [
         {
           "sourceId": "gm-2025-03a",
@@ -1564,6 +1568,16 @@
       ],
       "outcome": "Existing article thresholds and temperature wording are confirmed; no factual article correction required. Unresolved model/engine mapping remains explicitly excluded.",
       "reviewDate": "2026-10-30"
+    }
+  ],
+  "integrationReviewUpdates": [
+    {
+      "codes": [
+        "P0072",
+        "P00EA"
+      ],
+      "sourceReview": "needs-review",
+      "reason": "Independent editorial review requested consistent metadata treatment of the disclosed -150 degree source-annotation conflicts."
     }
   ]
 }

@@ -69,5 +69,177 @@
       818
     ],
     "resolution": "needs-review"
+  },
+  {
+    "code": "P23AD",
+    "issue": "One electrical-failure prose label says NOx2 while the signal name, heading and strategy identify NOx3. Article explicitly notes this discrepancy.",
+    "sourcePages": [
+      1452
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P23AF",
+    "issue": "One communication prose label says NOx2 but signal name and monitor identify NOx3. Kept explicit sensor-3 scope and source discrepancy.",
+    "sourcePages": [
+      1454,
+      1455
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P23B5",
+    "issue": "Printed normalized-resistance inequalities contradict out-of-range description. Exact pass/fail formula omitted; supported timing and reporting retained.",
+    "sourcePages": [
+      1460
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P23C1",
+    "issue": "Afterrun continuation contains suspect temperature units and idle-speed values. Retains supported self-test ratio and key-off sequence without constructing a drive cycle.",
+    "sourcePages": [
+      1464,
+      1465,
+      1466,
+      1467,
+      1468
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P23C6",
+    "issue": "Threshold cell presents 8.1 A < X < 12.8 A without a clear fixed trip interpretation. Article avoids inventing a universal current limit.",
+    "sourcePages": [
+      821
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P242C",
+    "issue": "Analog low threshold is printed as resistance below 0 ohm. Retains digital criterion and qualification, flags analog service-limit ambiguity.",
+    "sourcePages": [
+      1474
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P244B",
+    "issue": "Hardware branches and continuation contain inconsistent comparison direction and enable ranges. Explains supported architecture and pipe-fault purpose without asserting disputed numeric limits.",
+    "sourcePages": [
+      824,
+      825,
+      826,
+      827,
+      828
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P2453",
+    "issue": "Fuel-quantity variation is printed with questionable l/s units and airflow variation lacks units. Article uses unambiguous strategy, threshold and speed qualifier only.",
+    "sourcePages": [
+      830
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P2459",
+    "issue": "Ratio threshold and enable-condition layout is internally difficult to reconcile. Article explains supported trigger/model distinction without asserting a universal ratio.",
+    "sourcePages": [
+      1478,
+      1479
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P24AF",
+    "issue": "State-transition threshold 125 is printed without a clear time unit. Article omits an exact transition-delay specification.",
+    "sourcePages": [
+      1491
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P24B0",
+    "issue": "Electrode-current difference threshold has no clear unit and no failure counter is supplied. Mechanism and prerequisites retained without external test limit.",
+    "sourcePages": [
+      1492
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P24C7",
+    "issue": "Continuation has ambiguous placement and units for model-reliability conditions. Core 100\u00b0C comparison and heater-off state are clear; no detailed drive recipe asserted.",
+    "sourcePages": [
+      1496,
+      1497,
+      1498
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P24D1",
+    "issue": "Temperature/time criterion prints <=715\u00b0C with consecutive time <43 s; logical interpretation is unclear. Core sensor-regeneration thermal mechanism retained without fabricated hold-time rule.",
+    "sourcePages": [
+      1500,
+      1501
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P24DA",
+    "issue": "Heater metric threshold lacks clear units and communication qualifier lacks expected NOT notation. Describes supported thermal/sample-path strategy without external wattage limit.",
+    "sourcePages": [
+      1502,
+      1503
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P26B8",
+    "issue": "Both timing branches show 999.9 seconds out of a 0-second window. No usable duration or disabled-monitor conclusion inferred.",
+    "sourcePages": [
+      845
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P26B9",
+    "issue": "Opening and closing timing cells print 999.9 seconds in a 0-second window. Duration left unresolved; core direction-dependent electrical monitor explained.",
+    "sourcePages": [
+      846
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P279A",
+    "issue": "Ratio windows and neutral/low grouping are inconsistent in source. Supported commanded-high versus measured-ratio strategy retained; exact windows require clarification.",
+    "sourcePages": [
+      848
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P279B",
+    "issue": "Ratio window layout and logic are ambiguous, including overlapping neutral/high bands. Exact standalone ratio test withheld.",
+    "sourcePages": [
+      849
+    ],
+    "resolution": "needs-review"
+  },
+  {
+    "code": "P2818",
+    "issue": "Non-garage branch includes reverse output-speed threshold below -999999 rpm, apparently a disabled/placeholder path. No universal road-test procedure inferred; supported two-branch mechanism retained.",
+    "sourcePages": [
+      2291,
+      2292,
+      2293,
+      2294,
+      2295,
+      2296,
+      2601
+    ],
+    "resolution": "needs-review"
   }
 ]

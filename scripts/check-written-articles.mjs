@@ -25,6 +25,7 @@ for(const batch of manifest.batches){
   if(metadata.code!==code||metadata.entryId!==assignment.entryId)issues.push('identity_mismatch');
   if(metadata.authoringBatch!==batch.batch)issues.push('batch_mismatch');
   if(!metadata.title?.includes(code)||!metadata.description?.trim())issues.push('missing_search_metadata');
+  if(!/[.!?]$/.test(metadata.description?.trim()||''))issues.push('incomplete_search_description');
   if(metadata.status!=='draft')issues.push('unexpected_publication_status');
   if(!['checked','needs-review'].includes(metadata.sourceReview))issues.push('missing_source_review_state');
   if(!metadata.scope?.trim())issues.push('missing_scope');

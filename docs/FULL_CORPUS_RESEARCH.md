@@ -4,6 +4,8 @@ Research snapshot: 2026-10-30. **The requested articles have not been completed.
 
 ## Completion means articles for the whole catalog
 
+A subsequent, separately scoped writing assignment has completed **1,000 original article manuscripts across 10 writers**. [Read the manuscript index](../content/code-articles/README.md). These files retain source-review flags and are not yet connected to the public renderer. The earlier full-catalog goal remains incomplete; draft writing is now reported separately from approved records and publication.
+
 The task is a useful, separately researched article at every canonical code destination, with a minimum of 10,000 articles. The current inventory has 11,786 canonical code/namespace entries and 10,043 distinct displayed code strings. Manufacturer namespaces can give the same displayed string different meanings. Aliases and model permutations must not inflate the total.
 
 The 32 existing vehicle-case guides are separate published content. They link to 52 dictionary entries; a link, companion-code mention or source match does not make that entry a completed code article. The new article registry currently contains zero approved code-article records. This is a statement about the full-catalog authoring work, not a claim that the existing guides contain no useful research.

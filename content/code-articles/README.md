@@ -1,21 +1,21 @@
-# Code article manuscripts
+# 1,000 code article manuscripts
 
-658 individually written drafts in the 1,000-article assignment. Ten writers have 100 non-overlapping codes each. This snapshot records writing progress; these files are not connected to the public renderer.
+The requested writing assignment is complete: **10 writers × 100 distinct codes = 1,000 individually written articles**. The manuscripts contain 268,114 words under the inventory counter, including headings and source text but excluding URL targets. Every article is stored separately with its canonical entry ID, title, search description and exact source pages.
 
-586 drafts have author source checks; 72 flag unresolved source details. Checks were performed by AI writing agents, not represented as independent mechanic certification. The articles explicitly retain document/calibration limits and source conflicts.
+**Publication status: drafts.** These files are not connected to the public renderer. 890 drafts have author source checks; 110 retain explicit source-review flags for unresolved details. Checks were performed by AI writing agents, not represented as independent mechanic certification.
 
-| Batch | Written | Source review pending |
+| Writer / batch | Articles | Source details needing review |
 | --- | ---: | ---: |
-| [batch-01](batch-01/) | 100 / 100 | 1 |
+| [batch-01](batch-01/) | 100 / 100 | 3 |
 | [batch-02](batch-02/) | 100 / 100 | 8 |
 | [batch-03](batch-03/) | 100 / 100 | 13 |
 | [batch-04](batch-04/) | 100 / 100 | 11 |
 | [batch-05](batch-05/) | 100 / 100 | 17 |
 | [batch-06](batch-06/) | 100 / 100 | 12 |
-| [batch-07](batch-07/) | 15 / 100 | 2 |
-| [batch-08](batch-08/) | 19 / 100 | 8 |
-| [batch-09](batch-09/) | 10 / 100 | 0 |
-| [batch-10](batch-10/) | 14 / 100 | 0 |
+| [batch-07](batch-07/) | 100 / 100 | 7 |
+| [batch-08](batch-08/) | 100 / 100 | 27 |
+| [batch-09](batch-09/) | 100 / 100 | 6 |
+| [batch-10](batch-10/) | 100 / 100 | 6 |
 
 ## Read examples
 
@@ -24,8 +24,10 @@
 - [P2270: rear oxygen-sensor response to enrichment](batch-04/P2270.md)
 - [C0002: valve-specific electrical limits](batch-01/C0002.md)
 
-## Scope
+## Evidence and review
 
-These are original explanations of documented manufacturer monitors. They are not universal repair instructions. Sources support particular modules, years and calibrations; file-level vehicle lists do not establish each code's applicability. Where a source is contradictory, the disputed specification is identified or omitted. No repair costs, failure probabilities or unsupported model mappings are invented.
+These are original explanations of documented GM monitors. Sources support particular modules, years and calibrations; file-level vehicle lists do not establish each code's applicability. They are not universal repair procedures. Where an OEM table is contradictory, the disputed specification is identified or omitted rather than silently corrected. No repair costs, failure probabilities or unsupported model mappings are invented.
 
-Run `npm run articles:check` for the current manuscript inventory, or `npm run articles:complete` to require all 1,000 assigned files. The overall 10,000+ article goal is measured separately by `npm run article:target`. Written drafts are distinct from approved records and published pages.
+Independent additional reviews read all 200 bodies in two batches and deeply checked 48 articles across three batches, including rendered original PDF pages. Citation gaps in six pressure-sensor articles were corrected, and two source-review labels were aligned with their disclosed limitations. This sampling does not certify every technical statement in all 1,000 articles.
+
+Run `npm run articles:complete` to validate the complete 1,000-file assignment. The [writing inventory](../../reports/written-articles.json) lists every article and review state. The [similarity report](../../reports/article-similarity.json) describes its bounded text-repetition test. The full 10,000+ catalog remains a separate goal; written manuscripts are not counted as approved records or published pages.
