@@ -72,7 +72,7 @@ test('make directory pagination keeps canonical links and avoids repeated entrie
 
 test('essential definition, safety, sources and correction context work without JavaScript',async({browser,baseURL})=>{
  const context=await browser.newContext({javaScriptEnabled:false,baseURL});const page=await context.newPage();
- try{await page.goto(codePath(generic));await expect(page.locator('[data-code-definition]')).toContainText(generic.title);await expect(page.locator('#first-check')).toBeVisible();await expect(page.locator('#sources')).toContainText(getSource(generic.sourceId).publisher);await expect(page.locator('#report')).toBeVisible();for(const text of getGuide(generic).safety)await expect(page.locator('main')).toContainText(text);await page.goto('/search/');await expect(page.locator('noscript')).toContainText('code directory');}finally{await context.close();}
+ try{await page.goto(codePath(generic));await expect(page.locator('[data-code-definition]')).toContainText(generic.title);await expect(page.locator('#first-check')).toBeVisible();await expect(page.locator('#sources')).toContainText(getSource(generic.sourceId).publisher);await expect(page.locator('#report')).toBeVisible();for(const text of getGuide(generic).safety)await expect(page.locator('main')).toContainText(text);await page.goto('/search/');const fallback=page.locator('noscript a[href="/codes/"]');await expect(fallback).toBeVisible();await expect(fallback).toHaveText('paginated code directory');await fallback.click();await expect(page).toHaveURL(/\/codes\/$/);await expect(page.locator('.directory-grid [data-code-id]')).toHaveCount(100);}finally{await context.close();}
 });
 
 test('report and source fragment anchors resolve on a code page',async({page})=>{
