@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import CodeCard from './CodeCard.astro';
+import {getMake,getSource,getGuide,getRelatedCodes,makePath,systemPath,systems,type CodeEntry} from '../lib/cars';
+interface Props {entry:CodeEntry;}
+const {entry}=Astro.props;
+const make=getMake(entry.makeId);
+const makeIds=entry.makeIds?.length?entry.makeIds:[entry.makeId];
+const guide=getGuide(entry);
+const sourceRecords=[...new Set([entry.sourceId,...guide.sourceIds])].map(getSource);
+const definitionSource=getSource(entry.sourceId);
+const system=systems.find(s=>s.id===entry.system);
+const related=getRelatedCodes(entry,6);
+const scopeLabel=entry.scope==='generic'?'Generic OBD-II reference':makeIds.map(id=>getMake(id).name).join(' / ');
+const referenceLabel=entry.scope==='generic'?'OBD-II':makeIds.length>1?'Shared manufacturer':make.name;
+const title=`${referenceLabel} ${entry.code}: ${entry.title}`;
+const schema=[{'@context':'https://schema.org','@type':'Article',headline:title,description:guide.summary,author:{'@type':'Organization',name:'ErrHive Cars'},about:{'@type':'Thing',name:`${entry.code} diagnostic trouble code`},citation:sourceRecords.map(s=>s.url)}];
+---
+<Base title={title} description={guide.summary} noindex={entry.status==='published_noindex'} kind="article" breadcrumbs={[{label:'Home',href:'/'},{label:'Makes',href:'/makes/'},{label:make.name,href:makePath(make.id)},{label:entry.code}]} schema={schema}>
+ <article>
+  <header class="container diagnostic-heading">
+   <div class="diagnostic-title"><p class="eyebrow">Diagnostic trouble code <span aria-hidden="true">/</span> {entry.scope==='generic'?'Generic OBD-II':makeIds.length>1?'Shared manufacturer reference':make.name}</p><h1><span class="article-code">{entry.code}</span><span data-code-definition>{entry.title}</span></h1><p class="lede">{guide.summary}</p><div class="article-tags"><a href={systemPath(entry.system)} class="badge">{system?.name||entry.system} <span aria-hidden="true">↗</span></a><span class="badge provenance-badge">{definitionSource.kind==='dataset'?'Community code reference':definitionSource.kind==='manufacturer'?'Manufacturer reference':'Public agency reference'}</span></div></div>
+   <aside class="code-context"><div class="context-heading"><span class="eyebrow">Before you diagnose</span><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M8 4h8v3h4v10h-4v3H6v-3H3V9h5Z"/><path d="M1 10v6M20 11h3v6h-3M11 9l-2 5h5l-2 4"/></svg></div><p>A code points to a condition.<br/><strong>Diagnosis finds the cause.</strong></p><dl><div><dt>Reference scope</dt><dd>{scopeLabel}</dd></div><div><dt>Definition source</dt><dd>{definitionSource.publisher}</dd></div><div><dt>What to match</dt><dd>Year · engine · exact scan report</dd></div></dl><a href="#sources">Inspect the sources <span aria-hidden="true">↗</span></a></aside>
+  </header>
+  <nav class="container article-jump-nav" aria-label="On this page"><a href="#meaning">01 <span>Meaning</span></a><a href="#first-check">02 <span>First check</span></a><a href="#next-steps">03 <span>Next steps</span></a><a href="#sources">04 <span>Sources</span></a></nav>
+  <div class="container diagnostic-layout">
+   <div class="diagnostic-body">
+    <section id="meaning" class="answer-panel"><p class="eyebrow">01 / What the code means</p><h2>Read the signal.</h2><p>{guide.meaning}</p></section>
+    <section id="first-check" class="first-check-panel"><div class="first-check-heading"><span class="eyebrow">02 / Start here</span><span class:list={['urgency',`urgency-${guide.urgency}`]}><span aria-hidden="true"></span>{guide.urgencyLabel}</span></div><h2>Your first check</h2><p>{guide.firstCheck}</p></section>
+    {guide.safety.length>0&&<aside class:list={['safety-panel',{'safety-stop':guide.urgency==='stop'}]} aria-label="Safety before troubleshooting"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m12 3 10 18H2Z" stroke-linejoin="round"/><path d="M12 9v5M12 17v1"/></svg><div><h3>Before you go further</h3><ul>{guide.safety.map(text=><li>{text}</li>)}</ul></div></aside>}
+    <section id="next-steps" class="diagnostic-section"><p class="eyebrow">03 / A sensible sequence</p><h2>Work from evidence.</h2><ol class="diagnostic-steps">{guide.steps.map((step,i)=><li><span class="step-number" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><div><h3>{step.title}</h3><p>{step.body}</p></div></li>)}</ol>{guide.nextSteps.length>0&&<div class="next-steps-panel"><h3>When you need a next step</h3><ul>{guide.nextSteps.map(text=><li>{text}</li>)}</ul></div>}</section>
+    <section id="applicability" class="applicability-panel"><p class="eyebrow">The limits matter</p><h2>Match the code to the vehicle.</h2><p class="applicability-makes">{entry.scope==='generic'?'This page describes a generic diagnostic-code definition.':<>Listed for {makeIds.map((id,i)=><>{i>0?', ':''}<a href={makePath(id)}>{getMake(id).name}</a></>)}.</>}</p><ul>{guide.limitations.map(text=><li>{text}</li>)}</ul></section>
+    <section id="sources" class="sources-block"><div class="section-head"><div><p class="eyebrow">04 / Check the documentation</p><h2>Sources behind this guide</h2></div></div><p class="source-explainer">The code definition and diagnostic guidance may use different sources. Community reference data does not establish that a fault applies to a particular model.</p><ol class="source-list">{sourceRecords.map(source=><li><div class="source-meta"><span class="source-kind">{source.kind==='dataset'?'Community reference data':source.kind==='manufacturer'?'Manufacturer documentation':'Public agency guidance'}</span><span>{source.publisher}</span></div><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} <span aria-hidden="true">↗</span></a><p>Checked <time datetime={source.checkedOn}>{source.checkedOn}</time>{source.license&&<> · {source.license}</>}</p></li>)}</ol></section>
+    <aside id="report" class="reference-feedback"><h3>Something does not match?</h3><p>Keep the exact code, vehicle details and source URL together. Compare the original documentation before relying on this reference.</p><a class="text-link" href="/about/">How this reference is maintained <span aria-hidden="true">↗</span></a></aside>
+   </div>
+   <aside class="article-sidebar"><div class="sidebar-panel"><p class="eyebrow">Keep the full picture</p><h2>Save the evidence before clearing a code.</h2><p>Keep the exact display, vehicle details and the complete scan report together. A definition is the beginning of the diagnosis.</p><a class="text-link" href="/guides/">Read the field guides <span aria-hidden="true">↗</span></a></div><div class="sidebar-search"><label class="field-label" for="article-query">Another code on the scanner?</label><form action="/search/" method="get" role="search"><input class="search-input" id="article-query" name="q" type="search" placeholder="Enter a trouble code" required/><button class="button" type="submit">Find the reference <span aria-hidden="true">→</span></button></form></div></aside>
+  </div>
+  {related.length>0&&<section class="container related-section"><div class="section-head"><div><p class="eyebrow">Keep reading</p><h2>Other reference entries</h2></div><a class="text-link" href={makePath(make.id)}>Browse {make.name} <span aria-hidden="true">↗</span></a></div><div class="code-grid">{related.map(item=><CodeCard entry={item} compact/>)}</div></section>}
+ </article>
+</Base>

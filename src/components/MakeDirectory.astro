@@ -1,0 +1,14 @@
+---
+import CodeCard from './CodeCard.astro';
+import {type Make,type System,type CodeEntry} from '../lib/cars';
+interface Props {make?:Make;system?:System;entries:CodeEntry[];page:number;totalPages:number;total:number;basePath:string;}
+const {make,system,entries,page,totalPages,total,basePath}=Astro.props;
+const hrefFor=(n:number)=>n===1?basePath:`${basePath.replace(/\/$/,'')}/page/${n}/`;
+const pages=[...new Set([1,page-1,page,page+1,totalPages])].filter(n=>n>0&&n<=totalPages).sort((a,b)=>a-b);
+---
+<div class="directory-content container">
+ <div class="directory-toolbar"><p><strong>{total.toLocaleString('en-US')}</strong> {total===1?'code reference':'code references'}{make?` for ${make.name}`:system?` in ${system.name.toLowerCase()}`:''}</p><form action="/search/" method="get" role="search" class="directory-search"><label class="visually-hidden" for="directory-query">Search diagnostic trouble codes</label><input id="directory-query" name="q" type="search" placeholder="Search a code, e.g. P0300" required/>{make&&<input type="hidden" name="make" value={make.id}/>}<button type="submit" aria-label="Search codes"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button></form></div>
+ {entries.length>0?<div class="code-grid directory-grid">{entries.map(entry=><CodeCard entry={entry} compact/>)}</div>:<div class="empty-state"><h2>No matching references here yet.</h2><p>Try the code finder or another vehicle make.</p><a class="text-link" href="/search/">Open the code finder <span aria-hidden="true">↗</span></a></div>}
+ {totalPages>1&&<nav class="pagination" aria-label="Code directory pages">{page>1?<a class="page-direction" href={hrefFor(page-1)} rel="prev"><span aria-hidden="true">←</span> Previous</a>:<span class="page-direction disabled" aria-disabled="true"><span aria-hidden="true">←</span> Previous</span>}<div class="page-numbers">{pages.map((n,i)=><>{i>0&&n-pages[i-1]>1&&<span class="page-gap" aria-hidden="true">…</span>}<a href={hrefFor(n)} aria-current={n===page?'page':undefined} aria-label={`Page ${n}`}>{n}</a></>)}</div>{page<totalPages?<a class="page-direction" href={hrefFor(page+1)} rel="next">Next <span aria-hidden="true">→</span></a>:<span class="page-direction disabled" aria-disabled="true">Next <span aria-hidden="true">→</span></span>}</nav>}
+ <div class="directory-note"><span class="annotation-mark" aria-hidden="true">i</span><p>These are code references, not a list of confirmed faults on every vehicle. Read the source and applicability notes, then match the exact vehicle, year, engine and scan report.</p></div>
+</div>

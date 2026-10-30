@@ -1,0 +1,26 @@
+# Imported DTC data license
+
+The raw DTC definitions in `vendor/wal33d-dtc-database/` and the source-derived code/title fields in `src/data/dtc.json` are adapted from [Wal33D/dtc-database](https://github.com/Wal33D/dtc-database), commit `04c43d72e7db7197658b6f72fe582c5076d9eee8`, under the MIT license below. Cleaning, exclusion, normalization and canonical grouping are documented in `docs/DATA_PROVENANCE.md`; the original raw files and attribution remain included. This attribution does not describe the dataset as OEM verified.
+
+MIT License
+
+Copyright (c) 2024 Wal33D (Waleed Judah)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+

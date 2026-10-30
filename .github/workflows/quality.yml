@@ -1,0 +1,57 @@
+name: ErrHive Cars quality
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cars-quality-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  production-quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NODE_OPTIONS: --max-old-space-size=4096
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Verify versioned source data and build once
+        run: npm run verify
+      - name: Write measured inventory
+        run: npm run reports
+      - run: npx playwright install --with-deps chromium
+      - name: Test production search, articles and mobile layouts
+        run: npm run test:browser
+      - name: Preserve visual evidence in the job log
+        if: always()
+        run: node scripts/ci-evidence.mjs browser
+      - name: Start the existing production build
+        run: |
+          npm run preview -- --host 127.0.0.1 --port 4321 > /tmp/cars-preview.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4321/ > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/cars-preview.log
+          exit 1
+      - name: Measure three sequential samples for each performance profile
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: npm run audit:performance -- --url=http://127.0.0.1:4321
+      - name: Preserve measurement summary in the job log
+        if: always()
+        run: node scripts/ci-evidence.mjs performance
+      - uses: actions/upload-artifact@v4
+        if: always()
+        continue-on-error: true
+        with:
+          name: cars-quality-evidence
+          path: reports/
+          if-no-files-found: warn

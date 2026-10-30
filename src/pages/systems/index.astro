@@ -1,0 +1,5 @@
+---
+import Base from '../../layouts/Base.astro';
+import {systems,codesForSystem,systemPath} from '../../lib/cars';
+---
+<Base title="Diagnostic codes by vehicle system" description="Browse powertrain, body, chassis and network code references." breadcrumbs={[{label:'Home',href:'/'},{label:'Systems'}]}><div class="container"><header class="page-head"><p class="eyebrow">FOUR CODE FAMILIES</p><h1>Start with the system.</h1><p class="lede">Use the complete scanner display and vehicle context when choosing a reference.</p></header><div class="section code-grid">{systems.map(system=><section class="notice"><p class="eyebrow">{system.letter} CODES</p><h2>{codesForSystem(system.id).length?<a href={systemPath(system.id)}>{system.name}</a>:system.name}</h2><p>{system.description}</p><p>{codesForSystem(system.id).length.toLocaleString('en-US')} references</p></section>)}</div></div></Base>

@@ -1,0 +1,5 @@
+---
+import Base from '../../layouts/Base.astro';
+import {activeMakes,codesForMake,modelsForMake,makePath} from '../../lib/cars';
+---
+<Base title="Vehicle makes and code references" description="Choose a manufacturer label or generic OBD-II reference, then check exact vehicle applicability." breadcrumbs={[{label:'Home',href:'/'},{label:'Makes'}]}><div class="container"><header class="page-head"><p class="eyebrow">MANUFACTURER CONTEXT</p><h1>Choose the make.</h1><p class="lede">Manufacturer labels come from the cited reference. A label is not evidence for every model or year.</p></header><section class="section"><div class="code-grid">{activeMakes.map(make=><a class="notice" href={makePath(make.id)}><h2>{make.name}</h2><p>{codesForMake(make.id).length.toLocaleString('en-US')} code references · {modelsForMake(make.id).length} model references</p></a>)}</div>{!activeMakes.length&&<p class="empty-state">Manufacturer references will appear when reviewed records are published.</p>}</section></div></Base>

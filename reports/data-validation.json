@@ -1,0 +1,233 @@
+{
+  "checkedAt": "2026-10-30T13:20:48.401Z",
+  "status": "passed",
+  "counts": {
+    "codes": 11786,
+    "indexableCanonicalCodes": 11786,
+    "genericCodes": 9249,
+    "manufacturerCodes": 2537,
+    "sharedManufacturerReferences": 1026,
+    "noindexCodes": 0,
+    "makes": 32,
+    "models": 26,
+    "sources": 25,
+    "systems": 4
+  },
+  "canonicalCodesByMake": {
+    "bmw": 250,
+    "buick": 10,
+    "cadillac": 1,
+    "chevrolet": 398,
+    "ford": 395,
+    "generic": 9249,
+    "geo": 14,
+    "gmc": 2,
+    "honda": 93,
+    "jaguar": 150,
+    "jeep": 96,
+    "kia": 76,
+    "lexus": 44,
+    "mazda": 204,
+    "mercedes-benz": 32,
+    "mitsubishi": 29,
+    "nissan": 59,
+    "oldsmobile": 5,
+    "subaru": 93,
+    "suzuki": 15,
+    "toyota": 43,
+    "volkswagen": 528
+  },
+  "canonicalCodesBySystem": {
+    "powertrain": 9891,
+    "body": 189,
+    "chassis": 478,
+    "network": 1228
+  },
+  "checks": 276096,
+  "failed": 0,
+  "failures": [],
+  "omittedFailures": 0,
+  "counters": {
+    "source-unique-id": {
+      "checks": 25,
+      "failed": 0
+    },
+    "make-unique-id": {
+      "checks": 32,
+      "failed": 0
+    },
+    "model-unique-id": {
+      "checks": 26,
+      "failed": 0
+    },
+    "source-input-unique-id": {
+      "checks": 25,
+      "failed": 0
+    },
+    "source-catalog-consistent": {
+      "checks": 25,
+      "failed": 0
+    },
+    "make-slug": {
+      "checks": 32,
+      "failed": 0
+    },
+    "make-alias-unambiguous": {
+      "checks": 66,
+      "failed": 0
+    },
+    "source-url": {
+      "checks": 25,
+      "failed": 0
+    },
+    "source-checked-date": {
+      "checks": 25,
+      "failed": 0
+    },
+    "source-kind": {
+      "checks": 25,
+      "failed": 0
+    },
+    "code-id-unique": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-pattern": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-route-unique": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-make-exists": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-system-exists": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-system-prefix": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-source-exists": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-title": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "no-appliance-residue": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-status": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-assigned-allocation": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "code-allocation-scope": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "generic-canonical-make": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "shared-makes-unique": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "shared-makes-exist": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "canonical-make-in-shared-list": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "shared-code-unambiguous": {
+      "checks": 15298,
+      "failed": 0
+    },
+    "code-row-provenance": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "source-row-fields": {
+      "checks": 15298,
+      "failed": 0
+    },
+    "shared-makes-have-upstream-labels": {
+      "checks": 2537,
+      "failed": 0
+    },
+    "guide-sources-resolve": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "guide-safe-context": {
+      "checks": 11786,
+      "failed": 0
+    },
+    "generic-canonical-once": {
+      "checks": 9249,
+      "failed": 0
+    },
+    "generic-no-brand-crossproduct": {
+      "checks": 9249,
+      "failed": 0
+    },
+    "model-make-exists": {
+      "checks": 26,
+      "failed": 0
+    },
+    "model-slug": {
+      "checks": 26,
+      "failed": 0
+    },
+    "model-existence-evidence": {
+      "checks": 26,
+      "failed": 0
+    },
+    "model-source-exists": {
+      "checks": 26,
+      "failed": 0
+    },
+    "bulletin-id-unique": {
+      "checks": 20,
+      "failed": 0
+    },
+    "bulletin-make-exists": {
+      "checks": 20,
+      "failed": 0
+    },
+    "bulletin-model-evidence": {
+      "checks": 20,
+      "failed": 0
+    },
+    "bulletin-primary-evidence": {
+      "checks": 20,
+      "failed": 0
+    },
+    "bulletin-scope-visible": {
+      "checks": 20,
+      "failed": 0
+    },
+    "bulletin-code-list": {
+      "checks": 20,
+      "failed": 0
+    },
+    "canonical-code-launch-target": {
+      "checks": 1,
+      "failed": 0
+    }
+  },
+  "scope": "Structural/provenance consistency and canonical publication gates. Community definitions are not OEM-verified diagnoses. Passing does not establish source accuracy, model applicability, deployment or indexing."
+}

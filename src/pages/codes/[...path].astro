@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import CodeArticle from '../../components/CodeArticle.astro';
+import MakeDirectory from '../../components/MakeDirectory.astro';
+import {codes,codePath,getCode,allDirectoryPages} from '../../lib/cars';
+import type {DirectoryPage} from '../../lib/cars';
+export function getStaticPaths(){return [...allDirectoryPages.map(pageData=>({params:{path:pageData.page===1?undefined:`page/${pageData.page}`},props:{pageKind:'directory',pageData}})),...codes.map(entry=>({params:{path:codePath(entry).replace(/^\/codes\//,'').replace(/\/$/,'')},props:{pageKind:'article',codeId:entry.id}}))];}
+const {pageKind,codeId,pageData}=Astro.props as {pageKind:string;codeId?:string;pageData?:DirectoryPage};
+const suffix=pageData&&pageData.page>1?` — Page ${pageData.page}`:'';
+---
+{pageKind==='article'?<CodeArticle entry={getCode(codeId!)}/>:<Base title={`Diagnostic code directory${suffix}`} description={`Browse documented automotive code references by code, manufacturer and system${suffix}.`} breadcrumbs={[{label:'Home',href:'/'},{label:'Codes'}]}><header class="container page-head"><p class="eyebrow">THE CODE DIRECTORY</p><h1>Diagnostic code references{suffix}.</h1><p class="lede">Browse canonical reference entries. Each definition keeps its own source and vehicle-applicability limits.</p></header><MakeDirectory {...pageData!}/></Base>}

@@ -1,0 +1,5 @@
+---
+import Base from '../../layouts/Base.astro';
+import {models,getMake,modelPath} from '../../lib/cars';
+---
+<Base title="Vehicle model documentation" description="Vehicle references supported by specific manufacturer documents, with stated year and powertrain scope." breadcrumbs={[{label:'Home',href:'/'},{label:'Models'}]}><div class="container"><header class="page-head"><p class="eyebrow">SOURCE-SUPPORTED VEHICLES</p><h1>Model documentation.</h1><p class="lede">These references describe particular documents and conditions. They are not complete code lists for every vehicle.</p></header><div class="section code-grid">{models.map(model=><a class="notice" href={modelPath(model)}><p class="eyebrow">{getMake(model.makeId).name}</p><h2>{model.name}</h2><p>{model.years}</p><p>{model.summary}</p></a>)}</div>{!models.length&&<p class="empty-state">No exact-model references are published yet. Browse the <a href="/codes/">code directory</a> and confirm your vehicle in its manufacturer documentation.</p>}</div></Base>
