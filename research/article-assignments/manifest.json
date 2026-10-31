@@ -1,0 +1,316 @@
+{
+  "target": 3000,
+  "batches": [
+    {
+      "batch": "batch-01",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-01.json",
+      "outputDirectory": "content/code-articles/batch-01",
+      "firstCode": "C0001",
+      "lastCode": "P0133"
+    },
+    {
+      "batch": "batch-02",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-02.json",
+      "outputDirectory": "content/code-articles/batch-02",
+      "firstCode": "P0135",
+      "lastCode": "P0568"
+    },
+    {
+      "batch": "batch-03",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-03.json",
+      "outputDirectory": "content/code-articles/batch-03",
+      "firstCode": "P056C",
+      "lastCode": "P2089"
+    },
+    {
+      "batch": "batch-04",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-04.json",
+      "outputDirectory": "content/code-articles/batch-04",
+      "firstCode": "P2090",
+      "lastCode": "P2B96"
+    },
+    {
+      "batch": "batch-05",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-05.json",
+      "outputDirectory": "content/code-articles/batch-05",
+      "firstCode": "P2C1E",
+      "lastCode": "P0273"
+    },
+    {
+      "batch": "batch-06",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-06.json",
+      "outputDirectory": "content/code-articles/batch-06",
+      "firstCode": "P0274",
+      "lastCode": "P067A"
+    },
+    {
+      "batch": "batch-07",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-07.json",
+      "outputDirectory": "content/code-articles/batch-07",
+      "firstCode": "P067B",
+      "lastCode": "P2295"
+    },
+    {
+      "batch": "batch-08",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-08.json",
+      "outputDirectory": "content/code-articles/batch-08",
+      "firstCode": "P2296",
+      "lastCode": "P281B"
+    },
+    {
+      "batch": "batch-09",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-09.json",
+      "outputDirectory": "content/code-articles/batch-09",
+      "firstCode": "P281D",
+      "lastCode": "U0669"
+    },
+    {
+      "batch": "batch-10",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-10.json",
+      "outputDirectory": "content/code-articles/batch-10",
+      "firstCode": "U067C",
+      "lastCode": "P0879"
+    },
+    {
+      "batch": "batch-11",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-11.json",
+      "outputDirectory": "content/code-articles/batch-11",
+      "firstCode": "P000C",
+      "lastCode": "P0882",
+      "wave": 2
+    },
+    {
+      "batch": "batch-12",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-12.json",
+      "outputDirectory": "content/code-articles/batch-12",
+      "firstCode": "P0001",
+      "lastCode": "P05A7",
+      "wave": 2
+    },
+    {
+      "batch": "batch-13",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-13.json",
+      "outputDirectory": "content/code-articles/batch-13",
+      "firstCode": "P0012",
+      "lastCode": "P219B",
+      "wave": 2
+    },
+    {
+      "batch": "batch-14",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-14.json",
+      "outputDirectory": "content/code-articles/batch-14",
+      "firstCode": "P0883",
+      "lastCode": "P2310",
+      "wave": 2
+    },
+    {
+      "batch": "batch-15",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-15.json",
+      "outputDirectory": "content/code-articles/batch-15",
+      "firstCode": "P2312",
+      "lastCode": "P2856",
+      "wave": 2
+    },
+    {
+      "batch": "batch-16",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-16.json",
+      "outputDirectory": "content/code-articles/batch-16",
+      "firstCode": "P2864",
+      "lastCode": "U05AA",
+      "wave": 2
+    },
+    {
+      "batch": "batch-17",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-17.json",
+      "outputDirectory": "content/code-articles/batch-17",
+      "firstCode": "C052B",
+      "lastCode": "P248C",
+      "wave": 2
+    },
+    {
+      "batch": "batch-18",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-18.json",
+      "outputDirectory": "content/code-articles/batch-18",
+      "firstCode": "P248D",
+      "lastCode": "P0600",
+      "wave": 2
+    },
+    {
+      "batch": "batch-19",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-19.json",
+      "outputDirectory": "content/code-articles/batch-19",
+      "firstCode": "P0210",
+      "lastCode": "P2462",
+      "wave": 2
+    },
+    {
+      "batch": "batch-20",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-20.json",
+      "outputDirectory": "content/code-articles/batch-20",
+      "firstCode": "P0705",
+      "lastCode": "P2709",
+      "wave": 2
+    },
+    {
+      "batch": "batch-21",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-21.json",
+      "outputDirectory": "content/code-articles/batch-21",
+      "firstCode": "P0008",
+      "lastCode": "P1153",
+      "wave": 3
+    },
+    {
+      "batch": "batch-22",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-22.json",
+      "outputDirectory": "content/code-articles/batch-22",
+      "firstCode": "P0218",
+      "lastCode": "P0B57",
+      "wave": 3
+    },
+    {
+      "batch": "batch-23",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-23.json",
+      "outputDirectory": "content/code-articles/batch-23",
+      "firstCode": "P1000",
+      "lastCode": "P0176",
+      "wave": 3
+    },
+    {
+      "batch": "batch-24",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-24.json",
+      "outputDirectory": "content/code-articles/batch-24",
+      "firstCode": "P1111",
+      "lastCode": "P1853",
+      "wave": 3
+    },
+    {
+      "batch": "batch-25",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-25.json",
+      "outputDirectory": "content/code-articles/batch-25",
+      "firstCode": "P0127",
+      "lastCode": "P0B81",
+      "wave": 3
+    },
+    {
+      "batch": "batch-26",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-26.json",
+      "outputDirectory": "content/code-articles/batch-26",
+      "firstCode": "U0212",
+      "lastCode": "P0A0A",
+      "wave": 3
+    },
+    {
+      "batch": "batch-27",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-27.json",
+      "outputDirectory": "content/code-articles/batch-27",
+      "firstCode": "P0B5A",
+      "lastCode": "P0C5D",
+      "wave": 3
+    },
+    {
+      "batch": "batch-28",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-28.json",
+      "outputDirectory": "content/code-articles/batch-28",
+      "firstCode": "P0B86",
+      "lastCode": "P0D3A",
+      "wave": 3
+    },
+    {
+      "batch": "batch-29",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-29.json",
+      "outputDirectory": "content/code-articles/batch-29",
+      "firstCode": "P0D3B",
+      "lastCode": "P2636",
+      "wave": 3
+    },
+    {
+      "batch": "batch-30",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-30.json",
+      "outputDirectory": "content/code-articles/batch-30",
+      "firstCode": "C006B",
+      "lastCode": "P06A0",
+      "wave": 3
+    }
+  ],
+  "method": "Each writing wave uses ten writer agents with 100 separately authored code articles each. Codes are deduplicated across all assignments. Every article requires source and scope review; an indexed code mention is not diagnostic evidence. Wave3 assignments are added as usable primary-source candidates are identified.",
+  "waves": [
+    {
+      "wave": 1,
+      "target": 1000,
+      "batches": [
+        "batch-01",
+        "batch-02",
+        "batch-03",
+        "batch-04",
+        "batch-05",
+        "batch-06",
+        "batch-07",
+        "batch-08",
+        "batch-09",
+        "batch-10"
+      ]
+    },
+    {
+      "wave": 2,
+      "target": 1000,
+      "batches": [
+        "batch-11",
+        "batch-12",
+        "batch-13",
+        "batch-14",
+        "batch-15",
+        "batch-16",
+        "batch-17",
+        "batch-18",
+        "batch-19",
+        "batch-20"
+      ]
+    },
+    {
+      "wave": 3,
+      "target": 1000,
+      "batches": [
+        "batch-21",
+        "batch-22",
+        "batch-23",
+        "batch-24",
+        "batch-25",
+        "batch-26",
+        "batch-27",
+        "batch-28",
+        "batch-29",
+        "batch-30"
+      ]
+    }
+  ]
+}

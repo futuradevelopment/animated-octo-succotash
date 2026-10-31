@@ -1,0 +1,1397 @@
+{
+  "batch": "batch-23",
+  "wave": 3,
+  "author": "AI writing agent; source checking is not human mechanic certification",
+  "status": "writing-complete",
+  "counts": {
+    "assigned": 100,
+    "written": 100,
+    "uniqueCodes": 100,
+    "manufacturerFordCodes": 99,
+    "genericCodes": 1,
+    "sourceCheckedDrafts": 74,
+    "sourceReviewPending": 26,
+    "words": 27926,
+    "wordCountRange": [
+      266,
+      301
+    ],
+    "substantiveWordCountRange": [
+      210,
+      247
+    ],
+    "published": 0
+  },
+  "method": "Individually authored original explanations after reading each Ford1999 DTC description row and its explicit cross-references. Pinpoint/chart evidence added for sparse rows and PSP circuit distinctions. Code-specific decisions are distinguished from exact service instructions. No article-generation template was used for prose.",
+  "scope": "US-market1999 Ford PCED, plus expressly identified strategy variants within that historical document. Manufacturer codes are Ford namespace only; no modern-vehicle or other-make applicability inferred.",
+  "sourceAcquisition": {
+    "descriptionURL": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WVX2/~MUS~LEN/14/VX24002.HTM",
+    "retrievedOn": "2026-10-30",
+    "currentRawSha256": "33aa9ac277c0a1f45319c0a6083335edce1e508cece7b0ca3b865c22a39ffdd3",
+    "comparisonToPriorAcquisition": "HTML is identical after removing dynamic telemetry scripts and normalizing whitespace. Diagnostic rows did not change.",
+    "additionalSources": "Existing directly retrieved OEM chart and pinpoint HTML documents; sections identified per article.",
+    "externalSearchStatus": "Web search service open returned an error; direct official OEM URL retrieval succeeded."
+  },
+  "validation": {
+    "assignmentAndIdentityCheck": "100of100exact, no extras",
+    "metadata": "All parseable JSON, draftstatus, known source IDs and truthful HTML locators; no invented PDF pages",
+    "individualText": "Eachbody >=200substantivewords excluding headings/scope/source section",
+    "internalSimilarity": "No pairs at five-word Jaccard>=0.45 after removing headings/footer and normalizing codes/numbers; highest0.0271. Not a semantic or factual certification."
+  },
+  "limits": [
+    "These manuscripts are drafts and are not wired into the public renderer by this writing batch.",
+    "Historical source errors and dictionary conflicts remain explicitly marked rather than silently repaired.",
+    "Full OEM diagnostic trees, pinouts and copyrighted manual prose were not republished.",
+    "A shared source-supported procedure may recur for true companion codes; no fabricated differences added."
+  ],
+  "articles": {
+    "P0176": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P0176 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "d18a710bed6299c58cc3949dcbe70ceb907530dcd37f33f694b74cf433ecc78b",
+      "wordCount": 279,
+      "substantiveWordCount": 223
+    },
+    "P1000": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1000 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "9819e4f5a7c636f496ac15ebb87aeb041d9add2e45767eff88762adc6449ab38",
+      "wordCount": 281,
+      "substantiveWordCount": 235
+    },
+    "P1001": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1001 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "8d1e802f12313e0c9535405169eb292fbe48e0a2f27f5174ea9022e84a4befc2",
+      "wordCount": 273,
+      "substantiveWordCount": 216
+    },
+    "P1100": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1100 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "e7f193a7bf7615f12ccb2f1ebd126996ae2b5fb4eace5b8f1cd641d7e06cea3f",
+      "wordCount": 298,
+      "substantiveWordCount": 247
+    },
+    "P1101": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1101 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "244dd0ee1c2f78f75f5b1b43b6c4bd5fb5fe01b2dec4ced5abe7917ad1b07135",
+      "wordCount": 280,
+      "substantiveWordCount": 228
+    },
+    "P1109": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1109 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "ad0bec4cd8fef08966ed9aae2b491f12486e8262318c2faeb0f7bb4790ce38e7",
+      "wordCount": 292,
+      "substantiveWordCount": 240
+    },
+    "P1112": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1112 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "57fe2b9f3cb41f6a5f6c83536c5bf1d6ca844ff77bca800ff3431d0fd939cfd9",
+      "wordCount": 286,
+      "substantiveWordCount": 236
+    },
+    "P1116": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1116 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "5c7ce01a2c9fbae0d1b99d82bd11036c70e9e3779633c2f12f647fe2ba0930b3",
+      "wordCount": 286,
+      "substantiveWordCount": 233
+    },
+    "P1117": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1117 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "The P1117 aid cell ends with unrelated TP-circuit/sensor/PCM statements. These were excluded; ECT-specific interpretation retained.",
+      "sha256": "a123e496bdd2bd5dd4298fa7559ff719275775e7fea3e7070a3b4566a16a6254",
+      "wordCount": 276,
+      "substantiveWordCount": 225
+    },
+    "P1120": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1120 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "d567a23ed719bdaeb80938aa99972121ef3855fedcd7355815fa844b37de0a57",
+      "wordCount": 287,
+      "substantiveWordCount": 229
+    },
+    "P1121": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1121 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "f5b15364abe118ff8dbc387afbc6e2635caf340b57f40073519cb156bd24914d",
+      "wordCount": 285,
+      "substantiveWordCount": 232
+    },
+    "P1124": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1124 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "96a6205fb0ac1c59f8d266d44eddc5e86d5e6b39f31e01c570a2c09a4e3afcc3",
+      "wordCount": 281,
+      "substantiveWordCount": 231
+    },
+    "P1125": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1125 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "a73c8db11622414ca80bdb89a9f2d06c62cba1d8ad27c760180356be39a8ac4b",
+      "wordCount": 285,
+      "substantiveWordCount": 231
+    },
+    "P1127": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1127 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "be0ece4eff257d1e61a503f8e51741eeb208169f33170dab4b3ef3e4ce2757f9",
+      "wordCount": 275,
+      "substantiveWordCount": 221
+    },
+    "P1128": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1128 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "e6bb57e281d5c69409bb4603600036832f4c59db7b929c54a7fe9c1b6c6f804c",
+      "wordCount": 276,
+      "substantiveWordCount": 220
+    },
+    "P1129": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1129 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "8a863e017ab1682bf649199516164f676406f032e34efbc024b3ec654d4000c0",
+      "wordCount": 276,
+      "substantiveWordCount": 222
+    },
+    "P1130": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1130 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "9bf9143ce0153075cb54312e2b575d05f91fb43c8c379fdd528f66ad46018526",
+      "wordCount": 281,
+      "substantiveWordCount": 224
+    },
+    "P1131": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1131 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1131 description pairs lean indication with correction of over-rich condition without sufficient test-state explanation. Actual mixture direction not inferred.",
+      "sha256": "fb834903d82eb4afa936e712b2ab9b16eacc0a6b283261208e1454deda109d7c",
+      "wordCount": 272,
+      "substantiveWordCount": 217
+    },
+    "P1132": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1132 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1132 description pairs rich indication with correction of over-lean condition; abbreviated context cannot establish actual mixture direction.",
+      "sha256": "25ab6b98b6a0cac6d9075388624ddc949ef55a7ad2a9b050352054f3f91911e2",
+      "wordCount": 282,
+      "substantiveWordCount": 223
+    },
+    "P1137": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1137 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "8449e3e8ef5758bbaec0a1e750093264fdc625139131f66a31bf6b6dc04883bf",
+      "wordCount": 275,
+      "substantiveWordCount": 215
+    },
+    "P1138": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1138 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "016450dd246f24cc39033fb7142ed604648cb16fdb6539b5560f51921a4f8983",
+      "wordCount": 272,
+      "substantiveWordCount": 218
+    },
+    "P1150": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1150 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "4d740c636e71b94a67427a5037e663c3d908539f5592e04df4526e16a53b6094",
+      "wordCount": 284,
+      "substantiveWordCount": 226
+    },
+    "P1151": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1151 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1151 description pairs lean indication with over-rich correction; actual mixture direction cannot be established from abbreviated test context.",
+      "sha256": "4c471fc71e3a412ae6151c0ec3d4c0c12c52fb2e98cc43cf202df5c7403081ac",
+      "wordCount": 277,
+      "substantiveWordCount": 221
+    },
+    "P1152": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1152 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1152 rich indication/over-lean correction wording lacks adequate test-state context; no actual mixture-direction claim made.",
+      "sha256": "b46d7c3b9a7831d77c365c234bf8de6e994efc58eca51700d1b5e6d9fd4eb966",
+      "wordCount": 280,
+      "substantiveWordCount": 225
+    },
+    "P1157": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1157 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "8ad1af57f310e98590aab1b6c3ace904983ded5ceadb2ca0580199f88c32ef64",
+      "wordCount": 278,
+      "substantiveWordCount": 222
+    },
+    "P1158": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1158 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "59dc6314d7f592ff4052ada0467b254631d4f563242bf25a4c471d6ff4f73012",
+      "wordCount": 279,
+      "substantiveWordCount": 223
+    },
+    "P1168": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1168 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1168 diagnostic-aid cell mixes low and high pressure thresholds plus repeated cause text; exact numerical assignment unresolved and omitted.",
+      "sha256": "282852cf6c9f4765a8b05a39106c871138d1292180213828b75f9cd1a04fafb6",
+      "wordCount": 288,
+      "substantiveWordCount": 228
+    },
+    "P1169": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1169 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1169 high title conflicts with broader low/high criterion, and no unambiguous standalone numerical aid is supplied; calibration-specific threshold unresolved.",
+      "sha256": "a02e3938e64f1945c24a735828a9393d12c0905ee06f0aec60681399dfd3a743",
+      "wordCount": 285,
+      "substantiveWordCount": 229
+    },
+    "P1180": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1180 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "980bb88a390c665280561a99854e1b39f4217ee4e3a8e60d97fa50a9446e4518",
+      "wordCount": 274,
+      "substantiveWordCount": 224
+    },
+    "P1181": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1181 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "c7801812a4492654523888c2cd404c635354f0980973f7519ec444610559d272",
+      "wordCount": 279,
+      "substantiveWordCount": 222
+    },
+    "P1183": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1183 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "7a203d3d7c994672560fd0e4f1b0e24df9a1839f05da51ee5495f8edcc66a54d",
+      "wordCount": 274,
+      "substantiveWordCount": 224
+    },
+    "P1184": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1184 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "23916caadc01abf0ea32bcdf43fc9a1aa931f09bba4f2153e6aacedc8a8fd1f8",
+      "wordCount": 275,
+      "substantiveWordCount": 221
+    },
+    "P1229": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1229 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "7e4ba679da142e1381dcb9c457e3c3286333b2121e5eb482375df97186fcffc0",
+      "wordCount": 283,
+      "substantiveWordCount": 224
+    },
+    "P1232": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1232 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1232 aid sentence about open/short-to-ground detection omits the command state; complete monitor paragraph retained without reconstructing missing wording.",
+      "sha256": "76501841f6d7d41445d34e011ffe1ca08df603755d8faba492c9afb3b75d8837",
+      "wordCount": 273,
+      "substantiveWordCount": 217
+    },
+    "P1233": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1233 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "a25b48db0b59a3390cfde514cb64d0b723b7a9a9293e00248a8a781669690e42",
+      "wordCount": 275,
+      "substantiveWordCount": 219
+    },
+    "P1234": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1234 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "1376d94f1f26a033f000a50569ae4c02a33961b4206b3fde659fe7a8521b7566",
+      "wordCount": 271,
+      "substantiveWordCount": 215
+    },
+    "P1235": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1235 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "5d316ccbe9d7cbc7f3d9f3169ec41ba39159aacfd536682976527d531d617eda",
+      "wordCount": 273,
+      "substantiveWordCount": 220
+    },
+    "P1236": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1236 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "b40e36802ec768fbbbdcfc8b6a8d68c19fffa7d554e1f3f1ebb9d9b5c8a18274",
+      "wordCount": 276,
+      "substantiveWordCount": 222
+    },
+    "P1237": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1237 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1237 aid says PCM returns to sending normal message to PCM, conflicting with FPDM sender description. Sender typo not repeated; current/history distinction retained.",
+      "sha256": "30c0977d6451205eeb5ce5848833e5d802c9a4c8f9c5102cefb11d7cc9188c98",
+      "wordCount": 281,
+      "substantiveWordCount": 228
+    },
+    "P1238": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1238 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Referenced P1237 aid inconsistently attributes normal feedback sender to PCM; attribution excluded. Shared secondary-circuit logic remains supported.",
+      "sha256": "57de8078d31db055978b461384b2e40bb467a922e9ae25557f25b77367f3e6cc",
+      "wordCount": 274,
+      "substantiveWordCount": 221
+    },
+    "P1244": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1244 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Catalog label says alternator load failed high, but primary1999Ford row explicitly says low. Exact vehicle strategy must resolve direction.",
+      "sha256": "f5156f9323d750b372d762fe5ad49356c87634d299122f80f00a3ca1232ac27d",
+      "wordCount": 280,
+      "substantiveWordCount": 226
+    },
+    "P1245": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1245 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Catalog says failed low while primary1999Ford description explicitly says high. Vehicle strategy/definition must resolve discrepancy.",
+      "sha256": "8d7ae71ee7c64d7e1757f47f64fb71232be146502720e00f7d45e49c786949ca",
+      "wordCount": 287,
+      "substantiveWordCount": 235
+    },
+    "P1246": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1246 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Second P1246 row describes frequency but gives percentage load examples without adequate encoding explanation. Numerical encoding not used as universal test.",
+      "sha256": "ce100b535e6c76a2a686aebb599b3552f3ed513dabe5ece935cfb2339d3b8685",
+      "wordCount": 284,
+      "substantiveWordCount": 228
+    },
+    "P1260": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1260 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "241cc59cfedb53a6d856320c9a81e0e4b7213096de29e4f529ae308a43791a2a",
+      "wordCount": 276,
+      "substantiveWordCount": 219
+    },
+    "P1285": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1285 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "047d2dbee4496ba0c40d6af7140eb0b2bedaf4f456ba12b655def72118019e43",
+      "wordCount": 281,
+      "substantiveWordCount": 232
+    },
+    "P1288": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1288 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "9367d4c3b01f261618053d4bb883636b6c1d7f26ab19ca9fcf9af2265b064f86",
+      "wordCount": 274,
+      "substantiveWordCount": 220
+    },
+    "P1289": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1289 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "0c404d79a0152a0eb4de455f260b47c70df7d7ff0c4fed5f39fe9c78b04969e4",
+      "wordCount": 283,
+      "substantiveWordCount": 224
+    },
+    "P1290": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1290 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "f7e4c314853c309a5e9335ee24c69e23badf680e5e42c2affc2ab2b86df7b4d1",
+      "wordCount": 285,
+      "substantiveWordCount": 227
+    },
+    "P1299": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1299 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "b312140617ee47d89c834a5aeb8976bf2eb348f94f7ea2bd9bca125c6f19ffda",
+      "wordCount": 269,
+      "substantiveWordCount": 215
+    },
+    "P1309": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1309 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "ffd058be369ed0abf15f9f44d4b48e65ef550691e7d36c6aacb3d8595d25701c",
+      "wordCount": 284,
+      "substantiveWordCount": 225
+    },
+    "P1380": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1380 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1380 description mentions high and low monitoring but gives only a below-limit failure sentence; complete directional thresholds are not supplied.",
+      "sha256": "a8068981e9d91e2803eefca9025662c533f31de8d1cd36e955b875cc4246a374",
+      "wordCount": 272,
+      "substantiveWordCount": 220
+    },
+    "P1381": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1381 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "8858bf6c5deacdb957e8b7e2c9d74a1111213d2c26b8973d3969d16b6be0f183",
+      "wordCount": 282,
+      "substantiveWordCount": 228
+    },
+    "P1383": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1383 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Community dictionary says excessive advance; primary1999Ford P1383 explicitly says over-retarded bank1. Historical direction retained and discrepancy flagged.",
+      "sha256": "23ea92c540910aa8d147a78fea8174ab1f311ce2c56aa2d7590850892a9da517",
+      "wordCount": 285,
+      "substantiveWordCount": 227
+    },
+    "P1390": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1390 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "4f1c966dab1845078579d052f54283de27c945b8b1e5cc5056f5485cb48edd77",
+      "wordCount": 277,
+      "substantiveWordCount": 219
+    },
+    "P1400": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1400 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "437646463bda6fc63714778833c63bccee1e79c4e0941225b7f955f9c69b1eb4",
+      "wordCount": 273,
+      "substantiveWordCount": 219
+    },
+    "P1401": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1401 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "3108eb5182d6339d0e6c40a41f490fa604f568d03b956aaf9edb4453e0c78097",
+      "wordCount": 275,
+      "substantiveWordCount": 217
+    },
+    "P1405": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1405 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "80facb0df531c04c7d644e20f4e80e38b148e91a6df0d983106a3e466cc5d65a",
+      "wordCount": 274,
+      "substantiveWordCount": 220
+    },
+    "P1406": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1406 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "44f0b8615dd0d6901a3fef7b8e1a953c12da6ad2c6eee9b72aa774e057d5bc90",
+      "wordCount": 276,
+      "substantiveWordCount": 218
+    },
+    "P1408": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1408 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "1835882413f712d232d9ea118be36c200ff44f9768d304f5fea8ceee20084028",
+      "wordCount": 275,
+      "substantiveWordCount": 220
+    },
+    "P1409": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1409 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "73cd77e155b05353896bbb030a22afadd7918885a34098ff412ed8662baae12e",
+      "wordCount": 278,
+      "substantiveWordCount": 217
+    },
+    "P1411": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1411 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "a7cda8523d3b67edac064389e72ce392992ceece3715fc6ce9ef81da8602b5b5",
+      "wordCount": 285,
+      "substantiveWordCount": 228
+    },
+    "P1413": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1413 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "94498662fc1e0b216604c08fa1aef7b73f7f4dae81b90a3c207cee350eb5a7d5",
+      "wordCount": 278,
+      "substantiveWordCount": 220
+    },
+    "P1414": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1414 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "228687086f7d3a4f706541c4b50356bde070146c80c683cf9b1ad158e090616b",
+      "wordCount": 283,
+      "substantiveWordCount": 223
+    },
+    "P1443": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1443 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Explorer-specific P1443 signed pressure-change wording is ambiguous; numerical comparison omitted and application split preserved.",
+      "sha256": "b63107ad2dcfffff0dc87ceefeb5c92f59f22ff10d5a5b6984b871615c5b21ff",
+      "wordCount": 280,
+      "substantiveWordCount": 224
+    },
+    "P1450": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1450 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "a8b35a4624370414d458ca7aef32d6a8b8f87495fe327ffd4d063c1f775fe693",
+      "wordCount": 274,
+      "substantiveWordCount": 222
+    },
+    "P1451": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1451 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "e0bdc9a5886eec78e4778ae510c5e167f0fed2d06e81b05ca58583acaa276b30",
+      "wordCount": 272,
+      "substantiveWordCount": 219
+    },
+    "P1460": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1460 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "766b13db74a1e4e54fb4b29f4c53ea9df66951021812ad17a19dd3273b112a9d",
+      "wordCount": 267,
+      "substantiveWordCount": 211
+    },
+    "P1461": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1461 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Primary1999Ford P1461 says high voltage while community dictionary says low input. Exact vehicle definition required; historical meaning kept explicit.",
+      "sha256": "edb9c5874423a76057dee08ab0fea3bedd30c6035dc1879a717aed9f71bd9646",
+      "wordCount": 280,
+      "substantiveWordCount": 222
+    },
+    "P1462": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1462 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Primary1999Ford P1462 says low voltage but community dictionary says high input. Direction conflict retained for review.",
+      "sha256": "635b4f84a59635d469eddfd419f587fc0ac5f73e960d18f27b8316e4ea6b3b84",
+      "wordCount": 283,
+      "substantiveWordCount": 222
+    },
+    "P1463": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1463 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "85bae764f4e517e1b9ce4d60d4c1e791c4627882e51a655ce188cba9368ec957",
+      "wordCount": 282,
+      "substantiveWordCount": 223
+    },
+    "P1464": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1464 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "26b9e298c2458176be9caeb193a42fa6c5d8cf07264f1bf314b1bdf181dbbd0c",
+      "wordCount": 279,
+      "substantiveWordCount": 214
+    },
+    "P1469": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1469 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "7458098dd27ca9c5edec657aaf3674caa38cd6b2e6b2757db4fbe44c3c214d26",
+      "wordCount": 278,
+      "substantiveWordCount": 215
+    },
+    "P1474": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1474 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Electric-fan P1474 cause list names damaged fuel-pump relay despite fan-control context. This likely displaced wording is not adopted; electric/hydraulic split preserved.",
+      "sha256": "fdbf87ea78eb39ad7315ad6926fbf401bfa4cb34aac88573ff519462c6a19e6e",
+      "wordCount": 275,
+      "substantiveWordCount": 216
+    },
+    "P1479": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1479 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "804ce8f4a35feb2391d536a0b8e649509775296f4e0618a1fcc79a6af9ba14b9",
+      "wordCount": 273,
+      "substantiveWordCount": 215
+    },
+    "P1500": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1500 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "7d2801f90f0eeb37053bde3364fe3adac78dcbdfb47602903476b964e2928967",
+      "wordCount": 276,
+      "substantiveWordCount": 223
+    },
+    "P1501": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1501 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Catalog identifies programmable speedometer/odometer intermittent circuit; primary1999Ford row describes speed input during self-test causing abort. Historical definition retained.",
+      "sha256": "3b1bcf85a92d5aff0838e54d70307c2309df2f2ea5525106f7e7457554797eb4",
+      "wordCount": 276,
+      "substantiveWordCount": 219
+    },
+    "P1502": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1502 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "Community title mentions speed or brake data; primary1999Ford P1502 rows discuss vehicle-speed error and TCIL first-event behavior. Brake-data claim not inferred.",
+      "sha256": "9f9545634f90634b5a3c6b46c5938f8b7c3a6a8832d73cb0383d008bd361cc52",
+      "wordCount": 273,
+      "substantiveWordCount": 219
+    },
+    "P1504": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1504 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1504 aid mixes repeated coil resistance with displaced mechanical idle/vacuum/EVAP causes. Electrical-load definition retained; ambiguous inserted causes not adopted.",
+      "sha256": "a00bc68f935dfc037f79e84da8105b4f27d21b1589c14f2082851dba1bc304ac",
+      "wordCount": 275,
+      "substantiveWordCount": 220
+    },
+    "P1506": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1506 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "8a22501bfdede831bc9545dec8009d0fadeba7e03fd3eea9ff10293dce7aa3c4",
+      "wordCount": 284,
+      "substantiveWordCount": 229
+    },
+    "P1507": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1507 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "8bb97bc5c5381f1bd8ddb026f2dffbed666d693daf4b2d16a6c0f50a42fbfd0f",
+      "wordCount": 280,
+      "substantiveWordCount": 224
+    },
+    "P1516": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1516 row and explicitly referenced rows"
+        },
+        {
+          "sourceId": "ford-pced-1999-chart",
+          "locator": "DTC chart: P1516 row, HU15 route"
+        },
+        {
+          "sourceId": "ford-pced-1999-15-vx25068",
+          "locator": "Pinpoint HU15–HU17: IMRC physical and functional checks"
+        }
+      ],
+      "issue": "P1516 description body is blank. Chart and HU15–HU17 explicitly support physical/functional diagnostic branch, but exact standalone monitor threshold remains unresolved.",
+      "sha256": "9db67bcc00e4551323303cba981e0baa3effb0c67a8413f289c58bc31b50b1a5",
+      "wordCount": 301,
+      "substantiveWordCount": 223
+    },
+    "P1517": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1517 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "716e4d20be2571b54ae5175162f331211003f6a92a0e82b75c61c3598cd97e14",
+      "wordCount": 280,
+      "substantiveWordCount": 219
+    },
+    "P1518": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1518 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "36f3a479ab1bb58acaaa0be5138673cf603a1ece768b316a0a74a21ffe3a87e7",
+      "wordCount": 269,
+      "substantiveWordCount": 212
+    },
+    "P1537": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1537 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "b14fed23d7a8818abc38434597caeb41474c2fd72c397c13ec2cbc5e9c3fdc3c",
+      "wordCount": 267,
+      "substantiveWordCount": 213
+    },
+    "P1538": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1538 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "c28d77c7771190a81b8d8434426dd03ff3061adc880a2292d69f0b0ef305933f",
+      "wordCount": 272,
+      "substantiveWordCount": 215
+    },
+    "P1549": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1549 row and explicitly referenced rows"
+        }
+      ],
+      "issue": "P1549 row mixes IMT output-circuit evidence with unrelated PSP statements, and catalog title differs. PSP text excluded; actual IMT evidence retained.",
+      "sha256": "388ddad99f5d92544b08e56eafe90c17f0af3410bcd4f7711675524f131aebc4",
+      "wordCount": 266,
+      "substantiveWordCount": 210
+    },
+    "P1550": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1550 row and explicitly referenced rows"
+        },
+        {
+          "sourceId": "ford-pced-1999-chart",
+          "locator": "DTC chart: P1550 route to DT1"
+        },
+        {
+          "sourceId": "ford-pced-1999-15-vx25034",
+          "locator": "Pinpoint DT1–DT5: operator action, reference supply and PSP response"
+        }
+      ],
+      "issue": null,
+      "sha256": "b6d0e33a5e7bf2b2bd7c6a4a2cfa790ed56582c93019ffad8618fafea6b121ab",
+      "wordCount": 298,
+      "substantiveWordCount": 222
+    },
+    "P1605": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1605 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "6057d30f73e1f687faf12e023700a2ad5a858e66d8dfcfb5f2c800e51effe0e8",
+      "wordCount": 269,
+      "substantiveWordCount": 212
+    },
+    "P1635": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1635 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "aaa8bdf7c0d98c499db06a0051c28802a52d9d8c145e35711a7694dfa3b79801",
+      "wordCount": 284,
+      "substantiveWordCount": 225
+    },
+    "P1636": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1636 row and explicitly referenced rows"
+        },
+        {
+          "sourceId": "ford-pced-1999-chart",
+          "locator": "DTC chart: P1636 automatic-transmission application and Note 14"
+        }
+      ],
+      "issue": null,
+      "sha256": "96b70e39b55936ac94e0345e495389c5d7c4bc013dc4d6351c32be509a7f17a3",
+      "wordCount": 293,
+      "substantiveWordCount": 226
+    },
+    "P1640": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1640 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "5706569751a72a117e66adec9c36d60790b9ccb5ca648295132f8aa7ff2ec7b3",
+      "wordCount": 277,
+      "substantiveWordCount": 220
+    },
+    "P1650": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1650 row and explicitly referenced rows"
+        },
+        {
+          "sourceId": "ford-pced-1999-chart",
+          "locator": "DTC chart: P1650 route to FF1"
+        },
+        {
+          "sourceId": "ford-pced-1999-15-vx25044",
+          "locator": "Pinpoint FF1–FF4: PSP switch response and circuit separation"
+        }
+      ],
+      "issue": null,
+      "sha256": "a4bdef6751824d3e452f292bcf8277a8e73b711f8934706c38499480593978a9",
+      "wordCount": 295,
+      "substantiveWordCount": 217
+    },
+    "P1651": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1651 row and explicitly referenced rows"
+        },
+        {
+          "sourceId": "ford-pced-1999-chart",
+          "locator": "DTC chart: P1651 route to FF1"
+        },
+        {
+          "sourceId": "ford-pced-1999-15-vx25044",
+          "locator": "Pinpoint FF1–FF4: PSP input changes, continuity and shorts"
+        }
+      ],
+      "issue": "P1651 aid contains stoplamp wording inconsistent with PSP switch context. Excluded; directly linked FF pinpoint test used instead.",
+      "sha256": "e70b1e8ab5c42026f67e43db6ca202a1a273a84068b94c97b352c88e5b958b5c",
+      "wordCount": 292,
+      "substantiveWordCount": 219
+    },
+    "P1703": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1703 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "360df74d96b0c614f8968f34019ac78b836e8b225b77685ba21483f5d0457e2f",
+      "wordCount": 281,
+      "substantiveWordCount": 222
+    },
+    "P1705": {
+      "sourceReview": "needs-review",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1705 row and explicitly referenced rows"
+        },
+        {
+          "sourceId": "ford-pced-1999-chart",
+          "locator": "DTC chart: P1705 application rows and Note 3"
+        },
+        {
+          "sourceId": "ford-pced-1999-15-vx25117",
+          "locator": "Pinpoint TA5–TA8: clutch/neutral states, switch condition and circuit isolation"
+        }
+      ],
+      "issue": "P1705 description body blank. Chart and explicit TA5 listing support manual-application procedure; automatic-transmission route requires separate workshop diagnosis.",
+      "sha256": "ab85cd833af04bfc924f67773b903b49a34fd9706ea3cdf2487f04a8ee70d67b",
+      "wordCount": 297,
+      "substantiveWordCount": 215
+    },
+    "P1709": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1709 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "8cac67232148f505285e8140b54d620fb8f2b001f9ef729b8f5ae6c170432f88",
+      "wordCount": 276,
+      "substantiveWordCount": 218
+    },
+    "P1729": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1729 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "7167ba588f220d439cc9d837967f667547215fb2f0688b18b79651a8e4bf36f2",
+      "wordCount": 273,
+      "substantiveWordCount": 218
+    },
+    "P1780": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1780 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "84d0d85170ffbd1443bf2114bb49a68015418466006bd03ca293a71478cc72f0",
+      "wordCount": 281,
+      "substantiveWordCount": 225
+    },
+    "P1781": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1781 row and explicitly referenced rows"
+        }
+      ],
+      "issue": null,
+      "sha256": "a51d5da7908d347ea03f0a340ca6ca4522462535e848b561182f30523042b63d",
+      "wordCount": 274,
+      "substantiveWordCount": 216
+    },
+    "P1900": {
+      "sourceReview": "checked",
+      "sourceLocators": [
+        {
+          "sourceId": "ford-pced-1999-descriptions",
+          "locator": "Diagnostic Trouble Code Descriptions: P1900 row and explicitly referenced rows"
+        },
+        {
+          "sourceId": "ford-pced-1999-chart",
+          "locator": "DTC chart: P1900 automatic/manual transmission routes"
+        }
+      ],
+      "issue": null,
+      "sha256": "4ac48f3b001487942ebf38f850ab56ccd6dbbac504c4691cb256ffe3a1ab73a9",
+      "wordCount": 281,
+      "substantiveWordCount": 217
+    }
+  }
+}

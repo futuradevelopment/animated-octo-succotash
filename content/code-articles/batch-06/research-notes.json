@@ -1,0 +1,1651 @@
+{
+  "authoringBatch": "batch-06",
+  "articleCount": 100,
+  "status": "draft",
+  "reviewMethod": "Every assigned main DTC row read in primary GM PDF text extraction. Continuations reviewed where relevant. Original monitor explanations and diagnostic inferences authored individually; common applicability footer only. No model or engine inferred from file-level application matrix.",
+  "wordCount": {
+    "bodyMin": 213,
+    "bodyMax": 241,
+    "totalMin": 255,
+    "totalMax": 283,
+    "totalWords": 26809
+  },
+  "needsReview": [
+    {
+      "codes": [
+        "P02CD",
+        "P02CF",
+        "P02D1",
+        "P02D3",
+        "P02D5",
+        "P02D7"
+      ],
+      "issue": "Maximum SQP rows contain copied minimum-authority wording. Maximum heading, greater-than comparison and maximum calibration identifier agree. Articles explain upper boundary but retain conflict and needs-review status."
+    },
+    {
+      "codes": [
+        "P02E9"
+      ],
+      "issue": "Strategy prose says low despite circuit-high heading and greater-than-99-percent criterion. Article explicitly discloses conflict."
+    },
+    {
+      "codes": [
+        "P037E"
+      ],
+      "issue": "Prose says feedback above threshold while explicit threshold compares battery minus feedback with calibrated maximum. Article explains differential expression without inventing a numeric limit."
+    },
+    {
+      "codes": [
+        "P041B"
+      ],
+      "issue": "Narrative says insufficient movement after soak, but threshold column uses greater-than for absolute change. Article gives supported response-monitor concept without publishing an assumed inequality."
+    },
+    {
+      "codes": [
+        "P0545"
+      ],
+      "issue": "Analog criterion is printed below zero ohms and cannot be used as a credible physical resistance instruction. Digital low-temperature criterion and enable logic explained; analog needs verification."
+    },
+    {
+      "codes": [
+        "P05D2"
+      ],
+      "issue": "Conditional Smart VSB wording says present TRUE while adjacent value is FALSE. Article limits this to configuration-dependent ignition-delay context and requires exact service definition."
+    },
+    {
+      "codes": [
+        "P0675"
+      ],
+      "issue": "Heading and code identify cylinder 5, narrative says glow plug 4. Article discloses conflict and requires vehicle-specific cylinder identification."
+    }
+  ],
+  "limitedOrExcludedEvidence": [
+    {
+      "codes": [
+        "P02F3",
+        "P05D1",
+        "P05D2",
+        "P05D3",
+        "P0629"
+      ],
+      "note": "Additional gm-2025-07a-2 rows were read but not used for numeric criteria or model claims. Articles cite only 25OBDG04B, avoiding unresolved file-to-application join and conflicting implementations. P05D3 additional row includes impossible range placeholders; those values are excluded."
+    },
+    {
+      "codes": [
+        "P041B",
+        "P041C",
+        "P041D",
+        "P041E",
+        "P044C",
+        "P044D"
+      ],
+      "note": "Dictionary sensor-letter labels differ from primary GM channel names. Articles explicitly explain the discrepancy without assigning physical locations."
+    },
+    {
+      "codes": [
+        "P041E",
+        "P05EC"
+      ],
+      "note": "Extracted numeric threshold units are unclear. Articles explain supported monitor mechanisms and enabling conditions without inventing units."
+    },
+    {
+      "codes": [
+        "P0627",
+        "P0628",
+        "P0629"
+      ],
+      "note": "Run/crank enable column lists 11 V without clear inequality. Articles explicitly avoid inventing direction."
+    },
+    {
+      "codes": [
+        "P0421"
+      ],
+      "note": "Article explicitly scoped to regeneration-based close-coupled diesel oxidation-catalyst monitor portion. Other referenced rich-combustion variant is not generalized."
+    },
+    {
+      "codes": [
+        "P04D2"
+      ],
+      "note": "Dynamic limit logic described from prose; corrupted extracted exponent is not reproduced or reconstructed as a calibration formula."
+    }
+  ],
+  "checks": {
+    "exactly100AssignedFiles": true,
+    "uniqueBodies": true,
+    "jsonFrontMatterParsed": true,
+    "descriptionsCompleteSentences": true,
+    "sourcePagesExistInLocalPDFText": true,
+    "physicalPDFPageLinksPresent": true,
+    "noMakeModelInference": true
+  },
+  "articles": [
+    {
+      "code": "P0274",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1134
+          ]
+        }
+      ],
+      "bodyWords": 221,
+      "totalWords": 263,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0276",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1135
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0277",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1136
+          ]
+        }
+      ],
+      "bodyWords": 217,
+      "totalWords": 259,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02CC",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1137
+          ]
+        }
+      ],
+      "bodyWords": 228,
+      "totalWords": 270,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02CD",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1139
+          ]
+        }
+      ],
+      "bodyWords": 218,
+      "totalWords": 260,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02CE",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1141
+          ]
+        }
+      ],
+      "bodyWords": 227,
+      "totalWords": 269,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02CF",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1143
+          ]
+        }
+      ],
+      "bodyWords": 224,
+      "totalWords": 266,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02D0",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1145
+          ]
+        }
+      ],
+      "bodyWords": 228,
+      "totalWords": 270,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02D1",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1147
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02D2",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1149
+          ]
+        }
+      ],
+      "bodyWords": 232,
+      "totalWords": 274,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02D3",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1151
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 268,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02D4",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1153
+          ]
+        }
+      ],
+      "bodyWords": 229,
+      "totalWords": 271,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02D5",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1155
+          ]
+        }
+      ],
+      "bodyWords": 221,
+      "totalWords": 263,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02D6",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1157
+          ]
+        }
+      ],
+      "bodyWords": 231,
+      "totalWords": 273,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02D7",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1159
+          ]
+        }
+      ],
+      "bodyWords": 230,
+      "totalWords": 272,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02E0",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1161
+          ]
+        }
+      ],
+      "bodyWords": 231,
+      "totalWords": 273,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02E1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1162,
+            1163
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 272,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02E2",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1164
+          ]
+        }
+      ],
+      "bodyWords": 229,
+      "totalWords": 271,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02E3",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1165
+          ]
+        }
+      ],
+      "bodyWords": 220,
+      "totalWords": 262,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02E5",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1166
+          ]
+        }
+      ],
+      "bodyWords": 234,
+      "totalWords": 276,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02E8",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1167
+          ]
+        }
+      ],
+      "bodyWords": 223,
+      "totalWords": 265,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02E9",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1168
+          ]
+        }
+      ],
+      "bodyWords": 216,
+      "totalWords": 258,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02EB",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1169
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02F1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1173
+          ]
+        }
+      ],
+      "bodyWords": 234,
+      "totalWords": 276,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02F2",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1174
+          ]
+        }
+      ],
+      "bodyWords": 223,
+      "totalWords": 265,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P02F3",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1175
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P037E",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1178
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P037F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1179
+          ]
+        }
+      ],
+      "bodyWords": 232,
+      "totalWords": 274,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0381",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1180
+          ]
+        }
+      ],
+      "bodyWords": 236,
+      "totalWords": 278,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0401",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            508,
+            509,
+            510,
+            1677
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 280,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0402",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            511,
+            512,
+            513,
+            1689
+          ]
+        }
+      ],
+      "bodyWords": 229,
+      "totalWords": 283,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0403",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1181
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 268,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0404",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1182,
+            1183
+          ]
+        }
+      ],
+      "bodyWords": 219,
+      "totalWords": 265,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0405",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1184
+          ]
+        }
+      ],
+      "bodyWords": 230,
+      "totalWords": 272,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0406",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1185
+          ]
+        }
+      ],
+      "bodyWords": 236,
+      "totalWords": 278,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P041B",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            514
+          ]
+        }
+      ],
+      "bodyWords": 241,
+      "totalWords": 283,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P041C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            515
+          ]
+        }
+      ],
+      "bodyWords": 224,
+      "totalWords": 266,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P041D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            516
+          ]
+        }
+      ],
+      "bodyWords": 219,
+      "totalWords": 261,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P041E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            517
+          ]
+        }
+      ],
+      "bodyWords": 238,
+      "totalWords": 280,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0421",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            518,
+            519,
+            520
+          ]
+        }
+      ],
+      "bodyWords": 229,
+      "totalWords": 282,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P042E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1186
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 268,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P044C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1187
+          ]
+        }
+      ],
+      "bodyWords": 219,
+      "totalWords": 261,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P044D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1188
+          ]
+        }
+      ],
+      "bodyWords": 224,
+      "totalWords": 266,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P045A",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1189
+          ]
+        }
+      ],
+      "bodyWords": 227,
+      "totalWords": 269,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P045B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1190,
+            1191
+          ]
+        }
+      ],
+      "bodyWords": 215,
+      "totalWords": 261,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P045C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1192
+          ]
+        }
+      ],
+      "bodyWords": 221,
+      "totalWords": 263,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P045D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1193
+          ]
+        }
+      ],
+      "bodyWords": 224,
+      "totalWords": 266,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P045E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1194
+          ]
+        }
+      ],
+      "bodyWords": 222,
+      "totalWords": 264,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0475",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1195
+          ]
+        }
+      ],
+      "bodyWords": 223,
+      "totalWords": 265,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0476",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1196,
+            1197
+          ]
+        }
+      ],
+      "bodyWords": 217,
+      "totalWords": 263,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0477",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1198
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0478",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1199
+          ]
+        }
+      ],
+      "bodyWords": 217,
+      "totalWords": 259,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0489",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1200
+          ]
+        }
+      ],
+      "bodyWords": 213,
+      "totalWords": 255,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P048A",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1201
+          ]
+        }
+      ],
+      "bodyWords": 216,
+      "totalWords": 258,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P048D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1202
+          ]
+        }
+      ],
+      "bodyWords": 222,
+      "totalWords": 264,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P048E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1203
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0490",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1204
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 268,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P049B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            532,
+            533,
+            534,
+            1702
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 279,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P049C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            535,
+            536,
+            537,
+            1714
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 280,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P049D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1205,
+            1206
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 272,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P049E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1207,
+            1208
+          ]
+        }
+      ],
+      "bodyWords": 222,
+      "totalWords": 268,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P04CF",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1209,
+            1210
+          ]
+        }
+      ],
+      "bodyWords": 230,
+      "totalWords": 276,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P04D0",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1211
+          ]
+        }
+      ],
+      "bodyWords": 231,
+      "totalWords": 273,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P04D1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1212
+          ]
+        }
+      ],
+      "bodyWords": 224,
+      "totalWords": 266,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P04D2",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1213
+          ]
+        }
+      ],
+      "bodyWords": 238,
+      "totalWords": 280,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P04FA",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1214
+          ]
+        }
+      ],
+      "bodyWords": 222,
+      "totalWords": 264,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0537",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            64
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0538",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "bodyWords": 231,
+      "totalWords": 273,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0539",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            66
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0545",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1215
+          ]
+        }
+      ],
+      "bodyWords": 221,
+      "totalWords": 263,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0546",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1216
+          ]
+        }
+      ],
+      "bodyWords": 220,
+      "totalWords": 262,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P054E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1217,
+            1218,
+            1219
+          ]
+        }
+      ],
+      "bodyWords": 227,
+      "totalWords": 277,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P054F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1221,
+            1222,
+            1223
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 276,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0589",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            566
+          ]
+        }
+      ],
+      "bodyWords": 227,
+      "totalWords": 269,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0592",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            567
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0593",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            568
+          ]
+        }
+      ],
+      "bodyWords": 228,
+      "totalWords": 270,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P05AE",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            572,
+            573,
+            574
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 276,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P05D1",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            78
+          ]
+        }
+      ],
+      "bodyWords": 231,
+      "totalWords": 273,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P05D2",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            79
+          ]
+        }
+      ],
+      "bodyWords": 221,
+      "totalWords": 263,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P05D3",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            80
+          ]
+        }
+      ],
+      "bodyWords": 229,
+      "totalWords": 271,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P05EC",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1224,
+            1225
+          ]
+        }
+      ],
+      "bodyWords": 226,
+      "totalWords": 272,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P05FD",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1226
+          ]
+        }
+      ],
+      "bodyWords": 218,
+      "totalWords": 260,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0627",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            623
+          ]
+        }
+      ],
+      "bodyWords": 224,
+      "totalWords": 266,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0628",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            624
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0629",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            625
+          ]
+        }
+      ],
+      "bodyWords": 217,
+      "totalWords": 259,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P062D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1231
+          ]
+        }
+      ],
+      "bodyWords": 220,
+      "totalWords": 262,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P064F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            629
+          ]
+        }
+      ],
+      "bodyWords": 228,
+      "totalWords": 270,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P066A",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1232
+          ]
+        }
+      ],
+      "bodyWords": 216,
+      "totalWords": 258,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P066B",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1233
+          ]
+        }
+      ],
+      "bodyWords": 225,
+      "totalWords": 267,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P066C",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1234
+          ]
+        }
+      ],
+      "bodyWords": 221,
+      "totalWords": 263,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P066D",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1235
+          ]
+        }
+      ],
+      "bodyWords": 222,
+      "totalWords": 264,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P066E",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1236
+          ]
+        }
+      ],
+      "bodyWords": 229,
+      "totalWords": 271,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P066F",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1237
+          ]
+        }
+      ],
+      "bodyWords": 216,
+      "totalWords": 258,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0671",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1238
+          ]
+        }
+      ],
+      "bodyWords": 227,
+      "totalWords": 269,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0672",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1239
+          ]
+        }
+      ],
+      "bodyWords": 230,
+      "totalWords": 272,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0673",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1240
+          ]
+        }
+      ],
+      "bodyWords": 215,
+      "totalWords": 257,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0674",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1241
+          ]
+        }
+      ],
+      "bodyWords": 220,
+      "totalWords": 262,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0675",
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1242
+          ]
+        }
+      ],
+      "bodyWords": 230,
+      "totalWords": 272,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P0676",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1243
+          ]
+        }
+      ],
+      "bodyWords": 220,
+      "totalWords": 262,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    },
+    {
+      "code": "P067A",
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1244
+          ]
+        }
+      ],
+      "bodyWords": 219,
+      "totalWords": 261,
+      "reviewMethod": "Read assigned primary-source table row as laid-out text; read continuation pages when criteria or enable conditions continued."
+    }
+  ]
+}

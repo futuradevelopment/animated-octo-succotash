@@ -1,0 +1,1009 @@
+{
+  "batch": "batch-17",
+  "reviewer": "AI writing agent",
+  "publicationStatus": "draft",
+  "method": "Individual primary-row reading, including continuation pages and explicit source limitations. Not independent mechanic certification.",
+  "articles": [
+    {
+      "code": "C052B",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        225,
+        227,
+        228
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C052C",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        226
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C052D",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        225
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C052E",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        226
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C052F",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        226,
+        227
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P001A",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        217
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P001B",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        218
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P001C",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        219
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The strategy and malfunction columns specify an off-state check, but the enable column specifies an on command; the intended test state remains unresolved."
+    },
+    {
+      "code": "P002A",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        220
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P002B",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        221
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P002C",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        222
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The strategy and malfunction columns specify an off-state check, but the enable column specifies an on command; the intended test state remains unresolved."
+    },
+    {
+      "code": "P003C",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        232
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Generic performance/stuck-off wording differs from the cited uncommanded-extension strategy; feedback threshold units are not provided. Exact vehicle interpretation and physical units remain unresolved."
+    },
+    {
+      "code": "P003D",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        233
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Feedback-state thresholds are listed without explicit physical units; useful sequence logic is retained without converting those values into a connector or displacement specification."
+    },
+    {
+      "code": "P005A",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        235
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The generic performance/stuck-off label and GM uncommanded-extension strategy differ; the table also omits explicit units for feedback-state boundaries."
+    },
+    {
+      "code": "P01D7",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        847,
+        848
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P01D8",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        849,
+        850
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The negative-drift strategy is paired with positive greater-than threshold entries; signed numerical failure limits remain unresolved and are not reconstructed."
+    },
+    {
+      "code": "P01D9",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        851,
+        852
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P01DA",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        853,
+        854
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Negative-drift narrative conflicts with positive greater-than threshold entries. The article does not invent sign conventions or exact failure limits."
+    },
+    {
+      "code": "P021A",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        871
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The cylinder 7 heading/measured injector and several cylinder C enable identifiers differ; internal channel mapping requires confirmation."
+    },
+    {
+      "code": "P021B",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        872
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The cylinder 8 heading and several cylinder D enable identifiers are not mapped in the source; no physical-channel inference is made."
+    },
+    {
+      "code": "P02D8",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        923,
+        924
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P02D9",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        925,
+        926
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The maximum-limit heading, greater-than comparison and maximum-status array are followed by a minimum-authority sentence; the inconsistent label is disclosed."
+    },
+    {
+      "code": "P02DA",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        927,
+        928
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P02DB",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        929,
+        930
+      ],
+      "sourceReview": "needs-review",
+      "issue": "An inconsistent minimum-authority sentence appears within an otherwise maximum-limit strategy. The upper-bound interpretation is supported, but the label conflict is retained for review."
+    },
+    {
+      "code": "P037A",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        942
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P037B",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        943
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P03EC",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        438
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P03ED",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        439
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P03EE",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        440
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The narrative and malfunction columns specify an off-state assessment, while the enable column requires the driver on; intended reproduction state is unresolved."
+    },
+    {
+      "code": "P03EF",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        441
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The generic performance/stuck-off label differs from the cited uncommanded-motion strategy, and feedback-region units are not stated."
+    },
+    {
+      "code": "P03F0",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        442
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The feedback-state boundary values have no explicit physical units in this row; no external measurement specification is inferred."
+    },
+    {
+      "code": "P03F1",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        443
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P03F2",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        444
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P03F3",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        445
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Off-state monitoring narrative conflicts with an on-command enable entry; intended reproduction state is not inferred."
+    },
+    {
+      "code": "P03F4",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        446
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The generic stuck-off wording differs from the uncommanded-extension strategy, and feedback-region units are unspecified."
+    },
+    {
+      "code": "P040D",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        411
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P040E",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        412
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0422",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        426,
+        427
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0483",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        436
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The original threshold cell joins less than\u2212470rpm and greater than500rpm with an impossible conjunction; exact numerical failure logic is not reconstructed. Visually confirmed on physical page436."
+    },
+    {
+      "code": "P0526",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        449
+      ],
+      "sourceReview": "needs-review",
+      "issue": "A prerequisite explicitly described as elapsed time has a value printed in rpm. Original page449 confirms the unit mismatch; no time value is inferred."
+    },
+    {
+      "code": "P05CC",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        518
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P05CE",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        519
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0625",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        925
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0626",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        924
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0650",
+      "sourceId": "gm-2025-06a",
+      "pages": [
+        358
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0661",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        927,
+        928
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0662",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        927
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The strategy heading says H-bridge open circuit while the malfunction criterion reports output-one short-to-battery. The classification wording remains unresolved."
+    },
+    {
+      "code": "P06B7",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        589
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P06CB",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1004
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The cylinder 7 heading conflicts with a glow-plug-4 reference in the malfunction sentence; physical channel mapping is unresolved."
+    },
+    {
+      "code": "P06CC",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1005
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The cylinder 8 heading and glow-plug-4 malfunction text have an unresolved channel-label difference; no physical mapping is inferred."
+    },
+    {
+      "code": "P0700",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        526
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0725",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        743
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P0726",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        744,
+        745
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Final noise-counter comparisons and parts of the coupling branch are incomplete in the source table. No missing limits are invented."
+    },
+    {
+      "code": "P0727",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        746
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P082B",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        607
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P082C",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        608
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P082E",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        610
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P082F",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        611
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P089C",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        613
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P089D",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        614
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P08A1",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        616
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P08A2",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        617
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2070",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        929,
+        930
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The generic code names stuck open, while the GM row and jam-status criterion name closed. Original physical pages929\u2013930 confirm the unresolved endpoint mapping."
+    },
+    {
+      "code": "P2071",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        930,
+        931
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Generic and OEM open/closed descriptions disagree, and the lower battery-enable entry is unclear. Original pages930\u2013931 were visually inspected; no physical endpoint or missing comparator is inferred."
+    },
+    {
+      "code": "P2076",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        932
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The second OR branch has a blank threshold in the original table; the article describes only the supported visible branch and does not reconstruct the missing limit."
+    },
+    {
+      "code": "P2077",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        931,
+        932
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2078",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        931
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The original source requires raw voltage<4.8V AND>6.55V simultaneously. Visual page931 confirms the contradiction; no replacement inequality is invented."
+    },
+    {
+      "code": "P20CB",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1128
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The low-side open voltage-band wording and short hardware timing notation do not establish an unambiguous external threshold; they are omitted rather than reconstructed."
+    },
+    {
+      "code": "P20CD",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1129
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The recovery note references an incomplete calibrated-counter relationship; no reset recommendation or numerical healing count is inferred."
+    },
+    {
+      "code": "P20CE",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1130
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2156",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        789
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2157",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        790
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2160",
+      "sourceId": "gm-2025-06c",
+      "pages": [
+        358,
+        359,
+        360
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The source contains multiple poorly delineated enable blocks with extreme calibration values; no universal road-test conditions are inferred. The clear low-speed threshold and shared-timer behavior are retained."
+    },
+    {
+      "code": "P2161",
+      "sourceId": "gm-2025-06c",
+      "pages": [
+        360,
+        361
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P216B",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        439
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P216C",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        440
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P216E",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        441
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P216F",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        442
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P217B",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        444
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P217C",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        445
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P217E",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        446
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P217F",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        447
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The table heading names injector8, while the strategy sentence names injector7. Physical channel mapping remains unresolved; the off-state electrical behavior is retained."
+    },
+    {
+      "code": "P2187",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        241,
+        242
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2188",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        252,
+        253
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2189",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        263,
+        264
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The bank2 monitor continuation includes a bank1 additive-stability term. Intentional cross-bank dependency versus labeling inconsistency is unresolved."
+    },
+    {
+      "code": "P2190",
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        274,
+        275
+      ],
+      "sourceReview": "needs-review",
+      "issue": "A bank1 additive-stability term appears in the bank2 enable continuation; its intended dependency is not resolved or silently changed."
+    },
+    {
+      "code": "P22F9",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1167,
+        1168
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The model-rise timer starts from modeled concentration but its endpoint text names the raw signal. The relative-rise endpoint is unresolved; the clear initial-delay branch is retained."
+    },
+    {
+      "code": "P233E",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        633
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P233F",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        634
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P245A",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1190
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P245C",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1193
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P245D",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1194
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2472",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1201,
+        1202
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2481",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1203
+      ],
+      "sourceReview": "needs-review",
+      "issue": "The EGT5 heading/analog branch differs from the EGT4 digital-branch channel label; the strategy also says maximum threshold while both comparisons are low. Original PDF visually checked; physical channel mapping remains unresolved."
+    },
+    {
+      "code": "P2482",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1204
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2483",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1205,
+        1206
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Original table gives the engine-not-running prerequisite as >10800 without a unit and does not provide the temperature map or observation interval. These are disclosed rather than converted into a drive-cycle prescription."
+    },
+    {
+      "code": "P2484",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1207
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P248A",
+      "sourceId": "gm-2025-06c",
+      "pages": [
+        400
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Threshold cell prints >3.00 with no unit; original PDF visually checked. Article preserves the battery-minus-heater supply relationship without inventing a service measurement unit or repair limit."
+    },
+    {
+      "code": "P248B",
+      "sourceId": "gm-2025-06c",
+      "pages": [
+        401
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P248C",
+      "sourceId": "gm-2025-06c",
+      "pages": [
+        402
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Threshold >3.00 is printed without a unit, confirmed in the original PDF. Article explains the voltage relationship but leaves the exact service measurement specification unresolved."
+    }
+  ],
+  "validation": {
+    "assignedArticles": 100,
+    "writtenArticles": 100,
+    "missingAssignedCodes": [],
+    "unassignedCodes": [],
+    "metadataParseErrors": [],
+    "sourcePageErrors": [],
+    "sourcesUsed": 6,
+    "physicalPageReferences": 127,
+    "articleWordsIncludingHeadingsAndSourceScope": {
+      "minimum": 254,
+      "maximum": 312,
+      "total": 27806
+    },
+    "substantiveWordsExcludingHeadingsAndSourceScope": {
+      "minimum": 202,
+      "maximum": 256,
+      "total": 22005
+    },
+    "sourceReviewCounts": {
+      "checked": 63,
+      "needs-review": 37
+    },
+    "exactDuplicateBodies": 0,
+    "withinBatchFiveWordShingleJaccardPairsAtOrAbove015": 0,
+    "limits": "Checks verify file coverage, metadata, referenced page existence and limited text similarity. They do not certify vehicle applicability or replace a qualified technical review."
+  },
+  "originalPdfVisualChecks": [
+    {
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        219
+      ],
+      "purpose": "Confirm commanded-state wording conflict in P001C."
+    },
+    {
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        436,
+        449,
+        849
+      ],
+      "purpose": "Confirm P0483 impossible conjunction, P0526 timer unit wording and P01D8 negative-drift narrative versus positive thresholds."
+    },
+    {
+      "sourceId": "gm-2025-07a-1",
+      "pages": [
+        929,
+        930,
+        931,
+        932
+      ],
+      "purpose": "Check manifold endpoint naming, missing threshold and voltage conjunction in original tables; distinguish them from extraction loss."
+    },
+    {
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1201,
+        1202,
+        1203,
+        1205
+      ],
+      "purpose": "Verify P2472 upper-bound continuation, P2481 digital-channel naming and P2483 missing soak unit/map limitation."
+    },
+    {
+      "sourceId": "gm-2025-06c",
+      "pages": [
+        400,
+        402
+      ],
+      "purpose": "Confirm the P248A/P248C 3.00 difference threshold lacks an explicitly printed unit."
+    }
+  ],
+  "completion": "All 100 assigned manuscripts are complete drafts. Unresolved source details are identified in the individual articles and in the article notes; checked means source support was checked by the writer, not independent mechanic approval."
+}

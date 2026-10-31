@@ -1,0 +1,916 @@
+{
+  "batch": "batch-14",
+  "articles": {
+    "P0883": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        911,
+        925
+      ],
+      "unresolvedIssue": null
+    },
+    "P08C4": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        1014,
+        1015
+      ],
+      "unresolvedIssue": null
+    },
+    "P08C5": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        1020
+      ],
+      "unresolvedIssue": null
+    },
+    "P08C8": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        925,
+        926
+      ],
+      "unresolvedIssue": null
+    },
+    "P08CA": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        926
+      ],
+      "unresolvedIssue": "Source row describes an on-state short-to-ground check but also lists an LSO turn-off-time item; exact timing sequence is unresolved and not presented as a workshop instruction."
+    },
+    "P08CB": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        926,
+        940
+      ],
+      "unresolvedIssue": null
+    },
+    "P203B": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        186
+      ],
+      "unresolvedIssue": null
+    },
+    "P203D": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        187
+      ],
+      "unresolvedIssue": null
+    },
+    "P204B": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        187
+      ],
+      "unresolvedIssue": null
+    },
+    "P204C": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        187
+      ],
+      "unresolvedIssue": null
+    },
+    "P204E": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        188
+      ],
+      "unresolvedIssue": null
+    },
+    "P205D": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        190
+      ],
+      "unresolvedIssue": null
+    },
+    "P205E": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        190
+      ],
+      "unresolvedIssue": null
+    },
+    "P206D": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        192
+      ],
+      "unresolvedIssue": null
+    },
+    "P208A": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        192
+      ],
+      "unresolvedIssue": null
+    },
+    "P208C": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        193
+      ],
+      "unresolvedIssue": null
+    },
+    "P20B9": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        194
+      ],
+      "unresolvedIssue": null
+    },
+    "P20BA": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        194
+      ],
+      "unresolvedIssue": null
+    },
+    "P20BC": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        195
+      ],
+      "unresolvedIssue": null
+    },
+    "P20BD": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        195
+      ],
+      "unresolvedIssue": null
+    },
+    "P20BF": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        196
+      ],
+      "unresolvedIssue": null
+    },
+    "P20C0": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        196
+      ],
+      "unresolvedIssue": null
+    },
+    "P20C2": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        197
+      ],
+      "unresolvedIssue": null
+    },
+    "P20C3": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        197
+      ],
+      "unresolvedIssue": null
+    },
+    "P20E8": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        198
+      ],
+      "unresolvedIssue": null
+    },
+    "P214F": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        201
+      ],
+      "unresolvedIssue": null
+    },
+    "P21CB": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        202
+      ],
+      "unresolvedIssue": "CAN communication-fault line lacks an explicit Boolean/no-fault qualifier. Article retains supported relative-voltage logic and omits an exact CAN eligibility rule."
+    },
+    "P221C": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        203
+      ],
+      "unresolvedIssue": null
+    },
+    "P221E": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        204
+      ],
+      "unresolvedIssue": null
+    },
+    "P2092": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        744
+      ],
+      "unresolvedIssue": null
+    },
+    "P2093": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        743,
+        744
+      ],
+      "unresolvedIssue": null
+    },
+    "P2094": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        745,
+        746
+      ],
+      "unresolvedIssue": null
+    },
+    "P2095": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        745
+      ],
+      "unresolvedIssue": null
+    },
+    "P212C": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        628,
+        629
+      ],
+      "unresolvedIssue": null
+    },
+    "P212D": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        628
+      ],
+      "unresolvedIssue": null
+    },
+    "P212B": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        629,
+        630
+      ],
+      "unresolvedIssue": "Bank2 rationality-row continuation contains mixed bank1/bank2 references and complex branches; article explains supported comparison principle without asserting a universal exact branch sequence."
+    },
+    "P222C": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        878,
+        879,
+        880
+      ],
+      "unresolvedIssue": null
+    },
+    "P222D": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        878,
+        879,
+        880
+      ],
+      "unresolvedIssue": null
+    },
+    "P222B": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        878,
+        879,
+        880
+      ],
+      "unresolvedIssue": null
+    },
+    "P2309": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        699,
+        700
+      ],
+      "unresolvedIssue": "Original PDF labels P2309 as CoilC while generic title is CoilD; source upper battery-voltage entry is also implausible. No physical coil mapping or dubious voltage limit is asserted."
+    },
+    "P2310": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        699,
+        700
+      ],
+      "unresolvedIssue": "Original PDF labels P2310 as CoilC while generic title is CoilD; implausible upper battery-voltage entry omitted. Physical mapping must be verified."
+    },
+    "P2146": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        711
+      ],
+      "unresolvedIssue": null
+    },
+    "P2149": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        711
+      ],
+      "unresolvedIssue": null
+    },
+    "P2152": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        711
+      ],
+      "unresolvedIssue": null
+    },
+    "P2155": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        711,
+        712
+      ],
+      "unresolvedIssue": null
+    },
+    "P216A": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        712
+      ],
+      "unresolvedIssue": null
+    },
+    "P216D": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        712
+      ],
+      "unresolvedIssue": null
+    },
+    "P217A": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        712
+      ],
+      "unresolvedIssue": null
+    },
+    "P217D": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        713
+      ],
+      "unresolvedIssue": null
+    },
+    "P21CF": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        555
+      ],
+      "unresolvedIssue": null
+    },
+    "P21D0": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        558,
+        559
+      ],
+      "unresolvedIssue": "Generic cylinder2 designation versus GM document injector8 channel; physical mapping is not established and is not guessed."
+    },
+    "P21D1": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        556
+      ],
+      "unresolvedIssue": null
+    },
+    "P21D2": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        555,
+        556
+      ],
+      "unresolvedIssue": "Generic cylinder4 designation versus GM document injector2 channel; channel-to-physical-cylinder mapping remains unresolved."
+    },
+    "P21D3": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        558
+      ],
+      "unresolvedIssue": "Generic cylinder5 designation versus GM document injector7 channel; no physical mapping is asserted."
+    },
+    "P21D4": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        557,
+        558
+      ],
+      "unresolvedIssue": null
+    },
+    "P21D5": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        557
+      ],
+      "unresolvedIssue": "Generic cylinder7 designation versus GM document injector5 channel; mapping must be established using vehicle-specific information."
+    },
+    "P21D6": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        556,
+        557
+      ],
+      "unresolvedIssue": "Generic cylinder8 designation versus GM document injector4 channel; physical-cylinder mapping is unresolved."
+    },
+    "P21DB": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        555
+      ],
+      "unresolvedIssue": null
+    },
+    "P21DE": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        558,
+        559
+      ],
+      "unresolvedIssue": "Generic cylinder2 designation versus GM document injector8 channel; no physical mapping is inferred."
+    },
+    "P21E0": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        556
+      ],
+      "unresolvedIssue": null
+    },
+    "P21E2": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        555,
+        556
+      ],
+      "unresolvedIssue": "Generic cylinder4 designation versus GM document injector2 channel; physical mapping unresolved."
+    },
+    "P21E4": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        558
+      ],
+      "unresolvedIssue": "Generic cylinder5 designation versus GM document injector7 channel; physical mapping is not established."
+    },
+    "P21E6": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        557,
+        558
+      ],
+      "unresolvedIssue": null
+    },
+    "P21E8": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        557
+      ],
+      "unresolvedIssue": "Generic cylinder7 designation versus GM document injector5 channel; no physical-cylinder mapping assumed."
+    },
+    "P21EA": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        556,
+        557
+      ],
+      "unresolvedIssue": "Generic cylinder8 designation versus GM document injector4 channel; physical mapping unresolved."
+    },
+    "P21DC": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        555
+      ],
+      "unresolvedIssue": null
+    },
+    "P21DF": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        558,
+        559
+      ],
+      "unresolvedIssue": "Generic cylinder2 designation versus GM document injector8 channel; exact physical mapping unresolved."
+    },
+    "P21E1": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        556
+      ],
+      "unresolvedIssue": null
+    },
+    "P21E3": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        555,
+        556
+      ],
+      "unresolvedIssue": "Generic cylinder4 designation versus GM document injector2 channel; physical mapping unresolved."
+    },
+    "P21E5": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        558
+      ],
+      "unresolvedIssue": "Generic cylinder5 designation versus GM document injector7 channel; physical-cylinder mapping is not inferred."
+    },
+    "P21E7": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        557,
+        558
+      ],
+      "unresolvedIssue": null
+    },
+    "P21E9": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        557
+      ],
+      "unresolvedIssue": "Generic cylinder7 designation versus GM document injector5 channel; exact physical mapping not established."
+    },
+    "P21EB": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        556,
+        557
+      ],
+      "unresolvedIssue": "Generic cylinder8 designation versus GM document injector4 channel; physical-cylinder relationship unresolved."
+    },
+    "P2177": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        170,
+        171,
+        172
+      ],
+      "unresolvedIssue": null
+    },
+    "P2178": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        179,
+        180
+      ],
+      "unresolvedIssue": null
+    },
+    "P2179": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        187,
+        188
+      ],
+      "unresolvedIssue": null
+    },
+    "P2180": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        196,
+        197
+      ],
+      "unresolvedIssue": "Bank2 monitor continuation references bank1 additive term without explaining the cross-bank relationship; exact full eligibility is not simplified into a workshop test."
+    },
+    "P21FA": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        214,
+        215
+      ],
+      "unresolvedIssue": null
+    },
+    "P21FB": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        218,
+        219
+      ],
+      "unresolvedIssue": null
+    },
+    "P21F8": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        223,
+        224
+      ],
+      "unresolvedIssue": null
+    },
+    "P21F9": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        228,
+        229
+      ],
+      "unresolvedIssue": null
+    },
+    "P2098": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        248,
+        249,
+        250
+      ],
+      "unresolvedIssue": null
+    },
+    "P2099": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        257,
+        258
+      ],
+      "unresolvedIssue": null
+    },
+    "P2100": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        780,
+        781,
+        782
+      ],
+      "unresolvedIssue": "Path3 says turbine-bypass valve within bank1 throttle section; component applicability of that branch is unresolved. Article uses supported open-load and overtemperature paths."
+    },
+    "P210A": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        813,
+        814,
+        815
+      ],
+      "unresolvedIssue": "Path3 names turbine-bypass valve inside bank2 throttle section; applicability of that branch is unresolved and not used for a physical repair instruction."
+    },
+    "P210B": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        793,
+        794
+      ],
+      "unresolvedIssue": null
+    },
+    "P211D": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        803,
+        806,
+        808,
+        811
+      ],
+      "unresolvedIssue": null
+    },
+    "P218A": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        782,
+        783,
+        785
+      ],
+      "unresolvedIssue": null
+    },
+    "P2195": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        395,
+        396
+      ],
+      "unresolvedIssue": null
+    },
+    "P2196": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        387,
+        388
+      ],
+      "unresolvedIssue": null
+    },
+    "P2197": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        411,
+        412
+      ],
+      "unresolvedIssue": null
+    },
+    "P2198": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        403,
+        404
+      ],
+      "unresolvedIssue": null
+    },
+    "P2232": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        512
+      ],
+      "unresolvedIssue": null
+    },
+    "P2235": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        512,
+        513
+      ],
+      "unresolvedIssue": null
+    },
+    "P2247": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        294,
+        295,
+        296
+      ],
+      "unresolvedIssue": null
+    },
+    "P2240": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        312,
+        313,
+        314,
+        315
+      ],
+      "unresolvedIssue": null
+    },
+    "P2254": {
+      "sourceReview": "checked",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        327,
+        328,
+        329
+      ],
+      "unresolvedIssue": null
+    },
+    "P2272": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        490,
+        491,
+        492
+      ],
+      "unresolvedIssue": "Original P2272 row and continuation repeatedly name bank1 although generic designation is bank2 sensor2; bank-specific applicability remains unresolved and no physical test mapping is asserted."
+    },
+    "P2273": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        497,
+        498,
+        499,
+        500,
+        501
+      ],
+      "unresolvedIssue": "Original strategy column says maximum/rich whereas malfunction column says minimum/lean; continuation contains mixed bank references. Article retains the failure-column logic with explicit limitation."
+    },
+    "P2298": {
+      "sourceReview": "needs-review",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        420,
+        421
+      ],
+      "unresolvedIssue": "Generic descriptor mentions deceleration while source monitor explicitly requires injection active and engine self-powered. Exact vehicle/calibration operating context must be resolved; no deceleration test is prescribed."
+    }
+  },
+  "method": "Individual primary-table reading and original code-specific explanations. AI author source checks, not mechanic certification.",
+  "validation": {
+    "assigned": 100,
+    "written": 100,
+    "uniqueCodes": 100,
+    "missing": [],
+    "errors": [],
+    "wordsIncludingHeadingsScopeSourceLabels": 28844,
+    "wordRange": [
+      271,
+      309
+    ],
+    "articleTextBeforeScopeRange": [
+      231,
+      259
+    ],
+    "sourceReviewCounts": {
+      "checked": 74,
+      "needs-review": 26
+    }
+  },
+  "originalPdfVisualChecks": [
+    {
+      "sourceId": "gm-2025-07a-2",
+      "physicalPages": [
+        555,
+        699,
+        490,
+        497,
+        420
+      ],
+      "purpose": "Confirmed original table channel/coil naming, disputed bank/strategy wording, and injection-active condition; no silent correction."
+    }
+  ],
+  "integrationReviewUpdates": [
+    {
+      "code": "P08CA",
+      "change": "Reworded apparent timing inconsistency as an unresolved relationship between an on-state check and a turn-off timer; needs-review retained.",
+      "report": "reports/editorial-review-wave-02-batch-14.json"
+    }
+  ]
+}

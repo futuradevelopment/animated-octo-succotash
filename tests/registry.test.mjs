@@ -95,12 +95,12 @@ test('merged source catalog permits identical component records but rejects conf
 test('impossible dates and appliance leftovers are rejected',()=>{
  assert.equal(validDate('2026-02-31'),false);assert.equal(validDate('2024-02-29'),true);const data=fixture();data.sources[0].checkedOn='2026-02-31';data.codes[0].title='Washing machine draining fault';fails(data,'source-checked-date');fails(data,'no-appliance-residue');
 });
-test('noindex definitions are published but never count toward the canonical launch target',()=>{
- const data=fixture();data.codes[0].status='published_noindex';const result=validateDataset(data,{minimumCodes:1});assert.equal(result.counts.noindexCodes,1);assert.equal(result.counts.indexableCanonicalCodes,0);assert.equal(result.counters['canonical-code-launch-target'].failed,1);
+test('noindex definitions are published but never count toward the dictionary inventory floor',()=>{
+ const data=fixture();data.codes[0].status='published_noindex';const result=validateDataset(data,{minimumCodes:1});assert.equal(result.counts.noindexCodes,1);assert.equal(result.counts.indexableCanonicalCodes,0);assert.equal(result.counters['dictionary-inventory-floor'].failed,1);
  assert.deepEqual(indexableCodeRoutes([data.codes[0],record('P0300','generic')]),['/codes/generic/p0300/']);
 });
-test('directories and model hubs cannot satisfy the code-page launch gate',()=>{
- const data=fixture();data.models=Array.from({length:20},(_,n)=>({id:'ford-'+n,makeId:'ford',slug:'model-'+n,sourceIds:['fixture-dataset']}));const result=validateDataset(data,{minimumCodes:2});assert.equal(result.counts.indexableCanonicalCodes,1);assert.equal(result.counters['canonical-code-launch-target'].failed,1);
+test('directories and model hubs cannot satisfy the dictionary inventory floor',()=>{
+ const data=fixture();data.models=Array.from({length:20},(_,n)=>({id:'ford-'+n,makeId:'ford',slug:'model-'+n,sourceIds:['fixture-dataset']}));const result=validateDataset(data,{minimumCodes:2});assert.equal(result.counts.indexableCanonicalCodes,1);assert.equal(result.counters['dictionary-inventory-floor'].failed,1);
 });
 test('model bulletins require primary evidence and matching manufacturer scope',()=>{
  const data=fixture();data.models=[{id:'ford-model',makeId:'ford',slug:'model',sourceIds:['fixture-dataset']}];data.bulletins=[{id:'bulletin',makeId:'lincoln',modelIds:['ford-model'],sourceIds:['fixture-dataset'],codes:['P1234'],years:'2020',summary:'Fixture condition',action:'Follow OEM instructions',limitations:'Exact engine and market only'}];fails(data,'bulletin-model-evidence');fails(data,'bulletin-primary-evidence');

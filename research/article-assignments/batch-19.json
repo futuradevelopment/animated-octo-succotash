@@ -1,0 +1,2592 @@
+[
+  {
+    "entryId": "generic-p0210",
+    "code": "P0210",
+    "dictionaryTitle": "Cylinder 10 Injector A Circuit",
+    "canonicalPath": "/codes/generic/p0210/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 139,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 150,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0520",
+    "code": "P0520",
+    "dictionaryTitle": "Engine Oil Pressure Sensor/Switch A Circuit",
+    "canonicalPath": "/codes/generic/p0520/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 135,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 94,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 95,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p05b0",
+    "code": "P05B0",
+    "dictionaryTitle": "Active Grille Air Shutter B Position Sensor Minimum/Maximum Stop Performance",
+    "canonicalPath": "/codes/generic/p05b0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 126,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 109,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p05b1",
+    "code": "P05B1",
+    "dictionaryTitle": "Active Grille Air Shutter B Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p05b1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 127,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 109,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p05b6",
+    "code": "P05B6",
+    "dictionaryTitle": "Active Grille Air Shutter B Supply Voltage Circuit Low",
+    "canonicalPath": "/codes/generic/p05b6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 129,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 111,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p05c0",
+    "code": "P05C0",
+    "dictionaryTitle": "Active Grille Air Shutter Module A Over Temperature",
+    "canonicalPath": "/codes/generic/p05c0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 128,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 110,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p05c1",
+    "code": "P05C1",
+    "dictionaryTitle": "Active Grille Air Shutter Module B Over Temperature",
+    "canonicalPath": "/codes/generic/p05c1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 128,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 110,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p061a",
+    "code": "P061A",
+    "dictionaryTitle": "Internal Control Module Torque Performance",
+    "canonicalPath": "/codes/generic/p061a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 106,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 104,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 113,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p061b",
+    "code": "P061B",
+    "dictionaryTitle": "Internal Control Module Torque Calculation Performance",
+    "canonicalPath": "/codes/generic/p061b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 106,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 104,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 113,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c2f",
+    "code": "P0C2F",
+    "dictionaryTitle": "Internal Control Module Drive Motor/Generator - Engine Speed Sensor Performance",
+    "canonicalPath": "/codes/generic/p0c2f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 106,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p211a",
+    "code": "P211A",
+    "dictionaryTitle": "Throttle Actuator B Control System - Stuck Open",
+    "canonicalPath": "/codes/generic/p211a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 112,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p211b",
+    "code": "P211B",
+    "dictionaryTitle": "Throttle Actuator B Control System - Stuck Close",
+    "canonicalPath": "/codes/generic/p211b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 112,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p211c",
+    "code": "P211C",
+    "dictionaryTitle": "Throttle Actuator B Control Motor Current Range/Performance",
+    "canonicalPath": "/codes/generic/p211c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 112,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2533",
+    "code": "P2533",
+    "dictionaryTitle": "Ignition Switch On/Start Position Circuit",
+    "canonicalPath": "/codes/generic/p2533/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2600",
+    "code": "P2600",
+    "dictionaryTitle": "Coolant Pump A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2600/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 157,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2601",
+    "code": "P2601",
+    "dictionaryTitle": "Coolant Pump A Control Circuit Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p2601/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 157,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2602",
+    "code": "P2602",
+    "dictionaryTitle": "Coolant Pump A Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2602/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 157,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2603",
+    "code": "P2603",
+    "dictionaryTitle": "Coolant Pump A Control Circuit High",
+    "canonicalPath": "/codes/generic/p2603/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 157,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2610",
+    "code": "P2610",
+    "dictionaryTitle": "ECM/PCM Engine Off Timer Performance",
+    "canonicalPath": "/codes/generic/p2610/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 120,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 129,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 104,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 106,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 127,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 128,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 137,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p261a",
+    "code": "P261A",
+    "dictionaryTitle": "Coolant Pump B Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p261a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 158,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p261b",
+    "code": "P261B",
+    "dictionaryTitle": "Coolant Pump B Control Circuit Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p261b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p261c",
+    "code": "P261C",
+    "dictionaryTitle": "Coolant Pump B Control Circuit Low",
+    "canonicalPath": "/codes/generic/p261c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 158,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p261d",
+    "code": "P261D",
+    "dictionaryTitle": "Coolant Pump B Control Circuit High",
+    "canonicalPath": "/codes/generic/p261d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 158,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26ac",
+    "code": "P26AC",
+    "dictionaryTitle": "Engine Coolant Bypass Valve B Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p26ac/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 156,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26ae",
+    "code": "P26AE",
+    "dictionaryTitle": "Engine Coolant Bypass Valve B Control Circuit High",
+    "canonicalPath": "/codes/generic/p26ae/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26bd",
+    "code": "P26BD",
+    "dictionaryTitle": "Engine Coolant Bypass Valve D Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p26bd/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 143,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 155,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26bf",
+    "code": "P26BF",
+    "dictionaryTitle": "Engine Coolant Bypass Valve D Control Circuit High",
+    "canonicalPath": "/codes/generic/p26bf/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 143,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26c3",
+    "code": "P26C3",
+    "dictionaryTitle": "Internal Control Module Transmission Range Sensor Performance",
+    "canonicalPath": "/codes/generic/p26c3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 106,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 113,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26c4",
+    "code": "P26C4",
+    "dictionaryTitle": "Internal Control Module Clutch Pedal Performance",
+    "canonicalPath": "/codes/generic/p26c4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 113,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26c5",
+    "code": "P26C5",
+    "dictionaryTitle": "Exhaust Flow Control Valve A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p26c5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 146,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 159,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26c6",
+    "code": "P26C6",
+    "dictionaryTitle": "Exhaust Flow Control Valve A Control Circuit Low",
+    "canonicalPath": "/codes/generic/p26c6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 146,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 159,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26c7",
+    "code": "P26C7",
+    "dictionaryTitle": "Exhaust Flow Control Valve A Control Circuit High",
+    "canonicalPath": "/codes/generic/p26c7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 146,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 159,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26ea",
+    "code": "P26EA",
+    "dictionaryTitle": "Fuel Pump Control Module B",
+    "canonicalPath": "/codes/generic/p26ea/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 141,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 153,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26fe",
+    "code": "P26FE",
+    "dictionaryTitle": "Exhaust Flow Control Valve A Control Performance",
+    "canonicalPath": "/codes/generic/p26fe/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 146,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 159,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27b2",
+    "code": "P27B2",
+    "dictionaryTitle": "Internal Control Module Transmission Range Control Performance",
+    "canonicalPath": "/codes/generic/p27b2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 108,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 167,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 114,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27b3",
+    "code": "P27B3",
+    "dictionaryTitle": "Internal Control Module Transmission Gear Select Performance",
+    "canonicalPath": "/codes/generic/p27b3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 108,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 167,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 114,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27b4",
+    "code": "P27B4",
+    "dictionaryTitle": "Internal Control Module Transmission Gear Direction Control Performance",
+    "canonicalPath": "/codes/generic/p27b4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 108,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 114,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27b5",
+    "code": "P27B5",
+    "dictionaryTitle": "Internal Control Module Transmission Gear Ratio Control Performance",
+    "canonicalPath": "/codes/generic/p27b5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 108,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 114,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27b6",
+    "code": "P27B6",
+    "dictionaryTitle": "Internal Control Module Transmission Speed Sensor Performance",
+    "canonicalPath": "/codes/generic/p27b6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 108,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 114,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b62",
+    "code": "P2B62",
+    "dictionaryTitle": "Coolant Pump B Supply Voltage Circuit",
+    "canonicalPath": "/codes/generic/p2b62/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b63",
+    "code": "P2B63",
+    "dictionaryTitle": "Coolant Pump B Stuck/Stalled",
+    "canonicalPath": "/codes/generic/p2b63/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b64",
+    "code": "P2B64",
+    "dictionaryTitle": "Coolant Pump B Control Module Overtemperature",
+    "canonicalPath": "/codes/generic/p2b64/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b65",
+    "code": "P2B65",
+    "dictionaryTitle": "Coolant Pump B Overspeed/Air in System",
+    "canonicalPath": "/codes/generic/p2b65/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b9c",
+    "code": "P2B9C",
+    "dictionaryTitle": "Coolant Pump A Stuck/Stalled",
+    "canonicalPath": "/codes/generic/p2b9c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b9d",
+    "code": "P2B9D",
+    "dictionaryTitle": "Coolant Pump A Supply Voltage Circuit",
+    "canonicalPath": "/codes/generic/p2b9d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b9e",
+    "code": "P2B9E",
+    "dictionaryTitle": "Coolant Pump A Control Module Overtemperature",
+    "canonicalPath": "/codes/generic/p2b9e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 144,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b9f",
+    "code": "P2B9F",
+    "dictionaryTitle": "Coolant Pump B Underspeed",
+    "canonicalPath": "/codes/generic/p2b9f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2bfb",
+    "code": "P2BFB",
+    "dictionaryTitle": "Exhaust Flow Control Valve B Control Performance",
+    "canonicalPath": "/codes/generic/p2bfb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 146,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 159,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c4c",
+    "code": "P2C4C",
+    "dictionaryTitle": "Clutch Actuator Position Sensor Circuit Low",
+    "canonicalPath": "/codes/generic/p2c4c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 103,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 109,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c4d",
+    "code": "P2C4D",
+    "dictionaryTitle": "Clutch Actuator Position Sensor Circuit High",
+    "canonicalPath": "/codes/generic/p2c4d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 103,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 109,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c50",
+    "code": "P2C50",
+    "dictionaryTitle": "Clutch Pedal Position Sensor A/Clutch Actuator Position Sensor Correlation",
+    "canonicalPath": "/codes/generic/p2c50/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 103,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 109,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u016c",
+    "code": "U016C",
+    "dictionaryTitle": "Lost Communication With Fuel Pump Control Module B",
+    "canonicalPath": "/codes/generic/u016c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 141,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 153,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0300",
+    "code": "U0300",
+    "dictionaryTitle": "Internal Control Module Software Incompatibility",
+    "canonicalPath": "/codes/generic/u0300/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 109,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 114,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0429",
+    "code": "U0429",
+    "dictionaryTitle": "Invalid Data Received From Steering Column Control Module",
+    "canonicalPath": "/codes/generic/u0429/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0515",
+    "code": "U0515",
+    "dictionaryTitle": "Invalid Data Received From Remote Function Actuation Module",
+    "canonicalPath": "/codes/generic/u0515/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 113,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u055a",
+    "code": "U055A",
+    "dictionaryTitle": "Invalid Data Received From Special Purpose Vehicle Control Module A",
+    "canonicalPath": "/codes/generic/u055a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0600",
+    "code": "U0600",
+    "dictionaryTitle": "Lost Communication With Engine Oil Pressure Sensor A",
+    "canonicalPath": "/codes/generic/u0600/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 135,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 94,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 95,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 145,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0608",
+    "code": "U0608",
+    "dictionaryTitle": "Lost Communication With Throttle/Pedal Position Sensor/Switch C",
+    "canonicalPath": "/codes/generic/u0608/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 104,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 111,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0612",
+    "code": "U0612",
+    "dictionaryTitle": "Lost Communication With Intake Air Temperature Sensor 1 Bank 2",
+    "canonicalPath": "/codes/generic/u0612/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 122,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0219",
+    "code": "P0219",
+    "dictionaryTitle": "Engine Overspeed Condition",
+    "canonicalPath": "/codes/generic/p0219/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 103,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p02e4",
+    "code": "P02E4",
+    "dictionaryTitle": "Diesel Intake Air Flow A Control Stuck Open",
+    "canonicalPath": "/codes/generic/p02e4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 58,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 101,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p02fa",
+    "code": "P02FA",
+    "dictionaryTitle": "Diesel Intake Air Flow Position Sensor Minimum/Maximum Stop Performance",
+    "canonicalPath": "/codes/generic/p02fa/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 101,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0500",
+    "code": "P0500",
+    "dictionaryTitle": "Vehicle Speed Sensor A Circuit",
+    "canonicalPath": "/codes/generic/p0500/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 108,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 162,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0504",
+    "code": "P0504",
+    "dictionaryTitle": "Brake Switch A/B Correlation",
+    "canonicalPath": "/codes/generic/p0504/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 101,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 97,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 107,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0544",
+    "code": "P0544",
+    "dictionaryTitle": "Exhaust Gas Temperature Sensor Circuit Bank 1 Sensor 1",
+    "canonicalPath": "/codes/generic/p0544/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 6,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 90,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0547",
+    "code": "P0547",
+    "dictionaryTitle": "Exhaust Gas Temperature Sensor Circuit Bank 2 Sensor 1",
+    "canonicalPath": "/codes/generic/p0547/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 6,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0548",
+    "code": "P0548",
+    "dictionaryTitle": "Exhaust Gas Temperature Sensor Circuit Low Bank 2 Sensor 1",
+    "canonicalPath": "/codes/generic/p0548/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 6,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 62,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 63,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 64,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0549",
+    "code": "P0549",
+    "dictionaryTitle": "Exhaust Gas Temperature Sensor Circuit High Bank 2 Sensor 1",
+    "canonicalPath": "/codes/generic/p0549/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 6,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 62,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 63,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 64,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0611",
+    "code": "P0611",
+    "dictionaryTitle": "Fuel Injector Control Module Performance",
+    "canonicalPath": "/codes/generic/p0611/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 104,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 105,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0677",
+    "code": "P0677",
+    "dictionaryTitle": "Cylinder 7 Glow Plug Circuit/Open",
+    "canonicalPath": "/codes/generic/p0677/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 114,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0678",
+    "code": "P0678",
+    "dictionaryTitle": "Cylinder 8 Glow Plug Circuit/Open",
+    "canonicalPath": "/codes/generic/p0678/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 114,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2324",
+    "code": "P2324",
+    "dictionaryTitle": "Ignition Coil I Primary Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2324/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 141,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p068c",
+    "code": "P068C",
+    "dictionaryTitle": "Cylinder 7 Glow Plug Control Circuit Low",
+    "canonicalPath": "/codes/generic/p068c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 115,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p068d",
+    "code": "P068D",
+    "dictionaryTitle": "Cylinder 7 Glow Plug Control Circuit High",
+    "canonicalPath": "/codes/generic/p068d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 115,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p068e",
+    "code": "P068E",
+    "dictionaryTitle": "Cylinder 8 Glow Plug Control Circuit Low",
+    "canonicalPath": "/codes/generic/p068e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 115,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p068f",
+    "code": "P068F",
+    "dictionaryTitle": "Cylinder 8 Glow Plug Control Circuit High",
+    "canonicalPath": "/codes/generic/p068f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 115,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0693",
+    "code": "P0693",
+    "dictionaryTitle": "Fan 2 Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0693/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 117,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0694",
+    "code": "P0694",
+    "dictionaryTitle": "Fan 2 Control Circuit High",
+    "canonicalPath": "/codes/generic/p0694/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 117,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p06b9",
+    "code": "P06B9",
+    "dictionaryTitle": "Cylinder 1 Glow Plug Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p06b9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 116,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p06ba",
+    "code": "P06BA",
+    "dictionaryTitle": "Cylinder 2 Glow Plug Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p06ba/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 116,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p06bb",
+    "code": "P06BB",
+    "dictionaryTitle": "Cylinder 3 Glow Plug Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p06bb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 116,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p06bc",
+    "code": "P06BC",
+    "dictionaryTitle": "Cylinder 4 Glow Plug Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p06bc/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 116,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p06bd",
+    "code": "P06BD",
+    "dictionaryTitle": "Cylinder 5 Glow Plug Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p06bd/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 116,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p06be",
+    "code": "P06BE",
+    "dictionaryTitle": "Cylinder 6 Glow Plug Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p06be/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 116,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p06bf",
+    "code": "P06BF",
+    "dictionaryTitle": "Cylinder 7 Glow Plug Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p06bf/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 116,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p06c0",
+    "code": "P06C0",
+    "dictionaryTitle": "Cylinder 8 Glow Plug Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p06c0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 116,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0710",
+    "code": "P0710",
+    "dictionaryTitle": "Transmission Fluid Temperature Sensor A Circuit",
+    "canonicalPath": "/codes/generic/p0710/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 121,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0850",
+    "code": "P0850",
+    "dictionaryTitle": "Park/Neutral Switch Input Circuit",
+    "canonicalPath": "/codes/generic/p0850/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 118,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p226e",
+    "code": "P226E",
+    "dictionaryTitle": "Particulate Filter Deteriorated/Missing Substrate Bank 2",
+    "canonicalPath": "/codes/generic/p226e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2282",
+    "code": "P2282",
+    "dictionaryTitle": "Air Leak Between Throttle Body and Intake Valves",
+    "canonicalPath": "/codes/generic/p2282/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 70,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 110,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 67,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2020-2023",
+        "page": 115,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2020-2023.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBD_System_Operation_Update.pdf",
+        "scope": "Ford gasoline engines, model years 2020\u20132023. Individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2380",
+    "code": "P2380",
+    "dictionaryTitle": "EGR Sensor D Circuit",
+    "canonicalPath": "/codes/generic/p2380/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 57,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      },
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 59,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2425",
+    "code": "P2425",
+    "dictionaryTitle": "EGR Cooling Valve Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2425/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 101,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2426",
+    "code": "P2426",
+    "dictionaryTitle": "EGR Cooling Valve Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2426/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 102,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2427",
+    "code": "P2427",
+    "dictionaryTitle": "EGR Cooling Valve Control Circuit High",
+    "canonicalPath": "/codes/generic/p2427/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "page": 102,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "scope": "Ford diesel engines, model years 2023\u20132024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p243b",
+    "code": "P243B",
+    "dictionaryTitle": "Particulate Filter Restriction - Forced Limited Power Bank 2",
+    "canonicalPath": "/codes/generic/p243b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 5,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p245e",
+    "code": "P245E",
+    "dictionaryTitle": "Particulate Filter Pressure Sensor B Circuit",
+    "canonicalPath": "/codes/generic/p245e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 8,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p245f",
+    "code": "P245F",
+    "dictionaryTitle": "Particulate Filter Pressure Sensor B Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p245f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 8,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2460",
+    "code": "P2460",
+    "dictionaryTitle": "Particulate Filter Pressure Sensor B Circuit Low",
+    "canonicalPath": "/codes/generic/p2460/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 7,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2461",
+    "code": "P2461",
+    "dictionaryTitle": "Particulate Filter Pressure Sensor B Circuit High",
+    "canonicalPath": "/codes/generic/p2461/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 7,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2462",
+    "code": "P2462",
+    "dictionaryTitle": "Particulate Filter Pressure Sensor B Circuit Intermittent/Erratic",
+    "canonicalPath": "/codes/generic/p2462/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "page": 7,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-gasoline-2024-2025-v2.txt",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+        "scope": "Ford gasoline engines, model years 2024\u20132025. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ]
+      }
+    ]
+  }
+]

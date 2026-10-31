@@ -1,0 +1,236 @@
+{
+  "wave": 2,
+  "reviewer": "Root AI agent",
+  "scope": "Sampled article claims only; not human mechanic certification or verification of every article.",
+  "samples": [
+    {
+      "code": "P000C",
+      "file": "content/code-articles/batch-11/P000C.md",
+      "sha256": "21ab3987db68063c20d80751b6c4193ac62d9150cede01078519831e6758d874",
+      "sourceIds": [
+        "gm-2025-07a-2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            544,
+            545
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "Primary row spans physical pages 544\u2013545: target time above one second is combined with movement above three crankshaft degrees.",
+        "Closed-loop control and two-trip reporting are supported; corrupted extracted enable values are not repeated."
+      ]
+    },
+    {
+      "code": "P0001",
+      "file": "content/code-articles/batch-12/P0001.md",
+      "sha256": "803e902af189c336573ed76d6b74cf5653511d2c371aa2fdd652245fd8bddd6f",
+      "sourceIds": [
+        "ford-diesel-2023-2024"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "ford-diesel-2023-2024",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "Ford diesel page 12 explicitly differentiates unpowered 2.8\u20134.8 V feedback from the lower band used for P0003 and the energized overcurrent test for P0004.",
+        "The typical 0.3-second duration is supported; the article does not convert control-chip feedback into a connector test."
+      ]
+    },
+    {
+      "code": "P0012",
+      "file": "content/code-articles/batch-13/P0012.md",
+      "sha256": "c381e4403f904b32f7b80ef33fb5c3c9dd3ff55a914537ec4bca897459fd41bb",
+      "sourceIds": [
+        "ford-gasoline-2024-2025-v2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "pages": [
+            79,
+            80
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "Ford gasoline pages 79\u201380 support the 400 rpm minimum, ECT-dependent start delay, commanded enablement, and functional versus accumulated target-error windows.",
+        "Mode $06 monitor $35 / test $81 is supported; the article does not diagnose a timing-tooth slip from an over-retarded code."
+      ]
+    },
+    {
+      "code": "P0883",
+      "file": "content/code-articles/batch-14/P0883.md",
+      "sha256": "06a042741468b8a7ad9e61f602e0f944d823fd1819ccc02296a72843ee359951",
+      "sourceIds": [
+        "gm-2025-07a-2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            911,
+            925
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "GM page 911 supports the 18.3 V threshold, 0.3 V hysteresis, 500 ms confirmation and exclusions for cranking and stop key state.",
+        "Page 925 explicitly lists P0883 as an inhibiting code for solenoid electrical diagnostics, supporting the article\u2019s interpretation of uncompleted downstream tests."
+      ]
+    },
+    {
+      "code": "P2864",
+      "file": "content/code-articles/batch-16/P2864.md",
+      "sha256": "da811714b3f09544b7b938d0063d24367e613bba7eddae2eeb8a7ef57abda66e",
+      "sourceIds": [
+        "gm-2025-07a-2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            971,
+            972
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF; no new visual PDF check in this sample.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "GM pages 971\u2013972 support the rod 5 B-side engagement comparison, 1,100 micrometre mismatch, hydraulic enablement and force target above 600 N.",
+        "Page 972 also contains disengagement and static learned-position checks; the article treats force as a monitor condition rather than an instruction to apply force."
+      ]
+    },
+    {
+      "code": "P2312",
+      "file": "content/code-articles/batch-15/P2312.md",
+      "sha256": "36511fa1f4db03d264ede549fc0864f6bb8f2fe42637f416160faefe1cebcfbc",
+      "sourceIds": [
+        "gm-2025-07a-2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            701
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF, plus dictionary identity.",
+      "result": "No unsupported substantive statement found in sampled article; unresolved channel mapping remains explicitly flagged.",
+      "observations": [
+        "The OEM row describes an off-state low-side voltage classification with ignition synchronization, speed above 1,400 rpm, counter difference above nine and a 0.4-second interval.",
+        "The source labels coil B while the generic definition labels coil E. The article preserves that unresolved mapping without locating a physical cylinder or claiming a failed component."
+      ],
+      "postReviewUpdate": "Root rechecked the final wording against the original table: the channel difference is now described explicitly as an unresolved mapping, not a definite OEM error."
+    },
+    {
+      "code": "C052B",
+      "file": "content/code-articles/batch-17/C052B.md",
+      "sha256": "b5c02b4185c7e7885fef17f20efd5590c92b67a51ecc9c94286371a138a94057",
+      "sourceIds": [
+        "gm-2025-04a"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04a",
+          "pages": [
+            225,
+            227,
+            228
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "GM pages 225, 227 and 228 separately document serial-transfer, disable-path, thermal and bridge checks under C052B.",
+        "The 390 ms serial maturation and two-count disable-path logic are correctly separated. The article treats the internal pulse test as controller-managed behavior, not a workshop probing instruction."
+      ]
+    },
+    {
+      "code": "P26C2",
+      "file": "content/code-articles/batch-18/P26C2.md",
+      "sha256": "4cbb872b36bd048c8373adaf783c2b6b52ca6b586bf4632e877734ff8e0504bf",
+      "sourceIds": [
+        "gm-2025-03b"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-03b",
+          "pages": [
+            849,
+            850
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "GM pages 849\u2013850 require position error of at least 5 degrees and feedback below 50 degrees, with four failing seconds in a five-second window.",
+        "Relay and voltage eligibility plus valid feedback qualify the position interpretation; the monitor alone does not prove a failed valve or thermostat."
+      ]
+    },
+    {
+      "code": "P0210",
+      "file": "content/code-articles/batch-19/P0210.md",
+      "sha256": "9a7effa307a4d337b0cb660904e6f719ad87d38910d08999c6440652cb1c49a9",
+      "sourceIds": [
+        "ford-gasoline-2024-2025-v2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "pages": [
+            139
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against physical-page text extracted from downloaded OEM PDF.",
+      "result": "No unsupported substantive statement found in sampled article.",
+      "observations": [
+        "Ford page 139 includes P0210 in the P0201\u2013P0210 injector electrical range, with continuous eligible monitoring, a five-second duration and an 11 V entry threshold.",
+        "The article avoids inferring a ten-cylinder vehicle application from the code range and separates circuit evidence from injector flow."
+      ]
+    },
+    {
+      "code": "P0705",
+      "file": "content/code-articles/batch-20/P0705.md",
+      "sha256": "d30b2d5a1c5d03ad862bc5450144280c3981f349d62c4643a9e558b4ad26c602",
+      "sourceIds": [
+        "ford-gasoline-2024-2025-v2"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "pages": [
+            147,
+            148
+          ]
+        }
+      ],
+      "method": "Independent root review of complete article against Ford physical pages147\u2013148; wording correction verified after author integration.",
+      "result": "One architecture wording clarification corrected; remaining sampled statements supported.",
+      "observations": [
+        "Ford distinguishes invalid digital patterns from PWM frequency, duty-cycle and analog circuit criteria. The separate monitoring durations and architecture-specific intervals are preserved.",
+        "The source permits digital inputs and/or an analog circuit. The revised article now says analog-circuit faults apply on relevant designs, avoiding an assertion that every digital design must use an analog input."
+      ]
+    }
+  ]
+}

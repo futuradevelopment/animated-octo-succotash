@@ -1,8 +1,48 @@
 {
-  "generatedAt": "2026-10-30T14:54:41.194Z",
+  "generatedAt": "2026-10-31T09:19:16.909Z",
   "site": "https://cars.errhive.com",
-  "minimumCanonicalCodePages": 10000,
-  "targetMet": true,
+  "minimumReviewedCodeArticles": 10000,
+  "targetMet": false,
+  "articleCoverage": {
+    "canonicalEntries": 11786,
+    "distinctCodeStrings": 10043,
+    "trackedEntries": 11786,
+    "approvedCodeArticles": 0,
+    "approvedDistinctCodeStrings": 0,
+    "remainingDistinctCodeStrings": 10043,
+    "remainingToMinimum": 10000,
+    "remainingCatalogEntries": 11786,
+    "scopedVehicleGuides": 32,
+    "entriesLinkedToScopedGuides": 52,
+    "entriesWithSourceCandidates": 3395,
+    "distinctCodesWithSourceCandidates": 3383,
+    "entriesNeedingResearch": 8391,
+    "candidateDocuments": 451,
+    "submittedArticleRecords": 0,
+    "rejectedArticleRecords": 0
+  },
+  "manuscripts": {
+    "assigned": 3000,
+    "written": 3000,
+    "uniqueCodes": 3000,
+    "sourceCheckedDrafts": 2483,
+    "sourceReviewPending": 517,
+    "words": 819235,
+    "minimumWords": 183,
+    "maximumWords": 345,
+    "selectedForPublication": 3000,
+    "notSelectedForPublication": 0,
+    "selectedSourceChecked": 2483,
+    "selectedSourceReviewPending": 517
+  },
+  "publication": {
+    "selectedForPublication": 3000,
+    "notSelectedForPublication": 0,
+    "renderedManuscriptPages": 3000,
+    "renderedWithSourceReviewPending": 517,
+    "liveDeploymentVerification": "not-measured-by-this-report"
+  },
+  "dictionaryInventoryFloorMet": true,
   "counts": {
     "codes": 11786,
     "indexableCanonicalCodes": 11786,
@@ -15,8 +55,8 @@
     "sources": 78,
     "systems": 4,
     "authoredDiagnosticGuides": 32,
-    "htmlPages": 12285,
-    "indexableUrls": 12283,
+    "htmlPages": 12315,
+    "indexableUrls": 12313,
     "uniqueDisplayedCodes": 10043,
     "modelBulletins": 26,
     "sourceUrls": 78,
@@ -53,6 +93,6 @@
     "powertrain": 9891,
     "network": 1228
   },
-  "countingRule": "Each indexable canonical code URL counts once. Shared manufacturer discovery labels, directory pagination, model hubs, source pages and noindex references do not increase the target count.",
+  "countingRule": "The full-catalog review target counts separately authored and claim-reviewed code-article records only. Written manuscripts, explicit renderer selection, static rendered bodies and live deployment verification are separate states; selection never invents claim-level approval. Dictionary entries, scoped case guides, source candidates, aliases and model hubs cannot satisfy the article target.",
   "definitionEvidence": "Community reference definitions retain upstream source row, revision and file hashes. OEM contextual guidance is separately attributed and does not turn the entire dataset into manufacturer-verified definitions."
 }

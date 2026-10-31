@@ -1,0 +1,5389 @@
+[
+  {
+    "code": "P0C77",
+    "entryId": "generic-p0c77",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C77.md",
+    "title": "P0C77: A precharge rise can be too fast for the expected sequence",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          554
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C78",
+    "entryId": "generic-p0c78",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C78.md",
+    "title": "P0C78: Slow precharge has voltage and sustained-current branches",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          554,
+          555
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C7D",
+    "entryId": "generic-p0c7d",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C7D.md",
+    "title": "P0C7D: Sensor G performance is a relative temperature test",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          586
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C7E",
+    "entryId": "generic-p0c7e",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C7E.md",
+    "title": "P0C7E: Sensor G low circuit can yield a high temperature display",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          639
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C7F",
+    "entryId": "generic-p0c7f",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C7F.md",
+    "title": "P0C7F: Sensor G high circuit can report an extreme cold value",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          639,
+          640
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C82",
+    "entryId": "generic-p0c82",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C82.md",
+    "title": "P0C82: Sensor H must agree with other module-group temperatures",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          586
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C83",
+    "entryId": "generic-p0c83",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C83.md",
+    "title": "P0C83: Sensor H circuit low must be separated from temperature direction",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          639
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C84",
+    "entryId": "generic-p0c84",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C84.md",
+    "title": "P0C84: Sensor H high circuit can produce a cold limit reading",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          639,
+          640
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C89",
+    "entryId": "generic-p0c89",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C89.md",
+    "title": "P0C89: Sensor I performance compares module-group temperatures",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          586
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C8A",
+    "entryId": "generic-p0c8a",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C8A.md",
+    "title": "P0C8A: Sensor I low circuit and a hot converted report",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          639
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0C8B",
+    "entryId": "generic-p0c8b",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0C8B.md",
+    "title": "P0C8B: Sensor I high circuit is the cold end of the conversion",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          639,
+          640
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CD6",
+    "entryId": "generic-p0cd6",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CD6.md",
+    "title": "P0CD6: Outlet coolant temperature must disagree with both references",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          561
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CD7",
+    "entryId": "generic-p0cd7",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CD7.md",
+    "title": "P0CD7: Outlet circuit low needs the correct sensor identity",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          641,
+          642
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CD8",
+    "entryId": "generic-p0cd8",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CD8.md",
+    "title": "P0CD8: Outlet circuit high can show a temperature below −40°C",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          642
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CE2",
+    "entryId": "generic-p0ce2",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CE2.md",
+    "title": "P0CE2: Coolant-valve drive 1 low is tested in reverse motion",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          559
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CE3",
+    "entryId": "generic-p0ce3",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CE3.md",
+    "title": "P0CE3: Valve drive 1 high is evaluated in a different motion state",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          559,
+          560
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CE5",
+    "entryId": "generic-p0ce5",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CE5.md",
+    "title": "P0CE5: Coolant valve has not reached its commanded position",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          559
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CE6",
+    "entryId": "generic-p0ce6",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CE6.md",
+    "title": "P0CE6: Valve-position feedback low uses a reference percentage",
+    "wordCount": 252,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          560
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CE7",
+    "entryId": "generic-p0ce7",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CE7.md",
+    "title": "P0CE7: Valve-feedback high is not a coolant-flow percentage",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          560
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CE9",
+    "entryId": "generic-p0ce9",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CE9.md",
+    "title": "P0CE9: Electronics coolant-pump control line has a recorded circuit fault",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          565
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CEA",
+    "entryId": "generic-p0cea",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CEA.md",
+    "title": "P0CEA: Electronics pump performance depends on operating mode and temperature",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          565,
+          566,
+          745
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CEF",
+    "entryId": "generic-p0cef",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CEF.md",
+    "title": "P0CEF: Electronics coolant temperature must agree with charger temperature",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          566,
+          567
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CF0",
+    "entryId": "generic-p0cf0",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CF0.md",
+    "title": "P0CF0: Electronics coolant-sensor low is an electrical boundary",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          566
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CF1",
+    "entryId": "generic-p0cf1",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CF1.md",
+    "title": "P0CF1: Electronics coolant-sensor high uses its reference voltage",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          566
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CF4",
+    "entryId": "generic-p0cf4",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CF4.md",
+    "title": "P0CF4: Control-pilot integrity uses internal states as well as signal level",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          596
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CF5",
+    "entryId": "generic-p0cf5",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CF5.md",
+    "title": "P0CF5: Control pilot low during GM’s disconnected-cord test",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          596
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CF6",
+    "entryId": "generic-p0cf6",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CF6.md",
+    "title": "P0CF6: High control-pilot percentage with no charge cord connected",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          596
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0CF9",
+    "entryId": "generic-p0cf9",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0CF9.md",
+    "title": "P0CF9: Charging-switch pilot voltage outside its test window",
+    "wordCount": 301,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          600
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D01",
+    "entryId": "generic-p0d01",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D01.md",
+    "title": "P0D01: Ventilation-switch pilot test after charging-switch checks",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          600
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D0A",
+    "entryId": "generic-p0d0a",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D0A.md",
+    "title": "P0D0A: Positive charging-contactor driver command mismatch",
+    "wordCount": 286,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          555
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D11",
+    "entryId": "generic-p0d11",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D11.md",
+    "title": "P0D11: Negative charging-contactor control circuit and its blind spot",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          555
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D17",
+    "entryId": "generic-p0d17",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D17.md",
+    "title": "P0D17: Charging interlock low while its reference is sourced",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          555
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D18",
+    "entryId": "generic-p0d18",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D18.md",
+    "title": "P0D18: Charging interlock high in two different source states",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          555
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D22",
+    "entryId": "generic-p0d22",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D22.md",
+    "title": "P0D22: Charger output current deviation or unavailable output",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          598,
+          599,
+          744
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D23",
+    "entryId": "generic-p0d23",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D23.md",
+    "title": "P0D23: Unexpected charger-bus current during precharge",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          598
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D26",
+    "entryId": "generic-p0d26",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D26.md",
+    "title": "P0D26: Charger precharge fails to reach and hold its voltage window",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          597
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D2A",
+    "entryId": "generic-p0d2a",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D2A.md",
+    "title": "P0D2A: Excessive AC charging current depends on input voltage",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          598
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D2B",
+    "entryId": "generic-p0d2b",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D2B.md",
+    "title": "P0D2B: Control-pilot indicator driver tested in on and off states",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          587
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D2C",
+    "entryId": "generic-p0d2c",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D2C.md",
+    "title": "P0D2C: Charge-status LED circuit fault across connected and disconnected states",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          587,
+          588
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D2D",
+    "entryId": "generic-p0d2d",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D2D.md",
+    "title": "P0D2D: Early Mustang Mach-E no-start after charging and remote start",
+    "wordCount": 324,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10187878"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10187878",
+        "pages": [
+          1,
+          5,
+          6,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D39",
+    "entryId": "generic-p0d39",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D39.md",
+    "title": "P0D39: AC input-current sensor zero-offset rationality",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          742
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D3A",
+    "entryId": "generic-p0d3a",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0D3A.md",
+    "title": "P0D3A: Charger input-current sensor reports below its valid threshold",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          740
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0E5F",
+    "entryId": "generic-p0e5f",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0E5F.md",
+    "title": "P0E5F: Mustang Mach-E charge-port temperature fault at 48-amp AC charging",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10241595"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10241595",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0EEE",
+    "entryId": "generic-p0eee",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P0EEE.md",
+    "title": "P0EEE: Ford DC fast-charge interruption with P0EEE:27",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11036286"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11036286",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2451",
+    "entryId": "generic-p2451",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P2451.md",
+    "title": "P2451: Ford hybrid EVAP test can mislead unless the fuel-door sequence is followed",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10168790"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10168790",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C39",
+    "entryId": "generic-p2c39",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P2C39.md",
+    "title": "P2C39: F-150 2.7L temperature warnings need model-year-specific diagnosis",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11032695"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11032695",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C94",
+    "entryId": "generic-p2c94",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P2C94.md",
+    "title": "P2C94: Ford and Lincoln charging interruption with SOBDM P2C94",
+    "wordCount": 317,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10239477"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10239477",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2CFC",
+    "entryId": "generic-p2cfc",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/P2CFC.md",
+    "title": "P2CFC: Explorer and Aviator warm A/C with a BCMC terminal concern",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10212959"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10212959",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0252",
+    "entryId": "generic-u0252",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/U0252.md",
+    "title": "U0252: 2023 F-Super Duty history code after BCM self-test",
+    "wordCount": 326,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10235318"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10235318",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3001",
+    "entryId": "generic-u3001",
+    "batch": "batch-28",
+    "path": "content/code-articles/batch-28/U3001.md",
+    "title": "U3001: 2021 F-150 steering-assist loss after low-voltage starting",
+    "wordCount": 319,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10241619"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10241619",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D3B",
+    "entryId": "generic-p0d3b",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D3B.md",
+    "title": "P0D3B: charger input current above the documented limit",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          740
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D3E",
+    "entryId": "generic-p0d3e",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D3E.md",
+    "title": "P0D3E: charger AC voltage fails a two-reference comparison",
+    "wordCount": 286,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          742
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D3F",
+    "entryId": "generic-p0d3f",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D3F.md",
+    "title": "P0D3F: low charger AC peak voltage with a long observation window",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          741
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D40",
+    "entryId": "generic-p0d40",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D40.md",
+    "title": "P0D40: high charger AC peak voltage is a fast circuit check",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          741
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D43",
+    "entryId": "generic-p0d43",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D43.md",
+    "title": "P0D43: low-voltage charger output disagrees with vehicle references",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          731
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D44",
+    "entryId": "generic-p0d44",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D44.md",
+    "title": "P0D44: charger low-voltage output measurement falls below range",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D45",
+    "entryId": "generic-p0d45",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D45.md",
+    "title": "P0D45: high low-voltage charger output has its own trip classification",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D49",
+    "entryId": "generic-p0d49",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D49.md",
+    "title": "P0D49: low charger output current is a sensor-range finding",
+    "wordCount": 286,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D4A",
+    "entryId": "generic-p0d4a",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D4A.md",
+    "title": "P0D4A: high charger low-voltage output current requires context",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D4E",
+    "entryId": "generic-p0d4e",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D4E.md",
+    "title": "P0D4E: very low high-voltage charger output is a reported sensor condition",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          719
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D4F",
+    "entryId": "generic-p0d4f",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D4F.md",
+    "title": "P0D4F: high charger battery-output voltage is not a battery-capacity test",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          719
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D53",
+    "entryId": "generic-p0d53",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D53.md",
+    "title": "P0D53: low high-voltage charger output current needs the correct channel",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          719
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D54",
+    "entryId": "generic-p0d54",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D54.md",
+    "title": "P0D54: high battery-output current is separate from input overcurrent",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          719
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D58",
+    "entryId": "generic-p0d58",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D58.md",
+    "title": "P0D58: proximity-signal low is checked in a specific driving state",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          597
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D59",
+    "entryId": "generic-p0d59",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D59.md",
+    "title": "P0D59: high proximity voltage requires valid speed and shift information",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          596
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D5B",
+    "entryId": "generic-p0d5b",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D5B.md",
+    "title": "P0D5B: low-voltage charger power fails an input-to-output plausibility check",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          725
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D5C",
+    "entryId": "generic-p0d5c",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D5C.md",
+    "title": "P0D5C: high-voltage charger power is checked against input evidence",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          725
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D5E",
+    "entryId": "generic-p0d5e",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D5E.md",
+    "title": "P0D5E: charger discharge failure has two reporting paths",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          556,
+          736
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D69",
+    "entryId": "generic-p0d69",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D69.md",
+    "title": "P0D69: compressor voltage disagrees with its battery reference",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          570
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D6A",
+    "entryId": "generic-p0d6a",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D6A.md",
+    "title": "P0D6A: high compressor voltage includes a recovery-state requirement",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          712
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D6B",
+    "entryId": "generic-p0d6b",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D6B.md",
+    "title": "P0D6B: low compressor voltage is evaluated after contactor closure",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          712
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D6F",
+    "entryId": "generic-p0d6f",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D6F.md",
+    "title": "P0D6F: compressor DC-link overcurrent is checked during a run request",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          714
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D71",
+    "entryId": "generic-p0d71",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D71.md",
+    "title": "P0D71: compressor CPU temperature is compared after a long off period",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          570
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D72",
+    "entryId": "generic-p0d72",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D72.md",
+    "title": "P0D72: a high temperature-sensor circuit can report extreme cold",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          715
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D73",
+    "entryId": "generic-p0d73",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D73.md",
+    "title": "P0D73: circuit-low diagnosis is based on an extreme CPU temperature report",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          715
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D76",
+    "entryId": "generic-p0d76",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D76.md",
+    "title": "P0D76: compressor driver temperature is checked against ambient and intake air",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          571
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D77",
+    "entryId": "generic-p0d77",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D77.md",
+    "title": "P0D77: driver-temperature circuit-high has an unresolved boundary in this table",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          715
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D78",
+    "entryId": "generic-p0d78",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D78.md",
+    "title": "P0D78: driver-temperature circuit-low does not establish actual overheating",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          715
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D7A",
+    "entryId": "generic-p0d7a",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D7A.md",
+    "title": "P0D7A: compressor phase-U current needs a polarity-aware interpretation",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          712,
+          713
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D7B",
+    "entryId": "generic-p0d7b",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D7B.md",
+    "title": "P0D7B: phase-U current-high is not a DC-link overcurrent diagnosis",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          713
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D7C",
+    "entryId": "generic-p0d7c",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D7C.md",
+    "title": "P0D7C: phase-V current-low belongs to the stopped-compressor check",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          713
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D7D",
+    "entryId": "generic-p0d7d",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D7D.md",
+    "title": "P0D7D: phase-V current-high requires its own signal convention",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          713
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D7E",
+    "entryId": "generic-p0d7e",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D7E.md",
+    "title": "P0D7E: phase-W current-low must remain a phase-specific finding",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          713
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0D7F",
+    "entryId": "generic-p0d7f",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0D7F.md",
+    "title": "P0D7F: phase-W current-high is distinct from total compressor load",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          713
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0DAA",
+    "entryId": "generic-p0daa",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P0DAA.md",
+    "title": "P0DAA: charging isolation uses measurement history and a state-dependent limit",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          558
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P204F",
+    "entryId": "generic-p204f",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P204F.md",
+    "title": "P204F: reductant pressure did not build after repeated attempts",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          184,
+          185
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2065",
+    "entryId": "generic-p2065",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2065.md",
+    "title": "P2065: secondary fuel-level inactivity depends on tank state and distance",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-06-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "pages": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20A0",
+    "entryId": "generic-p20a0",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P20A0.md",
+    "title": "P20A0: reductant purge-driver feedback is wrong while commanded off",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          193
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20A1",
+    "entryId": "generic-p20a1",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P20A1.md",
+    "title": "P20A1: reductant pressure-reduction performance needs its own test state",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          194
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20A2",
+    "entryId": "generic-p20a2",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P20A2.md",
+    "title": "P20A2: low purge-valve feedback is evaluated with the driver off",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          195
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20A3",
+    "entryId": "generic-p20a3",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P20A3.md",
+    "title": "P20A3: purge-driver feedback remains high during the on command",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          195,
+          196
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20E2",
+    "entryId": "generic-p20e2",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P20E2.md",
+    "title": "P20E2: exhaust temperature sensors are compared after a long soak",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-01-duramax-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "pages": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20E4",
+    "entryId": "generic-p20e4",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P20E4.md",
+    "title": "P20E4: particulate-filter temperature correlation uses startup references",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          196,
+          197
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2102",
+    "entryId": "generic-p2102",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2102.md",
+    "title": "P2102: throttle motor driver reports a short-to-ground condition",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2010-10obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg09-engine-diagnostics",
+        "pages": [
+          149
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2103",
+    "entryId": "generic-p2103",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2103.md",
+    "title": "P2103: throttle driver short-to-power differs from a position error",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2010-10obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg09-engine-diagnostics",
+        "pages": [
+          149
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2105",
+    "entryId": "generic-p2105",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2105.md",
+    "title": "P2105: throttle shutdown-path monitoring refers to the previous cycle",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2009-02-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "pages": [
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2108",
+    "entryId": "generic-p2108",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2108.md",
+    "title": "P2108: throttle module performance covers internal integrity tests",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-09-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-09-engine",
+        "pages": [
+          50,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2120",
+    "entryId": "generic-p2120",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2120.md",
+    "title": "P2120: APP1 disagrees across primary and secondary processor evaluations",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2009-07-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "pages": [
+          107
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2121",
+    "entryId": "generic-p2121",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2121.md",
+    "title": "P2121: pedal channel one has a separate rationality classification",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-06-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "pages": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2125",
+    "entryId": "generic-p2125",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2125.md",
+    "title": "P2125: APP2 is out of range on the secondary processor only",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2009-07-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "pages": [
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2126",
+    "entryId": "generic-p2126",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2126.md",
+    "title": "P2126: pedal channel two has an unresolved range classification",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-06-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "pages": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2158",
+    "entryId": "generic-p2158",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2158.md",
+    "title": "P2158: vehicle-speed signal two remains unchanged inside a qualified range",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-13-2-mode-hybrid"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "pages": [
+          195
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2159",
+    "entryId": "generic-p2159",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2159.md",
+    "title": "P2159: signal-two speed is outside its documented upper range",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-13-2-mode-hybrid"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "pages": [
+          195
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2191",
+    "entryId": "generic-p2191",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2191.md",
+    "title": "P2191: high-load lean correction is evaluated after adaptation stabilizes",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2192",
+    "entryId": "generic-p2192",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2192.md",
+    "title": "P2192: rich correction uses the lower multiplicative boundary",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2199",
+    "entryId": "generic-p2199",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2199.md",
+    "title": "P2199: intake-temperature correlation depends on airflow and boost state",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2009-02-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "pages": [
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21AA",
+    "entryId": "generic-p21aa",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P21AA.md",
+    "title": "P21AA: reductant level channel two reports a short-to-ground status",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          208
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21AB",
+    "entryId": "generic-p21ab",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P21AB.md",
+    "title": "P21AB: level-channel-two circuit-high covers two reported fault types",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          208,
+          209
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21AF",
+    "entryId": "generic-p21af",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P21AF.md",
+    "title": "P21AF: level-channel-three low circuit is a discrete error report",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          209
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21B0",
+    "entryId": "generic-p21b0",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P21B0.md",
+    "title": "P21B0: channel-three circuit-high can mean open load or short to battery",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          209,
+          210
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2231",
+    "entryId": "generic-p2231",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2231.md",
+    "title": "P2231: heater influence is detected through upstream sensor current variation",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2234",
+    "entryId": "generic-p2234",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2234.md",
+    "title": "P2234: bank-two heater coupling is evaluated under controlled sensor conditions",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-13-2-mode-hybrid"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-13-2-mode-hybrid",
+        "pages": [
+          135,
+          136
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2238",
+    "entryId": "generic-p2238",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2238.md",
+    "title": "P2238: the pump-circuit check uses missing lean response during fuel shutoff",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2239",
+    "entryId": "generic-p2239",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2239.md",
+    "title": "P2239: pump-circuit diagnosis follows a qualified control-factor change",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2257",
+    "entryId": "generic-p2257",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2257.md",
+    "title": "P2257: secondary-air relay low circuit can include an open connection",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-06-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "pages": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2258",
+    "entryId": "generic-p2258",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2258.md",
+    "title": "P2258: secondary-air relay high circuit is separate from pump-flow performance",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-06-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "pages": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P22FA",
+    "entryId": "generic-p22fa",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P22FA.md",
+    "title": "P22FA: upstream NOx response is evaluated during a fuel-cut transition",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          233,
+          234
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2428",
+    "entryId": "generic-p2428",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2428.md",
+    "title": "P2428: exhaust protection checks both temperatures and temperature differences",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          235,
+          236
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2430",
+    "entryId": "generic-p2430",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2430.md",
+    "title": "P2430: AIR pressure can be stuck inside its electrical range",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-07-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "pages": [
+          122
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2431",
+    "entryId": "generic-p2431",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2431.md",
+    "title": "P2431: secondary-air pressure is compared before engine cranking",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-06-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "pages": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2432",
+    "entryId": "generic-p2432",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2432.md",
+    "title": "P2432: Low secondary-air pressure signal and why the voltage matters",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2433",
+    "entryId": "generic-p2433",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2433.md",
+    "title": "P2433: High secondary-air pressure signal is not proof of high airflow",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2435",
+    "entryId": "generic-p2435",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2435.md",
+    "title": "P2435: Bank 2 AIR pressure can fail while staying within range",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-11-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-11-engine",
+        "pages": [
+          146,
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2436",
+    "entryId": "generic-p2436",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2436.md",
+    "title": "P2436: Bank 2 AIR pressure rationality depends on pump state",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-11-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-11-engine",
+        "pages": [
+          146,
+          147,
+          148
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2437",
+    "entryId": "generic-p2437",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2437.md",
+    "title": "P2437: Bank 2 AIR pressure low voltage relative to its reference",
+    "wordCount": 298,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-11-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-11-engine",
+        "pages": [
+          147,
+          148
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2438",
+    "entryId": "generic-p2438",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2438.md",
+    "title": "P2438: Bank 2 AIR pressure high voltage and the 94% boundary",
+    "wordCount": 298,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-11-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-11-engine",
+        "pages": [
+          146,
+          147,
+          148
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2440",
+    "entryId": "generic-p2440",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2440.md",
+    "title": "P2440: AIR valve stuck-open evidence comes from a closed-valve phase",
+    "wordCount": 298,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-07-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "pages": [
+          124
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2443",
+    "entryId": "generic-p2443",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2443.md",
+    "title": "P2443: AIR valve stuck-closed code within a pressure-flow check",
+    "wordCount": 303,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2009-06-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-06-engine",
+        "pages": [
+          24,
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2444",
+    "entryId": "generic-p2444",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2444.md",
+    "title": "P2444: AIR pump stuck-on wording can describe a control-circuit fault",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2445",
+    "entryId": "generic-p2445",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2445.md",
+    "title": "P2445: AIR pump stuck-off wording and the ground-side electrical check",
+    "wordCount": 291,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-04-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-04-engine",
+        "pages": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P244C",
+    "entryId": "generic-p244c",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P244C.md",
+    "title": "P244C: Regeneration temperature falls short of a changing target",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-01-duramax-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "pages": [
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2505",
+    "entryId": "generic-p2505",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2505.md",
+    "title": "P2505: Interrupted permanent ECM supply affects engine-off timing",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          247
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2510",
+    "entryId": "generic-p2510",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2510.md",
+    "title": "P2510: ECM relay faults can mean power ends too late or too early",
+    "wordCount": 303,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-01-duramax-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "pages": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2516",
+    "entryId": "generic-p2516",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2516.md",
+    "title": "P2516: Low-side refrigerant pressure must respond after compressor start",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          572
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2517",
+    "entryId": "generic-p2517",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2517.md",
+    "title": "P2517: Low-side refrigerant sensor voltage is below its valid range",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          572
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2518",
+    "entryId": "generic-p2518",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2518.md",
+    "title": "P2518: High refrigerant sensor voltage has its own sample and trip logic",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          572
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2536",
+    "entryId": "generic-p2536",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2536.md",
+    "title": "P2536: Transmission controller sees accessory input disagree with power mode",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-01-gmdat-trans"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-01-gmdat-trans",
+        "pages": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2548",
+    "entryId": "generic-p2548",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2548.md",
+    "title": "P2548: Performance-launch torque message fails an integrity check",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-07-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-07-engine",
+        "pages": [
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P254F",
+    "entryId": "generic-p254f",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P254F.md",
+    "title": "P254F: Hybrid hood switch faults arise when the two signals agree",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-08-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-08-engine",
+        "pages": [
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2563",
+    "entryId": "generic-p2563",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2563.md",
+    "title": "P2563: Turbo vane position differs from the commanded target",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-01-duramax-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-01-duramax-engine",
+        "pages": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P258A",
+    "entryId": "generic-p258a",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P258A.md",
+    "title": "P258A: Open brake-vacuum pump control circuit in a limited GM application",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-02-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "pages": [
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P258C",
+    "entryId": "generic-p258c",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P258C.md",
+    "title": "P258C: Low vacuum-pump control circuit is a driver-state finding",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-02-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "pages": [
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P258D",
+    "entryId": "generic-p258d",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P258D.md",
+    "title": "P258D: High vacuum-pump control circuit does not prove excess vacuum",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-02-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "pages": [
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2598",
+    "entryId": "generic-p2598",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2598.md",
+    "title": "P2598: Turbo position remains low relative to its command",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          249,
+          250
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25CC",
+    "entryId": "generic-p25cc",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P25CC.md",
+    "title": "P25CC: Intake camshaft park-lock driver remains high when switched on",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          453,
+          571
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25CD",
+    "entryId": "generic-p25cd",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P25CD.md",
+    "title": "P25CD: Bank 2 camshaft park-lock circuit is classified open",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          453,
+          454,
+          571
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25CE",
+    "entryId": "generic-p25ce",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P25CE.md",
+    "title": "P25CE: Bank 2 camshaft park-lock circuit reads low with the driver off",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          453,
+          454,
+          571
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2635",
+    "entryId": "generic-p2635",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2635.md",
+    "title": "P2635: Fuel-pump performance is judged by filtered pressure error",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-02-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "pages": [
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2636",
+    "entryId": "generic-p2636",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P2636.md",
+    "title": "P2636: Transfer-pump performance is inferred from two fuel levels",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2009-02-engine"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2009-02-engine",
+        "pages": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3409",
+    "entryId": "generic-p3409",
+    "batch": "batch-29",
+    "path": "content/code-articles/batch-29/P3409.md",
+    "title": "P3409: Cylinder 2 deactivation circuit fails its startup continuity check",
+    "wordCount": 306,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          418
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C0023",
+    "entryId": "generic-c0023",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C0023.md",
+    "title": "C0023: Mazda brake-light circuit faults after flasher installation",
+    "wordCount": 345,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11034447"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11034447",
+        "pages": [
+          1,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C0030",
+    "entryId": "generic-c0030",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C0030.md",
+    "title": "C0030: Bronco Sport bearing seating in a two-day production window",
+    "wordCount": 317,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10228751"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10228751",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C0037",
+    "entryId": "generic-c0037",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C0037.md",
+    "title": "C0037: Bronco and Ranger startup brake faults with specific suffixes",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11019491"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11019491",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C0038",
+    "entryId": "generic-c0038",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C0038.md",
+    "title": "C0038: Ford stripped-chassis ABS faults and subtle tone-ring damage",
+    "wordCount": 319,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10208152"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10208152",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C006B",
+    "entryId": "generic-c006b",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C006B.md",
+    "title": "C006B: stability intervention duration needs its speed and mode context",
+    "wordCount": 287,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg03c-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg03c-diagnostics",
+        "pages": [
+          1807
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C0072",
+    "entryId": "generic-c0072",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C0072.md",
+    "title": "C0072: brake fade is a combined thermal and deceleration finding",
+    "wordCount": 286,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1166
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C009C",
+    "entryId": "generic-c009c",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C009C.md",
+    "title": "C009C: Bronco Sport connector checks before rear-drive-unit replacement",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10202624"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10202624",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C00A6",
+    "entryId": "generic-c00a6",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C00A6.md",
+    "title": "C00A6: Explorer and Aviator transfer-case actuator harness contact",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10248062"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10248062",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C05A4",
+    "entryId": "generic-c05a4",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C05A4.md",
+    "title": "C05A4: wheel-speed supply monitoring can involve an internal controller check",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1130
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C05D9",
+    "entryId": "generic-c05d9",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/C05D9.md",
+    "title": "C05D9: Bronco Sport 2.0L rear-drive motor repair instead of the complete unit",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10222786"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10222786",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P006F",
+    "entryId": "generic-p006f",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P006F.md",
+    "title": "P006F: high voltage when the turbo driver should be off",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+        "pages": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0075",
+    "entryId": "generic-p0075",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0075.md",
+    "title": "P0075: City Express faults after the specified wiring campaign repair",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10115044"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10115044",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P008F",
+    "entryId": "generic-p008f",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P008F.md",
+    "title": "P008F: compare coolant and fuel temperatures at the captured start",
+    "wordCount": 298,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+        "pages": [
+          8,
+          9,
+          311
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P014C",
+    "entryId": "generic-p014c",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P014C.md",
+    "title": "P014C: the upstream NOx sensor also supplies oxygen-response evidence",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+        "pages": [
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0318",
+    "entryId": "generic-p0318",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0318.md",
+    "title": "P0318: Cadillac no-crank faults that point toward ECM power and communication",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10113930"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10113930",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P037C",
+    "entryId": "generic-p037c",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P037C.md",
+    "title": "P037C: Silverado and Sierra harness contact in the 2.7L diagnostic case",
+    "wordCount": 319,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10193465"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10193465",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04B5",
+    "entryId": "generic-p04b5",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P04B5.md",
+    "title": "P04B5: F-150 PowerBoost fuel-door latch checks before deeper diagnosis",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10198641"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10198641",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04CA",
+    "entryId": "generic-p04ca",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P04CA.md",
+    "title": "P04CA: a low refuel-request signal is different from a stuck fuel door",
+    "wordCount": 295,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          595
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0561",
+    "entryId": "generic-p0561",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0561.md",
+    "title": "P0561: compare the TCM battery feed with its ignition feed",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08b-transmission-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08b-transmission-diagnostics",
+        "pages": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0571",
+    "entryId": "generic-p0571",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0571.md",
+    "title": "P0571: brake-switch plausibility is checked against vehicle movement",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg09-transmission-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg09-transmission-diagnostics",
+        "pages": [
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05A0",
+    "entryId": "generic-p05a0",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P05A0.md",
+    "title": "P05A0: Mazda shutter faults from temporary obstruction or cold-weather logic",
+    "wordCount": 330,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10228664"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10228664",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0633",
+    "entryId": "generic-p0633",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0633.md",
+    "title": "P0633: missing immobilizer programming is not the same as a wrong response",
+    "wordCount": 291,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          392,
+          393
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06A0",
+    "entryId": "generic-p06a0",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P06A0.md",
+    "title": "P06A0: Ford variable-displacement A/C diagnosis before compressor replacement",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10160880"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10160880",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06D2",
+    "entryId": "generic-p06d2",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P06D2.md",
+    "title": "P06D2: the fifth sensor reference is monitored for low supply voltage",
+    "wordCount": 306,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+        "pages": [
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0701",
+    "entryId": "generic-p0701",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0701.md",
+    "title": "P0701: Allison range inhibition and low pump-pressure diagnosis",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10145478"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10145478",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0845",
+    "entryId": "generic-p0845",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0845.md",
+    "title": "P0845: Escape pressure-sensor codes from a damaged shared reference harness",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10202798"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10202798",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P08B0",
+    "entryId": "generic-p08b0",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P08B0.md",
+    "title": "P08B0: manual Mustang reverse-light faults that still need diagnosis after programming",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10189779"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10189779",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0929",
+    "entryId": "generic-p0929",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0929.md",
+    "title": "P0929: F-150 console shifter faults need wiring inspection and module setup",
+    "wordCount": 324,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11020899"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11020899",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0A60",
+    "entryId": "generic-p0a60",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0A60.md",
+    "title": "P0A60: Maverick and Nautilus inverter-controller faults after startup",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11032756"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11032756",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0A71",
+    "entryId": "generic-p0a71",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0A71.md",
+    "title": "P0A71: Ford electrified no-start faults can begin with a 12-volt drop",
+    "wordCount": 319,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10201604"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10201604",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0A7D",
+    "entryId": "generic-p0a7d",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0A7D.md",
+    "title": "P0A7D: Ford hybrid battery discharge does not automatically mean pack replacement",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10180367"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10180367",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0A8F",
+    "entryId": "generic-p0a8f",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0A8F.md",
+    "title": "P0A8F: GM eAssist charging faults and high-current fuse connections",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10112981"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10112981",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0A93",
+    "entryId": "generic-p0a93",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0A93.md",
+    "title": "P0A93: Ford DCACA inverter message with the exact 96 suffix",
+    "wordCount": 314,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10249432"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10249432",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0AA4",
+    "entryId": "generic-p0aa4",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P0AA4.md",
+    "title": "P0AA4: Mach-E and E-Transit faults after junction-box replacement",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10237965"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10237965",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20CC",
+    "entryId": "generic-p20cc",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P20CC.md",
+    "title": "P20CC: aftertreatment injector performance is judged through exhaust heat",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+        "pages": [
+          182,
+          183
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2124",
+    "entryId": "generic-p2124",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2124.md",
+    "title": "P2124: F-150 intermittent pedal faults and harness routing at the booster",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10119677"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10119677",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2183",
+    "entryId": "generic-p2183",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2183.md",
+    "title": "P2183: Escape and Corsair PHEV coolant warnings require the overheat-code distinction",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10205448"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10205448",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P219C",
+    "entryId": "generic-p219c",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P219C.md",
+    "title": "P219C: cylinder one can be imbalanced in either mixture direction",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P219D",
+    "entryId": "generic-p219d",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P219D.md",
+    "title": "P219D: interpret cylinder-two imbalance against the correct bank baseline",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P219E",
+    "entryId": "generic-p219e",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P219E.md",
+    "title": "P219E: cylinder-three imbalance requires trustworthy timing information",
+    "wordCount": 291,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P219F",
+    "entryId": "generic-p219f",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P219F.md",
+    "title": "P219F: do not infer a cylinder-four part failure from the imbalance code",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21A0",
+    "entryId": "generic-p21a0",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P21A0.md",
+    "title": "P21A0: cylinder-five imbalance can be hidden by a normal-looking bank average",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21A1",
+    "entryId": "generic-p21a1",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P21A1.md",
+    "title": "P21A1: evaluate cylinder six during an eligible mixture-comparison window",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21A2",
+    "entryId": "generic-p21a2",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P21A2.md",
+    "title": "P21A2: cylinder-seven imbalance has rich and lean diagnostic branches",
+    "wordCount": 286,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21A3",
+    "entryId": "generic-p21a3",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P21A3.md",
+    "title": "P21A3: cylinder-eight imbalance needs a cylinder result and a bank reference",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2467",
+    "entryId": "generic-p2467",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2467.md",
+    "title": "P2467: coolant-loss diagnosis in Ford’s 2.0L EcoBoost EGR-cooler case",
+    "wordCount": 314,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10168812"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10168812",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2493",
+    "entryId": "generic-p2493",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2493.md",
+    "title": "P2493: EGR bypass tracking depends on completed offset learning",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+        "pages": [
+          223
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24C2",
+    "entryId": "generic-p24c2",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P24C2.md",
+    "title": "P24C2: Super Duty exhaust-temperature faults and the PCM software case",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10189774"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10189774",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2507",
+    "entryId": "generic-p2507",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2507.md",
+    "title": "P2507: Mazda transport-mode starts can leave a low-voltage history code",
+    "wordCount": 324,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10170813"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10170813",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2530",
+    "entryId": "generic-p2530",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2530.md",
+    "title": "P2530: Mazda CX-50 Hybrid startup failure and campaign eligibility",
+    "wordCount": 317,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11030702"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11030702",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2538",
+    "entryId": "generic-p2538",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2538.md",
+    "title": "P2538: accessory-input diagnosis includes the network power-mode state",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          393
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2539",
+    "entryId": "generic-p2539",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2539.md",
+    "title": "P2539: Transit KOEO self-test code versus a running-engine fault",
+    "wordCount": 303,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10218606"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10218606",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25CA",
+    "entryId": "generic-p25ca",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P25CA.md",
+    "title": "P25CA: bank-one cam lock-pin open-circuit feedback needs command context",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          453
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25CB",
+    "entryId": "generic-p25cb",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P25CB.md",
+    "title": "P25CB: bank-one cam lock-pin short-to-ground is an electrical branch",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          453
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25CF",
+    "entryId": "generic-p25cf",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P25CF.md",
+    "title": "P25CF: bank-two cam lock-pin feedback stays high when commanded on",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          453,
+          454
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2637",
+    "entryId": "generic-p2637",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2637.md",
+    "title": "P2637: the transmission received an invalid engine-torque message",
+    "wordCount": 287,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2010-10obdg08-trans-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg08-trans-diagnostics",
+        "pages": [
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2687",
+    "entryId": "generic-p2687",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2687.md",
+    "title": "P2687: fuel-filter heater open-circuit detection uses off-state feedback",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          253
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2688",
+    "entryId": "generic-p2688",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2688.md",
+    "title": "P2688: fuel-filter heater feedback indicates the short-to-ground branch",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          254
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2689",
+    "entryId": "generic-p2689",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2689.md",
+    "title": "P2689: fuel-heater feedback remains high during an on command",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          254
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P268A",
+    "entryId": "generic-p268a",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P268A.md",
+    "title": "P268A: injector calibration data fails its programming-integrity check",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg09-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+        "pages": [
+          233,
+          234
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26A5",
+    "entryId": "generic-p26a5",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P26A5.md",
+    "title": "P26A5: bypass-valve feedback falls into an unexpected position band",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          568
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26A6",
+    "entryId": "generic-p26a6",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P26A6.md",
+    "title": "P26A6: coolant-bypass valve feedback is below its electrical range",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          567,
+          568
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26A7",
+    "entryId": "generic-p26a7",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P26A7.md",
+    "title": "P26A7: high valve feedback is not proof of a fully open bypass",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          567,
+          568
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26A9",
+    "entryId": "generic-p26a9",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P26A9.md",
+    "title": "P26A9: a failed coolant-bypass endpoint learn needs its fault context",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+        "pages": [
+          567
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26C8",
+    "entryId": "generic-p26c8",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P26C8.md",
+    "title": "P26C8: a received warning request points to another controller’s findings",
+    "wordCount": 287,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg04-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+        "pages": [
+          131
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2701",
+    "entryId": "generic-p2701",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2701.md",
+    "title": "P2701: Ford 10R80 clutch leakage requires a measured diagnosis",
+    "wordCount": 334,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11017121"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11017121",
+        "pages": [
+          1,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2716",
+    "entryId": "generic-p2716",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2716.md",
+    "title": "P2716: solenoid D electrical diagnosis accumulates current-tracking error",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2010-10obdg04-trans-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+        "pages": [
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2719",
+    "entryId": "generic-p2719",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2719.md",
+    "title": "P2719: solenoid D performance is checked during a stable current command",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2010-10obdg04-trans-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+        "pages": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2725",
+    "entryId": "generic-p2725",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2725.md",
+    "title": "P2725: solenoid E feedback error is accumulated and reset conditionally",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2010-10obdg04-trans-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+        "pages": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2734",
+    "entryId": "generic-p2734",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2734.md",
+    "title": "P2734: solenoid F diagnosis uses cumulative command-versus-feedback error",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg06-transmission-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+        "pages": [
+          93
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2759",
+    "entryId": "generic-p2759",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2759.md",
+    "title": "P2759: torque-converter pressure control has an electrical tracking test",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2010-10obdg04-trans-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+        "pages": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2765",
+    "entryId": "generic-p2765",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2765.md",
+    "title": "P2765: Audi S tronic sensor-module diagnosis needs the DFCC",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10118306"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10118306",
+        "pages": [
+          1,
+          2,
+          3,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2771",
+    "entryId": "generic-p2771",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2771.md",
+    "title": "P2771: 4WD low switch state versus the calculated transfer ratio",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2010-10obdg07-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg07-engine-diagnostics",
+        "pages": [
+          182
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P279C",
+    "entryId": "generic-p279c",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P279C.md",
+    "title": "P279C: transfer-case range information that needs a careful cross-check",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2010-10obdg10-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+        "pages": [
+          130
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2A03",
+    "entryId": "generic-p2a03",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2A03.md",
+    "title": "P2A03: bank 2 upstream oxygen-sensor readiness in the GM monitor",
+    "wordCount": 303,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2010-10obdg08-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2010-10obdg08-engine-diagnostics",
+        "pages": [
+          204
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2AB7",
+    "entryId": "generic-p2ab7",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2AB7.md",
+    "title": "P2AB7: EcoBoost wastegate faults and the separately serviced actuator kit",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10208111"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10208111",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2ABA",
+    "entryId": "generic-p2aba",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2ABA.md",
+    "title": "P2ABA: F-150 2.7L wastegate faults and a historical no-symptom case",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10218902"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10218902",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2BAD",
+    "entryId": "generic-p2bad",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2BAD.md",
+    "title": "P2BAD: Duramax fluid-quality messages and the difference between a failed and unfinished test",
+    "wordCount": 322,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10112163"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10112163",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C23",
+    "entryId": "generic-p2c23",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2C23.md",
+    "title": "P2C23: Ford hybrid exhaust heat-exchanger connector checks",
+    "wordCount": 314,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11000295"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11000295",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C44",
+    "entryId": "generic-p2c44",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2C44.md",
+    "title": "P2C44: PowerBoost ground integrity before auxiliary battery isolator replacement",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10214160"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10214160",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2DA6",
+    "entryId": "generic-p2da6",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/P2DA6.md",
+    "title": "P2DA6: F-150 Lightning coolant-heater diagnosis and the ECT2 test step",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10249430"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10249430",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0010",
+    "entryId": "generic-u0010",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0010.md",
+    "title": "U0010: Transit camera-module code after BCM replacement programming",
+    "wordCount": 306,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10137080"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10137080",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0028",
+    "entryId": "generic-u0028",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0028.md",
+    "title": "U0028: GM truck communication faults during electrical-load events",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10113356"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10113356",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0037",
+    "entryId": "generic-u0037",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0037.md",
+    "title": "U0037: Mustang GTD suspension warnings and VDM software",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11038443"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11038443",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0110",
+    "entryId": "generic-u0110",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0110.md",
+    "title": "U0110: Mazda PHEV no-READY condition with luggage-compartment corrosion",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11037628"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11037628",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0156",
+    "entryId": "generic-u0156",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0156.md",
+    "title": "U0156: 2026 CX-5 cockpit communication faults and a revision limitation",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "nhtsa-mc-11033226"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11033226",
+        "pages": [
+          1,
+          4,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U016A",
+    "entryId": "generic-u016a",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U016A.md",
+    "title": "U016A: a Transit self-test code on vehicles built without a TCU",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11025486"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11025486",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0198",
+    "entryId": "generic-u0198",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0198.md",
+    "title": "U0198: Mazda TCU communication alerts and the information the dealer needs",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11030631"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11030631",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0214",
+    "entryId": "generic-u0214",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0214.md",
+    "title": "U0214: Mach-E phone-as-key failure after an over-the-air update",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10235085"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10235085",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0232",
+    "entryId": "generic-u0232",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0232.md",
+    "title": "U0232: Expedition and Navigator radar warnings need contamination and wiring checks",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11001579"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11001579",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0237",
+    "entryId": "generic-u0237",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0237.md",
+    "title": "U0237: Ford audio loss with DSP reset and programming",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10239099"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10239099",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0238",
+    "entryId": "generic-u0238",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0238.md",
+    "title": "U0238: Lincoln Aviator audio loss and the DSP recovery test",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11031413"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11031413",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U023A",
+    "entryId": "generic-u023a",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U023A.md",
+    "title": "U023A: 2024 Mustang pre-collision warning after remote start",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10245390"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10245390",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0244",
+    "entryId": "generic-u0244",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0244.md",
+    "title": "U0244: Expedition and Navigator running-board faults from DSM software",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11038693"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11038693",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0253",
+    "entryId": "generic-u0253",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0253.md",
+    "title": "U0253: Mach-E drive-mode fallback and coordinated software updates",
+    "wordCount": 314,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10249758"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10249758",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U026B",
+    "entryId": "generic-u026b",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U026B.md",
+    "title": "U026B: Escalade assistance and lighting faults from a fascia harness short",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-10174858"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-10174858",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0293",
+    "entryId": "generic-u0293",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0293.md",
+    "title": "U0293: F-150 Lightning backup-power faults and gateway software history",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11000291"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11000291",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0504",
+    "entryId": "generic-u0504",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U0504.md",
+    "title": "U0504: Aviator gearshift data faults with multiple door-latch warnings",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11038446"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11038446",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3012",
+    "entryId": "generic-u3012",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U3012.md",
+    "title": "U3012: Ford startup brake warnings and a historical ABS communication case",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11017397"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11017397",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3035",
+    "entryId": "generic-u3035",
+    "batch": "batch-30",
+    "path": "content/code-articles/batch-30/U3035.md",
+    "title": "U3035: Ford TRON authentication faults after module replacement",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nhtsa-mc-11018238"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "nhtsa-mc-11018238",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  }
+]

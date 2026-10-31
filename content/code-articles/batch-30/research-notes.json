@@ -1,0 +1,2292 @@
+{
+  "batch": "batch-30",
+  "status": "complete",
+  "articleCount": 100,
+  "expectedArticleCount": 100,
+  "checkedCount": 91,
+  "needsReviewCount": 9,
+  "substantiveWordCount": {
+    "minimum": 214,
+    "maximum": 264,
+    "total": 24056,
+    "method": "Count article prose before Source and applicability, excluding all headings and frontmatter."
+  },
+  "missingAssignments": [],
+  "validationErrors": [],
+  "reviewMethod": [
+    "Individually authored per-code prose; helper only serializes explicit content and metadata.",
+    "Read the actual GM monitor rows with surrounding continuation and enable conditions, not incidental inhibit-list matches.",
+    "Read original manufacturer bulletin text for vehicle/year/engine/build/revision/repair-history boundaries; NHTSA catalog tags do not establish fitment.",
+    "Rendered and visually inspected 26 selected original PDF pages for column alignment, source anomalies and model/application boundaries.",
+    "Checked JSON metadata, exact assigned code and entry identity, draft status, complete descriptions, source-index membership and physical PDF page bounds.",
+    "Checked all 100 substantive bodies for repeated paragraphs and unique-word lexical overlap. No verbatim paragraph of more than 35 words was duplicated. This is a screening check; genuinely shared diagnostic strategies are documented separately."
+  ],
+  "sharedDiagnosticLogic": [
+    {
+      "codes": [
+        "P219C",
+        "P219D",
+        "P219E",
+        "P219F",
+        "P21A0",
+        "P21A1",
+        "P21A2",
+        "P21A3"
+      ],
+      "explanation": "One verified bank-relative rich/lean imbalance strategy for different cylinders. Separately authored explanations emphasize distinct interpretation and enable-condition pitfalls; no invented cylinder-specific failure causes."
+    },
+    {
+      "codes": [
+        "P2687",
+        "P2688",
+        "P2689"
+      ],
+      "explanation": "Same fuel-filter heater driver with distinct open/ground/power fault classes and drive-state interpretation."
+    },
+    {
+      "codes": [
+        "P25CA",
+        "P25CB",
+        "P25CF"
+      ],
+      "explanation": "Cam lock-pin electrical family; driver command, bank and electrical fault class preserved. Original resistance cells remain incomplete and explicitly flagged."
+    },
+    {
+      "codes": [
+        "P26A5",
+        "P26A6",
+        "P26A7",
+        "P26A9"
+      ],
+      "explanation": "Coolant bypass actuator performance, low/high feedback and endpoint-learning branches are distinguished."
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "code": "C006B",
+      "issue": "Two speed-dependent duration branches are printed, but their normal/sport-mode mapping is not explicit; exact branch limits omitted.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    },
+    {
+      "code": "C0072",
+      "issue": "Original narrative malfunction cell retains TBD placeholders although the adjacent threshold column specifies the combined criteria.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    },
+    {
+      "code": "P014C",
+      "issue": "Printed response-time inequality is not reconciled with the slow-response description; exact timing pass/fail rule omitted.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    },
+    {
+      "code": "P25CA",
+      "issue": "Original PDF resistance-limit cell is visibly incomplete; no exact resistance threshold is supplied in the article.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    },
+    {
+      "code": "P25CB",
+      "issue": "Original short-to-ground threshold cell is incomplete; exact resistance value omitted.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    },
+    {
+      "code": "P25CF",
+      "issue": "Original short-to-power resistance cell is truncated; exact electrical measurement limit omitted.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    },
+    {
+      "code": "P26A5",
+      "issue": "OEM row title calls P26A5 stop/minimum-stop performance; canonical label is range/performance. Exact feedback bands retained with document-only scope.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    },
+    {
+      "code": "P279C",
+      "issue": "Original page 130 strategy describes reported neutral versus actual state, but adjacent ratio expression excludes high and low ranges. Neutral-recognition logic is unresolved; article deliberately gives no reconstructed threshold or repair.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    },
+    {
+      "code": "U0156",
+      "issue": "May 2026 alert page 4 explicitly directs CDC update or U0156 DCM diagnosis, while page 10 broadly says no repairs/component replacements at this time. Their scope relationship remains unclear; article marks the conflict and avoids prescribing a reset or update unconditionally.",
+      "disposition": "Useful bounded draft retained with sourceReview needs-review; no unsupported threshold or repair supplied."
+    }
+  ],
+  "sourceVisualChecks": [
+    {
+      "sourceId": "gm-2020-20obdg03c-diagnostics",
+      "physicalPage": 1807
+    },
+    {
+      "sourceId": "gm-2020-20obdg07-diagnostics",
+      "physicalPage": 1166
+    },
+    {
+      "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+      "physicalPage": 6
+    },
+    {
+      "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+      "physicalPage": 8
+    },
+    {
+      "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+      "physicalPage": 22
+    },
+    {
+      "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+      "physicalPage": 126
+    },
+    {
+      "sourceId": "gm-2020-20obdg07-diagnostics",
+      "physicalPage": 129
+    },
+    {
+      "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+      "physicalPage": 223
+    },
+    {
+      "sourceId": "gm-2020-20obdg07-diagnostics",
+      "physicalPage": 453
+    },
+    {
+      "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+      "physicalPage": 233
+    },
+    {
+      "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+      "physicalPage": 6
+    },
+    {
+      "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+      "physicalPage": 7
+    },
+    {
+      "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+      "physicalPage": 3
+    },
+    {
+      "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+      "physicalPage": 130
+    },
+    {
+      "sourceId": "gm-2010-10obdg08-engine-diagnostics",
+      "physicalPage": 204
+    },
+    {
+      "sourceId": "nhtsa-mc-10118306",
+      "physicalPage": 1
+    },
+    {
+      "sourceId": "nhtsa-mc-11017121",
+      "physicalPage": 1
+    },
+    {
+      "sourceId": "nhtsa-mc-10228664",
+      "physicalPage": 1
+    },
+    {
+      "sourceId": "nhtsa-mc-11033226",
+      "physicalPage": 4
+    },
+    {
+      "sourceId": "nhtsa-mc-11033226",
+      "physicalPage": 10
+    },
+    {
+      "sourceId": "nhtsa-mc-10222786",
+      "physicalPage": 1
+    },
+    {
+      "sourceId": "nhtsa-mc-11032756",
+      "physicalPage": 1
+    },
+    {
+      "sourceId": "nhtsa-mc-10228751",
+      "physicalPage": 1
+    },
+    {
+      "sourceId": "nhtsa-mc-10228751",
+      "physicalPage": 2
+    },
+    {
+      "sourceId": "nhtsa-mc-10193465",
+      "physicalPage": 1
+    },
+    {
+      "sourceId": "nhtsa-mc-10193465",
+      "physicalPage": 2
+    }
+  ],
+  "rejectedAssignments": [
+    {
+      "code": "P01DB",
+      "reason": "Candidate only incidental calibration reference; root replaced with U0214."
+    },
+    {
+      "code": "P0646",
+      "reason": "Candidate only an inhibit/calibration mention; root replaced with U0037."
+    },
+    {
+      "code": "P0647",
+      "reason": "Candidate only an inhibit/calibration mention; root replaced with P2467."
+    },
+    {
+      "code": "P2500",
+      "reason": "Candidate sources contain inhibit-list mentions without a monitor row."
+    },
+    {
+      "code": "P2501",
+      "reason": "Candidate sources contain inhibit-list mentions without a monitor row."
+    },
+    {
+      "code": "P2645",
+      "reason": "Candidate source shows a fault bundle, not the assigned monitor."
+    },
+    {
+      "code": "P2648",
+      "reason": "Candidate source shows a fault bundle, not the assigned monitor."
+    },
+    {
+      "code": "C0055",
+      "reason": "GM EBCM vehicle-speed meaning conflicts with generic steering-wheel-position-signal definition."
+    },
+    {
+      "code": "P2B61",
+      "reason": "Mazda bulletin explicitly excludes this code from its P0126 repair; no positive P2B61 diagnostic path."
+    },
+    {
+      "code": "B0013",
+      "reason": "GM driver steering-wheel airbag meaning conflicts with generic passenger knee-bolster definition."
+    },
+    {
+      "code": "U3008",
+      "reason": "Mazda BPS input/output over-current/voltage definition conflicts with generic control-module-ground definition."
+    },
+    {
+      "code": "B0081",
+      "reason": "GM passenger-presence-system meaning conflicts with generic first-row-center load-limiter definition."
+    },
+    {
+      "code": "U04A5",
+      "reason": "Only VW on-car-analysis recruitment listing; no usable diagnostic path."
+    },
+    {
+      "code": "C0550",
+      "reason": "GM rear differential control-module software meaning conflicts with generic vacuum-sensor-B circuit-high definition."
+    }
+  ],
+  "historicalSourceLimits": "Dated interim software messages are not represented as proof that a subsequent update exists or was installed. No current warranty entitlement, repair price, universal fitment or safe-driving conclusion is inferred.",
+  "allDrafts": true,
+  "humanMechanicApproval": false,
+  "articles": [
+    {
+      "code": "C0023",
+      "entryId": "generic-c0023",
+      "substantiveWordCount": 256,
+      "sourceReview": "checked",
+      "sha256": "32c9123bb0b744a593d876ba4059a5c0080f5c31779829061b11e307160d95f9",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11034447",
+          "pages": [
+            1,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0030",
+      "entryId": "generic-c0030",
+      "substantiveWordCount": 256,
+      "sourceReview": "checked",
+      "sha256": "ea57c74c7cd1a12499b657368101adda49fd5b071065690d557ed1de6f2314a6",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10228751",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0037",
+      "entryId": "generic-c0037",
+      "substantiveWordCount": 249,
+      "sourceReview": "checked",
+      "sha256": "fbcb04a7fa99d4fad4c22d0745f3d16f6402fed977fe1b4991ae7f456a797cb0",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11019491",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0038",
+      "entryId": "generic-c0038",
+      "substantiveWordCount": 264,
+      "sourceReview": "checked",
+      "sha256": "9bde409a29af54463f1c703a50a557179dfc7d919ae0cf9a04e214aecde5308f",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10208152",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C006B",
+      "entryId": "generic-c006b",
+      "substantiveWordCount": 230,
+      "sourceReview": "needs-review",
+      "sha256": "f1007876b014730671234e2d10f4fbef30ab1b01eb1193fc254e154e0e9d3a3c",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg03c-diagnostics",
+          "pages": [
+            1807
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0072",
+      "entryId": "generic-c0072",
+      "substantiveWordCount": 231,
+      "sourceReview": "needs-review",
+      "sha256": "a5b2d1d54a0ba87cebfde2f84c368da326e60b4d5faa25e57e0727f659d04603",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            1166
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C009C",
+      "entryId": "generic-c009c",
+      "substantiveWordCount": 251,
+      "sourceReview": "checked",
+      "sha256": "efd55e30fbee16af3f1fead65360ff9b2b2afdc76f61ed02687768e0865e8ad1",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10202624",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C00A6",
+      "entryId": "generic-c00a6",
+      "substantiveWordCount": 247,
+      "sourceReview": "checked",
+      "sha256": "51ec2ef2705aa246b2ea91a284de24f6daec27bef7b99956376e248af9845174",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10248062",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C05A4",
+      "entryId": "generic-c05a4",
+      "substantiveWordCount": 241,
+      "sourceReview": "checked",
+      "sha256": "c6b520dd5429b14bceb5089a6115582e8f1968319573823d50d54c4db2fcc405",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            1130
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C05D9",
+      "entryId": "generic-c05d9",
+      "substantiveWordCount": 251,
+      "sourceReview": "checked",
+      "sha256": "b0c4517896e87793a02946bd272df150403c7dcad5d6b85723e75fe63f51c1b0",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10222786",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P006F",
+      "entryId": "generic-p006f",
+      "substantiveWordCount": 233,
+      "sourceReview": "checked",
+      "sha256": "caaed92de7af6c3123d0c40c285aec4d2644dedabf92a497803a1d7d9f2895e6",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+          "pages": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0075",
+      "entryId": "generic-p0075",
+      "substantiveWordCount": 258,
+      "sourceReview": "checked",
+      "sha256": "acc6728e11dfe4ceb16ebaa2eccefb889819788f79235c9e5250ee92b01a71b5",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10115044",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P008F",
+      "entryId": "generic-p008f",
+      "substantiveWordCount": 235,
+      "sourceReview": "checked",
+      "sha256": "eb31fdcf045e5cf455084eccdb22043a6d7e22277655a531b84ab09458ea60eb",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+          "pages": [
+            8,
+            9,
+            311
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P014C",
+      "entryId": "generic-p014c",
+      "substantiveWordCount": 233,
+      "sourceReview": "needs-review",
+      "sha256": "7834d0c7cd21b158225991c0b1f1735fb3565bbad4b4d6e4d43a7fc418ce1801",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+          "pages": [
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0318",
+      "entryId": "generic-p0318",
+      "substantiveWordCount": 260,
+      "sourceReview": "checked",
+      "sha256": "ecfc868d6bc7f247bdc805de699dffbb8873eacc1f2050d8b0acbe8b981d4e18",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10113930",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P037C",
+      "entryId": "generic-p037c",
+      "substantiveWordCount": 246,
+      "sourceReview": "checked",
+      "sha256": "91dad5f52dc224816044fcdd21e4ccc088b459a4eeda535b2204639c8022bd7d",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10193465",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P04B5",
+      "entryId": "generic-p04b5",
+      "substantiveWordCount": 259,
+      "sourceReview": "checked",
+      "sha256": "1b5b72eba953ecbe7efd8327a5e6ca23ba25009d16be8dd7fe0c431040664e94",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10198641",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P04CA",
+      "entryId": "generic-p04ca",
+      "substantiveWordCount": 236,
+      "sourceReview": "checked",
+      "sha256": "eb9f5f5c348cac999fb0f9ad097040e4fc3e9b7280e06ed826dd0bdc1cd49229",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0561",
+      "entryId": "generic-p0561",
+      "substantiveWordCount": 232,
+      "sourceReview": "checked",
+      "sha256": "9a06291efd02395230077b6573e67b2c43a5da174ff7f6a99c3d08a27b2a432b",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg08b-transmission-diagnostics",
+          "pages": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0571",
+      "entryId": "generic-p0571",
+      "substantiveWordCount": 232,
+      "sourceReview": "checked",
+      "sha256": "ceb73a0ddc33004a46674f15af6fc6d20e7eca5971a0bcf359fbc0d581449a32",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg09-transmission-diagnostics",
+          "pages": [
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P05A0",
+      "entryId": "generic-p05a0",
+      "substantiveWordCount": 243,
+      "sourceReview": "checked",
+      "sha256": "e02f4d8413e25821430b57e52bfddc479cc821e768550bf78cf9f1b91a6c2828",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10228664",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0633",
+      "entryId": "generic-p0633",
+      "substantiveWordCount": 232,
+      "sourceReview": "checked",
+      "sha256": "6e930f7bd82a3fdcc19ba29002d2c64511f20254aadb9615f7406cca86f76088",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            392,
+            393
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P06A0",
+      "entryId": "generic-p06a0",
+      "substantiveWordCount": 242,
+      "sourceReview": "checked",
+      "sha256": "30082b1d69216ff8e09ae35ea81d571e501a430a74c2cdb694a13f95721aa616",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10160880",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P06D2",
+      "entryId": "generic-p06d2",
+      "substantiveWordCount": 244,
+      "sourceReview": "checked",
+      "sha256": "c68e59519994808376dcbec8f623c4ec488ab54826747eaecbc695408b6f6971",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+          "pages": [
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0701",
+      "entryId": "generic-p0701",
+      "substantiveWordCount": 252,
+      "sourceReview": "checked",
+      "sha256": "e1cbbc64720a47e4eeb70b3fcc5152e66859c4d51e0d6c3d81b5adfadbd00278",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10145478",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0845",
+      "entryId": "generic-p0845",
+      "substantiveWordCount": 259,
+      "sourceReview": "checked",
+      "sha256": "86501bb6c05a40be2571074d665d4247273e26d2d3857a0dd38982b842282172",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10202798",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P08B0",
+      "entryId": "generic-p08b0",
+      "substantiveWordCount": 240,
+      "sourceReview": "checked",
+      "sha256": "c53b43c3b34c32498b2cfca75f2cde267fe2e4e8cba37626b58cb8ec93808a14",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10189779",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0929",
+      "entryId": "generic-p0929",
+      "substantiveWordCount": 252,
+      "sourceReview": "checked",
+      "sha256": "0b641b59a0e1a49547623197b8215c71d37a9dc55707e4a431f735bf97ab472a",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11020899",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0A60",
+      "entryId": "generic-p0a60",
+      "substantiveWordCount": 245,
+      "sourceReview": "checked",
+      "sha256": "1bbbcfb3539b9b163fb6e45c6de622efe370c26009e22d74cebce56d253decc2",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11032756",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0A71",
+      "entryId": "generic-p0a71",
+      "substantiveWordCount": 245,
+      "sourceReview": "checked",
+      "sha256": "04c468e06ee8b96c6e2798c8c53bfe87d96c696e49caa0bbd4a8474f46bddbff",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10201604",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0A7D",
+      "entryId": "generic-p0a7d",
+      "substantiveWordCount": 249,
+      "sourceReview": "checked",
+      "sha256": "12edef1b92167ac8ecd98543375835d9c3f0c615f417d723ef3cd7a7fb65d4ff",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10180367",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0A8F",
+      "entryId": "generic-p0a8f",
+      "substantiveWordCount": 243,
+      "sourceReview": "checked",
+      "sha256": "a712647608ff951e9841bb73154ced8ebbe0583e751fa03bb3852f708a0762b4",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10112981",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0A93",
+      "entryId": "generic-p0a93",
+      "substantiveWordCount": 252,
+      "sourceReview": "checked",
+      "sha256": "21930e0e8abd49b313132f8dbb28cba2b71ecb7f4e4985cb44431fca88b7cfb9",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10249432",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0AA4",
+      "entryId": "generic-p0aa4",
+      "substantiveWordCount": 240,
+      "sourceReview": "checked",
+      "sha256": "2cfbc73d5a044773e1fcb9b224af891801857e186e4dcb95148a54a8e2ad648f",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10237965",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P20CC",
+      "entryId": "generic-p20cc",
+      "substantiveWordCount": 238,
+      "sourceReview": "checked",
+      "sha256": "e192d96dae62242da5aa5919efe13c22d5f28c07488a09d4a973c1b35920d055",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+          "pages": [
+            182,
+            183
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2124",
+      "entryId": "generic-p2124",
+      "substantiveWordCount": 241,
+      "sourceReview": "checked",
+      "sha256": "8cd131eae9b6b8aab6a8df287281a468e63af060adf036d4f1e093082538f1a3",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10119677",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2183",
+      "entryId": "generic-p2183",
+      "substantiveWordCount": 245,
+      "sourceReview": "checked",
+      "sha256": "aba0c805d54351faedd1655a2caed86ecc75f65428a1cedc5fff49b9f5acdc5c",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10205448",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P219C",
+      "entryId": "generic-p219c",
+      "substantiveWordCount": 227,
+      "sourceReview": "checked",
+      "sha256": "56e3134d0e975b30e41a8303dcdd00bc18774c8332971a9ebf6e511487ba154f",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P219D",
+      "entryId": "generic-p219d",
+      "substantiveWordCount": 233,
+      "sourceReview": "checked",
+      "sha256": "521a83c40752d5e118a9c8ee066b661def5552c6fd0f159da363e3ca464dbae4",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P219E",
+      "entryId": "generic-p219e",
+      "substantiveWordCount": 232,
+      "sourceReview": "checked",
+      "sha256": "7dd7712495a84e6fa45ce3069d2a535099ad85ff86cbe0e6c26f923cd4b7c483",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P219F",
+      "entryId": "generic-p219f",
+      "substantiveWordCount": 223,
+      "sourceReview": "checked",
+      "sha256": "783e6e6a8eea31929f20309c179f4f54872007254cd2cdb2378cfe811d6673e1",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P21A0",
+      "entryId": "generic-p21a0",
+      "substantiveWordCount": 222,
+      "sourceReview": "checked",
+      "sha256": "7cbe29dd73a482a56f0043a61a288a6f416bb20c2bc6d1323663417cd5574f65",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P21A1",
+      "entryId": "generic-p21a1",
+      "substantiveWordCount": 227,
+      "sourceReview": "checked",
+      "sha256": "7be36472a4df0c01a5c2e1aba305fca9d0bd669c79d0dbc2724d756a5efc992e",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P21A2",
+      "entryId": "generic-p21a2",
+      "substantiveWordCount": 223,
+      "sourceReview": "checked",
+      "sha256": "6ab8c53a4b62f3a9d7fc92bff57005cccedf4f3fcb5f6dc7a6500325962367fe",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P21A3",
+      "entryId": "generic-p21a3",
+      "substantiveWordCount": 218,
+      "sourceReview": "checked",
+      "sha256": "8d3086043fffb3cf7efdecf2209a8a6f2feaa0608a3f9d75dfa67f6c6b895936",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2467",
+      "entryId": "generic-p2467",
+      "substantiveWordCount": 253,
+      "sourceReview": "checked",
+      "sha256": "564e743db2da8b798c3a67ee04e2f1274ba441f29ea4859933219fbf686ee91a",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10168812",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2493",
+      "entryId": "generic-p2493",
+      "substantiveWordCount": 223,
+      "sourceReview": "checked",
+      "sha256": "2dc319d1651b549c7ec344636c67f0e05c8585e3c1cdea3dd725b71ee9a3d54d",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+          "pages": [
+            223
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P24C2",
+      "entryId": "generic-p24c2",
+      "substantiveWordCount": 250,
+      "sourceReview": "checked",
+      "sha256": "b2f81382a5d81c38f9f900e1ccbc99419092b3968c00e6858c95fefe213b18bc",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10189774",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2507",
+      "entryId": "generic-p2507",
+      "substantiveWordCount": 247,
+      "sourceReview": "checked",
+      "sha256": "780a966d14554d94ca09d992e714f2c1dba9cfe3e5bbefce3aac26b1e7309e5b",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10170813",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2530",
+      "entryId": "generic-p2530",
+      "substantiveWordCount": 251,
+      "sourceReview": "checked",
+      "sha256": "0fe1cdfddbfa814ea3acacc80a092d90874359811b3726838dc229620aa7c078",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11030702",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2538",
+      "entryId": "generic-p2538",
+      "substantiveWordCount": 219,
+      "sourceReview": "checked",
+      "sha256": "6366a7b5cdafc379ca3070ddce800ac35f9c65d9ace573e14a0a9f9e2dd16012",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            393
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2539",
+      "entryId": "generic-p2539",
+      "substantiveWordCount": 250,
+      "sourceReview": "checked",
+      "sha256": "5053048c54a15d4f6e8eab353a71901bbdd61ace1363fbc2e18f89db92415f70",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10218606",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P25CA",
+      "entryId": "generic-p25ca",
+      "substantiveWordCount": 221,
+      "sourceReview": "needs-review",
+      "sha256": "177fa61d208e3edac5d9a2f4af14bd3361c130a2f5ce2d57a450fce8baf1f7d5",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            453
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P25CB",
+      "entryId": "generic-p25cb",
+      "substantiveWordCount": 222,
+      "sourceReview": "needs-review",
+      "sha256": "694500ce7f02fcfbbc3a3bd66a731b5aceb1a2a8ee9c2b4a4c8f27667447eb86",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            453
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P25CF",
+      "entryId": "generic-p25cf",
+      "substantiveWordCount": 214,
+      "sourceReview": "needs-review",
+      "sha256": "ac068520c8c56a783935195695e656dfcb6b6097a9d21870b27f1eefa215ddec",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            453,
+            454
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2637",
+      "entryId": "generic-p2637",
+      "substantiveWordCount": 230,
+      "sourceReview": "checked",
+      "sha256": "ae80d403d7c2ac5b79e2778d0fb74424b87b47475e4b687c4aeed043785dc77c",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg08-trans-diagnostics",
+          "pages": [
+            105
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2687",
+      "entryId": "generic-p2687",
+      "substantiveWordCount": 222,
+      "sourceReview": "checked",
+      "sha256": "77fadcbd8431a6a2ec90cc2e41af7e25e67ba7b7cf176a02a5028f2c3710aee4",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            253
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2688",
+      "entryId": "generic-p2688",
+      "substantiveWordCount": 220,
+      "sourceReview": "checked",
+      "sha256": "a0ee710192fb17c0a50709ee63dfd515111285943143796958d9380367282f77",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            254
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2689",
+      "entryId": "generic-p2689",
+      "substantiveWordCount": 220,
+      "sourceReview": "checked",
+      "sha256": "9c032867cf51a704acef0227bf35032c3ae45f1c21f207e7587bd5693d24583a",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            254
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P268A",
+      "entryId": "generic-p268a",
+      "substantiveWordCount": 226,
+      "sourceReview": "checked",
+      "sha256": "5382b248328fc1467f92020a252abec9664096be585e3cd51528385fa58342e7",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+          "pages": [
+            233,
+            234
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P26A5",
+      "entryId": "generic-p26a5",
+      "substantiveWordCount": 228,
+      "sourceReview": "needs-review",
+      "sha256": "1afbc13574de916a77c8efcc89d22842dd2cc62066b030b256accd055b6f339e",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            568
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P26A6",
+      "entryId": "generic-p26a6",
+      "substantiveWordCount": 219,
+      "sourceReview": "checked",
+      "sha256": "fd49da9e2e91ab2773efa846ea308ce2480756952ac8e463a4e5c173440ced56",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            567,
+            568
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P26A7",
+      "entryId": "generic-p26a7",
+      "substantiveWordCount": 223,
+      "sourceReview": "checked",
+      "sha256": "cfca5b33c7c45a4c0f7d2fee94b080041b034194cf9760498637482f2e2dc5f7",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            567,
+            568
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P26A9",
+      "entryId": "generic-p26a9",
+      "substantiveWordCount": 226,
+      "sourceReview": "checked",
+      "sha256": "22c782226cc6ce6d1704661b396eb479f5493b56182a095035c59cf2a74c7319",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            567
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P26C8",
+      "entryId": "generic-p26c8",
+      "substantiveWordCount": 229,
+      "sourceReview": "checked",
+      "sha256": "37185617608c4182121ad7d39c191a337b713145e4d3d0d070c7dddec3ea38c8",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            131
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2701",
+      "entryId": "generic-p2701",
+      "substantiveWordCount": 257,
+      "sourceReview": "checked",
+      "sha256": "15974851a5524a638552a3737ee9a42ad48214af4a8d9c717243bf29f2ebc0c5",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11017121",
+          "pages": [
+            1,
+            10,
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2716",
+      "entryId": "generic-p2716",
+      "substantiveWordCount": 226,
+      "sourceReview": "checked",
+      "sha256": "70f4aa77700dee21a7558a26ebfa7a2e51add86ad7881caeb22e0be35904f013",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2719",
+      "entryId": "generic-p2719",
+      "substantiveWordCount": 221,
+      "sourceReview": "checked",
+      "sha256": "20c5e1ecb091ba2ebf68c058fef41d728c12c582bf5289e152334e14d4fb02be",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+          "pages": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2725",
+      "entryId": "generic-p2725",
+      "substantiveWordCount": 225,
+      "sourceReview": "checked",
+      "sha256": "56de6ccc2063d4fbf8e46b59ae15ebde52cd4640f7c3f5afaad8aad0b9bf6a97",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+          "pages": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2734",
+      "entryId": "generic-p2734",
+      "substantiveWordCount": 221,
+      "sourceReview": "checked",
+      "sha256": "6c9e823339f7301e7b7fe4366cce74112fa2c6646cee402e0a7bc8554ac828de",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            93
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2759",
+      "entryId": "generic-p2759",
+      "substantiveWordCount": 219,
+      "sourceReview": "checked",
+      "sha256": "f3fd9e6f94834e9ad1c5017e0633bf7294e15c7299282c7e9762994ca2294795",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+          "pages": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2765",
+      "entryId": "generic-p2765",
+      "substantiveWordCount": 246,
+      "sourceReview": "checked",
+      "sha256": "745ee2ecb78cb4aa3fa7442efb2e32422a9f46576d43356f6defde6b572bcbfb",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10118306",
+          "pages": [
+            1,
+            2,
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2771",
+      "entryId": "generic-p2771",
+      "substantiveWordCount": 263,
+      "sourceReview": "checked",
+      "sha256": "d8d81e6311088799a79d2c669ee22d1e03f894779cd028ac11be14e6de3ed475",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg07-engine-diagnostics",
+          "pages": [
+            182
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P279C",
+      "entryId": "generic-p279c",
+      "substantiveWordCount": 246,
+      "sourceReview": "needs-review",
+      "sha256": "538ec7c8d162ed0202d18a97ea3f2ba38970be731460dda3bf734ed5b6c741be",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2A03",
+      "entryId": "generic-p2a03",
+      "substantiveWordCount": 246,
+      "sourceReview": "checked",
+      "sha256": "06707bdf37d2473c9bffa8bc4ff1e9bb61d0f36e30a7e0c05ad362a62dc7bea2",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg08-engine-diagnostics",
+          "pages": [
+            204
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2AB7",
+      "entryId": "generic-p2ab7",
+      "substantiveWordCount": 251,
+      "sourceReview": "checked",
+      "sha256": "31bef3383e940147e78a6b466cb0fe7d5fdfa656eb04da7b2f5f33bca91797ff",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10208111",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2ABA",
+      "entryId": "generic-p2aba",
+      "substantiveWordCount": 239,
+      "sourceReview": "checked",
+      "sha256": "1c7f53fcd4686c5e6c7763de71a207d133d574acddb0765f2413f1b99f4e4ad6",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10218902",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2BAD",
+      "entryId": "generic-p2bad",
+      "substantiveWordCount": 248,
+      "sourceReview": "checked",
+      "sha256": "5ede9fa3d8a96329d697813ed2ee27439c1d5e1c833270304e65a7c3d32995b5",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10112163",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2C23",
+      "entryId": "generic-p2c23",
+      "substantiveWordCount": 257,
+      "sourceReview": "checked",
+      "sha256": "3bfe813c4c999678faaa315c2da4bc5f3feaa731cad144995d84349b9b6ab69d",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11000295",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2C44",
+      "entryId": "generic-p2c44",
+      "substantiveWordCount": 242,
+      "sourceReview": "checked",
+      "sha256": "fd051141c9fff1165b9815095d55814a64d46ffa4d3b1e6afffb11812c40b6aa",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10214160",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2DA6",
+      "entryId": "generic-p2da6",
+      "substantiveWordCount": 250,
+      "sourceReview": "checked",
+      "sha256": "102bb942f3bd6fc96ff53dbd5445db85464d037812a8802d296887d6fb222de5",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10249430",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0010",
+      "entryId": "generic-u0010",
+      "substantiveWordCount": 247,
+      "sourceReview": "checked",
+      "sha256": "d6513fefea3003d938955ae950c8a525beaf722699797661b50e64e8c5545a9e",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10137080",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0028",
+      "entryId": "generic-u0028",
+      "substantiveWordCount": 252,
+      "sourceReview": "checked",
+      "sha256": "714521e96862a28566723493613cb7b68ff4867b8a0332412605c8fdcdfedf26",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10113356",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0037",
+      "entryId": "generic-u0037",
+      "substantiveWordCount": 249,
+      "sourceReview": "checked",
+      "sha256": "7f2a117b73bb6c77219129518b73ef9fb5c710ab9aced8ce843ec8c41e8ccfd0",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11038443",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0110",
+      "entryId": "generic-u0110",
+      "substantiveWordCount": 255,
+      "sourceReview": "checked",
+      "sha256": "a9bcdb817f188731ac6903a80cf0814dce765efe82aaf065332ff8a6dde3f528",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11037628",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0156",
+      "entryId": "generic-u0156",
+      "substantiveWordCount": 260,
+      "sourceReview": "needs-review",
+      "sha256": "b17eb4b444d263c73fc5db0d5b28bd8819f6f378344c8e0012d5b1041594a1dd",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11033226",
+          "pages": [
+            1,
+            4,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U016A",
+      "entryId": "generic-u016a",
+      "substantiveWordCount": 252,
+      "sourceReview": "checked",
+      "sha256": "f820b7f622708b36971e5daf9c75323d8e0307c758593a1fbd73da9a535b76ca",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11025486",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0198",
+      "entryId": "generic-u0198",
+      "substantiveWordCount": 247,
+      "sourceReview": "checked",
+      "sha256": "ca076aa7ed0805dd099b797027f2a8cc6ae8fcadd2f72a982b7730e9c8611a2c",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11030631",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0214",
+      "entryId": "generic-u0214",
+      "substantiveWordCount": 246,
+      "sourceReview": "checked",
+      "sha256": "8973219165f48672c38098a266331055cac1c4f598e8474a404e9ecb4c8c99db",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10235085",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0232",
+      "entryId": "generic-u0232",
+      "substantiveWordCount": 236,
+      "sourceReview": "checked",
+      "sha256": "67155fea011415baacc6100e0b7b9281993a06ce0b6a76c52a2da16bffb5c976",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11001579",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0237",
+      "entryId": "generic-u0237",
+      "substantiveWordCount": 253,
+      "sourceReview": "checked",
+      "sha256": "6db3f6c377142b52d5a8b739e643fd4a98464486a89e50677998297e33f6a785",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10239099",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0238",
+      "entryId": "generic-u0238",
+      "substantiveWordCount": 256,
+      "sourceReview": "checked",
+      "sha256": "89fd91c9aeb3b272c3c47dabd36e7c713ec213e2af8872bf6dba479ef78dbc90",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11031413",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U023A",
+      "entryId": "generic-u023a",
+      "substantiveWordCount": 239,
+      "sourceReview": "checked",
+      "sha256": "fc1a594470ac904ab8162706048a029668d001a62868468140b38c467f3d79dd",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10245390",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0244",
+      "entryId": "generic-u0244",
+      "substantiveWordCount": 254,
+      "sourceReview": "checked",
+      "sha256": "e9bd40542a6225a6b195284b8fd76158b6325b805d950700ad83177f97341eb7",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11038693",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0253",
+      "entryId": "generic-u0253",
+      "substantiveWordCount": 248,
+      "sourceReview": "checked",
+      "sha256": "2cce90ff57c26e4bbfa7708222bedb11686df3c522c9b4318aa21dadadda3881",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10249758",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U026B",
+      "entryId": "generic-u026b",
+      "substantiveWordCount": 254,
+      "sourceReview": "checked",
+      "sha256": "ca9b2cee3a1f4a33c095ab3b91c45880cb25493ba5c901a0beeafb0e50095194",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-10174858",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0293",
+      "entryId": "generic-u0293",
+      "substantiveWordCount": 246,
+      "sourceReview": "checked",
+      "sha256": "7aae9ef1854a6d618ec700c4b5abfd1c6e2a2c7deacce0730b4c4f4fb18f7edc",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11000291",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0504",
+      "entryId": "generic-u0504",
+      "substantiveWordCount": 245,
+      "sourceReview": "checked",
+      "sha256": "42abdc0dac1cd5ff64c342cbe3721ecdf5a05a8d7e7f97ee796cff17c5d3af8f",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11038446",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U3012",
+      "entryId": "generic-u3012",
+      "substantiveWordCount": 250,
+      "sourceReview": "checked",
+      "sha256": "e36993ea6228f2ed1b9f754d2000e3f1a5f2d8087f85d91663da4a7bb468e4e1",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11017397",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U3035",
+      "entryId": "generic-u3035",
+      "substantiveWordCount": 250,
+      "sourceReview": "checked",
+      "sha256": "9b4d3b805117de11b855af793330348c5a539c00120afbc9403ef9466b87c39d",
+      "sourcePages": [
+        {
+          "sourceId": "nhtsa-mc-11018238",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "overlapScreen": {
+    "exactRepeatedLongParagraphs": [],
+    "highestUniqueWordJaccardPairs": [
+      {
+        "codes": [
+          "P2716",
+          "P2725"
+        ],
+        "score": 0.4286
+      },
+      {
+        "codes": [
+          "P25CA",
+          "P25CB"
+        ],
+        "score": 0.3874
+      },
+      {
+        "codes": [
+          "P2725",
+          "P2759"
+        ],
+        "score": 0.379
+      },
+      {
+        "codes": [
+          "P21A1",
+          "P21A3"
+        ],
+        "score": 0.366
+      },
+      {
+        "codes": [
+          "P219C",
+          "P219F"
+        ],
+        "score": 0.3655
+      },
+      {
+        "codes": [
+          "P219F",
+          "P21A3"
+        ],
+        "score": 0.3539
+      },
+      {
+        "codes": [
+          "P2688",
+          "P2689"
+        ],
+        "score": 0.3506
+      },
+      {
+        "codes": [
+          "P2716",
+          "P2759"
+        ],
+        "score": 0.3482
+      },
+      {
+        "codes": [
+          "P219F",
+          "P21A1"
+        ],
+        "score": 0.3418
+      },
+      {
+        "codes": [
+          "P2687",
+          "P2689"
+        ],
+        "score": 0.3406
+      }
+    ],
+    "interpretation": "Lexical overlap is not a substitute for source or semantic review."
+  },
+  "appliedSubstitutions": [
+    {
+      "from": "P2500",
+      "to": "U0244",
+      "sourceId": "nhtsa-mc-11038693"
+    },
+    {
+      "from": "P2501",
+      "to": "U0504",
+      "sourceId": "nhtsa-mc-11038446"
+    },
+    {
+      "from": "P2645",
+      "to": "P037C",
+      "sourceId": "nhtsa-mc-10193465"
+    },
+    {
+      "from": "P2648",
+      "to": "C0030",
+      "sourceId": "nhtsa-mc-10228751"
+    },
+    {
+      "from": "P2B61",
+      "to": "P24C2",
+      "sourceId": "nhtsa-mc-10189774"
+    },
+    {
+      "from": "C0055",
+      "to": "P2539",
+      "sourceId": "nhtsa-mc-10218606"
+    },
+    {
+      "from": "U3008",
+      "to": "P2ABA",
+      "sourceId": "nhtsa-mc-10218902"
+    },
+    {
+      "from": "B0013",
+      "to": "C009C",
+      "sourceId": "nhtsa-mc-10202624"
+    },
+    {
+      "from": "U04A5",
+      "to": "C00A6",
+      "sourceId": "nhtsa-mc-10248062"
+    },
+    {
+      "from": "B0081",
+      "to": "P2124",
+      "sourceId": "nhtsa-mc-10119677"
+    },
+    {
+      "from": "C0550",
+      "to": "U0010",
+      "sourceId": "nhtsa-mc-10137080"
+    }
+  ],
+  "sourceFileHashChecks": [
+    {
+      "sourceId": "gm-2010-10obdg04-trans-diagnostics",
+      "sha256": "0d69003b4e26eba20656602c943fc18d1f19a4dc16de2d191f2331b27cdad0c7"
+    },
+    {
+      "sourceId": "gm-2010-10obdg07-engine-diagnostics",
+      "sha256": "0bf97e1b7843dfacad25358516527fb7d2c98712c8928d6bfeb9016601bf91b7"
+    },
+    {
+      "sourceId": "gm-2010-10obdg08-engine-diagnostics",
+      "sha256": "ae52f0567e4cd811c23f957c1a846e4707616f5acb70e291ef96c476c5c9c26f"
+    },
+    {
+      "sourceId": "gm-2010-10obdg08-trans-diagnostics",
+      "sha256": "f51932433f883a3000b31779788e15590f08e24eca446e61ecb25220b391a7e3"
+    },
+    {
+      "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+      "sha256": "2cd349308edc59a3a9bfe64503850f0848b593682d55efdd4d002c9ab1b63e08"
+    },
+    {
+      "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+      "sha256": "1a2950d5c248e5b67f2e4ac010ed0420de270acc63fcaa8a8c67466a4e90ddd0"
+    },
+    {
+      "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+      "sha256": "2d3b2021603e0170d0762e8a470a080e5acb4f9404dc54b5a13aedc416484b82"
+    },
+    {
+      "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+      "sha256": "768a15b18b4fd46a9b75ba944e459bec413bef9d2549a55942ea12c36b9b2143"
+    },
+    {
+      "sourceId": "gm-2015-15obdg08b-transmission-diagnostics",
+      "sha256": "6b2a29bfa94f69d2ee7a9ceba3049dca6a3986bb24e8a353bd6f31780464d084"
+    },
+    {
+      "sourceId": "gm-2015-15obdg09-engine-diagnostics",
+      "sha256": "295c5c30842be3ff999ed531b6458381129a7046eea21b27d137bda7edc1ae1b"
+    },
+    {
+      "sourceId": "gm-2015-15obdg09-transmission-diagnostics",
+      "sha256": "c55d1394972799a87ce4bf19c0388c11d9cacdb64aa1d2a66dd6c2150ae69fad"
+    },
+    {
+      "sourceId": "gm-2020-20obdg03c-diagnostics",
+      "sha256": "c5bb9e7b224ce9ec6a71aae6174abd322fdaecaa44b7635303022a224c93cb89"
+    },
+    {
+      "sourceId": "gm-2020-20obdg07-diagnostics",
+      "sha256": "7f6f0e368a3070bcf76642b937f353cf2d3eb1851dd28d4c6dd233aeca61d0b2"
+    },
+    {
+      "sourceId": "nhtsa-mc-10112163",
+      "sha256": "82ff1cee8f9aefe39953c3f802aa047ffe3caa0f6cb3789f0de76ede822af128"
+    },
+    {
+      "sourceId": "nhtsa-mc-10112981",
+      "sha256": "f5ce7ad3fc2789fd16dc8795ec83e736bd338f41500af0b09f3ccdbe279d2d15"
+    },
+    {
+      "sourceId": "nhtsa-mc-10113356",
+      "sha256": "6d516f10a9c038328d884f4a4d1d277b017d8f33dceb58ae283e67fd2957e6a4"
+    },
+    {
+      "sourceId": "nhtsa-mc-10113930",
+      "sha256": "3e65be9503ed0ee1010cc5724bb11a5465a22258020b1acca7ab536aae7a985e"
+    },
+    {
+      "sourceId": "nhtsa-mc-10115044",
+      "sha256": "50d965c3394bf667e61eeb7b2559597edf1cf18159be8af75a5e55d9ef4d54b5"
+    },
+    {
+      "sourceId": "nhtsa-mc-10118306",
+      "sha256": "8bdd2016f22b46b5d7e63bcb3ae600ba5970b7e6d732a5655c1d10104a9a2eee"
+    },
+    {
+      "sourceId": "nhtsa-mc-10119677",
+      "sha256": "a8cade290d49c7a64862f8c49b753aedaef21f10cee47fc3d3d4ab67cde30f74"
+    },
+    {
+      "sourceId": "nhtsa-mc-10137080",
+      "sha256": "aa43d142ecc9755f26024d659e0cb77f874ad148d11195424ea05b676b95e15a"
+    },
+    {
+      "sourceId": "nhtsa-mc-10145478",
+      "sha256": "02f1f3d7d56cb90404a8a0af2b3709121dee94032f72ed707677601e3df12d90"
+    },
+    {
+      "sourceId": "nhtsa-mc-10160880",
+      "sha256": "327d3250a22366010b410f333661f53c5ac45abe4212a597883e9fef54f1e8cd"
+    },
+    {
+      "sourceId": "nhtsa-mc-10168812",
+      "sha256": "522bde9f8e5798977bfac62e29a6ea07313cc334ded0c75aa86d150b41c1dc94"
+    },
+    {
+      "sourceId": "nhtsa-mc-10170813",
+      "sha256": "ae8c28e65073146523efcea2ba4a91037f35c4b46aa85f8cee3093e5cbd0c01c"
+    },
+    {
+      "sourceId": "nhtsa-mc-10174858",
+      "sha256": "eb217fc318749672f6632fffc1717af98ba29eb3f6e247fdb96cbaec7b873330"
+    },
+    {
+      "sourceId": "nhtsa-mc-10180367",
+      "sha256": "47bcaa8889569a97d764bfc6d0a06a421684e86089a5340d58d2df89cb1e6561"
+    },
+    {
+      "sourceId": "nhtsa-mc-10189774",
+      "sha256": "cd61371abdbb5d4bcc3511bbe4c9ef59812974708cb78b3eeb24c6859ca515a0"
+    },
+    {
+      "sourceId": "nhtsa-mc-10189779",
+      "sha256": "294f8e39f72bd56421c7249c2c63c69ad4fa4f427a2e034aea266ce793457006"
+    },
+    {
+      "sourceId": "nhtsa-mc-10193465",
+      "sha256": "e54af97814d8a81bc0a5f780c4c3cb247a3d257878772859f40dddd9a0441be6"
+    },
+    {
+      "sourceId": "nhtsa-mc-10198641",
+      "sha256": "d6bbe918503125b44f85ef19aac7a4ed9aebcf4cca3df8ad5e561f88849e9e35"
+    },
+    {
+      "sourceId": "nhtsa-mc-10201604",
+      "sha256": "3a0a9061b5e09f7c8e448984d6230a0c0b7ae4eca2d15fb9500402dede839468"
+    },
+    {
+      "sourceId": "nhtsa-mc-10202624",
+      "sha256": "34c69946dd4f6cfb18a4304dc7d0d885c2f87ebe14f6c38df5a714ebe8f1ce01"
+    },
+    {
+      "sourceId": "nhtsa-mc-10202798",
+      "sha256": "95f98f1ec744cdbda486632c56b6b7f6b7a298ded34b1983b7e4961e32a43d9b"
+    },
+    {
+      "sourceId": "nhtsa-mc-10205448",
+      "sha256": "b95dd86b170bc41cbddace6d62c0de0f857cbbd74741f11e148b8416df015624"
+    },
+    {
+      "sourceId": "nhtsa-mc-10208111",
+      "sha256": "e9505d4976b9deb4fb5a1afe3e5c9b8452d372946a5d7c928f64aa929ad0977d"
+    },
+    {
+      "sourceId": "nhtsa-mc-10208152",
+      "sha256": "54fc80733418174dd96b314a388cd8f502020936ae7d24d204c03bdb91be3338"
+    },
+    {
+      "sourceId": "nhtsa-mc-10214160",
+      "sha256": "1d84f78551c0b066bc8762757431d6b865f32baf06f6e9b526770b300e303648"
+    },
+    {
+      "sourceId": "nhtsa-mc-10218606",
+      "sha256": "2ffeb8fc7dcbfde1d332428d7a9a96a0c838ebe615867b338e9ef47b8061d0d7"
+    },
+    {
+      "sourceId": "nhtsa-mc-10218902",
+      "sha256": "e4aa20b5e276d47f3845b60ad288d46ec8d1b54571050542abb9237feb427757"
+    },
+    {
+      "sourceId": "nhtsa-mc-10222786",
+      "sha256": "2d7e446ace1a6f19f963e419fa4369d997cbcdfcc0674442193f6589fa04a7cb"
+    },
+    {
+      "sourceId": "nhtsa-mc-10228664",
+      "sha256": "76fbc45068cc35e7da8a6603e2a80e75c9f23c8fae2b56da243cfcb56950b3ce"
+    },
+    {
+      "sourceId": "nhtsa-mc-10228751",
+      "sha256": "99d574366bb6912fddd2e6c42a33776da33844f3cecb57902dd3450479478555"
+    },
+    {
+      "sourceId": "nhtsa-mc-10235085",
+      "sha256": "a9b7bae4523fba545fd18d64e5f8d740e20226deec466c5e7b0158021684ef38"
+    },
+    {
+      "sourceId": "nhtsa-mc-10237965",
+      "sha256": "f82dafde363ec98d9e8b22a55e61a65c886f7a421aefc322335e5de551eea293"
+    },
+    {
+      "sourceId": "nhtsa-mc-10239099",
+      "sha256": "e1795753fce0989ad4e1f9029adca61297399b27615e8ef745ce8e10188a3608"
+    },
+    {
+      "sourceId": "nhtsa-mc-10245390",
+      "sha256": "a5848d31ecca478f9f9c6df1eecb7a77a378593a9f18f3d42cb143e426417f06"
+    },
+    {
+      "sourceId": "nhtsa-mc-10248062",
+      "sha256": "a699489fa2bb202e3554c20d47e49f61c34d50ceb6753f45edc52a7b7adf16ea"
+    },
+    {
+      "sourceId": "nhtsa-mc-10249430",
+      "sha256": "5189f723b2d5263c3d0ecce1be890d1fcec6bc988e4b1d2583f823493539835a"
+    },
+    {
+      "sourceId": "nhtsa-mc-10249432",
+      "sha256": "830b1d9955337621f39a414c1904173268faa5b54433eacdfd853813ab8472f3"
+    },
+    {
+      "sourceId": "nhtsa-mc-10249758",
+      "sha256": "4edb555b1703b387014d522416ba470b78adc32fbc77cd63960eb11b50dddf05"
+    },
+    {
+      "sourceId": "nhtsa-mc-11000291",
+      "sha256": "41ede47c77989f2ee9d431e027faa116466b227f466534d460e24410fed7269b"
+    },
+    {
+      "sourceId": "nhtsa-mc-11000295",
+      "sha256": "24a4269e514e0169d1a6a5e3944c0f5141262cf1626fb4d0e57811a0161801d9"
+    },
+    {
+      "sourceId": "nhtsa-mc-11001579",
+      "sha256": "50dbf5fe009a732accaff1e1c133ab8ce60060589d5761f9cddc2debd309b290"
+    },
+    {
+      "sourceId": "nhtsa-mc-11017121",
+      "sha256": "2756be72983b5218dd0c68ed88b1a58603a080ded3dfe3c9a89d8f8a7c734e48"
+    },
+    {
+      "sourceId": "nhtsa-mc-11017397",
+      "sha256": "267f3b8cc8940505180783ca191fca561bc1aca2f14ee3a80901411a31468978"
+    },
+    {
+      "sourceId": "nhtsa-mc-11018238",
+      "sha256": "facfa3d55f8c2ac0622a73a45fc27fd7cf83bfdaf6f856541121fe7711152177"
+    },
+    {
+      "sourceId": "nhtsa-mc-11019491",
+      "sha256": "ecf58baa7b4559de7f660fafe42a70b0bc5aeddc1ec511e87ff5e319f784f846"
+    },
+    {
+      "sourceId": "nhtsa-mc-11020899",
+      "sha256": "fb7c16f3cfb9d2988c858f68f2d92603185ceae296df7b5d83a33d4688eef848"
+    },
+    {
+      "sourceId": "nhtsa-mc-11025486",
+      "sha256": "bebb7fb9d1f2dc1c2a66a6056ce8c17baa25280ec16fc378a57b467f7fd820af"
+    },
+    {
+      "sourceId": "nhtsa-mc-11030631",
+      "sha256": "6c9d19ff9e4c23610c9e5265917f418a80dac393d0cff82e9ba249e6970c9804"
+    },
+    {
+      "sourceId": "nhtsa-mc-11030702",
+      "sha256": "0d1a525c3d5aaa1a3cca0c2ee2619a494268a61ce045054c748d8ef00e2affcc"
+    },
+    {
+      "sourceId": "nhtsa-mc-11031413",
+      "sha256": "6487bd890f3a82fd9dffa92e0b7d630db207046f6d382b652fbba9c0048b53e9"
+    },
+    {
+      "sourceId": "nhtsa-mc-11032756",
+      "sha256": "dd49e7232351a8ba3f2da0799aa1a66d8d4c562c7cedc9430add12d1e9ce3f07"
+    },
+    {
+      "sourceId": "nhtsa-mc-11033226",
+      "sha256": "b8d317cadceed489ecc189d553097f1181dfa707e2ed1ec8a7e306522e8104b8"
+    },
+    {
+      "sourceId": "nhtsa-mc-11034447",
+      "sha256": "b3eef961ced26c12fdfe45a5f348a7953cf55d1a18adf69f4173aa99f3b43239"
+    },
+    {
+      "sourceId": "nhtsa-mc-11037628",
+      "sha256": "6b1854cc54fae7aaf25f1bd6e7323bf2b35fcbacf9ce531aeecdabb0310057ea"
+    },
+    {
+      "sourceId": "nhtsa-mc-11038443",
+      "sha256": "60098230090ceb62c901ae5063f46fc6098f9b513768c8d266be8ab4e1384408"
+    },
+    {
+      "sourceId": "nhtsa-mc-11038446",
+      "sha256": "9e920c8c7ac080a363996704ff91b21ef1d7ddbc7a5893380fef66d6a0414195"
+    },
+    {
+      "sourceId": "nhtsa-mc-11038693",
+      "sha256": "168edad310ccd9c4cb43d5854fccaecdd24d4d5ea610363c3730f84a5706b438"
+    }
+  ],
+  "authorCheckpoint": "All 100 assigned articles saved; parent applied shared assignment/source substitutions; writer changed only owned batch and scratch helpers."
+}

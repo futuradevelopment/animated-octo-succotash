@@ -1,0 +1,2083 @@
+{
+  "batch": "batch-25",
+  "status": "complete",
+  "assigned": 100,
+  "written": 100,
+  "sourceCheckedDrafts": 80,
+  "sourceReviewPending": 20,
+  "substantiveWordCount": 22122,
+  "substantiveWordRange": [
+    202,
+    249
+  ],
+  "method": "100 individually authored English monitor/diagnostic explanations.39Nissan factory-manual articles;61GM diagnostic-table articles. No title-to-prose generator. Shared battery-sensing family logic explicitly disclosed rather than invented channel-specific repair differences.",
+  "sourceReviewMeaning": "Checked means author verified the cited primary document, not human mechanic approval or publication readiness.",
+  "unresolvedIssues": [
+    {
+      "code": "P1448",
+      "issue": "Physical page406 prints inconsistent intake-temperature Celsius/Fahrenheit equivalents; no numeric instruction derived from that line."
+    },
+    {
+      "code": "P1441",
+      "issue": "Existing nissan-p1441 dictionary title says Vacuum Cut Valve Bypass Valve; 2001 Altima factory EC376 explicitly defines P1441 as EVAP very small leak. Vehicle-scoped meaning retained; catalog reconciliation unresolved."
+    },
+    {
+      "code": "P04BB",
+      "issue": "P04BB driver-feedback Boolean conditions span pages593\u2013594 with ambiguous grouping; no simplified exact predicate or terminal test asserted."
+    },
+    {
+      "code": "P04C3",
+      "issue": "Original PDF p594 prints 65.9% > Reported Position <=81.6% for invalid lock-position range, unlike adjacent invalid-band rows. Intended threshold interval unresolved; numbers omitted from instructions."
+    },
+    {
+      "code": "P0AE4",
+      "issue": "Original p554 P0AE4 description says open-circuit faults cannot be detected, while threshold column includes off-state open-load detection. Coverage unresolved; no exact open-fault capability asserted."
+    },
+    {
+      "code": "P0B13",
+      "issue": "P0B13 appears in its own no-active-DTC list on p585. Active-versus-latched status and exact re-enable behavior are not resolved by the summary; no reset instruction inferred."
+    },
+    {
+      "code": "P0B3B",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B40",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B45",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B4A",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B4F",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B54",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B59",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B5E",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B63",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B68",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B6D",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B77",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B7C",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    },
+    {
+      "code": "P0B81",
+      "issue": "Shared voltage-sense-open table on original p635 leaves the Case3 busbar-positive cell-voltage comparison incomplete. Exact Case3 threshold and physical channel-to-cell mapping require applicable service information; no invented limit or location."
+    }
+  ],
+  "visualChecks": [
+    {
+      "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+      "pages": [
+        553,
+        554,
+        593,
+        594,
+        635,
+        636,
+        643
+      ]
+    },
+    {
+      "sourceId": "gm-2015-15obdg07-engine-diagnostics",
+      "pages": [
+        75
+      ]
+    },
+    {
+      "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+      "pages": [
+        83,
+        85
+      ]
+    },
+    {
+      "sourceId": "gm-2010-10obdg12-engine-diagnostics",
+      "pages": [
+        97
+      ]
+    },
+    {
+      "sourceId": "gm-2010-10obdg13-engine-diagnostics",
+      "pages": [
+        78
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "code": "P0127",
+      "entryId": "generic-p0127",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            180,
+            181,
+            182
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 226,
+      "sha256": "69acca72278bde8ec91144e8266057cfbce04ccfe23247acad65c60fe748f810"
+    },
+    {
+      "code": "P0159",
+      "entryId": "generic-p0159",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            195,
+            196,
+            201,
+            202,
+            204,
+            205
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 238,
+      "sha256": "b9a7d4836243fef085078e2f0f1daba40f6f1195036d165f8386fd333aaa527a"
+    },
+    {
+      "code": "P0441",
+      "entryId": "generic-p0441",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            270,
+            271,
+            272,
+            273
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 226,
+      "sha256": "1d13221bc51b17e2b7ed953f46d9c2d143a2c3690887f77f258a016284209a0e"
+    },
+    {
+      "code": "P0444",
+      "entryId": "generic-p0444",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            284,
+            285,
+            288,
+            289
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 232,
+      "sha256": "cc2e622f82bb96df9cf86e474d0a6778bcd5bda74adbf5aad670975ef5e01d39"
+    },
+    {
+      "code": "P0445",
+      "entryId": "generic-p0445",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            284,
+            285,
+            288,
+            289
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 232,
+      "sha256": "4a2ce6146477f4a8c1200614de6563c1c2d62dcd18db1d31bbf60933a55eb207"
+    },
+    {
+      "code": "P0447",
+      "entryId": "generic-p0447",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            291,
+            292,
+            295,
+            296,
+            297
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 233,
+      "sha256": "0c835035cee25f0bfb99d3ad7bb689cadc6819e67ef2bc1d3d67f94354984ed9"
+    },
+    {
+      "code": "P0550",
+      "entryId": "generic-p0550",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            345,
+            347,
+            348
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 234,
+      "sha256": "2bfd0db633ccc70e3f45cd63be6f3b294e0b3c085eadfb6c4e3260ae4418341e"
+    },
+    {
+      "code": "P1126",
+      "entryId": "nissan-p1126",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            451,
+            452
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 224,
+      "sha256": "66ee12889f4ce82c0ca3184f93c1b3f07143463692f9d14fd35d7c20fec711f4"
+    },
+    {
+      "code": "P1148",
+      "entryId": "nissan-p1148",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            476,
+            477
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 241,
+      "sha256": "88ab865188c57443ec92bb30d5d929873a69de1cda6782b529ba89c1dbe1139d"
+    },
+    {
+      "code": "P1211",
+      "entryId": "nissan-p1211",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            407
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 249,
+      "sha256": "ce7fdf859ce0bef7d815df10c0d656dfa2d858715778c893474e37e1c770895d"
+    },
+    {
+      "code": "P1212",
+      "entryId": "nissan-p1212",
+      "sourceIds": [
+        "nissan-2004-titan-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-titan-ec",
+          "pages": [
+            408
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 225,
+      "sha256": "0bf264343f0b52af018f46d6573841414cb91333553098b9ee95f7309aab1f51"
+    },
+    {
+      "code": "P1444",
+      "entryId": "nissan-p1444",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            386,
+            387,
+            388,
+            390,
+            391,
+            392
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 229,
+      "sha256": "68d6e77c5c959f3fff117dd6932bc81279e5c533998c5f1abe2f4b4df9aab4ac"
+    },
+    {
+      "code": "P1446",
+      "entryId": "nissan-p1446",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            393,
+            394,
+            395,
+            396,
+            397
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 230,
+      "sha256": "eef33f0d0184dbf084b676072d27095f36124405b5fd6f51174735a56dce1a58"
+    },
+    {
+      "code": "P1706",
+      "entryId": "nissan-p1706",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            428,
+            429,
+            431,
+            432
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 226,
+      "sha256": "0f7fc348fca3bd843b7aa0ab0f204fde2468ae3d7e56dd50ed1b8bf5d1930a26"
+    },
+    {
+      "code": "P0745",
+      "entryId": "generic-p0745",
+      "sourceIds": [
+        "nissan-2001-altima-at"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-at",
+          "pages": [
+            133,
+            134,
+            136,
+            137
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 228,
+      "sha256": "7938e05a575377b3b3af05624cd89696b83f03707d8185a7768c83bbf44c4350"
+    },
+    {
+      "code": "P0775",
+      "entryId": "generic-p0775",
+      "sourceIds": [
+        "nissan-2004-quest-at"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "pages": [
+            549,
+            551,
+            552,
+            553
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 218,
+      "sha256": "af37f1d809980b5af55156a41d482017ff9fc7f6e66ed63f5dbbc82266c3164b"
+    },
+    {
+      "code": "P0780",
+      "entryId": "generic-p0780",
+      "sourceIds": [
+        "nissan-2004-quest-at"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "pages": [
+            554,
+            557
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 229,
+      "sha256": "ff4ec009fc031aa68375a450b68b7da5bdf777f31aa008d65a27188c744abd0b"
+    },
+    {
+      "code": "P0795",
+      "entryId": "generic-p0795",
+      "sourceIds": [
+        "nissan-2004-quest-at"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "pages": [
+            558,
+            560,
+            561,
+            562
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 218,
+      "sha256": "a317fe3d4173ea89115e0a4142b73441bde337f858338d573d120448c9254d9c"
+    },
+    {
+      "code": "P0825",
+      "entryId": "generic-p0825",
+      "sourceIds": [
+        "nissan-2004-quest-at"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2004-quest-at",
+          "pages": [
+            568,
+            570,
+            571
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 225,
+      "sha256": "d9f00558b1951c4dc11e5ddec224d8fafdc77dd5473153ff6587cafa8e32528f"
+    },
+    {
+      "code": "P1760",
+      "entryId": "nissan-p1760",
+      "sourceIds": [
+        "nissan-2001-altima-at"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-at",
+          "pages": [
+            154,
+            156,
+            157
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 222,
+      "sha256": "503a7a1557f27e639f08bb461221b0d0b61510d56b599867b20dbfe5333b86b0"
+    },
+    {
+      "code": "P0105",
+      "entryId": "generic-p0105",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            163,
+            164,
+            166,
+            167,
+            168
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 221,
+      "sha256": "fa9ece16dc5c16f45a898ca678e3def4f7dabfb552705bbbd5ab842cb6af151e"
+    },
+    {
+      "code": "P0110",
+      "entryId": "generic-p0110",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            169,
+            170,
+            172,
+            173
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 220,
+      "sha256": "4a74ec6649cdbc2ee2d3d1e63e9d881835f499cfa236fb1444d6388faa9a4668"
+    },
+    {
+      "code": "P0115",
+      "entryId": "generic-p0115",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            134,
+            135,
+            137,
+            138
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 227,
+      "sha256": "44792c2cea8ea5fe6c22df2125b636bbc37e166db1fc373118e8ebe2ac370b81"
+    },
+    {
+      "code": "P0180",
+      "entryId": "generic-p0180",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            307,
+            308,
+            310,
+            311
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 229,
+      "sha256": "8a4c281099121e6f9c800c4740116aa718c59d556523e29899c47b3db5de7347"
+    },
+    {
+      "code": "P0217",
+      "entryId": "generic-p0217",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            312,
+            313,
+            314,
+            318,
+            329
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 222,
+      "sha256": "e15fab4d659a0d2e8aa5b1cd819fc1337ef30ee1698bd54dc2849d649eef8bb3"
+    },
+    {
+      "code": "P0440",
+      "entryId": "generic-p0440",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            284,
+            285,
+            286,
+            287
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 228,
+      "sha256": "5e61295ed650283263bef427481e0d7ab86a2519f9e51f0da879cbd199ca7809"
+    },
+    {
+      "code": "P0450",
+      "entryId": "generic-p0450",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            390,
+            391,
+            393,
+            394,
+            395
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 227,
+      "sha256": "0f364956de97c12578806acdf6e4017c2fca6b5ed0587bc47dce37f6fdd84ee5"
+    },
+    {
+      "code": "P0505",
+      "entryId": "generic-p0505",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            429,
+            430,
+            431,
+            433,
+            437
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 222,
+      "sha256": "945bb9dc0416e4e5ccbf8bb2be2d674da5b8400fe9d22090c848633b0004333e"
+    },
+    {
+      "code": "P0510",
+      "entryId": "generic-p0510",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            335,
+            336,
+            338,
+            339,
+            340
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 225,
+      "sha256": "368d30ec3f15a06eaa514ebe1feda02d212d8dd0524c4e3207d08b65907097c1"
+    },
+    {
+      "code": "P1165",
+      "entryId": "nissan-p1165",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            478,
+            479,
+            481,
+            482,
+            483
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 228,
+      "sha256": "c8cf1a6e12ac27eb95c117c6f4c0f023adc6c5e631a918124703ea19425883a7"
+    },
+    {
+      "code": "P1320",
+      "entryId": "nissan-p1320",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            506,
+            507,
+            511,
+            512,
+            514,
+            515,
+            516
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 221,
+      "sha256": "00f70b970297f8ef29d7729f8fee52332b86ec79efddd5ae6733e6be624e2bb3"
+    },
+    {
+      "code": "P1440",
+      "entryId": "nissan-p1440",
+      "sourceIds": [
+        "nissan-2001-maxima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-maxima-ec",
+          "pages": [
+            531,
+            532,
+            362,
+            363,
+            364
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 222,
+      "sha256": "55d0235bbd90e06aa4326d7b58e5771f0f24b285342e8b77ded8ccdcc68aea42"
+    },
+    {
+      "code": "P1447",
+      "entryId": "nissan-p1447",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            398,
+            399,
+            401,
+            402,
+            403
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 217,
+      "sha256": "b47c29df6ad90ecfc736b9c72d691695f20623ae6a2522513b7083c1b85a18a5"
+    },
+    {
+      "code": "P1448",
+      "entryId": "nissan-p1448",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            405,
+            406,
+            407,
+            409,
+            410
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 222,
+      "sha256": "19e9b63b71e3f3fd6c56829bb97660c4bd75d9b96f1c2094187acf067e715d00"
+    },
+    {
+      "code": "P1490",
+      "entryId": "nissan-p1490",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            415,
+            416,
+            418,
+            419
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 231,
+      "sha256": "4dc07648f82354b4124dfd68dfe882158a77aac0cf9f791ca4b4ee2ee513ed03"
+    },
+    {
+      "code": "P1491",
+      "entryId": "nissan-p1491",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            420,
+            421,
+            422,
+            423,
+            424
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 225,
+      "sha256": "d5740ee1ec9315766be9652f0a280c88bf9f819718f8bd3484a58a061d07a94d"
+    },
+    {
+      "code": "U0415",
+      "entryId": "generic-u0415",
+      "sourceIds": [
+        "nissan-2010-altima-bcs"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2010-altima-bcs",
+          "pages": [
+            40
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 240,
+      "sha256": "9e8262ba22e81399be3fbf94e71d87640f950187dd47f679cee97064bce4d675"
+    },
+    {
+      "code": "P1402",
+      "entryId": "nissan-p1402",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            368,
+            369,
+            371,
+            372,
+            373
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 221,
+      "sha256": "754399e0b081e904edf3ec5aa9c5dbd3df14aa527a1712542ed951d65746b290"
+    },
+    {
+      "code": "P1441",
+      "entryId": "nissan-p1441",
+      "sourceIds": [
+        "nissan-2001-altima-ec"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "nissan-2001-altima-ec",
+          "pages": [
+            376,
+            378,
+            379,
+            380,
+            381,
+            382
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 225,
+      "sha256": "d853c0cca8dc2655dd0cad721496bbb4597d006bb74177f1696d5d326981e9b9"
+    },
+    {
+      "code": "P0041",
+      "entryId": "generic-p0041",
+      "sourceIds": [
+        "gm-2010-10obdg02-engine-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg02-engine-diagnostics",
+          "pages": [
+            38
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 220,
+      "sha256": "9bb5d768acacf4978ce1b0edb47eda16fdb2e1365c904d4fa39e0c06c6698501"
+    },
+    {
+      "code": "P00C8",
+      "entryId": "generic-p00c8",
+      "sourceIds": [
+        "gm-2010-10obdg09-engine-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg09-engine-diagnostics",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 217,
+      "sha256": "353594faa5c22c9b5ad2aa7b566f0584a528dedb2677bd516661460530c5f5af"
+    },
+    {
+      "code": "U0134",
+      "entryId": "generic-u0134",
+      "sourceIds": [
+        "gm-2020-20obdg07-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            1168
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 213,
+      "sha256": "91bbd73eba9f7e5a837cef0b7e4997bae968394c47ae2a807dd8ca37df15cabd"
+    },
+    {
+      "code": "P04B8",
+      "entryId": "generic-p04b8",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            593
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 223,
+      "sha256": "bdd322abef0fb365247da5fa4bce7baf44da5939135b8b17650901bff3cbeb64"
+    },
+    {
+      "code": "P04B9",
+      "entryId": "generic-p04b9",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            593
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 221,
+      "sha256": "5d5bec6bedee9c505fede4c6618b63070fd5b84fbd9b6427c800c44637dd856a"
+    },
+    {
+      "code": "P04BA",
+      "entryId": "generic-p04ba",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            593
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 215,
+      "sha256": "d26ea276e9a2add4b30f90bdf90bde0cf1b6232e345101f9925223a3170058b3"
+    },
+    {
+      "code": "P04BB",
+      "entryId": "generic-p04bb",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            593,
+            594
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 225,
+      "sha256": "04045ff914228332c3f1640c2a4e92b2c7ff765d9e731d7aa6d771790ef12b11"
+    },
+    {
+      "code": "P04BC",
+      "entryId": "generic-p04bc",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            594
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 219,
+      "sha256": "bd0a3f28f01c849cb63c4a29a3e519854aaa79c99ac6230149d213ca672356ed"
+    },
+    {
+      "code": "P04C0",
+      "entryId": "generic-p04c0",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            594
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 216,
+      "sha256": "2c4e4d98856b40343b1a3162f326ad82d35374172d562d49b73096bf0af99988"
+    },
+    {
+      "code": "P04C3",
+      "entryId": "generic-p04c3",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            594
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 221,
+      "sha256": "663ddda682a283a43ec4301841d349d281a8486ed6499c2eed40a8a157285ce0"
+    },
+    {
+      "code": "P04C4",
+      "entryId": "generic-p04c4",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            594
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 220,
+      "sha256": "ca7eafeff3cebe70f2a3045656de0b34f36e2f967856fbdda926408a5792befa"
+    },
+    {
+      "code": "P04C5",
+      "entryId": "generic-p04c5",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 226,
+      "sha256": "97a2882160a58b3f24986cf85091b75ccefdd8fd3f01dffa7c8a40960ff6b3fe"
+    },
+    {
+      "code": "P04C6",
+      "entryId": "generic-p04c6",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 220,
+      "sha256": "b76dfdbeea2447f872753d6b78edc8bcd10125268700726f349f50426bd1b48b"
+    },
+    {
+      "code": "P04C8",
+      "entryId": "generic-p04c8",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 226,
+      "sha256": "56b4ef07df0e3d66df17a03f6a61103a2d5534caea79c66b164067660f462f8b"
+    },
+    {
+      "code": "P04CB",
+      "entryId": "generic-p04cb",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            595
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 231,
+      "sha256": "1e3ce1ccd5af129d6c6271db147d968e81e6e420111135207a66a57f8d29dbf9"
+    },
+    {
+      "code": "P0532",
+      "entryId": "generic-p0532",
+      "sourceIds": [
+        "gm-2015-15obdg07-engine-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg07-engine-diagnostics",
+          "pages": [
+            75
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 229,
+      "sha256": "22e0d83ffe0d2ff0ce34ae2fcb4160b4bf689bf785c3a87c28aa73cd03ac96f2"
+    },
+    {
+      "code": "P0533",
+      "entryId": "generic-p0533",
+      "sourceIds": [
+        "gm-2015-15obdg07-engine-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg07-engine-diagnostics",
+          "pages": [
+            75
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 229,
+      "sha256": "b81c2c9488a4575c6ef43a086c366a9d00017fe07c52059aa79bf7cd3979f497"
+    },
+    {
+      "code": "P0534",
+      "entryId": "generic-p0534",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            568,
+            569,
+            570
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 227,
+      "sha256": "1f71eb6f3b79d364b0135249e63bc047d8c920a0f3cb9a7940c4fba0fd88fe3d"
+    },
+    {
+      "code": "U0154",
+      "entryId": "generic-u0154",
+      "sourceIds": [
+        "gm-2020-20obdg03e-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg03e-diagnostics",
+          "pages": [
+            1376
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 216,
+      "sha256": "701b35b45723f0a01c0670354a6ba6fe470539f26266b43f24d89f85bf110f4b"
+    },
+    {
+      "code": "U0159",
+      "entryId": "generic-u0159",
+      "sourceIds": [
+        "gm-2020-20obdg03c-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg03c-diagnostics",
+          "pages": [
+            1815
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 214,
+      "sha256": "779aafa5f7c13e771780851ed6f9842b22e3c3a76128147a0e18bfd128382dfe"
+    },
+    {
+      "code": "U0405",
+      "entryId": "generic-u0405",
+      "sourceIds": [
+        "gm-2020-20obdg07-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            400
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 221,
+      "sha256": "7256eeeacde8e099b4a69d2f1e12f6a97cf622d38922160c63ce63bfb1c58ac8"
+    },
+    {
+      "code": "P0645",
+      "entryId": "generic-p0645",
+      "sourceIds": [
+        "gm-2010-10obdg13-engine-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg13-engine-diagnostics",
+          "pages": [
+            78
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 222,
+      "sha256": "33d33e3ba5a5550c216695d6a1bccf702dc3c594dc887179e1644efa8c35126b"
+    },
+    {
+      "code": "P06E7",
+      "entryId": "generic-p06e7",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            699
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 214,
+      "sha256": "d6318ae6ee63df4f13cd6d81cfdc4a058689a5b4f905145197c9e77cb932e507"
+    },
+    {
+      "code": "P06E8",
+      "entryId": "generic-p06e8",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            699
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 218,
+      "sha256": "b9d078b6bf6ac74c4519a810e0613a418ead08cf93cfb359e79c00687cb7e0d3"
+    },
+    {
+      "code": "P07CE",
+      "entryId": "generic-p07ce",
+      "sourceIds": [
+        "gm-2015-15obdg06-transmission-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 211,
+      "sha256": "78ae9450893c0512ee7ae176e97210f340e04b8b5cefcd73152d79699c790f7e"
+    },
+    {
+      "code": "P07D1",
+      "entryId": "generic-p07d1",
+      "sourceIds": [
+        "gm-2015-15obdg06-transmission-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 223,
+      "sha256": "9311c9c7cae3847d4d47127d70b6dc15fdb8865d8c418d1cf98a8a77009025b0"
+    },
+    {
+      "code": "P07D4",
+      "entryId": "generic-p07d4",
+      "sourceIds": [
+        "gm-2015-15obdg06-transmission-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 217,
+      "sha256": "a25eee28e00626f345fd9bcaabfc4ee82a31d07190fc245f0d411076d1c0c763"
+    },
+    {
+      "code": "P0801",
+      "entryId": "generic-p0801",
+      "sourceIds": [
+        "gm-2010-10obdg12-engine-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg12-engine-diagnostics",
+          "pages": [
+            97
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 216,
+      "sha256": "0463ad898f03aad9fc6ca8ac5a72d5377d964d7d10f73502124599ba30c71d5f"
+    },
+    {
+      "code": "P080C",
+      "entryId": "generic-p080c",
+      "sourceIds": [
+        "gm-2010-10obdg07-engine-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg07-engine-diagnostics",
+          "pages": [
+            129
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 212,
+      "sha256": "25615033aff244df95c0112742a15e108d3dad2cbfce5b31bda7bab96b76c484"
+    },
+    {
+      "code": "P080D",
+      "entryId": "generic-p080d",
+      "sourceIds": [
+        "gm-2010-10obdg07-engine-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg07-engine-diagnostics",
+          "pages": [
+            129
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 225,
+      "sha256": "07d96f26a4531fc70a822817f30f389b03ba5b26e93ce3adb5c7d41ab6400da5"
+    },
+    {
+      "code": "P0827",
+      "entryId": "generic-p0827",
+      "sourceIds": [
+        "gm-2015-15obdg06-transmission-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            83
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 213,
+      "sha256": "15da3d11af1746559025fbf990f7f191077431310d937fa2e5f32cfc8119648d"
+    },
+    {
+      "code": "P0828",
+      "entryId": "generic-p0828",
+      "sourceIds": [
+        "gm-2015-15obdg06-transmission-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            83
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 209,
+      "sha256": "e306a77813727d6136c97bf94aeef3f7684faff2bc68dccc81d4b7b828907d67"
+    },
+    {
+      "code": "P085F",
+      "entryId": "generic-p085f",
+      "sourceIds": [
+        "gm-2015-15obdg06-transmission-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg06-transmission-diagnostics",
+          "pages": [
+            85
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 221,
+      "sha256": "895d9639f15c9eee1048ab8ae5d0b27cad885277be7898d9ce7c95137d76536f"
+    },
+    {
+      "code": "P0863",
+      "entryId": "generic-p0863",
+      "sourceIds": [
+        "gm-2015-15obdg03-transmission-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg03-transmission-diagnostics",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 220,
+      "sha256": "1a4a2863c0e98fb9853aff5112ef8cd4389857b98e3c5333515c28a9e66e6833"
+    },
+    {
+      "code": "P0885",
+      "entryId": "generic-p0885",
+      "sourceIds": [
+        "gm-2015-15obdg03-transmission-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg03-transmission-diagnostics",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 230,
+      "sha256": "65995ef19bd30cb83d023598d570cbc9ea9e2c81e657912121f183e41bc09a4f"
+    },
+    {
+      "code": "P0A05",
+      "entryId": "generic-p0a05",
+      "sourceIds": [
+        "gm-2009-13-2-mode-hybrid"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 220,
+      "sha256": "ca3cc50be699741bfb24e7ab3a9903d45ff65de753c63bc188f26330b40dec7b"
+    },
+    {
+      "code": "P0A0C",
+      "entryId": "generic-p0a0c",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            553
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 223,
+      "sha256": "0a538c01433f9496ebdef0d50ec9fdb99915f555b339ae1e16718789814c64b5"
+    },
+    {
+      "code": "P0A0D",
+      "entryId": "generic-p0a0d",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            553
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 210,
+      "sha256": "b0c6255aa458e397c32f3213072bada5b818a9304f5fdb73f04aa441cbd6ba78"
+    },
+    {
+      "code": "P0A7F",
+      "entryId": "generic-p0a7f",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            586
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 221,
+      "sha256": "aff00eadc382650b88ca815a43baba70ad5cadef1acbf0ad6d62d951197779be"
+    },
+    {
+      "code": "P0AA6",
+      "entryId": "generic-p0aa6",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            553
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 235,
+      "sha256": "2c7c0b2f39fd0d875c0710074b7054705c9eddc0bca0934d8622f0f56b7961e8"
+    },
+    {
+      "code": "P0AD9",
+      "entryId": "generic-p0ad9",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 216,
+      "sha256": "7c9875a8ee99413f94962d865f2a590e4347d83274168b196bb3a79913e73477"
+    },
+    {
+      "code": "P0ADD",
+      "entryId": "generic-p0add",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 210,
+      "sha256": "9ff9d19c0963f7256d9be57250e4350bd3c2f10e0932a049967e8e02d69ffb66"
+    },
+    {
+      "code": "P0AE2",
+      "entryId": "generic-p0ae2",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 220,
+      "sha256": "920c4d95a1607a147bb73a52e4383d456c3b4319217c0db45b30e292bf942e2d"
+    },
+    {
+      "code": "P0AE4",
+      "entryId": "generic-p0ae4",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            554
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 209,
+      "sha256": "0f867b8046cbcd7b7c2574fcea1c6c87d79fadbb315bd3ed5f4a7995d8c4b3f8"
+    },
+    {
+      "code": "P0B10",
+      "entryId": "generic-p0b10",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            643
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 213,
+      "sha256": "5f7842074962691f074c462f9d8798919dbed913f7344b40e14f4909b8c12751"
+    },
+    {
+      "code": "P0B11",
+      "entryId": "generic-p0b11",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            643
+          ]
+        }
+      ],
+      "sourceReview": "checked",
+      "substantiveWordCount": 222,
+      "sha256": "fecca40b48d64dad312719dfa64529b4abd1ed14d40b814905d90f97bdf3ec63"
+    },
+    {
+      "code": "P0B13",
+      "entryId": "generic-p0b13",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            585
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 214,
+      "sha256": "1c31d332d274d4e678d7f2bc03ac018b06e4c78b56bdbee62db3e48094c56f04"
+    },
+    {
+      "code": "P0B3B",
+      "entryId": "generic-p0b3b",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 216,
+      "sha256": "f0644ee51fa33cd7c0e22be96439752b7259d88eb4b1a99789eb16a91ecaf6bd"
+    },
+    {
+      "code": "P0B40",
+      "entryId": "generic-p0b40",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 215,
+      "sha256": "edaa45379d893251630ba332aab1f70e401dbaf8f507f23ba464c6fc0aae347c"
+    },
+    {
+      "code": "P0B45",
+      "entryId": "generic-p0b45",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 216,
+      "sha256": "b399baa1d50120eceab4dbd21510590caada87b16af9bb95c590ca8d3f586453"
+    },
+    {
+      "code": "P0B4A",
+      "entryId": "generic-p0b4a",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 212,
+      "sha256": "f78af8ec526b7f39eb221ff361597050634af59017bc89a6f9db20bcec6f8daa"
+    },
+    {
+      "code": "P0B4F",
+      "entryId": "generic-p0b4f",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 210,
+      "sha256": "a287e3127737b5f9db092ca4d7098596b65be649ca2f6e85db380efd91866cb0"
+    },
+    {
+      "code": "P0B54",
+      "entryId": "generic-p0b54",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 206,
+      "sha256": "bc8f8209cc9a047dcf70ff301e3ad781a6aabf48067208577c31f2291c0c7218"
+    },
+    {
+      "code": "P0B59",
+      "entryId": "generic-p0b59",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 203,
+      "sha256": "1ad121cc3ec10c46931fcb13ab8ee3558a2778867263536a9b464e92cf05b3fa"
+    },
+    {
+      "code": "P0B5E",
+      "entryId": "generic-p0b5e",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 210,
+      "sha256": "2ae573cd453619178ddc391425a53f408fb491bbbec2d27f7ac0d8f9ee0e3f6f"
+    },
+    {
+      "code": "P0B63",
+      "entryId": "generic-p0b63",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 215,
+      "sha256": "bfb066796d893e0809d4dda5895cd07e9e36586580d5278a2053b370a74916c6"
+    },
+    {
+      "code": "P0B68",
+      "entryId": "generic-p0b68",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 213,
+      "sha256": "91170b14888ed00854c7a840a4b416d8abfbc886007e8d3e51b9393744e41f39"
+    },
+    {
+      "code": "P0B6D",
+      "entryId": "generic-p0b6d",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 202,
+      "sha256": "fad0e816ab53ce2d00c064f70ccf47c3da094b96a2822549f1ffdc00553e4509"
+    },
+    {
+      "code": "P0B77",
+      "entryId": "generic-p0b77",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 212,
+      "sha256": "02e6ff5d48944d7ba021a7d0819646ef35ab3a6dc866e755bb8938eaeba68843"
+    },
+    {
+      "code": "P0B7C",
+      "entryId": "generic-p0b7c",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 208,
+      "sha256": "349c1800d2f09bfd2937f13cc2c2e83db6b53ee57a68693e0bfab9dbf20c6e8d"
+    },
+    {
+      "code": "P0B81",
+      "entryId": "generic-p0b81",
+      "sourceIds": [
+        "gm-2015-15obdg01-hybrid-diagnostics"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            635,
+            636
+          ]
+        }
+      ],
+      "sourceReview": "needs-review",
+      "substantiveWordCount": 212,
+      "sha256": "039fa38ded34442857655ddca17bd2a39f7b2931e13a36e387d1aa13ec2410e9"
+    }
+  ],
+  "validationFailures": [],
+  "publicationStatus": "draft-only",
+  "rootEditorialCorrection": {
+    "code": "P0534",
+    "finding": "B25-02",
+    "change": "Replaced unsupported communication-fault inhibit category with the documented pump, valve-control and sensor categories.",
+    "substantiveWordDelta": 1
+  }
+}

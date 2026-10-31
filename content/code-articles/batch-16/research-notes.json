@@ -1,0 +1,1008 @@
+{
+  "batch": "batch-16",
+  "reviewMethod": "Each assigned primary monitor row and relevant continuation pages read. Unresolved source contradictions retained, not silently repaired. AI source checking is not mechanic certification.",
+  "articles": [
+    {
+      "code": "P2864",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        971,
+        972
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2865",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        915
+      ],
+      "sourceReview": "needs-review",
+      "issue": "VREF2 enable comparisons appear contradictory (>5500 and <4500 mV); no repaired specification asserted."
+    },
+    {
+      "code": "P2866",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        915
+      ],
+      "sourceReview": "needs-review",
+      "issue": "VREF2 enable comparisons appear contradictory; applicable service specification is unresolved."
+    },
+    {
+      "code": "P2867",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        915,
+        916
+      ],
+      "sourceReview": "needs-review",
+      "issue": "VREF2 enable comparisons are inconsistent; source frequency limits are retained but no supply specification inferred."
+    },
+    {
+      "code": "P286A",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        1050,
+        1051
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P287C",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        1031
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2A0B",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        633
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2A0C",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        633
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2A0D",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        633
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2AB8",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        862
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Meaning and logical relationship of 206\u2013427 mV low-range comparisons are not explained in source row."
+    },
+    {
+      "code": "P2AB9",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        862
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Paired 3834\u20133973 mV high-range comparisons lack an explanation of signalling convention; no universal circuit threshold inferred."
+    },
+    {
+      "code": "P2ABB",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        862
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Low-range voltage band semantics are not explained; retained as a documented limitation."
+    },
+    {
+      "code": "P2ABC",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        862
+      ],
+      "sourceReview": "needs-review",
+      "issue": "High-range paired bounds are unexplained; physical test interpretation needs application documentation."
+    },
+    {
+      "code": "P2ABD",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        859
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2ABE",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        860,
+        861
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2ADC",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        208
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2ADD",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        208
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Interaction between 14-sample moving window and one-of-three confirmation is not fully specified."
+    },
+    {
+      "code": "P2B81",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        862,
+        863
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2B82",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        863
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2B93",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        863
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2B94",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        863
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2B03",
+      "sourceId": "gm-2025-03b",
+      "pages": [
+        863
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2BF0",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        209,
+        210,
+        211
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2BF1",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        211,
+        212,
+        213
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2BF2",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        204,
+        205,
+        206,
+        207
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2BF3",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        207,
+        208,
+        209
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2BF8",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        840,
+        841
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Initialization wording conflicts with printed <5 s comparison; open-row enable label references short-to-power."
+    },
+    {
+      "code": "P2BF9",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        840
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Source enable label references short-to-power and initialization description conflicts with <5 s comparison."
+    },
+    {
+      "code": "P2BFA",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        841
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Initialization wording and <5 s comparison conflict in primary table."
+    },
+    {
+      "code": "P2C01",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        717,
+        718,
+        719,
+        720
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2C02",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        739
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Open-load/off-state observation conflicts with high-current wording; no external resistance or powered test inferred."
+    },
+    {
+      "code": "P2C03",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        739
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2C04",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        739
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2C11",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        208
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2C29",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        858
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Pulse-definition sentence is incomplete in source; complete threshold sequence not inferred."
+    },
+    {
+      "code": "P2C9B",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        868,
+        869,
+        870
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Environmental-pressure offset-learning enable prints >TRUE; exact Boolean condition unresolved."
+    },
+    {
+      "code": "P2C9C",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        870,
+        871,
+        872
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Source has >TRUE offset-learning expression and ambiguous continuation alignment; no complete enable sequence inferred."
+    },
+    {
+      "code": "P2C9F",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        725,
+        726,
+        727,
+        728
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2CA0",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        728,
+        729,
+        730
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2CBA",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        816
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2DC7",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        553
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Original PDF visually confirms missing alternate rotor-resistance threshold and unspecified units on p553."
+    },
+    {
+      "code": "P2DC8",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        554
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Original PDF p554 has blank excitation-current threshold and incomplete enable limits; numerical diagnosis unavailable."
+    },
+    {
+      "code": "P2DC9",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        553,
+        554
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Original pages553\u2013554 visibly omit high-current threshold and several enable values."
+    },
+    {
+      "code": "P2DCA",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        553
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Difference threshold0.4 has no unit or sampling interval in original p553; no ampere/rate specification inferred."
+    },
+    {
+      "code": "P246F",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1197,
+        1198
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2470",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1199
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P2471",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        1200
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "P264F",
+      "sourceId": "gm-2025-06b",
+      "pages": [
+        497
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0010",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        91,
+        92
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0014",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        94,
+        95
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0021",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        89
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0049",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        89
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0500",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        99,
+        100
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0503",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        99
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C050E",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        102,
+        103
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Source RL supply-ground narrative says front right; unclassified branch validity Boolean conflicts with wording."
+    },
+    {
+      "code": "C0514",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        108,
+        109
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Unclassified-signal branch says signal is not valid=False despite its invalid-signal explanation."
+    },
+    {
+      "code": "C0551",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        312,
+        313
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Constant-signal row has malformed \u00b1 comparisons and a vehicle-speed unit mismatch; those values omitted."
+    },
+    {
+      "code": "C0555",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        100
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0556",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        106
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0557",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        103
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0558",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        109
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C055E",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        90
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Dictionary circuit A versus source circuit2 identity unresolved; no physical circuit mapping inferred."
+    },
+    {
+      "code": "C0560",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        309
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Maturation cell includes500ms plus unexplained Goal18000; no alternate time inferred."
+    },
+    {
+      "code": "C0571",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        77
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0572",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        77
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0574",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        77
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0579",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        77
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C057A",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        77
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0580",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        282,
+        283
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Phase2/3 threshold cells repeat phase1 signal labels; no physical phase mapping inferred."
+    },
+    {
+      "code": "C0588",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        79
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0589",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        79
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0590",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        79
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0591",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        79
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0594",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        79
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0596",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        280,
+        281
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05A3",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        233,
+        234
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05BB",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        323
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Erratic row has contradictory AND bounds and80/160ms timing conflict; sustained range branches are clear."
+    },
+    {
+      "code": "C05C2",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        79
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05CA",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        78
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05CB",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        78
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05CD",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        78
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05CE",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        78
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05D0",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        78
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05D1",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        322
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C05D2",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        314
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Source lists500ms and18000-count goal without explaining their relationship; no derived sample timing asserted."
+    },
+    {
+      "code": "C05D3",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        315
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Maturation cell contains500ms and18000counts without complete timing relationship."
+    },
+    {
+      "code": "C05D4",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        317
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "C0616",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        364,
+        365
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U0077",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        1063
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U012D",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        667
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Primary row omits timeout/enables and contains awkward sender/receiver wording; neighbouring thresholds not borrowed."
+    },
+    {
+      "code": "U0132",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        337,
+        338
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Maturation column2.5counts is unexplained;250ms message timeout preserved without invented total timing."
+    },
+    {
+      "code": "U0411",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        80,
+        81
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U0412",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        81,
+        1098
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U0421",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        337,
+        338
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U042B",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        1098
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U043A",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        340
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U045A",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        347
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U0593",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        81
+      ],
+      "sourceReview": "checked",
+      "issue": null
+    },
+    {
+      "code": "U05AA",
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        818
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Source gives no counter threshold, timeout or algorithm; no neighbouring fan event count borrowed."
+    },
+    {
+      "code": "U0102",
+      "sourceId": "gm-2025-04a",
+      "pages": [
+        701
+      ],
+      "sourceReview": "needs-review",
+      "issue": "Voltage/controller-type enable clauses have ambiguous table alignment; no universal battery rule inferred."
+    }
+  ],
+  "substitutions": [
+    {
+      "removed": [
+        "P2B04",
+        "P2B05",
+        "P2B06",
+        "P2B07"
+      ],
+      "replacements": [
+        "P246F",
+        "P2470",
+        "P2471",
+        "P264F"
+      ],
+      "reason": "Assigned03A matches were supporting-table header mentions; no actual code-specific mainrow found for these four in reviewed2025sources. Root reassigned four distinct codes with actual primary monitor rows."
+    },
+    {
+      "removed": [
+        "U0477"
+      ],
+      "replacements": [
+        "U0102"
+      ],
+      "reason": "04B1985\u20131986 only mentionU0477 in fallback prose beneath other codes, including actualU0447gateway row. Root assigned U0102 with primary04Ap701 monitor instead."
+    }
+  ],
+  "sourceCorrections": [
+    {
+      "code": "P2B03",
+      "reason": "Original03A1021\u20131022 supporting headers were insufficient. Used actual03Bcylinder4 row atphysical863."
+    }
+  ],
+  "visualChecks": [
+    {
+      "sourceId": "gm-2025-07a-2",
+      "pages": [
+        553,
+        554,
+        862,
+        915
+      ],
+      "method": "OriginalPDFpages rendered and visually inspected. Confirmed blankgeneratorlimits, boundedwastegaterange entries and contradictoryVREF2 comparisons."
+    }
+  ],
+  "validation": {
+    "assigned": 100,
+    "written": 100,
+    "uniqueCodes": 100,
+    "wordCountRange": [
+      260,
+      304
+    ],
+    "wordCountTotal": 28364,
+    "sourceReviewCounts": {
+      "checked": 68,
+      "needs-review": 32
+    },
+    "failures": []
+  }
+}

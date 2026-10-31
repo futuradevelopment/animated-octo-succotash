@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "reviewId": "editorial-review-batch-10-sample",
+  "reviewer": "writer_04 (independent of batch-10 author)",
+  "completedAt": "2026-10-30T16:17:12.064622+00:00",
+  "purpose": "Bounded factual review of ten already-written batch-10 articles; article files kept read-only.",
+  "sampleSelection": {
+    "type": "purposive, not random",
+    "articleCount": 10,
+    "reason": "Prioritized GM07A Part 2 encoded/ambiguous oxygen, mixture, rail-pressure and injector rows plus a brake-electronics case.",
+    "categories": {
+      "oxygen": 4,
+      "fuelMixture": 2,
+      "fuelPressure": 1,
+      "injectorIncludingMisfire": 2,
+      "chassis": 1
+    }
+  },
+  "source": {
+    "sourceId": "gm-2025-07a-2",
+    "localPdf": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.pdf",
+    "sha256": "dd55fe653e741a668dccf3123df663ff55bb2334a65ea4d92ec17b0f5a398764",
+    "physicalPageCount": 1098,
+    "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf"
+  },
+  "methods": [
+    "Captured SHA-256 and modification timestamp for each selected article before review, then verified every hash remained unchanged at completion.",
+    "Read each complete article and its JSON source/applicability metadata.",
+    "Read page-bounded source text for all cited pages; checked row starts so preceding or following codes were not misattributed.",
+    "Rendered and visually inspected 13 original PDF pages; used a higher-resolution row crop for C0506 to confirm small current and timing values.",
+    "Compared every numerical threshold, unit conversion, command/operating state and reporting count stated in the sample against the cited main/continuation rows.",
+    "Read additional pages 574–576 for P01BF context and checked the supplied assignment's P01BF/P0207/P029D dictionary titles.",
+    "Checked that each article retains the unresolved file-to-model/engine applicability boundary and avoids component replacement conclusions unsupported by the monitor."
+  ],
+  "summary": {
+    "articlesReviewed": 10,
+    "allArticleHashesStable": true,
+    "newMaterialArticleErrors": 0,
+    "newMinorArticleErrors": 0,
+    "sourceContradictionAlreadyHandled": {
+      "code": "P0207",
+      "status": "needs-review retained"
+    },
+    "outcome": "No material factual errors found in the ten sampled article versions. This is a bounded sample, not approval of the batch or source calibration."
+  },
+  "samplingLimits": [
+    "Only these ten SHA-256-identified article versions were reviewed; writer10 was still creating other files. No claim is made about unreviewed files or later revisions.",
+    "Selection intentionally targeted potentially ambiguous GM07A Part 2 rows; it is not statistically representative of 100 articles.",
+    "Thirteen original PDF pages were visually inspected; other cited continuation pages were read as page-bounded text. Visual pages are listed per article.",
+    "The application-matrix/download-filename join was not resolved or independently audited here. The review verified that articles preserve that uncertainty and make no vehicle/engine inference.",
+    "No vehicle VIN, installed engine, ECU calibration or transmission was verified; no hands-on diagnosis, component testing, complete workshop-tree reproduction, repair recommendation or human mechanic approval is implied.",
+    "Referenced lookup tables and source-wide inhibit/enable sheets were not exhaustively audited. Claims are bounded to what each article actually states.",
+    "No broad repository tests were run. No batch-10 article was edited."
+  ],
+  "articles": [
+    {
+      "code": "P0058",
+      "articlePath": "content/code-articles/batch-10/P0058.md",
+      "articleSha256AtRead": "88d8570fe515c8957a6b80cf7bd9f131fa7eaf2900ec74af2e1fce93a3519a88",
+      "articleSha256AtCompletion": "88d8570fe515c8957a6b80cf7bd9f131fa7eaf2900ec74af2e1fce93a3519a88",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "oxygen heater circuit",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        525,
+        526
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        525
+      ],
+      "verifiedClaims": [
+        "Main P0058 row begins near the bottom of physical page 525; preceding dew-point text belongs to another row.",
+        "Bank 2 sensor 2 low-side driver: high voltage during driver ON is the short-to-power signature.",
+        "Published impedance is <=0.5 ohm to controller power; decision interval 0.1 second; two-trip reporting.",
+        "Page 526 continues heater-release eligibility, completed start, POST DRIVE exclusion, and thermal/dew-point conditions."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. The article correctly ties high voltage to the ON command and does not treat impedance as a manual test instruction."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "Only the article's stated claims and cited row context were reviewed; this is not a complete vehicle service-procedure validation."
+    },
+    {
+      "code": "P013C",
+      "articlePath": "content/code-articles/batch-10/P013C.md",
+      "articleSha256AtRead": "5a3122c8c6cbe95ceaf1b65f165530d0f556e6573ba47f72f7fc925a0f3971c9",
+      "articleSha256AtCompletion": "5a3122c8c6cbe95ceaf1b65f165530d0f556e6573ba47f72f7fc925a0f3971c9",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "oxygen response",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        434,
+        435
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        434
+      ],
+      "verifiedClaims": [
+        "The P013C row evaluates bank 2 sensor 2 rich-to-lean transition response.",
+        "The filtered result subtracts the exhaust-mass-flow correction from raw time before updating the arithmetic filter.",
+        "Correction range 0.04–0.10 second; failure threshold >0.75 second; two counts and one-trip/EWMA reporting.",
+        "Primary commanded lambda =1, engine running and eligible speed/flow/stability conditions are required."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. Raw and corrected time are kept distinct. The source's malfunction column calls the metric a delay response while its strategy/raw-input description calls it transition response; the article's general response terminology avoids inventing a different metric."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "Only the article's stated claims and cited row context were reviewed; this is not a complete vehicle service-procedure validation."
+    },
+    {
+      "code": "P0153",
+      "articlePath": "content/code-articles/batch-10/P0153.md",
+      "articleSha256AtRead": "8c534ad12742bc0992e485dc33e4d5753fc9155ba41d60ed213f2b127edfe4f8",
+      "articleSha256AtCompletion": "8c534ad12742bc0992e485dc33e4d5753fc9155ba41d60ed213f2b127edfe4f8",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "oxygen response",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        367,
+        368,
+        369
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        367,
+        368
+      ],
+      "verifiedClaims": [
+        "Main P0153 Path 1 begins after preceding bank-1 material on page 367.",
+        "Step-response delay >0.38 second and transition >0.4 second apply in both directions.",
+        "Identification delay >1 second and transition >1.5 seconds follow a detected pattern.",
+        "One-trip/EWMA reporting and lambda-readiness, fuel-cutoff exclusion and stability/gear-change eligibility are supported by the continuation."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. The article preserves method-specific thresholds rather than applying step-response thresholds to identification results."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "This review confirms the cited Path 1 explanation, not exhaustive coverage of every other P0153 branch elsewhere in the file."
+    },
+    {
+      "code": "P0161",
+      "articlePath": "content/code-articles/batch-10/P0161.md",
+      "articleSha256AtRead": "53d898caadc07abe76171f83c9dd9a24f668368d18f2c9bc3a4fd55f99cb91bf",
+      "articleSha256AtCompletion": "53d898caadc07abe76171f83c9dd9a24f668368d18f2c9bc3a4fd55f99cb91bf",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "oxygen heater performance",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        515,
+        516,
+        517
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        515,
+        516
+      ],
+      "verifiedClaims": [
+        "Main P0161 begins on page 515 below prior bank-1 text.",
+        "Sensor internal resistance is compared with a calibration-dependent 500–10,000-ohm threshold; six-second interval; two trips.",
+        "More than ten internal-resistance calculations and heater control ON for at least 30 seconds appear in page 516 eligibility.",
+        "Thermal, startup and validity criteria continue through page 517; arbitrary cold disconnected resistance is not the qualified controller measurement."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. The article correctly treats the resistance range as calibration-dependent and avoids a universal bench-test threshold."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "The lookup table itself was not independently recalculated; the article gives only the range printed in the main diagnostic row."
+    },
+    {
+      "code": "P0174",
+      "articlePath": "content/code-articles/batch-10/P0174.md",
+      "articleSha256AtRead": "19a32d67d6046bdadc26a7bdbb9a4f59441a1b4f00edbde7a2f75ad4089d7e65",
+      "articleSha256AtCompletion": "19a32d67d6046bdadc26a7bdbb9a4f59441a1b4f00edbde7a2f75ad4089d7e65",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "fuel-mixture control",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        165
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        165
+      ],
+      "verifiedClaims": [
+        "Deviation of bank-2 fast lambda-controller mean from 1.0 must exceed +0.23.",
+        "Decision interval ten seconds; two-trip reporting.",
+        "Bank-2 upstream closed-loop operation must be active with listed protection and fuel-cutoff recovery states."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. The article does not falsely equate the normalized correction with a universal scan-tool fuel-trim percentage."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "Only the article's stated claims and cited row context were reviewed; this is not a complete vehicle service-procedure validation."
+    },
+    {
+      "code": "P0175",
+      "articlePath": "content/code-articles/batch-10/P0175.md",
+      "articleSha256AtRead": "ad5de84aff6255624c1244076bf924e90d0514daae55325fba05d3e496262db3",
+      "articleSha256AtCompletion": "ad5de84aff6255624c1244076bf924e90d0514daae55325fba05d3e496262db3",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "fuel-mixture control",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        168
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        168
+      ],
+      "verifiedClaims": [
+        "Bank-2 fast lambda-controller mean deviation from 1.0 is corrected with the proportional component.",
+        "Failure below -0.23; ten-second interval; two trips.",
+        "Unrestricted upstream closed-loop operation and fuel-cutoff/protection conditions govern eligibility."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. The negative sign, proportional-correction distinction and operating-state restrictions match the original row."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "Only the article's stated claims and cited row context were reviewed; this is not a complete vehicle service-procedure validation."
+    },
+    {
+      "code": "P01BF",
+      "articlePath": "content/code-articles/batch-10/P01BF.md",
+      "articleSha256AtRead": "414d88db1002207e4c22b784d565e9df36143ae21c70669630cf2a94797ededa",
+      "articleSha256AtCompletion": "414d88db1002207e4c22b784d565e9df36143ae21c70669630cf2a94797ededa",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "fuel-pressure sensor plausibility",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        577,
+        578
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        577,
+        578
+      ],
+      "verifiedClaims": [
+        "Path 2 digital raw pressure <0.002 MPa with pre-supply pump ON; one second; one trip.",
+        "Path 3 signal min-to-max difference <=1 has no unit printed in the threshold cell; at least eight injections and ECU drive state are required; two seconds; one trip.",
+        "The article avoids inventing a physical pressure or voltage unit for the stuck-check threshold.",
+        "The bank-2 dictionary mapping was cross-checked against the supplied assignment; source context on pages 574–576 was also read."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. The article expressly covers the examined paths and handles the unit ambiguity conservatively."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "P01BF Path 1 on physical page 576 exists and is outside the article's two-path detail; the article does not claim an exhaustive diagnostic tree."
+    },
+    {
+      "code": "P0207",
+      "articlePath": "content/code-articles/batch-10/P0207.md",
+      "articleSha256AtRead": "2307a0806c6744c52d66c609a0e401049d265f38803434b72ea07e36e3f37fe3",
+      "articleSha256AtCompletion": "2307a0806c6744c52d66c609a0e401049d265f38803434b72ea07e36e3f37fe3",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "needs-review",
+      "category": "injector electrical diagnosis",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        709
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        709
+      ],
+      "verifiedClaims": [
+        "Original PDF visibly labels P0207 but describes Cylinder 6 injector A; supplied dictionary identifies cylinder 7.",
+        "Low voltage during OFF indicates ground short; high during ON indicates short to injector supply.",
+        "Two qualifying events and one-trip reporting are printed in the row.",
+        "Original PDF prints the implausible upper battery bound <=6553.5 V, which the article deliberately omits."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No new article error found. Existing needs-review status correctly preserves the code-to-cylinder contradiction and prevents a physical-injector mapping claim."
+        },
+        {
+          "severity": "material_source_ambiguity_already_disclosed",
+          "type": "existing_source_limitation",
+          "description": "Retain draft/needs-review status until an authoritative vehicle-specific mapping resolves the contradiction; no article edit performed."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "Only the article's stated claims and cited row context were reviewed; this is not a complete vehicle service-procedure validation."
+    },
+    {
+      "code": "P029D",
+      "articlePath": "content/code-articles/batch-10/P029D.md",
+      "articleSha256AtRead": "e514a99b48dbe740a0d2b17e16383960641d145ef0e08f8e02cbd4d5624a59af",
+      "articleSha256AtCompletion": "e514a99b48dbe740a0d2b17e16383960641d145ef0e08f8e02cbd4d5624a59af",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "injector leakage / misfire and fuel pressure",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        704
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        704
+      ],
+      "verifiedClaims": [
+        "Main row detects mechanical open high-pressure injector 1.",
+        "Cylinder-1 misfire counter >100 AND rail-pressure-control minimum error set are the combined evidence.",
+        "Engine speed >1520 and <6000 rpm; relative air charge <100%; electrical injector failure false; statistical inhibition false.",
+        "Five-second interval; two-trip reporting."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. The article correctly keeps the misfire and rail-pressure conditions conjunctive and limits the inference to a mechanical-open/leak pattern."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "Only the article's stated claims and cited row context were reviewed; this is not a complete vehicle service-procedure validation."
+    },
+    {
+      "code": "C0506",
+      "articlePath": "content/code-articles/batch-10/C0506.md",
+      "articleSha256AtRead": "92b92fd7df102d35013eddb2041b1151e55144de1e656d51abf846ab431cfb55",
+      "articleSha256AtCompletion": "92b92fd7df102d35013eddb2041b1151e55144de1e656d51abf846ab431cfb55",
+      "unchangedDuringReview": true,
+      "articleSourceReview": "checked",
+      "category": "chassis brake electronics",
+      "sourceId": "gm-2025-07a-2",
+      "sourcePagesRead": [
+        106
+      ],
+      "originalPdfPagesVisuallyInspected": [
+        106
+      ],
+      "verifiedClaims": [
+        "Correct main row is right-front wheel-speed circuit/open, not the neighboring C0057 direction monitor.",
+        "Signal-line current <0.0038 A, correctly converted to 3.8 mA; 0.120 second.",
+        "Ignition ON plus completed non-failing sensor-undervoltage checks at all four wheels.",
+        "Continuous monitoring; Type A, one trip; interruption or short to ground are supported."
+      ],
+      "findings": [
+        {
+          "severity": "none",
+          "type": "article_factual_review",
+          "description": "No material factual error found. A high-resolution crop of the original row confirms the small printed current/time values and all four prerequisites."
+        }
+      ],
+      "applicabilityBoundary": "Metadata and article both explicitly leave the GM07A Part 2 application-matrix filename join unresolved; no model or engine compatibility is asserted.",
+      "samplingLimit": "Only the article's stated claims and cited row context were reviewed; this is not a complete vehicle service-procedure validation."
+    }
+  ]
+}

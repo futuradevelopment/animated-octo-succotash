@@ -1,0 +1,1455 @@
+{
+  "batch": "batch-24",
+  "writer": "writer_24",
+  "checkedOn": "2026-10-30",
+  "status": "writing-complete",
+  "assigned": 100,
+  "written": 100,
+  "checkedDrafts": 90,
+  "needsReview": 10,
+  "words": 23745,
+  "wordCountRange": [
+    183,
+    289
+  ],
+  "substantiveWordCountRange": [
+    131,
+    222
+  ],
+  "method": [
+    "Read the complete original Ross-Tech wiki source for each assigned code using the MediaWiki revision API; each source revision and scratch content hash is retained. Ross-Tech is explicitly identified as an independent diagnostic-tool publisher, not an OEM.",
+    "Every article was individually authored in English; no title-substitution text generator. Circuit siblings use source-supported shared checks and retain their actual cylinder, component, fault direction, transmission and applicability distinctions. The source does not support fabricating different repairs merely to vary text.",
+    "Supplementary Ross-Tech fuel-trim and throttle-alignment guides support actual claims in relevant articles. Three OEM documents were independently downloaded and cited in P1545/P1624 with exact physical pages.",
+    "Visually inspected original Volkswagen P1545 bulletin pages1and5, Audi P1545 bulletin pages1,2and4, and Volkswagen P1624 Tech Tip pages1and2. Applicability tables, fault descriptions and conditional repair sequence checked.",
+    "No guessed pinouts, measurements, warranty coverage, code-specific model matrices, part prices, universal transfer functions or human technician approval. One pin/location detail in P1624 is directly supported by the scoped Volkswagen Tech Tip.",
+    "Copied OEM tables, raw source HTML/wikitext and full PDFs are retained only in scratch; repository contains original article explanations, source metadata and links."
+  ],
+  "unresolvedIssues": [
+    {
+      "code": "P1141",
+      "issue": "The source labels its proposed monitor algorithm as personal conjecture. Article preserves that uncertainty and does not present it as an OEM-defined cross-check formula."
+    },
+    {
+      "code": "P1155",
+      "issue": "Ross-Tech includes an uncorroborated N75 replacement anecdote. Article identifies it as a single case, not a generally established P1155 remedy."
+    },
+    {
+      "code": "P1220",
+      "issue": "Ross-Tech page title/URL is 17627/P1220 while its diagnostic heading is17628/P1220. Article retains P1220/N86 meaning and explicitly discloses decimal-reference discrepancy."
+    },
+    {
+      "code": "P1522",
+      "issue": "Ross-Tech P1522 heading is bank2/N208, but a solution line says bank1/N208. Article explicitly flags the inconsistent bank label and requires vehicle-specific mapping."
+    },
+    {
+      "code": "P1560",
+      "issue": "Ross-Tech page contains humorous warranty-void and clearing-code remarks. Article excludes them as authority and notes that code alone does not establish warranty status or damage."
+    },
+    {
+      "code": "P1571",
+      "issue": "Dictionary describes short to B+, but Ross-Tech heading only names N144 and its cause line questions short/open. Exact electrical subtype remains unresolved and is explicitly disclosed."
+    },
+    {
+      "code": "P1631",
+      "issue": "Ross-Tech P1631 describes opposite-direction pedal channels; P1639 describes same-direction channels on different scales. Universal transfer-function inference is not supported and article flags it."
+    },
+    {
+      "code": "P1633",
+      "issue": "Pedal-channel transfer-function descriptions conflict between Ross-Tech P1633 and P1639. Article does not use either as a universal specification; source symptom field is unspecified."
+    },
+    {
+      "code": "P1634",
+      "issue": "Ross-Tech P1634 and P1639 conflict on pedal-channel direction/scales. Article discloses the conflict and requires controller-specific criteria; unsupported failure-frequency inference is omitted."
+    },
+    {
+      "code": "P1639",
+      "issue": "Ross-Tech P1639 describes same-direction/different-scale pedal channels, conflicting with P1631/P1633/P1634 opposite-direction notes. No universal transfer function is asserted."
+    }
+  ],
+  "omittedSourceClaims": [
+    "P1118 source symptom line says MIL faulty; not used to assert a specific warning-lamp failure.",
+    "P1255/P1256 speculative historical sensor-color/failure-frequency note is not treated as a universal replacement rule.",
+    "P1455 and pedal-sensor qualitative frequency statements are not converted into measured probabilities.",
+    "P1570 battery-cable shorting anecdote and unauthorized immobilizer bypass instructions are not reproduced.",
+    "Fuel Trim Info full-throttle road-test suggestion is not reproduced.",
+    "P1560 humorous warranty-void and driver remarks are not accepted as warranty or repair authority."
+  ],
+  "limitations": [
+    "Drafts only; not published, mechanically certified or human-reviewed.",
+    "Volkswagen canonical namespace does not prove each example applies to every Volkswagen. Audi and DSG/01V-specific examples remain expressly bounded to source scope.",
+    "Related injector, ignition and pressure-control codes legitimately share methods in the source. Individual writing does not create evidence for different faults, numerical specifications or repair likelihoods.",
+    "Historical bulletins and specialist wiki revisions require vehicle-specific current repair information before physical service."
+  ],
+  "validationErrors": [],
+  "articles": [
+    {
+      "code": "P1111",
+      "entryId": "volkswagen-p1111",
+      "words": 255,
+      "substantiveWords": 199,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1111",
+        "ross-tech-fuel-trim-info"
+      ],
+      "sha256": "b9c900224b679b86f21af4440c8a55f94e8b997216ef9fd8fbd88abba1a4243c"
+    },
+    {
+      "code": "P1118",
+      "entryId": "volkswagen-p1118",
+      "words": 247,
+      "substantiveWords": 201,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1118"
+      ],
+      "sha256": "ca87aea15bd946e536eb6075339dbc9409f00f006ec30f98ab2f6df83e4aca3f"
+    },
+    {
+      "code": "P1136",
+      "entryId": "volkswagen-p1136",
+      "words": 268,
+      "substantiveWords": 206,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1136",
+        "ross-tech-fuel-trim-info"
+      ],
+      "sha256": "f067b08f6339913e1214bf8143f85185f2aedc02e6d13aae635c939d4f72f4f4"
+    },
+    {
+      "code": "P1139",
+      "entryId": "volkswagen-p1139",
+      "words": 257,
+      "substantiveWords": 198,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1139",
+        "ross-tech-fuel-trim-info"
+      ],
+      "sha256": "b98af4da3437f283d6057711aef7115c987d05a21444eb118dca7082ee5b2209"
+    },
+    {
+      "code": "P1141",
+      "entryId": "volkswagen-p1141",
+      "words": 252,
+      "substantiveWords": 199,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1141"
+      ],
+      "sha256": "28c655cbff908fb399aff3428c81dfdbe655e1554682a225c108e8646ec2feb3"
+    },
+    {
+      "code": "P1142",
+      "entryId": "volkswagen-p1142",
+      "words": 265,
+      "substantiveWords": 210,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1142"
+      ],
+      "sha256": "db85110b88c4b1141e1926082c86f784d7ab42c727314956b93528a4e0746f8d"
+    },
+    {
+      "code": "P1143",
+      "entryId": "volkswagen-p1143",
+      "words": 256,
+      "substantiveWords": 206,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1143"
+      ],
+      "sha256": "2da54c4293069466386d8d26f44ca3a91ec2c27285af43d052fd7b9de332e445"
+    },
+    {
+      "code": "P1144",
+      "entryId": "volkswagen-p1144",
+      "words": 254,
+      "substantiveWords": 202,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1144"
+      ],
+      "sha256": "9261658fe9586eac0a2560bd53363c3ab014fa9b70d487aefe73a4a9105552d3"
+    },
+    {
+      "code": "P1145",
+      "entryId": "volkswagen-p1145",
+      "words": 257,
+      "substantiveWords": 204,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1145"
+      ],
+      "sha256": "d986cc7d2e3dda1e916b00088e89615bb3bc7479dd2e055bc6aed6d1ca8ef45c"
+    },
+    {
+      "code": "P1155",
+      "entryId": "volkswagen-p1155",
+      "words": 259,
+      "substantiveWords": 201,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1155"
+      ],
+      "sha256": "2855910efa5f731641764f6c83322bf974c7bde0f5994f31b4537d931cd0e775"
+    },
+    {
+      "code": "P1163",
+      "entryId": "volkswagen-p1163",
+      "words": 255,
+      "substantiveWords": 202,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1163"
+      ],
+      "sha256": "b3f5f546bafd47da223cee7ca7372e2712c38ad70848e558d15ca1f39ca0c77f"
+    },
+    {
+      "code": "P1171",
+      "entryId": "volkswagen-p1171",
+      "words": 249,
+      "substantiveWords": 198,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1171"
+      ],
+      "sha256": "c6e4a2a90df037d5d5f14b40dc12d9ee5a1f6107880ee6c64562928c32d24571"
+    },
+    {
+      "code": "P1213",
+      "entryId": "volkswagen-p1213",
+      "words": 184,
+      "substantiveWords": 140,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1213"
+      ],
+      "sha256": "00e07c0a7f740b3f6c8a8930576ef9be8fe0982152874b4de07bbc412a61c931"
+    },
+    {
+      "code": "P1214",
+      "entryId": "volkswagen-p1214",
+      "words": 189,
+      "substantiveWords": 141,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1214"
+      ],
+      "sha256": "8e4b574f6ffbe44106c240d17d67e0e7f804f94d714e8fd47ded8784ffb6873a"
+    },
+    {
+      "code": "P1215",
+      "entryId": "volkswagen-p1215",
+      "words": 192,
+      "substantiveWords": 137,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1215",
+        "ross-tech-p1239"
+      ],
+      "sha256": "b4bf2ac75c3b88c017c2a361b7b489cf8ea2c38afa83dc7d1075c14fe94e90aa"
+    },
+    {
+      "code": "P1216",
+      "entryId": "volkswagen-p1216",
+      "words": 189,
+      "substantiveWords": 140,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1216"
+      ],
+      "sha256": "d096c13ab51f175b61f51a74d974240e15368341938035fd902c67481fad35e4"
+    },
+    {
+      "code": "P1217",
+      "entryId": "volkswagen-p1217",
+      "words": 188,
+      "substantiveWords": 141,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1217"
+      ],
+      "sha256": "05832846e174872e293848594e70af210b83497f005406b33274fc88c864232a"
+    },
+    {
+      "code": "P1218",
+      "entryId": "volkswagen-p1218",
+      "words": 183,
+      "substantiveWords": 134,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1218"
+      ],
+      "sha256": "f3d40be332e50d2b4eed4c7ba6dd1a118a20ad450943b136b42cd29fa87cccfc"
+    },
+    {
+      "code": "P1219",
+      "entryId": "volkswagen-p1219",
+      "words": 189,
+      "substantiveWords": 139,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1219"
+      ],
+      "sha256": "6d225ac0b5a676c6c14248e3a4759937e9e06f261aebcbefb677cbf5533d5d09"
+    },
+    {
+      "code": "P1220",
+      "entryId": "volkswagen-p1220",
+      "words": 183,
+      "substantiveWords": 137,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1220"
+      ],
+      "sha256": "1bf5d05517e8d3841700f9d162d7f1b0bc7d279a4cfb7a5dec4633b2785f6881"
+    },
+    {
+      "code": "P1239",
+      "entryId": "volkswagen-p1239",
+      "words": 192,
+      "substantiveWords": 139,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1239",
+        "ross-tech-p1215"
+      ],
+      "sha256": "809cf3e66a2ecc94c3c5824a909138303db0af9897559501b60c42cdba7973e2"
+    },
+    {
+      "code": "P1240",
+      "entryId": "volkswagen-p1240",
+      "words": 187,
+      "substantiveWords": 136,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1240"
+      ],
+      "sha256": "0a8159c38ac0cd090a7bdba03845719f24b06eed8e37f1a1d2abb5c46a143f34"
+    },
+    {
+      "code": "P1241",
+      "entryId": "volkswagen-p1241",
+      "words": 190,
+      "substantiveWords": 138,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1241"
+      ],
+      "sha256": "fa41e2045d659e6ef26f2d5e8a9446ed8fa1ead97e224a236426a5af3a7c7c90"
+    },
+    {
+      "code": "P1242",
+      "entryId": "volkswagen-p1242",
+      "words": 185,
+      "substantiveWords": 138,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1242"
+      ],
+      "sha256": "7261ac049307ea3687f6d25416d4725e290476e1be50532d9b6495e0108f42a2"
+    },
+    {
+      "code": "P1243",
+      "entryId": "volkswagen-p1243",
+      "words": 184,
+      "substantiveWords": 131,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1243"
+      ],
+      "sha256": "7f1183de72d7b3d0b111614a0ec8269a0e7525c1b9030ddd55de7560697cd087"
+    },
+    {
+      "code": "P1247",
+      "entryId": "volkswagen-p1247",
+      "words": 256,
+      "substantiveWords": 203,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1247"
+      ],
+      "sha256": "4f5e8ea7347f3a9d95d6f57de6c08974334fc6b7a6e48315e0b3d2221dad7971"
+    },
+    {
+      "code": "P1248",
+      "entryId": "volkswagen-p1248",
+      "words": 254,
+      "substantiveWords": 201,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1248"
+      ],
+      "sha256": "8945c6623d98634000ed62d42418273249eec3a9996eed5ddbd6b34d626cdfa6"
+    },
+    {
+      "code": "P1250",
+      "entryId": "volkswagen-p1250",
+      "words": 256,
+      "substantiveWords": 199,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1250"
+      ],
+      "sha256": "27019cbd101352cbab5a2d5d6a53cef0a27c555052141560a8f95e5c8ce28ead"
+    },
+    {
+      "code": "P1255",
+      "entryId": "volkswagen-p1255",
+      "words": 249,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1255"
+      ],
+      "sha256": "3f6e26c605ef63147965a0389b4bd9bc5853e222369827fced5522a3581780ea"
+    },
+    {
+      "code": "P1256",
+      "entryId": "volkswagen-p1256",
+      "words": 248,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1256"
+      ],
+      "sha256": "2ef0a49c5038c92f5280d60942a0dcae1eedab0d113865102e43715c7acca76c"
+    },
+    {
+      "code": "P1335",
+      "entryId": "volkswagen-p1335",
+      "words": 258,
+      "substantiveWords": 202,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1335",
+        "ross-tech-fuel-trim-info"
+      ],
+      "sha256": "163529d7b794ed0fc472f4f8c509053e592e6ba3a344b2e67d7622d78231ed5a"
+    },
+    {
+      "code": "P1336",
+      "entryId": "volkswagen-p1336",
+      "words": 267,
+      "substantiveWords": 209,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1336",
+        "ross-tech-fuel-trim-info"
+      ],
+      "sha256": "4743e4d5e85ade09ac30f92ffe38e320d785a50da1b152a6ea8afcb2be095a92"
+    },
+    {
+      "code": "P1337",
+      "entryId": "volkswagen-p1337",
+      "words": 245,
+      "substantiveWords": 195,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1337"
+      ],
+      "sha256": "3509ffe91e3c8c6737afc5d8a55c15808cbf99bb6244b560b0bdbeefd88409ca"
+    },
+    {
+      "code": "P1338",
+      "entryId": "volkswagen-p1338",
+      "words": 255,
+      "substantiveWords": 201,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1338"
+      ],
+      "sha256": "441a9cde35a7d5020a1f6ae4c3eb4acba65344681188a3fc6e4d55668fb92dc4"
+    },
+    {
+      "code": "P1340",
+      "entryId": "volkswagen-p1340",
+      "words": 260,
+      "substantiveWords": 209,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1340"
+      ],
+      "sha256": "0b37afe707342b501d7e1b28e7c9ad36f827864ce30ff3a70ff98b7aa77450d6"
+    },
+    {
+      "code": "P1347",
+      "entryId": "volkswagen-p1347",
+      "words": 249,
+      "substantiveWords": 200,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1347"
+      ],
+      "sha256": "87df9d1e9b1abc38472e8078418de2e2c892bf6dcb8325855ee24baf6ed43d49"
+    },
+    {
+      "code": "P1354",
+      "entryId": "volkswagen-p1354",
+      "words": 252,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1354"
+      ],
+      "sha256": "af571939cc99867d100e83e48ef21f1b29ca62bd12ad3eacf2986d8649d3d4db"
+    },
+    {
+      "code": "P1355",
+      "entryId": "volkswagen-p1355",
+      "words": 198,
+      "substantiveWords": 146,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1355"
+      ],
+      "sha256": "d1eb328c78c90e93a42eab01b8f40df9c17215636b57339af460a4d3fa40f6d3"
+    },
+    {
+      "code": "P1358",
+      "entryId": "volkswagen-p1358",
+      "words": 194,
+      "substantiveWords": 144,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1358"
+      ],
+      "sha256": "c2289396e654cd42ba908b0106ff5c0f3db99341f3e518884a0d5ebdb1bd6a5f"
+    },
+    {
+      "code": "P1361",
+      "entryId": "volkswagen-p1361",
+      "words": 193,
+      "substantiveWords": 145,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1361"
+      ],
+      "sha256": "96eb6e68a0c9003876cd4a2b7611ae3443ded9d381216ba699d5f7dea753e349"
+    },
+    {
+      "code": "P1364",
+      "entryId": "volkswagen-p1364",
+      "words": 198,
+      "substantiveWords": 154,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1364"
+      ],
+      "sha256": "634ba41ffa0b28cba81041879bfdcb260599986160f8c944f5078f82fbd8e84a"
+    },
+    {
+      "code": "P1370",
+      "entryId": "volkswagen-p1370",
+      "words": 257,
+      "substantiveWords": 198,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1370"
+      ],
+      "sha256": "c5502fd942d5bc7c1ff701e85afd933471a11e2c0e74a5d417e102e64e507b6e"
+    },
+    {
+      "code": "P1392",
+      "entryId": "volkswagen-p1392",
+      "words": 244,
+      "substantiveWords": 192,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1392"
+      ],
+      "sha256": "bd395b9392f563ed900c080a09a69485f8aa32c52b432f41586dbc49eed1b7d2"
+    },
+    {
+      "code": "P1423",
+      "entryId": "volkswagen-p1423",
+      "words": 252,
+      "substantiveWords": 194,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1423"
+      ],
+      "sha256": "e46ea579b1aff20bfe9157ff8df53d64df4f73374661353ba2c99ad7dbff708e"
+    },
+    {
+      "code": "P1424",
+      "entryId": "volkswagen-p1424",
+      "words": 254,
+      "substantiveWords": 192,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1424",
+        "ross-tech-p1423"
+      ],
+      "sha256": "b6f6cdbb6110ab2d6b7a187f82164dbc405739eb6794352e5170a4ea2d3ca8a6"
+    },
+    {
+      "code": "P1426",
+      "entryId": "volkswagen-p1426",
+      "words": 253,
+      "substantiveWords": 199,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1426"
+      ],
+      "sha256": "2e4cb596afb32e2f930f4d8adbac5a119867ea6b098ac7cd9784ad5c470b29b1"
+    },
+    {
+      "code": "P1433",
+      "entryId": "volkswagen-p1433",
+      "words": 254,
+      "substantiveWords": 201,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1433"
+      ],
+      "sha256": "06fc05d607985e4b94e355c23aa630971a49ac04a152c516a1ef69461e76eb6c"
+    },
+    {
+      "code": "P1455",
+      "entryId": "volkswagen-p1455",
+      "words": 245,
+      "substantiveWords": 192,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1455"
+      ],
+      "sha256": "50e76afd46888efd204d96af809003bd302ec36ad2a239a36f8e5c67817bb65e"
+    },
+    {
+      "code": "P1458",
+      "entryId": "volkswagen-p1458",
+      "words": 253,
+      "substantiveWords": 201,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1458"
+      ],
+      "sha256": "2e3ae877c63b2c81257ed2a0bda0ec7c6ac3d479ce71998dad77dfe5f74e859d"
+    },
+    {
+      "code": "P1473",
+      "entryId": "volkswagen-p1473",
+      "words": 254,
+      "substantiveWords": 201,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1473"
+      ],
+      "sha256": "c4d990d7d7513e48872404c1e3e0e52b48a92ed6c4438c5c93bab9ccf33dffa6"
+    },
+    {
+      "code": "P1476",
+      "entryId": "volkswagen-p1476",
+      "words": 257,
+      "substantiveWords": 203,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1476"
+      ],
+      "sha256": "2c865519e7d80e5751e53e385b9ae447f0d35bd6fa8115b320a22bcd848afb20"
+    },
+    {
+      "code": "P1503",
+      "entryId": "volkswagen-p1503",
+      "words": 255,
+      "substantiveWords": 202,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1503"
+      ],
+      "sha256": "253d70f0813e786b33b8b7f49a79e11154b538ff6fb1b9cb1523452b29a05dca"
+    },
+    {
+      "code": "P1519",
+      "entryId": "volkswagen-p1519",
+      "words": 242,
+      "substantiveWords": 187,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1519"
+      ],
+      "sha256": "1981b8a48fa5d27ca2d17b3b06047ede8234317c69af48b50035f62d1195b728"
+    },
+    {
+      "code": "P1522",
+      "entryId": "volkswagen-p1522",
+      "words": 253,
+      "substantiveWords": 202,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1522"
+      ],
+      "sha256": "65746cd67fd5057ff6981f60501e23b2652e9670750d7ba8adc2a2f85cae297b"
+    },
+    {
+      "code": "P1523",
+      "entryId": "volkswagen-p1523",
+      "words": 253,
+      "substantiveWords": 198,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1523"
+      ],
+      "sha256": "8793a070c4ad739dca3c0d6d0b38fcf87a6a24440dcd02211b8e5e798a62be0e"
+    },
+    {
+      "code": "P1526",
+      "entryId": "volkswagen-p1526",
+      "words": 244,
+      "substantiveWords": 193,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1526"
+      ],
+      "sha256": "7de032ea71710001cd7caff5560faa977e5a2a33e44c6685b82d40fdb094adee"
+    },
+    {
+      "code": "P1527",
+      "entryId": "volkswagen-p1527",
+      "words": 249,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1527"
+      ],
+      "sha256": "e210b115bc05d2dd196dca17848fa23a2a9814ee71fb00819d756cebeb7c6d1d"
+    },
+    {
+      "code": "P1528",
+      "entryId": "volkswagen-p1528",
+      "words": 255,
+      "substantiveWords": 200,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1528"
+      ],
+      "sha256": "5d04359fefcfacf8df46413acb23e8bcb58c7592135498b38682917daa8893a3"
+    },
+    {
+      "code": "P1531",
+      "entryId": "volkswagen-p1531",
+      "words": 248,
+      "substantiveWords": 196,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1531"
+      ],
+      "sha256": "7979000d5257ebd36264bf7a9b135617787690b76ff23cf2a9efb1a9d29fa697"
+    },
+    {
+      "code": "P1542",
+      "entryId": "volkswagen-p1542",
+      "words": 247,
+      "substantiveWords": 190,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1542"
+      ],
+      "sha256": "1a071e28898ff02326a07f33fbd862cc6eff8302e3215e25261dada63e27943d"
+    },
+    {
+      "code": "P1545",
+      "entryId": "volkswagen-p1545",
+      "words": 289,
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1545",
+        "nhtsa-vw-p1545-throttle-wiring",
+        "nhtsa-audi-p1545-throttle-wiring"
+      ],
+      "sha256": "e8c1192102ce0789e5e81c9c06fd78f4f966ea081991202c2d88ac44f920b13e"
+    },
+    {
+      "code": "P1555",
+      "entryId": "volkswagen-p1555",
+      "words": 257,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1555"
+      ],
+      "sha256": "ab2a172c742701d7cef7ee72eeed338493b959062ae1c18ee30bf72147cd0742"
+    },
+    {
+      "code": "P1556",
+      "entryId": "volkswagen-p1556",
+      "words": 248,
+      "substantiveWords": 193,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1556"
+      ],
+      "sha256": "7c15fe324dad05224864902a8657bfcddbf90bcc6ce80677938cc03222e8484b"
+    },
+    {
+      "code": "P1557",
+      "entryId": "volkswagen-p1557",
+      "words": 250,
+      "substantiveWords": 198,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1557"
+      ],
+      "sha256": "5cdd970c4ab465b511ba299606a1ff4a7d5806a5dee5d01aac2785c378ec33f7"
+    },
+    {
+      "code": "P1560",
+      "entryId": "volkswagen-p1560",
+      "words": 257,
+      "substantiveWords": 207,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1560"
+      ],
+      "sha256": "b2e7b51184215d9bd4ea0156c70bd3e22b8a9349e505603fc5204ea0e298e65f"
+    },
+    {
+      "code": "P1562",
+      "entryId": "volkswagen-p1562",
+      "words": 260,
+      "substantiveWords": 202,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1562"
+      ],
+      "sha256": "02dcdf15a6ea37a7812484ffbe1be5d253af273dfdb16a26cfb64d06d76818b2"
+    },
+    {
+      "code": "P1563",
+      "entryId": "volkswagen-p1563",
+      "words": 259,
+      "substantiveWords": 205,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1563"
+      ],
+      "sha256": "28c1f6cfc701847db7ea868817444c2b956a13c44f59d9a9ae8668548b439318"
+    },
+    {
+      "code": "P1569",
+      "entryId": "volkswagen-p1569",
+      "words": 244,
+      "substantiveWords": 193,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1569"
+      ],
+      "sha256": "94e39ecd6a20457a4296cb122e7792054fbe758dc7177d35bbebaa78966524e6"
+    },
+    {
+      "code": "P1570",
+      "entryId": "volkswagen-p1570",
+      "words": 261,
+      "substantiveWords": 208,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1570"
+      ],
+      "sha256": "aa18fcfd548960eed9336eada1aac19337ee76ab35f849a6871d91e8eda43181"
+    },
+    {
+      "code": "P1571",
+      "entryId": "volkswagen-p1571",
+      "words": 252,
+      "substantiveWords": 198,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1571"
+      ],
+      "sha256": "87cf6e12a96002aa0cb0f87c3953d8128b0d0ed107a652c14edd0bc8fe81ddc8"
+    },
+    {
+      "code": "P1581",
+      "entryId": "volkswagen-p1581",
+      "words": 264,
+      "substantiveWords": 203,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1581",
+        "ross-tech-throttle-body-alignment"
+      ],
+      "sha256": "dd6ce4e02e9720c73f11cf145fa73d6b1e251b7af623c3d7dff29d8177bd5497"
+    },
+    {
+      "code": "P1582",
+      "entryId": "volkswagen-p1582",
+      "words": 266,
+      "substantiveWords": 202,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1582",
+        "ross-tech-throttle-body-alignment"
+      ],
+      "sha256": "371f3af302870fcabbc7faf5fe4d4633f3947f8925266febc71e1b09eb4a66ae"
+    },
+    {
+      "code": "P1602",
+      "entryId": "volkswagen-p1602",
+      "words": 250,
+      "substantiveWords": 197,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1602"
+      ],
+      "sha256": "599e2dcf89cb7c9d7290a75e153476878d2fc695ac0a07fff3b5a8f84c617af7"
+    },
+    {
+      "code": "P1609",
+      "entryId": "volkswagen-p1609",
+      "words": 260,
+      "substantiveWords": 204,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1609"
+      ],
+      "sha256": "6b433241d6859de6cf32c56c463caf904b732355301ff2e704d596668fd35a15"
+    },
+    {
+      "code": "P1612",
+      "entryId": "volkswagen-p1612",
+      "words": 249,
+      "substantiveWords": 200,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1612"
+      ],
+      "sha256": "7a110f4ab755abc25b65a1842a0f0ccba2eb0ce259809517ea0a9808ad98f341"
+    },
+    {
+      "code": "P1613",
+      "entryId": "volkswagen-p1613",
+      "words": 246,
+      "substantiveWords": 195,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1613"
+      ],
+      "sha256": "f67691fbd3f5a66656ae9711124de6f467e2e103225b53ad3b74ace15aa34b80"
+    },
+    {
+      "code": "P1624",
+      "entryId": "volkswagen-p1624",
+      "words": 278,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1624",
+        "nhtsa-vw-p1624-09g"
+      ],
+      "sha256": "5c4805197ef54679ec8c808d3eeb51864e83a08586eff1df0f5856b5ce5923f8"
+    },
+    {
+      "code": "P1625",
+      "entryId": "volkswagen-p1625",
+      "words": 247,
+      "substantiveWords": 192,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1625"
+      ],
+      "sha256": "59452d3adf3112420899728307a366864b46aa976e344a1b0477f6dd493d4a10"
+    },
+    {
+      "code": "P1631",
+      "entryId": "volkswagen-p1631",
+      "words": 254,
+      "substantiveWords": 193,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1631",
+        "ross-tech-p1639"
+      ],
+      "sha256": "d272e5014264dd6f8c1c8e124171ef0733bb950fece4f649ee9fff637e7c8a7f"
+    },
+    {
+      "code": "P1633",
+      "entryId": "volkswagen-p1633",
+      "words": 257,
+      "substantiveWords": 195,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1633",
+        "ross-tech-p1639"
+      ],
+      "sha256": "c64e9bedd64c5fbbeda571bf4ddfd999fcc0be0a09e69aaf41cdba16e0513e14"
+    },
+    {
+      "code": "P1634",
+      "entryId": "volkswagen-p1634",
+      "words": 254,
+      "substantiveWords": 193,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1634",
+        "ross-tech-p1639"
+      ],
+      "sha256": "2407035565a291b1b5f9bdf18203946ff361daec960e5dfa8de6755dfb27fb9c"
+    },
+    {
+      "code": "P1637",
+      "entryId": "volkswagen-p1637",
+      "words": 249,
+      "substantiveWords": 200,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1637"
+      ],
+      "sha256": "5a2ac61ccd76f16e52d3eb7a5ffeb595451016c28fd674ee252205438d356f85"
+    },
+    {
+      "code": "P1639",
+      "entryId": "volkswagen-p1639",
+      "words": 261,
+      "substantiveWords": 189,
+      "sourceReview": "needs-review",
+      "sourceIds": [
+        "ross-tech-p1639",
+        "ross-tech-p1631",
+        "ross-tech-p1633",
+        "ross-tech-p1634"
+      ],
+      "sha256": "776e9253391b959b63e3c60b3d2c827d8d5e13baa53a2595079080f9f9dd7af7"
+    },
+    {
+      "code": "P1643",
+      "entryId": "volkswagen-p1643",
+      "words": 259,
+      "substantiveWords": 203,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1643"
+      ],
+      "sha256": "bfc9a7eeb1d2f154077f78656f16c454036028ea3dcf49a70a7914f82e00c70c"
+    },
+    {
+      "code": "P1647",
+      "entryId": "volkswagen-p1647",
+      "words": 257,
+      "substantiveWords": 203,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1647"
+      ],
+      "sha256": "4ede7ed0424272c002bcedd0cb58709751745079166841e49940f3641bdf79c8"
+    },
+    {
+      "code": "P1649",
+      "entryId": "volkswagen-p1649",
+      "words": 258,
+      "substantiveWords": 206,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1649"
+      ],
+      "sha256": "74ee9d3fdde4e9c23c99b695bcee430e2f400d1139edd6a01d109b7a0df8184a"
+    },
+    {
+      "code": "P1653",
+      "entryId": "volkswagen-p1653",
+      "words": 200,
+      "substantiveWords": 144,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1653",
+        "ross-tech-p1847"
+      ],
+      "sha256": "e54724647d95536cf15cbc3fa2ef6888f21386066e3e2212349b28e8972c68c1"
+    },
+    {
+      "code": "P1746",
+      "entryId": "volkswagen-p1746",
+      "words": 246,
+      "substantiveWords": 191,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1746"
+      ],
+      "sha256": "1a98ca34b3940597f43db2c9f8849db638c0939d0c68a1bf621b56725e6079fa"
+    },
+    {
+      "code": "P1814",
+      "entryId": "volkswagen-p1814",
+      "words": 190,
+      "substantiveWords": 138,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1814"
+      ],
+      "sha256": "71f2ce9828bb838f722b99046534cb6a7f9565970a5bf86ae5428de4fd1f7848"
+    },
+    {
+      "code": "P1815",
+      "entryId": "volkswagen-p1815",
+      "words": 195,
+      "substantiveWords": 146,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1815"
+      ],
+      "sha256": "170c99478692445c9116aeabf3ceb51693a9d6786c4c556dff11651ff9c4196a"
+    },
+    {
+      "code": "P1819",
+      "entryId": "volkswagen-p1819",
+      "words": 193,
+      "substantiveWords": 143,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1819"
+      ],
+      "sha256": "c22c7cdab535673139949553869a6f73109d5a12b5111e39dda2dc62710fd6db"
+    },
+    {
+      "code": "P1820",
+      "entryId": "volkswagen-p1820",
+      "words": 190,
+      "substantiveWords": 141,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1820"
+      ],
+      "sha256": "4e29a2a90d41b1f6eee3108588cc22757d730c7d4675a2953e95cae2f0983352"
+    },
+    {
+      "code": "P1824",
+      "entryId": "volkswagen-p1824",
+      "words": 189,
+      "substantiveWords": 141,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1824"
+      ],
+      "sha256": "41540c8b065ddf29739394ffc14db1a9269a96dae2510b0378c781c8aeacb233"
+    },
+    {
+      "code": "P1825",
+      "entryId": "volkswagen-p1825",
+      "words": 188,
+      "substantiveWords": 143,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1825"
+      ],
+      "sha256": "29d8d76591b358f88a630909985895f056fa931d68c718b23dcf944fd9ec5bc3"
+    },
+    {
+      "code": "P1829",
+      "entryId": "volkswagen-p1829",
+      "words": 194,
+      "substantiveWords": 140,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1829"
+      ],
+      "sha256": "10b39c303c0558ecdde3ddc5644658c3583d83c23f4c128e3b5cf83119cd01e4"
+    },
+    {
+      "code": "P1830",
+      "entryId": "volkswagen-p1830",
+      "words": 195,
+      "substantiveWords": 140,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1830"
+      ],
+      "sha256": "63469023cc29ed21209d6f3dcac7da5208303ed1fae6d3a7e187eccad9d9e09b"
+    },
+    {
+      "code": "P1847",
+      "entryId": "volkswagen-p1847",
+      "words": 203,
+      "substantiveWords": 146,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1847",
+        "ross-tech-p1653"
+      ],
+      "sha256": "f94df59ab218cc5ac7118a341c471de1b8ce9dcd1ce952916595a3b2b1ff4f1c"
+    },
+    {
+      "code": "P1848",
+      "entryId": "volkswagen-p1848",
+      "words": 264,
+      "substantiveWords": 203,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1848"
+      ],
+      "sha256": "9bfe6c709afb842bfb17ed9f89a620ce3a9650671756736e287d7343f2c3ec6a"
+    },
+    {
+      "code": "P1850",
+      "entryId": "volkswagen-p1850",
+      "words": 246,
+      "substantiveWords": 186,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1850"
+      ],
+      "sha256": "03a4ecb8db53971990227e07f67e99388d90e181c272571588721ecacba48301"
+    },
+    {
+      "code": "P1853",
+      "entryId": "volkswagen-p1853",
+      "words": 256,
+      "substantiveWords": 204,
+      "sourceReview": "checked",
+      "sourceIds": [
+        "ross-tech-p1853"
+      ],
+      "sha256": "a01485d77575a92f83018ebea6179cc661baa86820b0ef79d4b8e7b6957a58f5"
+    }
+  ],
+  "similarityScreen": {
+    "method": "Pairwise five-word Jaccard over authored prose excluding headings and sources, normalizing code strings and discarding numerical tokens. Similar wording is screened, not semantic originality certified.",
+    "threshold": 0.45,
+    "flaggedPairs": [],
+    "maximum": {
+      "codes": [
+        "P1815",
+        "P1830"
+      ],
+      "jaccard5": 0.0981
+    }
+  },
+  "editorialRevisionB24_03": {
+    "request": "Root follow-up addressing independent review finding B24-03.",
+    "changedArticles": [
+      "P1213",
+      "P1214",
+      "P1215",
+      "P1216",
+      "P1217",
+      "P1218",
+      "P1219",
+      "P1220",
+      "P1239",
+      "P1240",
+      "P1241",
+      "P1242",
+      "P1243",
+      "P1355",
+      "P1358",
+      "P1361",
+      "P1364",
+      "P1653",
+      "P1814",
+      "P1815",
+      "P1819",
+      "P1820",
+      "P1824",
+      "P1825",
+      "P1829",
+      "P1830",
+      "P1847"
+    ],
+    "changedCount": 27,
+    "method": "Individually condensed the 27 narrow family articles; removed repeated absence-of-pinout warnings, repeated code-clearing cautions and generic concluding caveats. Retained actual component/cylinder/fault direction, source-supported diagnostic branches, transmission-specific connector notes and bounded bulletin leads. Explicitly identify genuinely shared diagnostic methods instead of implying different repairs. P1220 source discrepancy and needs-review retained.",
+    "additionalEvidence": "Existing source revisions re-used; a quick lookup of retained NHTSA CSV metadata did not establish the cited ignition bulletin, so no unverified additional OEM claims were added. P1653/P1847 now cite one another\u2019s original source page to support the explicit shared-referral comparison.",
+    "previousArticleWords": 6806,
+    "revisedArticleWords": 5155,
+    "revisedArticleWordCountRange": [
+      183,
+      203
+    ],
+    "reviewStatesChanged": false,
+    "structuralValidation": "All100 assignment identities, draft states, search descriptions, minimum150totalbodywords and source locators checked.",
+    "assembledRegistryValidation": "passed",
+    "otherFilesChangedByRootSinceSnapshot": [],
+    "articleRevisions": [
+      {
+        "code": "P1213",
+        "beforeSha256": "7fe14410ac289c8d93e2ebeab0522e671bbffcc6abf6f9f0be43654056eb7121",
+        "afterSha256": "00e07c0a7f740b3f6c8a8930576ef9be8fe0982152874b4de07bbc412a61c931",
+        "beforeWords": 255,
+        "afterWords": 184
+      },
+      {
+        "code": "P1214",
+        "beforeSha256": "061205d88a1cf3d1978f538bc45f437dce4a716fefb39a0da36732c7f1df63d2",
+        "afterSha256": "8e4b574f6ffbe44106c240d17d67e0e7f804f94d714e8fd47ded8784ffb6873a",
+        "beforeWords": 256,
+        "afterWords": 189
+      },
+      {
+        "code": "P1215",
+        "beforeSha256": "bec32b03fff46bf255a5b8423ddd0038289e75bb8d066c26eeba095bb9b1ed44",
+        "afterSha256": "b4bf2ac75c3b88c017c2a361b7b489cf8ea2c38afa83dc7d1075c14fe94e90aa",
+        "beforeWords": 252,
+        "afterWords": 192
+      },
+      {
+        "code": "P1216",
+        "beforeSha256": "540b881f21a7e51b087d56875b3d17b4d4269bf992b3efcecc4b28766e2c4f37",
+        "afterSha256": "d096c13ab51f175b61f51a74d974240e15368341938035fd902c67481fad35e4",
+        "beforeWords": 253,
+        "afterWords": 189
+      },
+      {
+        "code": "P1217",
+        "beforeSha256": "b0ee6a50b2dfd796af27e0981a124edb67d53daacd6c63bacfe5b7ba3ca9713d",
+        "afterSha256": "05832846e174872e293848594e70af210b83497f005406b33274fc88c864232a",
+        "beforeWords": 246,
+        "afterWords": 188
+      },
+      {
+        "code": "P1218",
+        "beforeSha256": "f6e1d6ae5703b8e97604b5d10d98c558f822ea185909800e5475b8627b911cf3",
+        "afterSha256": "f3d40be332e50d2b4eed4c7ba6dd1a118a20ad450943b136b42cd29fa87cccfc",
+        "beforeWords": 260,
+        "afterWords": 183
+      },
+      {
+        "code": "P1219",
+        "beforeSha256": "38ad477e8b58ee74d70eb777b12e00c36aa07bbf8b227cc9b85251bef3393127",
+        "afterSha256": "6d225ac0b5a676c6c14248e3a4759937e9e06f261aebcbefb677cbf5533d5d09",
+        "beforeWords": 255,
+        "afterWords": 189
+      },
+      {
+        "code": "P1220",
+        "beforeSha256": "24ac78d0b18553d07f2027cbb121deb9d4b074e8b285b2cd27e46afd0dbbfb12",
+        "afterSha256": "1bf5d05517e8d3841700f9d162d7f1b0bc7d279a4cfb7a5dec4633b2785f6881",
+        "beforeWords": 249,
+        "afterWords": 183
+      },
+      {
+        "code": "P1239",
+        "beforeSha256": "4e800bba98fa0e333b5f4a1303b6c6a59b15fbad3946f8ef25e45331ca3a1252",
+        "afterSha256": "809cf3e66a2ecc94c3c5824a909138303db0af9897559501b60c42cdba7973e2",
+        "beforeWords": 253,
+        "afterWords": 192
+      },
+      {
+        "code": "P1240",
+        "beforeSha256": "5eb47d606e5959b467b9bc172d0c7eb59522e7684bb0f98ec1a1616570cf27ee",
+        "afterSha256": "0a8159c38ac0cd090a7bdba03845719f24b06eed8e37f1a1d2abb5c46a143f34",
+        "beforeWords": 257,
+        "afterWords": 187
+      },
+      {
+        "code": "P1241",
+        "beforeSha256": "2054200ed030f7bfd0737876b2217191ec34269334abf8a0c864fab30481a747",
+        "afterSha256": "fa41e2045d659e6ef26f2d5e8a9446ed8fa1ead97e224a236426a5af3a7c7c90",
+        "beforeWords": 249,
+        "afterWords": 190
+      },
+      {
+        "code": "P1242",
+        "beforeSha256": "69bf259b2720ea88fd456de1d11d8e5b1924053ee204b24bdad965a49b842420",
+        "afterSha256": "7261ac049307ea3687f6d25416d4725e290476e1be50532d9b6495e0108f42a2",
+        "beforeWords": 252,
+        "afterWords": 185
+      },
+      {
+        "code": "P1243",
+        "beforeSha256": "95d43762ad083190bcf9365db5c6b277b350aa0c6079d788feda6143b8bc164f",
+        "afterSha256": "7f1183de72d7b3d0b111614a0ec8269a0e7525c1b9030ddd55de7560697cd087",
+        "beforeWords": 253,
+        "afterWords": 184
+      },
+      {
+        "code": "P1355",
+        "beforeSha256": "552c81e71c8e97083c4be77ffaf2223fea40daa1cda02c63b283a05f8f68fa08",
+        "afterSha256": "d1eb328c78c90e93a42eab01b8f40df9c17215636b57339af460a4d3fa40f6d3",
+        "beforeWords": 254,
+        "afterWords": 198
+      },
+      {
+        "code": "P1358",
+        "beforeSha256": "9aa552901ebf92741716818bd7dcbe6400fc324f8f660d4b696540391e2f61b4",
+        "afterSha256": "c2289396e654cd42ba908b0106ff5c0f3db99341f3e518884a0d5ebdb1bd6a5f",
+        "beforeWords": 248,
+        "afterWords": 194
+      },
+      {
+        "code": "P1361",
+        "beforeSha256": "f7af9e60ba4ec7ac4c48417327163a3cb505eb010b7c36216e3827f24fa2f0f2",
+        "afterSha256": "96eb6e68a0c9003876cd4a2b7611ae3443ded9d381216ba699d5f7dea753e349",
+        "beforeWords": 251,
+        "afterWords": 193
+      },
+      {
+        "code": "P1364",
+        "beforeSha256": "fc178262959f27d3effdbd542fd0455ca5acd308c63471e02537b6d2012b752a",
+        "afterSha256": "634ba41ffa0b28cba81041879bfdcb260599986160f8c944f5078f82fbd8e84a",
+        "beforeWords": 253,
+        "afterWords": 198
+      },
+      {
+        "code": "P1653",
+        "beforeSha256": "bf138f3c345fb7edb3da3e37c55108b5b3af61cb45d6ab5f508fc471c5415158",
+        "afterSha256": "e54724647d95536cf15cbc3fa2ef6888f21386066e3e2212349b28e8972c68c1",
+        "beforeWords": 254,
+        "afterWords": 200
+      },
+      {
+        "code": "P1814",
+        "beforeSha256": "9db89063d30f8ddf4f386a4204faab22f12f498aa5bf6a81f3a663144df5c4d9",
+        "afterSha256": "71f2ce9828bb838f722b99046534cb6a7f9565970a5bf86ae5428de4fd1f7848",
+        "beforeWords": 254,
+        "afterWords": 190
+      },
+      {
+        "code": "P1815",
+        "beforeSha256": "a565a665d57f649d1f61bf08a57cda56ba039a13f70aaabc9aa9a6c073cd9079",
+        "afterSha256": "170c99478692445c9116aeabf3ceb51693a9d6786c4c556dff11651ff9c4196a",
+        "beforeWords": 247,
+        "afterWords": 195
+      },
+      {
+        "code": "P1819",
+        "beforeSha256": "35b8674e8e87d2c88c4620bc7d80d8e17173a11adcda12c652c5da9c9f9761cc",
+        "afterSha256": "c22c7cdab535673139949553869a6f73109d5a12b5111e39dda2dc62710fd6db",
+        "beforeWords": 260,
+        "afterWords": 193
+      },
+      {
+        "code": "P1820",
+        "beforeSha256": "37a35cf7251c99b79783ef68341cd2a03cab8fa187b3dc04e08f8666f0df917a",
+        "afterSha256": "4e29a2a90d41b1f6eee3108588cc22757d730c7d4675a2953e95cae2f0983352",
+        "beforeWords": 249,
+        "afterWords": 190
+      },
+      {
+        "code": "P1824",
+        "beforeSha256": "55a84fd095a9db323229f6f36a52794f03e1e916b53358b4c7aef3b385d1dabf",
+        "afterSha256": "41540c8b065ddf29739394ffc14db1a9269a96dae2510b0378c781c8aeacb233",
+        "beforeWords": 249,
+        "afterWords": 189
+      },
+      {
+        "code": "P1825",
+        "beforeSha256": "e03ba3086ab7da2e0c778298274ae7012f4e91dc1698128b6bb4fe2be59be8c0",
+        "afterSha256": "29d8d76591b358f88a630909985895f056fa931d68c718b23dcf944fd9ec5bc3",
+        "beforeWords": 248,
+        "afterWords": 188
+      },
+      {
+        "code": "P1829",
+        "beforeSha256": "b3ce93d084e7b1506b365302b54321b8633f16fc0e3a3d2bbb9e173b55559b12",
+        "afterSha256": "10b39c303c0558ecdde3ddc5644658c3583d83c23f4c128e3b5cf83119cd01e4",
+        "beforeWords": 249,
+        "afterWords": 194
+      },
+      {
+        "code": "P1830",
+        "beforeSha256": "76f22453fdcfc29768729aad535d1eda0ae78100aaff1af266f06d5a80abcc1e",
+        "afterSha256": "63469023cc29ed21209d6f3dcac7da5208303ed1fae6d3a7e187eccad9d9e09b",
+        "beforeWords": 250,
+        "afterWords": 195
+      },
+      {
+        "code": "P1847",
+        "beforeSha256": "72cb8bbd0f99167317942cc70b689ea2e4f2ddb07a6c6a9d6f312d11f307bf4e",
+        "afterSha256": "f94df59ab218cc5ac7118a341c471de1b8ce9dcd1ce952916595a3b2b1ff4f1c",
+        "beforeWords": 250,
+        "afterWords": 203
+      }
+    ]
+  }
+}

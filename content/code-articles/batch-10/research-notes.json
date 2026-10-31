@@ -1,0 +1,1525 @@
+{
+  "batch": "batch-10",
+  "status": "complete",
+  "articleCount": 100,
+  "allDrafts": true,
+  "reviewMethod": "Read every assigned OEM main-code row in supplied primary-source text; read relevant table continuations in full local text. Verified table column context rather than accepting string matches. Direct source links use physical PDF page numbers. Public primary-source web corroboration was attempted for injector-label conflicts but the search service returned an error; no unsupported web claims were added.",
+  "scopeLimitations": [
+    {
+      "sourceId": "gm-2025-07a-2",
+      "issue": "The application-matrix filename differs from the download index. No model or engine applicability is inferred; all affected articles explicitly retain this limitation."
+    },
+    {
+      "sourceId": "gm-2025-04b",
+      "issue": "Module-specific table facts are not asserted for every model in the file-level application matrix."
+    }
+  ],
+  "needsReview": [
+    {
+      "code": "P0207",
+      "pages": [
+        709
+      ],
+      "issue": "OEM code row describes cylinder 6, while catalog defines cylinder 7. Article explains electrical strategy but does not assign a physical injector; implausible upper battery-voltage number omitted."
+    },
+    {
+      "code": "P0208",
+      "pages": [
+        706
+      ],
+      "issue": "OEM code rows describe cylinder 3, while catalog defines cylinder 8. Article does not silently repair numbering; upper battery-voltage artifact omitted."
+    },
+    {
+      "code": "P02CB",
+      "pages": [
+        824
+      ],
+      "issue": "Failure formula includes a healing-limit annotation, and enable text simultaneously names WOT area and idling. Numerical fault rule not reconstructed."
+    },
+    {
+      "code": "P033D",
+      "pages": [
+        605,
+        606
+      ],
+      "issue": "Circuit row says sensor 3 despite catalog sensor D and following reference-check sensor 4. Physical channel mapping unresolved."
+    },
+    {
+      "code": "P0356",
+      "pages": [
+        702
+      ],
+      "issue": "OEM row says coil E while catalog says coil F. Article retains mismatch and avoids physical coil/cylinder mapping."
+    },
+    {
+      "code": "P0873",
+      "pages": [
+        907
+      ],
+      "issue": "VREF2 enable conditions simultaneously require greater than 5500 mV and less than 4500 mV. Supported signal-high details retained, enable window not guessed."
+    }
+  ],
+  "otherDocumentCautions": [
+    {
+      "codes": [
+        "U068E"
+      ],
+      "issue": "Catalog EGR temperature sensor B versus source sensor 1; message-age unit and crank labels unclear. Article explains digital message checks without a universal timeout or crank recipe."
+    },
+    {
+      "codes": [
+        "U069A"
+      ],
+      "issue": "Unusually long printed 100-second message-age threshold explicitly identified as needing vehicle calibration confirmation; task period and fail sample count kept distinct."
+    },
+    {
+      "codes": [
+        "U3000"
+      ],
+      "issue": "HDLM excerpt has inconsistent FCM/VPM wording; article relies on the explicit FCM p1988 table only."
+    },
+    {
+      "codes": [
+        "U3018"
+      ],
+      "issue": "Starter-enable Boolean wording is awkward; article uses supported dual-input difference and timing, not a guessed crank-state procedure. Cites 04B p159 only."
+    },
+    {
+      "codes": [
+        "C055D"
+      ],
+      "issue": "Catalog hydraulic circuit B leak versus source circuit 1/excessive compliance. Both labels explicitly retained without inferred physical mapping."
+    },
+    {
+      "codes": [
+        "P0021"
+      ],
+      "issue": "Target-error comparison is printed less than 3 crankshaft degrees, unlike greater-than slow-response branches. Article preserves the sign and warns against reconstructing the workshop threshold."
+    },
+    {
+      "codes": [
+        "P0056",
+        "P0057",
+        "P0058"
+      ],
+      "issue": "Read heater-release continuation; implausible environment-temperature branch and garbled formula not reproduced as valid specifications."
+    },
+    {
+      "codes": [
+        "P010B"
+      ],
+      "issue": "Upper/lower model equation variable letters inconsistent. Physical maximum/minimum flow comparison explained without reconstructing ambiguous letter definitions."
+    },
+    {
+      "codes": [
+        "P010D"
+      ],
+      "issue": "Implausible upper battery limit omitted; SENT raw-data threshold is not represented as airflow units or analog voltage."
+    },
+    {
+      "codes": [
+        "P0140"
+      ],
+      "issue": "Load-pulse diagnostic voltage difference is not presented as a normal sensor-output range."
+    },
+    {
+      "codes": [
+        "P0155"
+      ],
+      "issue": "Startup path supported. Subsequent permanent and low-temperature branches contain contradictory voltage inequalities; not transformed into service limits."
+    },
+    {
+      "codes": [
+        "P01BF"
+      ],
+      "issue": "Stuck-check raw difference unit unclear; did not invent a pressure or voltage unit."
+    },
+    {
+      "codes": [
+        "P01E5"
+      ],
+      "issue": "Same page repeats ECT3 low description under P2184. No universal equivalence or shared physical sensor inferred."
+    },
+    {
+      "codes": [
+        "P0226"
+      ],
+      "issue": "Continuation has mixed bank labels; clear sensor and air-charge comparisons explained, remaining full Boolean test not reconstructed."
+    },
+    {
+      "codes": [
+        "P04AE",
+        "P04DF"
+      ],
+      "issue": "Opposite mixture-correction inequalities ambiguous; P04DF also has bank2-flow label. Clear bank-specific pressure-response mechanism retained."
+    },
+    {
+      "codes": [
+        "P061C"
+      ],
+      "issue": "Secondary gradient wording is unclear; main valid-speed comparison explained without inventing a rate unit."
+    },
+    {
+      "codes": [
+        "P0844",
+        "P0874",
+        "P0879"
+      ],
+      "issue": "Sample-validity Boolean wording is awkward. Zero-offset monitor and readable prerequisites explained, exact drift window left to referenced attachment calibration."
+    },
+    {
+      "codes": [
+        "P0876"
+      ],
+      "issue": "Some recovery prerequisites retain odd-clutch wording. Explicit limited-slip differential pressure-step strategy explained with service-calibration boundary."
+    }
+  ],
+  "validation": {
+    "uniqueAssignedFiles": 100,
+    "parseableFrontMatter": true,
+    "completeSentenceDescriptions": true,
+    "sourcePageBoundsChecked": true,
+    "noUnintendedModelInference": true,
+    "duplicateSubstantiveParagraphs": [],
+    "minimumBodyWords": 254,
+    "maximumBodyWords": 291,
+    "totalBodyWords": 26817
+  },
+  "articles": [
+    {
+      "code": "C0015",
+      "wordCount": 273,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            95
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C003F",
+      "wordCount": 275,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C0506",
+      "wordCount": 274,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            106
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C053E",
+      "wordCount": 270,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C055D",
+      "wordCount": 276,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C058A",
+      "wordCount": 277,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            80
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P000A",
+      "wordCount": 291,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            543,
+            544
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P000B",
+      "wordCount": 282,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            544
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P000D",
+      "wordCount": 278,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            545
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0021",
+      "wordCount": 276,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            542
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0023",
+      "wordCount": 275,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            746
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0050",
+      "wordCount": 266,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0056",
+      "wordCount": 270,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            522,
+            523
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0057",
+      "wordCount": 272,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            524,
+            525
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0058",
+      "wordCount": 279,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            525,
+            526
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P00A6",
+      "wordCount": 271,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            876
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P00A9",
+      "wordCount": 268,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            877
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P010B",
+      "wordCount": 281,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            550,
+            551
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P010D",
+      "wordCount": 264,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            546
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P013C",
+      "wordCount": 270,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            434,
+            435
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P013D",
+      "wordCount": 270,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            441,
+            442
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0140",
+      "wordCount": 275,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            504
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P014A",
+      "wordCount": 266,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            462
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P014B",
+      "wordCount": 266,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            469,
+            470
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0151",
+      "wordCount": 258,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            345
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0152",
+      "wordCount": 259,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            337
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0153",
+      "wordCount": 277,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            367,
+            368,
+            369
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0155",
+      "wordCount": 266,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            292,
+            293
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0157",
+      "wordCount": 257,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0158",
+      "wordCount": 262,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            508,
+            509
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0161",
+      "wordCount": 278,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            515,
+            516,
+            517
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0174",
+      "wordCount": 254,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0175",
+      "wordCount": 258,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            168
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P01BF",
+      "wordCount": 279,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            577,
+            578
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P01CA",
+      "wordCount": 274,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            733,
+            734
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P01E5",
+      "wordCount": 270,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            532
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P01E7",
+      "wordCount": 261,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            531
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0207",
+      "wordCount": 272,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            709
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0208",
+      "wordCount": 273,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            706
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0226",
+      "wordCount": 272,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            625,
+            626
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0227",
+      "wordCount": 266,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            624
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P029D",
+      "wordCount": 258,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            704
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P02A1",
+      "wordCount": 264,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            705
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P02CB",
+      "wordCount": 262,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            824
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0301",
+      "wordCount": 278,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            134,
+            135,
+            136
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0302",
+      "wordCount": 274,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            137,
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0303",
+      "wordCount": 281,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            139,
+            140,
+            141
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0304",
+      "wordCount": 276,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            142,
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0305",
+      "wordCount": 260,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            144,
+            145,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0306",
+      "wordCount": 268,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            147,
+            148
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0307",
+      "wordCount": 273,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            149,
+            150,
+            151
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0308",
+      "wordCount": 264,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P032C",
+      "wordCount": 258,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            601
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P032D",
+      "wordCount": 264,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            600
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0333",
+      "wordCount": 256,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            603
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P033B",
+      "wordCount": 261,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            606
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P033D",
+      "wordCount": 255,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            605
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0343",
+      "wordCount": 269,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            589
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0347",
+      "wordCount": 256,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0356",
+      "wordCount": 262,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            702
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0367",
+      "wordCount": 257,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            592
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0393",
+      "wordCount": 255,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            593
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0430",
+      "wordCount": 261,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            120,
+            121
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0497",
+      "wordCount": 279,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            154,
+            155
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P04AE",
+      "wordCount": 263,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            157
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P04DF",
+      "wordCount": 266,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            156
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P050A",
+      "wordCount": 268,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            533,
+            532
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P061C",
+      "wordCount": 263,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            640
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0638",
+      "wordCount": 261,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            761
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0639",
+      "wordCount": 263,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            794
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P064E",
+      "wordCount": 262,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            281
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0653",
+      "wordCount": 255,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            910
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0657",
+      "wordCount": 269,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P06A4",
+      "wordCount": 262,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            909
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P06B1",
+      "wordCount": 266,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            935
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P072C",
+      "wordCount": 258,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1040
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P073A",
+      "wordCount": 273,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1041
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P073F",
+      "wordCount": 263,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1043
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P074C",
+      "wordCount": 269,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1044
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P074F",
+      "wordCount": 265,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1045
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0792",
+      "wordCount": 269,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            982,
+            983
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P07C5",
+      "wordCount": 262,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            919
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P07D7",
+      "wordCount": 261,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1042
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P07E6",
+      "wordCount": 266,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1052
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0844",
+      "wordCount": 268,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            977
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0867",
+      "wordCount": 268,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1063
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0869",
+      "wordCount": 258,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            1062
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0871",
+      "wordCount": 273,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            980
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0873",
+      "wordCount": 256,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            907
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0874",
+      "wordCount": 263,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            981
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0876",
+      "wordCount": 264,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            978
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P0879",
+      "wordCount": 271,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            979
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U067C",
+      "wordCount": 264,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            992
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U068E",
+      "wordCount": 278,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            994
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U0696",
+      "wordCount": 272,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            995
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U069A",
+      "wordCount": 280,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1551
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U3000",
+      "wordCount": 279,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1988
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U3002",
+      "wordCount": 278,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            1989,
+            2758
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U3003",
+      "wordCount": 283,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            2003,
+            2007
+          ]
+        }
+      ]
+    },
+    {
+      "code": "U3018",
+      "wordCount": 286,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            159
+          ]
+        }
+      ]
+    }
+  ]
+}

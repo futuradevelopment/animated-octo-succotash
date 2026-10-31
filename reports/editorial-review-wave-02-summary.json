@@ -1,0 +1,40 @@
+{
+  "wave": 2,
+  "reviewType": "Additional AI editorial and primary-source sampling, separate from author checks.",
+  "reports": [
+    "reports/editorial-review-wave-02.json",
+    "reports/editorial-review-wave-02-batch-11.json",
+    "reports/editorial-review-wave-02-batch-14.json"
+  ],
+  "coverage": {
+    "peerArticleBodiesRead": 200,
+    "peerDeepSourceSamples": 40,
+    "rootDeepSourceSamples": 10,
+    "distinctDeeplySampledArticles": 48,
+    "distinctReviewedFileHashesVerified": 208,
+    "originalPdfPageInspectionsInPeerReviews": 21
+  },
+  "integrationCorrections": [
+    {
+      "code": "P0221",
+      "change": "Clarified that a disputed absolute-difference condition requires a value below zero; zero is the boundary.",
+      "status": "applied; source-review flag retained"
+    },
+    {
+      "code": "P08CA",
+      "change": "Described an unresolved relationship between an on-state check and a turn-off timer instead of claiming a definite source contradiction.",
+      "status": "applied; source-review flag retained"
+    },
+    {
+      "code": "P0705",
+      "change": "Kept analog-circuit monitoring conditional on the relevant sensor design, matching the source’s and/or architecture wording.",
+      "status": "applied"
+    }
+  ],
+  "editorialLimitations": [
+    "Shared family monitor methods and applicability cautions remain where the primary source genuinely describes the same method. No channel-specific repair differences or component mappings were invented to make articles sound unique.",
+    "The sample is purposive, not statistically representative or exhaustive. Source-review flags remain unresolved unless separately documented.",
+    "These checks do not establish human mechanic certification, publication, indexing, traffic or repair outcomes."
+  ],
+  "fileHashMismatches": []
+}

@@ -1,0 +1,1822 @@
+{
+  "batch": "batch-29",
+  "status": "awaiting-root-assignment-update",
+  "assigned": 100,
+  "written": 100,
+  "uniqueCodes": 100,
+  "sourceCheckedDrafts": 78,
+  "sourceReviewPending": 22,
+  "substantiveWords": {
+    "total": 22574,
+    "minimum": 212,
+    "maximum": 247
+  },
+  "inventoryWords": {
+    "total": 30341,
+    "minimum": 282,
+    "maximum": 357
+  },
+  "sourceScope": "Historical GM 2009, 2010, 2015 and 2020 monitor definitions; controller and calibration scope retained per article. No per-code model fitment is inferred from a document-level vehicle matrix.",
+  "method": "Individually authored English monitor explainers based on actual code rows, thresholds, enable conditions, timing and nearby distinctions. Native PDF text was checked with coordinate-aware logical extraction for rotated layouts and original page images for ambiguous tables. Assembly scripts only serialize explicitly written prose and metadata. No title-to-prose generator was used.",
+  "originalPdfPagesVisuallyInspected": [
+    {
+      "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+      "physicalPages": [
+        713,
+        718,
+        719,
+        731,
+        740,
+        741,
+        742
+      ]
+    },
+    {
+      "sourceId": "gm-2009-02-engine",
+      "physicalPages": [
+        55
+      ]
+    },
+    {
+      "sourceId": "gm-2009-11-engine",
+      "physicalPages": [
+        146
+      ]
+    },
+    {
+      "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+      "physicalPages": [
+        249,
+        250
+      ]
+    },
+    {
+      "sourceId": "gm-2020-20obdg07-diagnostics",
+      "physicalPages": [
+        418,
+        453,
+        454
+      ]
+    }
+  ],
+  "sourceLimitations": [
+    {
+      "code": "P0D5B",
+      "issue": "The source describes the multiplier as efficiency while printing1.9995. Article treats it only as the documented calibration factor, not a physical efficiency claim; wording remains unresolved."
+    },
+    {
+      "code": "P0D5C",
+      "issue": "The printed1.9995 multiplier is labelled efficiency in source narrative. Treated only as a calibration coefficient; physical efficiency interpretation is deliberately not asserted."
+    },
+    {
+      "code": "P0D77",
+      "issue": "Original physical page715 prints Tigbt = −40°C for fail and Tigbt >= −40°C for pass, overlapping at boundary. Exact service limit unresolved; article does not turn it into a decisive test."
+    },
+    {
+      "code": "P0D7A",
+      "issue": "P0D7A is labelled phase-U current low but prints U-phase input >= +68A for fail. Signed-signal convention versus title is unresolved; numerical service interpretation omitted."
+    },
+    {
+      "code": "P0D7B",
+      "issue": "P0D7B title says phase-U current high while fail comparison is U-phase input <= −68A. Internal signed-signal mapping is not established; numerical service interpretation omitted."
+    },
+    {
+      "code": "P0D7C",
+      "issue": "P0D7C title is current low while fail comparison is V-phase input >= +68A. Signed-signal convention is unresolved; no numerical external service test is inferred."
+    },
+    {
+      "code": "P0D7D",
+      "issue": "P0D7D high title is paired with V-phase input <= −68A. Internal signed-current mapping requires clarification; no physical-current direction or external test limit asserted."
+    },
+    {
+      "code": "P0D7E",
+      "issue": "P0D7E title says phase-W current low while printed failure is W-phase input >= +68A. Exact signed-signal interpretation is unresolved."
+    },
+    {
+      "code": "P0D7F",
+      "issue": "P0D7F high label accompanies W-phase input <= −68A. Internal signed-signal convention is unresolved; no external current limit inferred."
+    },
+    {
+      "code": "P20A1",
+      "issue": "P20A1 narrative says inadequate pressure reduction, but printed start/end subtraction <0 and nested time/final-pressure OR expression require calibration clarification. Article omits a definitive numerical failure rule."
+    },
+    {
+      "code": "P2102",
+      "issue": "Timing uses65535/65534counts or65535counts with3.125ms/count. Implementation counter encoding is not decoded into a service elapsed-time threshold."
+    },
+    {
+      "code": "P2103",
+      "issue": "Printed driver timing uses65535/65534 or65535counter notation; no reliable external response-time limit is inferred."
+    },
+    {
+      "code": "P2105",
+      "issue": "P2105 criterion is abbreviated as previous-cycle power-down processing completely finished, without clear fail polarity. Article retains supervision/cycle context but does not invent the missing failure condition."
+    },
+    {
+      "code": "P2120",
+      "issue": "Source timing uses19/39counts or14counts without a decoded branch-to-duration mapping. Exact test duration is not inferred; APP1-to-generic-D hardware mapping remains vehicle-specific."
+    },
+    {
+      "code": "P2125",
+      "issue": "Printed19/39counts or14counts are not decoded into a universal duration. Generic sensor-E naming is not assumed to identify a physical component without vehicle mapping."
+    },
+    {
+      "code": "P2199",
+      "issue": "Original table prints both IAT1−IAT2 >24.8°C and <20.3°C without clearly labelling the latter fail/pass branch; no universal lower-bound or timing rule is inferred."
+    },
+    {
+      "code": "P2443",
+      "issue": "The shared AIR flow row explicitly assigns P2443 to valve stuck closed, but does not separate per-code pressure-ratio selection logic or confirm Bank 2 mapping. Article states those limits and does not present shared thresholds as an isolated P2443 test."
+    },
+    {
+      "code": "P2598",
+      "issue": "The primary threshold, duration and opposite P2599 branch are clear, but the shared enable conditions contain negative state labels such as valve not jammed = FALSE and adaption not active = FALSE. Article does not decode these into a workshop sequence or assert a complete enable list."
+    },
+    {
+      "code": "P25CC",
+      "issue": "Original page 453 supplies a short-to-power threshold fragment <=0.5 without a complete resistance unit/specification. The driver-on/high state, bank, timing and enables are clear. Article omits a numerical external circuit-test limit."
+    },
+    {
+      "code": "P25CD",
+      "issue": "Original page 454 prints Open Circuit >=200 between ECU pin and load but no complete unit/specification. Both open and short-to-ground rows describe driver-off low voltage. Article preserves controller branch distinction and avoids inventing a resistance test or decoding omitted hardware logic."
+    },
+    {
+      "code": "P25CE",
+      "issue": "Original page 454 short-to-ground threshold is an incomplete <= expression without a number or full unit. Driver-off low-state classification, bank, timing and enables are supported. Article avoids inventing an external threshold or internal branch discriminator."
+    },
+    {
+      "code": "P3409",
+      "issue": "The original threshold cell reads Open Circuit >=200 K without a complete resistance unit. The article preserves the clear open-circuit classification, driver state, time and enables but does not infer an external resistance specification."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "code": "P261E",
+      "reason": "Only incidental fault-bundle membership in supplied candidates; no diagnostic monitor row. Requested replacement from root."
+    }
+  ],
+  "proposedReplacement": {
+    "removedCode": "P261E",
+    "newCode": "P3409",
+    "newEntryId": "generic-p3409",
+    "sourceId": "gm-2020-20obdg07-diagnostics",
+    "physicalPages": [
+      418
+    ],
+    "reason": "P261E appears only in fault bundles in examined sources. P3409 has an actual OEM monitor row and was absent from all existing batch code assignments when locally checked. Requested root reservation and shared assignment/input update; shared files have not been edited by this writer."
+  },
+  "alternativeSourceUpgrades": [
+    {
+      "codes": [
+        "P25CC",
+        "P25CD",
+        "P25CE"
+      ],
+      "rejectedEvidence": "GM2015 G01 fault-bundle membership on physical pages 487–488",
+      "usedEvidence": "Actual GM2020 20OBDG07 ECM monitor rows on physical pages 453–454 and basic enables on page 571"
+    }
+  ],
+  "familyScope": "Charger sensors, compressor phase-current signals, AIR pressure channels and paired circuit polarities sometimes share actual OEM diagnostic logic. Distinct files retain the precise channel, polarity, command state and scope; prose variation is not claimed to establish different repair procedures where the source shares a monitor.",
+  "publication": "All manuscripts remain drafts. Source-checked means the author reviewed support, not independent mechanic approval, publication or indexing.",
+  "validation": {
+    "exactAssignedCodeSet": false,
+    "metadataParsed": true,
+    "sourcePageBounds": true,
+    "completeDescriptions": true,
+    "allDraft": true,
+    "exactRepeatedBodyParagraphs": [],
+    "missing": [
+      "P261E"
+    ],
+    "failures": [
+      "P3409: not assigned"
+    ]
+  },
+  "articles": [
+    {
+      "code": "P0D3B",
+      "entryId": "generic-p0d3b",
+      "substantiveWords": 225,
+      "inventoryWords": 296,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            740
+          ]
+        }
+      ],
+      "sha256": "2dc5398ea53422db5055b56f9cf645d0683ccde8e62afec0ad4fa246ffb52ad5"
+    },
+    {
+      "code": "P0D3E",
+      "entryId": "generic-p0d3e",
+      "substantiveWords": 229,
+      "inventoryWords": 301,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            742
+          ]
+        }
+      ],
+      "sha256": "8645ea6a5f3728f3d2a1bb30ab58ab5149d41a39cb539bfa4449fcb80c77faf0"
+    },
+    {
+      "code": "P0D3F",
+      "entryId": "generic-p0d3f",
+      "substantiveWords": 228,
+      "inventoryWords": 303,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            741
+          ]
+        }
+      ],
+      "sha256": "c086f0ae383b0c35fc72904744c33c9f6385190a5dce6692fbd99aee9be70ce1"
+    },
+    {
+      "code": "P0D40",
+      "entryId": "generic-p0d40",
+      "substantiveWords": 218,
+      "inventoryWords": 295,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            741
+          ]
+        }
+      ],
+      "sha256": "8e3744b9638e3cdededd7e987018f1cefe6c46656e72dfca4810c35aaa51ca50"
+    },
+    {
+      "code": "P0D43",
+      "entryId": "generic-p0d43",
+      "substantiveWords": 225,
+      "inventoryWords": 296,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            731
+          ]
+        }
+      ],
+      "sha256": "d79b9363dc03eca47a4b62407ded913df3946e700a10a777c51d47cd86f9320a"
+    },
+    {
+      "code": "P0D44",
+      "entryId": "generic-p0d44",
+      "substantiveWords": 227,
+      "inventoryWords": 304,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            718
+          ]
+        }
+      ],
+      "sha256": "534be2dd5825c9dc3d4c1de9a5ffb0ced201d15b5fea6c9f6cba70b69bde9af6"
+    },
+    {
+      "code": "P0D45",
+      "entryId": "generic-p0d45",
+      "substantiveWords": 222,
+      "inventoryWords": 295,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            718
+          ]
+        }
+      ],
+      "sha256": "daed1b1de65bdb0822b68ed3c8396fbc28830840c923fb76180ed36d2ff6becf"
+    },
+    {
+      "code": "P0D49",
+      "entryId": "generic-p0d49",
+      "substantiveWords": 226,
+      "inventoryWords": 301,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            718
+          ]
+        }
+      ],
+      "sha256": "1252334c0b38c7e24897219433c46c3be82f3917d951b3b045ea4b876c745f4b"
+    },
+    {
+      "code": "P0D4A",
+      "entryId": "generic-p0d4a",
+      "substantiveWords": 220,
+      "inventoryWords": 295,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            718
+          ]
+        }
+      ],
+      "sha256": "507c9146c00485c0e3e2311f3e7394b472aa9f2439112e9ed4652f8e22a9ee25"
+    },
+    {
+      "code": "P0D4E",
+      "entryId": "generic-p0d4e",
+      "substantiveWords": 216,
+      "inventoryWords": 295,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            719
+          ]
+        }
+      ],
+      "sha256": "b9b481d9683929be361d2d20867bede77adc2852a590eced65af9da0c0f21d60"
+    },
+    {
+      "code": "P0D4F",
+      "entryId": "generic-p0d4f",
+      "substantiveWords": 222,
+      "inventoryWords": 296,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            719
+          ]
+        }
+      ],
+      "sha256": "ac3c40cf5cc49c25724b9b17f62bfe621b5cddd564f6d5d6c50612044d8d1065"
+    },
+    {
+      "code": "P0D53",
+      "entryId": "generic-p0d53",
+      "substantiveWords": 216,
+      "inventoryWords": 290,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            719
+          ]
+        }
+      ],
+      "sha256": "d295cb677eaf619c9ca0240f36b07ab0f1284a98b39e318a9f6fb8a4cc203429"
+    },
+    {
+      "code": "P0D54",
+      "entryId": "generic-p0d54",
+      "substantiveWords": 221,
+      "inventoryWords": 294,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            719
+          ]
+        }
+      ],
+      "sha256": "a2c64baac6543752c81bbfa770812c79f04ea14771685771e68808d5a112138b"
+    },
+    {
+      "code": "P0D58",
+      "entryId": "generic-p0d58",
+      "substantiveWords": 227,
+      "inventoryWords": 296,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            597
+          ]
+        }
+      ],
+      "sha256": "096ddb4219cab75e549c93460ebe1096e718a440d2f91c71047ce6f071f7d8c5"
+    },
+    {
+      "code": "P0D59",
+      "entryId": "generic-p0d59",
+      "substantiveWords": 222,
+      "inventoryWords": 288,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            596
+          ]
+        }
+      ],
+      "sha256": "6804a8d2ab81f033e3c41795824d84c3e1af0bcf9673b8c37cb1971babfeddd3"
+    },
+    {
+      "code": "P0D5B",
+      "entryId": "generic-p0d5b",
+      "substantiveWords": 218,
+      "inventoryWords": 291,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            725
+          ]
+        }
+      ],
+      "sha256": "f166f4f86843cd5a27dda52628613d83b5523176a90916df6736e89e15fb0de4"
+    },
+    {
+      "code": "P0D5C",
+      "entryId": "generic-p0d5c",
+      "substantiveWords": 219,
+      "inventoryWords": 291,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            725
+          ]
+        }
+      ],
+      "sha256": "6f672ccdd64ca53a5e7359f93fedc4324a9214689505c04ac3231c99e163793c"
+    },
+    {
+      "code": "P0D5E",
+      "entryId": "generic-p0d5e",
+      "substantiveWords": 221,
+      "inventoryWords": 311,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            556,
+            736
+          ]
+        }
+      ],
+      "sha256": "463ba88be3b8f9ac38f90f2d0bbd8802d897c3bd44fb718173e357fb88209717"
+    },
+    {
+      "code": "P0D69",
+      "entryId": "generic-p0d69",
+      "substantiveWords": 221,
+      "inventoryWords": 283,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            570
+          ]
+        }
+      ],
+      "sha256": "dc34614b1af717eda3da36eb992c6d33c6d8bd572df49ebf8edb0ac66a2d08bc"
+    },
+    {
+      "code": "P0D6A",
+      "entryId": "generic-p0d6a",
+      "substantiveWords": 219,
+      "inventoryWords": 291,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            712
+          ]
+        }
+      ],
+      "sha256": "1c988d14d448f3f5d5d340ff369dc336848efd9c22b151b76a73253f8cb44ad1"
+    },
+    {
+      "code": "P0D6B",
+      "entryId": "generic-p0d6b",
+      "substantiveWords": 219,
+      "inventoryWords": 295,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            712
+          ]
+        }
+      ],
+      "sha256": "ca885b741e499114afff0e16da01f09f5ed247d8cd8a0c7d50bd855d49c8d67d"
+    },
+    {
+      "code": "P0D6F",
+      "entryId": "generic-p0d6f",
+      "substantiveWords": 222,
+      "inventoryWords": 295,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            714
+          ]
+        }
+      ],
+      "sha256": "200b989d8db8e2219d20c8006ccc70188ce8dc02342304890a27eb74625a9345"
+    },
+    {
+      "code": "P0D71",
+      "entryId": "generic-p0d71",
+      "substantiveWords": 226,
+      "inventoryWords": 293,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            570
+          ]
+        }
+      ],
+      "sha256": "802a6e6f0a43625dd5bb8ab6aaaf20893c0882d009cf04b8e37cc4692771c5ed"
+    },
+    {
+      "code": "P0D72",
+      "entryId": "generic-p0d72",
+      "substantiveWords": 221,
+      "inventoryWords": 295,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            715
+          ]
+        }
+      ],
+      "sha256": "0fb36079f2706888e7618f44068e409942df574245bdf3c36f6c47f7de79ed96"
+    },
+    {
+      "code": "P0D73",
+      "entryId": "generic-p0d73",
+      "substantiveWords": 216,
+      "inventoryWords": 289,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            715
+          ]
+        }
+      ],
+      "sha256": "39331c01667ab20e872667ff8ad3ab997e77789a1c3ef14bb939fbe6ca5577c4"
+    },
+    {
+      "code": "P0D76",
+      "entryId": "generic-p0d76",
+      "substantiveWords": 217,
+      "inventoryWords": 285,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            571
+          ]
+        }
+      ],
+      "sha256": "2965e97b6e19421eb7451282fd28e89f46fa884cae0109299e646f493f3c9bc1"
+    },
+    {
+      "code": "P0D77",
+      "entryId": "generic-p0d77",
+      "substantiveWords": 220,
+      "inventoryWords": 292,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            715
+          ]
+        }
+      ],
+      "sha256": "2af0566856b13e2c0dda25e9b64919be7cea8daa91ee23df3911c0d89a8fb033"
+    },
+    {
+      "code": "P0D78",
+      "entryId": "generic-p0d78",
+      "substantiveWords": 214,
+      "inventoryWords": 286,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            715
+          ]
+        }
+      ],
+      "sha256": "ad3ab14d27ba83ef22d7a871dcc5c75c26422bc8bfb7bf6c3f21aa4ae1a4f01c"
+    },
+    {
+      "code": "P0D7A",
+      "entryId": "generic-p0d7a",
+      "substantiveWords": 213,
+      "inventoryWords": 310,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            712,
+            713
+          ]
+        }
+      ],
+      "sha256": "1e970278d9b1b37d247abdb9757a5b714762d26d82e111a8ff6b72c323b2abbb"
+    },
+    {
+      "code": "P0D7B",
+      "entryId": "generic-p0d7b",
+      "substantiveWords": 216,
+      "inventoryWords": 289,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            713
+          ]
+        }
+      ],
+      "sha256": "00a112bd9929217588cbd05fdff2ecf370bb1ea8cd68ed3666f0b1d042e7684c"
+    },
+    {
+      "code": "P0D7C",
+      "entryId": "generic-p0d7c",
+      "substantiveWords": 212,
+      "inventoryWords": 286,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            713
+          ]
+        }
+      ],
+      "sha256": "407ebfca641967f4d2749ecd8c51d854687cd51de83b7ad528bc655ab14757ce"
+    },
+    {
+      "code": "P0D7D",
+      "entryId": "generic-p0d7d",
+      "substantiveWords": 217,
+      "inventoryWords": 291,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            713
+          ]
+        }
+      ],
+      "sha256": "ce8dd5b993ac9a6255f83d431853b2b6ffbe5031fa81f8e007a510fc068fad70"
+    },
+    {
+      "code": "P0D7E",
+      "entryId": "generic-p0d7e",
+      "substantiveWords": 223,
+      "inventoryWords": 296,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            713
+          ]
+        }
+      ],
+      "sha256": "c3875bc1f2bc9943758ec478e326174e6887d84e752a56a0855209d991dd82b1"
+    },
+    {
+      "code": "P0D7F",
+      "entryId": "generic-p0d7f",
+      "substantiveWords": 218,
+      "inventoryWords": 291,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            713
+          ]
+        }
+      ],
+      "sha256": "d8780c38fd20f7596f6106d8ce7a819ec5d3c0b0e2342ac555fe4f089fa117cf"
+    },
+    {
+      "code": "P0DAA",
+      "entryId": "generic-p0daa",
+      "substantiveWords": 220,
+      "inventoryWords": 288,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            558
+          ]
+        }
+      ],
+      "sha256": "8111a79c8ea422ade8fd5bdb245455f5a383e6d053dc604024e3e16abef95095"
+    },
+    {
+      "code": "P204F",
+      "entryId": "generic-p204f",
+      "substantiveWords": 225,
+      "inventoryWords": 314,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            184,
+            185
+          ]
+        }
+      ],
+      "sha256": "99cb9c83a0b165c050bc7f4839169dc51bc82bdf2e9dc3bc197c774d23227902"
+    },
+    {
+      "code": "P2065",
+      "entryId": "generic-p2065",
+      "substantiveWords": 228,
+      "inventoryWords": 298,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "sha256": "45fba9c5bef31e6945479d27650a43fec80144a7e5ce45f1d1bd56aedb91267e"
+    },
+    {
+      "code": "P20A0",
+      "entryId": "generic-p20a0",
+      "substantiveWords": 226,
+      "inventoryWords": 291,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            193
+          ]
+        }
+      ],
+      "sha256": "3528639120d46cef30697430157597457f65bea1aa6f8fb1bc13a122ecfebbf3"
+    },
+    {
+      "code": "P20A1",
+      "entryId": "generic-p20a1",
+      "substantiveWords": 223,
+      "inventoryWords": 293,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            194
+          ]
+        }
+      ],
+      "sha256": "200f6111f67960198f7be032e384202cd73f708497a2c2e311e9af3a07377a45"
+    },
+    {
+      "code": "P20A2",
+      "entryId": "generic-p20a2",
+      "substantiveWords": 215,
+      "inventoryWords": 288,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            195
+          ]
+        }
+      ],
+      "sha256": "e8ddcf88259cd806e27192c1e30ab9ac1e6c94040c83545127243c655d58ad6c"
+    },
+    {
+      "code": "P20A3",
+      "entryId": "generic-p20a3",
+      "substantiveWords": 213,
+      "inventoryWords": 305,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            195,
+            196
+          ]
+        }
+      ],
+      "sha256": "7a1bb78d8b4a1c92979b23290d7820a61c04e7fb915d3cd63390b1135f4736bc"
+    },
+    {
+      "code": "P20E2",
+      "entryId": "generic-p20e2",
+      "substantiveWords": 226,
+      "inventoryWords": 299,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "sha256": "af28b0ed24695aeff45963133b26cbbaaf2b4ca0128006db8315956384d34e1d"
+    },
+    {
+      "code": "P20E4",
+      "entryId": "generic-p20e4",
+      "substantiveWords": 219,
+      "inventoryWords": 311,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            196,
+            197
+          ]
+        }
+      ],
+      "sha256": "7c38e44b59f664f925ae4765eea5cffe3f5df8c404afe35583caa4710f72f1bf"
+    },
+    {
+      "code": "P2102",
+      "entryId": "generic-p2102",
+      "substantiveWords": 230,
+      "inventoryWords": 298,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg09-engine-diagnostics",
+          "pages": [
+            149
+          ]
+        }
+      ],
+      "sha256": "508e3d8618712ff1288e7f79675d60f5ae1cb856e7777ccb8edf911a849e2970"
+    },
+    {
+      "code": "P2103",
+      "entryId": "generic-p2103",
+      "substantiveWords": 220,
+      "inventoryWords": 292,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg09-engine-diagnostics",
+          "pages": [
+            149
+          ]
+        }
+      ],
+      "sha256": "52c1f7c416e4a580302d501f5c7ff0201769f975a2b41e3fffc59704829a6cf6"
+    },
+    {
+      "code": "P2105",
+      "entryId": "generic-p2105",
+      "substantiveWords": 223,
+      "inventoryWords": 296,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "sha256": "2d2911c774c8af46fdd3dd74a9095588b2da9a2f45e1dbcd26d5d5fed12853f9"
+    },
+    {
+      "code": "P2108",
+      "entryId": "generic-p2108",
+      "substantiveWords": 219,
+      "inventoryWords": 314,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-09-engine",
+          "pages": [
+            50,
+            51
+          ]
+        }
+      ],
+      "sha256": "dd62ff3fb0d53bca1e3d7182d2105495b3fee40bbe466ecdf9ed6ab139b31e50"
+    },
+    {
+      "code": "P2120",
+      "entryId": "generic-p2120",
+      "substantiveWords": 225,
+      "inventoryWords": 294,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            107
+          ]
+        }
+      ],
+      "sha256": "2c98ab63a9768b9ae5c416b91c6fa43c3caa5cf63bd8142d5efea57f6e9739d1"
+    },
+    {
+      "code": "P2121",
+      "entryId": "generic-p2121",
+      "substantiveWords": 224,
+      "inventoryWords": 294,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "sha256": "2f6f053de5414feaafa3fc6b7d7bb44ae9efd3368937d39d6235b7845f43c8a7"
+    },
+    {
+      "code": "P2125",
+      "entryId": "generic-p2125",
+      "substantiveWords": 213,
+      "inventoryWords": 289,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            108
+          ]
+        }
+      ],
+      "sha256": "f17b7dae7be96c22ed9b7948e990f86548dd22135c9d4b4fe810a18aaab635ec"
+    },
+    {
+      "code": "P2126",
+      "entryId": "generic-p2126",
+      "substantiveWords": 219,
+      "inventoryWords": 290,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "sha256": "cf2a350182a2ed7fcad0de9e71bce9a33cdb8f9e967f0d1eab21a0addde194a1"
+    },
+    {
+      "code": "P2158",
+      "entryId": "generic-p2158",
+      "substantiveWords": 222,
+      "inventoryWords": 298,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            195
+          ]
+        }
+      ],
+      "sha256": "55f5a9f53bd1befc226be77b095503edb8ee62025a4a88851aa6290c69bf2bb9"
+    },
+    {
+      "code": "P2159",
+      "entryId": "generic-p2159",
+      "substantiveWords": 214,
+      "inventoryWords": 290,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            195
+          ]
+        }
+      ],
+      "sha256": "7ddb88f06679290a70820f9bd80f3f4dff08168758cf98f62ce3b0af30723d2c"
+    },
+    {
+      "code": "P2191",
+      "entryId": "generic-p2191",
+      "substantiveWords": 222,
+      "inventoryWords": 292,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "sha256": "9deb6c8bef9a8db0f168ca12caccb458a095ec3e12ecb57ff0efdde944980236"
+    },
+    {
+      "code": "P2192",
+      "entryId": "generic-p2192",
+      "substantiveWords": 227,
+      "inventoryWords": 298,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "sha256": "a3407d9253758088ccea29918f7b2c701847753bc1277f837173d0bc8a475f0e"
+    },
+    {
+      "code": "P2199",
+      "entryId": "generic-p2199",
+      "substantiveWords": 228,
+      "inventoryWords": 299,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "sha256": "b52e75890c17e18c1bb9b4ac9bce6461ff9e0472b2bd05853c9fc5dd6e1df9bf"
+    },
+    {
+      "code": "P21AA",
+      "entryId": "generic-p21aa",
+      "substantiveWords": 221,
+      "inventoryWords": 294,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            208
+          ]
+        }
+      ],
+      "sha256": "3459e21bce7e329570b0c5d805aea2304c36f4a94e2bbec8c3faaad413c1a04f"
+    },
+    {
+      "code": "P21AB",
+      "entryId": "generic-p21ab",
+      "substantiveWords": 226,
+      "inventoryWords": 318,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            208,
+            209
+          ]
+        }
+      ],
+      "sha256": "d248eb4c8c9e37f54f59c25892f991880f99c51e058ae9de958726bebdb74824"
+    },
+    {
+      "code": "P21AF",
+      "entryId": "generic-p21af",
+      "substantiveWords": 217,
+      "inventoryWords": 290,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            209
+          ]
+        }
+      ],
+      "sha256": "7b6fdb9a0b14f805f486c64b6d42acfeaf08fa4f3879c9267d6be93b1524b0a0"
+    },
+    {
+      "code": "P21B0",
+      "entryId": "generic-p21b0",
+      "substantiveWords": 216,
+      "inventoryWords": 314,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            209,
+            210
+          ]
+        }
+      ],
+      "sha256": "16c62a61c7b0b13d3c8c0a45ed206bbd12266aa704c6f68fb0ed7b253de61994"
+    },
+    {
+      "code": "P2231",
+      "entryId": "generic-p2231",
+      "substantiveWords": 225,
+      "inventoryWords": 295,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "sha256": "4d11c5e8f6b8fc646340cf3cfafd58d3cbb4b3e8c1d3f9268f74ed9afc02b1ed"
+    },
+    {
+      "code": "P2234",
+      "entryId": "generic-p2234",
+      "substantiveWords": 223,
+      "inventoryWords": 321,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-13-2-mode-hybrid",
+          "pages": [
+            135,
+            136
+          ]
+        }
+      ],
+      "sha256": "89b2bf785284483ef21f16647e10df6d8671176a691c0ca79291e2b5c51227f4"
+    },
+    {
+      "code": "P2238",
+      "entryId": "generic-p2238",
+      "substantiveWords": 223,
+      "inventoryWords": 299,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "sha256": "b992a1b95113dbf7b16ff2141120015a51252a963b59e45596afbcff9427a5a3"
+    },
+    {
+      "code": "P2239",
+      "entryId": "generic-p2239",
+      "substantiveWords": 225,
+      "inventoryWords": 319,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "sha256": "237522b75bcc4bfa5568b9c1002e4f844b0c5615ed4b8996427005f2f0e3aef7"
+    },
+    {
+      "code": "P2257",
+      "entryId": "generic-p2257",
+      "substantiveWords": 214,
+      "inventoryWords": 284,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "sha256": "905639ecf47a906958c2d28a38e81ec5f8126e1c2b17426f0f0e16753c272dfe"
+    },
+    {
+      "code": "P2258",
+      "entryId": "generic-p2258",
+      "substantiveWords": 221,
+      "inventoryWords": 292,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "sha256": "a1ca027167bbe9aea0f95b6c962b1f21eddc53af55a8a0a9a8754744d1584346"
+    },
+    {
+      "code": "P22FA",
+      "entryId": "generic-p22fa",
+      "substantiveWords": 219,
+      "inventoryWords": 309,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            233,
+            234
+          ]
+        }
+      ],
+      "sha256": "f50780acc16c15d376c44b8c47f8b4df7b0447a5f78bcc30940307729363806c"
+    },
+    {
+      "code": "P2428",
+      "entryId": "generic-p2428",
+      "substantiveWords": 219,
+      "inventoryWords": 308,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            235,
+            236
+          ]
+        }
+      ],
+      "sha256": "f547e10d0c7d2374d3bb4c6e2de2b1d1cc0233c488a9f5ad303ccc11b2c94cb1"
+    },
+    {
+      "code": "P2430",
+      "entryId": "generic-p2430",
+      "substantiveWords": 227,
+      "inventoryWords": 297,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            122
+          ]
+        }
+      ],
+      "sha256": "d0f294c7430e1cc4367fd6cad680581517339c65953447333c40dc17d043cbde"
+    },
+    {
+      "code": "P2431",
+      "entryId": "generic-p2431",
+      "substantiveWords": 217,
+      "inventoryWords": 282,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "sha256": "fd004422b341957d92d125069e7da0fafa764bbd101bf7fec02699f6cb45c47a"
+    },
+    {
+      "code": "P2432",
+      "entryId": "generic-p2432",
+      "substantiveWords": 234,
+      "inventoryWords": 307,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "sha256": "c1148691642673d8495189789ba48a4a7c6e2ff22f67e5bd5754ebe1bd32185f"
+    },
+    {
+      "code": "P2433",
+      "entryId": "generic-p2433",
+      "substantiveWords": 239,
+      "inventoryWords": 312,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "sha256": "cfcd39df7eabb1a2590e1fd5ac8ce4b46e35a2bbe52e7868603db699a711a8b7"
+    },
+    {
+      "code": "P2435",
+      "entryId": "generic-p2435",
+      "substantiveWords": 236,
+      "inventoryWords": 330,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-11-engine",
+          "pages": [
+            146,
+            147
+          ]
+        }
+      ],
+      "sha256": "ccf81309dae3c82cf9023c6c4ebcb8c99288a27b2867164e5f9d65a7db47483c"
+    },
+    {
+      "code": "P2436",
+      "entryId": "generic-p2436",
+      "substantiveWords": 237,
+      "inventoryWords": 349,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-11-engine",
+          "pages": [
+            146,
+            147,
+            148
+          ]
+        }
+      ],
+      "sha256": "25fcd64d66a1229e55fa44bc03eead359e94387fc15b04b7c9e65b282208e06c"
+    },
+    {
+      "code": "P2437",
+      "entryId": "generic-p2437",
+      "substantiveWords": 234,
+      "inventoryWords": 328,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-11-engine",
+          "pages": [
+            147,
+            148
+          ]
+        }
+      ],
+      "sha256": "4e934cf9c270b01110351f5420e4389ef0c6b8c3efb6492bd7c3808114c6fccf"
+    },
+    {
+      "code": "P2438",
+      "entryId": "generic-p2438",
+      "substantiveWords": 229,
+      "inventoryWords": 343,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-11-engine",
+          "pages": [
+            146,
+            147,
+            148
+          ]
+        }
+      ],
+      "sha256": "473be0a8b774a73d4af13be29a02e6e781ad9a02769bca513bf0e9ff3b44ec3c"
+    },
+    {
+      "code": "P2440",
+      "entryId": "generic-p2440",
+      "substantiveWords": 237,
+      "inventoryWords": 313,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            124
+          ]
+        }
+      ],
+      "sha256": "5670605368027652e0e3b98c014c18d73bf2cec826e49cb2f2511a623800470c"
+    },
+    {
+      "code": "P2443",
+      "entryId": "generic-p2443",
+      "substantiveWords": 241,
+      "inventoryWords": 333,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-06-engine",
+          "pages": [
+            24,
+            25
+          ]
+        }
+      ],
+      "sha256": "66425bea1f958458ee17d01f947fee5f534824822ed21f00bb72afcb99adc281"
+    },
+    {
+      "code": "P2444",
+      "entryId": "generic-p2444",
+      "substantiveWords": 232,
+      "inventoryWords": 305,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            34
+          ]
+        }
+      ],
+      "sha256": "8e389a8da40d47bb5b422f89c8f9cca1849fc1b100ed42b57be4c777f4e1490b"
+    },
+    {
+      "code": "P2445",
+      "entryId": "generic-p2445",
+      "substantiveWords": 233,
+      "inventoryWords": 306,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-04-engine",
+          "pages": [
+            34
+          ]
+        }
+      ],
+      "sha256": "75ce70026a6d779088ebee38d7198a6b771a96b7cd9a8b5d0c4774af04b52c63"
+    },
+    {
+      "code": "P244C",
+      "entryId": "generic-p244c",
+      "substantiveWords": 236,
+      "inventoryWords": 309,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "sha256": "51c4d4397e561c53dc42298dcbdc2b7967dd429ebd685b19d3f804101f7c81ae"
+    },
+    {
+      "code": "P2505",
+      "entryId": "generic-p2505",
+      "substantiveWords": 242,
+      "inventoryWords": 311,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            247
+          ]
+        }
+      ],
+      "sha256": "09753b23749aed7bda1f15df3fb8c0fc51b408495b86d772e57b9b933d33e469"
+    },
+    {
+      "code": "P2510",
+      "entryId": "generic-p2510",
+      "substantiveWords": 244,
+      "inventoryWords": 319,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "sha256": "de7fcc5d225b16319c5bbd58d650754a5b827c193e5949516b9b1b35dddf4a27"
+    },
+    {
+      "code": "P2516",
+      "entryId": "generic-p2516",
+      "substantiveWords": 228,
+      "inventoryWords": 308,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            572
+          ]
+        }
+      ],
+      "sha256": "5b3894b0bdd6eb1dde39ee4a968308ffe9a1c8779344402fb7ef71cfb60ef4f3"
+    },
+    {
+      "code": "P2517",
+      "entryId": "generic-p2517",
+      "substantiveWords": 232,
+      "inventoryWords": 312,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            572
+          ]
+        }
+      ],
+      "sha256": "9f41242c75b70b08c57fa407d63cf0c82e8bd18f3b951cd3467e2f908f7fad67"
+    },
+    {
+      "code": "P2518",
+      "entryId": "generic-p2518",
+      "substantiveWords": 233,
+      "inventoryWords": 311,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
+          "pages": [
+            572
+          ]
+        }
+      ],
+      "sha256": "28dec2472d741614e65dea705e29fb810de0f33ee490a440ecbbaf096db50241"
+    },
+    {
+      "code": "P2536",
+      "entryId": "generic-p2536",
+      "substantiveWords": 241,
+      "inventoryWords": 312,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-gmdat-trans",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "sha256": "919896b696b5f0cf5fa056cf71a14851705f90b0e440e4c030bc6f2985dc08a0"
+    },
+    {
+      "code": "P2548",
+      "entryId": "generic-p2548",
+      "substantiveWords": 247,
+      "inventoryWords": 307,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-07-engine",
+          "pages": [
+            127
+          ]
+        }
+      ],
+      "sha256": "ecc4463c40fe18299f6acf5388b14d036efa370f7b072bf6d0c2ac1ab1ee84cb"
+    },
+    {
+      "code": "P254F",
+      "entryId": "generic-p254f",
+      "substantiveWords": 236,
+      "inventoryWords": 315,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-08-engine",
+          "pages": [
+            123
+          ]
+        }
+      ],
+      "sha256": "75456bfc25542e8c5ad5419168d05f5ebfcfb6afad97570bc2348ae490c5648e"
+    },
+    {
+      "code": "P2563",
+      "entryId": "generic-p2563",
+      "substantiveWords": 240,
+      "inventoryWords": 313,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-01-duramax-engine",
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "sha256": "bc6bd9ed54cc1f99d48657e3cd34bf4b36336dac20dced04486153af14d2818d"
+    },
+    {
+      "code": "P258A",
+      "entryId": "generic-p258a",
+      "substantiveWords": 240,
+      "inventoryWords": 319,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            60
+          ]
+        }
+      ],
+      "sha256": "95a002394a529344d0f8abd3030c5a6cfb6c06e0c757b90d1f32298d7652f6c9"
+    },
+    {
+      "code": "P258C",
+      "entryId": "generic-p258c",
+      "substantiveWords": 233,
+      "inventoryWords": 309,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            60
+          ]
+        }
+      ],
+      "sha256": "3c298c478bec17aaf95cf1c7514e77b9da038690d0e6c8d830d0281757f5f10c"
+    },
+    {
+      "code": "P258D",
+      "entryId": "generic-p258d",
+      "substantiveWords": 231,
+      "inventoryWords": 307,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            60
+          ]
+        }
+      ],
+      "sha256": "9b1d2baad38cd143e44b60b93dbb441cac6ade1f9be3e3808e330e3ca247e5c4"
+    },
+    {
+      "code": "P2598",
+      "entryId": "generic-p2598",
+      "substantiveWords": 235,
+      "inventoryWords": 330,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2015-15obdg04-engine-diagnostics",
+          "pages": [
+            249,
+            250
+          ]
+        }
+      ],
+      "sha256": "4cf29b7fce45345f883c0aa4efe86d98d7b1b533d66d0c2f6f6216f9c70e7a20"
+    },
+    {
+      "code": "P25CC",
+      "entryId": "generic-p25cc",
+      "substantiveWords": 234,
+      "inventoryWords": 330,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            453,
+            571
+          ]
+        }
+      ],
+      "sha256": "8c2996df7328a649f4c834a882a3ef3a6012314f0f3ecbe7d3ec74f45cb8efcf"
+    },
+    {
+      "code": "P25CD",
+      "entryId": "generic-p25cd",
+      "substantiveWords": 240,
+      "inventoryWords": 353,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            453,
+            454,
+            571
+          ]
+        }
+      ],
+      "sha256": "979ff6354153bfd416f56166d67eee50f48508a1933fa37551277d96de26734a"
+    },
+    {
+      "code": "P25CE",
+      "entryId": "generic-p25ce",
+      "substantiveWords": 242,
+      "inventoryWords": 357,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            453,
+            454,
+            571
+          ]
+        }
+      ],
+      "sha256": "74507f8ae5b92582f0718bfa116948f3fd209ce35c7058d54feb1abf4234df77"
+    },
+    {
+      "code": "P2635",
+      "entryId": "generic-p2635",
+      "substantiveWords": 237,
+      "inventoryWords": 311,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            67
+          ]
+        }
+      ],
+      "sha256": "01d53cd0a64e43d5c8d6e0b698df966d7c6e2f51540acbb96d5a25c75c3b6ec4"
+    },
+    {
+      "code": "P2636",
+      "entryId": "generic-p2636",
+      "substantiveWords": 235,
+      "inventoryWords": 304,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2009-02-engine",
+          "pages": [
+            40
+          ]
+        }
+      ],
+      "sha256": "d8c285cc4e79211e543b34552e98325fe426cea81082e226ed1306ee5f1b577c"
+    },
+    {
+      "code": "P3409",
+      "entryId": "generic-p3409",
+      "substantiveWords": 246,
+      "inventoryWords": 320,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2020-20obdg07-diagnostics",
+          "pages": [
+            418
+          ]
+        }
+      ],
+      "sha256": "fbea42674939e12344a028b7f4f969953ee724ab23a02db0e8025ff95b8caa41"
+    }
+  ]
+}

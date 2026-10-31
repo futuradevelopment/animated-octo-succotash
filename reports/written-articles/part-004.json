@@ -1,0 +1,5351 @@
+[
+  {
+    "code": "P2459",
+    "entryId": "generic-p2459",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2459.md",
+    "title": "P2459: DPF regeneration starts too often relative to modeled soot",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1478,
+          1479
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2463",
+    "entryId": "generic-p2463",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2463.md",
+    "title": "P2463: DPF soot estimate reaches the service-regeneration range",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1480,
+          1481
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P249C",
+    "entryId": "generic-p249c",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P249C.md",
+    "title": "P249C: reductant pressure takes too long to enter closed-loop control",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          206
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P249D",
+    "entryId": "generic-p249d",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P249D.md",
+    "title": "P249D: closed-loop reductant estimate indicates insufficient dosing",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          834,
+          835
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P249E",
+    "entryId": "generic-p249e",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P249E.md",
+    "title": "P249E: closed-loop reductant estimate indicates excessive dosing",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          836,
+          837
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24A0",
+    "entryId": "generic-p24a0",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24A0.md",
+    "title": "P24A0: DPF regeneration temperature remains below its target",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1482,
+          1483,
+          1484,
+          1485
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24A1",
+    "entryId": "generic-p24a1",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24A1.md",
+    "title": "P24A1: DPF regeneration temperature exceeds its target",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1486,
+          1487,
+          1488
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24A4",
+    "entryId": "generic-p24a4",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24A4.md",
+    "title": "P24A4: DPF loading reaches the severe restriction threshold",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1489,
+          1490
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24AF",
+    "entryId": "generic-p24af",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24AF.md",
+    "title": "P24AF: particulate sensor state feedback disagrees with its command",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1491
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24B0",
+    "entryId": "generic-p24b0",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24B0.md",
+    "title": "P24B0: particulate sensor electrode response is too small",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1492
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24B1",
+    "entryId": "generic-p24b1",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24B1.md",
+    "title": "P24B1: particulate sensor electrode signal shorted to power",
+    "wordCount": 252,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1493
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24B5",
+    "entryId": "generic-p24b5",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24B5.md",
+    "title": "P24B5: particulate sensor heater reports a ground-short condition",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1494
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24B6",
+    "entryId": "generic-p24b6",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24B6.md",
+    "title": "P24B6: particulate sensor heater remains electrically active when off",
+    "wordCount": 252,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1495
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24C7",
+    "entryId": "generic-p24c7",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24C7.md",
+    "title": "P24C7: particulate sensor temperature disagrees with its model",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1496,
+          1497,
+          1498
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24C9",
+    "entryId": "generic-p24c9",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24C9.md",
+    "title": "P24C9: particulate sensor temperature circuit reports an electrical fault",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1499
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24D1",
+    "entryId": "generic-p24d1",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24D1.md",
+    "title": "P24D1: particulate sensor regeneration does not achieve its thermal goal",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1500,
+          1501
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24DA",
+    "entryId": "generic-p24da",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P24DA.md",
+    "title": "P24DA: particulate sensor heater response suggests an exhaust-sample problem",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1502,
+          1503
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2564",
+    "entryId": "generic-p2564",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2564.md",
+    "title": "P2564: turbo VGT SENT position input below its electrical range",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1504
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2565",
+    "entryId": "generic-p2565",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2565.md",
+    "title": "P2565: turbo VGT SENT position input above its electrical range",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1505
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2599",
+    "entryId": "generic-p2599",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2599.md",
+    "title": "P2599: turbo vanes fail to return to their default open position",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1506
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25BD",
+    "entryId": "generic-p25bd",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P25BD.md",
+    "title": "P25BD: engine overspeed detected without commanded fuel delivery",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          841
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2627",
+    "entryId": "generic-p2627",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2627.md",
+    "title": "P2627: NOx sensor 1 oxygen signal below its accepted floor",
+    "wordCount": 255,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1507
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2628",
+    "entryId": "generic-p2628",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2628.md",
+    "title": "P2628: NOx sensor 1 oxygen signal above its accepted ceiling",
+    "wordCount": 255,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1508
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P268C",
+    "entryId": "generic-p268c",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P268C.md",
+    "title": "P268C: cylinder 1 injector adjustment data has not been programmed",
+    "wordCount": 256,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1509
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P268D",
+    "entryId": "generic-p268d",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P268D.md",
+    "title": "P268D: cylinder 2 injector adjustment record is missing",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1510
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P268E",
+    "entryId": "generic-p268e",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P268E.md",
+    "title": "P268E: cylinder 3 injector adjustment data is unprogrammed",
+    "wordCount": 252,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1511
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P268F",
+    "entryId": "generic-p268f",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P268F.md",
+    "title": "P268F: cylinder 4 injector adjustment code has not been stored",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1512
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2690",
+    "entryId": "generic-p2690",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2690.md",
+    "title": "P2690: cylinder 5 injector adjustment data is absent",
+    "wordCount": 250,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1513
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2691",
+    "entryId": "generic-p2691",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2691.md",
+    "title": "P2691: cylinder 6 injector adjustment record has not been programmed",
+    "wordCount": 252,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1514
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26B7",
+    "entryId": "generic-p26b7",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P26B7.md",
+    "title": "P26B7: coolant bypass valve C motor-control circuit is open",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          844
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26B8",
+    "entryId": "generic-p26b8",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P26B8.md",
+    "title": "P26B8: coolant bypass valve C driver reports a ground short",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          845
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26B9",
+    "entryId": "generic-p26b9",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P26B9.md",
+    "title": "P26B9: coolant bypass valve C driver reports a power short",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          846
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26BB",
+    "entryId": "generic-p26bb",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P26BB.md",
+    "title": "P26BB: coolant bypass valve C cannot follow its position target",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          847
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2715",
+    "entryId": "generic-p2715",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2715.md",
+    "title": "P2715: GR10 clutch C4 retains hydraulic holding pressure when released",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2207,
+          2208,
+          2209,
+          2210,
+          2212,
+          2446
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2732",
+    "entryId": "generic-p2732",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2732.md",
+    "title": "P2732: GR10 clutch C6 slips despite its commanded application",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2239,
+          2240,
+          2241,
+          2242
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2733",
+    "entryId": "generic-p2733",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2733.md",
+    "title": "P2733: GR10 clutch C6 fails to release during a shift",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2243,
+          2244,
+          2245,
+          2246,
+          2248,
+          2462
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P279A",
+    "entryId": "generic-p279a",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P279A.md",
+    "title": "P279A: transfer-case high-range command disagrees with measured ratio",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          848
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P279B",
+    "entryId": "generic-p279b",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P279B.md",
+    "title": "P279B: transfer-case low-range command disagrees with measured ratio",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          849
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27AD",
+    "entryId": "generic-p27ad",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P27AD.md",
+    "title": "P27AD: pressure-control solenoid G characterization data is invalid",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2276,
+          2277
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27AE",
+    "entryId": "generic-p27ae",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P27AE.md",
+    "title": "P27AE: pressure-control solenoid H characterization fails validation",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2278,
+          2279
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27EB",
+    "entryId": "generic-p27eb",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P27EB.md",
+    "title": "P27EB: mode-valve A position signal occupies an illegal voltage band",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2280
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27EC",
+    "entryId": "generic-p27ec",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P27EC.md",
+    "title": "P27EC: mode-valve A position does not follow its commanded state",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2281,
+          2282,
+          2283
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27ED",
+    "entryId": "generic-p27ed",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P27ED.md",
+    "title": "P27ED: mode-valve A position circuit voltage is too low",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2284
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P27EE",
+    "entryId": "generic-p27ee",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P27EE.md",
+    "title": "P27EE: mode-valve A position signal exceeds its electrical limit",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2285
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2812",
+    "entryId": "generic-p2812",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2812.md",
+    "title": "P2812: pressure-control solenoid G electrical circuit is open",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2286
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2814",
+    "entryId": "generic-p2814",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2814.md",
+    "title": "P2814: pressure-control solenoid G circuit shorted to ground",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2287
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2815",
+    "entryId": "generic-p2815",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2815.md",
+    "title": "P2815: pressure-control solenoid G circuit shorted to supply",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2288
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2817",
+    "entryId": "generic-p2817",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2817.md",
+    "title": "P2817: GR10 torque-converter clutch fails to achieve commanded coupling",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2289,
+          2290
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2818",
+    "entryId": "generic-p2818",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P2818.md",
+    "title": "P2818: GR10 torque-converter clutch remains coupled when commanded off",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2291,
+          2292,
+          2293,
+          2294,
+          2295,
+          2296,
+          2601
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P281B",
+    "entryId": "generic-p281b",
+    "batch": "batch-08",
+    "path": "content/code-articles/batch-08/P281B.md",
+    "title": "P281B: pressure-control solenoid H electrical control path is open",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2297
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P281D",
+    "entryId": "generic-p281d",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P281D.md",
+    "title": "P281D: why solenoid H circuit-low can also mean an open circuit",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2298
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P281E",
+    "entryId": "generic-p281e",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P281E.md",
+    "title": "P281E: solenoid H voltage-high diagnosis depends on valve mapping",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2299
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2820",
+    "entryId": "generic-p2820",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2820.md",
+    "title": "P2820: a documented park-lock valve stuck-off monitor",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          998
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2821",
+    "entryId": "generic-p2821",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2821.md",
+    "title": "P2821: how a park-lock valve is diagnosed hydraulically stuck on",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          999
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2824",
+    "entryId": "generic-p2824",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2824.md",
+    "title": "P2824: T93 default-disable valve open-circuit detection",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2312
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2826",
+    "entryId": "generic-p2826",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2826.md",
+    "title": "P2826: solenoid J circuit-low and the T87a open-circuit exception",
+    "wordCount": 286,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2313
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2827",
+    "entryId": "generic-p2827",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2827.md",
+    "title": "P2827: what solenoid J circuit-high actually identifies",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2314
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P28F7",
+    "entryId": "generic-p28f7",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P28F7.md",
+    "title": "P28F7: excess exhaust pressure and the exhaust throttle position",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1515
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2A00",
+    "entryId": "generic-p2a00",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2A00.md",
+    "title": "P2A00: oxygen drift against a modeled concentration",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1526,
+          1527
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2A01",
+    "entryId": "generic-p2a01",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2A01.md",
+    "title": "P2A01: sensor 2 oxygen drift relative to sensor 1",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1528
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2A02",
+    "entryId": "generic-p2a02",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2A02.md",
+    "title": "P2A02: the third oxygen channel and its sensor-2 reference",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1529
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2AB0",
+    "entryId": "generic-p2ab0",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2AB0.md",
+    "title": "P2AB0: particulate sensor internal current-range checking",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1530
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2ADA",
+    "entryId": "generic-p2ada",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2ADA.md",
+    "title": "P2ADA: cold-soak comparison of reductant tank temperatures",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          207
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2ADB",
+    "entryId": "generic-p2adb",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2ADB.md",
+    "title": "P2ADB: a smart reductant temperature sensor reports an out-of-range low value",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          208
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B58",
+    "entryId": "generic-p2b58",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B58.md",
+    "title": "P2B58: coolant flow valve motor-driver current above its limit",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          850
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B59",
+    "entryId": "generic-p2b59",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B59.md",
+    "title": "P2B59: an open motor circuit at the coolant flow valve",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          851
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B5A",
+    "entryId": "generic-p2b5a",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B5A.md",
+    "title": "P2B5A: coolant valve motor circuit classified as shorted to ground",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          852
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B5B",
+    "entryId": "generic-p2b5b",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B5B.md",
+    "title": "P2B5B: coolant valve motor circuit classified as shorted to power",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          853
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B5C",
+    "entryId": "generic-p2b5c",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B5C.md",
+    "title": "P2B5C: low supply at the coolant valve motor driver",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          854
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B5E",
+    "entryId": "generic-p2b5e",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B5E.md",
+    "title": "P2B5E: coolant valve position data below its SENT range",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          855
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B5F",
+    "entryId": "generic-p2b5f",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B5F.md",
+    "title": "P2B5F: coolant valve position data above its SENT range",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          856
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B60",
+    "entryId": "generic-p2b60",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B60.md",
+    "title": "P2B60: coolant valve position fails to follow a settled request",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          857,
+          858
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B83",
+    "entryId": "generic-p2b83",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B83.md",
+    "title": "P2B83: charge-air cooler pump speed above its monitored range",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          859
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B84",
+    "entryId": "generic-p2b84",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B84.md",
+    "title": "P2B84: understanding the pump underspeed monitor without misusing its threshold",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          860
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B97",
+    "entryId": "generic-p2b97",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B97.md",
+    "title": "P2B97: exhaust valve learned endpoints outside their allowed windows",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1531,
+          1532
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B98",
+    "entryId": "generic-p2b98",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B98.md",
+    "title": "P2B98: low supply to the exhaust pressure valve motor",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1533
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B99",
+    "entryId": "generic-p2b99",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2B99.md",
+    "title": "P2B99: exhaust valve H-bridge temperature above its limit",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1534
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C21",
+    "entryId": "generic-p2c21",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2C21.md",
+    "title": "P2C21: two sump oil-temperature readings disagree",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          611
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C63",
+    "entryId": "generic-p2c63",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2C63.md",
+    "title": "P2C63: third oxygen channel below its physical-range limit",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1535
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C64",
+    "entryId": "generic-p2c64",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2C64.md",
+    "title": "P2C64: third oxygen channel above its physical-range limit",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1536
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C7A",
+    "entryId": "generic-p2c7a",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2C7A.md",
+    "title": "P2C7A: underfloor SCR efficiency evaluated with filtered evidence",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          875,
+          876,
+          877,
+          878,
+          879
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2CB9",
+    "entryId": "generic-p2cb9",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2CB9.md",
+    "title": "P2CB9: fan 2 runs below a modeled speed expectation",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          880,
+          881
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2CBB",
+    "entryId": "generic-p2cbb",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2CBB.md",
+    "title": "P2CBB: fan 3 underspeed is a model-based performance result",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          882,
+          883
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2CE5",
+    "entryId": "generic-p2ce5",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2CE5.md",
+    "title": "P2CE5: downstream filter pressure offset checked with no exhaust flow",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          884
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2CE6",
+    "entryId": "generic-p2ce6",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2CE6.md",
+    "title": "P2CE6: a downstream pressure signal that does not react to transients",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          885
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2CE7",
+    "entryId": "generic-p2ce7",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2CE7.md",
+    "title": "P2CE7: downstream pressure raw signal below its electrical range",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          886
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2CE8",
+    "entryId": "generic-p2ce8",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2CE8.md",
+    "title": "P2CE8: high downstream pressure signal can mean an open circuit",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          887
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2CE9",
+    "entryId": "generic-p2ce9",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2CE9.md",
+    "title": "P2CE9: excessive jumps between downstream pressure samples",
+    "wordCount": 255,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          888
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2D45",
+    "entryId": "generic-p2d45",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2D45.md",
+    "title": "P2D45: reductant heating response compared with a temperature model",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          211
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E01",
+    "entryId": "generic-p2e01",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2E01.md",
+    "title": "P2E01: gear-lever sensor 1 reports an internal error through SENT",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          889
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E05",
+    "entryId": "generic-p2e05",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2E05.md",
+    "title": "P2E05: gear-lever sensor 2 internal-error detection",
+    "wordCount": 253,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          890
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2EAD",
+    "entryId": "generic-p2ead",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/P2EAD.md",
+    "title": "P2EAD: second reductant injector needs excessive delivery compensation",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          891
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0075",
+    "entryId": "generic-u0075",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0075.md",
+    "title": "U0075: CAN 1 bus-off detected by the EOCM3 receiver",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1935
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0078",
+    "entryId": "generic-u0078",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0078.md",
+    "title": "U0078: CAN 9 bus-off counted over a sliding sample window",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U007E",
+    "entryId": "generic-u007e",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U007E.md",
+    "title": "U007E: front-camera CAN 8 bus-off and its downstream effects",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1985
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0103",
+    "entryId": "generic-u0103",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0103.md",
+    "title": "U0103: gear-shift module response missing on LIN bus 2",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          926
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U010E",
+    "entryId": "generic-u010e",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U010E.md",
+    "title": "U010E: reductant control module CAN messages exceed their timeouts",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          928
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0125",
+    "entryId": "generic-u0125",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0125.md",
+    "title": "U0125: missing inertial data rather than a generic transmission timeout",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1938
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0139",
+    "entryId": "generic-u0139",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0139.md",
+    "title": "U0139: suspension-module messages have two different timeout windows",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          932
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0151",
+    "entryId": "generic-u0151",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0151.md",
+    "title": "U0151: restraint-module messages missing at different rates",
+    "wordCount": 256,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          936
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0235",
+    "entryId": "generic-u0235",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0235.md",
+    "title": "U0235: long-range radar protected bursts are missing",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1942
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U023C",
+    "entryId": "generic-u023c",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U023C.md",
+    "title": "U023C: video-processing status messages exceed their timeout",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1943
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U023D",
+    "entryId": "generic-u023d",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U023D.md",
+    "title": "U023D: left-front short-range radar burst timeout",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1944
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U023E",
+    "entryId": "generic-u023e",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U023E.md",
+    "title": "U023E: right-front short-range radar data stops arriving",
+    "wordCount": 253,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1945
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0265",
+    "entryId": "generic-u0265",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0265.md",
+    "title": "U0265: front-camera protected burst messages are missing",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1946
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0285",
+    "entryId": "generic-u0285",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0285.md",
+    "title": "U0285: grille shutter B LIN response timeout and a disabled calibration",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          940
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U029D",
+    "entryId": "generic-u029d",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U029D.md",
+    "title": "U029D: NOx sensor A messages have several distinct timeouts",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          942
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U029E",
+    "entryId": "generic-u029e",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U029E.md",
+    "title": "U029E: post-catalyst NOx sensor B communication timing",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          944
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U02A1",
+    "entryId": "generic-u02a1",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U02A1.md",
+    "title": "U02A1: NOx sensor C ten-second message-loss supervision",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          946
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U02A3",
+    "entryId": "generic-u02a3",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U02A3.md",
+    "title": "U02A3: particulate sensor messages are absent rather than implausible",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          948
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U02A9",
+    "entryId": "generic-u02a9",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U02A9.md",
+    "title": "U02A9: charge-air cooler pump LIN response missing",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          950
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0402",
+    "entryId": "generic-u0402",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0402.md",
+    "title": "U0402: transmission estimated-gear data fails protection checks",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          120
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0403",
+    "entryId": "generic-u0403",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0403.md",
+    "title": "U0403: transfer-case secondary-axle message fails integrity checks",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          955
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0404",
+    "entryId": "generic-u0404",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0404.md",
+    "title": "U0404: wrong-length range-selector messages in a documented calibration",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          664
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U040F",
+    "entryId": "generic-u040f",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U040F.md",
+    "title": "U040F: reductant controller messages fail counter or checksum checks",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          958,
+          959,
+          960
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0418",
+    "entryId": "generic-u0418",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0418.md",
+    "title": "U0418: brake-module serial data fails protection validation",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          121
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0420",
+    "entryId": "generic-u0420",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0420.md",
+    "title": "U0420: steering-wheel information fails a received-data check",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          963
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0423",
+    "entryId": "generic-u0423",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0423.md",
+    "title": "U0423: cluster status messages fail rolling-count or protection checks",
+    "wordCount": 249,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1955
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0433",
+    "entryId": "generic-u0433",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0433.md",
+    "title": "U0433: long-range radar bursts arrive with invalid protection",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1956
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0447",
+    "entryId": "generic-u0447",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0447.md",
+    "title": "U0447: gateway backup power-mode message fails validation",
+    "wordCount": 245,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          122
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0452",
+    "entryId": "generic-u0452",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0452.md",
+    "title": "U0452: restraint-module data is received but fails integrity checks",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          968
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0485",
+    "entryId": "generic-u0485",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0485.md",
+    "title": "U0485: radio-related HMI and climate messages fail integrity checks",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          123,
+          124
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0499",
+    "entryId": "generic-u0499",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0499.md",
+    "title": "U0499: telematics positioning data fails protection validation",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1958
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U04A4",
+    "entryId": "generic-u04a4",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U04A4.md",
+    "title": "U04A4: particulate sensor data fails counter and protection checks",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          969,
+          970,
+          971
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U04B1",
+    "entryId": "generic-u04b1",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U04B1.md",
+    "title": "U04B1: battery monitor rolling counters fail on the LIN interface",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          125,
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U053B",
+    "entryId": "generic-u053b",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U053B.md",
+    "title": "U053B: radar rejects protected host-vehicle path information",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1996
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U053C",
+    "entryId": "generic-u053c",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U053C.md",
+    "title": "U053C: processor-2 data-group integrity failures",
+    "wordCount": 251,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1959
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U053D",
+    "entryId": "generic-u053d",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U053D.md",
+    "title": "U053D: video-processing messages arrive with invalid protection",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1960
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0566",
+    "entryId": "generic-u0566",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0566.md",
+    "title": "U0566: automatic-braking message rolling counter fails at the brake controller",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          356
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0585",
+    "entryId": "generic-u0585",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0585.md",
+    "title": "U0585: grille shutter A initialization-status counter is invalid",
+    "wordCount": 254,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          972
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0586",
+    "entryId": "generic-u0586",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0586.md",
+    "title": "U0586: grille shutter B initialization-status data fails its counter check",
+    "wordCount": 246,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          973
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0599",
+    "entryId": "generic-u0599",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0599.md",
+    "title": "U0599: DC/DC converter voltage and crank-status messages fail validation",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          974
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U059E",
+    "entryId": "generic-u059e",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U059E.md",
+    "title": "U059E: engine-out NOx sensor A data fails protection checks",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          975,
+          976
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U059F",
+    "entryId": "generic-u059f",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U059F.md",
+    "title": "U059F: post-catalyst NOx sensor B information fails integrity checks",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          977,
+          978
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U05A8",
+    "entryId": "generic-u05a8",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U05A8.md",
+    "title": "U05A8: third NOx sensor messages fail counter or checksum validation",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          979,
+          980
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0601",
+    "entryId": "generic-u0601",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0601.md",
+    "title": "U0601: digital filter-pressure sensor SENT communication fails",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          981
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0617",
+    "entryId": "generic-u0617",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0617.md",
+    "title": "U0617: coolant bypass valve C SENT data becomes stale",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          984
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U061F",
+    "entryId": "generic-u061f",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U061F.md",
+    "title": "U061F: exhaust temperature sensor 1 loses valid SENT communication",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1537
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0620",
+    "entryId": "generic-u0620",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0620.md",
+    "title": "U0620: exhaust temperature sensor 2 SENT messages are invalid or stale",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1538
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0633",
+    "entryId": "generic-u0633",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0633.md",
+    "title": "U0633: cooling fan 2 fails to return its LIN response",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          989,
+          990
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U063F",
+    "entryId": "generic-u063f",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U063F.md",
+    "title": "U063F: coolant flow valve SENT position stream fails protocol checks",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          991
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U064F",
+    "entryId": "generic-u064f",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U064F.md",
+    "title": "U064F: intake runner swirl-position SENT protocol failure",
+    "wordCount": 253,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1539
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0650",
+    "entryId": "generic-u0650",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0650.md",
+    "title": "U0650: exhaust pressure valve position feedback loses valid SENT updates",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1540,
+          1541
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0651",
+    "entryId": "generic-u0651",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0651.md",
+    "title": "U0651: high-pressure EGR position sensor A SENT communication fails",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1542,
+          1543
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0653",
+    "entryId": "generic-u0653",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0653.md",
+    "title": "U0653: low-pressure EGR position sensor C communication failure",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1544,
+          1545
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0654",
+    "entryId": "generic-u0654",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0654.md",
+    "title": "U0654: diesel intake throttle position SENT data becomes unusable",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1546,
+          1547
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0656",
+    "entryId": "generic-u0656",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0656.md",
+    "title": "U0656: variable-geometry turbo position feedback loses valid SENT data",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1548,
+          1549
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0659",
+    "entryId": "generic-u0659",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0659.md",
+    "title": "U0659: left-front temperature actuator response missing on LIN",
+    "wordCount": 252,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          127,
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U065A",
+    "entryId": "generic-u065a",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U065A.md",
+    "title": "U065A: right-front climate actuator timeout with an applicability caveat",
+    "wordCount": 256,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          129,
+          130
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0669",
+    "entryId": "generic-u0669",
+    "batch": "batch-09",
+    "path": "content/code-articles/batch-09/U0669.md",
+    "title": "U0669: low-pressure EGR differential-pressure sensor loses SENT data",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1550
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C0015",
+    "entryId": "generic-c0015",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/C0015.md",
+    "title": "C0015: right-front outlet-valve driver monitoring",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C003F",
+    "entryId": "generic-c003f",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/C003F.md",
+    "title": "C003F: wheel rotation directions disagree",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C0506",
+    "entryId": "generic-c0506",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/C0506.md",
+    "title": "C0506: right-front wheel-speed signal current is too low",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          106
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C053E",
+    "entryId": "generic-c053e",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/C053E.md",
+    "title": "C053E: a brake-pressure signal at its minimum value",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C055D",
+    "entryId": "generic-c055d",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/C055D.md",
+    "title": "C055D: a documented brake-circuit compliance mismatch",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C058A",
+    "entryId": "generic-c058a",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/C058A.md",
+    "title": "C058A: brake-booster motor position plausibility",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P000A",
+    "entryId": "generic-p000a",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P000A.md",
+    "title": "P000A: intake camshaft bank 1 responds too slowly",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          543,
+          544
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P000B",
+    "entryId": "generic-p000b",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P000B.md",
+    "title": "P000B: bank-1 exhaust camshaft misses its response window",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          544
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P000D",
+    "entryId": "generic-p000d",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P000D.md",
+    "title": "P000D: bank-2 exhaust camshaft response monitoring",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          545
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0021",
+    "entryId": "generic-p0021",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0021.md",
+    "title": "P0021: bank-2 intake camshaft target-error interpretation",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          542
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0023",
+    "entryId": "generic-p0023",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0023.md",
+    "title": "P0023: open-circuit monitoring of the bank-2 B cam actuator",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          746
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0050",
+    "entryId": "generic-p0050",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0050.md",
+    "title": "P0050: bank-2 upstream oxygen-sensor heater open circuit",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          300
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0056",
+    "entryId": "generic-p0056",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0056.md",
+    "title": "P0056: bank-2 downstream heater circuit continuity",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          522,
+          523
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0057",
+    "entryId": "generic-p0057",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0057.md",
+    "title": "P0057: low-side heater circuit grounded on bank 2 sensor 2",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          524,
+          525
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0058",
+    "entryId": "generic-p0058",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0058.md",
+    "title": "P0058: heater driver stays high when commanded on",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          525,
+          526
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00A6",
+    "entryId": "generic-p00a6",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P00A6.md",
+    "title": "P00A6: bank-2 intake temperature plausibility and stuck checks",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          876
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00A9",
+    "entryId": "generic-p00a9",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P00A9.md",
+    "title": "P00A9: bank-2 intake-temperature signal disagrees with its filter",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          877
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P010B",
+    "entryId": "generic-p010b",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P010B.md",
+    "title": "P010B: bank-2 airflow versus a calculated flow envelope",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          550,
+          551
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P010D",
+    "entryId": "generic-p010d",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P010D.md",
+    "title": "P010D: high SENT data from airflow sensor B",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          546
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P013C",
+    "entryId": "generic-p013c",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P013C.md",
+    "title": "P013C: bank-2 downstream rich-to-lean transition time",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P013D",
+    "entryId": "generic-p013d",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P013D.md",
+    "title": "P013D: bank-2 downstream lean-to-rich response",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          441,
+          442
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0140",
+    "entryId": "generic-p0140",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0140.md",
+    "title": "P0140: bank-1 downstream no-activity and continuity checks",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          504
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P014A",
+    "entryId": "generic-p014a",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P014A.md",
+    "title": "P014A: rich-to-lean delay at bank-2 oxygen sensor 2",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          462
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P014B",
+    "entryId": "generic-p014b",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P014B.md",
+    "title": "P014B: lean-to-rich delay after the flow correction",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          469,
+          470
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0151",
+    "entryId": "generic-p0151",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0151.md",
+    "title": "P0151: bank-2 upstream sensor wire short-to-ground monitoring",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          345
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0152",
+    "entryId": "generic-p0152",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0152.md",
+    "title": "P0152: bank-2 upstream oxygen interface short-to-battery check",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          337
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0153",
+    "entryId": "generic-p0153",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0153.md",
+    "title": "P0153: bank-2 upstream oxygen response uses several timing tests",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          367,
+          368,
+          369
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0155",
+    "entryId": "generic-p0155",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0155.md",
+    "title": "P0155: bank-2 upstream heater temperature performance",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          292,
+          293
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0157",
+    "entryId": "generic-p0157",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0157.md",
+    "title": "P0157: bank-2 downstream low signal and load-pulse evidence",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          512
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0158",
+    "entryId": "generic-p0158",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0158.md",
+    "title": "P0158: bank-2 downstream high signal with readiness checks",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          508,
+          509
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0161",
+    "entryId": "generic-p0161",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0161.md",
+    "title": "P0161: downstream bank-2 heater performance inferred from resistance",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          515,
+          516,
+          517
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0174",
+    "entryId": "generic-p0174",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0174.md",
+    "title": "P0174: bank-2 lean result from lambda-controller correction",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          165
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0175",
+    "entryId": "generic-p0175",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0175.md",
+    "title": "P0175: bank-2 rich result at the lower correction limit",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          168
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P01BF",
+    "entryId": "generic-p01bf",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P01BF.md",
+    "title": "P01BF: bank-2 rail-pressure plausibility includes a stuck check",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          577,
+          578
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P01CA",
+    "entryId": "generic-p01ca",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P01CA.md",
+    "title": "P01CA: bank-2 rail pressure during the starting sequence",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          733,
+          734
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P01E5",
+    "entryId": "generic-p01e5",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P01E5.md",
+    "title": "P01E5: coolant sensor 3 low electrical input",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          532
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P01E7",
+    "entryId": "generic-p01e7",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P01E7.md",
+    "title": "P01E7: coolant sensor 3 intermittent-connection monitoring",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          531
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0207",
+    "entryId": "generic-p0207",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0207.md",
+    "title": "P0207: injector-circuit code with a source cylinder mismatch",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          709
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0208",
+    "entryId": "generic-p0208",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0208.md",
+    "title": "P0208: an injector-circuit definition requiring cylinder verification",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          706
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0226",
+    "entryId": "generic-p0226",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0226.md",
+    "title": "P0226: bank-2 throttle position checked against redundant evidence",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          625,
+          626
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0227",
+    "entryId": "generic-p0227",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0227.md",
+    "title": "P0227: bank-2 throttle sensor 1 voltage below range",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          624
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P029D",
+    "entryId": "generic-p029d",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P029D.md",
+    "title": "P029D: cylinder-1 injector leakage inferred from two failures",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          704
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02A1",
+    "entryId": "generic-p02a1",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P02A1.md",
+    "title": "P02A1: cylinder-2 injector leakage evidence",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          705
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02CB",
+    "entryId": "generic-p02cb",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P02CB.md",
+    "title": "P02CB: bank-2 underboost monitoring and a calibration caveat",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          824
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0301",
+    "entryId": "generic-p0301",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0301.md",
+    "title": "P0301: cylinder-1 misfire evidence across different observation windows",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          134,
+          135,
+          136
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0302",
+    "entryId": "generic-p0302",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0302.md",
+    "title": "P0302: cylinder-2 attribution is not a single-component diagnosis",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          137,
+          138
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0303",
+    "entryId": "generic-p0303",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0303.md",
+    "title": "P0303: cylinder-3 misfire and weighted catalyst assessment",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          139,
+          140,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0304",
+    "entryId": "generic-p0304",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0304.md",
+    "title": "P0304: cylinder-4 misfire after startup qualification",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          142,
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0305",
+    "entryId": "generic-p0305",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0305.md",
+    "title": "P0305: cylinder-5 misfire rates and cold-start eligibility",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          144,
+          145,
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0306",
+    "entryId": "generic-p0306",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0306.md",
+    "title": "P0306: cylinder-6 misfire needs valid timing information",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          147,
+          148
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0307",
+    "entryId": "generic-p0307",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0307.md",
+    "title": "P0307: cylinder-7 misfire counts versus an exhaust-bank total",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          149,
+          150,
+          151
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0308",
+    "entryId": "generic-p0308",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0308.md",
+    "title": "P0308: cylinder-8 misfire and completed test frames",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          152,
+          153
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P032C",
+    "entryId": "generic-p032c",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P032C.md",
+    "title": "P032C: knock sensor C low filtered output",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          601
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P032D",
+    "entryId": "generic-p032d",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P032D.md",
+    "title": "P032D: high output from the documented knock-sensor 3 circuit",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          600
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0333",
+    "entryId": "generic-p0333",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0333.md",
+    "title": "P0333: knock sensor B high-circuit sampling",
+    "wordCount": 256,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          603
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P033B",
+    "entryId": "generic-p033b",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P033B.md",
+    "title": "P033B: knock-sensor D reference-signal plausibility",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          606
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P033D",
+    "entryId": "generic-p033d",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P033D.md",
+    "title": "P033D: knock circuit high with an unresolved sensor label",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          605
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0343",
+    "entryId": "generic-p0343",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0343.md",
+    "title": "P0343: bank-1 intake cam signal stops at a high level",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          589
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0347",
+    "entryId": "generic-p0347",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0347.md",
+    "title": "P0347: bank-2 intake cam signal remains low without new edges",
+    "wordCount": 255,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          591
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0356",
+    "entryId": "generic-p0356",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0356.md",
+    "title": "P0356: ignition-coil circuit code with inconsistent coil lettering",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          702
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0367",
+    "entryId": "generic-p0367",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0367.md",
+    "title": "P0367: bank-1 exhaust camshaft signal lost at low level",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          592
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0393",
+    "entryId": "generic-p0393",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0393.md",
+    "title": "P0393: bank-2 exhaust camshaft signal lost at high level",
+    "wordCount": 254,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          593
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0430",
+    "entryId": "generic-p0430",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0430.md",
+    "title": "P0430: bank-2 catalyst oxygen-storage assessment",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          120,
+          121
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0497",
+    "entryId": "generic-p0497",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0497.md",
+    "title": "P0497: EVAP purge-flow assessment from tank-pressure response",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          154,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04AE",
+    "entryId": "generic-p04ae",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P04AE.md",
+    "title": "P04AE: bank-2 purge valve tested through a commanded pressure change",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          157
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04DF",
+    "entryId": "generic-p04df",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P04DF.md",
+    "title": "P04DF: bank-1 purge-valve response during intrusive testing",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          156
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P050A",
+    "entryId": "generic-p050a",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P050A.md",
+    "title": "P050A: cold-start idle error during catalyst heating",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          533,
+          532
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P061C",
+    "entryId": "generic-p061c",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P061C.md",
+    "title": "P061C: internal engine-speed calculation versus measured speed",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          640
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0638",
+    "entryId": "generic-p0638",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0638.md",
+    "title": "P0638: bank-1 throttle duty-cycle demand exceeds its limit",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          761
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0639",
+    "entryId": "generic-p0639",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0639.md",
+    "title": "P0639: bank-2 throttle effort and supply-voltage compensation",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          794
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P064E",
+    "entryId": "generic-p064e",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P064E.md",
+    "title": "P064E: bank-2 oxygen-interface processor self-checks",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          281
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0653",
+    "entryId": "generic-p0653",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0653.md",
+    "title": "P0653: transmission sensor-reference supply 2 is high",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          910
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0657",
+    "entryId": "generic-p0657",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0657.md",
+    "title": "P0657: an actuator-supply open-load result saved at shutdown",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          936
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06A4",
+    "entryId": "generic-p06a4",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P06A4.md",
+    "title": "P06A4: transmission speed-sensor supply 1 undervoltage",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          909
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06B1",
+    "entryId": "generic-p06b1",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P06B1.md",
+    "title": "P06B1: speed-sensor supply switch current or temperature fault",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          935
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P072C",
+    "entryId": "generic-p072c",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P072C.md",
+    "title": "P072C: first gear fails repeated disengagement attempts",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1040
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P073A",
+    "entryId": "generic-p073a",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P073A.md",
+    "title": "P073A: fifth gear remains engaged through failed release attempts",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1041
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P073F",
+    "entryId": "generic-p073f",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P073F.md",
+    "title": "P073F: first gear cannot complete the engagement sequence",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1043
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P074C",
+    "entryId": "generic-p074c",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P074C.md",
+    "title": "P074C: fourth-gear engagement exceeds speed or state limits",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1044
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P074F",
+    "entryId": "generic-p074f",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P074F.md",
+    "title": "P074F: seventh gear fails the commanded engagement process",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1045
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0792",
+    "entryId": "generic-p0792",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0792.md",
+    "title": "P0792: clutch-1 speed checked against independent references",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          982,
+          983
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07C5",
+    "entryId": "generic-p07c5",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P07C5.md",
+    "title": "P07C5: odd-clutch speed input voltage below range",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          919
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07D7",
+    "entryId": "generic-p07d7",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P07D7.md",
+    "title": "P07D7: eighth gear cannot be confirmed released",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1042
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P07E6",
+    "entryId": "generic-p07e6",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P07E6.md",
+    "title": "P07E6: park-lock release retries and unintended engagement",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1052
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0844",
+    "entryId": "generic-p0844",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0844.md",
+    "title": "P0844: clutch-1 pressure sensor offset at expected zero pressure",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          977
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0867",
+    "entryId": "generic-p0867",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0867.md",
+    "title": "P0867: transmission pressure fails to build with pump power available",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1063
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0869",
+    "entryId": "generic-p0869",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0869.md",
+    "title": "P0869: system pressure remains above its target",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          1062
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0871",
+    "entryId": "generic-p0871",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0871.md",
+    "title": "P0871: system-pressure sensor checked against clutch pressure",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          980
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0873",
+    "entryId": "generic-p0873",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0873.md",
+    "title": "P0873: system-pressure sensor high voltage with conflicting enables",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          907
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0874",
+    "entryId": "generic-p0874",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0874.md",
+    "title": "P0874: system-pressure sensor zero-offset assessment",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          981
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0876",
+    "entryId": "generic-p0876",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0876.md",
+    "title": "P0876: limited-slip differential pressure-sensor consistency",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          978
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0879",
+    "entryId": "generic-p0879",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/P0879.md",
+    "title": "P0879: limited-slip differential sensor drift at zero pressure",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-07a-2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-07a-2",
+        "pages": [
+          979
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U067C",
+    "entryId": "generic-u067c",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/U067C.md",
+    "title": "U067C: why the cooling-fan 3 LIN response is missing",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          992
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U068E",
+    "entryId": "generic-u068e",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/U068E.md",
+    "title": "U068E: SENT communication failure and an EGR sensor-label mismatch",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          994
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0696",
+    "entryId": "generic-u0696",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/U0696.md",
+    "title": "U0696: when a downstream pressure sensor stops communicating",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          995
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U069A",
+    "entryId": "generic-u069a",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/U069A.md",
+    "title": "U069A: exhaust-temperature sensor 3 message loss",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1551
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3000",
+    "entryId": "generic-u3000",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/U3000.md",
+    "title": "U3000: why the module and failure subtype matter",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1988
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3002",
+    "entryId": "generic-u3002",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/U3002.md",
+    "title": "U3002: missing VIN programming versus a VIN mismatch",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          1989,
+          2758
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3003",
+    "entryId": "generic-u3003",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/U3003.md",
+    "title": "U3003: module supply voltage outside its allowed window",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          2003,
+          2007
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3018",
+    "entryId": "generic-u3018",
+    "batch": "batch-10",
+    "path": "content/code-articles/batch-10/U3018.md",
+    "title": "U3018: disagreement between two module power inputs",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2025-04b"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2025-04b",
+        "pages": [
+          159
+        ]
+      }
+    ]
+  }
+]

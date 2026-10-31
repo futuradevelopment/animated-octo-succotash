@@ -1,0 +1,36 @@
+{
+  "goal": 10000,
+  "articleUnit": "One separately authored manuscript per distinct assigned code string, with exact namespace and evidence scope.",
+  "waveSize": 1000,
+  "writersPerWave": 10,
+  "articlesPerWriter": 100,
+  "completedWaves": [
+    1,
+    2,
+    3
+  ],
+  "currentWave": 4,
+  "remainingPlannedWaves": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "execution": "Continue within the authorized work session; this record is a resumable work plan, not a background scheduler or a claim of publication.",
+  "qualityGate": "No invented diagnostic criteria, namespace swapping, title-only variants or counted source mentions. Every batch retains source evidence and unresolved-review notes.",
+  "publication": "The first 3,000 manuscripts are explicitly selected in content/code-articles/publication.json for existing canonical code pages. Source authoring metadata and unresolved-review flags are retained. Later waves remain unpublished until separately selected; live deployment is verified separately.",
+  "currentWaveStatus": "paused for requested first-3,000 production publication; resume fourth-wave source research after live verification",
+  "publicationSelection": {
+    "manifest": "content/code-articles/publication.json",
+    "waves": [
+      1,
+      2,
+      3
+    ],
+    "manuscripts": 3000,
+    "liveVerification": "not established by this campaign record"
+  }
+}

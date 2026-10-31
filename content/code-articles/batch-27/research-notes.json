@@ -1,0 +1,1705 @@
+{
+  "batch": "batch-27",
+  "status": "writing-complete",
+  "assigned": 100,
+  "written": 100,
+  "uniqueCodes": 100,
+  "sourceCheckedDrafts": 90,
+  "sourceReviewPending": 10,
+  "substantiveWords": {
+    "total": 22111,
+    "minimum": 207,
+    "maximum": 233
+  },
+  "inventoryWords": {
+    "total": 26840,
+    "minimum": 253,
+    "maximum": 284
+  },
+  "sourceScope": "GM2010 10OBDG10 Hybrid Diagnostics, BPCM/HCP/MCPA/MCPB monitor context. No per-code vehicle or engine fitment inferred.",
+  "method": "Each assigned row was read individually in native-reading-order PDF text. Rotated table rows, command-state boundaries, cross-page conditions and copied or incomplete labels were checked against original PDF images where needed. Articles contain original prose and factual monitor interpretation, not copied source tables.",
+  "originalPdfPagesVisuallyInspected": [
+    164,
+    225,
+    226,
+    239,
+    240,
+    242,
+    284,
+    289,
+    290,
+    292,
+    296,
+    297,
+    301,
+    303,
+    304
+  ],
+  "sourceLimitations": [
+    {
+      "code": "P0BD2",
+      "issue": "The P0BD2 timing cell omits part of its counter text; no missing count is inferred from neighboring sensor rows."
+    },
+    {
+      "code": "P0BD7",
+      "issue": "P0BD7 inhibit list includes P0BD3 in the inverter B row; correspondence with neighboring B-sensor lists is unresolved and not silently corrected."
+    },
+    {
+      "code": "P0BEA",
+      "issue": "P0BEA heading and measured quantity identify phase V, but the strategy sentence says U-phase; channel mapping requires applicable calibration confirmation."
+    },
+    {
+      "code": "P0BEE",
+      "issue": "P0BEE heading and measured quantity identify phase W, while the strategy sentence says U-phase; the discrepancy is retained rather than silently corrected."
+    },
+    {
+      "code": "P0BF6",
+      "issue": "P0BF6 heading and measured quantity identify phase V, but its strategy description says U-phase; exact mapping requires vehicle-specific confirmation."
+    },
+    {
+      "code": "P0BFA",
+      "issue": "P0BFA heading and measured quantity identify phase W, but the strategy sentence says U-phase; exact channel mapping remains vehicle-specific."
+    },
+    {
+      "code": "P0C08",
+      "issue": "P0C08 is in the motor B row/section but its strategy sentence says motor A; final total timing text is incomplete. Neither detail is silently repaired."
+    },
+    {
+      "code": "P0C0B",
+      "issue": "P0C0B voltage-enable comparisons are joined with OR and do not establish an unambiguous supply-voltage window; no corrected specification is invented."
+    },
+    {
+      "code": "P0C0E",
+      "issue": "P0C0E initialization/supply enable wording uses an OR voltage relationship that is not a clear conventional window; exact service conditions require confirmation."
+    },
+    {
+      "code": "P0C58",
+      "issue": "P0C58 appears in the motor B resolver section and generic identity, but its individual GM row heading says motor A; physical channel assignment requires confirmation."
+    }
+  ],
+  "familyScope": "Block-voltage and current-channel families genuinely share documented OEM monitor logic. Separate articles retain actual block/phase/channel identifiers and branch conditions; they do not claim distinct repairs or different algorithms where the source shares them. Original wording is not represented as proof of semantic uniqueness.",
+  "publication": "All100 remain drafts. Author source checks are not independent mechanic approval or a statement of live publication.",
+  "validation": {
+    "exactAssignedCodeSet": true,
+    "metadataParsed": true,
+    "sourcePageBounds": true,
+    "completeDescriptions": true,
+    "allDraft": true,
+    "failures": []
+  },
+  "articles": [
+    {
+      "code": "P0B5A",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B5A.md",
+      "wordCount": 273,
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            225,
+            226
+          ]
+        }
+      ],
+      "sha256": "d23d04f114cedf0af21ae92cb46713504c04a5cb190f5b8e4774170051df9e98"
+    },
+    {
+      "code": "P0B5B",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B5B.md",
+      "wordCount": 279,
+      "substantiveWords": 230,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            225
+          ]
+        }
+      ],
+      "sha256": "268384983e0d5105f94a8a5d66d6d337d1d1d51756e2eacd89813b37d99f1452"
+    },
+    {
+      "code": "P0B5C",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B5C.md",
+      "wordCount": 281,
+      "substantiveWords": 232,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            225
+          ]
+        }
+      ],
+      "sha256": "73d99f712f333f81fb1c44547b0f43a0c2a2503a5f7f0829b5ec86f23a718760"
+    },
+    {
+      "code": "P0B5F",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B5F.md",
+      "wordCount": 275,
+      "substantiveWords": 230,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            226
+          ]
+        }
+      ],
+      "sha256": "3093e66b7282204db479cfa6fdc8de67a7c2ef0279934a61596c802e05c4f771"
+    },
+    {
+      "code": "P0B60",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B60.md",
+      "wordCount": 276,
+      "substantiveWords": 230,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            226
+          ]
+        }
+      ],
+      "sha256": "0214fde44281c735c05806240da2f563a2b679c99d4f1a377d1980e59df5b486"
+    },
+    {
+      "code": "P0B61",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B61.md",
+      "wordCount": 272,
+      "substantiveWords": 227,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            226
+          ]
+        }
+      ],
+      "sha256": "f7e4accf44cf18b97dbab43be81b5574db8b3f94fdee4cca9439f40ddb61b419"
+    },
+    {
+      "code": "P0B64",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B64.md",
+      "wordCount": 276,
+      "substantiveWords": 229,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            227
+          ]
+        }
+      ],
+      "sha256": "2d06aa6fec7980f0dd1f2bbcb3240b3388084bbec9eeec40824a1f730aa42b6f"
+    },
+    {
+      "code": "P0B65",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B65.md",
+      "wordCount": 276,
+      "substantiveWords": 226,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            226,
+            227
+          ]
+        }
+      ],
+      "sha256": "2b5e0f53bc7c2137e5bf336d013a1ba630639ac5a7f720fc17eda6e7a8ef3dc8"
+    },
+    {
+      "code": "P0B66",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B66.md",
+      "wordCount": 277,
+      "substantiveWords": 226,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            226,
+            227
+          ]
+        }
+      ],
+      "sha256": "99af41a8bf50946210667e14cd36fc94dba477b4ed0864117f9181624321dc21"
+    },
+    {
+      "code": "P0B69",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B69.md",
+      "wordCount": 273,
+      "substantiveWords": 226,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            227
+          ]
+        }
+      ],
+      "sha256": "c542e7ef7660300d89b3c1a5ce6a459ad4cd414b53026251ba47407df893c4d0"
+    },
+    {
+      "code": "P0B6A",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B6A.md",
+      "wordCount": 264,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            227
+          ]
+        }
+      ],
+      "sha256": "d6432e364afaa795d3a73f2cbacdf9588ebcba34a2b817db65edd6729729b175"
+    },
+    {
+      "code": "P0B6B",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B6B.md",
+      "wordCount": 275,
+      "substantiveWords": 229,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            227
+          ]
+        }
+      ],
+      "sha256": "f1379129c96886a2f7ccd4dc574af0c803779c867ad6755ff574cc48d3611c0a"
+    },
+    {
+      "code": "P0B6E",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B6E.md",
+      "wordCount": 270,
+      "substantiveWords": 226,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            228
+          ]
+        }
+      ],
+      "sha256": "833bdcb18b0f05038794e7f22b36651f8d02cd4a18ae0ec65d4a6be57fe25833"
+    },
+    {
+      "code": "P0B6F",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B6F.md",
+      "wordCount": 273,
+      "substantiveWords": 226,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            228
+          ]
+        }
+      ],
+      "sha256": "cf50eab922311bb915f13c918def3c6a0294915752976119480627728e5ee352"
+    },
+    {
+      "code": "P0B70",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B70.md",
+      "wordCount": 267,
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            228
+          ]
+        }
+      ],
+      "sha256": "ea7d5b669a8061c0942e28d6eafc2d3c78c79647960f4c8e4f8e43a2d2cdf3e2"
+    },
+    {
+      "code": "P0B73",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B73.md",
+      "wordCount": 278,
+      "substantiveWords": 227,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            228,
+            229
+          ]
+        }
+      ],
+      "sha256": "19b9d4e757449e54ac19dd2f0c200fd5b8cfff09ed34820a69378017a4f0f099"
+    },
+    {
+      "code": "P0B74",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B74.md",
+      "wordCount": 266,
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            228
+          ]
+        }
+      ],
+      "sha256": "61b04e60dd8ef8458da58224e0364174b190594c6bbbd724de042d263c2631c8"
+    },
+    {
+      "code": "P0B75",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B75.md",
+      "wordCount": 266,
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            228
+          ]
+        }
+      ],
+      "sha256": "2d53bfcd437fc2f263e43b3296d94c6b8a92ce4e2bb460ab5c325fc8ce8b99b5"
+    },
+    {
+      "code": "P0B78",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B78.md",
+      "wordCount": 273,
+      "substantiveWords": 227,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            229
+          ]
+        }
+      ],
+      "sha256": "7371f62446d1740a81ab1bdb8cfc75969e189c2403e4a4e4bac24a4d4c7d696c"
+    },
+    {
+      "code": "P0B79",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B79.md",
+      "wordCount": 267,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            229
+          ]
+        }
+      ],
+      "sha256": "d642d07a4efedcb3999aadce5b701fdc53d22fa4a688b8e6485746b7cf16faed"
+    },
+    {
+      "code": "P0B7A",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B7A.md",
+      "wordCount": 261,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            229
+          ]
+        }
+      ],
+      "sha256": "f192d8e9b9e8b9a5635fa72199e788593db03ebeb3cf4078c14f1ac210f18d47"
+    },
+    {
+      "code": "P0B7D",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B7D.md",
+      "wordCount": 271,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            229,
+            230
+          ]
+        }
+      ],
+      "sha256": "34d84803d29b379e78feb399d9e28d3f7aca22ade75138d9a4536cd7581827bd"
+    },
+    {
+      "code": "P0B7E",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B7E.md",
+      "wordCount": 266,
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            229
+          ]
+        }
+      ],
+      "sha256": "5319d0026d68ed410c2b662ac3ecc158e59e791f03c9b73f5a779cd69b5f2743"
+    },
+    {
+      "code": "P0B7F",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B7F.md",
+      "wordCount": 264,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            229
+          ]
+        }
+      ],
+      "sha256": "4adba5e268a2f1233a53e390bc8bd6c4bb19319b4bd50bf44911fcd530a4a4c3"
+    },
+    {
+      "code": "P0B82",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B82.md",
+      "wordCount": 269,
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            230
+          ]
+        }
+      ],
+      "sha256": "da1568a328e3d0a3a6bd46bcdb620e333d585f1345fe01f3a671aae628444899"
+    },
+    {
+      "code": "P0B83",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B83.md",
+      "wordCount": 266,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            230
+          ]
+        }
+      ],
+      "sha256": "792e3937942fa8434e7ce89057bed75691b713589d9e2e0473fe262529f20438"
+    },
+    {
+      "code": "P0B84",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B84.md",
+      "wordCount": 264,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            230
+          ]
+        }
+      ],
+      "sha256": "1539181df4b91ec15214f2f4b9a7920cdc1d34f144386f3c2a9e263d87cf77ed"
+    },
+    {
+      "code": "P0B87",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B87.md",
+      "wordCount": 260,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            231
+          ]
+        }
+      ],
+      "sha256": "5fd1d057e05fda39843f24b045751388e0464d22af3bb1e2ade764b477b53193"
+    },
+    {
+      "code": "P0B88",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B88.md",
+      "wordCount": 263,
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            230
+          ]
+        }
+      ],
+      "sha256": "97f2d7450be74a6c66776cb7289029b0405a292d19173193d6f7794a61acf4f9"
+    },
+    {
+      "code": "P0B89",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B89.md",
+      "wordCount": 266,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            230,
+            231
+          ]
+        }
+      ],
+      "sha256": "cb62358fb031d26b12e8660671cf8334c1e4959f9d3290b2848bd7c0441dcc65"
+    },
+    {
+      "code": "P0B8C",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B8C.md",
+      "wordCount": 266,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            231
+          ]
+        }
+      ],
+      "sha256": "4f6286fd48584611e343a6b27f9ec1628717a815d1b4b8d13a6779618d64845d"
+    },
+    {
+      "code": "P0B8D",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B8D.md",
+      "wordCount": 258,
+      "substantiveWords": 213,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            231
+          ]
+        }
+      ],
+      "sha256": "28bd18effa5957f783737de2dbd751f50f734c35e406795e85305b5eae778cf7"
+    },
+    {
+      "code": "P0B8E",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B8E.md",
+      "wordCount": 262,
+      "substantiveWords": 215,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            231
+          ]
+        }
+      ],
+      "sha256": "4c75e1cf245a8ac077275f3fbd460983fd87b901d520fc47a71350d3c506aa00"
+    },
+    {
+      "code": "P0B91",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B91.md",
+      "wordCount": 266,
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            232
+          ]
+        }
+      ],
+      "sha256": "ddfbb979aae86fcfe65da2da9c0fcca6fe24884019111082279da2364f64f631"
+    },
+    {
+      "code": "P0B92",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B92.md",
+      "wordCount": 272,
+      "substantiveWords": 225,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            232
+          ]
+        }
+      ],
+      "sha256": "03110e334597e4322c5a0c2e4bee197f7ae229bac61fa247fc06b0a3b0429ad5"
+    },
+    {
+      "code": "P0B93",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B93.md",
+      "wordCount": 256,
+      "substantiveWords": 209,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            232
+          ]
+        }
+      ],
+      "sha256": "4f8a7a44384c56add1dc6da55e15c0c98885a2e06aba166aeca0944752b290f9"
+    },
+    {
+      "code": "P0B96",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B96.md",
+      "wordCount": 267,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            232,
+            233
+          ]
+        }
+      ],
+      "sha256": "133a9e5fba9bc2d9a947b7da3aebf78de9592d5c369c42b3c7bb791b7c857fac"
+    },
+    {
+      "code": "P0B97",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B97.md",
+      "wordCount": 264,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            232
+          ]
+        }
+      ],
+      "sha256": "e1e781f4abfa4da4c4bc2ee8f056267288e795408d5e8d3af387c104346c7660"
+    },
+    {
+      "code": "P0B98",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B98.md",
+      "wordCount": 261,
+      "substantiveWords": 215,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            232
+          ]
+        }
+      ],
+      "sha256": "9b0a963486047d90017aa276f9e917a83c49f4ed2349b6a9b3e3a26425661f20"
+    },
+    {
+      "code": "P0B9B",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B9B.md",
+      "wordCount": 266,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            233
+          ]
+        }
+      ],
+      "sha256": "47403e451aa13a58f531e246a6e4f01a2190586f96dfe6a1f9e46f9bfb9ea438"
+    },
+    {
+      "code": "P0B9C",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B9C.md",
+      "wordCount": 270,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            233
+          ]
+        }
+      ],
+      "sha256": "f1249419873eb1db6f040fe5aac96c344cba9becb88176371eba8a616a423ab5"
+    },
+    {
+      "code": "P0B9D",
+      "path": "cars-errhive/content/code-articles/batch-27/P0B9D.md",
+      "wordCount": 257,
+      "substantiveWords": 212,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            233
+          ]
+        }
+      ],
+      "sha256": "d50ec6581c9d46432e4559037a57a01617b2a3cd6b7f6f0542575cf06c7a9241"
+    },
+    {
+      "code": "P0BBD",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BBD.md",
+      "wordCount": 283,
+      "substantiveWords": 233,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            242,
+            243
+          ]
+        }
+      ],
+      "sha256": "ecaf1278525ba130d29c4c440d5af8b39479838611fa4ca0da3813fe8922ee4f"
+    },
+    {
+      "code": "P0BC1",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BC1.md",
+      "wordCount": 271,
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            239
+          ]
+        }
+      ],
+      "sha256": "e6a98925cbbe58b48763300e180ba8aa144e9534e74bbb686515b417ca91db1e"
+    },
+    {
+      "code": "P0BD2",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BD2.md",
+      "wordCount": 267,
+      "substantiveWords": 221,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            289
+          ]
+        }
+      ],
+      "sha256": "8e1bdd6f72e5323bce47d4458dcfec5b431c50433e3bd354baa423f4a3baedf4"
+    },
+    {
+      "code": "P0BD3",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BD3.md",
+      "wordCount": 272,
+      "substantiveWords": 226,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            290
+          ]
+        }
+      ],
+      "sha256": "f4a279890aeed7fea03914518f72342a9e365fad22f970f43d4d63fbdf16eae8"
+    },
+    {
+      "code": "P0BD4",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BD4.md",
+      "wordCount": 278,
+      "substantiveWords": 231,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            290
+          ]
+        }
+      ],
+      "sha256": "d4a195a026aecf5808186df5b61830cf2fdcc2acea0a959b68e285005746e0e8"
+    },
+    {
+      "code": "P0BD7",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BD7.md",
+      "wordCount": 270,
+      "substantiveWords": 223,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            301
+          ]
+        }
+      ],
+      "sha256": "937970c4903097da37bb8e4fbed84eb9888abc95fbc898e4de83da8f8898767b"
+    },
+    {
+      "code": "P0BD8",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BD8.md",
+      "wordCount": 269,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            302
+          ]
+        }
+      ],
+      "sha256": "54ce0e9c22e2ef28983d3cbf49a133c6011bc8c5077b488e8f396bb4979ef244"
+    },
+    {
+      "code": "P0BD9",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BD9.md",
+      "wordCount": 274,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            301,
+            302
+          ]
+        }
+      ],
+      "sha256": "06b871dcf3a20dc625e8a3f480f61876138a8bc6ec6f5e50db62bf68e81633aa"
+    },
+    {
+      "code": "P0BDC",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BDC.md",
+      "wordCount": 270,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            290
+          ]
+        }
+      ],
+      "sha256": "4e74b6daeb9ff1181bc731ad050837acb9217dc7236a8e7323e592f46d2dc6a2"
+    },
+    {
+      "code": "P0BDD",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BDD.md",
+      "wordCount": 266,
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            290
+          ]
+        }
+      ],
+      "sha256": "0319659ee02dd1988b1f7ae76cf296bb83624af1290cc80e723c5ff108a17d9a"
+    },
+    {
+      "code": "P0BDE",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BDE.md",
+      "wordCount": 271,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            290
+          ]
+        }
+      ],
+      "sha256": "1c7bb9ee4314572fdeaf1c9986a6a6aab2d176169184ade1b0f80b6a6c8df52e"
+    },
+    {
+      "code": "P0BE1",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BE1.md",
+      "wordCount": 269,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            302
+          ]
+        }
+      ],
+      "sha256": "0211ef07d476f428a8b427bb2567845a50e4af0f587715d5aaec5fc3aceecbf8"
+    },
+    {
+      "code": "P0BE2",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BE2.md",
+      "wordCount": 269,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            302
+          ]
+        }
+      ],
+      "sha256": "56f1c3173004ccd828e75eb4b0cc45d910974ce8c8e42e7c523266a1a85370f8"
+    },
+    {
+      "code": "P0BE3",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BE3.md",
+      "wordCount": 269,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            302
+          ]
+        }
+      ],
+      "sha256": "f04822f7d4e6ac99c9fdffb36153df348cae3cf0c9bf02bb9cfbcb4f168a60c9"
+    },
+    {
+      "code": "P0BE6",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BE6.md",
+      "wordCount": 264,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            284
+          ]
+        }
+      ],
+      "sha256": "358ad4d866910290b05ae03842080f39d15f78d19272955cd4dc6b6f66fae974"
+    },
+    {
+      "code": "P0BE7",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BE7.md",
+      "wordCount": 265,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            284
+          ]
+        }
+      ],
+      "sha256": "148b8368ca014056db2aa9b2b3f7784279cf9a6b1e0a6d27d0e0dbda9fd1424a"
+    },
+    {
+      "code": "P0BE8",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BE8.md",
+      "wordCount": 262,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            284
+          ]
+        }
+      ],
+      "sha256": "ab2a4cd88b8ade9c09b2e719f6169358dc8aa63595a034c68688f219e103f542"
+    },
+    {
+      "code": "P0BEA",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BEA.md",
+      "wordCount": 271,
+      "substantiveWords": 221,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            285
+          ]
+        }
+      ],
+      "sha256": "665bb046191aed2d1329ea6df9b13874ad23a97bdabac1ff586e2282241e0288"
+    },
+    {
+      "code": "P0BEB",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BEB.md",
+      "wordCount": 270,
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            285
+          ]
+        }
+      ],
+      "sha256": "560da07e2e5ae74f00fb35da80625e9906d1424579a8f84e254daecebb93107f"
+    },
+    {
+      "code": "P0BEC",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BEC.md",
+      "wordCount": 263,
+      "substantiveWords": 215,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            285
+          ]
+        }
+      ],
+      "sha256": "9a0e75a5dfaade9de4b60bf3337c024156e73027b2f3a9f724fe089ac52f6ccc"
+    },
+    {
+      "code": "P0BEE",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BEE.md",
+      "wordCount": 260,
+      "substantiveWords": 215,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            285
+          ]
+        }
+      ],
+      "sha256": "51bfd3e42476ef1b33ffc293abe1dfcf42d4e49742de807c40fe57e6c0868d5c"
+    },
+    {
+      "code": "P0BEF",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BEF.md",
+      "wordCount": 261,
+      "substantiveWords": 214,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            285
+          ]
+        }
+      ],
+      "sha256": "fa3abd3fdaa3bc9bcb81f7f8a5c8b386fd65cfce62e30a40d1e575db6154983c"
+    },
+    {
+      "code": "P0BF0",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BF0.md",
+      "wordCount": 261,
+      "substantiveWords": 215,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            285
+          ]
+        }
+      ],
+      "sha256": "8c12c2f8248c25e1c238457cdf0ffe9ac06b2e73d6f4fcad0a09ed8f6464bbe1"
+    },
+    {
+      "code": "P0BF2",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BF2.md",
+      "wordCount": 273,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            296
+          ]
+        }
+      ],
+      "sha256": "bdd2425549f0740e2a5072c60a01ce95d35163022dec80216b9bb36a5f41d556"
+    },
+    {
+      "code": "P0BF3",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BF3.md",
+      "wordCount": 253,
+      "substantiveWords": 207,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            296
+          ]
+        }
+      ],
+      "sha256": "6c5d3222475cfde2f1f0790e1624156dbcd2cd3ed9f68fcbb95d401cc4c8d964"
+    },
+    {
+      "code": "P0BF4",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BF4.md",
+      "wordCount": 262,
+      "substantiveWords": 213,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            296
+          ]
+        }
+      ],
+      "sha256": "c63d2bd325b82040265ee981e27c0ecdd506eb73df3fe16955ed95f1d9f22dae"
+    },
+    {
+      "code": "P0BF6",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BF6.md",
+      "wordCount": 261,
+      "substantiveWords": 214,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            297
+          ]
+        }
+      ],
+      "sha256": "fac5dd77170a11fcf944c1d74a4231cb3f8324a62b26ea1bc927e807ae2b6174"
+    },
+    {
+      "code": "P0BF7",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BF7.md",
+      "wordCount": 264,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            297
+          ]
+        }
+      ],
+      "sha256": "392ac972cfd1cdfdd0de0e859adcd57c196023aa2332710570152984ef5dff8c"
+    },
+    {
+      "code": "P0BF8",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BF8.md",
+      "wordCount": 266,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            297
+          ]
+        }
+      ],
+      "sha256": "de673f90bd362e051a3f7a0eeb9f858e8d5cc3fb68742c406e92c2a2f6a4535e"
+    },
+    {
+      "code": "P0BFA",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BFA.md",
+      "wordCount": 267,
+      "substantiveWords": 217,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            297
+          ]
+        }
+      ],
+      "sha256": "ba6100612cc88b91295b98ee95771f3d7021b5208232cd51293d6cdb705502f2"
+    },
+    {
+      "code": "P0BFB",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BFB.md",
+      "wordCount": 268,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            297
+          ]
+        }
+      ],
+      "sha256": "4a4c065c73b4a5894f8ddc68e169407b189530f9127786dbe0c44f6dc0706336"
+    },
+    {
+      "code": "P0BFC",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BFC.md",
+      "wordCount": 261,
+      "substantiveWords": 215,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            297
+          ]
+        }
+      ],
+      "sha256": "d76151139f9da31b567a8eda056612f9ed31ddf9a0de09632522a3558d8f4dc9"
+    },
+    {
+      "code": "P0BFD",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BFD.md",
+      "wordCount": 268,
+      "substantiveWords": 221,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            284
+          ]
+        }
+      ],
+      "sha256": "6823b3fa155c4d03bae712bcf0db3956bf147bfb04a366f94584066110d494f7"
+    },
+    {
+      "code": "P0BFE",
+      "path": "cars-errhive/content/code-articles/batch-27/P0BFE.md",
+      "wordCount": 270,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            296
+          ]
+        }
+      ],
+      "sha256": "0019ffe725120e208b6fa2a50817b76574bb4b00ffe05629079a4d543fe5e30b"
+    },
+    {
+      "code": "P0C01",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C01.md",
+      "wordCount": 273,
+      "substantiveWords": 227,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            284
+          ]
+        }
+      ],
+      "sha256": "97180d074b9dce6607b973c701fcd5f2ab75921b280d883df9ef2372bc1563d2"
+    },
+    {
+      "code": "P0C04",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C04.md",
+      "wordCount": 266,
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            296
+          ]
+        }
+      ],
+      "sha256": "6c20e997570b76a24d18c7720d1d880168ee920572e3a34dd94cdce55d627b8c"
+    },
+    {
+      "code": "P0C05",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C05.md",
+      "wordCount": 276,
+      "substantiveWords": 231,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            284
+          ]
+        }
+      ],
+      "sha256": "63e5c3a280a0fafbd779793a6ed450cf743b240c3832e2c53226dbb620250a9a"
+    },
+    {
+      "code": "P0C08",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C08.md",
+      "wordCount": 271,
+      "substantiveWords": 225,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            296
+          ]
+        }
+      ],
+      "sha256": "06e05858104b2588b8367a8eb1279b604915bc26273ff0f55df72775c66d0d23"
+    },
+    {
+      "code": "P0C0B",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C0B.md",
+      "wordCount": 274,
+      "substantiveWords": 226,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            285
+          ]
+        }
+      ],
+      "sha256": "b60252f0fb23405e96d6842c19f8e935ee43f308acc28813eb51465ff2d0ea6f"
+    },
+    {
+      "code": "P0C0E",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C0E.md",
+      "wordCount": 261,
+      "substantiveWords": 214,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            297
+          ]
+        }
+      ],
+      "sha256": "3f958b7eee03dc5318c416fbc478f0aa6aa2a4869bc3a044a78965eb58e19e07"
+    },
+    {
+      "code": "P0C11",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C11.md",
+      "wordCount": 266,
+      "substantiveWords": 219,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            290
+          ]
+        }
+      ],
+      "sha256": "47aa6e696b820de5b3e15fcdbd045030e8345c48e570c3ea4627d4fd13d02878"
+    },
+    {
+      "code": "P0C12",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C12.md",
+      "wordCount": 271,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            291
+          ]
+        }
+      ],
+      "sha256": "999c96b894edb12aa5afe59eae97d57ce02b3ef3453b26a31771825b4fd55f9a"
+    },
+    {
+      "code": "P0C13",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C13.md",
+      "wordCount": 272,
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            291
+          ]
+        }
+      ],
+      "sha256": "f441f3fbc9f5bd4376d593c3f7362103b3c8e2d5030442a62316c8e6519d156b"
+    },
+    {
+      "code": "P0C14",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C14.md",
+      "wordCount": 270,
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            302
+          ]
+        }
+      ],
+      "sha256": "6f9cf165ef10f8a201b3564f9d0d56f93adcb1c73e596f1851492417f1bdd453"
+    },
+    {
+      "code": "P0C15",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C15.md",
+      "wordCount": 265,
+      "substantiveWords": 218,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            302
+          ]
+        }
+      ],
+      "sha256": "40de056384a2d89fda006e6b5190809d8ee1927ca4e120ba7ed70062201c1131"
+    },
+    {
+      "code": "P0C16",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C16.md",
+      "wordCount": 272,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            303
+          ]
+        }
+      ],
+      "sha256": "97e05c99a3042f6b9f32c8f0e7cad54b1860e23475b2320fa9e9f390d77d8a40"
+    },
+    {
+      "code": "P0C17",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C17.md",
+      "wordCount": 277,
+      "substantiveWords": 223,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            291,
+            292
+          ]
+        }
+      ],
+      "sha256": "f096a81da1420559e47eede4da9fae60b9d1ff160447737917ba46dd034b82a0"
+    },
+    {
+      "code": "P0C18",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C18.md",
+      "wordCount": 267,
+      "substantiveWords": 220,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            303
+          ]
+        }
+      ],
+      "sha256": "e8d4975864c56176fe905bbed2c0bfdcb1993668a971a8af04072018ed3d317a"
+    },
+    {
+      "code": "P0C19",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C19.md",
+      "wordCount": 284,
+      "substantiveWords": 229,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            292,
+            293,
+            294
+          ]
+        }
+      ],
+      "sha256": "6c778ba5c325130622e79c9ad389963bc1d79b507f6f7ce95eb1102653c081cf"
+    },
+    {
+      "code": "P0C1A",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C1A.md",
+      "wordCount": 280,
+      "substantiveWords": 229,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            304,
+            305
+          ]
+        }
+      ],
+      "sha256": "43249866fa99ab847827233a27a9e274c02c952b46510dfae0d96db1a25bfbee"
+    },
+    {
+      "code": "P0C2B",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C2B.md",
+      "wordCount": 267,
+      "substantiveWords": 222,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            164
+          ]
+        }
+      ],
+      "sha256": "3c0cd2a377096146536391b417ef9cb56417f3b7e44fd0db6ed3cedd87806f36"
+    },
+    {
+      "code": "P0C32",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C32.md",
+      "wordCount": 268,
+      "substantiveWords": 224,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            240
+          ]
+        }
+      ],
+      "sha256": "ed91fa1096a60d600b6cf9aadc6ea67dcce7b29f2cd68db67dfd73117e33845e"
+    },
+    {
+      "code": "P0C52",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C52.md",
+      "wordCount": 276,
+      "substantiveWords": 229,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            292
+          ]
+        }
+      ],
+      "sha256": "217d543ca5524958b3bf75aef1db08406913b0e1dc5c6931ee06074e34e2c3b0"
+    },
+    {
+      "code": "P0C53",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C53.md",
+      "wordCount": 264,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            292
+          ]
+        }
+      ],
+      "sha256": "e3e4292e5149559b61beea90f0aea91e226a8e30664ee16af62e2787fad5debc"
+    },
+    {
+      "code": "P0C57",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C57.md",
+      "wordCount": 264,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            304
+          ]
+        }
+      ],
+      "sha256": "d1d751c8249023bab5001e2da977b0a0b8264dedd08697d8bfd1a82ce1c00653"
+    },
+    {
+      "code": "P0C58",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C58.md",
+      "wordCount": 268,
+      "substantiveWords": 221,
+      "sourceReview": "needs-review",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            304
+          ]
+        }
+      ],
+      "sha256": "dc562121fc441dbeb639791fa4a7f6a6e2a125fa3a6c3b665d35bef5bda26874"
+    },
+    {
+      "code": "P0C5C",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C5C.md",
+      "wordCount": 263,
+      "substantiveWords": 216,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            292
+          ]
+        }
+      ],
+      "sha256": "e8eb3be41de327e5e7939841c29db57284d75669399a428cae0fd994ce568263"
+    },
+    {
+      "code": "P0C5D",
+      "path": "cars-errhive/content/code-articles/batch-27/P0C5D.md",
+      "wordCount": 265,
+      "substantiveWords": 217,
+      "sourceReview": "checked",
+      "sourcePages": [
+        {
+          "sourceId": "gm-2010-10obdg10-hybrid-diagnostics",
+          "pages": [
+            292
+          ]
+        }
+      ],
+      "sha256": "63c634b7151d1c5c720153386e36b5d343eff2aaaaba83d6c96e2ddbefcde947"
+    }
+  ]
+}

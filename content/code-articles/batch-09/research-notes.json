@@ -1,0 +1,181 @@
+{
+  "authoringBatch": "batch-09",
+  "status": "complete",
+  "articleCount": 100,
+  "method": "Every assigned record was read from supplied primary-source page extracts. Continuation pages were read from the corresponding full local PDF text where the mechanism or criteria continued. Article bodies were individually authored; the assembly helper only attached metadata, headings, scope and source links to explicit prose.",
+  "validation": {
+    "exactAssignedCodes": true,
+    "parseableJsonFrontMatter": true,
+    "uniqueCodes": 100,
+    "allCitedPhysicalPagesExist": true,
+    "completeSentenceDescriptions": true,
+    "duplicateSubstantiveParagraphs": 0,
+    "articleWordsIncludingHeadingsAndSourceFooter": {
+      "minimum": 258,
+      "maximum": 361,
+      "total": 28517
+    },
+    "substantiveWordsBeforeSourceFooter": {
+      "minimum": 221,
+      "maximum": 266,
+      "total": 24263
+    }
+  },
+  "scope": "2025 GM monitor explanations only. No file-level model matrix has been treated as per-code vehicle applicability. All drafts retain explicit calibration/controller scope. No article is published or presented as mechanic approval.",
+  "needsReview": [
+    {
+      "code": "P2AB0",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        1530
+      ],
+      "issue": "The printed/extracted small-range/large-range electrode-current expression is incomplete or ambiguous. The article explains the documented internal switcher check and enable conditions while omitting numeric range bounds."
+    },
+    {
+      "code": "P2B84",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        860
+      ],
+      "issue": "The underspeed threshold is negative (< -115 rpm), with no signal encoding explanation. The article retains the limitation and does not infer reverse physical rotation or a universal positive underspeed threshold."
+    },
+    {
+      "code": "P2D45",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        211
+      ],
+      "issue": "The generic too-low title, matured-response label and printed difference/threshold do not establish an unambiguous universal failure direction. The supported model comparison and cold-soak prerequisites are explained without inventing a pass/fail temperature."
+    },
+    {
+      "code": "U0285",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        940
+      ],
+      "issue": "The diagnostic enable is printed Disabled. The article explains the ACM2 response-timeout design but does not assert this supplied calibration enables it."
+    },
+    {
+      "code": "U0617",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        984
+      ],
+      "issue": "Condition 1 says hardware message faults = No Fault under a failure condition. The article flags the contradiction and uses the separately supported message-age/pulse/electrical-state branches without silently reversing the condition."
+    },
+    {
+      "code": "U065A",
+      "sourceId": "gm-2025-04b",
+      "pages": [
+        129,
+        130
+      ],
+      "issue": "The diagnostic and channel are enabled but slave calibrated present is false. The article requires application/configuration confirmation and does not diagnose a missing optional actuator."
+    }
+  ],
+  "boundedSourceObservations": [
+    {
+      "codes": [
+        "P2820",
+        "P2821",
+        "P2C21",
+        "U0404"
+      ],
+      "issue": "Articles select specific 25OBDG07A Part 2 monitors and explicitly retain unresolved download-index/application-matrix filename mapping; no Corvette, engine or model applicability is inferred."
+    },
+    {
+      "codes": [
+        "P281D",
+        "P2826"
+      ],
+      "issue": "T87a open-circuit-to-circuit-low exceptions are explicit and preserved."
+    },
+    {
+      "codes": [
+        "P2A00"
+      ],
+      "issue": "Source strategy describes full-load comparison while continuation has fuel-cut qualifications; article does not convert the mixed wording into a universal drive cycle."
+    },
+    {
+      "codes": [
+        "P2A02"
+      ],
+      "issue": "A/B labels are not fully spelled out in strategy column; article bounds the comparison to the documented sensor-3 and sensor-2 qualification chain rather than inventing a wiring test."
+    },
+    {
+      "codes": [
+        "P2ADB"
+      ],
+      "issue": "Printed 0.5 ms sample basis conflicts with two seconds/four samples; article omits a derived timing procedure and explicitly notes the inconsistency."
+    },
+    {
+      "codes": [
+        "U0075"
+      ],
+      "issue": "Invalid printed supply inequality omitted; article states it is not a valid universal supply specification."
+    },
+    {
+      "codes": [
+        "U0125"
+      ],
+      "issue": "The strategy has a transmission copy/paste sentence; inertial component heading and actual HPID acceleration/yaw/status fields determine article scope."
+    },
+    {
+      "codes": [
+        "U0235"
+      ],
+      "issue": "Printed enable identifier differs from DTC; not used as independent applicability evidence."
+    },
+    {
+      "codes": [
+        "U061F",
+        "U0620"
+      ],
+      "issue": "Printed message-age unit is seconds (>100 s); articles explicitly retain it, distinguish it from the 100 ms task and avoid silently changing the units."
+    },
+    {
+      "codes": [
+        "U0078",
+        "U0402",
+        "U0418",
+        "U0447"
+      ],
+      "issue": "Different receiver/calibration variants have different count thresholds; each article selects and identifies one implementation rather than merging rules."
+    }
+  ],
+  "continuationPagesRead": {
+    "gm-2025-04b": [
+      124,
+      126,
+      128,
+      130,
+      858,
+      876,
+      877,
+      878,
+      879,
+      881,
+      883,
+      959,
+      960,
+      970,
+      971,
+      976,
+      978,
+      980,
+      990,
+      1527,
+      1532,
+      1541,
+      1543,
+      1545,
+      1547,
+      1549,
+      1551
+    ],
+    "gm-2025-07a-2": [
+      1000
+    ]
+  },
+  "notPublished": true
+}

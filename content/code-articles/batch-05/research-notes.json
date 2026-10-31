@@ -1,0 +1,88 @@
+{
+  "batch": "batch-05",
+  "sourceMethod": "All 100 main code rows were read from the supplied page-bounded primary OEM extracts. Referenced continuation pages were checked in the full local OEM texts; P006E p1054 was also visually inspected in the primary PDF. Only verified supported monitor claims are included; unresolved source wording or units are explicit and flagged. Prose was individually authored, including independent diagnostic implications; common cylinder families retain their genuinely shared OEM algorithm without inventing cylinder-specific causes.",
+  "issues": [
+    {
+      "code": "U0670",
+      "issue": "GM 03A p749 U0670 description says shorted low; criterion and narrative say line High. Polarity not resolved or asserted."
+    },
+    {
+      "code": "U0671",
+      "issue": "GM 03A p750 U0671 description says shorted low; criterion and narrative say line High. Polarity not resolved or asserted."
+    },
+    {
+      "code": "C053B",
+      "issue": "GM 04B p324 slip-control switch-off C053B row gives >5.64 V in threshold but narrative references 5.752 V. Conflicting value omitted."
+    },
+    {
+      "code": "C053D",
+      "issue": "GM 04B p306 model-low branch deceleration wording conflicts between criterion and enable columns. Article confines technical thresholds to channel correlation and p307 learned offsets."
+    },
+    {
+      "code": "P006E",
+      "issue": "GM 04B p1054 threshold is printed <6 M in both text and visually inspected PDF. Exact undervoltage value/unit omitted pending corrected service data."
+    },
+    {
+      "code": "P017B",
+      "issue": "GM 04B p450 description and target ranges concern cylinder-head metal, but general malfunction wording references engine-outlet coolant. Full numeric pass/fail recipe withheld."
+    },
+    {
+      "code": "P017D",
+      "issue": "GM 04B p453 P017D title says head circuit high, description says short to ground, assignment says RadCoolantTempSnsr. Numeric channel threshold not assigned."
+    },
+    {
+      "code": "P017E",
+      "issue": "GM 04B p454 P017E title/prose concern cylinder head but assignment line says RadCoolantTempSnsr. Per-channel constants from p455 not asserted."
+    },
+    {
+      "code": "P0193",
+      "issue": "GM 04B p470 starter-duration enable alternative is printed >15,000 s. No conversion or operational instruction inferred; exact enable branch requires service confirmation."
+    },
+    {
+      "code": "P01CC",
+      "issue": "GM 04B pp1079-1080 P01CC narrative specifies negative drift; positive >100 us/>5 deg presentation does not explain sign/magnitude convention. Signed threshold not asserted."
+    },
+    {
+      "code": "P01CE",
+      "issue": "GM 04B pp1083-1084 P01CE negative-drift narrative and positive greater-than threshold presentation lack an explained sign/magnitude convention. Numeric signed test omitted."
+    },
+    {
+      "code": "P01D0",
+      "issue": "GM 04B pp1087-1088 P01D0 negative-drift narrative versus positive > threshold notation; no defined sign/magnitude convention. Signed numerical limit omitted."
+    },
+    {
+      "code": "P01D2",
+      "issue": "GM 04B pp1091-1092 P01D2 negative-drift narrative and positive > thresholds do not establish signed variable convention. Signed limits omitted."
+    },
+    {
+      "code": "P01D4",
+      "issue": "GM 04B pp1095-1096 P01D4 negative-drift text versus positive > thresholds; signed/magnitude convention unspecified. Numeric signed criterion withheld."
+    },
+    {
+      "code": "P01D6",
+      "issue": "GM 04B pp1099-1100 P01D6 negative-drift narrative and positive > thresholds have no explicit sign/magnitude convention. Signed numeric prescription omitted."
+    },
+    {
+      "code": "P0216",
+      "issue": "GM 04B p1113 lower actuated-ET branch uses absolute-difference < threshold without adequate sign/convention explanation. Complete numeric recipe not asserted; dropped-pulse and requested/actuated comparison supported."
+    },
+    {
+      "code": "P026B",
+      "issue": "GM 04B pp1124-1125 P026B threshold shows <-5/>5 without explicit units. No unit inferred; numeric operational specification withheld."
+    }
+  ],
+  "validation": {
+    "assignedCodeFiles": 100,
+    "uniqueCodeFiles": 100,
+    "unassignedCodeFiles": 0,
+    "jsonFrontMatter": "all parseable",
+    "status": "all draft",
+    "sourcePageBounds": "all checked against local page-bounded primary text",
+    "articleWordCountMethod": "Whitespace words in Markdown body with link targets removed; includes headings and source labels.",
+    "articleWordCountMin": 259,
+    "articleWordCountMax": 286,
+    "articleWordCountTotal": 27166,
+    "checked": 83,
+    "needsReview": 17
+  }
+}

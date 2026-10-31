@@ -1,0 +1,68 @@
+{
+  "batch": "batch-07",
+  "issues": [
+    {
+      "code": "P06C9",
+      "issue": "Page 1254 labels P06C9 cylinder 5 but malfunction cell says glow plug 4. Article preserves conflict and requires vehicle-specific cylinder confirmation."
+    },
+    {
+      "code": "P06CA",
+      "issue": "Page 1255 labels P06CA cylinder 6 but malfunction text says glow plug 4. Supported monitor described; cylinder-specific service guidance unresolved."
+    },
+    {
+      "code": "P200A",
+      "issue": "Page 1382 narrative uses >= for overall slow-response phase while threshold column uses >10 seconds. Article omits exact inclusive/exclusive assertion and flags boundary limitation."
+    },
+    {
+      "code": "P2032",
+      "issue": "Page 1389 analog branch prints resistance <0 ohm; article does not promote it as a physical test specification and flags need for calibration clarification."
+    },
+    {
+      "code": "P2033",
+      "issue": "Page 1390 system label says EGT 2 but digital malfunction text says EGT 1. Article preserves conflict and avoids claiming a physical probe assignment."
+    },
+    {
+      "code": "P2185",
+      "issue": "Page 792 P2185 system title says ECT sensor 2 but associated-function text says RadCoolantTempSnsr. Threshold selection omitted pending channel confirmation."
+    },
+    {
+      "code": "P2207",
+      "issue": "Page 1412 strategy names heater supply pin but malfunction criterion names heater control pin. Article limits claim to heater short-to-power and requires schematic confirmation."
+    }
+  ],
+  "resolvedChecks": [
+    {
+      "code": "P07B9",
+      "resolution": "Rendered original PDF physical page 649; comparator is <=115.00. Article corrected and sourceReview changed to checked."
+    }
+  ],
+  "method": "Read every assigned primary-source monitor row, relevant continuation pages and supporting maps. Authored individual English explanations distinguishing detection, enabling conditions, confirmation and applicability. Rendered original PDF pages 649, 792, 1382, 1389, 1390 and 1412 to verify ambiguous or inconsistent text.",
+  "scopeNotes": [
+    "All final claims and citations use gm-2025-04b, 2025 GM parameter file 25OBDG04B.pdf.",
+    "File-level make lists were not used as proof of per-code model or engine fitment.",
+    "P0741/P0747/P0777/P0797 explicitly cover the documented GR10 strategy; P2184/P2185/P2186 explicitly cover the labeled Diesel L6 ATM\u2013LZO temperature configuration.",
+    "Alternative gm-2025-07a-2 candidates were reviewed but excluded from final citations and claims because the selected 25OBDG04B monitor provided a bounded explanation."
+  ],
+  "validation": {
+    "uniqueAssignedArticles": 100,
+    "jsonFrontMatter": "passed",
+    "descriptions": "complete sentences",
+    "sourcePageExistence": "passed",
+    "sourcePageLinks": "passed",
+    "repeatedSubstantiveParagraphs": 0,
+    "wordCountIncludingHeadings": {
+      "min": 240,
+      "max": 268,
+      "total": 25139
+    },
+    "proseWordCount": {
+      "min": 220,
+      "max": 249,
+      "total": 23320
+    },
+    "reviewCounts": {
+      "checked": 93,
+      "needs-review": 7
+    }
+  }
+}

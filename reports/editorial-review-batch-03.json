@@ -1,0 +1,563 @@
+{
+  "reviewedBatch": "batch-03",
+  "reviewer": "writer_02",
+  "reviewType": "independent editorial review with sampled source verification",
+  "date": "2026-10-30",
+  "scope": {
+    "allBodiesRead": 100,
+    "editoriallyReviewedCodes": [
+      "P056C",
+      "P0572",
+      "P0573",
+      "P0575",
+      "P057B",
+      "P057C",
+      "P057D",
+      "P057E",
+      "P0580",
+      "P0581",
+      "P058A",
+      "P058B",
+      "P058C",
+      "P058D",
+      "P058E",
+      "P058F",
+      "P059F",
+      "P0601",
+      "P0602",
+      "P0603",
+      "P0604",
+      "P0606",
+      "P0607",
+      "P060B",
+      "P060C",
+      "P0615",
+      "P0616",
+      "P0617",
+      "P0621",
+      "P0622",
+      "P062B",
+      "P062F",
+      "P0630",
+      "P0641",
+      "P064D",
+      "P0651",
+      "P0658",
+      "P0685",
+      "P0686",
+      "P0687",
+      "P0689",
+      "P0690",
+      "P0691",
+      "P0692",
+      "P0697",
+      "P06A3",
+      "P06B6",
+      "P06DA",
+      "P06DB",
+      "P06DC",
+      "P06DD",
+      "P06DE",
+      "P0703",
+      "P0707",
+      "P0708",
+      "P0711",
+      "P0712",
+      "P0713",
+      "P0716",
+      "P0717",
+      "P0721",
+      "P0722",
+      "P0723",
+      "P0730",
+      "P0746",
+      "P0776",
+      "P077C",
+      "P077D",
+      "P0796",
+      "P07BF",
+      "P07C0",
+      "P0815",
+      "P0816",
+      "P0826",
+      "P0841",
+      "P0842",
+      "P0843",
+      "P0846",
+      "P0847",
+      "P0848",
+      "P0856",
+      "P0960",
+      "P0961",
+      "P0962",
+      "P0963",
+      "P0964",
+      "P0965",
+      "P0966",
+      "P0967",
+      "P0968",
+      "P0970",
+      "P0971",
+      "P0E32",
+      "P0E33",
+      "P0E34",
+      "P0E37",
+      "P0E38",
+      "P0E39",
+      "P2088",
+      "P2089"
+    ],
+    "deepSourceVerifiedArticleCount": 20,
+    "deepSourceVerifiedCodes": [
+      "P0572",
+      "P058B",
+      "P0615",
+      "P0687",
+      "P0690",
+      "P06DD",
+      "P0746",
+      "P0776",
+      "P0796",
+      "P0841",
+      "P0842",
+      "P0843",
+      "P0846",
+      "P0847",
+      "P0848",
+      "P0961",
+      "P0E32",
+      "P0E37",
+      "P0E39",
+      "P2089"
+    ],
+    "notFullFactualVerification": "All 100 bodies were read for unsupported universal/model applicability, replacement claims, unsafe instructions and obvious internal contradiction. Detailed source-row verification covered the 20 named samples only; the other 80 articles are not certified factually verified by this review. No manufacturer vehicle applicability join was independently re-established."
+  },
+  "method": [
+    "Read all 100 complete Markdown bodies, including scope and source paragraphs; reread the battery-monitor group after an initial aggregate output was truncated.",
+    "Compared the 20 named samples with full local primary-source text at exact physical PDF page boundaries, including continuation and neighboring pages where needed.",
+    "Visually inspected rendered original PDF pages gm-2025-03a 419 and 442 plus gm-2025-07a-2 743 to confirm command-state conflicts, event-count inequality and otherwise garbled driver/ohm glyphs. Poppler could not load libpoppler.so.160; PyMuPDF rendered the pages successfully.",
+    "Read-only review of articles and author metadata. Wrote only this report within the repository."
+  ],
+  "summary": {
+    "unsupportedUniversalOrModelClaimsFound": 0,
+    "newSubstantiveFactualErrorsFoundInSample": 0,
+    "newCriticalIssues": 0,
+    "newHighIssues": 0,
+    "newMediumIssues": 0,
+    "newLowIssues": 1,
+    "lowIssueAffectedArticles": 6,
+    "conclusion": "Suitable for draft integration with one citation-coverage correction. This is not publication approval or mechanic review. Existing unresolved-source flags must remain until their specific contradictions are resolved."
+  },
+  "existingSourceReviewCounts": {
+    "checked": 87,
+    "needs-review": 13
+  },
+  "existingNeedsReviewCodes": [
+    "P058D",
+    "P0687",
+    "P0713",
+    "P0721",
+    "P0841",
+    "P0842",
+    "P0843",
+    "P0846",
+    "P0847",
+    "P0848",
+    "P0E32",
+    "P0E37",
+    "P2089"
+  ],
+  "issues": [
+    {
+      "id": "B03-CITATION-001",
+      "severity": "low",
+      "category": "citation_coverage",
+      "codes": [
+        "P0841",
+        "P0842",
+        "P0843",
+        "P0846",
+        "P0847",
+        "P0848"
+      ],
+      "title": "Pressure-sensor mapping warnings omit the neighboring source pages that establish the conflict",
+      "detail": "Each article states a cross-row primary/secondary pulley naming contradiction, but its sourcePages metadata and footer cite only its own monitor row. The warnings are factually corroborated by this review; the problem is incomplete reader-visible support, not an invented mapping.",
+      "evidence": {
+        "sensorA": {
+          "performancePage": 1129,
+          "electricalPages": [
+            1132,
+            1133
+          ]
+        },
+        "sensorB": {
+          "performancePage": 1134,
+          "electricalPages": [
+            1137,
+            1138
+          ]
+        },
+        "sourceId": "gm-2025-03a"
+      },
+      "recommendedCorrection": "Add the relevant neighboring physical PDF page(s) to sourcePages and footer links. Keep the unresolved physical-mapping warning and needs-review status; do not select a pulley by assumption.",
+      "blockingForDraftIntegration": false,
+      "articleFilesChanged": false
+    }
+  ],
+  "sourceChecks": [
+    {
+      "code": "P0572",
+      "category": "brake-input comparison",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            338
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "BCM TRUE versus discrete ECM FALSE, communication prerequisite, TRUE fallback and cruise disengagement match the source; no imported electrical voltage threshold.",
+      "result": "supported"
+    },
+    {
+      "code": "P058B",
+      "category": "battery current monitor",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            348
+          ]
+        },
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Historical sleep-time shunt check, one-second wakeup report, and four-of-five samples at sixteen seconds are supported; ECM and BCM contexts remain separate.",
+      "result": "supported"
+    },
+    {
+      "code": "P0615",
+      "category": "starter relay circuit",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            403
+          ]
+        },
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            618
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Off-state low-side open diagnosis, >=200 kOhm design specification, >=11 V enabling and 40/50 at 50 ms match both rows.",
+      "result": "supported"
+    },
+    {
+      "code": "P0687",
+      "category": "power relay circuit",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            419
+          ]
+        }
+      ],
+      "method": "full local source rows; original PDF visual check additionally for P0687, P0E32 and P2089",
+      "finding": "Driver-on malfunction column conflicts with output-off strategy prose in the actual PDF. Article retains the conflict and does not invent a command state.",
+      "result": "supported_with_existing_source_caveat"
+    },
+    {
+      "code": "P0690",
+      "category": "power relay feedback",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            421
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Feedback >=4 V after at least two seconds commanded off, 50/63 samples at 100 ms, and relay-state fault inhibition are supported.",
+      "result": "supported"
+    },
+    {
+      "code": "P06DD",
+      "category": "two-stage oil-pump performance",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            430
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "High-pressure stuck classification, control off/high versus on/low, 1.5-second pressure delta, >12/15 errors and passive retrigger logic are all on the cited page.",
+      "result": "supported"
+    },
+    {
+      "code": "P0746",
+      "category": "CVT secondary pressure",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1114
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Secondary pressure <200 kPa for >3 seconds under high functional command, speed-fault exclusions and service-mode inhibitors are supported.",
+      "result": "supported"
+    },
+    {
+      "code": "P0776",
+      "category": "CVT primary pressure",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1116
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Primary pressure <200 kPa for >3 seconds and high command context match the code row; service-state and sensor-validity restrictions are retained.",
+      "result": "supported"
+    },
+    {
+      "code": "P0796",
+      "category": "CVT line pressure",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1120
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Both-pulley >1000 kPa short-path differences and >500/<2000 kPa long-path differences, timing/counter distinction, >600 kPa line pressure and enabled high-side supplies are supported.",
+      "result": "supported"
+    },
+    {
+      "code": "P0841",
+      "category": "CVT pressure-sensor performance",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1129,
+            1132,
+            1133
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Ratio error >0.2000 plus pressure error >500 kPa steady/>1500 kPa nonsteady is supported. Secondary-versus-primary family naming contradiction is real; adjacent corroborating pages are absent from article citations.",
+      "result": "supported_with_citation_gap"
+    },
+    {
+      "code": "P0842",
+      "category": "CVT pressure-sensor electrical low",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1132,
+            1129
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Raw PWM <3%, >0.3 s in 0.5 s, >9 V prerequisites and hardware-dependent low/open impedance signatures match. Naming warning is supported but needs the neighboring citation.",
+      "result": "supported_with_citation_gap"
+    },
+    {
+      "code": "P0843",
+      "category": "CVT pressure-sensor electrical high",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1133,
+            1129
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Raw PWM >95%, voltage-short/open interpretation and timing are supported. Naming warning is supported by the uncited neighboring performance page.",
+      "result": "supported_with_citation_gap"
+    },
+    {
+      "code": "P0846",
+      "category": "CVT pressure-sensor performance",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1134,
+            1137,
+            1138
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Primary performance-row mapping, combined ratio/pressure thresholds and enable conditions are supported; adjacent B circuit rows name secondary, as the article warns.",
+      "result": "supported_with_citation_gap"
+    },
+    {
+      "code": "P0847",
+      "category": "CVT pressure-sensor electrical low",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1137,
+            1134
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Secondary mapping, <3% PWM, <0.5 Ohm or >200 kOhm hardware signatures and timing match. Mapping conflict is genuine but its neighboring evidence lacks a citation.",
+      "result": "supported_with_citation_gap"
+    },
+    {
+      "code": "P0848",
+      "category": "CVT pressure-sensor electrical high",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1138,
+            1134
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Secondary mapping, >95% PWM, open/voltage-short description and timing match. The performance-row comparison requires an additional citation.",
+      "result": "supported_with_citation_gap"
+    },
+    {
+      "code": "P0961",
+      "category": "CVT solenoid performance",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            1140
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Secondary-pulley solenoid, combined >0.2000 ratio and >500/>1500 kPa pressure errors, distinct steady/nonsteady timing and diagnostic-enable statements are supported.",
+      "result": "supported"
+    },
+    {
+      "code": "P0E32",
+      "category": "DC/DC channel A performance",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            442,
+            443
+          ]
+        },
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            661,
+            662
+          ]
+        }
+      ],
+      "method": "full local source rows; original PDF visual check additionally for P0687, P0E32 and P2089",
+      "finding": "Absolute mismatch >2 V, bypass 320/400, auto-crank 8/16, 12.5 ms rate, >=6.60 V and different architecture selectors match. Printed >2 failed events conflicts with two-of-three wording; article correctly withholds an exact event rule.",
+      "result": "supported_with_existing_source_caveat"
+    },
+    {
+      "code": "P0E37",
+      "category": "DC/DC channel B performance",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            446,
+            447
+          ]
+        },
+        {
+          "sourceId": "gm-2025-04b",
+          "pages": [
+            665,
+            666
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Voltage 2 comparison, modes/counters, voltage prerequisites and architecture selection are supported; same event-count ambiguity is explicitly preserved.",
+      "result": "supported_with_existing_source_caveat"
+    },
+    {
+      "code": "P0E39",
+      "category": "DC/DC channel B circuit high",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            449
+          ]
+        }
+      ],
+      "method": "full local source rows and relevant continuation/neighbor rows",
+      "finding": "Raw channel 2 >28 V, 320/400 at 12.5 ms and non-Global-B relay selection are supported; article avoids turning the channel threshold into whole-vehicle battery voltage.",
+      "result": "supported"
+    },
+    {
+      "code": "P2089",
+      "category": "cam actuator circuit high",
+      "sources": [
+        {
+          "sourceId": "gm-2025-03a",
+          "pages": [
+            585
+          ]
+        },
+        {
+          "sourceId": "gm-2025-07a-2",
+          "pages": [
+            743
+          ]
+        }
+      ],
+      "method": "full local source rows; original PDF visual check additionally for P0687, P0E32 and P2089",
+      "finding": "03A high-side off-state narrative versus on-command enabling conflict is real. 07A independently shows low-side on-state high voltage and one-second timing. No model is inferred from the unresolved 07A file mapping.",
+      "result": "supported_with_existing_source_caveat"
+    }
+  ],
+  "positiveFindings": [
+    "No file-level make matrix was used as proof of per-code vehicle compatibility in the bodies reviewed.",
+    "Driver-state and pressure-versus-electrical distinctions remain explicit across relay, solenoid, pressure and converter families.",
+    "Sampled known source conflicts are disclosed rather than silently corrected; the PDF views confirm that the P0687 and P0E32 conflicts are in the source itself.",
+    "Converter articles do not infer hybrid/high-voltage architecture or prescribe hazardous internal probing from the generic DC/DC label."
+  ],
+  "integrationResolution": {
+    "issueId": "B03-CITATION-001",
+    "status": "corrected",
+    "by": "root",
+    "action": "Added neighboring-page metadata and visible links to all six affected articles. Existing needs-review status and mapping warnings retained."
+  }
+}

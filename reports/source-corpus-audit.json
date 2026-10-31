@@ -1,0 +1,1332 @@
+{
+  "auditedOn": "2026-10-30",
+  "sourceFile": "src/data/dtc.json",
+  "sha256": "9989d89fcbf82504cb6d72f99072451b7f98685ed01038ae26cdcd9e07c13cf2",
+  "summary": {
+    "canonicalDictionaryEntries": 11786,
+    "distinctDisplayedCodes": 10043,
+    "genericEntries": 9249,
+    "manufacturerEntries": 2537,
+    "authoredGuides": 32,
+    "dictionaryEntriesLinkedToAtLeastOneAuthoredCase": 52,
+    "dictionaryEntriesWithoutAuthoredCase": 11734,
+    "linkedEntryPercent": 0.441,
+    "authoredGuideDistinctCodeDisplays": 85,
+    "authoredGuideNormalFiveCharacterCodes": 61,
+    "authoredGuideMakeCodePairsAllFormats": 115,
+    "authoredGuideMakeCodePairsFiveCharacter": 91,
+    "allEntriesUseCommunitySource": true,
+    "allEntriesMarkedCommunityReference": true,
+    "entriesContainingVehicleYearEngineEvidence": 0,
+    "entriesContainingSymptomsCausesDiagnosticTestsThresholds": 0,
+    "enoughEvidenceToPublish10000IndependentlyResearchedRepairArticles": false
+  },
+  "scopeNote": "Linked-case counts are an upper bound on discovery coverage, not a claim that a case fully explains every listed code on every vehicle. Companion-code mentions do not become complete code articles.",
+  "systemCounts": {
+    "body": 189,
+    "chassis": 478,
+    "network": 1228,
+    "powertrain": 9891
+  },
+  "genericPrefixCounts": {
+    "B0": 189,
+    "C0": 478,
+    "P0": 3704,
+    "P2": 3495,
+    "P3": 155,
+    "U0": 1054,
+    "U3": 174
+  },
+  "canonicalMakeCounts": {
+    "bmw": 250,
+    "buick": 10,
+    "cadillac": 1,
+    "chevrolet": 398,
+    "ford": 395,
+    "generic": 9249,
+    "geo": 14,
+    "gmc": 2,
+    "honda": 93,
+    "jaguar": 150,
+    "jeep": 96,
+    "kia": 76,
+    "lexus": 44,
+    "mazda": 204,
+    "mercedes-benz": 32,
+    "mitsubishi": 29,
+    "nissan": 59,
+    "oldsmobile": 5,
+    "subaru": 93,
+    "suzuki": 15,
+    "toyota": 43,
+    "volkswagen": 528
+  },
+  "discoveryMakeCounts": {
+    "acura": 93,
+    "bmw": 250,
+    "buick": 398,
+    "cadillac": 398,
+    "chevrolet": 398,
+    "chrysler": 281,
+    "dodge": 96,
+    "ford": 395,
+    "generic": 9249,
+    "geo": 19,
+    "gmc": 398,
+    "honda": 93,
+    "jaguar": 163,
+    "jeep": 96,
+    "kia": 76,
+    "lexus": 49,
+    "lincoln": 395,
+    "mazda": 233,
+    "mercedes-benz": 32,
+    "mercury": 394,
+    "mitsubishi": 32,
+    "nissan": 59,
+    "oldsmobile": 395,
+    "plymouth": 112,
+    "pontiac": 114,
+    "saturn": 398,
+    "subaru": 93,
+    "suzuki": 17,
+    "toyota": 44,
+    "volkswagen": 528
+  },
+  "fieldPresence": {
+    "code": 11786,
+    "id": 11786,
+    "makeId": 11786,
+    "makeIds": 1026,
+    "scope": 11786,
+    "sourceId": 11786,
+    "sourceRows": 11786,
+    "status": 11786,
+    "system": 11786,
+    "title": 11786,
+    "verification": 11786
+  },
+  "sourceIdCounts": {
+    "wal33d-dtc-database": 11786
+  },
+  "verificationCounts": {
+    "community-reference": 11786
+  },
+  "titleStatistics": {
+    "minimumWords": 2,
+    "maximumWords": 16,
+    "medianWords": 7.0,
+    "underFourWords": 415,
+    "exactUniqueTitles": 11676,
+    "slotNormalizedTitleFamilies": 6545,
+    "multiEntrySlotNormalizedFamilies": 2113,
+    "entriesInMultiEntryFamilies": 7354,
+    "normalization": "Replace standalone digits and standalone uppercase letters with {slot}; lowercase; collapse whitespace. This is a lexical duplicate-risk indicator, not proof of identical procedures."
+  },
+  "largestTitleFamilies": [
+    {
+      "normalizedTitle": "hybrid/ev battery voltage sense {slot} circuit",
+      "entries": 26,
+      "examples": [
+        {
+          "id": "generic-p0b3b",
+          "code": "P0B3B",
+          "title": "Hybrid/EV Battery Voltage Sense A Circuit"
+        },
+        {
+          "id": "generic-p0b40",
+          "code": "P0B40",
+          "title": "Hybrid/EV Battery Voltage Sense B Circuit"
+        },
+        {
+          "id": "generic-p0b45",
+          "code": "P0B45",
+          "title": "Hybrid/EV Battery Voltage Sense C Circuit"
+        },
+        {
+          "id": "generic-p0b4a",
+          "code": "P0B4A",
+          "title": "Hybrid/EV Battery Voltage Sense D Circuit"
+        },
+        {
+          "id": "generic-p0b4f",
+          "code": "P0B4F",
+          "title": "Hybrid/EV Battery Voltage Sense E Circuit"
+        },
+        {
+          "id": "generic-p0b54",
+          "code": "P0B54",
+          "title": "Hybrid/EV Battery Voltage Sense F Circuit"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "hybrid/ev battery voltage sense {slot} circuit range/performance",
+      "entries": 26,
+      "examples": [
+        {
+          "id": "generic-p0b3c",
+          "code": "P0B3C",
+          "title": "Hybrid/EV Battery Voltage Sense A Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p0b41",
+          "code": "P0B41",
+          "title": "Hybrid/EV Battery Voltage Sense B Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p0b46",
+          "code": "P0B46",
+          "title": "Hybrid/EV Battery Voltage Sense C Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p0b4b",
+          "code": "P0B4B",
+          "title": "Hybrid/EV Battery Voltage Sense D Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p0b50",
+          "code": "P0B50",
+          "title": "Hybrid/EV Battery Voltage Sense E Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p0b55",
+          "code": "P0B55",
+          "title": "Hybrid/EV Battery Voltage Sense F Circuit Range/Performance"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "hybrid/ev battery voltage sense {slot} circuit low",
+      "entries": 26,
+      "examples": [
+        {
+          "id": "generic-p0b3d",
+          "code": "P0B3D",
+          "title": "Hybrid/EV Battery Voltage Sense A Circuit Low"
+        },
+        {
+          "id": "generic-p0b42",
+          "code": "P0B42",
+          "title": "Hybrid/EV Battery Voltage Sense B Circuit Low"
+        },
+        {
+          "id": "generic-p0b47",
+          "code": "P0B47",
+          "title": "Hybrid/EV Battery Voltage Sense C Circuit Low"
+        },
+        {
+          "id": "generic-p0b4c",
+          "code": "P0B4C",
+          "title": "Hybrid/EV Battery Voltage Sense D Circuit Low"
+        },
+        {
+          "id": "generic-p0b51",
+          "code": "P0B51",
+          "title": "Hybrid/EV Battery Voltage Sense E Circuit Low"
+        },
+        {
+          "id": "generic-p0b56",
+          "code": "P0B56",
+          "title": "Hybrid/EV Battery Voltage Sense F Circuit Low"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "hybrid/ev battery voltage sense {slot} circuit high",
+      "entries": 26,
+      "examples": [
+        {
+          "id": "generic-p0b3e",
+          "code": "P0B3E",
+          "title": "Hybrid/EV Battery Voltage Sense A Circuit High"
+        },
+        {
+          "id": "generic-p0b43",
+          "code": "P0B43",
+          "title": "Hybrid/EV Battery Voltage Sense B Circuit High"
+        },
+        {
+          "id": "generic-p0b48",
+          "code": "P0B48",
+          "title": "Hybrid/EV Battery Voltage Sense C Circuit High"
+        },
+        {
+          "id": "generic-p0b4d",
+          "code": "P0B4D",
+          "title": "Hybrid/EV Battery Voltage Sense D Circuit High"
+        },
+        {
+          "id": "generic-p0b52",
+          "code": "P0B52",
+          "title": "Hybrid/EV Battery Voltage Sense E Circuit High"
+        },
+        {
+          "id": "generic-p0b57",
+          "code": "P0B57",
+          "title": "Hybrid/EV Battery Voltage Sense F Circuit High"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "hybrid/ev battery voltage sense {slot} circuit intermittent/erratic",
+      "entries": 26,
+      "examples": [
+        {
+          "id": "generic-p0b3f",
+          "code": "P0B3F",
+          "title": "Hybrid/EV Battery Voltage Sense A Circuit Intermittent/Erratic"
+        },
+        {
+          "id": "generic-p0b44",
+          "code": "P0B44",
+          "title": "Hybrid/EV Battery Voltage Sense B Circuit Intermittent/Erratic"
+        },
+        {
+          "id": "generic-p0b49",
+          "code": "P0B49",
+          "title": "Hybrid/EV Battery Voltage Sense C Circuit Intermittent/Erratic"
+        },
+        {
+          "id": "generic-p0b4e",
+          "code": "P0B4E",
+          "title": "Hybrid/EV Battery Voltage Sense D Circuit Intermittent/Erratic"
+        },
+        {
+          "id": "generic-p0b53",
+          "code": "P0B53",
+          "title": "Hybrid/EV Battery Voltage Sense E Circuit Intermittent/Erratic"
+        },
+        {
+          "id": "generic-p0b58",
+          "code": "P0B58",
+          "title": "Hybrid/EV Battery Voltage Sense F Circuit Intermittent/Erratic"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "pressure control solenoid {slot} electrical",
+      "entries": 25,
+      "examples": [
+        {
+          "id": "bmw-p1734",
+          "code": "P1734",
+          "title": "Pressure Control Solenoid B Electrical"
+        },
+        {
+          "id": "bmw-p1738",
+          "code": "P1738",
+          "title": "Pressure Control Solenoid C Electrical"
+        },
+        {
+          "id": "bmw-p1743",
+          "code": "P1743",
+          "title": "Pressure Control Solenoid E Electrical"
+        },
+        {
+          "id": "bmw-p1744",
+          "code": "P1744",
+          "title": "Pressure Control Solenoid A Electrical"
+        },
+        {
+          "id": "generic-p0748",
+          "code": "P0748",
+          "title": "Pressure Control Solenoid A Electrical"
+        },
+        {
+          "id": "generic-p0778",
+          "code": "P0778",
+          "title": "Pressure Control Solenoid B Electrical"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "cylinder {slot} injector {slot} circuit low",
+      "entries": 24,
+      "examples": [
+        {
+          "id": "generic-p0261",
+          "code": "P0261",
+          "title": "Cylinder 1 Injector A Circuit Low"
+        },
+        {
+          "id": "generic-p0264",
+          "code": "P0264",
+          "title": "Cylinder 2 Injector A Circuit Low"
+        },
+        {
+          "id": "generic-p0267",
+          "code": "P0267",
+          "title": "Cylinder 3 Injector A Circuit Low"
+        },
+        {
+          "id": "generic-p0270",
+          "code": "P0270",
+          "title": "Cylinder 4 Injector A Circuit Low"
+        },
+        {
+          "id": "generic-p0273",
+          "code": "P0273",
+          "title": "Cylinder 5 Injector A Circuit Low"
+        },
+        {
+          "id": "generic-p0276",
+          "code": "P0276",
+          "title": "Cylinder 6 Injector A Circuit Low"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "cylinder {slot} injector {slot} circuit high",
+      "entries": 24,
+      "examples": [
+        {
+          "id": "generic-p0262",
+          "code": "P0262",
+          "title": "Cylinder 1 Injector A Circuit High"
+        },
+        {
+          "id": "generic-p0265",
+          "code": "P0265",
+          "title": "Cylinder 2 Injector A Circuit High"
+        },
+        {
+          "id": "generic-p0268",
+          "code": "P0268",
+          "title": "Cylinder 3 Injector A Circuit High"
+        },
+        {
+          "id": "generic-p0271",
+          "code": "P0271",
+          "title": "Cylinder 4 Injector A Circuit High"
+        },
+        {
+          "id": "generic-p0274",
+          "code": "P0274",
+          "title": "Cylinder 5 Injector A Circuit High"
+        },
+        {
+          "id": "generic-p0277",
+          "code": "P0277",
+          "title": "Cylinder 6 Injector A Circuit High"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "cylinder {slot} fuel injector {slot} offset learning at min limit",
+      "entries": 20,
+      "examples": [
+        {
+          "id": "generic-p02cc",
+          "code": "P02CC",
+          "title": "Cylinder 1 Fuel Injector A Offset Learning At Min Limit"
+        },
+        {
+          "id": "generic-p02ce",
+          "code": "P02CE",
+          "title": "Cylinder 2 Fuel Injector A Offset Learning At Min Limit"
+        },
+        {
+          "id": "generic-p02d0",
+          "code": "P02D0",
+          "title": "Cylinder 3 Fuel Injector A Offset Learning At Min Limit"
+        },
+        {
+          "id": "generic-p02d2",
+          "code": "P02D2",
+          "title": "Cylinder 4 Fuel Injector A Offset Learning At Min Limit"
+        },
+        {
+          "id": "generic-p02d4",
+          "code": "P02D4",
+          "title": "Cylinder 5 Fuel Injector A Offset Learning At Min Limit"
+        },
+        {
+          "id": "generic-p02d6",
+          "code": "P02D6",
+          "title": "Cylinder 6 Fuel Injector A Offset Learning At Min Limit"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "cylinder {slot} fuel injector {slot} offset learning at max limit",
+      "entries": 20,
+      "examples": [
+        {
+          "id": "generic-p02cd",
+          "code": "P02CD",
+          "title": "Cylinder 1 Fuel Injector A Offset Learning At Max Limit"
+        },
+        {
+          "id": "generic-p02cf",
+          "code": "P02CF",
+          "title": "Cylinder 2 Fuel Injector A Offset Learning At Max Limit"
+        },
+        {
+          "id": "generic-p02d1",
+          "code": "P02D1",
+          "title": "Cylinder 3 Fuel Injector A Offset Learning At Max Limit"
+        },
+        {
+          "id": "generic-p02d3",
+          "code": "P02D3",
+          "title": "Cylinder 4 Fuel Injector A Offset Learning At Max Limit"
+        },
+        {
+          "id": "generic-p02d5",
+          "code": "P02D5",
+          "title": "Cylinder 5 Fuel Injector A Offset Learning At Max Limit"
+        },
+        {
+          "id": "generic-p02d7",
+          "code": "P02D7",
+          "title": "Cylinder 6 Fuel Injector A Offset Learning At Max Limit"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "camera washer actuator {slot}",
+      "entries": 18,
+      "examples": [
+        {
+          "id": "generic-b010a",
+          "code": "B010A",
+          "title": "Camera Washer Actuator A"
+        },
+        {
+          "id": "generic-b010b",
+          "code": "B010B",
+          "title": "Camera Washer Actuator B"
+        },
+        {
+          "id": "generic-b010c",
+          "code": "B010C",
+          "title": "Camera Washer Actuator C"
+        },
+        {
+          "id": "generic-b010d",
+          "code": "B010D",
+          "title": "Camera Washer Actuator D"
+        },
+        {
+          "id": "generic-b010e",
+          "code": "B010E",
+          "title": "Camera Washer Actuator E"
+        },
+        {
+          "id": "generic-b010f",
+          "code": "B010F",
+          "title": "Camera Washer Actuator F"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "pressure control solenoid {slot} performance/stuck off",
+      "entries": 17,
+      "examples": [
+        {
+          "id": "generic-p0746",
+          "code": "P0746",
+          "title": "Pressure Control Solenoid A Performance/Stuck Off"
+        },
+        {
+          "id": "generic-p0776",
+          "code": "P0776",
+          "title": "Pressure Control Solenoid B Performance/Stuck Off"
+        },
+        {
+          "id": "generic-p0796",
+          "code": "P0796",
+          "title": "Pressure Control Solenoid C Performance/Stuck Off"
+        },
+        {
+          "id": "generic-p08bb",
+          "code": "P08BB",
+          "title": "Pressure Control Solenoid L Performance/Stuck Off"
+        },
+        {
+          "id": "generic-p08c4",
+          "code": "P08C4",
+          "title": "Pressure Control Solenoid M Performance/Stuck Off"
+        },
+        {
+          "id": "generic-p2714",
+          "code": "P2714",
+          "title": "Pressure Control Solenoid D Performance/Stuck Off"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "pressure control solenoid {slot} stuck on",
+      "entries": 17,
+      "examples": [
+        {
+          "id": "generic-p0747",
+          "code": "P0747",
+          "title": "Pressure Control Solenoid A Stuck On"
+        },
+        {
+          "id": "generic-p0777",
+          "code": "P0777",
+          "title": "Pressure Control Solenoid B Stuck On"
+        },
+        {
+          "id": "generic-p0797",
+          "code": "P0797",
+          "title": "Pressure Control Solenoid C Stuck On"
+        },
+        {
+          "id": "generic-p08bc",
+          "code": "P08BC",
+          "title": "Pressure Control Solenoid L Stuck On"
+        },
+        {
+          "id": "generic-p08c5",
+          "code": "P08C5",
+          "title": "Pressure Control Solenoid M Stuck On"
+        },
+        {
+          "id": "generic-p2715",
+          "code": "P2715",
+          "title": "Pressure Control Solenoid D Stuck On"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "pressure control solenoid {slot} intermittent",
+      "entries": 17,
+      "examples": [
+        {
+          "id": "generic-p0749",
+          "code": "P0749",
+          "title": "Pressure Control Solenoid A Intermittent"
+        },
+        {
+          "id": "generic-p0779",
+          "code": "P0779",
+          "title": "Pressure Control Solenoid B Intermittent"
+        },
+        {
+          "id": "generic-p0799",
+          "code": "P0799",
+          "title": "Pressure Control Solenoid C Intermittent"
+        },
+        {
+          "id": "generic-p08be",
+          "code": "P08BE",
+          "title": "Pressure Control Solenoid L Intermittent"
+        },
+        {
+          "id": "generic-p08c7",
+          "code": "P08C7",
+          "title": "Pressure Control Solenoid M Intermittent"
+        },
+        {
+          "id": "generic-p2717",
+          "code": "P2717",
+          "title": "Pressure Control Solenoid D Intermittent"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "pressure control solenoid {slot} control circuit range/performance",
+      "entries": 17,
+      "examples": [
+        {
+          "id": "generic-p08c0",
+          "code": "P08C0",
+          "title": "Pressure Control Solenoid L Control Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p08c9",
+          "code": "P08C9",
+          "title": "Pressure Control Solenoid M Control Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p0961",
+          "code": "P0961",
+          "title": "Pressure Control Solenoid A Control Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p0965",
+          "code": "P0965",
+          "title": "Pressure Control Solenoid B Control Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p0969",
+          "code": "P0969",
+          "title": "Pressure Control Solenoid C Control Circuit Range/Performance"
+        },
+        {
+          "id": "generic-p2719",
+          "code": "P2719",
+          "title": "Pressure Control Solenoid D Control Circuit Range/Performance"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "pressure control solenoid {slot} control circuit low",
+      "entries": 17,
+      "examples": [
+        {
+          "id": "generic-p08c1",
+          "code": "P08C1",
+          "title": "Pressure Control Solenoid L Control Circuit Low"
+        },
+        {
+          "id": "generic-p08ca",
+          "code": "P08CA",
+          "title": "Pressure Control Solenoid M Control Circuit Low"
+        },
+        {
+          "id": "generic-p0962",
+          "code": "P0962",
+          "title": "Pressure Control Solenoid A Control Circuit Low"
+        },
+        {
+          "id": "generic-p0966",
+          "code": "P0966",
+          "title": "Pressure Control Solenoid B Control Circuit Low"
+        },
+        {
+          "id": "generic-p0970",
+          "code": "P0970",
+          "title": "Pressure Control Solenoid C Control Circuit Low"
+        },
+        {
+          "id": "generic-p2720",
+          "code": "P2720",
+          "title": "Pressure Control Solenoid D Control Circuit Low"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "pressure control solenoid {slot} control circuit high",
+      "entries": 17,
+      "examples": [
+        {
+          "id": "generic-p08c2",
+          "code": "P08C2",
+          "title": "Pressure Control Solenoid L Control Circuit High"
+        },
+        {
+          "id": "generic-p08cb",
+          "code": "P08CB",
+          "title": "Pressure Control Solenoid M Control Circuit High"
+        },
+        {
+          "id": "generic-p0963",
+          "code": "P0963",
+          "title": "Pressure Control Solenoid A Control Circuit High"
+        },
+        {
+          "id": "generic-p0967",
+          "code": "P0967",
+          "title": "Pressure Control Solenoid B Control Circuit High"
+        },
+        {
+          "id": "generic-p0971",
+          "code": "P0971",
+          "title": "Pressure Control Solenoid C Control Circuit High"
+        },
+        {
+          "id": "generic-p2721",
+          "code": "P2721",
+          "title": "Pressure Control Solenoid D Control Circuit High"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "pressure control solenoid {slot} control circuit/open",
+      "entries": 16,
+      "examples": [
+        {
+          "id": "generic-p08bf",
+          "code": "P08BF",
+          "title": "Pressure Control Solenoid L Control Circuit/Open"
+        },
+        {
+          "id": "generic-p08c8",
+          "code": "P08C8",
+          "title": "Pressure Control Solenoid M Control Circuit/Open"
+        },
+        {
+          "id": "generic-p0960",
+          "code": "P0960",
+          "title": "Pressure Control Solenoid A Control Circuit/Open"
+        },
+        {
+          "id": "generic-p0964",
+          "code": "P0964",
+          "title": "Pressure Control Solenoid B Control Circuit/Open"
+        },
+        {
+          "id": "generic-p0968",
+          "code": "P0968",
+          "title": "Pressure Control Solenoid C Control Circuit/Open"
+        },
+        {
+          "id": "generic-p2718",
+          "code": "P2718",
+          "title": "Pressure Control Solenoid D Control Circuit/Open"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "hybrid/ev battery temperature sensor {slot} circuit",
+      "entries": 16,
+      "examples": [
+        {
+          "id": "generic-p0a9b",
+          "code": "P0A9B",
+          "title": "Hybrid/EV Battery Temperature Sensor A Circuit"
+        },
+        {
+          "id": "generic-p0ac5",
+          "code": "P0AC5",
+          "title": "Hybrid/EV Battery Temperature Sensor B Circuit"
+        },
+        {
+          "id": "generic-p0aca",
+          "code": "P0ACA",
+          "title": "Hybrid/EV Battery Temperature Sensor C Circuit"
+        },
+        {
+          "id": "generic-p0ae8",
+          "code": "P0AE8",
+          "title": "Hybrid/EV Battery Temperature Sensor D Circuit"
+        },
+        {
+          "id": "generic-p0bc2",
+          "code": "P0BC2",
+          "title": "Hybrid/EV Battery Temperature Sensor E Circuit"
+        },
+        {
+          "id": "generic-p0c33",
+          "code": "P0C33",
+          "title": "Hybrid/EV Battery Temperature Sensor F Circuit"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "hybrid/ev battery temperature sensor {slot} circuit low",
+      "entries": 16,
+      "examples": [
+        {
+          "id": "generic-p0a9d",
+          "code": "P0A9D",
+          "title": "Hybrid/EV Battery Temperature Sensor A Circuit Low"
+        },
+        {
+          "id": "generic-p0ac7",
+          "code": "P0AC7",
+          "title": "Hybrid/EV Battery Temperature Sensor B Circuit Low"
+        },
+        {
+          "id": "generic-p0acc",
+          "code": "P0ACC",
+          "title": "Hybrid/EV Battery Temperature Sensor C Circuit Low"
+        },
+        {
+          "id": "generic-p0aea",
+          "code": "P0AEA",
+          "title": "Hybrid/EV Battery Temperature Sensor D Circuit Low"
+        },
+        {
+          "id": "generic-p0bc4",
+          "code": "P0BC4",
+          "title": "Hybrid/EV Battery Temperature Sensor E Circuit Low"
+        },
+        {
+          "id": "generic-p0c35",
+          "code": "P0C35",
+          "title": "Hybrid/EV Battery Temperature Sensor F Circuit Low"
+        }
+      ]
+    }
+  ],
+  "faultFamilyCounts": {
+    "circuit_high": 1365,
+    "circuit_low": 1332,
+    "circuit_open": 630,
+    "circuit_short": 281,
+    "intermittent_erratic": 519,
+    "invalid_or_incompatible_data_software": 493,
+    "mechanical_stuck_leak": 447,
+    "misfire": 76,
+    "network_communication": 743,
+    "other": 4106,
+    "range_performance_rationality": 1794
+  },
+  "faultFamilyMethod": "Ordered lexical classifier, first matching rule. Routing aid only; not verified diagnostic taxonomy.",
+  "safetySensitiveLexicalCounts": {
+    "high_voltage_or_hybrid": 1430,
+    "restraint_airbag": 162,
+    "brake_abs_steering": 512
+  },
+  "missingNormalGuideCodeMappings": [
+    {
+      "code": "P1023",
+      "existingDictionaryRecords": []
+    },
+    {
+      "code": "P1026",
+      "existingDictionaryRecords": []
+    },
+    {
+      "code": "P1031",
+      "existingDictionaryRecords": [
+        {
+          "id": "chevrolet-p1031",
+          "makeIds": [
+            "buick",
+            "cadillac",
+            "chevrolet",
+            "chrysler",
+            "gmc",
+            "oldsmobile",
+            "pontiac",
+            "saturn"
+          ],
+          "title": "HO2S Heater Current Monitor Control Circuit Sensors 1"
+        }
+      ]
+    },
+    {
+      "code": "P1074",
+      "existingDictionaryRecords": []
+    },
+    {
+      "code": "P1101",
+      "existingDictionaryRecords": [
+        {
+          "id": "ford-p1101",
+          "makeIds": [
+            "ford",
+            "lincoln",
+            "mercury"
+          ],
+          "title": "Mass Air Flow Sensor Out of Self-Test Range"
+        },
+        {
+          "id": "mazda-p1101",
+          "makeIds": [
+            "mazda"
+          ],
+          "title": "Mass Air Flow Sensor Circuit Out Of Self-Test Range"
+        },
+        {
+          "id": "mitsubishi-p1101",
+          "makeIds": [
+            "mitsubishi"
+          ],
+          "title": "Traction Control Vacuum Solenoid Circuit Fault"
+        },
+        {
+          "id": "subaru-p1101",
+          "makeIds": [
+            "subaru"
+          ],
+          "title": "Neutral Position Switch Circuit Malfunction M/T"
+        },
+        {
+          "id": "volkswagen-p1101",
+          "makeIds": [
+            "volkswagen"
+          ],
+          "title": "Oxygen Sensor Circuit Bank 1 Sensor 1 Voltage Too Low/Air Leak"
+        }
+      ]
+    },
+    {
+      "code": "P1297",
+      "existingDictionaryRecords": [
+        {
+          "id": "ford-p1297",
+          "makeIds": [
+            "ford",
+            "lincoln",
+            "mercury"
+          ],
+          "title": "Injector High Sides Shorted Together"
+        },
+        {
+          "id": "honda-p1297",
+          "makeIds": [
+            "acura",
+            "honda"
+          ],
+          "title": "ELD Circuit Low Input"
+        },
+        {
+          "id": "jeep-p1297",
+          "makeIds": [
+            "dodge",
+            "jeep",
+            "plymouth",
+            "pontiac"
+          ],
+          "title": "No Change In MAP From Start To Run"
+        },
+        {
+          "id": "mitsubishi-p1297",
+          "makeIds": [
+            "mitsubishi"
+          ],
+          "title": "No Charge In MAP From Start To Run"
+        }
+      ]
+    },
+    {
+      "code": "P17F0",
+      "existingDictionaryRecords": []
+    },
+    {
+      "code": "P17F1",
+      "existingDictionaryRecords": []
+    },
+    {
+      "code": "P1CEA",
+      "existingDictionaryRecords": []
+    }
+  ],
+  "sourceOverlapAudit": {
+    "method": "Compare retained source rows as exact (code, lowercased original title) pairs; proportions use the smaller retained set. Overlap alone does not prove incorrect attribution.",
+    "largestOverlaps": [
+      {
+        "fileA": "data/source-data/lincoln_codes.txt",
+        "fileB": "data/source-data/mercury_codes.txt",
+        "identicalCodeTitlePairs": 394,
+        "retainedPairsA": 395,
+        "retainedPairsB": 394,
+        "fractionOfSmaller": 1.0
+      },
+      {
+        "fileA": "data/source-data/pontiac_codes.txt",
+        "fileB": "data/source-data/plymouth_codes.txt",
+        "identicalCodeTitlePairs": 112,
+        "retainedPairsA": 114,
+        "retainedPairsB": 112,
+        "fractionOfSmaller": 1.0
+      },
+      {
+        "fileA": "data/source-data/cadillac_codes.txt",
+        "fileB": "data/source-data/chevy_codes.txt",
+        "identicalCodeTitlePairs": 397,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.997487
+      },
+      {
+        "fileA": "data/source-data/acura_codes.txt",
+        "fileB": "data/source-data/honda_codes.txt",
+        "identicalCodeTitlePairs": 92,
+        "retainedPairsA": 93,
+        "retainedPairsB": 93,
+        "fractionOfSmaller": 0.989247
+      },
+      {
+        "fileA": "data/source-data/buick_codes.txt",
+        "fileB": "data/source-data/chevy_codes.txt",
+        "identicalCodeTitlePairs": 379,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.952261
+      },
+      {
+        "fileA": "data/source-data/buick_codes.txt",
+        "fileB": "data/source-data/cadillac_codes.txt",
+        "identicalCodeTitlePairs": 378,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.949749
+      },
+      {
+        "fileA": "data/source-data/ford_codes.txt",
+        "fileB": "data/source-data/lincoln_codes.txt",
+        "identicalCodeTitlePairs": 374,
+        "retainedPairsA": 395,
+        "retainedPairsB": 395,
+        "fractionOfSmaller": 0.946835
+      },
+      {
+        "fileA": "data/source-data/ford_codes.txt",
+        "fileB": "data/source-data/mercury_codes.txt",
+        "identicalCodeTitlePairs": 373,
+        "retainedPairsA": 395,
+        "retainedPairsB": 394,
+        "fractionOfSmaller": 0.946701
+      },
+      {
+        "fileA": "data/source-data/saturn_codes.txt",
+        "fileB": "data/source-data/oldsmobile_codes.txt",
+        "identicalCodeTitlePairs": 372,
+        "retainedPairsA": 398,
+        "retainedPairsB": 395,
+        "fractionOfSmaller": 0.941772
+      },
+      {
+        "fileA": "data/source-data/dodge_codes.txt",
+        "fileB": "data/source-data/jeep_codes.txt",
+        "identicalCodeTitlePairs": 89,
+        "retainedPairsA": 96,
+        "retainedPairsB": 96,
+        "fractionOfSmaller": 0.927083
+      },
+      {
+        "fileA": "data/source-data/oldsmobile_codes.txt",
+        "fileB": "data/source-data/gmc_codes.txt",
+        "identicalCodeTitlePairs": 359,
+        "retainedPairsA": 395,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.908861
+      },
+      {
+        "fileA": "data/source-data/chevy_codes.txt",
+        "fileB": "data/source-data/gmc_codes.txt",
+        "identicalCodeTitlePairs": 360,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.904523
+      },
+      {
+        "fileA": "data/source-data/cadillac_codes.txt",
+        "fileB": "data/source-data/gmc_codes.txt",
+        "identicalCodeTitlePairs": 359,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.90201
+      },
+      {
+        "fileA": "data/source-data/saturn_codes.txt",
+        "fileB": "data/source-data/gmc_codes.txt",
+        "identicalCodeTitlePairs": 350,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.879397
+      },
+      {
+        "fileA": "data/source-data/buick_codes.txt",
+        "fileB": "data/source-data/gmc_codes.txt",
+        "identicalCodeTitlePairs": 346,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.869347
+      },
+      {
+        "fileA": "data/source-data/chevy_codes.txt",
+        "fileB": "data/source-data/chrysler_codes.txt",
+        "identicalCodeTitlePairs": 242,
+        "retainedPairsA": 398,
+        "retainedPairsB": 281,
+        "fractionOfSmaller": 0.86121
+      },
+      {
+        "fileA": "data/source-data/cadillac_codes.txt",
+        "fileB": "data/source-data/oldsmobile_codes.txt",
+        "identicalCodeTitlePairs": 340,
+        "retainedPairsA": 398,
+        "retainedPairsB": 395,
+        "fractionOfSmaller": 0.860759
+      },
+      {
+        "fileA": "data/source-data/oldsmobile_codes.txt",
+        "fileB": "data/source-data/chevy_codes.txt",
+        "identicalCodeTitlePairs": 339,
+        "retainedPairsA": 395,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.858228
+      },
+      {
+        "fileA": "data/source-data/cadillac_codes.txt",
+        "fileB": "data/source-data/chrysler_codes.txt",
+        "identicalCodeTitlePairs": 241,
+        "retainedPairsA": 398,
+        "retainedPairsB": 281,
+        "fractionOfSmaller": 0.857651
+      },
+      {
+        "fileA": "data/source-data/pontiac_codes.txt",
+        "fileB": "data/source-data/jeep_codes.txt",
+        "identicalCodeTitlePairs": 82,
+        "retainedPairsA": 114,
+        "retainedPairsB": 96,
+        "fractionOfSmaller": 0.854167
+      },
+      {
+        "fileA": "data/source-data/plymouth_codes.txt",
+        "fileB": "data/source-data/jeep_codes.txt",
+        "identicalCodeTitlePairs": 82,
+        "retainedPairsA": 112,
+        "retainedPairsB": 96,
+        "fractionOfSmaller": 0.854167
+      },
+      {
+        "fileA": "data/source-data/buick_codes.txt",
+        "fileB": "data/source-data/saturn_codes.txt",
+        "identicalCodeTitlePairs": 338,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.849246
+      },
+      {
+        "fileA": "data/source-data/saturn_codes.txt",
+        "fileB": "data/source-data/chevy_codes.txt",
+        "identicalCodeTitlePairs": 337,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.846734
+      },
+      {
+        "fileA": "data/source-data/saturn_codes.txt",
+        "fileB": "data/source-data/cadillac_codes.txt",
+        "identicalCodeTitlePairs": 336,
+        "retainedPairsA": 398,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.844221
+      },
+      {
+        "fileA": "data/source-data/pontiac_codes.txt",
+        "fileB": "data/source-data/dodge_codes.txt",
+        "identicalCodeTitlePairs": 81,
+        "retainedPairsA": 114,
+        "retainedPairsB": 96,
+        "fractionOfSmaller": 0.84375
+      },
+      {
+        "fileA": "data/source-data/plymouth_codes.txt",
+        "fileB": "data/source-data/dodge_codes.txt",
+        "identicalCodeTitlePairs": 81,
+        "retainedPairsA": 112,
+        "retainedPairsB": 96,
+        "fractionOfSmaller": 0.84375
+      },
+      {
+        "fileA": "data/source-data/chrysler_codes.txt",
+        "fileB": "data/source-data/gmc_codes.txt",
+        "identicalCodeTitlePairs": 232,
+        "retainedPairsA": 281,
+        "retainedPairsB": 398,
+        "fractionOfSmaller": 0.825623
+      },
+      {
+        "fileA": "data/source-data/buick_codes.txt",
+        "fileB": "data/source-data/oldsmobile_codes.txt",
+        "identicalCodeTitlePairs": 323,
+        "retainedPairsA": 398,
+        "retainedPairsB": 395,
+        "fractionOfSmaller": 0.817722
+      },
+      {
+        "fileA": "data/source-data/buick_codes.txt",
+        "fileB": "data/source-data/chrysler_codes.txt",
+        "identicalCodeTitlePairs": 228,
+        "retainedPairsA": 398,
+        "retainedPairsB": 281,
+        "fractionOfSmaller": 0.811388
+      },
+      {
+        "fileA": "data/source-data/oldsmobile_codes.txt",
+        "fileB": "data/source-data/chrysler_codes.txt",
+        "identicalCodeTitlePairs": 210,
+        "retainedPairsA": 395,
+        "retainedPairsB": 281,
+        "fractionOfSmaller": 0.747331
+      }
+    ],
+    "crossCorporateFlags": [
+      {
+        "files": [
+          "pontiac_codes.txt",
+          "plymouth_codes.txt"
+        ],
+        "finding": "All112 retained Plymouth pairs appear in Pontiac114-pair set. Pontiac make applicability needs independent OEM verification."
+      },
+      {
+        "files": [
+          "chrysler_codes.txt",
+          "chevy_codes.txt"
+        ],
+        "finding": "242 of281 retained Chrysler pairs also appear in Chevrolet398-pair set. Treat shared labels as unverified; do not infer shared repair procedures."
+      }
+    ],
+    "rawIdenticalBlobs": [
+      {
+        "sha": "1c1640747517713d64d0efe10c93906c7779a343",
+        "files": [
+          "data/source-data/gm_codes.txt",
+          "data/source-data/gmc_codes.txt"
+        ]
+      },
+      {
+        "sha": "caf4db87aeb6f4236e7bf31cecc2bf6da8a9a049",
+        "files": [
+          "data/source-data/honda_codes.txt",
+          "data/source-data/infiniti_codes.txt"
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "kind": "evidence_gap",
+      "finding": "All dictionary records are definitions-only. A title cannot establish actual causes, symptoms, test order, threshold, pin identity, component location or repair on an unspecified vehicle.",
+      "requiredAction": "Acquire per-code or explicitly scoped per-family OEM monitor/service evidence before representing generated prose as researched diagnostics."
+    },
+    {
+      "severity": "blocking",
+      "kind": "manufacturer_definition_collision",
+      "finding": "One unscoped manufacturer definition is not stable across model years/modules. GM official2006 monitor data uses P1684 for a TCM power-up thermistor condition; repository Chevrolet label says Driver5Line4, while Pontiac discovery currently resolves to the Chrysler-style battery-disconnection label. This is a demonstrated insufficiency of a brand-only mapping, not a claim that every historical label is false.",
+      "sourceUrl": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2006/2006trans1_b%20.pdf",
+      "requiredAction": "Preserve distinct year/module meanings with exact application scope; audit cross-corporate labels independently."
+    },
+    {
+      "severity": "blocking",
+      "kind": "fault_subtype_omitted",
+      "finding": "Some brief base-code labels lack a fault subtype. SAE J2012 describes failure-type subcodes for three-byte DTCs. U3000 Control Module and B0001 deployment-control labels must not automatically produce one specific electrical or replacement diagnosis.",
+      "sourceUrl": "https://saemobilus.sae.org/standards/j2012_201303-diagnostic-trouble-code-definitions",
+      "requiredAction": "Require full scanner display and matching OEM module context before publishing a subtype-specific path."
+    },
+    {
+      "severity": "high",
+      "kind": "near_duplicate_risk",
+      "finding": "7354 records collapse into2113 multi-entry lexical families when only bank/cylinder/channel slots are normalized. A generator that changes these slots in the same text will reproduce the user complaint.",
+      "requiredAction": "A separate article needs the actual channel/cylinder location, distinctions and evidence, not just different slot text."
+    },
+    {
+      "severity": "high",
+      "kind": "search_intent_unverified",
+      "finding": "The corpus contains9891 powertrain,1228 network,478 chassis and189 body entries, including many modern hybrid/charger channels. Code existence is not search demand or real fleet prevalence.",
+      "requiredAction": "Do not label all10000 as most-searched codes without actual search data."
+    },
+    {
+      "severity": "informational",
+      "kind": "syntax_not_semantics",
+      "finding": "No malformed five-character code or duplicate canonical ID was found in this audit. That only confirms syntax/identity; it does not validate the meanings against current SAE/OEM sources."
+    }
+  ],
+  "structuralChecks": {
+    "malformedCodes": [],
+    "duplicateIds": [],
+    "duplicateCanonicalKeys": []
+  },
+  "primarySourcesReviewed": [
+    {
+      "url": "https://saemobilus.sae.org/standards/j2012_201303-diagnostic-trouble-code-definitions",
+      "use": "Code format and presence of failure-type subcodes; not current per-code definitions."
+    },
+    {
+      "url": "https://saemobilus.sae.org/standards/j2012da_202510-digital-annex-diagnostic-trouble-code-definitions-failure-type-byte-definitions",
+      "use": "Official digital-annex metadata; spreadsheet itself was not supplied or reviewed."
+    },
+    {
+      "url": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/OBDSM1503_HEV.pdf",
+      "use": "Example of primary model-year-specific monitor documentation with207pages; no universal repair applicability inferred."
+    },
+    {
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2006/2006trans1_b%20.pdf",
+      "use": "Primary monitor table with failure/enable/pass criteria and actions; P1684 definition collision example."
+    }
+  ]
+}

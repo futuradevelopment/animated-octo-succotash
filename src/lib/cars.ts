@@ -1,6 +1,7 @@
 import {existsSync,readFileSync} from 'node:fs';
 import {join} from 'node:path';
 import {authoredGuides,guidePath} from './authored-guides.ts';
+import {codeManuscripts,manuscriptForEntry} from './code-manuscripts.ts';
 export {authoredGuides};
 export type PublicationState='published_indexable'|'published_noindex';
 export type SystemId='powertrain'|'body'|'chassis'|'network';
@@ -11,7 +12,7 @@ export interface Source {id:string;title:string;publisher:string;url:string;lice
 export interface DiagnosticGuide {summary:string;meaning:string;firstCheck:string;urgency:'check'|'service'|'stop';urgencyLabel:string;safety:string[];steps:{title:string;body:string}[];nextSteps:string[];limitations:string[];sourceIds:string[]}
 export interface System {id:SystemId;name:string;description:string;letter:string}
 export interface Bulletin {id:string;title:string;makeId:string;modelIds:string[];codes:string[];years:string;engine?:string;summary:string;action:string;limitations:string;sourceIds:string[];url?:string;guideSlug?:string}
-export interface SearchRecord {id:string;code:string;title:string;url:string;makeId:string;makeIds:string[];system:SystemId}
+export interface SearchRecord {id:string;code:string;title:string;url:string;makeId:string;makeIds:string[];system:SystemId;articleTitle?:string;articleDescription?:string;articleScope?:string;sourceReview?:string}
 interface GuideProfiles {systems?:Partial<Record<SystemId,Partial<DiagnosticGuide>>>;codes?:Record<string,Partial<DiagnosticGuide>>}
 export const site={name:'ErrHive Cars',url:'https://cars.errhive.com',domain:'cars.errhive.com',tagline:'Read the code. Understand the next step.',description:'Independent automotive diagnostic-code references with clear source attribution, vehicle context, and safe next steps.'};
 export const PAGE_SIZE=100,SEARCH_PART_SIZE=500;
@@ -71,14 +72,16 @@ export function getGuide(entry:CodeEntry):DiagnosticGuide{
 }
 export const featuredCodes=['P0300','P0420','P0171','P0455','P0A80','U0100'].flatMap(code=>{const match=(codeNumberMap.get(code)||[]).find(entry=>entry.scope==='generic'&&entry.status==='published_indexable');return match?[match]:[];});
 if(!featuredCodes.length)featuredCodes.push(...indexableCodes.slice(0,6));
-export const statistics=Object.freeze({articles:authoredGuides.length,guides:authoredGuides.length,codes:indexableCodes.length,uniqueCodes:new Set(indexableCodes.map(entry=>entry.code)).size,manufacturers:activeMakes.filter(make=>make.id!=='generic').length,models:models.length,sourceUrls:new Set(sources.map(source=>source.url)).size});
+export const statistics=Object.freeze({articles:codeManuscripts.length,codeArticles:codeManuscripts.length,guides:authoredGuides.length,codes:indexableCodes.length,uniqueCodes:new Set(indexableCodes.map(entry=>entry.code)).size,manufacturers:activeMakes.filter(make=>make.id!=='generic').length,models:models.length,sourceUrls:new Set(sources.map(source=>source.url)).size});
 export interface DirectoryPage{basePath:string;page:number;totalPages:number;total:number;entries:CodeEntry[];make?:Make;system?:System}
 export function directoryPages(entries:CodeEntry[],basePath:string,context:{make?:Make;system?:System}={}):DirectoryPage[]{const totalPages=Math.max(1,Math.ceil(entries.length/PAGE_SIZE));return Array.from({length:totalPages},(_,index)=>({basePath,page:index+1,totalPages,total:entries.length,entries:entries.slice(index*PAGE_SIZE,(index+1)*PAGE_SIZE),...context}));}
 export const allDirectoryPages=directoryPages(codes,'/codes/');
+export const articleCodes=codes.filter(entry=>manuscriptForEntry(entry.id));
+export const articleDirectoryPages=directoryPages(articleCodes,'/articles/');
 export const makeDirectoryPages=activeMakes.flatMap(make=>directoryPages(codesForMake(make.id),makePath(make.id),{make}));
 export const systemDirectoryPages=systems.filter(system=>systemCodes.has(system.id)).flatMap(system=>directoryPages(codesForSystem(system.id),systemPath(system.id),{system}));
 const informationPaths=['/about/','/editorial-policy/','/research-methodology/','/safety/','/privacy/','/terms/','/contact/','/sources/','/tools/','/guides/','/reference/error-code-types/'];
-const indexableRoutes=[...new Set(['/',...informationPaths,'/makes/','/systems/','/models/',...allDirectoryPages.map(page=>pagePath(page.basePath,page.page)),...makeDirectoryPages.map(page=>pagePath(page.basePath,page.page)),...systemDirectoryPages.map(page=>pagePath(page.basePath,page.page)),...indexableCodeRoutes(codes),...models.map(modelPath),...authoredGuides.map(guidePath)])];
+const indexableRoutes=[...new Set(['/',...informationPaths,'/makes/','/systems/','/models/',...allDirectoryPages.map(page=>pagePath(page.basePath,page.page)),...articleDirectoryPages.map(page=>pagePath(page.basePath,page.page)),...makeDirectoryPages.map(page=>pagePath(page.basePath,page.page)),...systemDirectoryPages.map(page=>pagePath(page.basePath,page.page)),...indexableCodeRoutes(codes),...models.map(modelPath),...authoredGuides.map(guidePath)])];
 export const getIndexableRoutes=()=>indexableRoutes;
 export const sitemapShards=Array.from({length:Math.ceil(indexableRoutes.length/5000)},(_,index)=>({id:String(index+1),routes:indexableRoutes.slice(index*5000,(index+1)*5000)}));
 export const searchParts=new Map<string,SearchRecord[]>();
@@ -86,7 +89,7 @@ export const searchMakeManifests=new Map<string,{version:number;makeId:string;pa
 const partsForCode:Record<string,string[]>={},partDetails:Record<string,{url:string;makeIds:string[]}>={},primaryMakeCodes=new Map<string,CodeEntry[]>();
 for(const entry of codes)append(primaryMakeCodes,entry.makeId,entry);
 for(const [makeId,entries] of primaryMakeCodes)for(let offset=0;offset<entries.length;offset+=SEARCH_PART_SIZE){
- const id=`${makeId}-${Math.floor(offset/SEARCH_PART_SIZE)+1}`,part=entries.slice(offset,offset+SEARCH_PART_SIZE).map(entry=>({id:entry.id,code:entry.code,title:entry.title,url:codePath(entry),makeId:entry.makeId,makeIds:[...new Set([entry.makeId,...(entry.makeIds||[])])],system:entry.system}));
+ const id=`${makeId}-${Math.floor(offset/SEARCH_PART_SIZE)+1}`,part=entries.slice(offset,offset+SEARCH_PART_SIZE).map(entry=>({id:entry.id,code:entry.code,title:entry.title,url:codePath(entry),makeId:entry.makeId,makeIds:[...new Set([entry.makeId,...(entry.makeIds||[])])],system:entry.system,...(manuscriptForEntry(entry.id)?{articleTitle:manuscriptForEntry(entry.id)!.title,articleDescription:manuscriptForEntry(entry.id)!.description,articleScope:manuscriptForEntry(entry.id)!.scope,sourceReview:manuscriptForEntry(entry.id)!.sourceReview}:{})}));
  searchParts.set(id,part);const associated=[...new Set(part.flatMap(entry=>entry.makeIds))];partDetails[id]={url:`/search-data/parts/${id}.json`,makeIds:associated};
  for(const make of associated){let manifest=searchMakeManifests.get(make);if(!manifest){manifest={version:1,makeId:make,parts:[]};searchMakeManifests.set(make,manifest);}manifest.parts.push({id,url:partDetails[id].url,count:part.length});}
  for(const entry of part){const values=partsForCode[entry.code]||(partsForCode[entry.code]=[]);if(!values.includes(id))values.push(id);}

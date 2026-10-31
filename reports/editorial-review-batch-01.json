@@ -1,0 +1,922 @@
+{
+  "reviewId": "editorial-review-batch-01",
+  "reviewer": "writer_06",
+  "reviewDate": "2026-10-30",
+  "batch": "batch-01",
+  "summary": "Read all 100 article bodies for scope, obvious contradictions and unsafe or unsupported repair/model generalizations. Independently compared 18 varied articles with their actual cited primary rows. No new substantive factual correction was identified in that sample. Existing source conflicts remain, plus a low-severity review-status consistency recommendation.",
+  "reviewScope": {
+    "fullEditorialReadCount": 100,
+    "primarySourceDeepSampleCount": 18,
+    "deepSampleIsNotFullFactualVerification": true,
+    "notIndependentlyReverified": [
+      "C0001",
+      "C0002",
+      "P0133"
+    ],
+    "notIndependentlyReverifiedReason": "These bodies were read, but root reported prior source/visual checks; independent sample focused on other codes.",
+    "fullReadChecks": [
+      "Unsupported make/model/engine fitment inference",
+      "Universalization of calibration thresholds",
+      "Obvious contradictions within bodies",
+      "Confusing raw measurements with physical conditions",
+      "Parts replacement claims unsupported by code alone",
+      "Hazardous instructions or safe-driving assurances"
+    ],
+    "sourceReviewMethod": "Read laid-out text from the actual cited physical pages in local gm-2025-03a.pdf extraction, including continuation rows. Rendered and visually inspected pages with ambiguous source wording/glyphs and an unusually narrow timing condition.",
+    "visualPages": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 38
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 55
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 94
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 100
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 122
+      }
+    ],
+    "renderMethod": "PyMuPDF raster rendering; bundled pdftoppm first failed to load libpoppler.so.160. No PDF or article changes were made."
+  },
+  "findings": [
+    {
+      "id": "B01-R1",
+      "severity": "low",
+      "category": "review-status-consistency",
+      "codes": [
+        "P0072",
+        "P00EA"
+      ],
+      "newArticleFactualError": false,
+      "description": "Both articles correctly disclose and omit a contradictory -150 C source annotation, but sourceReview remains checked. C0502, which also preserves an unresolved source contradiction, is needs-review. This is an editorial metadata consistency issue, not a wrong resistance claim.",
+      "evidence": [
+        {
+          "sourceId": "gm-2025-03a",
+          "page": 100,
+          "visualConfirmed": true,
+          "detail": "<=46 Ohms accompanied by (-150 deg C), while prose says lower resistance means higher temperature."
+        },
+        {
+          "sourceId": "gm-2025-03a",
+          "page": 122,
+          "visualConfirmed": true,
+          "detail": "<57.94 Ohms accompanied by (-150 deg C), with the same lower-resistance/higher-temperature prose."
+        }
+      ],
+      "recommendation": "Either mark these two sourceReview values needs-review consistently, or explicitly document in the batch review policy that checked covers the retained supported claims after the invalid annotation is excluded. No change to the supported article thresholds is recommended."
+    }
+  ],
+  "existingSourceCaveats": [
+    {
+      "codes": [
+        "C0502"
+      ],
+      "severity": "medium",
+      "state": "Already disclosed and needs-review; not newly introduced by article",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        38
+      ],
+      "detail": "Rendered source confirms Signal is not valid = False, contradicting the invalid-pattern narrative. Keep its unresolved exact Boolean logic out of published diagnostic instructions."
+    },
+    {
+      "codes": [
+        "C0507"
+      ],
+      "severity": "informational",
+      "state": "Article safely withholds questionable numeric magnetic criterion",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        55
+      ],
+      "detail": "The rendered magnetic-density threshold has an unclear/malformed unit that appears as m. Five-rotation/speed/timing facts remain clear and correctly reported. No dimensional repair inference is made."
+    },
+    {
+      "codes": [
+        "P0072",
+        "P00EA"
+      ],
+      "severity": "informational",
+      "state": "Correctly omitted from article facts",
+      "detail": "Do not silently turn the original negative-temperature annotation into a claimed corrected positive value without an additional authoritative source."
+    }
+  ],
+  "deepVerification": [
+    {
+      "code": "C0003",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        35,
+        36
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "Valve-coil resistance 4.8/13.7 ohm limits, 4\u20136.5 A overcurrent band, 20% switching comparison, silent-test conditions and timing agree with both cited pages."
+    },
+    {
+      "code": "C0051",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        1036
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "All described EPS branches and 40/2/10/100 ms timings agree; RUN, 6\u201316 V scope and narrowly described emissions-related default are supported."
+    },
+    {
+      "code": "C0502",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        38
+      ],
+      "result": "Supported as scoped; source caveat preserved",
+      "method": "Primary laid-out text plus rendered visual inspection",
+      "assessment": "Supply current 0.055\u20130.16 A and 0.12 s agree. The published Boolean really reads Signal is not valid = False; the article correctly retains the conflict instead of asserting its precise logic."
+    },
+    {
+      "code": "C0505",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        1064
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "3.5 km/h, fail time >1 s, counter >2, 25 ms updates, FWD/variator/TOSS gates and post-fault zero substitution all agree."
+    },
+    {
+      "code": "C0507",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        55
+      ],
+      "result": "Supported as scoped; source caveat preserved",
+      "method": "Primary laid-out text plus rendered visual inspection",
+      "assessment": "Five rotations, >1.24 mph, 8 s at 3.1 mph/22 s near 1.24 mph, 3.6 s standstill test and >6 V supply agree. The unclear magnetic-density unit is not converted into an invented air gap."
+    },
+    {
+      "code": "C0508",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        52
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "Both current-based supply-short and invalid-pattern branches agree. Unlike C0502, this source actually says Signal is valid = False, so the differing caveat treatment is justified."
+    },
+    {
+      "code": "C0553",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        76
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "Direct-proportional threshold below -3.85 g, sensor-polarity caveat, 11 V supplies, U0073 gate, 30/75/120 s qualifications and zero default agree."
+    },
+    {
+      "code": "C057F",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        9
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "Resistance limits 0.01258/0.20358 ohm, 0.12 s timing, voltage-vector >1.5 V and 0.02 s branch are assigned to the correct code."
+    },
+    {
+      "code": "C05B0",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        21
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "The three calculated air-volume cases match: 2 cm3/>1 s replenishment, 1.5 cm3/>5 s transition, 1.5 cm3/>10 s power-cycle assessment. Professional boundaries and refusal to infer an external leak are appropriate."
+    },
+    {
+      "code": "P0054",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        94
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text plus rendered visual inspection",
+      "assessment": "5.7\u201311.7 ohm expectation, >28,800 s soak, coolant-IAT <8 C, coolant >-30 C, ignition <32 V and engine run time <0.05 s are present in the original rendered PDF."
+    },
+    {
+      "code": "P0068",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        95
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "MAP and MAF portions, relevant circuit-code participation, table-based rather than fixed residual thresholds, >800 rpm, >6.41 V and 0.1875 s combined failure agree."
+    },
+    {
+      "code": "P0072",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        100
+      ],
+      "result": "Supported as scoped; source caveat preserved",
+      "method": "Primary laid-out text plus rendered visual inspection",
+      "assessment": "<=46 ohm, 40/50 samples and 100 ms agree. Original rendered PDF confirms the conflicting -150 C annotation; article explicitly declines to use it."
+    },
+    {
+      "code": "P0089",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        103,
+        104
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "Delivery angle >=134 or <=0 degrees, 10/12.5 s, not-cranking gate, >=11 V, >0.275 MPa low side and stated prerequisite categories agree."
+    },
+    {
+      "code": "P00C6",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        113,
+        114
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "Cranking scope, rise enabled/fall disabled calibration, once-per-start logic, 6.25 ms sampling and >8 V agree. Article correctly withholds supporting-table pressure and timeout values."
+    },
+    {
+      "code": "P00EA",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        122
+      ],
+      "result": "Supported as scoped; source caveat preserved",
+      "method": "Primary laid-out text plus rendered visual inspection",
+      "assessment": "Raw resistance <57.94 ohm, 40/50 samples and 100 ms agree. Rendered PDF confirms the contradictory -150 C annotation, which article omits explicitly."
+    },
+    {
+      "code": "P0102",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        131
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "Continental inverse frequency/airflow relationship, <=1,050 Hz, running/supply gates and 150/190 cylinder-event qualification agree."
+    },
+    {
+      "code": "P0119",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        151,
+        152,
+        153
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "Actual 7.4 s time constant and -60/200 C bounds are correctly separated from the source generic example; five-of-six-second qualification and sensor scope agree."
+    },
+    {
+      "code": "P0122",
+      "sourceId": "gm-2025-03a",
+      "pages": [
+        157
+      ],
+      "result": "Supported as scoped",
+      "method": "Primary laid-out text including applicable continuation rows",
+      "assessment": "6.50% of 5 V = 0.325 V conversion, 79/159 or 57 consecutive counts at 3.125 ms, >6.41 V and reference-4/P06A3 gate agree."
+    }
+  ],
+  "overallAssessment": {
+    "newSubstantiveFactualErrorsFound": 0,
+    "unsupportedModelClaimsIdentifiedInFullEditorialRead": 0,
+    "unsupportedUniversalThresholdClaimsIdentifiedInFullEditorialRead": 0,
+    "unsafeRepairInstructionsIdentifiedInFullEditorialRead": 0,
+    "newLowSeverityRecommendations": 1,
+    "existingSourceReviewHoldPreserved": true,
+    "publicationApproval": false,
+    "limitation": "This is a complete editorial read plus an 18-article primary-source sample, not a 100-article fact audit, vehicle-specific repair validation or mechanic approval. No assertions are made that uncited monitor branches or other calibrations have been fully verified."
+  },
+  "filesReviewed": [
+    {
+      "code": "C0001",
+      "path": "content/code-articles/batch-01/C0001.md",
+      "sha256": "743298d53815b7980716cdb1a1dfd4cee81e30f4f5c11c168d0860cdc5c02fda",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0002",
+      "path": "content/code-articles/batch-01/C0002.md",
+      "sha256": "2b9087686f50eb7a86bf416e2d171414a72e0d293142eb80bd1524dff4dd7ef8",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0003",
+      "path": "content/code-articles/batch-01/C0003.md",
+      "sha256": "84653660e84fb8fbf5e3758880e889c0859c60d16a90f176827d0426feede2c9",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0004",
+      "path": "content/code-articles/batch-01/C0004.md",
+      "sha256": "5dbfa17b29d2be05fcd2b3fd3d21042dce7ab6131b8a471af5debec19f6698e4",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0011",
+      "path": "content/code-articles/batch-01/C0011.md",
+      "sha256": "390e9974c4f4aa9ffa7adb287fae2384c211690f8c187165b8a98c36f67b23f7",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0018",
+      "path": "content/code-articles/batch-01/C0018.md",
+      "sha256": "82569fcff0e006890e428c3002f56b48b4ec8f46b1944641ca5e5420e2663afc",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C001C",
+      "path": "content/code-articles/batch-01/C001C.md",
+      "sha256": "ee8c05ab0c9e2e5063f59bde9b28e4bedea8069242dd6d7d1054b93eaec10d3d",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C001D",
+      "path": "content/code-articles/batch-01/C001D.md",
+      "sha256": "646f1765992a9b24961b24efbfde7466e9c716fda099c4bce8af3e1780cec56b",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0024",
+      "path": "content/code-articles/batch-01/C0024.md",
+      "sha256": "1d074dddc8b9599cdc4cd27810cd8e00642f5a94135ae40f9e4b8b09cb0c43e8",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0051",
+      "path": "content/code-articles/batch-01/C0051.md",
+      "sha256": "04363ceb92dd9453fe731a712e041c1f4dc86977e0eda20b791ee084ce9eb425",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0501",
+      "path": "content/code-articles/batch-01/C0501.md",
+      "sha256": "922734e1d0615ea742e5fd8391de1a191170b8a69633daf1e0a7924995dbf18b",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0502",
+      "path": "content/code-articles/batch-01/C0502.md",
+      "sha256": "a6814d3ab7a2df15574ab8fa858e666d7058affdd1032f29d521fc191e350159",
+      "sourceReviewAtRead": "needs-review"
+    },
+    {
+      "code": "C0504",
+      "path": "content/code-articles/batch-01/C0504.md",
+      "sha256": "23de9979445b855465df39760d5a1ba3ed50f8630a846ab2c44e1a69497f9a17",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0505",
+      "path": "content/code-articles/batch-01/C0505.md",
+      "sha256": "08ed32776bb5040b817d9d292115a820f2028da91e74df561a06e0a6269531f3",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0507",
+      "path": "content/code-articles/batch-01/C0507.md",
+      "sha256": "e8eb108ecae154dec706045479a67ada0c8975b1628432ddb0ee67132430a7d7",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0508",
+      "path": "content/code-articles/batch-01/C0508.md",
+      "sha256": "ecf4cd52cc36e8a60baf63cff5de71f8000f341ae4f583a9589a247d9ef96794",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0509",
+      "path": "content/code-articles/batch-01/C0509.md",
+      "sha256": "b828d2b7443158ec1b81a561fb20ab8d315d0aa7d50a04b8d10b8841ec14e582",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C050A",
+      "path": "content/code-articles/batch-01/C050A.md",
+      "sha256": "91c144b43cbc457fbd9a348b42b540c82313777bfa0cbe7f0dc97c75c1a40af4",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C050B",
+      "path": "content/code-articles/batch-01/C050B.md",
+      "sha256": "98ef0fa8bb35e100bf49e150360c4aef9ccdfbf5ffca756b6386c67abc89648f",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C050C",
+      "path": "content/code-articles/batch-01/C050C.md",
+      "sha256": "ede75f9032629d09a8fd0aea25dada7edc6f26f860d9b5a852a1e4dae58c5fbf",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C050D",
+      "path": "content/code-articles/batch-01/C050D.md",
+      "sha256": "956f90dd72584ce5c826b63b35fc8522a1b803703360d65af42508421dc32414",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C050F",
+      "path": "content/code-articles/batch-01/C050F.md",
+      "sha256": "15425fdf8e61b631c412bb4a75a85c15d6077ef823e46cbc216367af720becdc",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0510",
+      "path": "content/code-articles/batch-01/C0510.md",
+      "sha256": "6f00660405d521c85413281e298333b4880f186c3bc204218676dcaed22ed08a",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0511",
+      "path": "content/code-articles/batch-01/C0511.md",
+      "sha256": "120bd7e08ec54b2bd6920742f955a62aacc27fd1ab965c644a9356b38d1c09d0",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0512",
+      "path": "content/code-articles/batch-01/C0512.md",
+      "sha256": "8adc4567fb8a3628c4e25573afa74d6df9155a3f8135f03c2d35e956d25677ac",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0513",
+      "path": "content/code-articles/batch-01/C0513.md",
+      "sha256": "2943f310b52acb411cbc542702e5ef94a863a49bbc1cd47e716f1edcd4a3b50f",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0515",
+      "path": "content/code-articles/batch-01/C0515.md",
+      "sha256": "40e9b60d6fb01984316e26156eaae2c310aa4faaa1b73df657216d4f0983a1e3",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0516",
+      "path": "content/code-articles/batch-01/C0516.md",
+      "sha256": "209470535d522b4e3c47f4a0a18f505de06b4091252779e169827d3736619441",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0517",
+      "path": "content/code-articles/batch-01/C0517.md",
+      "sha256": "7463763701c526f2f52f7add607ce7432f4d03d0673a06d9fc24c2413d27751f",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C053F",
+      "path": "content/code-articles/batch-01/C053F.md",
+      "sha256": "3c1b2696f5ea3661fd23444e161cce98fb61aec3f19323e62e962b355735a714",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0552",
+      "path": "content/code-articles/batch-01/C0552.md",
+      "sha256": "68b1f0e11f93c374dda8b83d11afe14bad48e80f094d3f071945965cb6f54ee2",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0553",
+      "path": "content/code-articles/batch-01/C0553.md",
+      "sha256": "62558a1a20962287975041658c1afbfcda517927437c351bee3fc3a51943b56f",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0554",
+      "path": "content/code-articles/batch-01/C0554.md",
+      "sha256": "0f1c2d25a7c542764cc817726229e81439a6327580df3e59fe812d4f7e6ec298",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C055F",
+      "path": "content/code-articles/batch-01/C055F.md",
+      "sha256": "58f550a538944f07d6decbd42c191fff711b3a9d55056927d3b7db7f75b3baa2",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C057F",
+      "path": "content/code-articles/batch-01/C057F.md",
+      "sha256": "75b5c51a32281825bb2e59a06da7bb4d496669abff4037a366364d4234d813a8",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0582",
+      "path": "content/code-articles/batch-01/C0582.md",
+      "sha256": "41a81ad43b8b642d7bd53c93ab65a7e6dd17045216658f73585a04673b600d81",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C0595",
+      "path": "content/code-articles/batch-01/C0595.md",
+      "sha256": "38c12d885607390ab22eea8a2f00c50da183335c90aa14b19379d9c74cd7a214",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C05B0",
+      "path": "content/code-articles/batch-01/C05B0.md",
+      "sha256": "661d2c1d25c27e6f845a087103321d5087f379ace142dc388027834373cd2a83",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "C05D5",
+      "path": "content/code-articles/batch-01/C05D5.md",
+      "sha256": "3c6a59bff584a1275e8b25d9b06b5b09f8169259d07ab2a66136d1182e98252c",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0010",
+      "path": "content/code-articles/batch-01/P0010.md",
+      "sha256": "975b47a66e358a50742685db4677f74162f032c3d94b830fa4417d1120f0c9d8",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0011",
+      "path": "content/code-articles/batch-01/P0011.md",
+      "sha256": "9784fe6d41fe5e12e97bc1b6fce327d9dd60d2daf694f17ad7a0886438df1376",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0013",
+      "path": "content/code-articles/batch-01/P0013.md",
+      "sha256": "c7a0f57ff0e79ccd8280680eb90b307ecb7fb0b71feedcd24926ae1bae9bdd1b",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0014",
+      "path": "content/code-articles/batch-01/P0014.md",
+      "sha256": "44da9a2f17e47f3159227e3b0143d05b2ef67dbba4c587961fb02db605ec0a60",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0016",
+      "path": "content/code-articles/batch-01/P0016.md",
+      "sha256": "adcbf3f107787884761d5163dc750f20d8f02587c526a2cac24de21131063fcb",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0017",
+      "path": "content/code-articles/batch-01/P0017.md",
+      "sha256": "24e129f25e499c27969fcacfa6d750dba626aa586bfbab63678d6ca92c48634f",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0030",
+      "path": "content/code-articles/batch-01/P0030.md",
+      "sha256": "311be3ae2c4aad52ad484d6e7e8ef63b42665fad2e8255f1c1dd719d6f295647",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0031",
+      "path": "content/code-articles/batch-01/P0031.md",
+      "sha256": "ec9e3e45627cca8ee8d9992b96efc1f5d9194a4e2a68719228cc06b0bb4d279a",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0032",
+      "path": "content/code-articles/batch-01/P0032.md",
+      "sha256": "c1c2115b62981a377eab5a8787489192792e486cd16b36d45b7a0e2a3882f003",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0033",
+      "path": "content/code-articles/batch-01/P0033.md",
+      "sha256": "9a88eeec98843c9a3fc7796e1a3722b82fa738636ebb041df4b7412312d2c208",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0034",
+      "path": "content/code-articles/batch-01/P0034.md",
+      "sha256": "a9648745ae46f1d052ae4085ef7b52bc9f7765cf40edcdfc5410b147df07d081",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0035",
+      "path": "content/code-articles/batch-01/P0035.md",
+      "sha256": "10e33d6a80c13be8b921a19b192dc5e8e484b5c8cdb866f5b596e2814e1995c4",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0036",
+      "path": "content/code-articles/batch-01/P0036.md",
+      "sha256": "88896748b51d7f338aba405f04296368b884e585e3f3cd2c9829850d378c4654",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0037",
+      "path": "content/code-articles/batch-01/P0037.md",
+      "sha256": "b2eb7bfed13d49a8b8556810292d325c9906c98adebc74f577139c804c8e3ca1",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0038",
+      "path": "content/code-articles/batch-01/P0038.md",
+      "sha256": "9fd21098fa448953705bde4573c92ae052927c0a256e1a32c566ae5cd151c5c6",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0054",
+      "path": "content/code-articles/batch-01/P0054.md",
+      "sha256": "f3f46e81d2fd3b8c8f3b91d0fb6754fac325338d45a1531efd486d94379356d0",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0068",
+      "path": "content/code-articles/batch-01/P0068.md",
+      "sha256": "e32fa5a8040538ac5f5e1df58774ffdc889c11b2c34f290d8ea5715d9fddf55a",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0071",
+      "path": "content/code-articles/batch-01/P0071.md",
+      "sha256": "7bdfd867352cced186e690105561b0715ba8aefd8d33d81914b27b0e4bbb227b",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0072",
+      "path": "content/code-articles/batch-01/P0072.md",
+      "sha256": "2b84eaf6f398416761aeeba911846c9a33279310e93d439effd0ce716b6d6b45",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0073",
+      "path": "content/code-articles/batch-01/P0073.md",
+      "sha256": "54e6e5f0605f47c1c90ba380b00e6009e6fecae583322602aee656e1b00ddad9",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0074",
+      "path": "content/code-articles/batch-01/P0074.md",
+      "sha256": "28fc5977803f712b88723a0abd90324c3fd2298854e35c2a7c431e269d040471",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0089",
+      "path": "content/code-articles/batch-01/P0089.md",
+      "sha256": "ac3ed368d775ef289db6556229cd7e562f4b62862aa4f8edad862ae367c86beb",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0090",
+      "path": "content/code-articles/batch-01/P0090.md",
+      "sha256": "d0ceb6c8c13a493f28713ffa2e4abd8e5c180fcbacca21c2a8cbf686c0987d53",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0091",
+      "path": "content/code-articles/batch-01/P0091.md",
+      "sha256": "75fa32fb6d97e796d59f26d0d0b31820ce43f4a3665c23de33ee2fe2af06a77b",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0092",
+      "path": "content/code-articles/batch-01/P0092.md",
+      "sha256": "11720225db2a1ba713c8d69c616e789f771e288b435672fe65dd5eeaf17c87ca",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0096",
+      "path": "content/code-articles/batch-01/P0096.md",
+      "sha256": "c614a18fa9bc28a2b0539ec4d5a043e4c073f2f5318c32b363ac6c7e7b86edf6",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0097",
+      "path": "content/code-articles/batch-01/P0097.md",
+      "sha256": "74782338bc36889496ecb6fe64b14ed118de783d9044051c9942a691f74584cd",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0098",
+      "path": "content/code-articles/batch-01/P0098.md",
+      "sha256": "99b034b5ad1b8718df3fc4b29a49a2fadf23147d8594028cdcd140e07a533c60",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0099",
+      "path": "content/code-articles/batch-01/P0099.md",
+      "sha256": "c194d71e97c1f92c06fcc4239c3f0e825c63ead16b9ab6c266731f068b2d4cbe",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00C6",
+      "path": "content/code-articles/batch-01/P00C6.md",
+      "sha256": "d06dcf54e59691a0814f9b837f8ed0767591f3267fd1974889d2d0dc6da327f8",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00C7",
+      "path": "content/code-articles/batch-01/P00C7.md",
+      "sha256": "bbb50961dfb16e5b716043b4b894c1afcfa39e3cf273dff44e916b66a4601649",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00C9",
+      "path": "content/code-articles/batch-01/P00C9.md",
+      "sha256": "04858bd00d57d91777ef2b64a1e640f67da936accd1e5111808682e3ea072a64",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00CA",
+      "path": "content/code-articles/batch-01/P00CA.md",
+      "sha256": "0af0bd127816f7e9fee4e50ae2f50e969c9feccb721a0d7befb7637ae37bd449",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00E9",
+      "path": "content/code-articles/batch-01/P00E9.md",
+      "sha256": "8415a987e707c52fa44374459b39aac8e2b4f4e20684e2b6631a5994ef5322c5",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00EA",
+      "path": "content/code-articles/batch-01/P00EA.md",
+      "sha256": "f483f7bf927f3896de5aba067ff2240b6cbca73e458f23ec4fb152d45767c835",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00EB",
+      "path": "content/code-articles/batch-01/P00EB.md",
+      "sha256": "2b0a0aaa0846628108b949ae3593fb61f005c366e9e0d4ef6b912f0017a9a297",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00EC",
+      "path": "content/code-articles/batch-01/P00EC.md",
+      "sha256": "b70bda7968b15a1d4bbd870c3aaad9275e78e6dbcc037bae1718e4a5510aa438",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00F4",
+      "path": "content/code-articles/batch-01/P00F4.md",
+      "sha256": "a8b1cfc1a332fd4f002f1b3156a5be4e51eae1d2c1f1d220cc0e9cb6b5ee0d99",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00F5",
+      "path": "content/code-articles/batch-01/P00F5.md",
+      "sha256": "f2cc292354dc48cd72c26bf74918149b2bc0979af08ca3cd3dfcfc9f1eea18c1",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P00F6",
+      "path": "content/code-articles/batch-01/P00F6.md",
+      "sha256": "18750fbe4a5428aba4929745d3cf7b3d7895f61673c8bd371916440af56c7c11",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0101",
+      "path": "content/code-articles/batch-01/P0101.md",
+      "sha256": "b24aef05f35507d1b419aff28da1d849599b4247900b9a63aa7e73e5df3b5a42",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0102",
+      "path": "content/code-articles/batch-01/P0102.md",
+      "sha256": "a167475adfe260f77e4fb3cecae5751d70a30fbb9ff7b06f0f8a3d3c5161887e",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0103",
+      "path": "content/code-articles/batch-01/P0103.md",
+      "sha256": "d6616a69599e50f2f5996edb6e2c48fe789fbf5e2abea31351f1948951467b06",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0106",
+      "path": "content/code-articles/batch-01/P0106.md",
+      "sha256": "a2e8f50eb6d8cdfadb93861c7934d6cf889909d39a389e4fda14c9ee686b2dd6",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0107",
+      "path": "content/code-articles/batch-01/P0107.md",
+      "sha256": "1e14471980e9b5e898c8305a61f3bd9bab091ef6e9a5a30d5847ec4d804f37dc",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0108",
+      "path": "content/code-articles/batch-01/P0108.md",
+      "sha256": "2ffe0276a5d853610e1eb84be01dfce8851118d198e67e16e8cb985c27e60227",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0111",
+      "path": "content/code-articles/batch-01/P0111.md",
+      "sha256": "becbce125f1d64a49190c777dcaed94e1a37264d1644fde184a8c02a6ae379aa",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0112",
+      "path": "content/code-articles/batch-01/P0112.md",
+      "sha256": "1c53561af9ecdc6103b5d2c9b790c6cd2412e4510359d99c4d52e47532597769",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0113",
+      "path": "content/code-articles/batch-01/P0113.md",
+      "sha256": "d301bbc6bcd5ddde053c1bafd80662e3b6e21ca0f5bf68f3bf6c9f4195f6381c",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0114",
+      "path": "content/code-articles/batch-01/P0114.md",
+      "sha256": "e6f7c9d932d9f5094bfa60f068d762ba3df9a37b364e9a949edd225076090731",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0116",
+      "path": "content/code-articles/batch-01/P0116.md",
+      "sha256": "7acc3c31e0d3db7d69bf7a70795a834cca18945f99e958a687a8613c7d1d8a69",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0117",
+      "path": "content/code-articles/batch-01/P0117.md",
+      "sha256": "49418b82195fb6ce898c7ac5cedb2aee17c1708d9e2d3b9d5386f0715d85173b",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0118",
+      "path": "content/code-articles/batch-01/P0118.md",
+      "sha256": "6888daeed2ecc859889a30581643dea56b5dd6f1cd6c1d15223508ab431a71ed",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0119",
+      "path": "content/code-articles/batch-01/P0119.md",
+      "sha256": "c51819c765f464ac19a7dc238514df85dcf0e7af8eadedacc0b299f7a78f4198",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0121",
+      "path": "content/code-articles/batch-01/P0121.md",
+      "sha256": "0b631abccc97c8c9ac3fdfa9a1a0274acd351b993bcf1cf59b42aa76f7c90337",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0122",
+      "path": "content/code-articles/batch-01/P0122.md",
+      "sha256": "91ac384a4f25508655c9d7ea5750b32890747a9c38013e055bf65f53be17bad8",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0123",
+      "path": "content/code-articles/batch-01/P0123.md",
+      "sha256": "73d7e9764f0a030785969e64260a4684f4cb6c8ac793390772755f055f4206cf",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0128",
+      "path": "content/code-articles/batch-01/P0128.md",
+      "sha256": "7c4cf31155cc8b528ed670be47848b3cbb51d38cccfedde0e2a527536fa5f379",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0131",
+      "path": "content/code-articles/batch-01/P0131.md",
+      "sha256": "233480d49614d44f89f9d39378c9c835ef826eb0b5efe72bca421993c825b820",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0132",
+      "path": "content/code-articles/batch-01/P0132.md",
+      "sha256": "8665b4b0e88e805c12b4570e3c966fb5221810062bf5576ee27b3da08f1220a5",
+      "sourceReviewAtRead": "checked"
+    },
+    {
+      "code": "P0133",
+      "path": "content/code-articles/batch-01/P0133.md",
+      "sha256": "42d029ab788f075bdf88276d3a811faff5135f7b1b13a413386c48d476dde4d4",
+      "sourceReviewAtRead": "checked"
+    }
+  ],
+  "mutations": {
+    "articlesModified": false,
+    "sharedManifestsModified": false,
+    "reportOnly": "reports/editorial-review-batch-01.json"
+  },
+  "integrationResolution": {
+    "status": "corrected",
+    "by": "root",
+    "action": "P0072 and P00EA now have sourceReview=needs-review to align metadata with their explicitly described temperature-annotation conflicts. Article explanations and source limitations remain."
+  }
+}

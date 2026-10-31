@@ -1,0 +1,3211 @@
+[
+  {
+    "entryId": "generic-p2090",
+    "code": "P2090",
+    "dictionaryTitle": "B Camshaft Position Actuator Control Circuit Low Bank 1",
+    "canonicalPath": "/codes/generic/p2090/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 586,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 745,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2091",
+    "code": "P2091",
+    "dictionaryTitle": "B Camshaft Position Actuator Control Circuit High Bank 1",
+    "canonicalPath": "/codes/generic/p2091/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 587,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2096",
+    "code": "P2096",
+    "dictionaryTitle": "Post Catalyst Fuel Trim System Too Lean Bank 1",
+    "canonicalPath": "/codes/generic/p2096/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 588,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 232,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2097",
+    "code": "P2097",
+    "dictionaryTitle": "Post Catalyst Fuel Trim System Too Rich Bank 1",
+    "canonicalPath": "/codes/generic/p2097/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 592,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 240,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2101",
+    "code": "P2101",
+    "dictionaryTitle": "Throttle Actuator A Control Motor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p2101/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 594,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 760,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2119",
+    "code": "P2119",
+    "dictionaryTitle": "Throttle Actuator A Control Throttle Body Range/Performance",
+    "canonicalPath": "/codes/generic/p2119/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 596,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 770,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 773,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 775,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 778,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2122",
+    "code": "P2122",
+    "dictionaryTitle": "Throttle/Pedal Position Sensor/Switch D Circuit Low",
+    "canonicalPath": "/codes/generic/p2122/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 597,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 785,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2123",
+    "code": "P2123",
+    "dictionaryTitle": "Throttle/Pedal Position Sensor/Switch D Circuit High",
+    "canonicalPath": "/codes/generic/p2123/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 598,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 786,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 613,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2127",
+    "code": "P2127",
+    "dictionaryTitle": "Throttle/Pedal Position Sensor/Switch E Circuit Low",
+    "canonicalPath": "/codes/generic/p2127/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 599,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 787,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2128",
+    "code": "P2128",
+    "dictionaryTitle": "Throttle/Pedal Position Sensor/Switch E Circuit High",
+    "canonicalPath": "/codes/generic/p2128/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 600,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 788,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2135",
+    "code": "P2135",
+    "dictionaryTitle": "Throttle/Pedal Position Sensor/Switch A/B Voltage Correlation",
+    "canonicalPath": "/codes/generic/p2135/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 601,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2138",
+    "code": "P2138",
+    "dictionaryTitle": "Throttle/Pedal Position Sensor/Switch D/E Voltage Correlation",
+    "canonicalPath": "/codes/generic/p2138/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 602,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 789,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 614,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2147",
+    "code": "P2147",
+    "dictionaryTitle": "Fuel Injector Group A Supply Voltage Circuit Low",
+    "canonicalPath": "/codes/generic/p2147/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 603,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 1401,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2148",
+    "code": "P2148",
+    "dictionaryTitle": "Fuel Injector Group A Supply Voltage Circuit High",
+    "canonicalPath": "/codes/generic/p2148/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 604,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 1402,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2150",
+    "code": "P2150",
+    "dictionaryTitle": "Fuel Injector Group B Supply Voltage Circuit Low",
+    "canonicalPath": "/codes/generic/p2150/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 605,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 1403,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2151",
+    "code": "P2151",
+    "dictionaryTitle": "Fuel Injector Group B Supply Voltage Circuit High",
+    "canonicalPath": "/codes/generic/p2151/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 606,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 1404,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2153",
+    "code": "P2153",
+    "dictionaryTitle": "Fuel Injector Group C Supply Voltage Circuit Low",
+    "canonicalPath": "/codes/generic/p2153/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 607,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 1405,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2154",
+    "code": "P2154",
+    "dictionaryTitle": "Fuel Injector Group C Supply Voltage Circuit High",
+    "canonicalPath": "/codes/generic/p2154/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 608,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 1406,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p215a",
+    "code": "P215A",
+    "dictionaryTitle": "Vehicle Speed - Wheel Speed Correlation",
+    "canonicalPath": "/codes/generic/p215a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 65,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 111,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2176",
+    "code": "P2176",
+    "dictionaryTitle": "Throttle Actuator A Control System - Idle Position Not Learned",
+    "canonicalPath": "/codes/generic/p2176/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 609,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 752,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p219a",
+    "code": "P219A",
+    "dictionaryTitle": "Bank 1 Air-Fuel Ratio Imbalance",
+    "canonicalPath": "/codes/generic/p219a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 610,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 611,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 613,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2228",
+    "code": "P2228",
+    "dictionaryTitle": "Barometric Pressure Sensor A Circuit Low",
+    "canonicalPath": "/codes/generic/p2228/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 616,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 798,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2229",
+    "code": "P2229",
+    "dictionaryTitle": "Barometric Pressure Sensor A Circuit High",
+    "canonicalPath": "/codes/generic/p2229/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 617,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 799,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 566,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2230",
+    "code": "P2230",
+    "dictionaryTitle": "Barometric Pressure Sensor A Circuit Intermittent/Erratic",
+    "canonicalPath": "/codes/generic/p2230/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 618,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 800,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2237",
+    "code": "P2237",
+    "dictionaryTitle": "O2 Sensor Positive Current Control Circuit/Open Bank 1 Sensor 1",
+    "canonicalPath": "/codes/generic/p2237/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 619,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 303,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p223c",
+    "code": "P223C",
+    "dictionaryTitle": "O2 Sensor Pumping Current Range/Performance Bank 1",
+    "canonicalPath": "/codes/generic/p223c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 621,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p223e",
+    "code": "P223E",
+    "dictionaryTitle": "O2 Sensor Reference Resistance Out Of Range Bank 1",
+    "canonicalPath": "/codes/generic/p223e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 622,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2243",
+    "code": "P2243",
+    "dictionaryTitle": "O2 Sensor Reference Voltage Circuit/Open Bank 1 Sensor 1",
+    "canonicalPath": "/codes/generic/p2243/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 623,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 288,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2251",
+    "code": "P2251",
+    "dictionaryTitle": "O2 Sensor Negative Current Control Circuit/Open Bank 1 Sensor 1",
+    "canonicalPath": "/codes/generic/p2251/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 624,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 323,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2261",
+    "code": "P2261",
+    "dictionaryTitle": "Turbocharger/Supercharger Bypass Valve A - Mechanical",
+    "canonicalPath": "/codes/generic/p2261/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 626,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2269",
+    "code": "P2269",
+    "dictionaryTitle": "Water in Fuel Condition - Sensor A",
+    "canonicalPath": "/codes/generic/p2269/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 627,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2270",
+    "code": "P2270",
+    "dictionaryTitle": "O2 Sensor Signal Biased/Stuck Lean Bank 1 Sensor 2",
+    "canonicalPath": "/codes/generic/p2270/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 277,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 628,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 476,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2271",
+    "code": "P2271",
+    "dictionaryTitle": "O2 Sensor Signal Biased/Stuck Rich Bank 1 Sensor 2",
+    "canonicalPath": "/codes/generic/p2271/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 631,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 483,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p227c",
+    "code": "P227C",
+    "dictionaryTitle": "Barometric Pressure Sensor C Circuit Low",
+    "canonicalPath": "/codes/generic/p227c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 633,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 803,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p227d",
+    "code": "P227D",
+    "dictionaryTitle": "Barometric Pressure Sensor C Circuit High",
+    "canonicalPath": "/codes/generic/p227d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 634,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 804,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p227e",
+    "code": "P227E",
+    "dictionaryTitle": "Barometric Pressure Sensor C Circuit Intermittent/Erratic",
+    "canonicalPath": "/codes/generic/p227e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 635,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 805,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p228c",
+    "code": "P228C",
+    "dictionaryTitle": "Fuel Pressure Regulator A Exceeded Control Limits - Pressure Too Low",
+    "canonicalPath": "/codes/generic/p228c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 636,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 808,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 723,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p228d",
+    "code": "P228D",
+    "dictionaryTitle": "Fuel Pressure Regulator A Exceeded Control Limits - Pressure Too High",
+    "canonicalPath": "/codes/generic/p228d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 638,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 810,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 720,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2300",
+    "code": "P2300",
+    "dictionaryTitle": "Ignition Coil A Primary Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2300/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 640,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2301",
+    "code": "P2301",
+    "dictionaryTitle": "Ignition Coil A Primary Control Circuit High",
+    "canonicalPath": "/codes/generic/p2301/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 641,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 697,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2303",
+    "code": "P2303",
+    "dictionaryTitle": "Ignition Coil B Primary Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2303/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 642,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2304",
+    "code": "P2304",
+    "dictionaryTitle": "Ignition Coil B Primary Control Circuit High",
+    "canonicalPath": "/codes/generic/p2304/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 643,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 698,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2306",
+    "code": "P2306",
+    "dictionaryTitle": "Ignition Coil C Primary Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2306/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 644,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2307",
+    "code": "P2307",
+    "dictionaryTitle": "Ignition Coil C Primary Control Circuit High",
+    "canonicalPath": "/codes/generic/p2307/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 645,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 699,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2400",
+    "code": "P2400",
+    "dictionaryTitle": "EVAP System Leak Detection Pump Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2400/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 646,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2401",
+    "code": "P2401",
+    "dictionaryTitle": "EVAP System Leak Detection Pump Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2401/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 647,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2402",
+    "code": "P2402",
+    "dictionaryTitle": "EVAP System Leak Detection Pump Control Circuit High",
+    "canonicalPath": "/codes/generic/p2402/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 648,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2418",
+    "code": "P2418",
+    "dictionaryTitle": "EVAP System Switching Valve Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2418/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 649,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2419",
+    "code": "P2419",
+    "dictionaryTitle": "EVAP System Switching Valve Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2419/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 650,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2420",
+    "code": "P2420",
+    "dictionaryTitle": "EVAP System Switching Valve Control Circuit High",
+    "canonicalPath": "/codes/generic/p2420/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 651,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2450",
+    "code": "P2450",
+    "dictionaryTitle": "EVAP System Switching Valve Performance/Stuck Open",
+    "canonicalPath": "/codes/generic/p2450/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 652,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p24b9",
+    "code": "P24B9",
+    "dictionaryTitle": "EVAP System Leak Detection Pump Pressure Sensor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p24b9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 654,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 655,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p24ba",
+    "code": "P24BA",
+    "dictionaryTitle": "EVAP System Leak Detection Pump Pressure Sensor Circuit Low",
+    "canonicalPath": "/codes/generic/p24ba/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 656,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p24bb",
+    "code": "P24BB",
+    "dictionaryTitle": "EVAP System Leak Detection Pump Pressure Sensor Circuit High",
+    "canonicalPath": "/codes/generic/p24bb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 657,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2534",
+    "code": "P2534",
+    "dictionaryTitle": "Ignition Switch On/Start Position Circuit Low",
+    "canonicalPath": "/codes/generic/p2534/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1167,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 838,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2200,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2535",
+    "code": "P2535",
+    "dictionaryTitle": "Ignition Switch On/Start Position Circuit High",
+    "canonicalPath": "/codes/generic/p2535/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 37,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1168,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 839,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2201,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 99,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2544",
+    "code": "P2544",
+    "dictionaryTitle": "Torque Management Request Input Signal A",
+    "canonicalPath": "/codes/generic/p2544/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 658,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 840,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p257d",
+    "code": "P257D",
+    "dictionaryTitle": "Engine Hood Switch Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p257d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 659,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 109,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p257e",
+    "code": "P257E",
+    "dictionaryTitle": "Engine Hood Switch Circuit Low",
+    "canonicalPath": "/codes/generic/p257e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 660,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 110,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p257f",
+    "code": "P257F",
+    "dictionaryTitle": "Engine Hood Switch Circuit High",
+    "canonicalPath": "/codes/generic/p257f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 661,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 111,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p261f",
+    "code": "P261F",
+    "dictionaryTitle": "Coolant Pump A Control Circuit Stuck On",
+    "canonicalPath": "/codes/generic/p261f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 662,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 842,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2626",
+    "code": "P2626",
+    "dictionaryTitle": "O2 Sensor Pumping Current Trim Circuit/Open Bank 1 Sensor 1",
+    "canonicalPath": "/codes/generic/p2626/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 663,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 331,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p262b",
+    "code": "P262B",
+    "dictionaryTitle": "Control Module Power Off Timer Performance",
+    "canonicalPath": "/codes/generic/p262b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 665,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 112,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 843,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 42,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2670",
+    "code": "P2670",
+    "dictionaryTitle": "Actuator Supply Voltage B Circuit Low",
+    "canonicalPath": "/codes/generic/p2670/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1169,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2202,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2714",
+    "code": "P2714",
+    "dictionaryTitle": "Pressure Control Solenoid D Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p2714/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1170,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2203,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2718",
+    "code": "P2718",
+    "dictionaryTitle": "Pressure Control Solenoid D Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2718/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1173,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2218,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2720",
+    "code": "P2720",
+    "dictionaryTitle": "Pressure Control Solenoid D Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2720/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1174,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2219,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2721",
+    "code": "P2721",
+    "dictionaryTitle": "Pressure Control Solenoid D Control Circuit High",
+    "canonicalPath": "/codes/generic/p2721/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1175,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2220,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2723",
+    "code": "P2723",
+    "dictionaryTitle": "Pressure Control Solenoid E Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p2723/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1176,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2221,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2724",
+    "code": "P2724",
+    "dictionaryTitle": "Pressure Control Solenoid E Stuck On",
+    "canonicalPath": "/codes/generic/p2724/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1178,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2225,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2454,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2455,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2456,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2458,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2459,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2545,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2546,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2547,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2549,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2550,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 1023,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2727",
+    "code": "P2727",
+    "dictionaryTitle": "Pressure Control Solenoid E Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2727/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1182,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2236,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 925,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2729",
+    "code": "P2729",
+    "dictionaryTitle": "Pressure Control Solenoid E Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2729/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1183,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2237,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2730",
+    "code": "P2730",
+    "dictionaryTitle": "Pressure Control Solenoid E Control Circuit High",
+    "canonicalPath": "/codes/generic/p2730/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1184,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2238,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 940,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2736",
+    "code": "P2736",
+    "dictionaryTitle": "Pressure Control Solenoid F Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2736/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1185,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2254,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2737",
+    "code": "P2737",
+    "dictionaryTitle": "Pressure Control Solenoid F Control Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p2737/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1186,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1292,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2738",
+    "code": "P2738",
+    "dictionaryTitle": "Pressure Control Solenoid F Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2738/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1192,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2255,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 931,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2739",
+    "code": "P2739",
+    "dictionaryTitle": "Pressure Control Solenoid F Control Circuit High",
+    "canonicalPath": "/codes/generic/p2739/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1193,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2256,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2796",
+    "code": "P2796",
+    "dictionaryTitle": "Electric/Auxiliary Transmission Fluid Pump A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p2796/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1194,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2257,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2797",
+    "code": "P2797",
+    "dictionaryTitle": "Electric/Auxiliary Transmission Fluid Pump A Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p2797/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1195,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2258,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 948,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2798",
+    "code": "P2798",
+    "dictionaryTitle": "Electric/Auxiliary Transmission Fluid Pump A Control Circuit Low",
+    "canonicalPath": "/codes/generic/p2798/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1196,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2262,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2799",
+    "code": "P2799",
+    "dictionaryTitle": "Electric/Auxiliary Transmission Fluid Pump A Control Circuit High",
+    "canonicalPath": "/codes/generic/p2799/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1197,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2263,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27a7",
+    "code": "P27A7",
+    "dictionaryTitle": "Pressure Control Solenoid A Data Incompatible",
+    "canonicalPath": "/codes/generic/p27a7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1198,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2264,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27a8",
+    "code": "P27A8",
+    "dictionaryTitle": "Pressure Control Solenoid B Data Incompatible",
+    "canonicalPath": "/codes/generic/p27a8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1200,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2266,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27a9",
+    "code": "P27A9",
+    "dictionaryTitle": "Pressure Control Solenoid C Data Incompatible",
+    "canonicalPath": "/codes/generic/p27a9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1202,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2268,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27aa",
+    "code": "P27AA",
+    "dictionaryTitle": "Pressure Control Solenoid D Data Incompatible",
+    "canonicalPath": "/codes/generic/p27aa/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1204,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2270,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27ab",
+    "code": "P27AB",
+    "dictionaryTitle": "Pressure Control Solenoid E Data Incompatible",
+    "canonicalPath": "/codes/generic/p27ab/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1206,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2272,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p27ac",
+    "code": "P27AC",
+    "dictionaryTitle": "Pressure Control Solenoid F Data Incompatible",
+    "canonicalPath": "/codes/generic/p27ac/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1208,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 2274,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2802",
+    "code": "P2802",
+    "dictionaryTitle": "Transmission Range Sensor B Circuit Low",
+    "canonicalPath": "/codes/generic/p2802/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 666,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2803",
+    "code": "P2803",
+    "dictionaryTitle": "Transmission Range Sensor B Circuit High",
+    "canonicalPath": "/codes/generic/p2803/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 667,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2805",
+    "code": "P2805",
+    "dictionaryTitle": "Transmission Range Sensor A/B Correlation",
+    "canonicalPath": "/codes/generic/p2805/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1210,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b00",
+    "code": "P2B00",
+    "dictionaryTitle": "Cylinder 1 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b00/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 668,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b01",
+    "code": "P2B01",
+    "dictionaryTitle": "Cylinder 2 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b01/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 669,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1021,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1023,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1024,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b02",
+    "code": "P2B02",
+    "dictionaryTitle": "Cylinder 3 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b02/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 670,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 1022,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b08",
+    "code": "P2B08",
+    "dictionaryTitle": "Cold Start Cylinder 1 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b08/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 671,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b09",
+    "code": "P2B09",
+    "dictionaryTitle": "Cold Start Cylinder 2 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b09/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 672,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b0a",
+    "code": "P2B0A",
+    "dictionaryTitle": "Cold Start Cylinder 3 Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b0a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 673,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b86",
+    "code": "P2B86",
+    "dictionaryTitle": "Coolant Pump A Overspeed/Air in System",
+    "canonicalPath": "/codes/generic/p2b86/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 674,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 861,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b87",
+    "code": "P2B87",
+    "dictionaryTitle": "Coolant Pump A Underspeed",
+    "canonicalPath": "/codes/generic/p2b87/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 677,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-04b",
+        "page": 864,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-04b.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG04B.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG04B.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "chevrolet",
+          "gmc"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b95",
+    "code": "P2B95",
+    "dictionaryTitle": "Cold Start Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b95/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 680,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 539,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b96",
+    "code": "P2B96",
+    "dictionaryTitle": "Injection Pulse Performance",
+    "canonicalPath": "/codes/generic/p2b96/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2025-03a",
+        "page": 684,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-03a.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG03A.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG03A.pdf. File-level makes are explicitly listed in the official 2025 application matrix. Each code still requires engine, model and calibration review within its own section.",
+        "makeIds": [
+          "buick",
+          "cadillac",
+          "chevrolet",
+          "gmc"
+        ]
+      },
+      {
+        "sourceId": "gm-2025-07a-2",
+        "page": 540,
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/gm-2025-07a-2.txt",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2025/25OBDG07A%20Part%202.pdf",
+        "scope": "2025 GM diagnostic parameter file 25OBDG07A Part 2. Exact model/engine applicability requires the separate official 2025 file matrix and the document section. No per-code vehicle or engine applicability has been verified.",
+        "makeIds": []
+      }
+    ]
+  }
+]
