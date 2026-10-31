@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T20:24:32.224Z",
+  "generatedAt": "2026-10-31T09:19:16.909Z",
   "site": "https://cars.errhive.com",
   "minimumReviewedCodeArticles": 10000,
   "targetMet": false,
@@ -21,7 +21,7 @@
     "submittedArticleRecords": 0,
     "rejectedArticleRecords": 0
   },
-  "writtenDrafts": {
+  "manuscripts": {
     "assigned": 3000,
     "written": 3000,
     "uniqueCodes": 3000,
@@ -30,7 +30,17 @@
     "words": 819235,
     "minimumWords": 183,
     "maximumWords": 345,
-    "publishedByThisBatch": 0
+    "selectedForPublication": 3000,
+    "notSelectedForPublication": 0,
+    "selectedSourceChecked": 2483,
+    "selectedSourceReviewPending": 517
+  },
+  "publication": {
+    "selectedForPublication": 3000,
+    "notSelectedForPublication": 0,
+    "renderedManuscriptPages": 3000,
+    "renderedWithSourceReviewPending": 517,
+    "liveDeploymentVerification": "not-measured-by-this-report"
   },
   "dictionaryInventoryFloorMet": true,
   "counts": {
@@ -45,8 +55,8 @@
     "sources": 78,
     "systems": 4,
     "authoredDiagnosticGuides": 32,
-    "htmlPages": 12285,
-    "indexableUrls": 12283,
+    "htmlPages": 12315,
+    "indexableUrls": 12313,
     "uniqueDisplayedCodes": 10043,
     "modelBulletins": 26,
     "sourceUrls": 78,
@@ -83,6 +93,6 @@
     "powertrain": 9891,
     "network": 1228
   },
-  "countingRule": "The target counts separately authored and reviewed code-article records only. Dictionary entries, scoped case guides, source candidates, aliases and model hubs are reported separately and cannot satisfy it.",
+  "countingRule": "The full-catalog review target counts separately authored and claim-reviewed code-article records only. Written manuscripts, explicit renderer selection, static rendered bodies and live deployment verification are separate states; selection never invents claim-level approval. Dictionary entries, scoped case guides, source candidates, aliases and model hubs cannot satisfy the article target.",
   "definitionEvidence": "Community reference definitions retain upstream source row, revision and file hashes. OEM contextual guidance is separately attributed and does not turn the entire dataset into manufacturer-verified definitions."
 }

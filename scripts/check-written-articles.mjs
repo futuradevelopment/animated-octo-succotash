@@ -4,10 +4,14 @@ import {readDiagnosticSourceIndex} from './diagnostic-sources.mjs';
 
 const root=process.cwd();
 const manifest=JSON.parse(await fs.readFile(path.join(root,'research/article-assignments/manifest.json'),'utf8'));
+const publication=JSON.parse(await fs.readFile(path.join(root,'content/code-articles/publication.json'),'utf8'));
+const publicationBatches=new Set(Array.isArray(publication.batches)?publication.batches:[]);
+if(publication.schemaVersion!==1||!Array.isArray(publication.batches)||publicationBatches.size!==publication.batches.length||(!Number.isInteger(publication.expectedArticles)||publication.expectedArticles<0))throw new Error('Invalid publication manifest');
 const sources=(await readDiagnosticSourceIndex(path.join(root,'src/data/diagnostic-source-index.json'))).sources;
 const sourceMap=new Map(sources.map(source=>[source.id,source]));
 const failures=[],warnings=[],articles=[],batches=[];
 const bodies=new Map();
+for(const batch of publicationBatches)if(!manifest.batches.some(item=>item.batch===batch))failures.push({batch,issue:'publication_batch_unassigned'});
 const assignedEntries=new Set(),assignedCodes=new Set();
 const exactCode=/^[PBCU][0-3][0-9A-F]{3}$/;
 for(const batch of manifest.batches){
@@ -33,7 +37,8 @@ for(const batch of manifest.batches){
   if(metadata.authoringBatch!==batch.batch)issues.push('batch_mismatch');
   if(!metadata.title?.includes(code)||!metadata.description?.trim())issues.push('missing_search_metadata');
   if(!/[.!?]$/.test(metadata.description?.trim()||''))issues.push('incomplete_search_description');
-  if(metadata.status!=='draft')issues.push('unexpected_publication_status');
+  // Authoring metadata remains independent of the explicit renderer selection.
+  if(metadata.status!=='draft')issues.push('unexpected_authoring_status');
   if(!['checked','needs-review'].includes(metadata.sourceReview))issues.push('missing_source_review_state');
   if(!metadata.scope?.trim())issues.push('missing_scope');
   if(wordCount<150)issues.push('insufficient_written_content');
@@ -53,7 +58,7 @@ for(const batch of manifest.batches){
   if(bodies.has(normalized))issues.push(`duplicate_body:${bodies.get(normalized)}`);else bodies.set(normalized,relativePath);
   if(metadata.sourceReview==='needs-review')warnings.push({file:relativePath,issue:'source_review_pending'});
   failures.push(...issues.map(issue=>({file:relativePath,issue})));
-  articles.push({code,entryId:metadata.entryId,batch:batch.batch,path:relativePath,title:metadata.title,wordCount,sourceReview:metadata.sourceReview,sourceIds:metadata.sourceIds,sourcePages:metadata.sourcePages,sourceLocators:metadata.sourceLocators});written++;
+  articles.push({code,entryId:metadata.entryId,batch:batch.batch,path:relativePath,title:metadata.title,wordCount,selectedForPublication:publicationBatches.has(batch.batch),sourceReview:metadata.sourceReview,sourceIds:metadata.sourceIds,sourcePages:metadata.sourcePages,sourceLocators:metadata.sourceLocators});written++;
  }
  batches.push({batch:batch.batch,assigned:assignments.length,written,missing:assignments.filter(item=>!articles.some(article=>article.entryId===item.entryId)).map(item=>item.code)});
 }
@@ -61,9 +66,11 @@ const uniqueEntries=new Set(articles.map(article=>article.entryId));
 if(uniqueEntries.size!==articles.length)failures.push({issue:'duplicate_assigned_entries'});
 if(assignedEntries.size!==manifest.target)failures.push({issue:'manifest_target_mismatch'});
 if(new Set(articles.map(article=>article.code)).size!==articles.length)failures.push({issue:'duplicate_written_codes'});
-const counts={assigned:manifest.target,written:articles.length,uniqueCodes:new Set(articles.map(article=>article.code)).size,sourceCheckedDrafts:articles.filter(article=>article.sourceReview==='checked').length,sourceReviewPending:articles.filter(article=>article.sourceReview==='needs-review').length,words:articles.reduce((sum,article)=>sum+article.wordCount,0),minimumWords:articles.length?Math.min(...articles.map(article=>article.wordCount)):0,maximumWords:articles.length?Math.max(...articles.map(article=>article.wordCount)):0,publishedByThisBatch:0};
-const waves=(manifest.waves||[]).map(wave=>{const rows=articles.filter(article=>wave.batches.includes(article.batch));return {wave:wave.wave,assigned:wave.target,written:rows.length,uniqueCodes:new Set(rows.map(article=>article.code)).size,sourceCheckedDrafts:rows.filter(article=>article.sourceReview==='checked').length,sourceReviewPending:rows.filter(article=>article.sourceReview==='needs-review').length,words:rows.reduce((sum,article)=>sum+article.wordCount,0)};});
-const report={checkedAt:new Date().toISOString(),status:failures.length?'failed':articles.length===manifest.target?'writing-complete':'in-progress',counts,waves,batches,failures,warnings,limitations:['This report measures written drafts and metadata integrity, not mechanical accuracy, human review, live publication, indexing or traffic.',`The overall 10,000+ code-article goal remains separate from these ${manifest.target.toLocaleString('en-US')} assigned manuscripts.`],articles};
+const selectedArticles=articles.filter(article=>article.selectedForPublication);
+if(selectedArticles.length!==publication.expectedArticles)failures.push({issue:'publication_article_count_mismatch',expected:publication.expectedArticles,actual:selectedArticles.length});
+const counts={assigned:manifest.target,written:articles.length,uniqueCodes:new Set(articles.map(article=>article.code)).size,sourceCheckedDrafts:articles.filter(article=>article.sourceReview==='checked').length,sourceReviewPending:articles.filter(article=>article.sourceReview==='needs-review').length,words:articles.reduce((sum,article)=>sum+article.wordCount,0),minimumWords:articles.length?Math.min(...articles.map(article=>article.wordCount)):0,maximumWords:articles.length?Math.max(...articles.map(article=>article.wordCount)):0,selectedForPublication:selectedArticles.length,notSelectedForPublication:articles.length-selectedArticles.length,selectedSourceChecked:selectedArticles.filter(article=>article.sourceReview==='checked').length,selectedSourceReviewPending:selectedArticles.filter(article=>article.sourceReview==='needs-review').length};
+const waves=(manifest.waves||[]).map(wave=>{const rows=articles.filter(article=>wave.batches.includes(article.batch));return {wave:wave.wave,assigned:wave.target,written:rows.length,selectedForPublication:rows.filter(article=>article.selectedForPublication).length,notSelectedForPublication:rows.filter(article=>!article.selectedForPublication).length,uniqueCodes:new Set(rows.map(article=>article.code)).size,sourceCheckedDrafts:rows.filter(article=>article.sourceReview==='checked').length,sourceReviewPending:rows.filter(article=>article.sourceReview==='needs-review').length,words:rows.reduce((sum,article)=>sum+article.wordCount,0)};});
+const report={checkedAt:new Date().toISOString(),status:failures.length?'failed':articles.length===manifest.target?'writing-complete':'in-progress',counts,publication:{manifest:'content/code-articles/publication.json',releaseId:publication.releaseId,expectedArticles:publication.expectedArticles,liveDeploymentVerification:'not-measured-by-this-report'},waves,batches,failures,warnings,limitations:['This report measures written manuscripts, metadata integrity and explicit renderer selection, not mechanical accuracy, human review, live publication, indexing or traffic. Source files retain draft authoring metadata independently of renderer selection.',`The overall 10,000+ code-article goal remains separate from these ${manifest.target.toLocaleString('en-US')} assigned manuscripts.`],articles};
 const inventoryDirectory=path.join(root,'reports/written-articles');await fs.mkdir(inventoryDirectory,{recursive:true});
 const articleFiles=[];
 for(let offset=0;offset<articles.length;offset+=250){

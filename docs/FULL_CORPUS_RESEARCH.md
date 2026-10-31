@@ -1,14 +1,14 @@
 # Full-catalog code article research
 
-Research snapshot: 2026-10-30. **The full 10,000+ article goal remains incomplete.** This document records the outstanding catalog scope and keeps written manuscripts separate from approved records and public pages.
+Research snapshot: 2026-10-30; first-three-wave renderer integration: 2026-10-31. **The full 10,000+ article goal remains incomplete.** This document records the outstanding catalog scope and keeps written manuscripts separate from approved records and public pages.
 
 ## Completion means articles for the whole catalog
 
-Three writing waves completed **3,000 original manuscripts across 30 writers**, with 100 per writer. The third wave adds 1,000 distinct codes, and fourth-wave source research is underway. The user has authorized continuing the same process toward 10,000; unassigned or planned work is not counted as completed. [Read the live manuscript inventory](../content/code-articles/README.md) for current file counts and review flags. These files are drafts, not connected to the public renderer. The full-catalog goal remains incomplete; writing, approval and publication are separate states.
+Three writing waves completed **3,000 original manuscripts across 30 writers**, with 100 per writer. The third wave adds 1,000 distinct codes, and fourth-wave source research resumes after the requested production verification. The user has authorized continuing the same process toward 10,000; unassigned or planned work is not counted as completed. [Read the live manuscript inventory](../content/code-articles/README.md) for current file counts and review flags. The first 3,000 files are selected for their existing canonical code-page renderer through the explicit [publication manifest](../content/code-articles/publication.json). Their source files retain draft authoring metadata; deployment selection is recorded separately. These repository records do not themselves verify live publication. Source-review flags remain visible, and later writing waves are excluded until explicitly selected. The full-catalog goal remains incomplete; writing, approval and publication are separate states.
 
 The task is a useful, separately researched article at every canonical code destination, with a minimum of 10,000 articles. The current inventory has 11,786 canonical code/namespace entries and 10,043 distinct displayed code strings. Manufacturer namespaces can give the same displayed string different meanings. Aliases and model permutations must not inflate the total.
 
-The 32 existing vehicle-case guides are separate published content. They link to 52 dictionary entries; a link, companion-code mention or source match does not make that entry a completed code article. The new article registry currently contains zero approved code-article records. This is a statement about the full-catalog authoring work, not a claim that the existing guides contain no useful research.
+The 32 existing vehicle-case guides are separate published content. They link to 52 dictionary entries; a link, companion-code mention or source match does not make that entry a completed code article. The separate claim-level approval registry currently contains zero approved code-article records. This stricter research gate is distinct from the 3,000 manuscripts selected for the public renderer; selection does not invent claim-level approval or mechanic certification.
 
 `npm run article:coverage` writes an inventory for every canonical entry and a summary. `npm run article:target` fails until the entire catalog is covered by approved records and the 10,000 minimum is met. The ordinary build remains available while editorial work is incomplete. Neither a successful build nor a structurally valid article record proves technical accuracy, publication, Google indexing or traffic.
 
@@ -56,14 +56,14 @@ The existing canonical code URLs remain the intended article destinations. Resea
 
 An article can be useful by explaining documented monitor behavior and diagnostic distinctions even when the source does not establish a complete repair procedure. Unsupported symptoms, causes and repairs are omitted; they are not invented to fill template sections. Shared test methods are legitimate when their sources explicitly cover the related codes.
 
-The proposed registry contract in [article-coverage.mjs](../scripts/article-coverage.mjs) requires separately authored sections, source-backed claim IDs, exact code and vehicle scope, recorded review and meaningful diagnostic decisions. It rejects unresolved claims and duplicate normalized article bodies. These checks validate the structure of a submitted record; they cannot replace editorial verification. The published dictionary renderer has not yet been converted to this future article format.
+The proposed registry contract in [article-coverage.mjs](../scripts/article-coverage.mjs) requires separately authored sections, source-backed claim IDs, exact code and vehicle scope, recorded review and meaningful diagnostic decisions. It rejects unresolved claims and duplicate normalized article bodies. These checks validate the structure of a submitted record; they cannot replace editorial verification. The canonical renderer now supports the separately authored Markdown manuscripts by exact entry ID, while retaining source scope, limitations and review flags. This publication integration does not create the future claim-level approval records or silently satisfy that separate evidence gate.
 
 Work still required across the complete backlog:
 
 1. Resolve ambiguous definitions, namespaces and fault subtypes against applicable primary material.
 2. Acquire and review code-specific monitor, service and bulletin evidence, including model/year/module scope and document revisions.
 3. Write each code article from its supported findings, with useful diagnostic decisions and explicitly bounded repair/verification guidance.
-4. Review the claims and near-duplicate content, then integrate approved articles into the existing canonical page renderer.
+4. Review the claims and near-duplicate content, record the review outcome and select the intended articles for the existing canonical page renderer.
 5. Verify the rendered articles and full-catalog coverage before treating the task as complete.
 
 This research and tracking work does **not** fulfill the article-writing request by itself. The outstanding set remains explicit in the backlog; it is not silently reduced to a small guide collection.

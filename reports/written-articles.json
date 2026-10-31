@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T20:24:33.542Z",
+  "checkedAt": "2026-10-31T09:19:16.316Z",
   "status": "writing-complete",
   "counts": {
     "assigned": 3000,
@@ -10,13 +10,24 @@
     "words": 819235,
     "minimumWords": 183,
     "maximumWords": 345,
-    "publishedByThisBatch": 0
+    "selectedForPublication": 3000,
+    "notSelectedForPublication": 0,
+    "selectedSourceChecked": 2483,
+    "selectedSourceReviewPending": 517
+  },
+  "publication": {
+    "manifest": "content/code-articles/publication.json",
+    "releaseId": "code-articles-3000-20261031",
+    "expectedArticles": 3000,
+    "liveDeploymentVerification": "not-measured-by-this-report"
   },
   "waves": [
     {
       "wave": 1,
       "assigned": 1000,
       "written": 1000,
+      "selectedForPublication": 1000,
+      "notSelectedForPublication": 0,
       "uniqueCodes": 1000,
       "sourceCheckedDrafts": 890,
       "sourceReviewPending": 110,
@@ -26,6 +37,8 @@
       "wave": 2,
       "assigned": 1000,
       "written": 1000,
+      "selectedForPublication": 1000,
+      "notSelectedForPublication": 0,
       "uniqueCodes": 1000,
       "sourceCheckedDrafts": 767,
       "sourceReviewPending": 233,
@@ -35,6 +48,8 @@
       "wave": 3,
       "assigned": 1000,
       "written": 1000,
+      "selectedForPublication": 1000,
+      "notSelectedForPublication": 0,
       "uniqueCodes": 1000,
       "sourceCheckedDrafts": 826,
       "sourceReviewPending": 174,
@@ -2295,7 +2310,7 @@
     }
   ],
   "limitations": [
-    "This report measures written drafts and metadata integrity, not mechanical accuracy, human review, live publication, indexing or traffic.",
+    "This report measures written manuscripts, metadata integrity and explicit renderer selection, not mechanical accuracy, human review, live publication, indexing or traffic. Source files retain draft authoring metadata independently of renderer selection.",
     "The overall 10,000+ code-article goal remains separate from these 3,000 assigned manuscripts."
   ],
   "articleFiles": [

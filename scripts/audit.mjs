@@ -4,6 +4,7 @@ import {pathToFileURL} from 'node:url';
 import {parseHTML} from 'linkedom';
 import * as cars from '../src/lib/cars.ts';
 import {authoredGuides,guidePath,guidesForCode,guideMakes} from '../src/lib/authored-guides.ts';
+import {codeManuscripts,manuscriptForEntry,renderManuscript} from '../src/lib/code-manuscripts.ts';
 import {ads} from '../src/lib/ads.ts';
 import {validateDataset,MINIMUM_DICTIONARY_ENTRIES} from './validate-data.mjs';
 import {clean,createCheckCollector,walkFiles,routeFromFile,fileForRoute,reachableRoutes,flattenSchema,xmlLocations} from './lib/audit-utils.mjs';
@@ -23,7 +24,7 @@ export async function audit(root=process.cwd()){
  // Retain only small page metadata and the link graph. Each DOM becomes unreachable
  // after its iteration; successes are counters, never one JSON object per check.
  const pages=new Map(),graph=new Map(),titles=new Map(),descriptions=new Map(),canonicalOwners=new Map(),crossFragments=[];
- let codePages=0,maxHtmlBytes=0,maxInlineBytes=0;
+ let codePages=0,manuscriptPages=0,manuscriptPagesWithSourceReviewPending=0,maxHtmlBytes=0,maxInlineBytes=0;
  for(const file of htmlFiles){
   const route=routeFromFile(file,dist),html=await fs.readFile(file,'utf8'),{document}=parseHTML(html);
   const robots=document.querySelector('meta[name="robots"]')?.getAttribute('content')||'',noindex=/\bnoindex\b/i.test(robots);
@@ -64,11 +65,37 @@ export async function audit(root=process.cwd()){
    const definition=document.querySelector('[data-code-definition]');check('code-definition-marked',Boolean(definition)&&clean(definition.textContent).includes(clean(entry.title)),route);
    check('code-identity-static',mainText.includes(entry.code),route);
    check('code-source-visible',sourceLinks.has(sourceById.get(entry.sourceId)?.url),route);
-   check('code-dictionary-label',Boolean(document.querySelector('article[data-reference-kind="dictionary"]'))&&/code dictionary/i.test(mainText),route);
+   const manuscript=manuscriptForEntry(entry.id);
+   if(manuscript){
+    const article=document.querySelector('article[data-code-manuscript]'),body=document.querySelector('[data-manuscript-body]');
+    if(article?.getAttribute('data-code-manuscript')===entry.id)manuscriptPages++;
+    check('code-manuscript-exact-identity',article?.getAttribute('data-code-manuscript')===entry.id&&article?.getAttribute('data-reference-kind')==='diagnostic-article',route);
+    check('code-manuscript-title',clean(document.querySelector('h1')?.textContent)===clean(manuscript.title)&&title.includes(clean(manuscript.title)),route);
+    check('code-manuscript-description',description===clean(manuscript.description),route);
+    check('code-manuscript-scope',clean(document.querySelector('[data-manuscript-scope]')?.textContent).includes(clean(manuscript.scope)),route);
+    check('code-manuscript-review-state',article?.getAttribute('data-source-review')===manuscript.sourceReview,route);
+    const pendingNotice=document.querySelector('[data-source-review-note]');
+    check('code-manuscript-review-note',manuscript.sourceReview==='needs-review'?Boolean(pendingNotice)&&clean(pendingNotice.textContent).length>0:!pendingNotice,route);
+    if(manuscript.sourceReview==='needs-review'&&pendingNotice)manuscriptPagesWithSourceReviewPending++;
+    const rendered=await renderManuscript(manuscript),expectedBody=parseHTML(`<div id="expected-manuscript">${rendered.html}</div>`).document.querySelector('#expected-manuscript');
+    check('code-manuscript-full-body',Boolean(body)&&clean(body.textContent)===clean(expectedBody?.textContent),route);
+    check('code-manuscript-body-structure',Boolean(body)&&body.querySelectorAll('h1').length===0&&body.querySelectorAll('h2').length>=2,route);
+    const normalizeURL=value=>{try{return new URL(value,site.url).href;}catch{return value;}};
+    const visibleURLs=new Set([...sourceLinks].map(normalizeURL));
+    check('code-manuscript-sources-visible',manuscript.sources.every(source=>visibleURLs.has(normalizeURL(source.url))),route);
+    const expectedLinks=[...expectedBody.querySelectorAll('a[href]')].map(link=>normalizeURL(link.getAttribute('href')));
+    const bodyLinks=new Set([...body?.querySelectorAll('a[href]')||[]].map(link=>normalizeURL(link.getAttribute('href'))));
+    check('code-manuscript-evidence-locators',expectedLinks.length>0&&expectedLinks.every(link=>bodyLinks.has(link)),route);
+    check('code-manuscript-article-schema',schema.some(s=>s['@type']==='TechArticle'&&s.headline===manuscript.title&&s.url===site.url+route),route);
+    check('code-manuscript-no-howto-schema',!schema.some(s=>s['@type']==='HowTo'),route);
+   }else{
+    check('code-dictionary-label',Boolean(document.querySelector('article[data-reference-kind="dictionary"]'))&&/code dictionary/i.test(mainText),route);
+    check('code-not-repair-schema',!schema.some(s=>['Article','TechArticle','HowTo'].includes(s['@type'])),route);
+    check('code-no-unassigned-manuscript',!document.querySelector('[data-code-manuscript],[data-manuscript-body]'),route);
+   }
    check('code-defined-term-schema',schema.some(s=>s['@type']==='DefinedTerm'&&s.termCode===entry.code&&s.name===entry.title),route);
-   check('code-not-repair-schema',!schema.some(s=>['Article','TechArticle','HowTo'].includes(s['@type'])),route);
    check('code-no-template-diagnosis',document.querySelectorAll('#first-check,#next-steps,.diagnostic-steps').length===0,route);
-   check('code-definition-boundary',/definition, not a repair instruction/i.test(document.querySelector('[data-reference-limit]')?.textContent||''),route);
+   if(!manuscript)check('code-definition-boundary',/definition, not a repair instruction/i.test(document.querySelector('[data-reference-limit]')?.textContent||''),route);
    check('code-safety-link',sourceLinks.has('/safety/'),route);
    const scopeText=clean(document.querySelector('#applicability')?.textContent);
    check('code-scope-static',Boolean(scopeText)&&(entry.scope==='generic'?/generic obd-ii/i.test(scopeText):(entry.makeIds||[entry.makeId]).every(id=>scopeText.includes(cars.getMake(id).name))),route);
@@ -113,6 +140,8 @@ export async function audit(root=process.cwd()){
  const reached=reachableRoutes(graph);
  for(const route of expectedIndexable){check('expected-page',pages.has(route),route);check('no-orphan-page',reached.has(route),route);}
  check('code-page-count',codePages===codes.length,{generated:codePages,expected:codes.length});
+ check('code-manuscript-page-count',manuscriptPages===codeManuscripts.length,{generated:manuscriptPages,expected:codeManuscripts.length});
+ check('code-manuscript-pending-review-count',manuscriptPagesWithSourceReviewPending===codeManuscripts.filter(article=>article.sourceReview==='needs-review').length,{generated:manuscriptPagesWithSourceReviewPending});
  for(const entry of cars.allCodes)if(!codeById.has(entry.id))check('unpublished-not-generated',!pages.has(codePath(entry)),entry.id);
  const sitemapXML=await fs.readFile(path.join(dist,'sitemap.xml'),'utf8'),shardURLs=xmlLocations(sitemapXML),sitemapRoutes=new Set();
  check('sitemap-index',/<sitemapindex\b/.test(sitemapXML),'/sitemap.xml');
@@ -161,7 +190,7 @@ export async function audit(root=process.cwd()){
   check('search-make-manifest-correct',JSON.stringify(manifest)===JSON.stringify(expected),makeId);
  }
  if(files.has(path.join(dist,'_redirects'))){const redirects=await fs.readFile(path.join(dist,'_redirects'),'utf8');check('no-spa-fallback',!/^\s*\/\*\s+\/index\.html\s+200\s*$/m.test(redirects),'Unknown codes must serve a404.');}
- const result=collector.report(),report={checkedAt:new Date().toISOString(),status:result.failed?'failed':'passed',htmlPages:pages.size,indexablePages:expectedIndexable.size,indexableCanonicalCodePages:expectedCodes.size,codePages,searchRecords,maxHtmlBytes,maxInlineBytes,maxSearchPartBytes,...result,memoryStrategy:'One HTML DOM and one search shard at a time; retain routes, IDs, link graph and small uniqueness maps. Successes are aggregate counters; failure details capped at250.',limitations:['Static checks do not establish deployment HTTP status,DNS/TLS,indexation,field Core Web Vitals or source factual accuracy.','A community definition and manufacturer association do not prove model/year/engine applicability.']};
+ const result=collector.report(),report={checkedAt:new Date().toISOString(),status:result.failed?'failed':'passed',htmlPages:pages.size,indexablePages:expectedIndexable.size,indexableCanonicalCodePages:expectedCodes.size,codePages,manuscriptPages,manuscriptPagesWithSourceReviewPending,searchRecords,maxHtmlBytes,maxInlineBytes,maxSearchPartBytes,...result,memoryStrategy:'One HTML DOM and one search shard at a time; retain routes, IDs, link graph and small uniqueness maps. Successes are aggregate counters; failure details capped at250.',limitations:['Static checks do not establish deployment HTTP status,DNS/TLS,indexation,field Core Web Vitals or source factual accuracy.','A community definition and manufacturer association do not prove model/year/engine applicability.']};
  await fs.mkdir(path.join(root,'reports'),{recursive:true});await fs.writeFile(path.join(root,'reports/static-audit.json'),JSON.stringify(report,null,2)+'\n');return report;
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(path.resolve(process.argv[1])).href){try{const report=await audit();console.log(JSON.stringify(report,null,2));process.exitCode=report.status==='passed'?0:1;}catch(error){console.error(error);process.exitCode=1;}}

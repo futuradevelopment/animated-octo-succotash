@@ -6,6 +6,7 @@
     "path": "content/code-articles/batch-21/P0008.md",
     "title": "P0008: Bank 1 cam timing disagreement and learned alignment",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-02-engine"
@@ -26,6 +27,7 @@
     "path": "content/code-articles/batch-21/P0009.md",
     "title": "P0009: Bank 2 timing alignment needs a bank-level comparison",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-02-engine"
@@ -46,6 +48,7 @@
     "path": "content/code-articles/batch-21/P006D.md",
     "title": "P006D: BARO disagreement depends on the age of its estimate",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -66,6 +69,7 @@
     "path": "content/code-articles/batch-21/P009A.md",
     "title": "P009A: Ambient-temperature plausibility during warm operation",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-12-engine"
@@ -86,6 +90,7 @@
     "path": "content/code-articles/batch-21/P00B6.md",
     "title": "P00B6: Cold-start comparison of radiator and engine temperatures",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -106,6 +111,7 @@
     "path": "content/code-articles/batch-21/P00B7.md",
     "title": "P00B7: Hot engine and radiator temperature separation",
     "wordCount": 284,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -127,6 +133,7 @@
     "path": "content/code-articles/batch-21/P011B.md",
     "title": "P011B: Coolant and intake temperatures after an engine-off period",
     "wordCount": 282,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-05-engine"
@@ -147,6 +154,7 @@
     "path": "content/code-articles/batch-21/P0126.md",
     "title": "P0126: Coolant warm-up judged against a temperature model",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-05-engine"
@@ -167,6 +175,7 @@
     "path": "content/code-articles/batch-21/P012B.md",
     "title": "P012B: An inlet-pressure signal can fail while staying in range",
     "wordCount": 289,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -189,6 +198,7 @@
     "path": "content/code-articles/batch-21/P012C.md",
     "title": "P012C: Low supercharger inlet-pressure signal with deadbands",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -209,6 +219,7 @@
     "path": "content/code-articles/batch-21/P012D.md",
     "title": "P012D: High inlet-pressure circuit signal is not proof of overboost",
     "wordCount": 280,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -229,6 +240,7 @@
     "path": "content/code-articles/batch-21/P023A.md",
     "title": "P023A: Intercooler pump command and circuit feedback disagree",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -249,6 +261,7 @@
     "path": "content/code-articles/batch-21/P0244.md",
     "title": "P0244: Confirm the boost-valve monitor before using a generic label",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-04-engine"
@@ -269,6 +282,7 @@
     "path": "content/code-articles/batch-21/P02E7.md",
     "title": "P02E7: Diesel throttle position does not follow its target",
     "wordCount": 278,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -289,6 +303,7 @@
     "path": "content/code-articles/batch-21/P0337.md",
     "title": "P0337: Crank position found and then lost during a drive cycle",
     "wordCount": 278,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-05-engine"
@@ -309,6 +324,7 @@
     "path": "content/code-articles/batch-21/P0338.md",
     "title": "P0338: Crank tooth-count plausibility in a GM implementation",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-02-engine"
@@ -329,6 +345,7 @@
     "path": "content/code-articles/batch-21/P0350.md",
     "title": "P0350: Ignition control feedback fails to match the command",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-09-engine"
@@ -349,6 +366,7 @@
     "path": "content/code-articles/batch-21/P0385.md",
     "title": "P0385: Missing low-resolution crank pulses despite other timing signals",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-09-engine"
@@ -369,6 +387,7 @@
     "path": "content/code-articles/batch-21/P0386.md",
     "title": "P0386: Present but inconsistent low-resolution crank timing",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-09-engine"
@@ -389,6 +408,7 @@
     "path": "content/code-articles/batch-21/P040F.md",
     "title": "P040F: EGR temperature comparison after a long soak",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -409,6 +429,7 @@
     "path": "content/code-articles/batch-21/P0411.md",
     "title": "P0411: Secondary-air flow compared with a pressure-based model",
     "wordCount": 284,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-04-engine"
@@ -429,6 +450,7 @@
     "path": "content/code-articles/batch-21/P0412.md",
     "title": "P0412: Secondary-air valve circuit feedback versus command",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -449,6 +471,7 @@
     "path": "content/code-articles/batch-21/P0418.md",
     "title": "P0418: Secondary-air pump control is an electrical test",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -469,6 +492,7 @@
     "path": "content/code-articles/batch-21/P046C.md",
     "title": "P046C: EGR position differs from the commanded target",
     "wordCount": 280,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -489,6 +513,7 @@
     "path": "content/code-articles/batch-21/P0501.md",
     "title": "P0501: An implausibly high vehicle-speed report in a manual-transmission example",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-02-engine"
@@ -509,6 +534,7 @@
     "path": "content/code-articles/batch-21/P0502.md",
     "title": "P0502: Two vehicle-speed paths disagree in the Duramax monitor",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -529,6 +555,7 @@
     "path": "content/code-articles/batch-21/P0503.md",
     "title": "P0503: Abrupt transmission output-speed changes need context",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -550,6 +577,7 @@
     "path": "content/code-articles/batch-21/P050C.md",
     "title": "P050C: Cold-start coolant plausibility uses prior heat history",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-04-engine"
@@ -571,6 +599,7 @@
     "path": "content/code-articles/batch-21/P0556.md",
     "title": "P0556: Brake-booster pressure plausibility uses several comparisons",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-02-engine"
@@ -591,6 +620,7 @@
     "path": "content/code-articles/batch-21/P0557.md",
     "title": "P0557: Low brake-booster pressure sensor voltage",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-02-engine"
@@ -611,6 +641,7 @@
     "path": "content/code-articles/batch-21/P0558.md",
     "title": "P0558: High booster-pressure sensor voltage needs electrical interpretation",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-02-engine"
@@ -631,6 +662,7 @@
     "path": "content/code-articles/batch-21/P0597.md",
     "title": "P0597: Thermostat heater open-circuit classification uses driver status",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -651,6 +683,7 @@
     "path": "content/code-articles/batch-21/P0598.md",
     "title": "P0598: Thermostat heater ground-short status is distinct from an open circuit",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -671,6 +704,7 @@
     "path": "content/code-articles/batch-21/P0599.md",
     "title": "P0599: Thermostat heater circuit remains high in the commanded state",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -691,6 +725,7 @@
     "path": "content/code-articles/batch-21/P0609.md",
     "title": "P0609: Vehicle-speed output channel feedback disagrees with its command",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -711,6 +746,7 @@
     "path": "content/code-articles/batch-21/P0632.md",
     "title": "P0632: Missing wheel-circumference programming in a GM example",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-06-engine"
@@ -731,6 +767,7 @@
     "path": "content/code-articles/batch-21/P0640.md",
     "title": "P0640: Intake-heater control response while heating is commanded off",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -751,6 +788,7 @@
     "path": "content/code-articles/batch-21/P064C.md",
     "title": "P064C: Glow-plug controller performance can include supply problems",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -771,6 +809,7 @@
     "path": "content/code-articles/batch-21/P065E.md",
     "title": "P065E: Intake-manifold feedback must agree with a stable command",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-12-engine"
@@ -792,6 +831,7 @@
     "path": "content/code-articles/batch-21/P0695.md",
     "title": "P0695: Fan relay 3 low-side diagnostic can also indicate an open circuit",
     "wordCount": 282,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-12-engine"
@@ -812,6 +852,7 @@
     "path": "content/code-articles/batch-21/P0696.md",
     "title": "P0696: Fan relay 3 driver reports a high-circuit condition",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-12-engine"
@@ -832,6 +873,7 @@
     "path": "content/code-articles/batch-21/P0719.md",
     "title": "P0719: Brake-switch status fails to match repeated deceleration",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-06-engine"
@@ -852,6 +894,7 @@
     "path": "content/code-articles/batch-21/P071A.md",
     "title": "P071A: Transmission mode switch remains active too long",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-02-trans"
@@ -872,6 +915,7 @@
     "path": "content/code-articles/batch-21/P0724.md",
     "title": "P0724: Brake signal stays active during repeated acceleration",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-06-engine"
@@ -892,6 +936,7 @@
     "path": "content/code-articles/batch-21/P0748.md",
     "title": "P0748: Pressure-solenoid current error accumulates over time",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-04-trans"
@@ -913,6 +958,7 @@
     "path": "content/code-articles/batch-21/P0753.md",
     "title": "P0753: Shift solenoid A electrical fault versus a stuck valve",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-09-trans"
@@ -933,6 +979,7 @@
     "path": "content/code-articles/batch-21/P0758.md",
     "title": "P0758: Shift solenoid B circuit monitoring has its own qualification",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-09-trans"
@@ -953,6 +1000,7 @@
     "path": "content/code-articles/batch-21/P0778.md",
     "title": "P0778: Solenoid B feedback current fails to follow its target",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-04-trans"
@@ -974,6 +1022,7 @@
     "path": "content/code-articles/batch-21/P0786.md",
     "title": "P0786: Shift-timing solenoid current error under a stable command",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-05-trans"
@@ -994,6 +1043,7 @@
     "path": "content/code-articles/batch-21/P0787.md",
     "title": "P0787: Timing solenoid feedback stays low when commanded on",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-trans"
@@ -1014,6 +1064,7 @@
     "path": "content/code-articles/batch-21/P0788.md",
     "title": "P0788: Timing-solenoid circuit stays high under an off command",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-trans"
@@ -1034,6 +1085,7 @@
     "path": "content/code-articles/batch-21/P0798.md",
     "title": "P0798: SLC2 current feedback differs persistently from demand",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-04-trans"
@@ -1054,6 +1106,7 @@
     "path": "content/code-articles/batch-21/P0803.md",
     "title": "P0803: Skip-shift solenoid command does not match circuit state",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -1074,6 +1127,7 @@
     "path": "content/code-articles/batch-21/P0806.md",
     "title": "P0806: Clutch position conflicts with evidence that the vehicle is in gear",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -1094,6 +1148,7 @@
     "path": "content/code-articles/batch-21/P0807.md",
     "title": "P0807: Low clutch-pedal sensor signal relative to its reference",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -1115,6 +1170,7 @@
     "path": "content/code-articles/batch-21/P0808.md",
     "title": "P0808: Clutch-position signal exceeds its valid electrical range",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -1135,6 +1191,7 @@
     "path": "content/code-articles/batch-21/P080A.md",
     "title": "P080A: The controller lacks a valid learned clutch position",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-engine"
@@ -1155,6 +1212,7 @@
     "path": "content/code-articles/batch-21/P0851.md",
     "title": "P0851: Engine and transmission controllers disagree about Park or Neutral",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -1175,6 +1233,7 @@
     "path": "content/code-articles/batch-21/P0852.md",
     "title": "P0852: Park-neutral input remains asserted against transmission evidence",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -1195,6 +1254,7 @@
     "path": "content/code-articles/batch-21/P0894.md",
     "title": "P0894: Slip during a Neutral Locked Turbine request",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-allison-trans"
@@ -1215,6 +1275,7 @@
     "path": "content/code-articles/batch-21/P0972.md",
     "title": "P0972: Allison shift-solenoid 1 open-circuit discrimination",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-01-allison-trans"
@@ -1236,6 +1297,7 @@
     "path": "content/code-articles/batch-21/P0975.md",
     "title": "P0975: Allison solenoid 2 open-circuit test follows a hardware fault",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-01-allison-trans"
@@ -1256,6 +1318,7 @@
     "path": "content/code-articles/batch-21/P0989.md",
     "title": "P0989: Pressure switch E fails to report the exhausted state",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-03-trans"
@@ -1276,6 +1339,7 @@
     "path": "content/code-articles/batch-21/P0990.md",
     "title": "P0990: Pressure switch E fails to confirm pressurization",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-03-trans"
@@ -1297,6 +1361,7 @@
     "path": "content/code-articles/batch-21/P0A06.md",
     "title": "P0A06: Hybrid coolant-pump feedback disagrees during an on command",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1317,6 +1382,7 @@
     "path": "content/code-articles/batch-21/P0A07.md",
     "title": "P0A07: Hybrid coolant-pump feedback is checked in the off state",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1337,6 +1403,7 @@
     "path": "content/code-articles/batch-21/P0A1E.md",
     "title": "P0A1E: Starter-generator controller internal execution checks",
     "wordCount": 278,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1357,6 +1424,7 @@
     "path": "content/code-articles/batch-21/P0A37.md",
     "title": "P0A37: Generator temperature compared with other electronics after cooling",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1377,6 +1445,7 @@
     "path": "content/code-articles/batch-21/P0A38.md",
     "title": "P0A38: Low generator-temperature circuit voltage is electrical evidence",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1397,6 +1466,7 @@
     "path": "content/code-articles/batch-21/P0A39.md",
     "title": "P0A39: High generator-temperature signal is qualified by other temperatures",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1417,6 +1487,7 @@
     "path": "content/code-articles/batch-21/P0A3B.md",
     "title": "P0A3B: Generator temperature exceeds the documented thermal limit",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1437,6 +1508,7 @@
     "path": "content/code-articles/batch-21/P0A4B.md",
     "title": "P0A4B: Generator position conversion loses signal or tracking",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1457,6 +1529,7 @@
     "path": "content/code-articles/batch-21/P0A4C.md",
     "title": "P0A4C: Generator angle data disagree inside the position-reading path",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1477,6 +1550,7 @@
     "path": "content/code-articles/batch-21/P0A50.md",
     "title": "P0A50: Generator position information reports overspeed",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1497,6 +1571,7 @@
     "path": "content/code-articles/batch-21/P0A7C.md",
     "title": "P0A7C: The monitored hot component is the electronics board",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1517,6 +1592,7 @@
     "path": "content/code-articles/batch-21/P0A82.md",
     "title": "P0A82: Battery cooling fan commanded on but speed feedback stays low",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1537,6 +1613,7 @@
     "path": "content/code-articles/batch-21/P0A83.md",
     "title": "P0A83: Battery cooling-fan speed persists after an off command",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1557,6 +1634,7 @@
     "path": "content/code-articles/batch-21/P0A84.md",
     "title": "P0A84: Battery fan control feedback remains below its valid level",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1577,6 +1655,7 @@
     "path": "content/code-articles/batch-21/P0A85.md",
     "title": "P0A85: Fan control feedback stays high despite a lower command",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1597,6 +1676,7 @@
     "path": "content/code-articles/batch-21/P0A87.md",
     "title": "P0A87: Power-module current plausibility is tested in current-limit mode",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1617,6 +1697,7 @@
     "path": "content/code-articles/batch-21/P0A88.md",
     "title": "P0A88: Low power-module current-sensor signal is not low charging current",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1637,6 +1718,7 @@
     "path": "content/code-articles/batch-21/P0A89.md",
     "title": "P0A89: High current-sensor voltage differs from actual overcurrent",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1657,6 +1739,7 @@
     "path": "content/code-articles/batch-21/P0A8E.md",
     "title": "P0A8E: Power-module overvoltage has hardware and software routes",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1677,6 +1760,7 @@
     "path": "content/code-articles/batch-21/P0A92.md",
     "title": "P0A92: Belt-driven generator speed disagrees with its prediction",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1697,6 +1781,7 @@
     "path": "content/code-articles/batch-21/P0AA1.md",
     "title": "P0AA1: Battery contactor appears to remain conductive after opening",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1717,6 +1802,7 @@
     "path": "content/code-articles/batch-21/P0AA2.md",
     "title": "P0AA2: A close command does not produce the required contactor status",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1737,6 +1823,7 @@
     "path": "content/code-articles/batch-21/P0ADB.md",
     "title": "P0ADB: Contactor control-low classification uses high feedback duty",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1757,6 +1844,7 @@
     "path": "content/code-articles/batch-21/P0ADC.md",
     "title": "P0ADC: Contactor control-high classification uses low feedback duty",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1777,6 +1865,7 @@
     "path": "content/code-articles/batch-21/P0AF7.md",
     "title": "P0AF7: The auxiliary power module reports excessive internal temperature",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1797,6 +1886,7 @@
     "path": "content/code-articles/batch-21/P0AF8.md",
     "title": "P0AF8: Battery and generator-controller voltage measurements disagree",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1817,6 +1907,7 @@
     "path": "content/code-articles/batch-21/P0AFA.md",
     "title": "P0AFA: Hybrid output voltage falls below its monitored minimum",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1837,6 +1928,7 @@
     "path": "content/code-articles/batch-21/P0B09.md",
     "title": "P0B09: Auxiliary transmission-pump supply relay feedback disagrees",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-08-engine"
@@ -1857,6 +1949,7 @@
     "path": "content/code-articles/batch-21/P1133.md",
     "title": "P1133: Bank 1 oxygen-sensor switching is evaluated over a qualified window",
     "wordCount": 286,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -1878,6 +1971,7 @@
     "path": "content/code-articles/batch-21/P1134.md",
     "title": "P1134: Rich-to-lean and lean-to-rich transition times differ",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-09-engine"
@@ -1898,6 +1992,7 @@
     "path": "content/code-articles/batch-21/P1153.md",
     "title": "P1153: Bank 2 front oxygen-sensor switching must meet the monitor criteria",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -1918,6 +2013,7 @@
     "path": "content/code-articles/batch-21/P2A04.md",
     "title": "P2A04: Post-catalyst oxygen sensor fails an active response test",
     "wordCount": 284,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -1939,6 +2035,7 @@
     "path": "content/code-articles/batch-21/P3400.md",
     "title": "P3400: Cylinder deactivation does not produce the expected pressure behavior",
     "wordCount": 286,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2009-07-engine"
@@ -1960,6 +2057,7 @@
     "path": "content/code-articles/batch-21/U0001.md",
     "title": "U0001: The transmission controller reports a CAN bus-off state",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-gmdat-trans"
@@ -1980,6 +2078,7 @@
     "path": "content/code-articles/batch-21/U0106.md",
     "title": "U0106: Engine and glow-plug controllers lose expected messages",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-01-duramax-engine"
@@ -2000,6 +2099,7 @@
     "path": "content/code-articles/batch-21/U0302.md",
     "title": "U0302: Transmission software compatibility differs from network reachability",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2009-12-engine"
@@ -2020,6 +2120,7 @@
     "path": "content/code-articles/batch-22/P0218.md",
     "title": "P0218: Sustained transmission sump heat needs a temperature history",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2040,6 +2141,7 @@
     "path": "content/code-articles/batch-22/P0220.md",
     "title": "P0220: A secondary throttle processor can reject a signal that the primary accepts",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2060,6 +2162,7 @@
     "path": "content/code-articles/batch-22/P023F.md",
     "title": "P023F: Low pump current matters only with the pump commanded",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2080,6 +2183,7 @@
     "path": "content/code-articles/batch-22/P0481.md",
     "title": "P0481: Fan relay channel two reports an electrical command mismatch",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2100,6 +2204,7 @@
     "path": "content/code-articles/batch-22/P0482.md",
     "title": "P0482: The third fan relay output has its own feedback check",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2120,6 +2225,7 @@
     "path": "content/code-articles/batch-22/P0634.md",
     "title": "P0634: TCM substrate heat and excess supply voltage have separate trigger paths",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2140,6 +2246,7 @@
     "path": "content/code-articles/batch-22/P0667.md",
     "title": "P0667: TCM substrate temperature must agree with two other measurements",
     "wordCount": 282,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2161,6 +2268,7 @@
     "path": "content/code-articles/batch-22/P0668.md",
     "title": "P0668: A very low TCM substrate reading is treated as a circuit fault",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2181,6 +2289,7 @@
     "path": "content/code-articles/batch-22/P0669.md",
     "title": "P0669: An implausibly high substrate reading requires a valid operating context",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2201,6 +2310,7 @@
     "path": "content/code-articles/batch-22/P069E.md",
     "title": "P069E: The ECM is forwarding a fuel-controller fault request",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2221,6 +2331,7 @@
     "path": "content/code-articles/batch-22/P06AC.md",
     "title": "P06AC: Powerup temperature plausibility depends on two independent differences",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2242,6 +2353,7 @@
     "path": "content/code-articles/batch-22/P06AD.md",
     "title": "P06AD: A low powerup-temperature signal has load and speed prerequisites",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2262,6 +2374,7 @@
     "path": "content/code-articles/batch-22/P06AE.md",
     "title": "P06AE: An extreme powerup-temperature reading is a circuit diagnosis",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2282,6 +2395,7 @@
     "path": "content/code-articles/batch-22/P06B2.md",
     "title": "P06B2: Motor A sensor power is a 15-volt rail in this implementation",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2302,6 +2416,7 @@
     "path": "content/code-articles/batch-22/P06B5.md",
     "title": "P06B5: Motor B has a separate high sensor-supply diagnosis",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2322,6 +2437,7 @@
     "path": "content/code-articles/batch-22/P077B.md",
     "title": "P077B: Output speed can have the right magnitude and the wrong direction",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2342,6 +2458,7 @@
     "path": "content/code-articles/batch-22/P079A.md",
     "title": "P079A: Clutch one slip is evaluated while the clutch is loaded and filled",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2362,6 +2479,7 @@
     "path": "content/code-articles/batch-22/P079B.md",
     "title": "P079B: Clutch two has a one-second loaded-slip criterion",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2382,6 +2500,7 @@
     "path": "content/code-articles/batch-22/P079C.md",
     "title": "P079C: Clutch three uses a lower slip threshold than C1 and C2",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2402,6 +2521,7 @@
     "path": "content/code-articles/batch-22/P079D.md",
     "title": "P079D: Clutch four is judged over a short slip interval",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2422,6 +2542,7 @@
     "path": "content/code-articles/batch-22/P07A3.md",
     "title": "P07A3: A clutch that should release can be detected by unexpectedly low slip",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2443,6 +2564,7 @@
     "path": "content/code-articles/batch-22/P07A5.md",
     "title": "P07A5: Mode-one clutch-two behavior distinguishes a stuck element",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2464,6 +2586,7 @@
     "path": "content/code-articles/batch-22/P07A7.md",
     "title": "P07A7: Clutch-three release is evaluated against mode-two torque behavior",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2485,6 +2608,7 @@
     "path": "content/code-articles/batch-22/P07A9.md",
     "title": "P07A9: Clutch four has different stuck-on tests in two hybrid modes",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2506,6 +2630,7 @@
     "path": "content/code-articles/batch-22/P0969.md",
     "title": "P0969: Solenoid-C performance is an electrical status check in this table",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2528,6 +2653,7 @@
     "path": "content/code-articles/batch-22/P0A01.md",
     "title": "P0A01: A cold-soak comparison tests electronics-coolant temperature plausibility",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2548,6 +2674,7 @@
     "path": "content/code-articles/batch-22/P0A02.md",
     "title": "P0A02: Low circuit indication corresponds to an implausibly hot coolant reading",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2568,6 +2695,7 @@
     "path": "content/code-articles/batch-22/P0A03.md",
     "title": "P0A03: A very cold electronics-coolant indication can be an electrical high fault",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2588,6 +2716,7 @@
     "path": "content/code-articles/batch-22/P0A1B.md",
     "title": "P0A1B: Motor A internal-performance evidence includes processor and shutdown checks",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2608,6 +2737,7 @@
     "path": "content/code-articles/batch-22/P0A1C.md",
     "title": "P0A1C: A motor-B controller fault has a mislabeled source heading",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2628,6 +2758,7 @@
     "path": "content/code-articles/batch-22/P0A1D.md",
     "title": "P0A1D: The ECM can report a status failure detected by hybrid-control processors",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2648,6 +2779,7 @@
     "path": "content/code-articles/batch-22/P0A1F.md",
     "title": "P0A1F: Battery-controller performance faults concern processing rather than cell capacity",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2668,6 +2800,7 @@
     "path": "content/code-articles/batch-22/P0A2B.md",
     "title": "P0A2B: Motor A temperature is checked against the inverter after a long soak",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2689,6 +2822,7 @@
     "path": "content/code-articles/batch-22/P0A2C.md",
     "title": "P0A2C: Low motor-A sensor voltage appears as an extreme hot indication",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2709,6 +2843,7 @@
     "path": "content/code-articles/batch-22/P0A2D.md",
     "title": "P0A2D: A cold motor-A indication can be a high-voltage sensor signal",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2729,6 +2864,7 @@
     "path": "content/code-articles/batch-22/P0A2F.md",
     "title": "P0A2F: Motor-A overheating is evaluated only after temperature validity checks",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2749,6 +2885,7 @@
     "path": "content/code-articles/batch-22/P0A31.md",
     "title": "P0A31: Motor-B temperature plausibility uses the inverter average after six hours off",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2769,6 +2906,7 @@
     "path": "content/code-articles/batch-22/P0A32.md",
     "title": "P0A32: Motor-B circuit-low is represented by an extremely hot sensor value",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2789,6 +2927,7 @@
     "path": "content/code-articles/batch-22/P0A33.md",
     "title": "P0A33: Motor-B circuit-high requires startup and warmup context",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2809,6 +2948,7 @@
     "path": "content/code-articles/batch-22/P0A35.md",
     "title": "P0A35: Motor-B thermal protection uses a separate reset boundary",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2829,6 +2969,7 @@
     "path": "content/code-articles/batch-22/P0A3F.md",
     "title": "P0A3F: Motor-A resolver signal loss is different from angle tracking error",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2849,6 +2990,7 @@
     "path": "content/code-articles/batch-22/P0A40.md",
     "title": "P0A40: Motor-A resolver performance checks a different signal extreme",
     "wordCount": 251,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2869,6 +3011,7 @@
     "path": "content/code-articles/batch-22/P0A45.md",
     "title": "P0A45: Motor-B resolver loss has its own sampling window",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2889,6 +3032,7 @@
     "path": "content/code-articles/batch-22/P0A46.md",
     "title": "P0A46: Motor-B angle-signal degradation is not the same as lost tracking",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2909,6 +3053,7 @@
     "path": "content/code-articles/batch-22/P0A78.md",
     "title": "P0A78: Motor-A inverter performance is tied to a semiconductor fault status",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2929,6 +3074,7 @@
     "path": "content/code-articles/batch-22/P0A79.md",
     "title": "P0A79: Motor-B inverter performance reports a power-switch protection status",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2949,6 +3095,7 @@
     "path": "content/code-articles/batch-22/P0A7E.md",
     "title": "P0A7E: Battery overtemperature is evaluated as an accumulated hot condition",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2969,6 +3116,7 @@
     "path": "content/code-articles/batch-22/P0A80.md",
     "title": "P0A80: The GM battery-replacement label rests on a qualified resistance calculation",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -2990,6 +3138,7 @@
     "path": "content/code-articles/batch-22/P0A81.md",
     "title": "P0A81: Battery-fan failure uses different voltage checks for on and off commands",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3010,6 +3159,7 @@
     "path": "content/code-articles/batch-22/P0A9C.md",
     "title": "P0A9C: Battery sensor one is compared with all three other temperature inputs",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3030,6 +3180,7 @@
     "path": "content/code-articles/batch-22/P0A9D.md",
     "title": "P0A9D: Battery sensor one reads excessively hot while another input remains cooler",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3050,6 +3201,7 @@
     "path": "content/code-articles/batch-22/P0A9E.md",
     "title": "P0A9E: An extreme cold reading identifies battery sensor-one circuit high",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3070,6 +3222,7 @@
     "path": "content/code-articles/batch-22/P0AAD.md",
     "title": "P0AAD: Battery inlet-air plausibility is a qualified cold-start comparison",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3091,6 +3244,7 @@
     "path": "content/code-articles/batch-22/P0AAE.md",
     "title": "P0AAE: Battery inlet-air circuit low is expressed as a hot indicated value",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3111,6 +3265,7 @@
     "path": "content/code-articles/batch-22/P0AAF.md",
     "title": "P0AAF: Very cold inlet-air data can be the battery sensor’s high-circuit fault",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3131,6 +3286,7 @@
     "path": "content/code-articles/batch-22/P0AB2.md",
     "title": "P0AB2: Outlet air is checked against the battery’s hottest module with the fan on",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3152,6 +3308,7 @@
     "path": "content/code-articles/batch-22/P0AB3.md",
     "title": "P0AB3: Battery outlet circuit low includes a cooler-module reference",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3172,6 +3329,7 @@
     "path": "content/code-articles/batch-22/P0AB4.md",
     "title": "P0AB4: The battery outlet sensor has an absolute cold-limit check",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3192,6 +3350,7 @@
     "path": "content/code-articles/batch-22/P0AB9.md",
     "title": "P0AB9: This hybrid-performance entry describes a failed automatic engine transition",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3212,6 +3371,7 @@
     "path": "content/code-articles/batch-22/P0ABB.md",
     "title": "P0ABB: Pack voltage must agree with the sum of its block measurements",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3233,6 +3393,7 @@
     "path": "content/code-articles/batch-22/P0ABC.md",
     "title": "P0ABC: Low pack-voltage sense is evaluated after the contactors close",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3253,6 +3414,7 @@
     "path": "content/code-articles/batch-22/P0ABD.md",
     "title": "P0ABD: A high pack-voltage signal has a circuit-specific monitor",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3273,6 +3435,7 @@
     "path": "content/code-articles/batch-22/P0AC0.md",
     "title": "P0AC0: Battery-current plausibility uses offset, range agreement and voltage change",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3294,6 +3457,7 @@
     "path": "content/code-articles/batch-22/P0AC1.md",
     "title": "P0AC1: The battery-current circuit-low label corresponds to positive range limits here",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3314,6 +3478,7 @@
     "path": "content/code-articles/batch-22/P0AC2.md",
     "title": "P0AC2: Negative current-range limits identify the opposing battery-sensor extreme",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3334,6 +3499,7 @@
     "path": "content/code-articles/batch-22/P0AC4.md",
     "title": "P0AC4: The ECM is reporting a hybrid-controller request for the warning lamp",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3354,6 +3520,7 @@
     "path": "content/code-articles/batch-22/P0AC6.md",
     "title": "P0AC6: Battery temperature input two must disagree with each of its peers",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3374,6 +3541,7 @@
     "path": "content/code-articles/batch-22/P0AC7.md",
     "title": "P0AC7: Battery input two is judged hot relative to at least one cooler channel",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3395,6 +3563,7 @@
     "path": "content/code-articles/batch-22/P0AC8.md",
     "title": "P0AC8: Battery input two has an independent extreme-cold circuit check",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3415,6 +3584,7 @@
     "path": "content/code-articles/batch-22/P0ACB.md",
     "title": "P0ACB: Battery input three is tested as an outlier among four temperatures",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3435,6 +3605,7 @@
     "path": "content/code-articles/batch-22/P0ACC.md",
     "title": "P0ACC: Battery input three circuit low combines a hot value with a cooler peer",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3455,6 +3626,7 @@
     "path": "content/code-articles/batch-22/P0ACD.md",
     "title": "P0ACD: An absolute cold limit defines battery sensor-three circuit high",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3475,6 +3647,7 @@
     "path": "content/code-articles/batch-22/P0AE9.md",
     "title": "P0AE9: Battery temperature input four must differ from all three references",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3495,6 +3668,7 @@
     "path": "content/code-articles/batch-22/P0AEA.md",
     "title": "P0AEA: Battery input four circuit low requires a contrasting temperature pattern",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3515,6 +3689,7 @@
     "path": "content/code-articles/batch-22/P0AEB.md",
     "title": "P0AEB: Battery input four circuit high is an extreme-cold signal diagnosis",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3535,6 +3710,7 @@
     "path": "content/code-articles/batch-22/P0AEE.md",
     "title": "P0AEE: Inverter-A temperature input zero is compared with the inverter average",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3555,6 +3731,7 @@
     "path": "content/code-articles/batch-22/P0AEF.md",
     "title": "P0AEF: Inverter-A sensor circuit low produces a hot indicated temperature",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3575,6 +3752,7 @@
     "path": "content/code-articles/batch-22/P0AF0.md",
     "title": "P0AF0: Inverter-A circuit high is a cold indication with a startup qualification",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3595,6 +3773,7 @@
     "path": "content/code-articles/batch-22/P0AF3.md",
     "title": "P0AF3: The generic B-temperature code maps to inverter-B sensor one in this document",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3615,6 +3794,7 @@
     "path": "content/code-articles/batch-22/P0AF4.md",
     "title": "P0AF4: Inverter-B input zero can fail electrically low while reading hot",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3635,6 +3815,7 @@
     "path": "content/code-articles/batch-22/P0AF5.md",
     "title": "P0AF5: Inverter-B sensor high is a cold-limit test with warmup context",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3655,6 +3836,7 @@
     "path": "content/code-articles/batch-22/P0AFB.md",
     "title": "P0AFB: Battery voltage is compared with a safety limit rather than one fixed value",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3675,6 +3857,7 @@
     "path": "content/code-articles/batch-22/P0B3C.md",
     "title": "P0B3C: Block-one voltage is scaled and compared with the whole pack",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3695,6 +3878,7 @@
     "path": "content/code-articles/batch-22/P0B3D.md",
     "title": "P0B3D: The first battery block has a direct low-signal check",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3715,6 +3899,7 @@
     "path": "content/code-articles/batch-22/P0B3E.md",
     "title": "P0B3E: Block-one circuit high is a signal-limit event, not a charging diagnosis",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3735,6 +3920,7 @@
     "path": "content/code-articles/batch-22/P0B41.md",
     "title": "P0B41: Block-two rationality also depends on the block-three comparison",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3755,6 +3941,7 @@
     "path": "content/code-articles/batch-22/P0B42.md",
     "title": "P0B42: The block-two low monitor requires block three to be low as well",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3775,6 +3962,7 @@
     "path": "content/code-articles/batch-22/P0B43.md",
     "title": "P0B43: Block-two high voltage is evaluated without the paired low condition",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3795,6 +3983,7 @@
     "path": "content/code-articles/batch-22/P0B46.md",
     "title": "P0B46: Blocks three and four are both part of the block-three plausibility test",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3815,6 +4004,7 @@
     "path": "content/code-articles/batch-22/P0B47.md",
     "title": "P0B47: A low block-three report includes the block-four signal",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3835,6 +4025,7 @@
     "path": "content/code-articles/batch-22/P0B48.md",
     "title": "P0B48: Block-three circuit high checks the named input directly",
     "wordCount": 251,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3855,6 +4046,7 @@
     "path": "content/code-articles/batch-22/P0B4B.md",
     "title": "P0B4B: Block-four plausibility includes a second comparison using block five",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3875,6 +4067,7 @@
     "path": "content/code-articles/batch-22/P0B4C.md",
     "title": "P0B4C: The block-four low-limit check also watches block five",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3895,6 +4088,7 @@
     "path": "content/code-articles/batch-22/P0B4D.md",
     "title": "P0B4D: Block-four high sensing is a single-channel upper-limit test",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3915,6 +4109,7 @@
     "path": "content/code-articles/batch-22/P0B50.md",
     "title": "P0B50: Block-five rationality continues across a page boundary and includes block six",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3936,6 +4131,7 @@
     "path": "content/code-articles/batch-22/P0B51.md",
     "title": "P0B51: Block-five circuit low requires a matching low block-six indication",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3956,6 +4152,7 @@
     "path": "content/code-articles/batch-22/P0B52.md",
     "title": "P0B52: The block-five upper sensing limit does not depend on block six",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3976,6 +4173,7 @@
     "path": "content/code-articles/batch-22/P0B55.md",
     "title": "P0B55: Block-six rationality has a source-label discrepancy in its validity condition",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -3996,6 +4194,7 @@
     "path": "content/code-articles/batch-22/P0B56.md",
     "title": "P0B56: Block-six low sensing is qualified by block seven as well",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -4016,6 +4215,7 @@
     "path": "content/code-articles/batch-22/P0B57.md",
     "title": "P0B57: Block-six circuit high evaluates one upper signal limit",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2010-10obdg10-hybrid-diagnostics"
@@ -4036,6 +4236,7 @@
     "path": "content/code-articles/batch-23/P0176.md",
     "title": "P0176: Ford flexible-fuel input falls outside its calibrated range",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4054,6 +4255,7 @@
     "path": "content/code-articles/batch-23/P1000.md",
     "title": "P1000: Ford readiness monitors have not finished",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4072,6 +4274,7 @@
     "path": "content/code-articles/batch-23/P1001.md",
     "title": "P1001: Ford engine-running self-test did not complete",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4090,6 +4293,7 @@
     "path": "content/code-articles/batch-23/P1100.md",
     "title": "P1100: Ford MAF signal intermittently changes beyond its limits",
     "wordCount": 298,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4108,6 +4312,7 @@
     "path": "content/code-articles/batch-23/P1101.md",
     "title": "P1101: Ford MAF reading is outside the self-test window",
     "wordCount": 280,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4126,6 +4331,7 @@
     "path": "content/code-articles/batch-23/P1109.md",
     "title": "P1109: Ford IAT2 signal has an intermittent interruption",
     "wordCount": 292,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4144,6 +4350,7 @@
     "path": "content/code-articles/batch-23/P1112.md",
     "title": "P1112: Ford intake-air-temperature signal is intermittent",
     "wordCount": 286,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4162,6 +4369,7 @@
     "path": "content/code-articles/batch-23/P1116.md",
     "title": "P1116: Ford coolant temperature is outside self-test conditions",
     "wordCount": 286,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4180,6 +4388,7 @@
     "path": "content/code-articles/batch-23/P1117.md",
     "title": "P1117: Ford coolant-temperature signal intermittently opens or shorts",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4198,6 +4407,7 @@
     "path": "content/code-articles/batch-23/P1120.md",
     "title": "P1120: Ford throttle signal is below its learned closed-throttle range",
     "wordCount": 287,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4216,6 +4426,7 @@
     "path": "content/code-articles/batch-23/P1121.md",
     "title": "P1121: Ford throttle position and measured airflow disagree",
     "wordCount": 285,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4234,6 +4445,7 @@
     "path": "content/code-articles/batch-23/P1124.md",
     "title": "P1124: Ford throttle position falls outside the self-test range",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4252,6 +4464,7 @@
     "path": "content/code-articles/batch-23/P1125.md",
     "title": "P1125: Ford throttle-position signal drops out intermittently",
     "wordCount": 285,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4270,6 +4483,7 @@
     "path": "content/code-articles/batch-23/P1127.md",
     "title": "P1127: Ford exhaust was too cool for the downstream oxygen test",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4288,6 +4502,7 @@
     "path": "content/code-articles/batch-23/P1128.md",
     "title": "P1128: Ford upstream oxygen signals appear assigned to the wrong banks",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4306,6 +4521,7 @@
     "path": "content/code-articles/batch-23/P1129.md",
     "title": "P1129: Ford downstream oxygen signals do not follow the expected bank",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4324,6 +4540,7 @@
     "path": "content/code-articles/batch-23/P1130.md",
     "title": "P1130: Ford bank-one upstream oxygen switching has reached a fuel-control limit",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4342,6 +4559,7 @@
     "path": "content/code-articles/batch-23/P1131.md",
     "title": "P1131: Ford bank-one upstream oxygen signal remains lean without switching",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4360,6 +4578,7 @@
     "path": "content/code-articles/batch-23/P1132.md",
     "title": "P1132: Ford bank-one upstream oxygen signal remains rich without switching",
     "wordCount": 282,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4378,6 +4597,7 @@
     "path": "content/code-articles/batch-23/P1137.md",
     "title": "P1137: Ford bank-one downstream oxygen channel does not respond lean as expected",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4396,6 +4616,7 @@
     "path": "content/code-articles/batch-23/P1138.md",
     "title": "P1138: Ford bank-one rear oxygen signal remains rich during its response check",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4414,6 +4635,7 @@
     "path": "content/code-articles/batch-23/P1150.md",
     "title": "P1150: Ford bank-two upstream oxygen switching reaches a control limit",
     "wordCount": 284,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4432,6 +4654,7 @@
     "path": "content/code-articles/batch-23/P1151.md",
     "title": "P1151: Ford bank-two upstream oxygen output indicates lean without switching",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4450,6 +4673,7 @@
     "path": "content/code-articles/batch-23/P1152.md",
     "title": "P1152: Ford bank-two upstream oxygen output stays rich during the switching test",
     "wordCount": 280,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4468,6 +4692,7 @@
     "path": "content/code-articles/batch-23/P1157.md",
     "title": "P1157: Ford bank-two downstream oxygen signal remains lean in its response test",
     "wordCount": 278,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4486,6 +4711,7 @@
     "path": "content/code-articles/batch-23/P1158.md",
     "title": "P1158: Ford bank-two rear oxygen channel stays rich during the response evaluation",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4504,6 +4730,7 @@
     "path": "content/code-articles/batch-23/P1168.md",
     "title": "P1168: Ford fuel-rail pressure remains in range but is too low",
     "wordCount": 288,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4522,6 +4749,7 @@
     "path": "content/code-articles/batch-23/P1169.md",
     "title": "P1169: Ford fuel-rail pressure is in range but reported too high",
     "wordCount": 285,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4540,6 +4768,7 @@
     "path": "content/code-articles/batch-23/P1180.md",
     "title": "P1180: Ford natural-gas fuel delivery is inferred too low",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4558,6 +4787,7 @@
     "path": "content/code-articles/batch-23/P1181.md",
     "title": "P1181: Ford natural-gas fuel delivery is inferred too high",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4576,6 +4806,7 @@
     "path": "content/code-articles/batch-23/P1183.md",
     "title": "P1183: Ford engine-oil-temperature signal intermittently fails",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4594,6 +4825,7 @@
     "path": "content/code-articles/batch-23/P1184.md",
     "title": "P1184: Ford oil-temperature input is outside engine-running self-test range",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4612,6 +4844,7 @@
     "path": "content/code-articles/batch-23/P1229.md",
     "title": "P1229: Ford commands the supercharger intercooler pump but detects no current",
     "wordCount": 283,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4630,6 +4863,7 @@
     "path": "content/code-articles/batch-23/P1232.md",
     "title": "P1232: Ford low-speed fuel-pump relay command has an electrical fault",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4648,6 +4882,7 @@
     "path": "content/code-articles/batch-23/P1233.md",
     "title": "P1233: Ford fuel-pump feedback disappears from the controller",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4666,6 +4901,7 @@
     "path": "content/code-articles/batch-23/P1234.md",
     "title": "P1234: Ford records the non-MIL version of missing fuel-system feedback",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4684,6 +4920,7 @@
     "path": "content/code-articles/batch-23/P1235.md",
     "title": "P1235: Ford fuel-pump module reports an invalid or missing command",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4702,6 +4939,7 @@
     "path": "content/code-articles/batch-23/P1236.md",
     "title": "P1236: Ford stores a non-MIL fuel-pump command-range fault",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4720,6 +4958,7 @@
     "path": "content/code-articles/batch-23/P1237.md",
     "title": "P1237: Ford fuel-pump module detects a secondary-circuit problem",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4738,6 +4977,7 @@
     "path": "content/code-articles/batch-23/P1238.md",
     "title": "P1238: Ford records the non-MIL secondary fuel-pump circuit fault",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4756,6 +4996,7 @@
     "path": "content/code-articles/batch-23/P1244.md",
     "title": "P1244: Ford historical generator-load input is below its limit",
     "wordCount": 280,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4774,6 +5015,7 @@
     "path": "content/code-articles/batch-23/P1245.md",
     "title": "P1245: Ford historical generator-load input is above its limit",
     "wordCount": 287,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4792,6 +5034,7 @@
     "path": "content/code-articles/batch-23/P1246.md",
     "title": "P1246: Ford generator-load interpretation depends on the charging-system variant",
     "wordCount": 284,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4810,6 +5053,7 @@
     "path": "content/code-articles/batch-23/P1260.md",
     "title": "P1260: Ford anti-theft control has disabled engine operation",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4828,6 +5072,7 @@
     "path": "content/code-articles/batch-23/P1285.md",
     "title": "P1285: Ford cylinder-head temperature indicates overheating",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4846,6 +5091,7 @@
     "path": "content/code-articles/batch-23/P1288.md",
     "title": "P1288: Ford cylinder-head temperature is outside self-test conditions",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4864,6 +5110,7 @@
     "path": "content/code-articles/batch-23/P1289.md",
     "title": "P1289: Ford CHT high-input diagnosis changes with the PCM strategy",
     "wordCount": 283,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4882,6 +5129,7 @@
     "path": "content/code-articles/batch-23/P1290.md",
     "title": "P1290: Ford CHT low-input diagnosis depends on the PCM generation",
     "wordCount": 285,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4900,6 +5148,7 @@
     "path": "content/code-articles/batch-23/P1299.md",
     "title": "P1299: Ford has activated cylinder-head overtemperature protection",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"
@@ -4918,6 +5167,7 @@
     "path": "content/code-articles/batch-23/P1309.md",
     "title": "P1309: Ford’s misfire monitor is disabled by missing or unsuitable input",
     "wordCount": 284,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "ford-pced-1999-descriptions"

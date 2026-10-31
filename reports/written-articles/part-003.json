@@ -6,6 +6,7 @@
     "path": "content/code-articles/batch-06/P0274.md",
     "title": "P0274: why injector 5 can register a high control circuit",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -26,6 +27,7 @@
     "path": "content/code-articles/batch-06/P0276.md",
     "title": "P0276: injector 6 voltage low while the driver is off",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -46,6 +48,7 @@
     "path": "content/code-articles/batch-06/P0277.md",
     "title": "P0277: injector 6 stays high during an on command",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -66,6 +69,7 @@
     "path": "content/code-articles/batch-06/P02CC.md",
     "title": "P02CC: cylinder 1 reaches the minimum injection-learning limit",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -86,6 +90,7 @@
     "path": "content/code-articles/batch-06/P02CD.md",
     "title": "P02CD: cylinder 1 exceeds its upper injector-learning boundary",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -106,6 +111,7 @@
     "path": "content/code-articles/batch-06/P02CE.md",
     "title": "P02CE: understanding cylinder 2 minimum SQP authority",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -126,6 +132,7 @@
     "path": "content/code-articles/batch-06/P02CF.md",
     "title": "P02CF: cylinder 2 maximum injector offset in the SQP map",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -146,6 +153,7 @@
     "path": "content/code-articles/batch-06/P02D0.md",
     "title": "P02D0: cylinder 3 correction below the SQP learning floor",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -166,6 +174,7 @@
     "path": "content/code-articles/batch-06/P02D1.md",
     "title": "P02D1: why cylinder 3 can reach maximum learned injector correction",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -186,6 +195,7 @@
     "path": "content/code-articles/batch-06/P02D2.md",
     "title": "P02D2: cylinder 4 minimum injector-learning authority",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -206,6 +216,7 @@
     "path": "content/code-articles/batch-06/P02D3.md",
     "title": "P02D3: cylinder 4 learning exceeds maximum energizing-time authority",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -226,6 +237,7 @@
     "path": "content/code-articles/batch-06/P02D4.md",
     "title": "P02D4: what cylinder 5 minimum offset learning actually measures",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -246,6 +258,7 @@
     "path": "content/code-articles/batch-06/P02D5.md",
     "title": "P02D5: cylinder 5 upper-limit SQP adaptation",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -266,6 +279,7 @@
     "path": "content/code-articles/batch-06/P02D6.md",
     "title": "P02D6: cylinder 6 reaches a lower SQP adaptation boundary",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -286,6 +300,7 @@
     "path": "content/code-articles/batch-06/P02D7.md",
     "title": "P02D7: cylinder 6 maximum learned injector-time correction",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -306,6 +321,7 @@
     "path": "content/code-articles/batch-06/P02E0.md",
     "title": "P02E0: diesel throttle open-load detection with the driver off",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -326,6 +342,7 @@
     "path": "content/code-articles/batch-06/P02E1.md",
     "title": "P02E1: diesel throttle cannot track its requested position",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -347,6 +364,7 @@
     "path": "content/code-articles/batch-06/P02E2.md",
     "title": "P02E2: throttle short-to-ground detection uses H-bridge current",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -367,6 +385,7 @@
     "path": "content/code-articles/batch-06/P02E3.md",
     "title": "P02E3: diesel throttle short-to-power hardware indication",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -387,6 +406,7 @@
     "path": "content/code-articles/batch-06/P02E5.md",
     "title": "P02E5: throttle fails to return to its default open position",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -407,6 +427,7 @@
     "path": "content/code-articles/batch-06/P02E8.md",
     "title": "P02E8: diesel throttle SENT position signal below range",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -427,6 +448,7 @@
     "path": "content/code-articles/batch-06/P02E9.md",
     "title": "P02E9: throttle SENT feedback exceeds its upper electrical range",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -447,6 +469,7 @@
     "path": "content/code-articles/batch-06/P02EB.md",
     "title": "P02EB: excessive current through the diesel throttle motor",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -467,6 +490,7 @@
     "path": "content/code-articles/batch-06/P02F1.md",
     "title": "P02F1: injector 4 current takes too long or too little time to fall",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -487,6 +511,7 @@
     "path": "content/code-articles/batch-06/P02F2.md",
     "title": "P02F2: cylinder 5 end-of-injection current-decay performance",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -507,6 +532,7 @@
     "path": "content/code-articles/batch-06/P02F3.md",
     "title": "P02F3: injector 6 current-fall timing in the 25OBDG04B monitor",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -527,6 +553,7 @@
     "path": "content/code-articles/batch-06/P037E.md",
     "title": "P037E: glow-system sense feedback relative to supply voltage",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -547,6 +574,7 @@
     "path": "content/code-articles/batch-06/P037F.md",
     "title": "P037F: glow feedback above the documented 5 V limit",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -567,6 +595,7 @@
     "path": "content/code-articles/batch-06/P0381.md",
     "title": "P0381: wait-to-start lamp open-circuit monitoring",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -587,6 +616,7 @@
     "path": "content/code-articles/batch-06/P0401.md",
     "title": "P0401: insufficient high-pressure EGR inferred from an air model",
     "wordCount": 278,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -610,6 +640,7 @@
     "path": "content/code-articles/batch-06/P0402.md",
     "title": "P0402: excessive high-pressure EGR detected through an air residual",
     "wordCount": 280,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -633,6 +664,7 @@
     "path": "content/code-articles/batch-06/P0403.md",
     "title": "P0403: high-pressure EGR actuator open-load check",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -653,6 +685,7 @@
     "path": "content/code-articles/batch-06/P0404.md",
     "title": "P0404: high-pressure EGR position does not follow its setpoint",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -674,6 +707,7 @@
     "path": "content/code-articles/batch-06/P0405.md",
     "title": "P0405: high-pressure EGR SENT feedback below its electrical range",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -694,6 +728,7 @@
     "path": "content/code-articles/batch-06/P0406.md",
     "title": "P0406: high-pressure EGR position feedback exceeds its upper range",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -714,6 +749,7 @@
     "path": "content/code-articles/batch-06/P041B.md",
     "title": "P041B: EGR temperature fails a post-soak response check",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -734,6 +770,7 @@
     "path": "content/code-articles/batch-06/P041C.md",
     "title": "P041C: low-range EGR temperature feedback depends on sensor type",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -754,6 +791,7 @@
     "path": "content/code-articles/batch-06/P041D.md",
     "title": "P041D: high-range EGR temperature circuit evidence",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -774,6 +812,7 @@
     "path": "content/code-articles/batch-06/P041E.md",
     "title": "P041E: erratic EGR temperature changes between samples",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -794,6 +833,7 @@
     "path": "content/code-articles/batch-06/P0421.md",
     "title": "P0421: diesel oxidation-catalyst efficiency during regeneration",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -816,6 +856,7 @@
     "path": "content/code-articles/batch-06/P042E.md",
     "title": "P042E: high-pressure EGR remains open after drive removal",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -836,6 +877,7 @@
     "path": "content/code-articles/batch-06/P044C.md",
     "title": "P044C: low-pressure EGR position signal below electrical range",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -856,6 +898,7 @@
     "path": "content/code-articles/batch-06/P044D.md",
     "title": "P044D: upper-range low-pressure EGR SENT feedback",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -876,6 +919,7 @@
     "path": "content/code-articles/batch-06/P045A.md",
     "title": "P045A: low-pressure EGR command circuit open-load evidence",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -896,6 +940,7 @@
     "path": "content/code-articles/batch-06/P045B.md",
     "title": "P045B: low-pressure EGR position tracking outside tolerance",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -917,6 +962,7 @@
     "path": "content/code-articles/batch-06/P045C.md",
     "title": "P045C: low-pressure EGR short-to-ground indication during drive",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -937,6 +983,7 @@
     "path": "content/code-articles/batch-06/P045D.md",
     "title": "P045D: low-pressure EGR command short toward the power supply",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -957,6 +1004,7 @@
     "path": "content/code-articles/batch-06/P045E.md",
     "title": "P045E: low-pressure EGR does not return to its closed default",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -977,6 +1025,7 @@
     "path": "content/code-articles/batch-06/P0475.md",
     "title": "P0475: exhaust throttle open circuit with an off-state driver",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -997,6 +1046,7 @@
     "path": "content/code-articles/batch-06/P0476.md",
     "title": "P0476: exhaust throttle position-tracking performance",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1018,6 +1068,7 @@
     "path": "content/code-articles/batch-06/P0477.md",
     "title": "P0477: exhaust throttle command short-to-ground detection",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1038,6 +1089,7 @@
     "path": "content/code-articles/batch-06/P0478.md",
     "title": "P0478: exhaust throttle command circuit short to power",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1058,6 +1110,7 @@
     "path": "content/code-articles/batch-06/P0489.md",
     "title": "P0489: high-pressure EGR short-to-ground current signature",
     "wordCount": 252,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1078,6 +1131,7 @@
     "path": "content/code-articles/batch-06/P048A.md",
     "title": "P048A: exhaust throttle fails its spring-return position check",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1098,6 +1152,7 @@
     "path": "content/code-articles/batch-06/P048D.md",
     "title": "P048D: exhaust throttle SENT position feedback below range",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1118,6 +1173,7 @@
     "path": "content/code-articles/batch-06/P048E.md",
     "title": "P048E: exhaust throttle position signal above its raw upper limit",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1138,6 +1194,7 @@
     "path": "content/code-articles/batch-06/P0490.md",
     "title": "P0490: high-pressure EGR command short to the power supply",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1158,6 +1215,7 @@
     "path": "content/code-articles/batch-06/P049B.md",
     "title": "P049B: insufficient low-pressure EGR in the air-flow model",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1181,6 +1239,7 @@
     "path": "content/code-articles/batch-06/P049C.md",
     "title": "P049C: excessive low-pressure EGR inferred from fresh-air mismatch",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1204,6 +1263,7 @@
     "path": "content/code-articles/batch-06/P049D.md",
     "title": "P049D: high-pressure EGR closed-stop learning is outside its window",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1225,6 +1285,7 @@
     "path": "content/code-articles/batch-06/P049E.md",
     "title": "P049E: low-pressure EGR endpoint learning exceeds permitted limits",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1246,6 +1307,7 @@
     "path": "content/code-articles/batch-06/P04CF.md",
     "title": "P04CF: low-pressure EGR temperature disagrees after an overnight soak",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1267,6 +1329,7 @@
     "path": "content/code-articles/batch-06/P04D0.md",
     "title": "P04D0: upstream low-pressure EGR temperature resistance too low",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1287,6 +1350,7 @@
     "path": "content/code-articles/batch-06/P04D1.md",
     "title": "P04D1: EGR temperature raw resistance above the high boundary",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1307,6 +1371,7 @@
     "path": "content/code-articles/batch-06/P04D2.md",
     "title": "P04D2: intermittent upstream low-pressure EGR temperature behavior",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1327,6 +1392,7 @@
     "path": "content/code-articles/batch-06/P04FA.md",
     "title": "P04FA: high-pressure EGR drive electronics overtemperature",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1347,6 +1413,7 @@
     "path": "content/code-articles/batch-06/P0537.md",
     "title": "P0537: evaporator temperature sensor voltage persistently low",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1367,6 +1434,7 @@
     "path": "content/code-articles/batch-06/P0538.md",
     "title": "P0538: evaporator sensor voltage high from an open or power short",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1387,6 +1455,7 @@
     "path": "content/code-articles/batch-06/P0539.md",
     "title": "P0539: evaporator temperature signal changes too quickly",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1407,6 +1476,7 @@
     "path": "content/code-articles/batch-06/P0545.md",
     "title": "P0545: EGT sensor 1 low-range feedback and a source limitation",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -1427,6 +1497,7 @@
     "path": "content/code-articles/batch-06/P0546.md",
     "title": "P0546: EGT sensor 1 above its raw electrical range",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1447,6 +1518,7 @@
     "path": "content/code-articles/batch-06/P054E.md",
     "title": "P054E: idle torque-forming fuel quantity below its mapped expectation",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1469,6 +1541,7 @@
     "path": "content/code-articles/batch-06/P054F.md",
     "title": "P054F: idle injection quantity above the selected maximum map",
     "wordCount": 276,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1491,6 +1564,7 @@
     "path": "content/code-articles/batch-06/P0589.md",
     "title": "P0589: cruise switch B sits between recognized input ranges",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1511,6 +1585,7 @@
     "path": "content/code-articles/batch-06/P0592.md",
     "title": "P0592: cruise switch B input in the short-to-ground range",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1531,6 +1606,7 @@
     "path": "content/code-articles/batch-06/P0593.md",
     "title": "P0593: cruise switch B input in the short-to-power band",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1551,6 +1627,7 @@
     "path": "content/code-articles/batch-06/P05AE.md",
     "title": "P05AE: shutter B fails commanded-position retries",
     "wordCount": 274,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1573,6 +1650,7 @@
     "path": "content/code-articles/batch-06/P05D1.md",
     "title": "P05D1: driver-mode switch bank 1 input below its low threshold",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1593,6 +1671,7 @@
     "path": "content/code-articles/batch-06/P05D2.md",
     "title": "P05D2: driver-mode switch voltage exceeds the documented high limit",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -1613,6 +1692,7 @@
     "path": "content/code-articles/batch-06/P05D3.md",
     "title": "P05D3: driver-mode switch voltage lands between recognized states",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1633,6 +1713,7 @@
     "path": "content/code-articles/batch-06/P05EC.md",
     "title": "P05EC: cold-start injection request and scheduling disagree",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1654,6 +1735,7 @@
     "path": "content/code-articles/batch-06/P05FD.md",
     "title": "P05FD: VGT drive electronics report excessive temperature",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1674,6 +1756,7 @@
     "path": "content/code-articles/batch-06/P0627.md",
     "title": "P0627: feed-fuel-pump relay driver detects an open load",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1694,6 +1777,7 @@
     "path": "content/code-articles/batch-06/P0628.md",
     "title": "P0628: fuel-pump relay control short-to-ground signature",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1714,6 +1798,7 @@
     "path": "content/code-articles/batch-06/P0629.md",
     "title": "P0629: fuel-pump relay output stays high while commanded off",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1734,6 +1819,7 @@
     "path": "content/code-articles/batch-06/P062D.md",
     "title": "P062D: injector-driver boost voltage outside its operating window",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1754,6 +1840,7 @@
     "path": "content/code-articles/batch-06/P064F.md",
     "title": "P064F: invalid authentication table in ECU software",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1774,6 +1861,7 @@
     "path": "content/code-articles/batch-06/P066A.md",
     "title": "P066A: cylinder 1 glow circuit low and the inrush check",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1794,6 +1882,7 @@
     "path": "content/code-articles/batch-06/P066B.md",
     "title": "P066B: cylinder 1 glow output short toward power",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1814,6 +1903,7 @@
     "path": "content/code-articles/batch-06/P066C.md",
     "title": "P066C: cylinder 2 glow control ground-short monitoring",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1834,6 +1924,7 @@
     "path": "content/code-articles/batch-06/P066D.md",
     "title": "P066D: load-dependent high-voltage fault on glow circuit 2",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1854,6 +1945,7 @@
     "path": "content/code-articles/batch-06/P066E.md",
     "title": "P066E: cylinder 3 glow circuit low versus excessive initial current",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1874,6 +1966,7 @@
     "path": "content/code-articles/batch-06/P066F.md",
     "title": "P066F: cylinder 3 glow circuit high has two load-dependent cases",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1894,6 +1987,7 @@
     "path": "content/code-articles/batch-06/P0671.md",
     "title": "P0671: cylinder 1 glow-plug open-load diagnosis",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1914,6 +2008,7 @@
     "path": "content/code-articles/batch-06/P0672.md",
     "title": "P0672: open circuit detected on cylinder 2 glow output",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1934,6 +2029,7 @@
     "path": "content/code-articles/batch-06/P0673.md",
     "title": "P0673: cylinder 3 glow circuit appears electrically unloaded",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1954,6 +2050,7 @@
     "path": "content/code-articles/batch-06/P0674.md",
     "title": "P0674: cylinder 4 glow output open-load monitoring conditions",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -1974,6 +2071,7 @@
     "path": "content/code-articles/batch-06/P0675.md",
     "title": "P0675: cylinder 5 glow open-load monitor with a source-label conflict",
     "wordCount": 270,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -1994,6 +2092,7 @@
     "path": "content/code-articles/batch-06/P0676.md",
     "title": "P0676: cylinder 6 glow circuit open-load evidence",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2014,6 +2113,7 @@
     "path": "content/code-articles/batch-06/P067A.md",
     "title": "P067A: cylinder 4 glow ground-short and inrush-current assessment",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2034,6 +2134,7 @@
     "path": "content/code-articles/batch-07/P067B.md",
     "title": "P067B: cylinder 4 glow-plug high-circuit detection",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2054,6 +2155,7 @@
     "path": "content/code-articles/batch-07/P067C.md",
     "title": "P067C: cylinder 5 glow-plug low circuit and inrush faults",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2074,6 +2176,7 @@
     "path": "content/code-articles/batch-07/P067D.md",
     "title": "P067D: understanding the cylinder 5 glow-plug high fault",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2094,6 +2197,7 @@
     "path": "content/code-articles/batch-07/P067E.md",
     "title": "P067E: cylinder 6 low-circuit detection has a startup branch",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2114,6 +2218,7 @@
     "path": "content/code-articles/batch-07/P067F.md",
     "title": "P067F: cylinder 6 glow-plug output high-circuit fault",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2134,6 +2239,7 @@
     "path": "content/code-articles/batch-07/P06AF.md",
     "title": "P06AF: engine shutdown code can reflect controller pattern monitoring",
     "wordCount": 279,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2155,6 +2261,7 @@
     "path": "content/code-articles/batch-07/P06C5.md",
     "title": "P06C5: cylinder 1 glow-plug resistance rationality",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2175,6 +2282,7 @@
     "path": "content/code-articles/batch-07/P06C6.md",
     "title": "P06C6: why cylinder 2 can fail the glow-plug rationality test",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2195,6 +2303,7 @@
     "path": "content/code-articles/batch-07/P06C7.md",
     "title": "P06C7: cylinder 3 glow-plug performance judged by resistance",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2215,6 +2324,7 @@
     "path": "content/code-articles/batch-07/P06C8.md",
     "title": "P06C8: cylinder 4 glow-plug incorrect versus an electrical short",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2235,6 +2345,7 @@
     "path": "content/code-articles/batch-07/P06C9.md",
     "title": "P06C9: cylinder 5 glow-plug rationality with a source-label caveat",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -2255,6 +2366,7 @@
     "path": "content/code-articles/batch-07/P06CA.md",
     "title": "P06CA: cylinder 6 glow-plug rationality and inconsistent source wording",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -2275,6 +2387,7 @@
     "path": "content/code-articles/batch-07/P073D.md",
     "title": "P073D: commanded neutral does not match actual transmission range",
     "wordCount": 271,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2295,6 +2408,7 @@
     "path": "content/code-articles/batch-07/P073E.md",
     "title": "P073E: reverse selection fails the range-agreement check",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2315,6 +2429,7 @@
     "path": "content/code-articles/batch-07/P0741.md",
     "title": "P0741: GR10 converter performance can be judged by K factor",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2336,6 +2451,7 @@
     "path": "content/code-articles/batch-07/P0747.md",
     "title": "P0747: GR10 C1 clutch stays applied during release",
     "wordCount": 285,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2361,6 +2477,7 @@
     "path": "content/code-articles/batch-07/P0777.md",
     "title": "P0777: C2 release behavior behind the solenoid B stuck-on code",
     "wordCount": 282,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2386,6 +2503,7 @@
     "path": "content/code-articles/batch-07/P0797.md",
     "title": "P0797: GR10 solenoid C stuck-on criteria differ from adjacent clutches",
     "wordCount": 285,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2411,6 +2529,7 @@
     "path": "content/code-articles/batch-07/P07B3.md",
     "title": "P07B3: Park-button switch A reads below its allowed range",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2431,6 +2550,7 @@
     "path": "content/code-articles/batch-07/P07B4.md",
     "title": "P07B4: Park-button switch A high-signal qualification",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2451,6 +2571,7 @@
     "path": "content/code-articles/batch-07/P07B5.md",
     "title": "P07B5: Park switch A sits between valid button states",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2471,6 +2592,7 @@
     "path": "content/code-articles/batch-07/P07B9.md",
     "title": "P07B9: Park-button channel B low-input detection",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2491,6 +2613,7 @@
     "path": "content/code-articles/batch-07/P07BA.md",
     "title": "P07BA: Park-button switch B exceeds the high-signal boundary",
     "wordCount": 245,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2511,6 +2634,7 @@
     "path": "content/code-articles/batch-07/P07BB.md",
     "title": "P07BB: Park-button switch B has an unrecognized intermediate reading",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2531,6 +2655,7 @@
     "path": "content/code-articles/batch-07/P07BE.md",
     "title": "P07BE: two valid Park-button channels disagree",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2551,6 +2676,7 @@
     "path": "content/code-articles/batch-07/P07E4.md",
     "title": "P07E4: Park is requested but the actual range does not agree",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2571,6 +2697,7 @@
     "path": "content/code-articles/batch-07/P07E5.md",
     "title": "P07E5: Drive selection and actual range remain out of agreement",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2591,6 +2718,7 @@
     "path": "content/code-articles/batch-07/P082A.md",
     "title": "P082A: X-axis sensor 1 can fail path or correlation checks",
     "wordCount": 263,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2612,6 +2740,7 @@
     "path": "content/code-articles/batch-07/P082D.md",
     "title": "P082D: gear-lever Y sensor 1 has two performance failure paths",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2633,6 +2762,7 @@
     "path": "content/code-articles/batch-07/P089B.md",
     "title": "P089B: Alpha 2 shifter position fails path or disagreement limits",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2654,6 +2784,7 @@
     "path": "content/code-articles/batch-07/P08A0.md",
     "title": "P08A0: Beta 2 gear-lever position must follow its calibrated path",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2675,6 +2806,7 @@
     "path": "content/code-articles/batch-07/P2002.md",
     "title": "P2002: DPF efficiency is judged from filtered soot-sensor evidence",
     "wordCount": 275,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2697,6 +2829,7 @@
     "path": "content/code-articles/batch-07/P2006.md",
     "title": "P2006: swirl flaps fail to return after actuator shutdown",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2717,6 +2850,7 @@
     "path": "content/code-articles/batch-07/P2008.md",
     "title": "P2008: swirl-motor open-circuit detection occurs with the driver off",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2737,6 +2871,7 @@
     "path": "content/code-articles/batch-07/P2009.md",
     "title": "P2009: swirl-motor circuit low is identified by H-bridge overcurrent",
     "wordCount": 249,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2757,6 +2892,7 @@
     "path": "content/code-articles/batch-07/P200A.md",
     "title": "P200A: key-off swirl-flap learning and response checks",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -2778,6 +2914,7 @@
     "path": "content/code-articles/batch-07/P200C.md",
     "title": "P200C: two downstream DPF overtemperature thresholds",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2798,6 +2935,7 @@
     "path": "content/code-articles/batch-07/P200E.md",
     "title": "P200E: close-coupled oxidation-catalyst overtemperature evidence",
     "wordCount": 245,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2818,6 +2956,7 @@
     "path": "content/code-articles/batch-07/P2010.md",
     "title": "P2010: swirl-motor high circuit uses hardware short-to-power information",
     "wordCount": 245,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2838,6 +2977,7 @@
     "path": "content/code-articles/batch-07/P2016.md",
     "title": "P2016: low SENT swirl-position value with communication still valid",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2858,6 +2998,7 @@
     "path": "content/code-articles/batch-07/P2017.md",
     "title": "P2017: high swirl-position signal is separate from a motor high fault",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2878,6 +3019,7 @@
     "path": "content/code-articles/batch-07/P201B.md",
     "title": "P201B: swirl-motor supply is low despite a valid relay supply",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2898,6 +3040,7 @@
     "path": "content/code-articles/batch-07/P2032.md",
     "title": "P2032: EGT sensor 2 low-range diagnosis depends on sensor type",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -2918,6 +3061,7 @@
     "path": "content/code-articles/batch-07/P2033.md",
     "title": "P2033: EGT sensor 2 high-range fault needs sensor-type confirmation",
     "wordCount": 251,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -2938,6 +3082,7 @@
     "path": "content/code-articles/batch-07/P203C.md",
     "title": "P203C: reductant level low-circuit code comes from smart-sensor status",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2958,6 +3103,7 @@
     "path": "content/code-articles/batch-07/P2047.md",
     "title": "P2047: DEF dosing valve 1 open-circuit status",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2978,6 +3124,7 @@
     "path": "content/code-articles/batch-07/P2048.md",
     "title": "P2048: first DEF valve has a low-side short-to-ground indication",
     "wordCount": 249,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -2998,6 +3145,7 @@
     "path": "content/code-articles/batch-07/P2049.md",
     "title": "P2049: first reductant valve control is shorted toward battery supply",
     "wordCount": 246,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3018,6 +3166,7 @@
     "path": "content/code-articles/batch-07/P204D.md",
     "title": "P204D: high reductant pressure-sensor voltage can display zero pressure",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3038,6 +3187,7 @@
     "path": "content/code-articles/batch-07/P2053.md",
     "title": "P2053: second DEF metering valve open-circuit evidence",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3058,6 +3208,7 @@
     "path": "content/code-articles/batch-07/P2054.md",
     "title": "P2054: DEF valve 2 low-side ground-short supervision",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3078,6 +3229,7 @@
     "path": "content/code-articles/batch-07/P2055.md",
     "title": "P2055: second DEF valve control has a short-to-supply signature",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3098,6 +3250,7 @@
     "path": "content/code-articles/batch-07/P205B.md",
     "title": "P205B: reductant tank temperature disagrees after a cold soak",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3118,6 +3271,7 @@
     "path": "content/code-articles/batch-07/P205C.md",
     "title": "P205C: low tank-temperature signal can represent an electrically hot reading",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3138,6 +3292,7 @@
     "path": "content/code-articles/batch-07/P206B.md",
     "title": "P206B: reductant quality data remains unavailable when it should be ready",
     "wordCount": 269,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3158,6 +3313,7 @@
     "path": "content/code-articles/batch-07/P206C.md",
     "title": "P206C: quality-sensor circuit low combines measurement and piezo faults",
     "wordCount": 251,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3178,6 +3334,7 @@
     "path": "content/code-articles/batch-07/P2080.md",
     "title": "P2080: EGT sensor 1 fails to show the expected post-soak rise",
     "wordCount": 272,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3199,6 +3356,7 @@
     "path": "content/code-articles/batch-07/P2081.md",
     "title": "P2081: EGT sensor 1 changes faster than the monitor permits",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3220,6 +3378,7 @@
     "path": "content/code-articles/batch-07/P2084.md",
     "title": "P2084: EGT sensor 2 has insufficient warming response after soak",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3241,6 +3400,7 @@
     "path": "content/code-articles/batch-07/P2085.md",
     "title": "P2085: rapid raw-temperature changes from EGT sensor 2",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3262,6 +3422,7 @@
     "path": "content/code-articles/batch-07/P208B.md",
     "title": "P208B: reductant pump speed fails to follow its command",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3282,6 +3443,7 @@
     "path": "content/code-articles/batch-07/P208D.md",
     "title": "P208D: pump short-to-power is isolated after the pump is stopped",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3302,6 +3464,7 @@
     "path": "content/code-articles/batch-07/P20BB.md",
     "title": "P20BB: heater 1 ground-short classification uses an off-state test",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3322,6 +3485,7 @@
     "path": "content/code-articles/batch-07/P20BE.md",
     "title": "P20BE: line-heater performance checks resistance and delivered power",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3342,6 +3506,7 @@
     "path": "content/code-articles/batch-07/P20C1.md",
     "title": "P20C1: heater C maps to the second tank heater in this system",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3362,6 +3527,7 @@
     "path": "content/code-articles/batch-07/P20C4.md",
     "title": "P20C4: heater 3 short-to-power is confirmed with heating switched off",
     "wordCount": 249,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3382,6 +3548,7 @@
     "path": "content/code-articles/batch-07/P20E9.md",
     "title": "P20E9: reductant pressure exceeds its current target",
     "wordCount": 247,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3402,6 +3569,7 @@
     "path": "content/code-articles/batch-07/P20EE.md",
     "title": "P20EE: SCR efficiency is a filtered model-based judgment",
     "wordCount": 281,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3425,6 +3593,7 @@
     "path": "content/code-articles/batch-07/P20F8.md",
     "title": "P20F8: swirl-flap position does not track a settled command",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3445,6 +3614,7 @@
     "path": "content/code-articles/batch-07/P20FE.md",
     "title": "P20FE: first DEF injector needs excessive delivery compensation",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3465,6 +3635,7 @@
     "path": "content/code-articles/batch-07/P20FF.md",
     "title": "P20FF: reductant-controller performance includes memory and calibration checks",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3485,6 +3656,7 @@
     "path": "content/code-articles/batch-07/P214E.md",
     "title": "P214E: pump overcurrent limits change in heating mode",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3505,6 +3677,7 @@
     "path": "content/code-articles/batch-07/P215B.md",
     "title": "P215B: speed correlation can fail because the trusted source is unavailable",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3525,6 +3698,7 @@
     "path": "content/code-articles/batch-07/P2184.md",
     "title": "P2184: coolant sensor 2 low circuit uses a configurable resistance channel",
     "wordCount": 251,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3545,6 +3719,7 @@
     "path": "content/code-articles/batch-07/P2185.md",
     "title": "P2185: coolant sensor 2 high-circuit row contains a channel conflict",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -3565,6 +3740,7 @@
     "path": "content/code-articles/batch-07/P2186.md",
     "title": "P2186: coolant sensor 2 changes faster than its thermal model permits",
     "wordCount": 273,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3586,6 +3762,7 @@
     "path": "content/code-articles/batch-07/P21C5.md",
     "title": "P21C5: available reductant level data stays too still during expected slosh",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3606,6 +3783,7 @@
     "path": "content/code-articles/batch-07/P21DD.md",
     "title": "P21DD: tank heater 1 draws too little current while commanded on",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3626,6 +3804,7 @@
     "path": "content/code-articles/batch-07/P2201.md",
     "title": "P2201: NOx sensor 1 internal current-control stability",
     "wordCount": 264,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3646,6 +3825,7 @@
     "path": "content/code-articles/batch-07/P2202.md",
     "title": "P2202: NOx sensor 1 reports below its usable concentration range",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3666,6 +3846,7 @@
     "path": "content/code-articles/batch-07/P2203.md",
     "title": "P2203: engine-out NOx raw value exceeds the sensor range",
     "wordCount": 251,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3686,6 +3867,7 @@
     "path": "content/code-articles/batch-07/P2205.md",
     "title": "P2205: NOx sensor 1 heater-control open-circuit diagnosis",
     "wordCount": 248,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3706,6 +3888,7 @@
     "path": "content/code-articles/batch-07/P2206.md",
     "title": "P2206: NOx heater-control short to ground after dewpoint",
     "wordCount": 250,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3726,6 +3909,7 @@
     "path": "content/code-articles/batch-07/P2207.md",
     "title": "P2207: NOx sensor 1 heater circuit short toward power",
     "wordCount": 245,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -3746,6 +3930,7 @@
     "path": "content/code-articles/batch-07/P2208.md",
     "title": "P2208: NOx heater-sense open circuit is separate from heater control",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3766,6 +3951,7 @@
     "path": "content/code-articles/batch-07/P2209.md",
     "title": "P2209: NOx heater resistance deviates from its target after several delays",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3786,6 +3972,7 @@
     "path": "content/code-articles/batch-07/P220A.md",
     "title": "P220A: NOx sensor 1 supply falls low while relay voltage remains adequate",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3806,6 +3993,7 @@
     "path": "content/code-articles/batch-07/P220B.md",
     "title": "P220B: post-catalyst NOx sensor supply-voltage supervision",
     "wordCount": 246,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3826,6 +4014,7 @@
     "path": "content/code-articles/batch-07/P2210.md",
     "title": "P2210: NOx heater-sense connection is shorted to ground",
     "wordCount": 248,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3846,6 +4035,7 @@
     "path": "content/code-articles/batch-07/P2211.md",
     "title": "P2211: NOx heater-sense circuit has a short-to-power indication",
     "wordCount": 252,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3866,6 +4056,7 @@
     "path": "content/code-articles/batch-07/P221D.md",
     "title": "P221D: reductant line-heater current exceeds its operating limit",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3886,6 +4077,7 @@
     "path": "content/code-articles/batch-07/P221F.md",
     "title": "P221F: second tank-heater channel draws excessive current",
     "wordCount": 247,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3906,6 +4098,7 @@
     "path": "content/code-articles/batch-07/P2227.md",
     "title": "P2227: three-sensor comparison isolates barometric-pressure disagreement",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3928,6 +4121,7 @@
     "path": "content/code-articles/batch-07/P226D.md",
     "title": "P226D: low DPF flow resistance can also implicate pressure-sensing pipes",
     "wordCount": 268,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3950,6 +4144,7 @@
     "path": "content/code-articles/batch-07/P227B.md",
     "title": "P227B: the documented BARO C code tests turbo-inlet pressure agreement",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3972,6 +4167,7 @@
     "path": "content/code-articles/batch-07/P228A.md",
     "title": "P228A: rail pressure remains low after metering control reaches its limit",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -3992,6 +4188,7 @@
     "path": "content/code-articles/batch-07/P228B.md",
     "title": "P228B: rail pressure stays low despite maximum regulator command",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4013,6 +4210,7 @@
     "path": "content/code-articles/batch-07/P2293.md",
     "title": "P2293: regulator-controlled rail pressure exceeds a speed-dependent ceiling",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4035,6 +4233,7 @@
     "path": "content/code-articles/batch-07/P2294.md",
     "title": "P2294: regulator 2 open circuit is diagnosed with the driver off",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4055,6 +4254,7 @@
     "path": "content/code-articles/batch-07/P2295.md",
     "title": "P2295: regulator 2 low circuit is an off-state ground-short test",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4075,6 +4275,7 @@
     "path": "content/code-articles/batch-08/P2296.md",
     "title": "P2296: fuel pressure regulator 2 driver short-to-power detection",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4095,6 +4296,7 @@
     "path": "content/code-articles/batch-08/P2297.md",
     "title": "P2297: oxygen concentration drift during stable deceleration",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4116,6 +4318,7 @@
     "path": "content/code-articles/batch-08/P229F.md",
     "title": "P229F: post-catalyst NOx sensor current-control instability",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4137,6 +4340,7 @@
     "path": "content/code-articles/batch-08/P22A0.md",
     "title": "P22A0: NOx sensor 2 reports below its allowed concentration range",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4157,6 +4361,7 @@
     "path": "content/code-articles/batch-08/P22A1.md",
     "title": "P22A1: NOx sensor 2 exceeds its upper reporting limit",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4178,6 +4383,7 @@
     "path": "content/code-articles/batch-08/P22A3.md",
     "title": "P22A3: open heater-control circuit reported by NOx sensor 2",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4198,6 +4404,7 @@
     "path": "content/code-articles/batch-08/P22A4.md",
     "title": "P22A4: NOx sensor 2 heater-control short to ground",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4218,6 +4425,7 @@
     "path": "content/code-articles/batch-08/P22A5.md",
     "title": "P22A5: NOx sensor 2 heater-control short to supply",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4238,6 +4446,7 @@
     "path": "content/code-articles/batch-08/P22A6.md",
     "title": "P22A6: open NOx sensor 2 heater-sense circuit",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4258,6 +4467,7 @@
     "path": "content/code-articles/batch-08/P22A7.md",
     "title": "P22A7: NOx sensor 2 heater resistance fails its performance check",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4278,6 +4488,7 @@
     "path": "content/code-articles/batch-08/P22A8.md",
     "title": "P22A8: NOx sensor 2 heater-sense short to ground",
     "wordCount": 249,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4298,6 +4509,7 @@
     "path": "content/code-articles/batch-08/P22A9.md",
     "title": "P22A9: NOx sensor 2 heater-sense short to power",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4318,6 +4530,7 @@
     "path": "content/code-articles/batch-08/P22B6.md",
     "title": "P22B6: NOx sensor 2 oxygen signal below its reporting floor",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4338,6 +4551,7 @@
     "path": "content/code-articles/batch-08/P22B7.md",
     "title": "P22B7: NOx sensor 2 oxygen signal above its reporting ceiling",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4358,6 +4572,7 @@
     "path": "content/code-articles/batch-08/P22FB.md",
     "title": "P22FB: engine-out NOx signal disagrees with its model",
     "wordCount": 283,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4380,6 +4595,7 @@
     "path": "content/code-articles/batch-08/P22FE.md",
     "title": "P22FE: post-catalyst NOx sensing-cell self-test fails",
     "wordCount": 294,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4404,6 +4620,7 @@
     "path": "content/code-articles/batch-08/P233A.md",
     "title": "P233A: fuel metering valve 2 open-load detection",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4424,6 +4641,7 @@
     "path": "content/code-articles/batch-08/P233B.md",
     "title": "P233B: fuel metering valve 2 low-side short to ground",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4444,6 +4662,7 @@
     "path": "content/code-articles/batch-08/P233C.md",
     "title": "P233C: fuel metering valve 2 low-side short to power",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4464,6 +4683,7 @@
     "path": "content/code-articles/batch-08/P2381.md",
     "title": "P2381: low-pressure EGR differential-pressure signal high",
     "wordCount": 246,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4484,6 +4704,7 @@
     "path": "content/code-articles/batch-08/P2382.md",
     "title": "P2382: low-pressure EGR differential-pressure signal low",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4504,6 +4725,7 @@
     "path": "content/code-articles/batch-08/P2383.md",
     "title": "P2383: EGR differential-pressure offset is implausible at key-off",
     "wordCount": 267,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4525,6 +4747,7 @@
     "path": "content/code-articles/batch-08/P2384.md",
     "title": "P2384: EGR differential-pressure signal changes too quickly",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4545,6 +4768,7 @@
     "path": "content/code-articles/batch-08/P23AD.md",
     "title": "P23AD: NOx sensor 3 internal current control is unstable",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4565,6 +4789,7 @@
     "path": "content/code-articles/batch-08/P23AE.md",
     "title": "P23AE: NOx sensor 3 reports below the lower concentration limit",
     "wordCount": 257,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4585,6 +4810,7 @@
     "path": "content/code-articles/batch-08/P23AF.md",
     "title": "P23AF: NOx sensor 3 exceeds the upper concentration range",
     "wordCount": 250,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4606,6 +4832,7 @@
     "path": "content/code-articles/batch-08/P23B1.md",
     "title": "P23B1: open heater-control circuit at NOx sensor 3",
     "wordCount": 252,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4626,6 +4853,7 @@
     "path": "content/code-articles/batch-08/P23B2.md",
     "title": "P23B2: NOx sensor 3 heater control is shorted low",
     "wordCount": 249,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4646,6 +4874,7 @@
     "path": "content/code-articles/batch-08/P23B3.md",
     "title": "P23B3: NOx sensor 3 heater control is shorted high",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4666,6 +4895,7 @@
     "path": "content/code-articles/batch-08/P23B4.md",
     "title": "P23B4: NOx sensor 3 heater-resistance sensing circuit is open",
     "wordCount": 254,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4686,6 +4916,7 @@
     "path": "content/code-articles/batch-08/P23B5.md",
     "title": "P23B5: NOx sensor 3 heater resistance misses its target",
     "wordCount": 249,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4706,6 +4937,7 @@
     "path": "content/code-articles/batch-08/P23B6.md",
     "title": "P23B6: NOx sensor 3 supply voltage is below range",
     "wordCount": 258,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4726,6 +4958,7 @@
     "path": "content/code-articles/batch-08/P23B8.md",
     "title": "P23B8: NOx sensor 3 heater-sense path shorted to ground",
     "wordCount": 252,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4746,6 +4979,7 @@
     "path": "content/code-articles/batch-08/P23B9.md",
     "title": "P23B9: NOx sensor 3 heater-sense path shorted to power",
     "wordCount": 251,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4766,6 +5000,7 @@
     "path": "content/code-articles/batch-08/P23C1.md",
     "title": "P23C1: NOx sensor 3 sensing cavities fail an afterrun self-test",
     "wordCount": 284,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4790,6 +5025,7 @@
     "path": "content/code-articles/batch-08/P23C4.md",
     "title": "P23C4: coolant bypass valve C digital position signal low",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4810,6 +5046,7 @@
     "path": "content/code-articles/batch-08/P23C5.md",
     "title": "P23C5: coolant bypass valve C digital position signal high",
     "wordCount": 255,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4830,6 +5067,7 @@
     "path": "content/code-articles/batch-08/P23C6.md",
     "title": "P23C6: coolant bypass valve C motor driver overcurrent",
     "wordCount": 247,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4850,6 +5088,7 @@
     "path": "content/code-articles/batch-08/P241F.md",
     "title": "P241F: low-pressure EGR cooler efficiency below its threshold",
     "wordCount": 280,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4872,6 +5111,7 @@
     "path": "content/code-articles/batch-08/P242B.md",
     "title": "P242B: exhaust temperature sensor 3 fails to respond after a soak",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4893,6 +5133,7 @@
     "path": "content/code-articles/batch-08/P242C.md",
     "title": "P242C: exhaust temperature sensor 3 below its electrical range",
     "wordCount": 253,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4913,6 +5154,7 @@
     "path": "content/code-articles/batch-08/P242D.md",
     "title": "P242D: exhaust temperature sensor 3 above its electrical range",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4933,6 +5175,7 @@
     "path": "content/code-articles/batch-08/P242E.md",
     "title": "P242E: exhaust temperature sensor 3 changes implausibly fast",
     "wordCount": 265,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4954,6 +5197,7 @@
     "path": "content/code-articles/batch-08/P244A.md",
     "title": "P244A: particulate-filter differential pressure is unexpectedly low",
     "wordCount": 266,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -4975,6 +5219,7 @@
     "path": "content/code-articles/batch-08/P244B.md",
     "title": "P244B: filter pressure comparison suggests a downstream sensing problem",
     "wordCount": 277,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -4999,6 +5244,7 @@
     "path": "content/code-articles/batch-08/P2452.md",
     "title": "P2452: particulate-filter pressure sensor offset is implausible",
     "wordCount": 259,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -5019,6 +5265,7 @@
     "path": "content/code-articles/batch-08/P2453.md",
     "title": "P2453: filter differential-pressure signal is stuck during a transient",
     "wordCount": 262,
+    "selectedForPublication": true,
     "sourceReview": "needs-review",
     "sourceIds": [
       "gm-2025-04b"
@@ -5039,6 +5286,7 @@
     "path": "content/code-articles/batch-08/P2454.md",
     "title": "P2454: filter differential-pressure raw signal below its electrical floor",
     "wordCount": 261,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -5059,6 +5307,7 @@
     "path": "content/code-articles/batch-08/P2455.md",
     "title": "P2455: filter pressure-sensor signal above its electrical ceiling",
     "wordCount": 256,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"
@@ -5079,6 +5328,7 @@
     "path": "content/code-articles/batch-08/P2456.md",
     "title": "P2456: filter differential-pressure signal jumps too rapidly",
     "wordCount": 260,
+    "selectedForPublication": true,
     "sourceReview": "checked",
     "sourceIds": [
       "gm-2025-04b"

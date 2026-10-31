@@ -14,12 +14,16 @@ function screen(evidence,source){
   const write=(p,x)=>fs.writeFileSync(path.join(root,p),JSON.stringify(x));
   write('research/article-assignments/manifest.json',{target:1,batches:[{batch:'batch-test',count:1,assignment:'research/article-assignments/batch-test.json',outputDirectory:'content/code-articles/batch-test'}]});
   write('research/article-assignments/batch-test.json',[{code:'P1000',entryId:'ford-p1000'}]);
+  // Evidence screening is independent of publication; these fixtures stay drafts.
+  write('content/code-articles/publication.json',{schemaVersion:1,expectedArticles:0,batches:[]});
   write('src/data/diagnostic-source-index.json',{sources:[{id:'test-source',...source}]});
   const metadata={code:'P1000',entryId:'ford-p1000',authoringBatch:'batch-test',title:'P1000: evidence fixture',description:'A complete test description.',status:'draft',sourceReview:'checked',scope:'Test document only.',sourceIds:['test-source'],...evidence};
   const body='# P1000 evidence fixture\n\n## Meaning\n'+Array(90).fill('fixture').join(' ')+'\n\n## Evidence\n'+Array(90).fill('record').join(' ')+'\nhttps://example.com/manual\n';
   fs.writeFileSync(path.join(root,'content/code-articles/batch-test/P1000.md'),'---\n'+JSON.stringify(metadata)+'\n---\n'+body);
   const result=spawnSync(process.execPath,[checker,'--require-complete'],{cwd:root,encoding:'utf8'});
+  assert.ok(fs.existsSync(path.join(root,'reports/written-articles.json')),result.stderr||result.stdout);
   const report=JSON.parse(fs.readFileSync(path.join(root,'reports/written-articles.json'),'utf8'));
+  assert.equal(report.counts.selectedForPublication,0);
   return {status:result.status,issues:report.failures.map(x=>x.issue)};
  }finally{fs.rmSync(root,{recursive:true,force:true});}
 }

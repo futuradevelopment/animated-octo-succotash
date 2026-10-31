@@ -1,8 +1,10 @@
 import {test,expect} from '@playwright/test';
 import {authoredGuides,guidePath,guidesForCode,guideMakes} from '../../src/lib/authored-guides';
+import {manuscriptForEntry} from '../../src/lib/code-manuscripts';
 import {codes,models,makes,codePath,modelPath,makePath,codesForMake,bulletinsForMake,getSource} from '../../src/lib/cars';
 
 const generic=codes.find(entry=>entry.code==='P0A80'&&entry.scope==='generic')!;
+const dictionaryOnly=codes.find(entry=>entry.scope==='generic'&&!manuscriptForEntry(entry.id))!;
 const manufacturer=codes.find(entry=>entry.scope==='manufacturer')!;
 const shared=codes.find(entry=>entry.scope==='manufacturer'&&(entry.makeIds?.length||0)>1)!;
 const secondaryMake=shared.makeIds!.find(id=>id!==shared.makeId)!;
@@ -73,7 +75,7 @@ test('make directory pagination keeps canonical links and avoids repeated entrie
 
 test('dictionary definition, scope, source and safety link work without JavaScript',async({browser,baseURL})=>{
  const context=await browser.newContext({javaScriptEnabled:false,baseURL});const page=await context.newPage();
- try{await page.goto(codePath(generic));await expect(page.locator('[data-code-definition]')).toContainText(generic.title);await expect(page.locator('article[data-reference-kind="dictionary"]')).toBeVisible();await expect(page.locator('#applicability')).toContainText('Generic OBD-II');await expect(page.locator('#applicability a[href="/safety/"]')).toBeVisible();await expect(page.locator('#first-check,#next-steps,.diagnostic-steps')).toHaveCount(0);await expect(page.locator('#sources')).toContainText(getSource(generic.sourceId).publisher);await expect(page.locator('#report')).toBeVisible();await expect(page.locator('[data-reference-limit]')).toContainText('definition, not a repair instruction');await page.goto('/search/');const fallback=page.locator('noscript a[href="/codes/"]');await expect(fallback).toBeVisible();await expect(fallback).toHaveText('paginated code directory');await fallback.click();await expect(page).toHaveURL(/\/codes\/$/);await expect(page.locator('.directory-grid [data-code-id]')).toHaveCount(100);}finally{await context.close();}
+ try{await page.goto(codePath(dictionaryOnly));await expect(page.locator('[data-code-definition]')).toContainText(dictionaryOnly.title);await expect(page.locator('article[data-reference-kind="dictionary"]')).toBeVisible();await expect(page.locator('#applicability')).toContainText('Generic OBD-II');await expect(page.locator('#applicability a[href="/safety/"]')).toBeVisible();await expect(page.locator('#first-check,#next-steps,.diagnostic-steps')).toHaveCount(0);await expect(page.locator('#sources')).toContainText(getSource(dictionaryOnly.sourceId).publisher);await expect(page.locator('#report')).toBeVisible();await expect(page.locator('[data-reference-limit]')).toContainText('definition, not a repair instruction');await page.goto('/search/');const fallback=page.locator('noscript a[href="/codes/"]');await expect(fallback).toBeVisible();await expect(fallback).toHaveText('paginated code directory');await fallback.click();await expect(page).toHaveURL(/\/codes\/$/);await expect(page.locator('.directory-grid [data-code-id]')).toHaveCount(100);}finally{await context.close();}
 });
 
 test('report and source fragment anchors resolve on a code page',async({page})=>{

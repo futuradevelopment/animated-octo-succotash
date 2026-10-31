@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import MakeDirectory from '../../components/MakeDirectory.astro';
+import {articleDirectoryPages,type DirectoryPage} from '../../lib/cars';
+export function getStaticPaths(){return articleDirectoryPages.map(pageData=>({params:{path:pageData.page===1?undefined:`page/${pageData.page}`},props:{pageData}}));}
+const {pageData}=Astro.props as {pageData:DirectoryPage};
+const suffix=pageData.page>1?` — Page ${pageData.page}`:'';
+---
+<Base title={`Diagnostic code articles${suffix}`} description={`Read ${pageData.total.toLocaleString('en-US')} code-specific articles with documented diagnostic distinctions, exact source links and vehicle-applicability limits${suffix}.`} breadcrumbs={[{label:'Home',href:'/'},{label:'Code articles'}]}>
+ <header class="container page-head"><p class="eyebrow">DOCUMENTED DIAGNOSTIC CONTEXT</p><h1>Diagnostic code articles{suffix}.</h1><p class="lede">Understand what the recorded fault means, which findings change the diagnosis, and what the cited documentation can confirm. Each article states the system or vehicle scope it covers.</p><p>Some sources leave details unresolved. Those articles include a visible source note; a code match alone does not establish applicability to your vehicle.</p></header>
+ <MakeDirectory {...pageData} articlesOnly/>
+</Base>

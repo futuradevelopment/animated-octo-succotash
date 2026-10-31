@@ -4,7 +4,7 @@ Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted f
 
 ## Content inventory
 
-The writing inventory contains **3,000 code-article manuscripts for 3,000 distinct codes**. Completed writing waves: 1, 2, 3. The [manuscript index](content/code-articles/README.md) reports each wave and current progress toward 10,000. Drafts are counted separately from published content and the full-catalog completion target.
+The writing inventory contains **3,000 code-article manuscripts for 3,000 distinct codes**. Completed writing waves: 1, 2, 3. The [manuscript index](content/code-articles/README.md) reports each wave and current progress toward 10,000. The publication manifest selects **3,000** for the canonical page renderer; **0** remain unpublished drafts. Renderer selection, verified live publication and the full-catalog review target are counted separately.
 
 **The 10,000-code-article task is not complete.** The 32 case guides below are separate from the canonical dictionary pages. [Full-corpus research status](docs/FULL_CORPUS_RESEARCH.md) records the evidence gap and source candidates.
 
@@ -18,7 +18,7 @@ The writing inventory contains **3,000 code-article manuscripts for 3,000 distin
 | Scoped manufacturer bulletin records | 26 |
 | Individually authored diagnostic case guides | 32 |
 
-These are **dictionary entries**, not 11,786 diagnostic articles. Dictionary pages contain the definition, scope and source without repeated repair instructions; separately authored case guides have their own vehicle-specific evidence and diagnostic branches. The MIT-licensed community dictionary is pinned and retains source-row evidence. Obvious contaminated, reserved, malformed and conflicting records are excluded. Manufacturer documents provide separately attributed model-specific context. See [data provenance](docs/DATA_PROVENANCE.md), [model research](docs/MODEL_RESEARCH.md), and [data licensing](DATA_LICENSE.md).
+The 11,786 routes preserve the code dictionary; they are not 11,786 diagnostic articles. The first 3,000 selected manuscripts add separately authored explanations to their matching code pages, retaining the dictionary definition and source. Other code pages remain definition references. The 32 case guides retain their own vehicle-specific evidence and diagnostic branches. Articles with unresolved source details keep a visible review notice. The MIT-licensed community dictionary is pinned and retains source-row evidence. Obvious contaminated, reserved, malformed and conflicting records are excluded. Manufacturer documents provide separately attributed model-specific context. See [data provenance](docs/DATA_PROVENANCE.md), [model research](docs/MODEL_RESEARCH.md), and [data licensing](DATA_LICENSE.md).
 
 Audi and Porsche are discoverable through scoped manufacturer documents and model hubs; their coverage does not imply a complete brand-specific code dictionary.
 
@@ -42,7 +42,8 @@ Browser checks run with `npm run test:browser`. Performance checks use three seq
 ## Architecture
 
 - Astro static pages, shared CSS and no client framework on code articles.
-- One build-time registry with precomputed manufacturer, system, model and code indexes.
+- Build-time registries with precomputed manufacturer, system, model and code indexes, plus manuscript selection by exact canonical entry ID.
+- Only batches explicitly listed in `content/code-articles/publication.json` enter the renderer. New writing batches remain drafts until selected and validated.
 - Crawlable directory pagination, at most 100 code cards per page.
 - Search downloads deterministic 500-record shards on demand. Opening an empty search page does not fetch the full dataset.
 - Sitemap index with shards of at most 5,000 URLs.
@@ -53,6 +54,6 @@ Data ingestion is reproducible with `node scripts/import-dtc.mjs` from the retai
 
 ## Deployment
 
-Cloudflare Pages: production branch **main**, repository root, build **npm run build**, output **dist**, `NODE_VERSION=24`. Add **cars.errhive.com** to the new project's custom domains after the first deployment. The original **errhive.com** appliance project is separate.
+Cloudflare Pages: production branch **main**, repository root, build **npm run build**, output **dist**, `NODE_VERSION=24`. The production domain is **cars.errhive.com**. The original **errhive.com** appliance project is separate.
 
 See [deployment instructions](docs/DEPLOYMENT.md), [reuse manifest](docs/REUSE_MANIFEST.md), and [quality report](docs/QUALITY_REPORT.md). DNS activation, HTTPS, public deployment and Google indexing must each be verified separately; source and build counts do not establish traffic or rankings.
