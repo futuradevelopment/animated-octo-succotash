@@ -4,7 +4,7 @@
 
 The inventory counts 1,084,982 words including headings and source text, excluding URL targets. Each manuscript records a canonical identity, search metadata, exact evidence locators and its applicability limits.
 
-**Renderer selection: 3,000 manuscripts; 1,000 remain unpublished drafts.** The explicit [publication manifest](publication.json) controls which texts appear on their existing canonical code pages. Source files retain their draft authoring metadata; publication selection is a separate state. These repository counts do not verify a live deployment. 3,420 have author source checks; 580 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
+**Renderer selection: 4,000 manuscripts; 0 remain unpublished drafts.** The explicit [publication manifest](publication.json) controls which texts appear on their existing canonical code pages. Source files retain their draft authoring metadata; publication selection is a separate state. These repository counts do not verify a live deployment. 3,420 have author source checks; 580 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
 
 ## Writing waves
 
@@ -13,7 +13,7 @@ The inventory counts 1,084,982 words including headings and source text, excludi
 | 1 | 1,000 / 1,000 | 1,000 | 110 |
 | 2 | 1,000 / 1,000 | 1,000 | 233 |
 | 3 | 1,000 / 1,000 | 1,000 | 174 |
-| 4 | 1,000 / 1,000 | 0 | 63 |
+| 4 | 1,000 / 1,000 | 1,000 | 63 |
 
 ## Articles by writer
 

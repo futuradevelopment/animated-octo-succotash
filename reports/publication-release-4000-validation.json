@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-31T11:51:04.170559+00:00",
+  "status": "passed",
+  "releaseId": "code-articles-4000-20261031",
+  "scope": "Explicit publication expansion from 3,000 to 4,000 existing manuscripts; no manuscript rewrites or repeated source review.",
+  "publicationManifest": "content/code-articles/publication.json",
+  "counts": {
+    "assigned": 4000,
+    "written": 4000,
+    "uniqueCodes": 4000,
+    "sourceCheckedDrafts": 3420,
+    "sourceReviewPending": 580,
+    "words": 1084982,
+    "minimumWords": 183,
+    "maximumWords": 431,
+    "selectedForPublication": 4000,
+    "notSelectedForPublication": 0,
+    "selectedSourceChecked": 3420,
+    "selectedSourceReviewPending": 580
+  },
+  "staticAudit": {
+    "status": "passed",
+    "checks": 2057393,
+    "failed": 0,
+    "htmlPages": 12325,
+    "manuscriptPages": 4000,
+    "manuscriptPagesWithSourceReviewPending": 580
+  },
+  "commands": [
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "mode": "Updated normal build runs astro build --force; verified against retained stale output."
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "tests": 55,
+      "note": "Run with the expanded publication selection before the build-command cache refresh change; no application or test behavior changed afterward."
+    },
+    {
+      "command": "npm run audit",
+      "exitCode": 0,
+      "seconds": 62.34
+    },
+    {
+      "command": "npm run reports",
+      "exitCode": 0,
+      "seconds": 2.24
+    }
+  ],
+  "resolvedValidationFailure": {
+    "initialAuditFailures": 546,
+    "staleDictionaryPages": 54,
+    "observation": "The first ordinary build retained 54 old dictionary-only HTML files, although the manifest selected 4,000 articles. Their source identities and manuscript metadata were valid.",
+    "resolution": "The build command now forces Astro regeneration. A clean forced build rendered every selected body; repeating the updated normal build against the preserved stale-output baseline also left zero missing manuscript bodies. The final full audit passed."
+  },
+  "reusedEvidence": {
+    "writingValidation": "reports/wave-04-validation.json",
+    "boundedPeerReview": "reports/editorial-review-wave-04-summary.json",
+    "similarity": "reports/article-similarity-wave-04.json",
+    "note": "Historical writing, source and similarity evidence retain their original scope. This report supersedes publication-selection measurements only."
+  },
+  "liveVerification": "Pending deployment; this report does not establish public HTTP behavior.",
+  "browserValidation": "Two wave 4 samples added to the existing browser matrix for CI. Local browser execution was not repeated because the configured Playwright Chromium executable is absent.",
+  "limitations": [
+    "All 580 unresolved source flags remain visible; publication does not certify mechanical accuracy or vehicle applicability.",
+    "The 10,000 reviewed-article goal remains incomplete and its strict gate is unchanged."
+  ]
+}

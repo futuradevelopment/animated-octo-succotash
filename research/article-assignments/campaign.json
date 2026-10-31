@@ -21,17 +21,18 @@
   ],
   "execution": "Continue within the authorized work session; this record is a resumable work plan, not a background scheduler or a claim of publication.",
   "qualityGate": "No invented diagnostic criteria, namespace swapping, title-only variants or counted source mentions. Every batch retains source evidence and unresolved-review notes.",
-  "publication": "Writer groups batch-01 through batch-30 are live on existing canonical URLs; later groups remain unpublished unless explicitly selected.",
-  "currentWaveStatus": "Writing complete: writer groups 31\u201340 contain 1,000 additional unpublished drafts; 937 have author source checks and 63 retain explicit unresolved source-review flags. Final integration validation is recorded in reports/wave-04-validation.json.",
+  "publication": "Writer groups batch-01 through batch-40 are selected for their existing canonical URLs. The 4,000-article release awaits production verification; the historical 3,000-article production verification is retained below. Later groups remain unpublished unless explicitly selected.",
+  "currentWaveStatus": "Writing complete: writer groups 31\u201340 contain 1,000 additional manuscripts selected for publication; 937 have author source checks and 63 retain explicit unresolved source-review flags. The completed writing checks are recorded in reports/wave-04-validation.json; that historical report predates the expanded publication selection.",
   "publicationSelection": {
     "manifest": "content/code-articles/publication.json",
     "waves": [
       1,
       2,
-      3
+      3,
+      4
     ],
-    "manuscripts": 3000,
-    "liveVerification": "Verified production manifest and60 sampled articles; see reports/production-release-3000.json."
+    "manuscripts": 4000,
+    "liveVerification": "Pending for code-articles-4000-20261031. The prior 3,000-article release was verified separately in reports/production-release-3000.json."
   },
   "productionRelease": {
     "commit": "79a545208b60c714919258dbbe267419405a4494",
@@ -63,5 +64,11 @@
     "articleSourceChecks": 60,
     "similarityScreen": "reports/article-similarity-wave-04.json",
     "fullCorpusCertification": false
+  },
+  "pendingProductionRelease": {
+    "releaseId": "code-articles-4000-20261031",
+    "articles": 4000,
+    "status": "selected-awaiting-production-verification",
+    "validation": "reports/publication-release-4000-validation.json"
   }
 }

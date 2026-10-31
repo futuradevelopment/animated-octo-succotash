@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T10:33:54.190Z",
+  "checkedAt": "2026-10-31T11:51:03.274Z",
   "status": "writing-complete",
   "counts": {
     "assigned": 4000,
@@ -10,15 +10,15 @@
     "words": 1084982,
     "minimumWords": 183,
     "maximumWords": 431,
-    "selectedForPublication": 3000,
-    "notSelectedForPublication": 1000,
-    "selectedSourceChecked": 2483,
-    "selectedSourceReviewPending": 517
+    "selectedForPublication": 4000,
+    "notSelectedForPublication": 0,
+    "selectedSourceChecked": 3420,
+    "selectedSourceReviewPending": 580
   },
   "publication": {
     "manifest": "content/code-articles/publication.json",
-    "releaseId": "code-articles-3000-20261031",
-    "expectedArticles": 3000,
+    "releaseId": "code-articles-4000-20261031",
+    "expectedArticles": 4000,
     "liveDeploymentVerification": "not-measured-by-this-report"
   },
   "waves": [
@@ -59,8 +59,8 @@
       "wave": 4,
       "assigned": 1000,
       "written": 1000,
-      "selectedForPublication": 0,
-      "notSelectedForPublication": 1000,
+      "selectedForPublication": 1000,
+      "notSelectedForPublication": 0,
       "uniqueCodes": 1000,
       "sourceCheckedDrafts": 937,
       "sourceReviewPending": 63,

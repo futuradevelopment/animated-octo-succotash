@@ -4,7 +4,7 @@ Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted f
 
 ## Content inventory
 
-The writing inventory contains **4,000 code-article manuscripts for 4,000 distinct codes**. Completed writing waves: 1, 2, 3, 4. The [manuscript index](content/code-articles/README.md) reports each wave and current progress toward 10,000. The publication manifest selects **3,000** for the canonical page renderer; **1,000** remain unpublished drafts. Renderer selection, verified live publication and the full-catalog review target are counted separately.
+The writing inventory contains **4,000 code-article manuscripts for 4,000 distinct codes**. Completed writing waves: 1, 2, 3, 4. The [manuscript index](content/code-articles/README.md) reports each wave and current progress toward 10,000. The publication manifest selects **4,000** for the canonical page renderer; **0** remain unpublished drafts. Renderer selection, verified live publication and the full-catalog review target are counted separately.
 
 **The 10,000-code-article task is not complete.** The 32 case guides below are separate from the canonical dictionary pages. [Full-corpus research status](docs/FULL_CORPUS_RESEARCH.md) records the evidence gap and source candidates.
 
@@ -18,7 +18,7 @@ The writing inventory contains **4,000 code-article manuscripts for 4,000 distin
 | Scoped manufacturer bulletin records | 26 |
 | Individually authored diagnostic case guides | 32 |
 
-The 11,786 routes preserve the code dictionary; they are not 11,786 diagnostic articles. The first 3,000 selected manuscripts add separately authored explanations to their matching code pages, retaining the dictionary definition and source. Other code pages remain definition references. The 32 case guides retain their own vehicle-specific evidence and diagnostic branches. Articles with unresolved source details keep a visible review notice. The MIT-licensed community dictionary is pinned and retains source-row evidence. Obvious contaminated, reserved, malformed and conflicting records are excluded. Manufacturer documents provide separately attributed model-specific context. See [data provenance](docs/DATA_PROVENANCE.md), [model research](docs/MODEL_RESEARCH.md), and [data licensing](DATA_LICENSE.md).
+The 11,786 routes preserve the code dictionary; they are not 11,786 diagnostic articles. The first 4,000 selected manuscripts add separately authored explanations to their matching code pages, retaining the dictionary definition and source. Other code pages remain definition references. The 32 case guides retain their own vehicle-specific evidence and diagnostic branches. Articles with unresolved source details keep a visible review notice. The MIT-licensed community dictionary is pinned and retains source-row evidence. Obvious contaminated, reserved, malformed and conflicting records are excluded. Manufacturer documents provide separately attributed model-specific context. See [data provenance](docs/DATA_PROVENANCE.md), [model research](docs/MODEL_RESEARCH.md), and [data licensing](DATA_LICENSE.md).
 
 Audi and Porsche are discoverable through scoped manufacturer documents and model hubs; their coverage does not imply a complete brand-specific code dictionary.
 
