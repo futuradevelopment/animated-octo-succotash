@@ -7,11 +7,11 @@
   "completedWaves": [
     1,
     2,
-    3
+    3,
+    4
   ],
   "currentWave": 4,
   "remainingPlannedWaves": [
-    4,
     5,
     6,
     7,
@@ -21,16 +21,54 @@
   ],
   "execution": "Continue within the authorized work session; this record is a resumable work plan, not a background scheduler or a claim of publication.",
   "qualityGate": "No invented diagnostic criteria, namespace swapping, title-only variants or counted source mentions. Every batch retains source evidence and unresolved-review notes.",
-  "publication": "The first 3,000 manuscripts are explicitly selected in content/code-articles/publication.json for existing canonical code pages. Source authoring metadata and unresolved-review flags are retained. Later waves remain unpublished until separately selected; live deployment is verified separately.",
-  "currentWaveStatus": "paused for requested first-3,000 production publication; resume fourth-wave source research after live verification",
+  "publication": "Writer groups batch-01 through batch-40 are selected for their existing canonical URLs. The 4,000-article release awaits production verification; the historical 3,000-article production verification is retained below. Later groups remain unpublished unless explicitly selected.",
+  "currentWaveStatus": "Writing complete: writer groups 31\u201340 contain 1,000 additional manuscripts selected for publication; 937 have author source checks and 63 retain explicit unresolved source-review flags. The completed writing checks are recorded in reports/wave-04-validation.json; that historical report predates the expanded publication selection.",
   "publicationSelection": {
     "manifest": "content/code-articles/publication.json",
     "waves": [
       1,
       2,
-      3
+      3,
+      4
     ],
-    "manuscripts": 3000,
-    "liveVerification": "not established by this campaign record"
+    "manuscripts": 4000,
+    "liveVerification": "Pending for code-articles-4000-20261031. The prior 3,000-article release was verified separately in reports/production-release-3000.json."
+  },
+  "productionRelease": {
+    "commit": "79a545208b60c714919258dbbe267419405a4494",
+    "releaseId": "code-articles-3000-20261031",
+    "articles": 3000,
+    "verifiedAt": "2026-10-31T09:40:18.142002+00:00",
+    "verification": "reports/production-release-3000.json"
+  },
+  "nextWave": {
+    "wave": 5,
+    "batches": [
+      "batch-41",
+      "batch-42",
+      "batch-43",
+      "batch-44",
+      "batch-45",
+      "batch-46",
+      "batch-47",
+      "batch-48",
+      "batch-49",
+      "batch-50"
+    ],
+    "target": 1000,
+    "status": "planned-not-started"
+  },
+  "currentWaveReview": {
+    "summary": "reports/editorial-review-wave-04-summary.json",
+    "distinctBodySamples": 110,
+    "articleSourceChecks": 60,
+    "similarityScreen": "reports/article-similarity-wave-04.json",
+    "fullCorpusCertification": false
+  },
+  "pendingProductionRelease": {
+    "releaseId": "code-articles-4000-20261031",
+    "articles": 4000,
+    "status": "selected-awaiting-production-verification",
+    "validation": "reports/publication-release-4000-validation.json"
   }
 }

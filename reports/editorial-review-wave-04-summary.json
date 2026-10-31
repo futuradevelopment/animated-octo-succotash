@@ -1,0 +1,2942 @@
+{
+  "schemaVersion": 1,
+  "reviewId": "editorial-review-wave-04-summary",
+  "aggregatedAt": "2026-10-31T10:22:33.132028+00:00",
+  "status": "bounded-review-complete",
+  "aggregationMethod": "Normalize absolute and repository-relative article paths from completed reports A\u2013E, deduplicate body/deep lists by actual path, retain report pointers, and verify current frontmatter for the stated reclassifications. No source claims were re-reviewed by the aggregator.",
+  "pendingReports": [],
+  "scope": {
+    "wave": 4,
+    "batches": [
+      "batch-31",
+      "batch-32",
+      "batch-33",
+      "batch-34",
+      "batch-35",
+      "batch-36",
+      "batch-37",
+      "batch-38",
+      "batch-39",
+      "batch-40"
+    ],
+    "plannedManuscripts": 1000,
+    "fullCorpusCertification": false
+  },
+  "counts": {
+    "reportedBodyReads": 110,
+    "uniqueBodySamples": 110,
+    "reportedDeepSourceChecks": 60,
+    "uniqueDeepSourceChecks": 60,
+    "duplicateBodyPaths": 0,
+    "duplicateDeepSourcePaths": 0,
+    "additionalMetadataExcerptChecks": 10,
+    "additionalCitationOnlyChecks": 2,
+    "correctionRecords": 22,
+    "uniqueCorrectedArticles": 29,
+    "sourceReviewReclassifications": 10,
+    "postReviewAuthorChangedSampleFiles": 6,
+    "postReviewAuthorSourceReviewChanges": 1
+  },
+  "reports": [
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "sha256": "40d252752936f92aedf83210749bf7b7b61c01d4b69df3d831d72d51a0857a53",
+      "bodySamples": 40,
+      "deepSourceChecks": 20,
+      "status": "bounded-review-complete"
+    },
+    {
+      "report": "reports/editorial-review-wave-04-b.json",
+      "sha256": "aa0c36cfad631b013f7dd1ab05e777a1a3deaa1f7307d6d07b86ad78e248f937",
+      "bodySamples": 20,
+      "deepSourceChecks": 10,
+      "status": "bounded-review-complete"
+    },
+    {
+      "report": "reports/editorial-review-wave-04-c.json",
+      "sha256": "6e1cdd3452956f04de30ef3fe173e01550a533a1c10a7c733ddf6efbad4eabdb",
+      "bodySamples": 20,
+      "deepSourceChecks": 10,
+      "status": "bounded-review-complete"
+    },
+    {
+      "report": "reports/editorial-review-wave-04-d.json",
+      "sha256": "1d57bb097707ebf1fb9e57bf1e1a37ce83013dc7b65636143c1b51ae5a144ee7",
+      "bodySamples": 20,
+      "deepSourceChecks": 10,
+      "status": "bounded-review-complete",
+      "sha256AtOriginalAggregation": "8d19efea4ac5596f114b050f6128d2eb286e655b53badfe3ddd32853e4ad46ad",
+      "updatedAt": "2026-10-31T10:27:02.503886+00:00"
+    },
+    {
+      "report": "reports/editorial-review-wave-04-e.json",
+      "sha256": "7fd665a01d693d3248c6f7e1936b1c9f4be6cb9d7932ea26e82dce6a8d1e96b2",
+      "bodySamples": 10,
+      "deepSourceChecks": 10,
+      "status": "bounded-review-complete"
+    }
+  ],
+  "byBatch": [
+    {
+      "batch": "batch-31",
+      "bodySamples": 10,
+      "deepSourceChecks": 5,
+      "reviewedSampleNeedsReview": 3
+    },
+    {
+      "batch": "batch-32",
+      "bodySamples": 10,
+      "deepSourceChecks": 5,
+      "reviewedSampleNeedsReview": 0
+    },
+    {
+      "batch": "batch-33",
+      "bodySamples": 10,
+      "deepSourceChecks": 5,
+      "reviewedSampleNeedsReview": 2
+    },
+    {
+      "batch": "batch-34",
+      "bodySamples": 10,
+      "deepSourceChecks": 5,
+      "reviewedSampleNeedsReview": 1
+    },
+    {
+      "batch": "batch-35",
+      "bodySamples": 10,
+      "deepSourceChecks": 5,
+      "reviewedSampleNeedsReview": 1
+    },
+    {
+      "batch": "batch-36",
+      "bodySamples": 10,
+      "deepSourceChecks": 5,
+      "reviewedSampleNeedsReview": 1
+    },
+    {
+      "batch": "batch-37",
+      "bodySamples": 10,
+      "deepSourceChecks": 5,
+      "reviewedSampleNeedsReview": 4
+    },
+    {
+      "batch": "batch-38",
+      "bodySamples": 10,
+      "deepSourceChecks": 5,
+      "reviewedSampleNeedsReview": 0
+    },
+    {
+      "batch": "batch-39",
+      "bodySamples": 15,
+      "deepSourceChecks": 10,
+      "reviewedSampleNeedsReview": 0
+    },
+    {
+      "batch": "batch-40",
+      "bodySamples": 15,
+      "deepSourceChecks": 10,
+      "reviewedSampleNeedsReview": 1
+    }
+  ],
+  "bodySamples": [
+    {
+      "articlePath": "content/code-articles/batch-31/P0040.md",
+      "batch": "batch-31",
+      "code": "P0040",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/0"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/0"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "a23d76b2ddb7090fbaf3fd2f8d9963084a43ca6b3d56d2717ccc18f10948ae8e"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P00AF.md",
+      "batch": "batch-31",
+      "code": "P00AF",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/2"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "058ac9b64e5f98fc47f0185978238b78d3de13a92d63db248a90336a6e1cc93e"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P01E3.md",
+      "batch": "batch-31",
+      "code": "P01E3",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/1"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/1"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "633b50248a46a25d9938ce134bbcb6146f8b769af08eed5c8558a571e955b8ab"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P0334.md",
+      "batch": "batch-31",
+      "code": "P0334",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/3"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/2"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "c773807a6d423ac941380425a361f277da24ec00f366c5cee8f178a8b9a81980"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P0413.md",
+      "batch": "batch-31",
+      "code": "P0413",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/4"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "61f375f69a92344208a4d609fb54de2e8e0743d0be78f0ac19eb0f0a9944e0ad"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P04DD.md",
+      "batch": "batch-31",
+      "code": "P04DD",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/5"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/3"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "66480e7849deb5b87ae3732e06d315335535e4d1d9eaed48d7bce95d8ca1dfcc"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P0688.md",
+      "batch": "batch-31",
+      "code": "P0688",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/6"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "1eb7393b07b9f7a3e5d3fb52643b748b68fed039012b7d263c025261c7c7a16b"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P2027.md",
+      "batch": "batch-31",
+      "code": "P2027",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/7"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/4"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "a91a048dcb88ce37567f6c1f1c0e05fb7bc915e2092ca70fe05143c74c01eb22"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P2133.md",
+      "batch": "batch-31",
+      "code": "P2133",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/8"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "e0b6b50d890485af57d2125773e339c4a3668a3d501e1b7e6b846b24155f38d6"
+    },
+    {
+      "articlePath": "content/code-articles/batch-31/P2711.md",
+      "batch": "batch-31",
+      "code": "P2711",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/9"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "dd291b89d1153e28b284b17ee930a18d29feeed235f4da074f9cbf934c0e62ea"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P012F.md",
+      "batch": "batch-32",
+      "code": "P012F",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/10"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "f2399efa32fd15e72d25179fe09286a76f3e2af15999efd2e3e1cf803d7e13a9"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P0298.md",
+      "batch": "batch-32",
+      "code": "P0298",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/11"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/5"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "fc81cd6d1dafc8f2e66a1b531d6bfe20989ba3039a70cf2ce7d48c21ccc55f00"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P0470.md",
+      "batch": "batch-32",
+      "code": "P0470",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/12"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/6"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "2bad7938a0978170424614db04eac1a2f649423a782dd830275c2f5c129d734a"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P1261.md",
+      "batch": "batch-32",
+      "code": "P1261",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/13"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "ee203314e37b014db625ac38501e85d8f6904937000ea3f31f4385986a478d84"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P1295.md",
+      "batch": "batch-32",
+      "code": "P1295",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/14"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/7"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "6f752e5510b7308a4a40cace7d468dac6d4ee8a6c81b197df0b8eba8487e3266"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P1395.md",
+      "batch": "batch-32",
+      "code": "P1395",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/15"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "3320cd30bdd36d1982cee7ea61c7b3b71144759dd54ad95c24b5d2ddb1c844b8"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P1714.md",
+      "batch": "batch-32",
+      "code": "P1714",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/16"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/8"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "a53747c614333c6df5be3219f9e6efb03e7a4dc6004ba5760796c562ad96bd8a"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P203F.md",
+      "batch": "batch-32",
+      "code": "P203F",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/17"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "326845c2853d512ca6d29f90b66c569ad698ec78b850485b7be9c8d79779fe2c"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/P2508.md",
+      "batch": "batch-32",
+      "code": "P2508",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/18"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/9"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "5cc3b59c272f7cf5d74d2ec012ab9bc128f0ac1b9566b0104602637b0a8fe538"
+    },
+    {
+      "articlePath": "content/code-articles/batch-32/U0407.md",
+      "batch": "batch-32",
+      "code": "U0407",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/19"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "b7dafeadc3d85f0c86baaeef61fababd9022a8b8ed9dd45171255ab0d27106b4"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/P1031.md",
+      "batch": "batch-33",
+      "code": "P1031",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/0"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "e7aecf0870cde34a1fca4c5d3f6f0870baab1b457773d062e04911db843cb7f3"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/P1275.md",
+      "batch": "batch-33",
+      "code": "P1275",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/1"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "a72560d0549a01bf0aa450e700d34f841c4e40de0597ff99aabf1cc03ec7fd7f"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/P1351.md",
+      "batch": "batch-33",
+      "code": "P1351",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/2"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "48dada889c0a108dc7eda2e19b3ff9167380b5f648ee7419f22263eb39c593dc"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/P1416.md",
+      "batch": "batch-33",
+      "code": "P1416",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/3"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/0"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "50c883597f2f5ac7f6ba3b3b9560208875baa6670ee27a4dab337baaab83d353"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/P1509.md",
+      "batch": "batch-33",
+      "code": "P1509",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/4"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/1"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "2bf14d7471ddf4c407ed6d4ae8dbd5c53bf5a84a90b2f823c2d9ff1791a8b894"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/P1656.md",
+      "batch": "batch-33",
+      "code": "P1656",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/5"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "9e03495b323cb0d801580554d663bd488936dac441a21a553f44bdfc09fcb673"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/P1810.md",
+      "batch": "batch-33",
+      "code": "P1810",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/6"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/2"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "27d6df3e2074c1a93be2bde0c051bbe76eeb3989d357e8ac2a4402891bdf9120"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/P2E68.md",
+      "batch": "batch-33",
+      "code": "P2E68",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/7"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/3"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "b679d4759d25432cdf91bd9adc2a65fd19386ea38e972bee426dac7b32b2fff8"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/U0674.md",
+      "batch": "batch-33",
+      "code": "U0674",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/8"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "f83d957a9cfef3d20b6eb2590e493777660f897f09dbd7e64d0134927636d19a"
+    },
+    {
+      "articlePath": "content/code-articles/batch-33/U3008.md",
+      "batch": "batch-33",
+      "code": "U3008",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/9"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/4"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "4ff7c970cd170e3b332540e974e2ed5b2823725ea66757ee9c570d9b08490867"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P0142.md",
+      "batch": "batch-34",
+      "code": "P0142",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/20"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/10"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "b3add4171264e05ca7950e2879e2c6ec3089b40768fe1ae875b385827e913e7e"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P048C.md",
+      "batch": "batch-34",
+      "code": "P048C",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/21"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/11"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "2ba17615950a2a720daa1495bf816e9e9549e66f16305ca1834eb3708f101a5c"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P06FE.md",
+      "batch": "batch-34",
+      "code": "P06FE",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/22"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "0dcd96d6d3fd0ad1625b7e76ef9195e0d85836837c40ed2560a27501e34e8289"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1172.md",
+      "batch": "batch-34",
+      "code": "P1172",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/23"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "e1d156153a9363d175b9fd5490180152de988b59dde7c166a0e4f83b70a77526"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1199.md",
+      "batch": "batch-34",
+      "code": "P1199",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/24"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/12"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "0a501bdc8534a85d1f52ca8102ed89ac9c2c643a23af845f1c9b6a1f122fb153"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1201.md",
+      "batch": "batch-34",
+      "code": "P1201",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/25"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "02ad642b135f4de4dc7dbd215517c0185822809a7618fab33a5e0cccbc26dbf6"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1226.md",
+      "batch": "batch-34",
+      "code": "P1226",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/26"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/13"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "1af004a60f3a60c2dd64ca63c055ba361cb556d5a1046a113fb7bb0e370911e0"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1608.md",
+      "batch": "batch-34",
+      "code": "P1608",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/27"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "8a7e1708f49e25d3bd3134d6f345a9f12655711bcef8c631a8ac4f9ccd74c36a"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1758.md",
+      "batch": "batch-34",
+      "code": "P1758",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/28"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "bc76526eb229c341e3e8329ed2bb1335d04c606b25934cf32431c2a3baabd68f"
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1791.md",
+      "batch": "batch-34",
+      "code": "P1791",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/29"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/14"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "23d893db7643cd5260c982f1edc1754ee840ebd5d7999e45bc612282e8a12d64"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/C0075.md",
+      "batch": "batch-35",
+      "code": "C0075",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/10"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/5"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "c608c1a34c01f83261931d27e2d5a0925f86434bd09058235940f3cd7ce1dac0"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1086.md",
+      "batch": "batch-35",
+      "code": "P1086",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/11"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "0e86c112a00ba6748e24b6f74cf4e49ffb11ae3580682dd21488858b89d4b6b4"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1105.md",
+      "batch": "batch-35",
+      "code": "P1105",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/12"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/6"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "af3b0e4d111d565e33a9248c40a8788f5dc0e7da8c01f821e55df0d494be82e9"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1135.md",
+      "batch": "batch-35",
+      "code": "P1135",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/13"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/7"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "82a169a822e6aa3eecbbd1e88ea207de539a5c404924373310eab35d0c9b045e"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1259.md",
+      "batch": "batch-35",
+      "code": "P1259",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/14"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/8"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "c5898c5e0db573ff3bfa1d45a929733bab43e41a520f4e2067e29efc871e58e7"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1366.md",
+      "batch": "batch-35",
+      "code": "P1366",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/15"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "1729882932f98a5a56a04029cbb7f4b370539d09c758487cf5789771cb2c5f03"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1544.md",
+      "batch": "batch-35",
+      "code": "P1544",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/16"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "b38c4380e8dab7222acfa708e07c948e1772c5cb48a1ec59254e041fe8a975e0"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1711.md",
+      "batch": "batch-35",
+      "code": "P1711",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/17"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "7d9d51157f60b49a5351ccfe3e25eacac8f66706f40f317b8a3625a63d618ee0"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1738.md",
+      "batch": "batch-35",
+      "code": "P1738",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/18"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/sourceChecks/9"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "36c5cfa09d956de1a94c109c217cdb0245ac84a645727198a5c1289edab42a0b"
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/U3502.md",
+      "batch": "batch-35",
+      "code": "U3502",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-b.json",
+          "jsonPointer": "/samples/19"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "c95205526596b2de2e663b26e7b81565ce306d2b69b197970d71cf27ad2b7c68"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/C059B.md",
+      "batch": "batch-36",
+      "code": "C059B",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/30"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/15"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "92c7c63cfaa27d567917f26a1820062d3f4efd0a5724296f70181ca1745a21ad"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/C05B1.md",
+      "batch": "batch-36",
+      "code": "C05B1",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/31"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "4112b5426975b8569c5edaf19f1c7047fd24f9606a994918fc800a834227f6eb"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/P079E.md",
+      "batch": "batch-36",
+      "code": "P079E",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/32"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "b15911347c448efa0af389f419da6784240ef9390a28bc0c968e151ab50c92ad"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/P0A5E.md",
+      "batch": "batch-36",
+      "code": "P0A5E",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/33"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/16"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "d30dc6002fcde3f6fbf63a176ce3e69de2b983ad1aa47257d525197b0ca27395"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/P0AA8.md",
+      "batch": "batch-36",
+      "code": "P0AA8",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/34"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/17"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "15be3e7106264ea086c532c5c68967cda03ae3525f7de060182cef126e56593a"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/P0AE3.md",
+      "batch": "batch-36",
+      "code": "P0AE3",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/35"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "2c9f6be2f7006fdd1abf2b19811d6dfbf29a06e458a318325c348f6389466746"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/P0B72.md",
+      "batch": "batch-36",
+      "code": "P0B72",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/36"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/18"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "29e32e90e6ddbdb2e054be820428c55ef3fd6a22f57cb8ebf1b493e115034bd6"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/P0C9A.md",
+      "batch": "batch-36",
+      "code": "P0C9A",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/37"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "f70439813f320e218a9e64b476abe82c0532e40a26de44d37cdf537dafa8bbc5"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/P0D4D.md",
+      "batch": "batch-36",
+      "code": "P0D4D",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/38"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "23f42df53fcc78837d5a32f9c54d51a28a0a4952a687a3a323b5cd5c5527fe15"
+    },
+    {
+      "articlePath": "content/code-articles/batch-36/U01A0.md",
+      "batch": "batch-36",
+      "code": "U01A0",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/bodyReads/39"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-a.json",
+          "jsonPointer": "/originalSourceChecks/19"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "28a21f88c40bcda11de13419572ec52dec202522038dfbd4b49a5a4b21becfca"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P000F.md",
+      "batch": "batch-37",
+      "code": "P000F",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/0"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/0"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "49f8f8e7f134b92d51805ea7e596de21bb179766a9c45365fa6bc6c29826ed96"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P0396.md",
+      "batch": "batch-37",
+      "code": "P0396",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/1"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "1666ccca66ab15897569b45bcd7620ad58200616f8fb798945bb6565bf57e82e"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P0555.md",
+      "batch": "batch-37",
+      "code": "P0555",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/2"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "aee9f30f68754a61daae116fc4633f4e82165cdff86a926cf8e797e8acd74ab9"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P063B.md",
+      "batch": "batch-37",
+      "code": "P063B",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/3"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/1"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "16a64e116eccb48126da6b74b029c9e66d2f9070594b3bbf86672cd563c3638f"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P0763.md",
+      "batch": "batch-37",
+      "code": "P0763",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/4"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "ab79b486bc6a78afb8a6d6d39523a58a36bb1a53402804e04949318bfcd66119"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P0DAD.md",
+      "batch": "batch-37",
+      "code": "P0DAD",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/5"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/2"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "26094967662f6458ef2c33821ff32d923ec0f640a6f33831ef6092cc84c0b5e3"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P2104.md",
+      "batch": "batch-37",
+      "code": "P2104",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/6"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/3"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "5ea3c2b050e9dd31e69a19caf4a8937de12fe22a40d7ff960a22ef4817ece53a"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P2308.md",
+      "batch": "batch-37",
+      "code": "P2308",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/7"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "256bd933e0d54d77b4237e8756644a03f9ef4f627295197a3857237bc141f419"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P25AF.md",
+      "batch": "batch-37",
+      "code": "P25AF",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/8"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/4"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "b8cf6aa9c20b82920daa2a784cd2e49d767645b19da8ded271304bb90505268a"
+    },
+    {
+      "articlePath": "content/code-articles/batch-37/P3498.md",
+      "batch": "batch-37",
+      "code": "P3498",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/9"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "e55095907d9a965d8ce61ea500a5e2a3a6a4281c38deba682c01d3dc48901bfd"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/B0003.md",
+      "batch": "batch-38",
+      "code": "B0003",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/10"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/5"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "632a237320cc2e52d306c137f2f6b76b06b4aeb6438f017cefabdde7325b33e6"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/B0094.md",
+      "batch": "batch-38",
+      "code": "B0094",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/11"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "4250d73e1a8ad5e44d44e4ea4af084d849d73a1611e98612da3d28865c3fcce9"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/C0034.md",
+      "batch": "batch-38",
+      "code": "C0034",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/12"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/6"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "b73cce7aba7cbb011bffed31335b454bb332d04d9966261f4a65f00e9f0b5bb8"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/C0046.md",
+      "batch": "batch-38",
+      "code": "C0046",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/13"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/8"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "49c60fb240e8463d27bf1fb4239b4a2f45b5ba4b6587f8b5be8ae0bdc6519be5"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/C0597.md",
+      "batch": "batch-38",
+      "code": "C0597",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/14"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "ae92af6b1f9ca559f4a81500c8bb7cccc6c5e8408d316b24bff5037edfe92e7d"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/P0A95.md",
+      "batch": "batch-38",
+      "code": "P0A95",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/15"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/9"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "9430fc050122eec4d3817082fe6dde0ad44371fe21d519a003204d5a0ce92abb"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/U0187.md",
+      "batch": "batch-38",
+      "code": "U0187",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/16"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "295c80a8744e232bee4b3f982fac1d0f836824ed9b55ce24c2aaced1ff26e590"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/U0301.md",
+      "batch": "batch-38",
+      "code": "U0301",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/17"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "8aa8857b94cb6e410c00ba9101862691c599537d74b88f3850813b5b7b31758a"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/U0339.md",
+      "batch": "batch-38",
+      "code": "U0339",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/18"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "2d9facbf207d3f88bce234d268fff2d4c48976d93512a29b87b5a0039280a181"
+    },
+    {
+      "articlePath": "content/code-articles/batch-38/U300E.md",
+      "batch": "batch-38",
+      "code": "U300E",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/bodySamples/19"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-c.json",
+          "jsonPointer": "/deepSourceChecks/7"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "a0e2c1f411735af4b9c26e28219b88afcbd55c49c5044c5cef29821803780a28"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P0129.md",
+      "batch": "batch-39",
+      "code": "P0129",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/0"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "4ec27adea5ea2eec21f2747ee685fdfeaf24dbec10c3fb78321825331f11e07d"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P0173.md",
+      "batch": "batch-39",
+      "code": "P0173",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/1"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/0"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "2a466483fd82c7fb082c7706ea07eff53529e977f5062c64a6fe7d5a7a0159a1"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P0372.md",
+      "batch": "batch-39",
+      "code": "P0372",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/2"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "990e4d9b717698e9bed2f6bc3d1b7bccb0331aae5f20d3c3a805bd0516415255"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P0935.md",
+      "batch": "batch-39",
+      "code": "P0935",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/3"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/1"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "5902c37442c4a4c6de49328a391fa3d16cd6144f7f70301af894c5153e248a95"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P0DF4.md",
+      "batch": "batch-39",
+      "code": "P0DF4",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/5"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/5"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "1dde3f18366c3e33f153739302ee40e2d5190c3c5c1fd7db837539d4db2991e2"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P0DF9.md",
+      "batch": "batch-39",
+      "code": "P0DF9",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/6"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/6"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "fc9f5dc54249aa8e78802e986864b46b6676e85d6203c325d2e7c136ebff795d"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P1385.md",
+      "batch": "batch-39",
+      "code": "P1385",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/4"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/2"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "f2e5264e19b019801d4ca688461e2b92f8c3f17ce4a144be9eb64cc7453bbce0"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P1449.md",
+      "batch": "batch-39",
+      "code": "P1449",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/5"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/3"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "ccd4c619b7f758e5d3419e2fd7d9251a2587f297ec347f78789653fa31f0c606"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P1477.md",
+      "batch": "batch-39",
+      "code": "P1477",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/1"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/1"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "81ca576812d6b15da157a8efed11e1be39fd7420a8726cd78beba642ebadcf86"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P1524.md",
+      "batch": "batch-39",
+      "code": "P1524",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/6"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "3817929368e7c5b6157811948ef91d2149102722d535207cd70927a9f1e0d9cd"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P1568.md",
+      "batch": "batch-39",
+      "code": "P1568",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/0"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/0"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "012ca41651edae880b19074357a4aa206ccadd7ae54585ed3c49a7f3d9b7e036"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P1632.md",
+      "batch": "batch-39",
+      "code": "P1632",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/7"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "45833c0feb720779071219b6764c62aaebffc29c66570e64d6c7f61a0aac1349"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P1749.md",
+      "batch": "batch-39",
+      "code": "P1749",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/2"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/2"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "33e15909ddc2e707a3809a79637f99745b4593fa6337298fa2b4f76ff6c7c983"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P213F.md",
+      "batch": "batch-39",
+      "code": "P213F",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/8"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/4"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "722df55ce688214006982b2a929b409ad1f235f23b08b47ffe1481d16082d1ce"
+    },
+    {
+      "articlePath": "content/code-articles/batch-39/P2542.md",
+      "batch": "batch-39",
+      "code": "P2542",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/9"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "4679ddce9b5fb452d88567698af7168ee408f393625d392716715a5593b2bc15"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/C0090.md",
+      "batch": "batch-40",
+      "code": "C0090",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/7"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/7"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "ea146ebc3d3bbad027c32463b55be844c79905f1706fc6e17e476ec5d63df660"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/C0092.md",
+      "batch": "batch-40",
+      "code": "C0092",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/8"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/8"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "d2198d00261cac4d18390cd6b806fb617702d3c2141aca5202dce63d2952775e"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/C05F4.md",
+      "batch": "batch-40",
+      "code": "C05F4",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/9"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/9"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "44a258e1b0f0ead4d9d1cc1fe45727a0f6267689e509ea4e6ed167b17a08beba"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P0382.md",
+      "batch": "batch-40",
+      "code": "P0382",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/10"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "e91f00c818c571e35982c7c46eb87e2cf7966fe73a73b7e0249aaa0639d77c99",
+      "sha256AtOriginalAggregation": "d11f20cf74cab235e491dc712bde8d8735e3eac463a93e0453396f4304dcb96b",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAtOriginalAggregation": "checked"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P0530.md",
+      "batch": "batch-40",
+      "code": "P0530",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/11"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "f2eb4ac3bd5ad9eae5682419e19a2f6028d8d11a662e2b203bee1a77308051b6",
+      "sha256AtOriginalAggregation": "7e9d453ae0acfd048d58a52d19e80c580c31546a04f830b8b600fe297f90d2ac",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAtOriginalAggregation": "checked"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P0839.md",
+      "batch": "batch-40",
+      "code": "P0839",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/12"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/5"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "04b81d9d9c34a00162a35a079abddaa0f7d3d609bdbaa1cc694fdb9bf1925eec",
+      "sha256AtOriginalAggregation": "1bb21b920ec750bd8280a8bb12194269b4768f18d9bf534bee65405733c90561",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAtOriginalAggregation": "checked"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P0890.md",
+      "batch": "batch-40",
+      "code": "P0890",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/13"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/6"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "needs-review",
+      "sha256AtAggregation": "9a60e0c362ed0c72d0a2219d0fdd3d0876f59be4b69fe55df24e5184ef972a17",
+      "sha256AtOriginalAggregation": "e136e98abfb2482ff39bf768785547caa0237a69b2638c1a2dcbee4b405b3fde",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAtOriginalAggregation": "checked"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P1160.md",
+      "batch": "batch-40",
+      "code": "P1160",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/14"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/7"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "dbdcff30ae803c4e03aa63e6549f9da797a3958262db788e9bf05e3ff0e3fe26"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P1486.md",
+      "batch": "batch-40",
+      "code": "P1486",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/15"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "a435e77dfbaf9c1d719d03b8e5d652eeb3b95b675138416d5dc0a7271df2669c"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P1618.md",
+      "batch": "batch-40",
+      "code": "P1618",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/16"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "be506c49b2325f618d50f8b814993070141763aa74b227a3c42d2c1ef3203e44"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P1685.md",
+      "batch": "batch-40",
+      "code": "P1685",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/17"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/8"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "f91931a01b5691732dac5cc92625db7a6bf2fa9b2f9005d223669d1cd4de5081"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P1757.md",
+      "batch": "batch-40",
+      "code": "P1757",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/18"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/deepSourceChecks/9"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "c2dbcb66b9af6f969fc4c74f05f8f8d319865113509a5aa2b3793c1298945303",
+      "sha256AtOriginalAggregation": "f2d0b9f6f03a72b975d761f5db06dc2b4ae4df593447c7a38955babc211e40fc",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAtOriginalAggregation": "checked"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/P2706.md",
+      "batch": "batch-40",
+      "code": "P2706",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-d.json",
+          "jsonPointer": "/bodySamples/19"
+        }
+      ],
+      "deepSourceReferences": [],
+      "deepSourceChecked": false,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "e1fd4aad7829b28b271d5b17a5b34dde63052af8b598d730853c8f27b59f1b5c",
+      "sha256AtOriginalAggregation": "cbda5e47027ef1c841ae39a1c2715f424127ca298d332d2480819fe97bd0bb3c",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAtOriginalAggregation": "checked"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/U300D.md",
+      "batch": "batch-40",
+      "code": "U300D",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/3"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/3"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "cce71bfadd14ef6dd976917d02aa42d4a0ff63596b37cbc097d55d038f8dc162"
+    },
+    {
+      "articlePath": "content/code-articles/batch-40/U3011.md",
+      "batch": "batch-40",
+      "code": "U3011",
+      "bodyReviewReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/4"
+        }
+      ],
+      "deepSourceReferences": [
+        {
+          "report": "reports/editorial-review-wave-04-e.json",
+          "jsonPointer": "/samples/4"
+        }
+      ],
+      "deepSourceChecked": true,
+      "sourceReviewAtAggregation": "checked",
+      "sha256AtAggregation": "728a5e44f083c33c69509dc8455b727e5843a3f74375e15cbb9b14e70614ce2d"
+    }
+  ],
+  "deepSourceArticlePaths": [
+    "content/code-articles/batch-31/P0040.md",
+    "content/code-articles/batch-31/P01E3.md",
+    "content/code-articles/batch-31/P0334.md",
+    "content/code-articles/batch-31/P04DD.md",
+    "content/code-articles/batch-31/P2027.md",
+    "content/code-articles/batch-32/P0298.md",
+    "content/code-articles/batch-32/P0470.md",
+    "content/code-articles/batch-32/P1295.md",
+    "content/code-articles/batch-32/P1714.md",
+    "content/code-articles/batch-32/P2508.md",
+    "content/code-articles/batch-33/P1416.md",
+    "content/code-articles/batch-33/P1509.md",
+    "content/code-articles/batch-33/P1810.md",
+    "content/code-articles/batch-33/P2E68.md",
+    "content/code-articles/batch-33/U3008.md",
+    "content/code-articles/batch-34/P0142.md",
+    "content/code-articles/batch-34/P048C.md",
+    "content/code-articles/batch-34/P1199.md",
+    "content/code-articles/batch-34/P1226.md",
+    "content/code-articles/batch-34/P1791.md",
+    "content/code-articles/batch-35/C0075.md",
+    "content/code-articles/batch-35/P1105.md",
+    "content/code-articles/batch-35/P1135.md",
+    "content/code-articles/batch-35/P1259.md",
+    "content/code-articles/batch-35/P1738.md",
+    "content/code-articles/batch-36/C059B.md",
+    "content/code-articles/batch-36/P0A5E.md",
+    "content/code-articles/batch-36/P0AA8.md",
+    "content/code-articles/batch-36/P0B72.md",
+    "content/code-articles/batch-36/U01A0.md",
+    "content/code-articles/batch-37/P000F.md",
+    "content/code-articles/batch-37/P063B.md",
+    "content/code-articles/batch-37/P0DAD.md",
+    "content/code-articles/batch-37/P2104.md",
+    "content/code-articles/batch-37/P25AF.md",
+    "content/code-articles/batch-38/B0003.md",
+    "content/code-articles/batch-38/C0034.md",
+    "content/code-articles/batch-38/C0046.md",
+    "content/code-articles/batch-38/P0A95.md",
+    "content/code-articles/batch-38/U300E.md",
+    "content/code-articles/batch-39/P0173.md",
+    "content/code-articles/batch-39/P0935.md",
+    "content/code-articles/batch-39/P0DF4.md",
+    "content/code-articles/batch-39/P0DF9.md",
+    "content/code-articles/batch-39/P1385.md",
+    "content/code-articles/batch-39/P1449.md",
+    "content/code-articles/batch-39/P1477.md",
+    "content/code-articles/batch-39/P1568.md",
+    "content/code-articles/batch-39/P1749.md",
+    "content/code-articles/batch-39/P213F.md",
+    "content/code-articles/batch-40/C0090.md",
+    "content/code-articles/batch-40/C0092.md",
+    "content/code-articles/batch-40/C05F4.md",
+    "content/code-articles/batch-40/P0839.md",
+    "content/code-articles/batch-40/P0890.md",
+    "content/code-articles/batch-40/P1160.md",
+    "content/code-articles/batch-40/P1685.md",
+    "content/code-articles/batch-40/P1757.md",
+    "content/code-articles/batch-40/U300D.md",
+    "content/code-articles/batch-40/U3011.md"
+  ],
+  "additionalMetadataExcerptChecks": [
+    {
+      "articlePath": "content/code-articles/batch-34/P1792.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/0",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1730.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/1",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1252.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/2",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1253.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/3",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1373.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/4",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1376.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/5",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1398.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/6",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1700.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/7",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1189.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/8",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1195.md",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/additionalTargetedMetadataChecks/9",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "classificationChanged": false
+    }
+  ],
+  "additionalCitationOnlyArticlePaths": [
+    "content/code-articles/batch-40/P0837.md",
+    "content/code-articles/batch-40/P0838.md"
+  ],
+  "corrections": [
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/0",
+      "articlePaths": [
+        "content/code-articles/batch-32/P0298.md"
+      ],
+      "category": "diagnostic-wording",
+      "description": "unsupported operating-state wording",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P0298.md",
+        "kind": "unsupported operating-state wording",
+        "before": "A later normal temperature reading does not describe the hot-start condition that enabled this check.",
+        "after": "A later normal temperature reading does not reconstruct the initial high-temperature, low-speed condition that enabled this check.",
+        "evidence": "Ford DOBDSM201 physical page12 describes continuous monitoring and initial EOT >110\u00b0C with engine speed <1000rpm; it does not restrict the monitor to a hot start.",
+        "sourceCheckedInThisReview": true,
+        "beforeSha256": "aefa1012f5f8385c6aaa30f4cb1fa5730bf64320c63653ba9cc3e75893d2c8ed",
+        "afterSha256": "fc81cd6d1dafc8f2e66a1b531d6bfe20989ba3039a70cf2ce7d48c21ccc55f00"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/1",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1252.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical VSV stuck-on shorthand is narrower than the article\u2019s source-scoped mechanical-guard position monitor; mapping remains unresolved.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1252.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical VSV stuck-on shorthand is narrower than the article\u2019s source-scoped mechanical-guard position monitor; mapping remains unresolved.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": false,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "f270f8a86aee63f5995168f0faef3ad9038242fb379e0e71c1f00aee45323e15",
+        "afterSha256": "05811dc4e63db409ac9ae9c5a7045a28644574f06bb4968b6f8ec791553e2154"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/2",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1253.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical VSV stuck-on shorthand is narrower than the article\u2019s source-scoped engine-off mechanical-guard position monitor; mapping remains unresolved.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1253.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical VSV stuck-on shorthand is narrower than the article\u2019s source-scoped engine-off mechanical-guard position monitor; mapping remains unresolved.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": false,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "e104702ca105d7755e3b85385687ed278b7dff0dd8dd54e3af7ee9edf2778a0c",
+        "afterSha256": "5def329093ff9bf5d4cfe72b7155740ab8a8b7b237219829dd56d36c53298ed4"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/3",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1373.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1373.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": false,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "bc43a09786a2df766d3c159ade9e84d6683a5cecc526298c3d567c03f2fce945",
+        "afterSha256": "30dccbbd3e870bd0372d98a8e61673b0c39478fdd4a75b238be7cea7ba37d418"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/4",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1376.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1376.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": false,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "32d0ec75b35adf5e124a2f52d48b1a093678ed6a71ae95d60f9165893154472c",
+        "afterSha256": "d211112355cd0767f1c3b8e9f72c813f12a2b4a4d62afcc7547e805e1bd5669e"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/5",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1398.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical high-input wording conflicts with the article\u2019s disclosed AJ26 source short-to-ground interpretation.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1398.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical high-input wording conflicts with the article\u2019s disclosed AJ26 source short-to-ground interpretation.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": false,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "475e720cd3cd6857c1790458a8def7a82fb189bc33362db41b9d4c1e83fc8b0c",
+        "afterSha256": "cc322c88c18a26fdf4c64e1f49271e0ab65f110a587cd0e4a68052a9edb4c520"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/6",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1700.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical failed-to-neutral wording conflicts with the article\u2019s disclosed fourth-gear fallback on the scoped5HP24 implementation.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1700.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical failed-to-neutral wording conflicts with the article\u2019s disclosed fourth-gear fallback on the scoped5HP24 implementation.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": false,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "10f16db373b047354a1f4291ce32ff3320dd9c2418ca6c20577533be074d3cc7",
+        "afterSha256": "a6017e987619dc4c2aded0f06410050e4dd50273d43863d11dc6f07baf4e05b3"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/7",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1730.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical gear coverage includes fifth gear, whereas the article explicitly scopes the source to second/third/fourth.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1730.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical gear coverage includes fifth gear, whereas the article explicitly scopes the source to second/third/fourth.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": false,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "91ca566eba5d238f3856c6ba122e2253ab49b0fbd21028a3f5c597735ef0c8ff",
+        "afterSha256": "93f9a1ea5f8d9875a76ecf0fe14fd0705860584f7edbbfc4a9a113ea8ef28d50"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/8",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1791.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical ignition-supply malfunction conflicts with the verified4L80-E source TPS signal definition.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1791.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical ignition-supply malfunction conflicts with the verified4L80-E source TPS signal definition.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": true,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "c0abd77556b33321b021428baf5df95f3cae9af74d0eca9ebf380cabbb3d64ef",
+        "afterSha256": "23d893db7643cd5260c982f1edc1754ee840ebd5d7999e45bc612282e8a12d64"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-a.json",
+      "jsonPointer": "/fixes/9",
+      "articlePaths": [
+        "content/code-articles/batch-34/P1792.md"
+      ],
+      "category": "source-review-classification",
+      "description": "Canonical ignition-supply wording conflicts with the article\u2019s disclosed ZF4HP24 sport-mode indicator definition.",
+      "details": {
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1792.md",
+        "kind": "sourceReview classification",
+        "before": "checked",
+        "after": "needs-review",
+        "reason": "Canonical ignition-supply wording conflicts with the article\u2019s disclosed ZF4HP24 sport-mode indicator definition.",
+        "diagnosticClaimsChanged": false,
+        "sourceCheckedInThisReview": false,
+        "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+        "beforeSha256": "f7683de31935c6897362e2c7fdf59a6fe99a7cf440d2772e389252d635c0d1f3",
+        "afterSha256": "cce9d6f1821ceb3a832d23a38b815ba9dab9a1fb9ba183493ebbd6254489e1e7"
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-b.json",
+      "jsonPointer": "/findings/0",
+      "articlePaths": [
+        "content/code-articles/batch-33/P1416.md"
+      ],
+      "category": "diagnostic-wording",
+      "description": "minor factual overstatement",
+      "details": {
+        "batch": "batch-33",
+        "code": "P1416",
+        "severity": "minor factual overstatement",
+        "before": "unused for5.3L LM7",
+        "after": "not required for5.3L LM7; never-used inference explicitly rejected",
+        "source": "2002file6 physical page30 asterisk footnote",
+        "fixed": true
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-b.json",
+      "jsonPointer": "/findings/1",
+      "articlePaths": [
+        "content/code-articles/batch-35/P1259.md"
+      ],
+      "category": "source-review-classification-and-applicability",
+      "description": "Canonical title adds Rear Bank1; cited OEM monitor pages do not identify a bank. Existing body did not infer it but metadata was checked.",
+      "details": {
+        "batch": "batch-35",
+        "code": "P1259",
+        "severity": "unresolved applicability qualifier",
+        "finding": "Canonical title adds Rear Bank1; cited OEM monitor pages do not identify a bank. Existing body did not infer it but metadata was checked.",
+        "fix": "Changed sourceReview to needs-review and made bank applicability gap explicit in scope/body.",
+        "fixed": true,
+        "unresolved": "Actual bank/model applicability qualifier remains unverified."
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-b.json",
+      "jsonPointer": "/findings/2",
+      "articlePaths": [
+        "content/code-articles/batch-35/P1259.md"
+      ],
+      "category": "diagnostic-wording",
+      "description": "Five-second phrasing narrowed to source duration of at leastfive seconds.",
+      "details": {
+        "batch": "batch-35",
+        "code": "P1259",
+        "severity": "precision",
+        "finding": "Five-second phrasing narrowed to source duration of at leastfive seconds.",
+        "fixed": true
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-c.json",
+      "jsonPointer": "/appliedChanges/0",
+      "articlePaths": [
+        "content/code-articles/batch-37/P0763.md"
+      ],
+      "category": "description",
+      "description": "P0763: description",
+      "details": {
+        "batch": "batch-37",
+        "code": "P0763",
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P0763.md",
+        "beforeSha256": "c050e8fa11e978ccc17244374258ccc02af10a9a516dd82170cae4aa2dde9a62",
+        "afterSha256": "ab79b486bc6a78afb8a6d6d39523a58a36bb1a53402804e04949318bfcd66119",
+        "edits": [
+          {
+            "field": "description",
+            "before": "The documented Mazda P0763 procedure covers shift solenoid C maps to number 3 in the CW6A-EL.",
+            "after": "Mazda's CW6A-EL procedure maps P0763 to shift solenoid number 3 and explains the electrical-fault diagnostic path."
+          }
+        ]
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-c.json",
+      "jsonPointer": "/appliedChanges/1",
+      "articlePaths": [
+        "content/code-articles/batch-37/P0DAD.md"
+      ],
+      "category": "description",
+      "description": "P0DAD: description",
+      "details": {
+        "batch": "batch-37",
+        "code": "P0DAD",
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P0DAD.md",
+        "beforeSha256": "dcb77ab9d9f2bffd2ad556138e8c230b9d21fb1b3ee85a95e066a4fe1d028652",
+        "afterSha256": "26094967662f6458ef2c33821ff32d923ec0f640a6f33831ef6092cc84c0b5e3",
+        "edits": [
+          {
+            "field": "description",
+            "before": "The documented Mazda P0DAD procedure covers cell balancing remains active when it was not requested.",
+            "after": "Mazda's P0DAD procedure identifies unintended battery cell balancing, with the suffix specifying the affected cell."
+          }
+        ]
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-c.json",
+      "jsonPointer": "/appliedChanges/2",
+      "articlePaths": [
+        "content/code-articles/batch-37/P2104.md"
+      ],
+      "category": "diagnostic-wording-and-description",
+      "description": "P2104: description, body",
+      "details": {
+        "batch": "batch-37",
+        "code": "P2104",
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P2104.md",
+        "beforeSha256": "7a051c3919f74022f032705579400d1c7f8e10c4a0baf59b131b26ba333bf220",
+        "afterSha256": "5ea3c2b050e9dd31e69a19caf4a8937de12fe22a40d7ff960a22ef4817ece53a",
+        "edits": [
+          {
+            "field": "description",
+            "before": "The documented Mazda P2104 procedure covers mazda diesel idle-control diagnosis includes boost and vacuum faults.",
+            "after": "Mazda's P2104 diesel procedure includes boost-pressure, vacuum-control and oil-level checks beyond the generic forced-idle label."
+          },
+          {
+            "field": "body",
+            "before": "Mazda's SKYACTIV-D page describes intake shutter idle-air control and investigates unexpectedly high estimated exhaust or boost pressure under its specified operating conditions.",
+            "after": "Mazda's SKYACTIV-D page describes intake shutter idle-air control and evaluates exhaust or boost pressure at or above the PCM's estimated value under its specified operating conditions."
+          }
+        ]
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-c.json",
+      "jsonPointer": "/appliedChanges/3",
+      "articlePaths": [
+        "content/code-articles/batch-37/P3498.md"
+      ],
+      "category": "description",
+      "description": "P3498: description",
+      "details": {
+        "batch": "batch-37",
+        "code": "P3498",
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P3498.md",
+        "beforeSha256": "886e582d1e19ae91a7ba4e7880c0404a841ee07ea1fe4839faa0ab5985530703",
+        "afterSha256": "e55095907d9a965d8ce61ea500a5e2a3a6a4281c38deba682c01d3dc48901bfd",
+        "edits": [
+          {
+            "field": "description",
+            "before": "The documented Mazda P3498 procedure covers cylinder 1 may fail to return from deactivation.",
+            "after": "Mazda's P3498 procedure investigates cylinder 1 failing to return from deactivation and distinguishes combustion faults from valve problems."
+          }
+        ]
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-c.json",
+      "jsonPointer": "/appliedChanges/4",
+      "articlePaths": [
+        "content/code-articles/batch-37/P25AF.md"
+      ],
+      "category": "source-conflict-disclosure",
+      "description": "P25AF: body",
+      "details": {
+        "batch": "batch-37",
+        "code": "P25AF",
+        "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P25AF.md",
+        "beforeSha256": "9a969a3e7d225946f2e5438125a8c0fbc4b0ad60448c2c361bcf4f7a23adac7d",
+        "afterSha256": "b8cf6aa9c20b82920daa2a784cd2e49d767645b19da8ded271304bb90505268a",
+        "edits": [
+          {
+            "field": "body",
+            "before": "Preconditions include engine speed at least 2,000 rpm, coolant at or below 65 \u00b0C and absence of specified valve and water-pressure sensor circuit codes. The page's valve open/close wording is inconsistent between sections, so this article does not infer a precise command-direction rule.",
+            "after": "Preconditions include engine speed at least 2,000 rpm and absence of specified valve and water-pressure sensor circuit codes. The source pairs a coolant limit of 65 \u00b0C with 140 \u00b0F, an inconsistent conversion that needs verification. Its valve open/close wording also differs between sections, so neither a temperature conversion nor a precise command-direction rule should be assumed from this page alone."
+          }
+        ]
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-d.json",
+      "jsonPointer": "/corrections/0",
+      "articlePaths": [
+        "content/code-articles/batch-40/P0837.md",
+        "content/code-articles/batch-40/P0838.md",
+        "content/code-articles/batch-40/P0839.md"
+      ],
+      "category": "presentation/citation",
+      "description": "ZIP archive was labeled as a navigable physical PDF-page link",
+      "details": {
+        "issue": "ZIP archive was labeled as a navigable physical PDF-page link",
+        "severity": "presentation/citation",
+        "identifiedInSample": "content/code-articles/batch-40/P0839.md",
+        "fixedBy": "writer40_mixed",
+        "reviewerVerified": true,
+        "paths": [
+          "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0837.md",
+          "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0838.md",
+          "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0839.md"
+        ],
+        "change": "Removed ZIP page fragments; citation now explicitly names archive member KJ-2003/15884kjpwr_sgmldiag.pdf and physical pages, and states that the link opens the archive. P0837/P0838 received citation-only verification, not additional body review."
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-d.json",
+      "jsonPointer": "/corrections/1",
+      "articlePaths": [
+        "content/code-articles/batch-40/P1160.md"
+      ],
+      "category": "typography",
+      "description": "Missing space before136.8\u00b0C in P1160 title/H1",
+      "details": {
+        "issue": "Missing space before136.8\u00b0C in P1160 title/H1",
+        "severity": "typography",
+        "fixedBy": "writer40_mixed",
+        "reviewerVerified": true,
+        "paths": [
+          "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1160.md"
+        ],
+        "change": "Title and H1 now read the 136.8\u00b0C substitute value. Technical data unchanged."
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-e.json",
+      "jsonPointer": "/findings/0",
+      "articlePaths": [
+        "content/code-articles/batch-39/P1477.md",
+        "content/code-articles/batch-39/P1568.md",
+        "content/code-articles/batch-39/P1749.md"
+      ],
+      "category": "source attribution label",
+      "description": "Volkswagen source links labeled BMW diagnostic chart.",
+      "details": {
+        "batch": "batch-39",
+        "codes": [
+          "P1568",
+          "P1477",
+          "P1749"
+        ],
+        "severity": "source attribution label",
+        "finding": "Volkswagen source links labeled BMW diagnostic chart.",
+        "owner": "writer39_bmw",
+        "status": "Fixed by writer39 and independently verified in all three selected files.",
+        "fixed": true
+      }
+    },
+    {
+      "report": "reports/editorial-review-wave-04-e.json",
+      "jsonPointer": "/findings/1",
+      "articlePaths": [
+        "content/code-articles/batch-40/C0090.md",
+        "content/code-articles/batch-40/C0092.md",
+        "content/code-articles/batch-40/C05F4.md",
+        "content/code-articles/batch-40/U300D.md",
+        "content/code-articles/batch-40/U3011.md"
+      ],
+      "category": "formatting",
+      "description": "Missing spaces in scope strings and some suffix/unit phrases, including Ford2012, under2020, Suffix19, Suffix71, 10\u201390percent, minus40Hz and 1A.",
+      "details": {
+        "batch": "batch-40",
+        "codes": [
+          "U300D",
+          "U3011",
+          "C0090",
+          "C0092",
+          "C05F4"
+        ],
+        "severity": "formatting",
+        "finding": "Missing spaces in scope strings and some suffix/unit phrases, including Ford2012, under2020, Suffix19, Suffix71, 10\u201390percent, minus40Hz and 1A.",
+        "owner": "writer40_mixed",
+        "status": "Fixed by writer40 and independently verified in all five selected files.",
+        "fixed": true
+      }
+    }
+  ],
+  "correctedArticlePaths": [
+    "content/code-articles/batch-32/P0298.md",
+    "content/code-articles/batch-33/P1416.md",
+    "content/code-articles/batch-34/P1252.md",
+    "content/code-articles/batch-34/P1253.md",
+    "content/code-articles/batch-34/P1373.md",
+    "content/code-articles/batch-34/P1376.md",
+    "content/code-articles/batch-34/P1398.md",
+    "content/code-articles/batch-34/P1700.md",
+    "content/code-articles/batch-34/P1730.md",
+    "content/code-articles/batch-34/P1791.md",
+    "content/code-articles/batch-34/P1792.md",
+    "content/code-articles/batch-35/P1259.md",
+    "content/code-articles/batch-37/P0763.md",
+    "content/code-articles/batch-37/P0DAD.md",
+    "content/code-articles/batch-37/P2104.md",
+    "content/code-articles/batch-37/P25AF.md",
+    "content/code-articles/batch-37/P3498.md",
+    "content/code-articles/batch-39/P1477.md",
+    "content/code-articles/batch-39/P1568.md",
+    "content/code-articles/batch-39/P1749.md",
+    "content/code-articles/batch-40/C0090.md",
+    "content/code-articles/batch-40/C0092.md",
+    "content/code-articles/batch-40/C05F4.md",
+    "content/code-articles/batch-40/P0837.md",
+    "content/code-articles/batch-40/P0838.md",
+    "content/code-articles/batch-40/P0839.md",
+    "content/code-articles/batch-40/P1160.md",
+    "content/code-articles/batch-40/U300D.md",
+    "content/code-articles/batch-40/U3011.md"
+  ],
+  "sourceReviewChanges": [
+    {
+      "articlePath": "content/code-articles/batch-34/P1252.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical VSV stuck-on shorthand is narrower than the article\u2019s source-scoped mechanical-guard position monitor; mapping remains unresolved.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1253.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical VSV stuck-on shorthand is narrower than the article\u2019s source-scoped engine-off mechanical-guard position monitor; mapping remains unresolved.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1373.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1376.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1398.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical high-input wording conflicts with the article\u2019s disclosed AJ26 source short-to-ground interpretation.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1700.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical failed-to-neutral wording conflicts with the article\u2019s disclosed fourth-gear fallback on the scoped5HP24 implementation.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1730.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical gear coverage includes fifth gear, whereas the article explicitly scopes the source to second/third/fourth.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1791.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical ignition-supply malfunction conflicts with the verified4L80-E source TPS signal definition.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-34/P1792.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical ignition-supply wording conflicts with the article\u2019s disclosed ZF4HP24 sport-mode indicator definition.",
+      "report": "reports/editorial-review-wave-04-a.json",
+      "independentSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-35/P1259.md",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "The canonical Rear Bank 1 qualifier is not established by the cited Honda monitor pages.",
+      "report": "reports/editorial-review-wave-04-b.json",
+      "independentSourceCheck": true
+    }
+  ],
+  "unresolvedReviewedSampleArticlePaths": [
+    "content/code-articles/batch-31/P01E3.md",
+    "content/code-articles/batch-31/P0334.md",
+    "content/code-articles/batch-31/P2133.md",
+    "content/code-articles/batch-33/P1416.md",
+    "content/code-articles/batch-33/U3008.md",
+    "content/code-articles/batch-34/P1791.md",
+    "content/code-articles/batch-35/P1259.md",
+    "content/code-articles/batch-36/C059B.md",
+    "content/code-articles/batch-37/P000F.md",
+    "content/code-articles/batch-37/P0DAD.md",
+    "content/code-articles/batch-37/P2104.md",
+    "content/code-articles/batch-37/P25AF.md",
+    "content/code-articles/batch-40/P0890.md"
+  ],
+  "preservedReviewerLimitations": {
+    "reports/editorial-review-wave-04-a.json": [
+      "Only the20listed article-source relationships were independently checked against original publisher material. Body-only observations do not verify all numeric claims.",
+      "Additional metadata corrections rely on existing disclosed conflicts plus author notes; only sampled P1791 received an independent original-row check.",
+      "PDF checks used paginated text extracted from the original downloaded PDFs, with section/physical-page context. No full-document visual audit or vehicle-specific workshop validation was performed.",
+      "No model applicability beyond explicit source sections was certified; no vehicles, repairs or diagnostic procedures were physically tested.",
+      "No shared source partitions, publication manifests, generated reports, commits or deployment settings were changed."
+    ],
+    "reports/editorial-review-wave-04-b.json": [
+      "Bounded sample,not a certification of either full batch or all applications.",
+      "Body-only samples were read for consistency,scope and safety but not independently re-researched against their sources.",
+      "No hands-on mechanical validation,model-fitment certification or live-vehicle testing.",
+      "P1738 page transcription verified; remote PNG requests returned an HTML response,so original diagram pixels were not independently inspected.",
+      "No shared manifests,source partitions,generated corpus reports or commits changed."
+    ],
+    "reports/editorial-review-wave-04-c.json": [
+      "Only the 20 named bodies were substantively read; only the 10 named code/source pairs received independent source verification.",
+      "Five body-only samples per batch were reviewed for clarity, scope, specificity and hazardous guidance; their technical details were not independently checked against source in this pass.",
+      "Mazda evidence is downloaded manufacturer HTML publicly mirrored at CHARM; no current VIN-specific OEM portal, bulletin supersession or vehicle configuration was verified.",
+      "MG evidence is the exact 727-page UK manual revision; per-build applicability remains unestablished and cannot be generalized to every MG4.",
+      "Source-review checked means support against the cited document, not mechanic approval or actual vehicle diagnosis.",
+      "No live vehicle tests,repair outcomes, publication, commits, shared source manifests orgenerated corpus reports were altered."
+    ],
+    "reports/editorial-review-wave-04-d.json": [
+      "Only the exact20 listed articles received body review; later drafts and unsampled bodies were not reviewed.",
+      "Only the exact10 listed articles received deep source checking. Body-only pass does not independently verify every numeric claim against its source.",
+      "Sources are manufacturer-authored documents reproduced by public mirrors. This review checks the cited historical documents, not current manufacturer supersessions or compatibility with an individual VIN.",
+      "Ambiguous SMG supply notation and P213F750-second field remain excluded from actionable interpretation.",
+      "No vehicle testing, professional mechanic signoff, complete repair-procedure validation, publication or deployment was performed.",
+      "Generated manifests, shared source partitions and other review reports were not edited."
+    ],
+    "reports/editorial-review-wave-04-e.json": [
+      "Bounded sample; no full-batch certification, hands-on diagnostic validation or vehicle fitment certification.",
+      "Public mirrors reproduce manufacturer workshop content; none is represented as manufacturer hosting.",
+      "Shared manifests, source partitions and other writers output are not directly edited.",
+      "Escape mirror groups the material under 2020\u20132026 but supplies no independently verified original Ford publication revision; selected articles explicitly retain that limitation.",
+      "Fresh web-reader request for the Mazda page returned 404; source checks used the already downloaded original HTML and matching text available in this workspace. No missing source was replaced by a dictionary entry."
+    ]
+  },
+  "limitations": [
+    "This is an aggregation of independent AI peer-review records, not a new independent reading of their sources or certification of all 1,000 planned wave-04 manuscripts.",
+    "Counts are deduplicated article paths. The 60 deep checks are article-to-source relationships, not 60 unique source documents, and are included within the 110 body samples.",
+    "The ten additional batch-34 metadata/excerpt inspections and the two additional KJ citation-only checks do not increase body or deep-source counts. Eight of the nine batch-34 reclassifications rely on existing disclosures and author notes; P1791 alone received a new original-row check in review A.",
+    "Reviewer B selected batch-35 at 95 available drafts. Reviewer D selected batch-39 at 44 and batch-40 at 50 drafts. Reviewer E adds five later articles per batch without overlap; all other later or unsampled articles remain outside these reviews.",
+    "Body-only review does not independently verify every threshold, source row, model qualifier or repair statement. Source checks used the exact publisher PDF, HTML or image described in each individual record; not every check included original diagram pixels.",
+    "P1738 in review B was checked against page transcription; original diagram pixels could not be independently inspected. Review E used downloaded Mazda HTML after a fresh web-reader request returned 404.",
+    "Mirrored historical manufacturer material is not current VIN-specific OEM portal verification, supersession checking, manufacturer endorsement or hands-on vehicle diagnosis. No vehicle fitment, repair result or universal threshold is certified.",
+    "Source-review classification changes expose unresolved definition or applicability gaps; they do not resolve the underlying conflicts. Existing flags and disclosed source contradictions remain in force.",
+    "Article hashes and source-review states in this aggregate are a timestamped snapshot. Detailed reviewer reports preserve their own selection cutoffs and checks; later edits require their own validation.",
+    "The review reports do not select publication, establish live deployment, Google indexing, traffic or the overall 10,000-article target."
+  ],
+  "validation": {
+    "allArticlePathsExist": true,
+    "deepSamplesAreBodySamples": true,
+    "sourceReviewChangesMatchCurrentFrontmatter": true,
+    "reportEComplete": true
+  },
+  "updatedAt": "2026-10-31T10:27:02.503886+00:00",
+  "hashSnapshotUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+  "postAggregationVerification": {
+    "verifiedAt": "2026-10-31T10:27:02.503886+00:00",
+    "report": "reports/editorial-review-wave-04-d.json",
+    "jsonPointer": "/postReviewVerification",
+    "articlePaths": [
+      "content/code-articles/batch-40/P0382.md",
+      "content/code-articles/batch-40/P0530.md",
+      "content/code-articles/batch-40/P0839.md",
+      "content/code-articles/batch-40/P0890.md",
+      "content/code-articles/batch-40/P1757.md",
+      "content/code-articles/batch-40/P2706.md"
+    ],
+    "originalAggregationAt": "2026-10-31T10:22:33.132028+00:00",
+    "bodyAndDeepCountsUnchanged": true,
+    "metadataOnlyChangesVerified": true,
+    "authorSourceReviewChanges": [
+      {
+        "articlePath": "content/code-articles/batch-40/P0890.md",
+        "before": "checked",
+        "after": "needs-review",
+        "changedBy": "writer40_mixed",
+        "requestedBy": "root",
+        "provenance": "Author final metadata change reported after original review D; independently verified present in the final file.",
+        "reason": "Catalog TCM Power Relay Sense Circuit Low wording differs from the cited WJ/WG switched-battery procedure, which detects pressure-switch input voltage before relay energization. The article already disclosed the conflict.",
+        "newTechnicalFinding": false
+      }
+    ],
+    "provenanceNote": "This author finalization is separate from the original 22 peer-review correction records and ten peer-review reclassifications. Historical aggregation hashes/states remain alongside refreshed values on each affected sample."
+  }
+}

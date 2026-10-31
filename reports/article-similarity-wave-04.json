@@ -1,0 +1,996 @@
+{
+  "generatedAt": "2026-10-31T10:25:38.606542+00:00",
+  "scope": "Batches 31\u201340 internally and against batches 01\u201330; excludes prior-versus-prior pairs.",
+  "corpus": {
+    "articles": 4000,
+    "priorArticles": 3000,
+    "wave4Articles": 1000,
+    "expectedWave4Articles": 1000,
+    "completeWave4Count": true,
+    "batchCounts": {
+      "batch-01": 100,
+      "batch-02": 100,
+      "batch-03": 100,
+      "batch-04": 100,
+      "batch-05": 100,
+      "batch-06": 100,
+      "batch-07": 100,
+      "batch-08": 100,
+      "batch-09": 100,
+      "batch-10": 100,
+      "batch-11": 100,
+      "batch-12": 100,
+      "batch-13": 100,
+      "batch-14": 100,
+      "batch-15": 100,
+      "batch-16": 100,
+      "batch-17": 100,
+      "batch-18": 100,
+      "batch-19": 100,
+      "batch-20": 100,
+      "batch-21": 100,
+      "batch-22": 100,
+      "batch-23": 100,
+      "batch-24": 100,
+      "batch-25": 100,
+      "batch-26": 100,
+      "batch-27": 100,
+      "batch-28": 100,
+      "batch-29": 100,
+      "batch-30": 100,
+      "batch-31": 100,
+      "batch-32": 100,
+      "batch-33": 100,
+      "batch-34": 100,
+      "batch-35": 100,
+      "batch-36": 100,
+      "batch-37": 100,
+      "batch-38": 100,
+      "batch-39": 100,
+      "batch-40": 100
+    },
+    "rawSnapshotSha256": "edc3dc9cb879e54009458692ace4c5518d42f316e3a03ef8b0617a7c7891a4d8"
+  },
+  "method": {
+    "shingleWords": 5,
+    "similarity": "set Jaccard: intersection / union of all normalized five-word shingles",
+    "reportThreshold": 0.45,
+    "candidateDocumentFrequencyRange": [
+      2,
+      40
+    ],
+    "minimumSharedCandidateShingles": 10,
+    "normalization": [
+      "Remove frontmatter and all Markdown headings.",
+      "Stop before named source/applicability footer headings or Source/Reference/Citation/Scope/Applicability footer lines.",
+      "Remove code-directory links and URLs; retain other inline link labels.",
+      "Replace DTC identifiers and numeric literals with shared placeholders; lowercase and retain alphabetic tokens."
+    ],
+    "footerHeadings": [
+      "application and limits",
+      "application limits",
+      "citations",
+      "document scope and source",
+      "documentation and applicability",
+      "documented application",
+      "references",
+      "source",
+      "source and applicability",
+      "source and application limits",
+      "source and limits",
+      "source and scope",
+      "sources",
+      "sources and applicability"
+    ],
+    "candidateRetrieval": "Inverted index over shingles occurring in the configured document-frequency range. Count shared qualifying shingles only for pairs involving wave four; score candidates reaching the configured minimum (10 by default, less restrictive than the prior report's 25). No quadratic all-corpus pass.",
+    "exactDuplicateSupplement": "SHA-256 equality of normalized bodies, including groups excluded by frequent-shingle filtering.",
+    "crossBatchSupplement": "Also score the five prior-versus-wave-four and five different-wave-four-batch candidates with the most qualifying shared shingles. This bounded spot check can include pairs below the main candidate minimum.",
+    "reproduce": "python scripts/article-similarity-wave-04.py"
+  },
+  "statistics": {
+    "uniqueFiveGrams": 801408,
+    "qualifyingCandidateFiveGrams": 12916,
+    "candidatePairsWithAnyLowFrequencyOverlap": 51355,
+    "scoredPairs": 243,
+    "scoredPairsByComparison": {
+      "wave4-internal": 238,
+      "wave4-versus-prior3000": 5
+    },
+    "scoredPairsBySelection": {
+      "main-candidate-screen": 234,
+      "bounded-cross-batch-spot-check": 9
+    },
+    "thresholdPairs": 0,
+    "thresholdPairsByComparison": {},
+    "exactNormalizedDuplicateGroups": 0,
+    "minimumNormalizedWords": 115
+  },
+  "similarPairs": [],
+  "similarPairsTruncated": false,
+  "highestScoringPairs": [
+    {
+      "a": "content/code-articles/batch-37/P0397.md",
+      "b": "content/code-articles/batch-37/P03B5.md",
+      "jaccard": 0.066667,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 26,
+      "candidateSharedLowFrequencyFiveGrams": 26,
+      "uniqueFiveGrams": [
+        214,
+        202
+      ],
+      "normalizedWords": [
+        218,
+        206
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "b05cc5532b5cbb1efa9a41b0ccf8aac2107ebafba77f9e618a4e41969aa68714",
+        "9cbda23f6eab660c0880ca0749402d27df1cb88d7861089c2ca73b9936bf52bb"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0C8F.md",
+      "b": "content/code-articles/batch-36/P0CAA.md",
+      "jaccard": 0.060302,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 24,
+      "candidateSharedLowFrequencyFiveGrams": 22,
+      "uniqueFiveGrams": [
+        210,
+        212
+      ],
+      "normalizedWords": [
+        214,
+        216
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "27a09c652045fe6e2a67f2682ea168f0feb0911f548e888d775dc9e6f65aab57",
+        "174016738509055f8e5938a523f5a97f5cdd398312b0fc7ff0a2a6a410b24e77"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0A5E.md",
+      "b": "content/code-articles/batch-36/P0B04.md",
+      "jaccard": 0.059701,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 24,
+      "candidateSharedLowFrequencyFiveGrams": 23,
+      "uniqueFiveGrams": [
+        208,
+        218
+      ],
+      "normalizedWords": [
+        212,
+        222
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "1dfe294b78541550ed3d8c4b73b5ae22335ed52833f021f954f7da72ff6fd53a",
+        "aad7304101352f7fdd90aa248edd44d384dcdd59802046b6c9a2a8a530ee088f"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0A5E.md",
+      "b": "content/code-articles/batch-36/P0A67.md",
+      "jaccard": 0.059553,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 24,
+      "candidateSharedLowFrequencyFiveGrams": 23,
+      "uniqueFiveGrams": [
+        208,
+        219
+      ],
+      "normalizedWords": [
+        212,
+        223
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "1dfe294b78541550ed3d8c4b73b5ae22335ed52833f021f954f7da72ff6fd53a",
+        "a6548845f152cf0fadb6cad9f46f4420654a2029471ea28b3f24061223eb83a4"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0A61.md",
+      "b": "content/code-articles/batch-36/P0A6A.md",
+      "jaccard": 0.059113,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 24,
+      "candidateSharedLowFrequencyFiveGrams": 22,
+      "uniqueFiveGrams": [
+        218,
+        212
+      ],
+      "normalizedWords": [
+        222,
+        216
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "ee36c5a2efbdfa52a565d4d1624519cd01dd1207e80f8f26a0e43de496c8950a",
+        "8827f99c3c55cf3c7d8da53768dc2fe88cdc2fa2f869aa72f089dcd8fd56557c"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-34/P1186.md",
+      "b": "content/code-articles/batch-34/P1192.md",
+      "jaccard": 0.05483,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 21,
+      "candidateSharedLowFrequencyFiveGrams": 21,
+      "uniqueFiveGrams": [
+        206,
+        198
+      ],
+      "normalizedWords": [
+        210,
+        202
+      ],
+      "sharedSourceIds": [
+        "jaguar-dtc-nonstype-1995-2002"
+      ],
+      "bodyHashes": [
+        "4db25760ce633e45a1021c8a5441c8e35fb3d5e77e126bf4a2d199ac5effa022",
+        "1f03e0d91ce45cac6d29f20305e209195a2efbf86269631be5fac04248906cdc"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-33/P3428.md",
+      "b": "content/code-articles/batch-33/P3452.md",
+      "jaccard": 0.054466,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 25,
+      "candidateSharedLowFrequencyFiveGrams": 24,
+      "uniqueFiveGrams": [
+        244,
+        240
+      ],
+      "normalizedWords": [
+        248,
+        244
+      ],
+      "sharedSourceIds": [
+        "gm-2015-15obdg08a-engine-diagnostics"
+      ],
+      "bodyHashes": [
+        "238e111d1c82a4a8f57ce0e2ce86107e40ffe4d807d7e2f94edf48f653080311",
+        "aab7496c69b8ff3454237dcc71e50adaef8f26b05f10f01079521d09e0738c2c"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-38/U0316.md",
+      "b": "content/code-articles/batch-38/U0416.md",
+      "jaccard": 0.053488,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 23,
+      "candidateSharedLowFrequencyFiveGrams": 23,
+      "uniqueFiveGrams": [
+        225,
+        228
+      ],
+      "normalizedWords": [
+        229,
+        232
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "101a766ae40e26bf93a0c9987ea6c5da21692a7de7a820b4ed2298a0ada280c2",
+        "213a8da61e416b082d759a4c2040e8edb68c8802498cdd52d2f6bd8693f9ba37"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-37/P03A2.md",
+      "b": "content/code-articles/batch-37/P03B6.md",
+      "jaccard": 0.053333,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 20,
+      "candidateSharedLowFrequencyFiveGrams": 20,
+      "uniqueFiveGrams": [
+        199,
+        196
+      ],
+      "normalizedWords": [
+        203,
+        200
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "eced30189f58628083fa911a2ff87d2a426c8233fe1ace0fc22d3dd50dd894f8",
+        "728baa7bff2bf061c2abe9d8042f2f31526ab7ae9154cc587c84b5733b390bf0"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0A5E.md",
+      "b": "content/code-articles/batch-36/P0A6D.md",
+      "jaccard": 0.052764,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 21,
+      "candidateSharedLowFrequencyFiveGrams": 19,
+      "uniqueFiveGrams": [
+        208,
+        211
+      ],
+      "normalizedWords": [
+        212,
+        215
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "1dfe294b78541550ed3d8c4b73b5ae22335ed52833f021f954f7da72ff6fd53a",
+        "f15724afe44b2204356a20dfa493a378ed6997d1569c4631c66b1f3b0ee35527"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0A6D.md",
+      "b": "content/code-articles/batch-36/P0B07.md",
+      "jaccard": 0.051724,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 21,
+      "candidateSharedLowFrequencyFiveGrams": 20,
+      "uniqueFiveGrams": [
+        211,
+        216
+      ],
+      "normalizedWords": [
+        215,
+        220
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "f15724afe44b2204356a20dfa493a378ed6997d1569c4631c66b1f3b0ee35527",
+        "1628087382cc614cb33529595f02adc542f9caf778212bd1f7785b099ef174e2"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-32/P029A.md",
+      "b": "content/code-articles/batch-32/P02A6.md",
+      "jaccard": 0.051136,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 18,
+      "candidateSharedLowFrequencyFiveGrams": 18,
+      "uniqueFiveGrams": [
+        187,
+        183
+      ],
+      "normalizedWords": [
+        191,
+        187
+      ],
+      "sharedSourceIds": [
+        "ford-diesel-2015"
+      ],
+      "bodyHashes": [
+        "115f7b5f97035df88b9935f54a0b8db5a10ccc209472a33584b0e772d23f15e6",
+        "b40a66f833e044a28bdab71fd10b4c9da2f5289793e5d5ab7c55999da82b46db"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-37/P03A2.md",
+      "b": "content/code-articles/batch-37/P03AC.md",
+      "jaccard": 0.050891,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 20,
+      "candidateSharedLowFrequencyFiveGrams": 20,
+      "uniqueFiveGrams": [
+        199,
+        214
+      ],
+      "normalizedWords": [
+        203,
+        218
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "eced30189f58628083fa911a2ff87d2a426c8233fe1ace0fc22d3dd50dd894f8",
+        "361d38d644a5ece56d1e6b0bdc367ab0e83fc98a30a0404ee344459b7d8b68f6"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-34/P1397.md",
+      "b": "content/code-articles/batch-34/P1398.md",
+      "jaccard": 0.050132,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 19,
+      "candidateSharedLowFrequencyFiveGrams": 17,
+      "uniqueFiveGrams": [
+        195,
+        203
+      ],
+      "normalizedWords": [
+        199,
+        207
+      ],
+      "sharedSourceIds": [
+        "jaguar-dtc-nonstype-1995-2002"
+      ],
+      "bodyHashes": [
+        "e625ed954a7a5c323de132bf4393d215f27832b7a7db0aeebc70fc87d41d2b91",
+        "b3681c32b5b16e6439c759f01466b971f8e755692e86ed2e1bb182ab1f6bf965"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-34/P1190.md",
+      "b": "content/code-articles/batch-34/P1196.md",
+      "jaccard": 0.048843,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 19,
+      "candidateSharedLowFrequencyFiveGrams": 18,
+      "uniqueFiveGrams": [
+        214,
+        194
+      ],
+      "normalizedWords": [
+        218,
+        198
+      ],
+      "sharedSourceIds": [
+        "jaguar-dtc-nonstype-1995-2002"
+      ],
+      "bodyHashes": [
+        "20431f276fe38f79b78df6204ed6cc2b11ec6c593c61837b5d2255421cda5e54",
+        "53a5776a0598048e8ac8bc3f342b98374cb0b2344668195ddbd7589aa02fd2a2"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0A67.md",
+      "b": "content/code-articles/batch-36/P0A6D.md",
+      "jaccard": 0.04878,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 20,
+      "candidateSharedLowFrequencyFiveGrams": 19,
+      "uniqueFiveGrams": [
+        219,
+        211
+      ],
+      "normalizedWords": [
+        223,
+        215
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "a6548845f152cf0fadb6cad9f46f4420654a2029471ea28b3f24061223eb83a4",
+        "f15724afe44b2204356a20dfa493a378ed6997d1569c4631c66b1f3b0ee35527"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0C95.md",
+      "b": "content/code-articles/batch-36/P0CBA.md",
+      "jaccard": 0.048309,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 20,
+      "candidateSharedLowFrequencyFiveGrams": 19,
+      "uniqueFiveGrams": [
+        211,
+        223
+      ],
+      "normalizedWords": [
+        215,
+        227
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "ad6a0aaa8d2f8fb3210c8bfe87ae41972fe162f54e11089f5f258f3cf2fe025c",
+        "1b4727e034007724c0ac74ca79c30976de299b91102ffa180d02eef6ae2d0e69"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0CAA.md",
+      "b": "content/code-articles/batch-36/P0CB1.md",
+      "jaccard": 0.04703,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 19,
+      "candidateSharedLowFrequencyFiveGrams": 17,
+      "uniqueFiveGrams": [
+        212,
+        211
+      ],
+      "normalizedWords": [
+        216,
+        215
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "174016738509055f8e5938a523f5a97f5cdd398312b0fc7ff0a2a6a410b24e77",
+        "7864015b2f2c0e8d3dcb7b54db5218f5066a0d649e3e215a5fcbf8a94142864e"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-33/P3420.md",
+      "b": "content/code-articles/batch-33/P3428.md",
+      "jaccard": 0.046709,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 22,
+      "candidateSharedLowFrequencyFiveGrams": 21,
+      "uniqueFiveGrams": [
+        249,
+        244
+      ],
+      "normalizedWords": [
+        253,
+        248
+      ],
+      "sharedSourceIds": [
+        "gm-2015-15obdg08a-engine-diagnostics"
+      ],
+      "bodyHashes": [
+        "763f00dc0733108ebf3a808303275cc47a92c3e9aa30d84b995b25785c9d29a7",
+        "238e111d1c82a4a8f57ce0e2ce86107e40ffe4d807d7e2f94edf48f653080311"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-36/P0A61.md",
+      "b": "content/code-articles/batch-36/P0B01.md",
+      "jaccard": 0.045346,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 19,
+      "candidateSharedLowFrequencyFiveGrams": 19,
+      "uniqueFiveGrams": [
+        218,
+        220
+      ],
+      "normalizedWords": [
+        222,
+        224
+      ],
+      "sharedSourceIds": [
+        "gm-2018-18obdg02-hybrid-diagnostics"
+      ],
+      "bodyHashes": [
+        "ee36c5a2efbdfa52a565d4d1624519cd01dd1207e80f8f26a0e43de496c8950a",
+        "779b0c58afd465cc9e8ca61021dff67634c3e7c116a3035b34d8bfbfb844a86e"
+      ]
+    }
+  ],
+  "highestWave4VersusPriorPairs": [
+    {
+      "a": "content/code-articles/batch-09/P2ADA.md",
+      "b": "content/code-articles/batch-32/P2043.md",
+      "jaccard": 0.019002,
+      "comparison": "wave4-versus-prior3000",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 8,
+      "candidateSharedLowFrequencyFiveGrams": 8,
+      "uniqueFiveGrams": [
+        250,
+        179
+      ],
+      "normalizedWords": [
+        254,
+        183
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "719d5fcf986e56dd77b3ae67f5f9144e6fe9533a207775c58252f8070ba32128",
+        "c8d6667dea6948275bb32a87e205e1ffe9ed51e16bf185481ffc008ff28e633e"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-18/U0644.md",
+      "b": "content/code-articles/batch-33/P023B.md",
+      "jaccard": 0.017391,
+      "comparison": "wave4-versus-prior3000",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 8,
+      "candidateSharedLowFrequencyFiveGrams": 7,
+      "uniqueFiveGrams": [
+        235,
+        233
+      ],
+      "normalizedWords": [
+        239,
+        238
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "0934ce4886c9f08a5cf0e6ef729d371cb0250c8057ab7685658a0c44b697b904",
+        "cce33ea12825fd25e6b7d39d9f6bc5176ebcca91ea2cca6d2c0f78427098726f"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-02/P0245.md",
+      "b": "content/code-articles/batch-33/P023B.md",
+      "jaccard": 0.015837,
+      "comparison": "wave4-versus-prior3000",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 7,
+      "candidateSharedLowFrequencyFiveGrams": 6,
+      "uniqueFiveGrams": [
+        216,
+        233
+      ],
+      "normalizedWords": [
+        220,
+        238
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "e4933dffc26b106837eb023548bdc92d603ae551e09292c3ef3a79e8ad3e7de2",
+        "cce33ea12825fd25e6b7d39d9f6bc5176ebcca91ea2cca6d2c0f78427098726f"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-25/P04C0.md",
+      "b": "content/code-articles/batch-33/P349F.md",
+      "jaccard": 0.015453,
+      "comparison": "wave4-versus-prior3000",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 7,
+      "candidateSharedLowFrequencyFiveGrams": 7,
+      "uniqueFiveGrams": [
+        220,
+        240
+      ],
+      "normalizedWords": [
+        224,
+        244
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "6f6aa9da6e65d5dd003c48268bc7868ffce3b9fb84cc92098e01f1077b3503a3",
+        "e66f92290afc8b4f0afdeefa76c9bb7ba2213e8955ab382c943086ffb2425c69"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-01/P0074.md",
+      "b": "content/code-articles/batch-33/P222E.md",
+      "jaccard": 0.015284,
+      "comparison": "wave4-versus-prior3000",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 7,
+      "candidateSharedLowFrequencyFiveGrams": 7,
+      "uniqueFiveGrams": [
+        231,
+        234
+      ],
+      "normalizedWords": [
+        235,
+        238
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "cfc7a138d9ce160751027a4a9270cb0dc01940082e7a94b636675c9d37f6bea6",
+        "20aa531deb3b7091240757879020dedea72c109439564aae677026f6cf70180c"
+      ]
+    }
+  ],
+  "highestCrossBatchWave4Pairs": [
+    {
+      "a": "content/code-articles/batch-38/B00C0.md",
+      "b": "content/code-articles/batch-40/B00C3.md",
+      "jaccard": 0.022624,
+      "comparison": "wave4-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 10,
+      "candidateSharedLowFrequencyFiveGrams": 10,
+      "uniqueFiveGrams": [
+        207,
+        245
+      ],
+      "normalizedWords": [
+        211,
+        249
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "99df629bacd63e8b77d05d2e88ff154d1b9577acf343bfbd6647556ec219d8fb",
+        "07ae42bd848e29c90f80738b160e162e673dcde4a46a0e4cb729053db6ece39b"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-31/P0185.md",
+      "b": "content/code-articles/batch-32/P02A3.md",
+      "jaccard": 0.013263,
+      "comparison": "wave4-internal",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 5,
+      "candidateSharedLowFrequencyFiveGrams": 5,
+      "uniqueFiveGrams": [
+        203,
+        179
+      ],
+      "normalizedWords": [
+        207,
+        183
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "d3b1e5b24ea9ea5c9f3edb6f3027004b3ec7318d2e395569b7287a2a91b2ad20",
+        "084d0f1d33c8c5526f7b1cfd99d5b57876eef361a2d8428e5043a2dcae53e3c9"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-32/U0407.md",
+      "b": "content/code-articles/batch-34/P0142.md",
+      "jaccard": 0.013193,
+      "comparison": "wave4-internal",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 5,
+      "candidateSharedLowFrequencyFiveGrams": 5,
+      "uniqueFiveGrams": [
+        177,
+        207
+      ],
+      "normalizedWords": [
+        181,
+        211
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "4e8b42d0127e717f55d75932cb5230422a71d0414d8d6b8cc9adce0ebb847e9f",
+        "dd2ef559b55ee0abb8802504c76e36c3d9dfb755416d79273c30ef14d4981c2f"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-38/B0005.md",
+      "b": "content/code-articles/batch-40/B0082.md",
+      "jaccard": 0.012397,
+      "comparison": "wave4-internal",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 6,
+      "candidateSharedLowFrequencyFiveGrams": 6,
+      "uniqueFiveGrams": [
+        216,
+        274
+      ],
+      "normalizedWords": [
+        220,
+        278
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "3a5845bf19e33b77051aa6604dfc836dddda68827096e87ac616c50e733e3c19",
+        "9458ec1d907e6a098e64dfee2606c9c333e37de4d81022a02f9f3a7ab8c12409"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-39/P0DF4.md",
+      "b": "content/code-articles/batch-40/P0E03.md",
+      "jaccard": 0.011605,
+      "comparison": "wave4-internal",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 6,
+      "candidateSharedLowFrequencyFiveGrams": 6,
+      "uniqueFiveGrams": [
+        246,
+        277
+      ],
+      "normalizedWords": [
+        250,
+        281
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "20515c52411a87968c39e63c2151ccefd330d85115877e606aa0dd15fe851d82",
+        "6d1f28b1f3cc61a698ab9a7fd1b7ee6d6376f23218cbcd1255055b208eb2de5f"
+      ]
+    }
+  ],
+  "exactNormalizedDuplicateGroups": [],
+  "manualReview": [
+    {
+      "a": "content/code-articles/batch-37/P0397.md",
+      "b": "content/code-articles/batch-37/P03B5.md",
+      "bodyHashes": [
+        "b05cc5532b5cbb1efa9a41b0ccf8aac2107ebafba77f9e618a4e41969aa68714",
+        "9cbda23f6eab660c0880ca0749402d27df1cb88d7861089c2ca73b9936bf52bb"
+      ],
+      "jaccardAtReview": 0.066667,
+      "classification": "related-factory-procedure-family",
+      "articleReading": "Both concern Mazda cylinder-pressure low input and share thresholds/fail-safe actions. One develops circuit-versus-compression interpretation; the other leads with companion-code routing. Actual paragraphs are not a code/number-only substitution.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-36/P0C8F.md",
+      "b": "content/code-articles/batch-36/P0CAA.md",
+      "bodyHashes": [
+        "27a09c652045fe6e2a67f2682ea168f0feb0911f548e888d775dc9e6f65aab57",
+        "174016738509055f8e5938a523f5a97f5cdd398312b0fc7ff0a2a6a410b24e77"
+      ],
+      "jaccardAtReview": 0.060302,
+      "classification": "related-factory-monitor-family",
+      "articleReading": "GM temperature channels J and M use the same thermistor endpoint logic. Threshold and polarity overlap is expected; wording and explanation differ. This lexical review does not certify semantic differentiation among sibling monitor articles.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-36/P0A5E.md",
+      "b": "content/code-articles/batch-36/P0B04.md",
+      "bodyHashes": [
+        "1dfe294b78541550ed3d8c4b73b5ae22335ed52833f021f954f7da72ff6fd53a",
+        "aad7304101352f7fdd90aa248edd44d384dcdd59802046b6c9a2a8a530ee088f"
+      ],
+      "jaccardAtReview": 0.059701,
+      "classification": "related-monitor-logic-distinct-system",
+      "articleReading": "The common peak-window current monitor applies to drive-motor phase U versus auxiliary transmission-pump phase V. Articles retain different controller identity, current demand and thresholds, with different diagnostic implications; no simple renamed-body match.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-34/P1186.md",
+      "b": "content/code-articles/batch-34/P1192.md",
+      "bodyHashes": [
+        "4db25760ce633e45a1021c8a5441c8e35fb3d5e77e126bf4a2d199ac5effa022",
+        "1f03e0d91ce45cac6d29f20305e209195a2efbf86269631be5fac04248906cdc"
+      ],
+      "jaccardAtReview": 0.05483,
+      "classification": "explicit-factory-cross-reference",
+      "articleReading": "Jaguar downstream P1192 explicitly follows upstream P1186 causes. Shared cause wording reflects that stated cross-reference; the articles preserve upstream/downstream scope and explain what does and does not transfer.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-33/P3428.md",
+      "b": "content/code-articles/batch-33/P3452.md",
+      "bodyHashes": [
+        "238e111d1c82a4a8f57ce0e2ce86107e40ffe4d807d7e2f94edf48f653080311",
+        "aab7496c69b8ff3454237dcc71e50adaef8f26b05f10f01079521d09e0738c2c"
+      ],
+      "jaccardAtReview": 0.054466,
+      "classification": "related-factory-monitor-family",
+      "articleReading": "GM cylinder 4 and cylinder 7 circuit-high monitors share sample counts and enable conditions. Both preserve electrical-versus-mechanical distinctions with different paragraphs. No near-identical normalized body found.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-38/U0316.md",
+      "b": "content/code-articles/batch-38/U0416.md",
+      "bodyHashes": [
+        "101a766ae40e26bf93a0c9987ea6c5da21692a7de7a820b4ed2298a0ada280c2",
+        "213a8da61e416b082d759a4c2040e8edb68c8802498cdd52d2f6bd8693f9ba37"
+      ],
+      "jaccardAtReview": 0.053488,
+      "classification": "related-source-network-different-receiver",
+      "articleReading": "Both describe equipment-dependent Mazda brake-system senders. One concerns the BCM compatibility/error report; the other concerns headlamp leveling and actuator response. Shared sender facts do not erase the distinct receiving modules and repair evidence.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-09/P2ADA.md",
+      "b": "content/code-articles/batch-32/P2043.md",
+      "bodyHashes": [
+        "719d5fcf986e56dd77b3ae67f5f9144e6fe9533a207775c58252f8070ba32128",
+        "c8d6667dea6948275bb32a87e205e1ffe9ed51e16bf185481ffc008ff28e633e"
+      ],
+      "jaccardAtReview": 0.019002,
+      "classification": "similar-subject-different-manufacturer-criteria",
+      "articleReading": "GM and Ford reductant-temperature plausibility checks share cold-soak concepts. Actual references, comparison channels, soak times, thresholds and inhibits differ. Matching short phrases do not form a renamed article.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-18/U0644.md",
+      "b": "content/code-articles/batch-33/P023B.md",
+      "bodyHashes": [
+        "0934ce4886c9f08a5cf0e6ef729d371cb0250c8057ab7685658a0c44b697b904",
+        "cce33ea12825fd25e6b7d39d9f6bc5176ebcca91ea2cca6d2c0f78427098726f"
+      ],
+      "jaccardAtReview": 0.017391,
+      "classification": "incidental-monitor-enable-wording",
+      "articleReading": "SENT wastegate communication and intercooler-pump driver faults share GM enabling-condition language. Subjects, failure logic and diagnostic interpretation are distinct.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-31/P0185.md",
+      "b": "content/code-articles/batch-32/P02A3.md",
+      "bodyHashes": [
+        "d3b1e5b24ea9ea5c9f3edb6f3027004b3ec7318d2e395569b7287a2a91b2ad20",
+        "084d0f1d33c8c5526f7b1cfd99d5b57876eef361a2d8428e5043a2dcae53e3c9"
+      ],
+      "jaccardAtReview": 0.013263,
+      "classification": "incidental-interpretive-phrase",
+      "articleReading": "A short caution against translating a code into an unsupported claim is shared. VAG fuel-temperature signal diagnosis and Ford cylinder fuel balancing otherwise have different evidence and structure.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-32/U0407.md",
+      "b": "content/code-articles/batch-34/P0142.md",
+      "bodyHashes": [
+        "4e8b42d0127e717f55d75932cb5230422a71d0414d8d6b8cc9adce0ebb847e9f",
+        "dd2ef559b55ee0abb8802504c76e36c3d9dfb755416d79273c30ef14d4981c2f"
+      ],
+      "jaccardAtReview": 0.013193,
+      "classification": "incidental-interpretive-phrase",
+      "articleReading": "A generic phrase about a more-specific observation appears in unrelated glow-module identification and oxygen-signal/heater-coupling articles. No sustained repeated body observed.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-39/P0DF4.md",
+      "b": "content/code-articles/batch-40/P0E03.md",
+      "bodyHashes": [
+        "20515c52411a87968c39e63c2151ccefd330d85115877e606aa0dd15fe851d82",
+        "6d1f28b1f3cc61a698ab9a7fd1b7ee6d6376f23218cbcd1255055b208eb2de5f"
+      ],
+      "jaccardAtReview": 0.011605,
+      "classification": "related-factory-procedure-distinct-monitor",
+      "articleReading": "Both cite Mazda ISG recurrence/CAN diagnosis. One evaluates disagreement between temperature measurements; the other evaluates a current-sensor high-input endpoint. The manuscripts identify the shared procedure and retain different detection evidence.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-38/B00C0.md",
+      "b": "content/code-articles/batch-40/B00C3.md",
+      "bodyHashes": [
+        "99df629bacd63e8b77d05d2e88ff154d1b9577acf343bfbd6647556ec219d8fb",
+        "07ae42bd848e29c90f80738b160e162e673dcde4a46a0e4cb729053db6ece39b"
+      ],
+      "jaccardAtReview": 0.022624,
+      "classification": "related-factory-procedure-different-application",
+      "articleReading": "The Flex sensor-A and F-150 sensor-D manuscripts share Ford occupant-classification logic and the open-return explanation. The later article preserves its own 4.85 V threshold, vehicle, suffix caveat and branch sequence. The paragraphs are not a code-only substitution.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    },
+    {
+      "a": "content/code-articles/batch-38/B0005.md",
+      "b": "content/code-articles/batch-40/B0082.md",
+      "bodyHashes": [
+        "3a5845bf19e33b77051aa6604dfc836dddda68827096e87ac616c50e733e3c19",
+        "9458ec1d907e6a098e64dfee2606c9c333e37de4d81022a02f9f3a7ab8c12409"
+      ],
+      "jaccardAtReview": 0.012397,
+      "classification": "related-restraint-monitor-distinct-component",
+      "articleReading": "Both discuss age-adjusted resistance and intermittent faults in Ford restraint systems. The Flex collapsible-column and Fiesta load-limiter articles preserve different component identities; the Fiesta article adds its circuit-specific scan PID and completion range. No sustained renamed-body pattern observed.",
+      "action": "No manuscript change requested by this bounded lexical screen.",
+      "reviewScope": "Assistant read both local article bodies; source accuracy was not re-audited here."
+    }
+  ],
+  "unreviewedThresholdPairCount": 0,
+  "limitations": [
+    "This is a bounded lexical repetition screen, not an originality, plagiarism, source-accuracy, or factual-quality certification.",
+    "Candidate retrieval can miss pairs dominated by shingles appearing above the configured document-frequency ceiling or sharing fewer than the configured qualifying-shingle minimum.",
+    "Number and DTC normalization intentionally increases similarity among legitimate related factory procedures; scores require article-level review.",
+    "Paraphrased templates, semantic duplication, and copied source text not present in this corpus can evade lexical screening.",
+    "Footer removal uses an explicit heading list and footer-line patterns; inline applicability language remains when part of the main discussion.",
+    "The report is a point-in-time filesystem snapshot. A later manuscript change requires a rerun; stored reviews survive only identical normalized body hashes."
+  ],
+  "snapshotVerification": {
+    "checkedAt": "2026-10-31T10:25:52.461625+00:00",
+    "articles": 4000,
+    "rawSnapshotSha256": "edc3dc9cb879e54009458692ace4c5518d42f316e3a03ef8b0617a7c7891a4d8",
+    "matched": true,
+    "writer40State": "Writer40 confirmed all 100 files stable after final metadata, citation and identity checks; latest author validation made no changes."
+  }
+}

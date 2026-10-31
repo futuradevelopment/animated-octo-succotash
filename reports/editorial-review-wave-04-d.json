@@ -1,0 +1,715 @@
+{
+  "reviewId": "editorial-review-wave-04-d",
+  "reviewer": "writer34_bmw",
+  "reviewedBatches": [
+    "batch-39",
+    "batch-40"
+  ],
+  "reviewedOn": "2026-10-31",
+  "completedAt": "2026-10-31T10:15:18.205578+00:00",
+  "independentOfAuthorship": true,
+  "sampleCutoff": {
+    "batch-39": {
+      "articlesPresentAtSelection": 44,
+      "bodySamples": 10,
+      "deepSourceSamples": 5
+    },
+    "batch-40": {
+      "articlesPresentAtSelection": 50,
+      "bodySamples": 10,
+      "deepSourceSamples": 5
+    }
+  },
+  "scope": "Independent bounded editorial review of20 bodies and10 article-to-original-source checks. No full-batch certification.",
+  "bodySamples": [
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P0129.md",
+      "code": "P0129",
+      "entryId": "generic-p0129",
+      "system": "Ambient/barometric pressure",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "4ec27adea5ea2eec21f2747ee685fdfeaf24dbec10c3fb78321825331f11e07d",
+      "bodyChecks": [
+        "Source-specific sudden pressure-drop interpretation is distinguished from steady low pressure. Recurrence condition limits the controller-replacement statement. No invented pressure-change-per-second interval."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P0173.md",
+      "code": "P0173",
+      "entryId": "generic-p0173",
+      "system": "Fuel adaptation",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "2a466483fd82c7fb082c7706ea07eff53529e977f5062c64a6fe7d5a7a0159a1",
+      "bodyChecks": [
+        "Generic code is bounded to the reproduced BMW summary. Positive/negative correction directions remain distinct and closed-loop prerequisite is retained. No unsupported fuel-pressure or parts specification."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P0372.md",
+      "code": "P0372",
+      "entryId": "generic-p0372",
+      "system": "Crankshaft reference",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "990e4d9b717698e9bed2f6bc3d1b7bccb0331aae5f20d3c3a805bd0516415255",
+      "bodyChecks": [
+        "Missing reference events remain distinct from merely displaying RPM. Scope is N62TU; no invented waveform or air gap. Controller fallback behavior is separated from primary defects."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P0935.md",
+      "code": "P0935",
+      "entryId": "generic-p0935",
+      "system": "SMG hydraulic pressure sensing",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "1f7b51210e707ef380e4937c1894c1b58db8e029b9fbdac5dfe0d53a95ad0ee3",
+      "bodyChecks": [
+        "SMG test-group scope is not inferred from the E46 navigation model alone. Electrical high input is distinguished from actual hydraulic overpressure. Ambiguous supply notation is not converted into an invented enable range."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P1385.md",
+      "code": "P1385",
+      "entryId": "bmw-p1385",
+      "system": "Knock-control diagnostics",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "f2e5264e19b019801d4ca688461e2b92f8c3f17ce4a144be9eb64cc7453bbce0",
+      "bodyChecks": [
+        "BMW manufacturer namespace and N62TU fault variant retained. DME-directed source action is bounded by exact identity and full workshop requirements. No unsupported sensor threshold or chip repair."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P1449.md",
+      "code": "P1449",
+      "entryId": "bmw-p1449",
+      "system": "EVAP/DMTL",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "ccd4c619b7f758e5d3419e2fd7d9251a2587f297ec347f78789653fa31f0c606",
+      "bodyChecks": [
+        "Reference-current fault is distinguished from a fuel-cap or tank-leak result. Original evidence is retained before the source-prescribed clearing/test sequence. Function-test conditions are explicitly not universal normal-operation detection conditions."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P1524.md",
+      "code": "P1524",
+      "entryId": "bmw-p1524",
+      "system": "VANOS electrical control",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "03263a41f7dafff353a3b7fcf33f8a34f49a5d15e1d375e061ef830b06deeef6",
+      "bodyChecks": [
+        "Circuit-high classification is separated from mechanical timing/VANOS performance. Combined table cells are not portrayed as a stand-alone pin test. No invented connector values or automatic actuator replacement."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P1632.md",
+      "code": "P1632",
+      "entryId": "bmw-p1632",
+      "system": "Throttle adaptation",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "45833c0feb720779071219b6764c62aaebffc29c66570e64d6c7f61a0aac1349",
+      "bodyChecks": [
+        "Adaptation prerequisites and programming history are separated from throttle-body failure. No unsupported manual pedal sequence or bypass. Engine-control scope is explicit."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P213F.md",
+      "code": "P213F",
+      "entryId": "generic-p213f",
+      "system": "Crash-triggered fuel shutdown",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "722df55ce688214006982b2a929b409ad1f235f23b08b47ffe1481d16082d1ce",
+      "bodyChecks": [
+        "Commanded safety shutdown is distinguished from failed fuel delivery. Crash module diagnosis retained; no relay bridging or premature restoration instruction. Unexplained 750-second source field is explicitly not used as a reset delay."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P2542.md",
+      "code": "P2542",
+      "entryId": "generic-p2542",
+      "system": "Low-pressure fuel sensing",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "4679ddce9b5fb452d88567698af7168ee408f393625d392716715a5593b2bc15",
+      "bodyChecks": [
+        "High signal voltage is separated from actual pressure. Correct sensor/wiring scope and professional fuel-system boundary are stated; no unsafe opening or probing directions."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0382.md",
+      "code": "P0382",
+      "entryId": "generic-p0382",
+      "system": "Diesel glow relay",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "e91f00c818c571e35982c7c46eb87e2cf7966fe73a73b7e0249aaa0639d77c99",
+      "bodyChecks": [
+        "Open/short subtypes and their different ignition states are preserved. Does not diagnose every glow plug from relay circuit B. High-current work remains professional."
+      ],
+      "result": "pass",
+      "sha256AtOriginalReport": "d11f20cf74cab235e491dc712bde8d8735e3eac463a93e0453396f4304dcb96b",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAfterPostReviewVerification": "checked"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0530.md",
+      "code": "P0530",
+      "entryId": "generic-p0530",
+      "system": "Air-conditioning pressure sensing",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "f2eb4ac3bd5ad9eae5682419e19a2f6028d8d11a662e2b203bee1a77308051b6",
+      "bodyChecks": [
+        "Reference-supply codes are prioritized before a pressure-sensor decision. Signal thresholds are separated from charging voltage. Refrigerant is not added by guesswork."
+      ],
+      "result": "pass",
+      "sha256AtOriginalReport": "7e9d453ae0acfd048d58a52d19e80c580c31546a04f830b8b600fe297f90d2ac",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAfterPostReviewVerification": "checked"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0839.md",
+      "code": "P0839",
+      "entryId": "generic-p0839",
+      "system": "Transfer-case mode sensing",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "04b81d9d9c34a00162a35a079abddaa0f7d3d609bdbaa1cc694fdb9bf1925eec",
+      "bodyChecks": [
+        "KJ high-input criterion and open-circuit possibility retained. NGC connector-adapter precaution avoids damaging terminals. Citation packaging issue was sent to the writer."
+      ],
+      "result": "pass",
+      "sha256AtOriginalReport": "1bb21b920ec750bd8280a8bb12194269b4768f18d9bf534bee65405733c90561",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAfterPostReviewVerification": "checked"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0890.md",
+      "code": "P0890",
+      "entryId": "generic-p0890",
+      "system": "Transmission pressure-switch initialization",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "9a60e0c362ed0c72d0a2219d0fdd3d0876f59be4b69fe55df24e5184ef972a17",
+      "bodyChecks": [
+        "Catalog low-relay-sense wording is explicitly distinguished from the factory switched-battery procedure. Premature voltage is not misrepresented as low hydraulic pressure. No workshop relay-jumper steps are copied into the article."
+      ],
+      "result": "pass",
+      "sha256AtOriginalReport": "e136e98abfb2482ff39bf768785547caa0237a69b2638c1a2dcbee4b405b3fde",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAfterPostReviewVerification": "needs-review"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1160.md",
+      "code": "P1160",
+      "entryId": "volkswagen-p1160",
+      "system": "VW intake-manifold temperature",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "dbdcff30ae803c4e03aa63e6549f9da797a3958262db788e9bf05e3ff0e3fe26",
+      "bodyChecks": [
+        "Volkswagen manufacturer namespace retained. Substitute temperature is not treated as measured physical temperature. Engine-specific wiring branches and temperature-dependent resistance examples are bounded. Title spacing issue was sent to the writer."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1486.md",
+      "code": "P1486",
+      "entryId": "jeep-p1486",
+      "system": "EVAP restriction",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "a435e77dfbaf9c1d719d03b8e5d652eeb3b95b675138416d5dc0a7271df2669c",
+      "bodyChecks": [
+        "Restriction and purge-monitor sequence are distinguished from an external leak. No compressed-air or fuel-vapor test instructions are provided. Cold-start context remains bounded."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1618.md",
+      "code": "P1618",
+      "entryId": "volkswagen-p1618",
+      "system": "VW glow-relay control",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "be506c49b2325f618d50f8b814993070141763aa74b227a3c42d2c1ef3203e44",
+      "bodyChecks": [
+        "Relay command, load observation and warning-lamp output-test stage are separated. No unsupported claim that a lamp/relay response proves every glow plug is healthy."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1685.md",
+      "code": "P1685",
+      "entryId": "jeep-p1685",
+      "system": "Immobilizer communication/configuration",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "f91931a01b5691732dac5cc92625db7a6bf2fa9b2f9005d223669d1cd4de5081",
+      "bodyChecks": [
+        "SKIM communication, module faults, VIN and individual key evidence remain separate. No bypass instructions; module replacement remains conditional and professional."
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1757.md",
+      "code": "P1757",
+      "entryId": "jeep-p1757",
+      "system": "Transmission governor-pressure diagnosis",
+      "reviewLevel": "body-and-original-source",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "c2dbcb66b9af6f969fc4c74f05f8f8d319865113509a5aa2b3793c1298945303",
+      "bodyChecks": [
+        "Actual pressure and false electrical feedback are separated through the source gauge comparison. Exclusion of five-speed 545RFE retained. Pressure testing/internal work remains professional."
+      ],
+      "result": "pass",
+      "sha256AtOriginalReport": "f2d0b9f6f03a72b975d761f5db06dc2b4ae4df593447c7a38955babc211e40fc",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAfterPostReviewVerification": "checked"
+    },
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P2706.md",
+      "code": "P2706",
+      "entryId": "generic-p2706",
+      "system": "Transmission multi-select solenoid",
+      "reviewLevel": "body-only",
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "e1fd4aad7829b28b271d5b17a5b34dde63052af8b598d730853c8f27b59f1b5c",
+      "bodyChecks": [
+        "Generic F label is mapped to MS only within the documented Jeep transmission. Related-code-dependent continuity logic is stated. Common relay power and external control wiring precede assembly assumptions."
+      ],
+      "result": "pass",
+      "sha256AtOriginalReport": "cbda5e47027ef1c841ae39a1c2715f424127ca298d332d2480819fe97bd0bb3c",
+      "hashUpdatedAt": "2026-10-31T10:27:02.503886+00:00",
+      "sourceReviewAfterPostReviewVerification": "checked"
+    }
+  ],
+  "deepSourceChecks": [
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P0173.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/m62-P0173.html",
+          "sha256": "36ad512f69b14acf18902c56fb06e197760dcc16b54a36eab1655eaca024649b"
+        },
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/m62-P0173-0.png",
+          "sha256": "eeb3e44f8de9a34f60980881ce1c1b49c73a36814d69b96042e824e1521385f5"
+        }
+      ],
+      "sourceLocators": "Original OBD II Requirements Summary Table image: bottom Fuel System row, P0170/3 and P1174/5; all relevant columns",
+      "verifiedClaims": [
+        "Original image visually confirms trim limits greater than \u00b124%, short/long-term group, closed loop, immediate continuous evaluation and two driving cycles.",
+        "HTML wrapper preserves BMW 2000 740iL E38 M62 TU source routing; article does not infer universal calibration applicability."
+      ],
+      "caveats": [],
+      "urls": [],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P0935.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/m54-P0935.html",
+          "sha256": "792cf0722ca489d4061f236c9a5883bc5b6127dcdb63440bebb5c34e2e6d1b67"
+        },
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/m54-P0935-0.png",
+          "sha256": "dd4aa0b8be3fb3e4e0d642634b47a0a0466b243af2e0853f8cdce44f5aace7f5"
+        }
+      ],
+      "sourceLocators": "Original summary image: test group 3BMXV03.0UL2, Transmission SMG, P0935 row and merged enable/time/MIL cells",
+      "verifiedClaims": [
+        "Original image visually confirms signal >4.7 V and short-to-supply classification.",
+        "Merged cells support key on, not cranking, continuous <500 ms evaluation and second-driving-cycle MIL.",
+        "SMG applicability comes from the image header, not just the 330i navigation path."
+      ],
+      "caveats": [
+        "The original bracketed supply range is ambiguous. Article explicitly withholds a workshop interpretation."
+      ],
+      "urls": [],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P1385.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/n62-P1385.html",
+          "sha256": "17ea8cb5b20138b633b9311b7d52761c7f200d0b0637c81183b4b150ec6fb719"
+        },
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/n62-P1332.html",
+          "sha256": "4fd43e6501ccf2cb3748b6ec96a29862f9b3e5f9da197491f7d2909b98a1b12a"
+        },
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/n62-P1333.html",
+          "sha256": "82e19ef46ac81a43d661389817e95396a2309d015ae1bede61226756cfeb356f"
+        }
+      ],
+      "sourceLocators": "P1385 original HTML fields; related P1332/P1333 variant records",
+      "verifiedClaims": [
+        "Original P1385 record maps 2E6B/P1385 to knock-sensor signal 4 and says Replace DME.",
+        "RPM >1520, load factor >25, engine running, 9\u201315 V, <3-second entry and MIL on are supported.",
+        "P1332/P1333 also use 2E6B but carry low/high input distinctions and different service actions."
+      ],
+      "caveats": [
+        "Load-factor units and a P1385 amplitude threshold are not supplied; article does not invent them."
+      ],
+      "urls": [],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P1449.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/n63-P1449.html",
+          "sha256": "249317abc52201e338fafe286eb0da2e13c03120a51eb4bb43fee0cecebaa1da"
+        }
+      ],
+      "sourceLocators": "190401/P1449 original HTML: condition, service action and final service instruction",
+      "verifiedClaims": [
+        "Reference-phase current >40 mA confirmed.",
+        "10.95<V<16, 1.5\u201338\u00b0C, quarter-to-three-quarter tank level confirmed as stated function-test conditions.",
+        "Clear DMTL memory, run operational test, replace only if reproduced is the actual conditional service sequence.",
+        "Final note says function-test conditions are not normal-operation detection conditions; article retains this distinction."
+      ],
+      "caveats": [],
+      "urls": [],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-39/P213F.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer39/n63-P213F.html",
+          "sha256": "f7fe07747e62d44096f88dbd6267f01e1345817fea501d50cedb39d41f497141"
+        }
+      ],
+      "sourceLocators": "11B004/P213F original HTML: accident message, memory persistence, service action and symptoms",
+      "verifiedClaims": [
+        "Accident message commands electric fuel-pump shutdown.",
+        "Terminal 15, voltage >10 V, persistence >0.4 seconds, Check ACSM and possible engine stall confirmed.",
+        "Article does not provide bypass/restart instructions."
+      ],
+      "caveats": [
+        "Unexplained 750-second time field is not interpreted as a reset or waiting period."
+      ],
+      "urls": [],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0839.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer40/kj-2003/KJ-2003/15884kjpwr_sgmldiag.pdf",
+          "sha256": "044ea620fec1982906abf17eaeaf2e8fd80cd3f74dfd020b3b6a0b09cf928a61"
+        }
+      ],
+      "sourceLocators": "Original PDF physical pages 262\u2013263 (printed 256\u2013257), P0839 4WD MODE SENSOR HIGH",
+      "verifiedClaims": [
+        "Independent PDF extraction confirms >4.78 V for 5.72 seconds with ignition on.",
+        "Factory tree checks input-circuit open before short to voltage, then sensor/PCM and intermittent branch.",
+        "NGC connector-probing warning and required test adapter are explicitly present."
+      ],
+      "caveats": [
+        "Original PDF is distributed as an archive member; corrected citation explicitly identifies that member and physical pages without implying that a ZIP fragment navigates a PDF."
+      ],
+      "urls": [],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0890.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer40/wj-2002/WG/02wget.pdf",
+          "sha256": "2ebe4967594b41e673efa31891c9cadefcbe9a458a769401064f4ddbabd5ecd6"
+        }
+      ],
+      "sourceLocators": "Original PDF physical pages 148\u2013151 (printed 144\u2013147); page148 also visually rendered and inspected",
+      "verifiedClaims": [
+        "Factory title is SWITCHED BATTERY and set condition is pressure-switch input voltage before TCM relay energization.",
+        "2C,4C,L/R,OD,UD short-to-voltage branches confirmed.",
+        "Starts-since-set applies only to the last DTC; detailed branches are marked five-speed 545RFE."
+      ],
+      "caveats": [
+        "Factory wording conflicts with the generic catalog short title; article explicitly preserves the application-specific factory interpretation. This is not an unresolved claim."
+      ],
+      "urls": [],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1160.md",
+      "originalSources": [],
+      "sourceLocators": "Original VW HTML fault-table row 17568/P1160 and G72 component procedure, as-of-05.99",
+      "verifiedClaims": [
+        "Fault row identifies G72 short to earth and preset 136.8\u00b0C.",
+        "Component procedure identifies measured-value group7/display-zone3; 30\u00b0C corresponds to1500\u20132000 ohms,80\u00b0C to275\u2013375 ohms.",
+        "AGR/AHF/ALH/ASV and AGP/AQM branches have different connector/controller paths; if characteristic passes, wiring checks precede J248 replacement."
+      ],
+      "caveats": [],
+      "urls": [
+        "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_glow_plug_system_with_distributor_pump_as_of_05.99/self_diagnosis_v.a.g_inspection_service/fault_table/",
+        "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_glow_plug_system_with_distributor_pump_as_of_05.99/fuel_preparation_system_diesel_injection/checking_components_and_functions/checking__intake_manifold_temperature_sender_g72/"
+      ],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1685.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer40/jeep-tj2003.pdf",
+          "sha256": "2c1018a5158cd181a921b49acce4b711d2b2f281831bf982821289564905825f"
+        }
+      ],
+      "sourceLocators": "Original PDF physical pages188\u2013189 (printed182\u2013183), WRONG OR INVALID KEY MSG RECEIVED FROM SKIM",
+      "verifiedClaims": [
+        "Communication check precedes SKIM codes, programmed VIN and module decisions.",
+        "Intermittent branch explicitly mentions recent SKIM disconnection/replacement and tests all customer keys, including non-SKIM duplicates.",
+        "Article states legitimate configuration/authorized-key diagnosis and omits bypass instructions."
+      ],
+      "caveats": [],
+      "urls": [],
+      "result": "pass"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1757.md",
+      "originalSources": [
+        {
+          "path": "/workspace/scratch/dbf135311373/wave4/writer40/wj-2002/WG/02wgep.pdf",
+          "sha256": "4345ad504b79350d2d6134bae162c4b1fbdb0552ba0ae059a71e2cc8aa853983"
+        }
+      ],
+      "sourceLocators": "Original PDF physical pages329\u2013337 (printed321\u2013329); page329 also visually rendered and inspected",
+      "verifiedClaims": [
+        "Set condition includes sensed >3psi with requested0psi,95% duty and2.65-second conditions; article retains existence of the additional conditions without inventing a different threshold.",
+        "Procedure excludes five-speed545RFE and prioritizes other codes/fluid checks.",
+        "Gauge below3psi while scanner is high sends diagnosis to electrical paths; high gauge sends it to debris/hydraulic branch.",
+        "External/internal wiring and later governor-solenoid/valve-body branches support the article; hazardous detailed setup is not reproduced."
+      ],
+      "caveats": [],
+      "urls": [],
+      "result": "pass"
+    }
+  ],
+  "corrections": [
+    {
+      "issue": "ZIP archive was labeled as a navigable physical PDF-page link",
+      "severity": "presentation/citation",
+      "identifiedInSample": "content/code-articles/batch-40/P0839.md",
+      "fixedBy": "writer40_mixed",
+      "reviewerVerified": true,
+      "paths": [
+        "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0837.md",
+        "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0838.md",
+        "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P0839.md"
+      ],
+      "change": "Removed ZIP page fragments; citation now explicitly names archive member KJ-2003/15884kjpwr_sgmldiag.pdf and physical pages, and states that the link opens the archive. P0837/P0838 received citation-only verification, not additional body review."
+    },
+    {
+      "issue": "Missing space before136.8\u00b0C in P1160 title/H1",
+      "severity": "typography",
+      "fixedBy": "writer40_mixed",
+      "reviewerVerified": true,
+      "paths": [
+        "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-40/P1160.md"
+      ],
+      "change": "Title and H1 now read the 136.8\u00b0C substitute value. Technical data unchanged."
+    }
+  ],
+  "unresolvedTechnicalConflicts": [],
+  "needsReviewChanges": [],
+  "boundedLimitations": [
+    "Only the exact20 listed articles received body review; later drafts and unsampled bodies were not reviewed.",
+    "Only the exact10 listed articles received deep source checking. Body-only pass does not independently verify every numeric claim against its source.",
+    "Sources are manufacturer-authored documents reproduced by public mirrors. This review checks the cited historical documents, not current manufacturer supersessions or compatibility with an individual VIN.",
+    "Ambiguous SMG supply notation and P213F750-second field remain excluded from actionable interpretation.",
+    "No vehicle testing, professional mechanic signoff, complete repair-procedure validation, publication or deployment was performed.",
+    "Generated manifests, shared source partitions and other review reports were not edited."
+  ],
+  "summary": {
+    "bodiesRead": 20,
+    "articlesDeepChecked": 10,
+    "technicalCorrectionsRequired": 0,
+    "presentationCorrectionsRequested": 2,
+    "status": "pass-with-verified-presentation-corrections",
+    "presentationCorrectionsVerified": 2
+  },
+  "updatedAt": "2026-10-31T10:27:02.503886+00:00",
+  "postReviewVerification": {
+    "verifiedAt": "2026-10-31T10:27:02.503886+00:00",
+    "reviewer": "writer34_bmw",
+    "scope": "Re-read six already sampled final batch-40 articles after author metadata cleanup; no additional distinct sample paths.",
+    "authorConfirmation": "Writer40 confirmed scope-spacing changes on all six, plus P0890 checked-to-needs-review classification requested by root; no diagnostic-body claim changes.",
+    "checks": [
+      {
+        "articlePath": "content/code-articles/batch-40/P0382.md",
+        "code": "P0382",
+        "beforeSha256": "d11f20cf74cab235e491dc712bde8d8735e3eac463a93e0453396f4304dcb96b",
+        "afterSha256": "e91f00c818c571e35982c7c46eb87e2cf7966fe73a73b7e0249aaa0639d77c99",
+        "selectionSnapshotSha256": "d11f20cf74cab235e491dc712bde8d8735e3eac463a93e0453396f4304dcb96b",
+        "metadataChanges": {
+          "scope": {
+            "before": "DaimlerChrysler2002 WG body with2.7L diesel engine, ECM diagnostic procedures; subtypes retained rather than generalized to other vehicles.",
+            "after": "DaimlerChrysler 2002 WG body with 2.7L diesel engine, ECM diagnostic procedures; subtypes retained rather than generalized to other vehicles."
+          }
+        },
+        "diagnosticBodyUnchanged": true,
+        "originalMetadataPlusCurrentBodyReproducesPriorReviewAndAggregateHash": true,
+        "method": "Re-read complete final body and compare saved selection snapshot; reconstruct original metadata with current body/footer and confirm both historical report hashes. No new article or source pair is added to the sample."
+      },
+      {
+        "articlePath": "content/code-articles/batch-40/P0530.md",
+        "code": "P0530",
+        "beforeSha256": "7e9d453ae0acfd048d58a52d19e80c580c31546a04f830b8b600fe297f90d2ac",
+        "afterSha256": "f2eb4ac3bd5ad9eae5682419e19a2f6028d8d11a662e2b203bee1a77308051b6",
+        "selectionSnapshotSha256": "7e9d453ae0acfd048d58a52d19e80c580c31546a04f830b8b600fe297f90d2ac",
+        "metadataChanges": {
+          "scope": {
+            "before": "DaimlerChrysler2002 WG body with2.7L diesel engine, ECM diagnostic procedures; subtypes retained rather than generalized to other vehicles.",
+            "after": "DaimlerChrysler 2002 WG body with 2.7L diesel engine, ECM diagnostic procedures; subtypes retained rather than generalized to other vehicles."
+          }
+        },
+        "diagnosticBodyUnchanged": true,
+        "originalMetadataPlusCurrentBodyReproducesPriorReviewAndAggregateHash": true,
+        "method": "Re-read complete final body and compare saved selection snapshot; reconstruct original metadata with current body/footer and confirm both historical report hashes. No new article or source pair is added to the sample."
+      },
+      {
+        "articlePath": "content/code-articles/batch-40/P0839.md",
+        "code": "P0839",
+        "beforeSha256": "1bb21b920ec750bd8280a8bb12194269b4768f18d9bf534bee65405733c90561",
+        "afterSha256": "04b81d9d9c34a00162a35a079abddaa0f7d3d609bdbaa1cc694fdb9bf1925eec",
+        "selectionSnapshotSha256": "d2f6ef17dcb23e894f567fb0bc3f698ba0808bfa90e7902ccca9444ff20214f7",
+        "metadataChanges": {
+          "scope": {
+            "before": "DaimlerChrysler2003 KJ gas powertrain diagnostic manual, mechanical transfer-case section; original member KJ-2003/15884kjpwr_sgmldiag.pdf.",
+            "after": "DaimlerChrysler 2003 KJ gas powertrain diagnostic manual, mechanical transfer-case section; original member KJ-2003/15884kjpwr_sgmldiag.pdf."
+          }
+        },
+        "diagnosticBodyUnchanged": true,
+        "originalMetadataPlusCurrentBodyReproducesPriorReviewAndAggregateHash": true,
+        "method": "Re-read complete final body and compare saved selection snapshot; reconstruct original metadata with current body/footer and confirm both historical report hashes. No new article or source pair is added to the sample.",
+        "citationHistory": "The current named ZIP-member/physical-page citation was already independently verified in original report D. The only change since that report/aggregation is scope spacing."
+      },
+      {
+        "articlePath": "content/code-articles/batch-40/P0890.md",
+        "code": "P0890",
+        "beforeSha256": "e136e98abfb2482ff39bf768785547caa0237a69b2638c1a2dcbee4b405b3fde",
+        "afterSha256": "9a60e0c362ed0c72d0a2219d0fdd3d0876f59be4b69fe55df24e5184ef972a17",
+        "selectionSnapshotSha256": "e136e98abfb2482ff39bf768785547caa0237a69b2638c1a2dcbee4b405b3fde",
+        "metadataChanges": {
+          "sourceReview": {
+            "before": "checked",
+            "after": "needs-review"
+          },
+          "scope": {
+            "before": "DaimlerChrysler 2002 WJ/WG 45RFE/545RFE transmission diagnostic manual; cited procedures marked 5-speed545RFE. Model and calibration-specific interpretation.",
+            "after": "DaimlerChrysler 2002 WJ/WG 45RFE/545RFE transmission diagnostic manual; cited procedures marked 5-speed 545RFE. Model and calibration-specific interpretation."
+          }
+        },
+        "diagnosticBodyUnchanged": true,
+        "originalMetadataPlusCurrentBodyReproducesPriorReviewAndAggregateHash": true,
+        "method": "Re-read complete final body and compare saved selection snapshot; reconstruct original metadata with current body/footer and confirm both historical report hashes. No new article or source pair is added to the sample.",
+        "classificationProvenance": "Writer40 changed sourceReview at root instruction after original review D to retain the already disclosed catalog/OEM conflict as needs-review; this is an author classification change, not a newly discovered technical claim."
+      },
+      {
+        "articlePath": "content/code-articles/batch-40/P1757.md",
+        "code": "P1757",
+        "beforeSha256": "f2d0b9f6f03a72b975d761f5db06dc2b4ae4df593447c7a38955babc211e40fc",
+        "afterSha256": "c2dbcb66b9af6f969fc4c74f05f8f8d319865113509a5aa2b3793c1298945303",
+        "selectionSnapshotSha256": "f2d0b9f6f03a72b975d761f5db06dc2b4ae4df593447c7a38955babc211e40fc",
+        "metadataChanges": {
+          "scope": {
+            "before": "2002 WJ/WG gas powertrain manual02wgep; hydraulic-fan and A/C circuits as documented; transmission procedures exclude5-speed545RFE (P1762 marked withoutDG4).",
+            "after": "2002 WJ/WG gas powertrain manual 02wgep; hydraulic-fan and A/C circuits as documented; transmission procedures exclude 5-speed 545RFE (P1762 marked without DG4)."
+          }
+        },
+        "diagnosticBodyUnchanged": true,
+        "originalMetadataPlusCurrentBodyReproducesPriorReviewAndAggregateHash": true,
+        "method": "Re-read complete final body and compare saved selection snapshot; reconstruct original metadata with current body/footer and confirm both historical report hashes. No new article or source pair is added to the sample."
+      },
+      {
+        "articlePath": "content/code-articles/batch-40/P2706.md",
+        "code": "P2706",
+        "beforeSha256": "cbda5e47027ef1c841ae39a1c2715f424127ca298d332d2480819fe97bd0bb3c",
+        "afterSha256": "e1fd4aad7829b28b271d5b17a5b34dde63052af8b598d730853c8f27b59f1b5c",
+        "selectionSnapshotSha256": "cbda5e47027ef1c841ae39a1c2715f424127ca298d332d2480819fe97bd0bb3c",
+        "metadataChanges": {
+          "scope": {
+            "before": "DaimlerChrysler 2002 WJ/WG 45RFE/545RFE transmission diagnostic manual; cited procedures marked 5-speed545RFE. Model and calibration-specific interpretation.",
+            "after": "DaimlerChrysler 2002 WJ/WG 45RFE/545RFE transmission diagnostic manual; cited procedures marked 5-speed 545RFE. Model and calibration-specific interpretation."
+          }
+        },
+        "diagnosticBodyUnchanged": true,
+        "originalMetadataPlusCurrentBodyReproducesPriorReviewAndAggregateHash": true,
+        "method": "Re-read complete final body and compare saved selection snapshot; reconstruct original metadata with current body/footer and confirm both historical report hashes. No new article or source pair is added to the sample."
+      }
+    ],
+    "unchangedOriginalSources": [
+      {
+        "code": "P0839",
+        "path": "/workspace/scratch/dbf135311373/wave4/writer40/kj-2003/KJ-2003/15884kjpwr_sgmldiag.pdf",
+        "sha256": "044ea620fec1982906abf17eaeaf2e8fd80cd3f74dfd020b3b6a0b09cf928a61",
+        "matchesOriginalReview": true
+      },
+      {
+        "code": "P0890",
+        "path": "/workspace/scratch/dbf135311373/wave4/writer40/wj-2002/WG/02wget.pdf",
+        "sha256": "2ebe4967594b41e673efa31891c9cadefcbe9a458a769401064f4ddbabd5ecd6",
+        "matchesOriginalReview": true
+      },
+      {
+        "code": "P1757",
+        "path": "/workspace/scratch/dbf135311373/wave4/writer40/wj-2002/WG/02wgep.pdf",
+        "sha256": "4345ad504b79350d2d6134bae162c4b1fbdb0552ba0ae059a71e2cc8aa853983",
+        "matchesOriginalReview": true
+      }
+    ],
+    "repeatedExistingSourceCheck": {
+      "articlePath": "content/code-articles/batch-40/P0890.md",
+      "sourcePath": "/workspace/scratch/dbf135311373/wave4/writer40/wj-2002/WG/02wget.pdf",
+      "physicalPages": [
+        148,
+        149
+      ],
+      "catalogPath": "src/data/dtc.json",
+      "catalogEntryId": "generic-p0890",
+      "finding": "Reconfirmed the already disclosed switched-battery versus generic low-sense wording and the five-speed applicability; does not resolve the catalog conflict.",
+      "additionalDistinctDeepChecks": 0
+    },
+    "authorSourceReviewChanges": [
+      {
+        "articlePath": "content/code-articles/batch-40/P0890.md",
+        "before": "checked",
+        "after": "needs-review",
+        "changedBy": "writer40_mixed",
+        "requestedBy": "root",
+        "provenance": "Author final metadata change reported after original review D; independently verified present in the final file.",
+        "reason": "Catalog TCM Power Relay Sense Circuit Low wording differs from the cited WJ/WG switched-battery procedure, which detects pressure-switch input voltage before relay energization. The article already disclosed the conflict.",
+        "newTechnicalFinding": false
+      }
+    ],
+    "conclusion": "All six post-review deltas are verified metadata edits. The original diagnostic prose remains unchanged. P0890 now retains an author needs-review flag for the pre-existing disclosed conflict. Original review hashes/states are preserved; refreshed hashes describe the final files.",
+    "limitations": [
+      "This follow-up does not review the other final batch-40 articles or certify all 100.",
+      "P0382, P0530 and P2706 remain body-only samples; no new original-source verification is claimed for them.",
+      "The original D summary, sourceReviewAtReview and review-classification findings describe its earlier completion cutoff; this follow-up supplies the final file state."
+    ]
+  }
+}

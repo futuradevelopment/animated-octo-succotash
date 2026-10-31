@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "reviewId": "editorial-review-wave-04-e",
+  "reviewer": "writer35_japanese independent review of other authors",
+  "checkedOn": "2026-10-31",
+  "status": "bounded-review-complete",
+  "independentOfAuthorship": true,
+  "scope": {
+    "batches": [
+      "batch-39",
+      "batch-40"
+    ],
+    "targetBodiesRead": 10,
+    "targetDeepSourceChecks": 10,
+    "completedBodiesRead": 10,
+    "completedDeepSourceChecks": 10,
+    "selection": "Later drafts outside reviewer34 first44/50-draft cutoff; three later VW and two Mazda articles, plus three new Escape AWD and two later Ford ignition/body-network articles.",
+    "excluded": "All unselected drafts and broader model applicability. Source checks establish support only for the exact selected article claims and cited workshop scope.",
+    "bodySamplesPerBatch": 5,
+    "deepSourceChecksPerBatch": 5,
+    "totalBodiesRead": 10,
+    "totalDeepSourceChecks": 10
+  },
+  "samples": [
+    {
+      "batch": "batch-39",
+      "code": "P1568",
+      "path": "content/code-articles/batch-39/P1568.md",
+      "entryId": "volkswagen-p1568",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "012ca41651edae880b19074357a4aa206ccadd7ae54585ed3c49a7f3d9b7e036",
+      "sourceChecks": [
+        {
+          "sourceId": "vw-atq-2003-p1568-charm",
+          "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20V6-2.8L%20%28ATQ%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1568/",
+          "locator": "P Code Charts / P1568; illustrated VAG/SAE fault row and associated cause/action columns"
+        },
+        {
+          "sourceId": "vw-2003-atq-throttle-valve-control-module-checking",
+          "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20V6-2.8L%20%28ATQ%29/Repair%20and%20Diagnosis/Powertrain%20Management/Computers%20and%20Control%20Systems/Testing%20and%20Inspection/Component%20Tests%20and%20General%20Diagnostics/Throttle%20Valve%20Control%20Module%2C%20Checking/With%20Manufacturer%27s%20Scan%20Tool/",
+          "locator": "Throttle Valve Control Module, Checking; Function, Test requirements, and Test sequence"
+        },
+        {
+          "sourceId": "vw-2003-atq-ecm-adapting-to-throttle-valve-control-module",
+          "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20V6-2.8L%20%28ATQ%29/Repair%20and%20Diagnosis/Powertrain%20Management/Computers%20and%20Control%20Systems/Testing%20and%20Inspection/Component%20Tests%20and%20General%20Diagnostics/ECM%2C%20Adapting%20to%20Throttle%20Valve%20Control%20Module/With%20Manufacturer%27s%20Scan%20Tool/",
+          "locator": "ECM, Adapting to Throttle Valve Control Module; Function, Test requirements, and Test sequence"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/writer39/vw-P1568-0.png",
+        "wave4/writer39/vwcomp-throttle-valve-control-module-checking.txt",
+        "wave4/writer39/vwcomp-ecm-adapting-to-throttle-valve-control-module.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original chart image shows VAG 17976/J338 mechanical malfunction, separate from P1558 electrical drive malfunction; EPC footnote applies.",
+        "Adaptation learns emergency spring position and spring return, with ignition on and engine stopped; dirt/binding, low battery and wiring can interrupt it.",
+        "At least 11.5 V, coolant 5–95°C, closed throttle and no DTCs are adaptation prerequisites. Separate module check has opposite-direction G187/G188 feedback.",
+        "Source display group60 versus illustration80 conflict is disclosed, not converted into an invented scan sequence."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/writer39/vw-P1568-0.png": "865c8976412e64e7b563962dd13472729e4893f307f5dd49f1992f335f6fa39a",
+        "wave4/writer39/vwcomp-throttle-valve-control-module-checking.txt": "7fdf6aba0acf13e668b47aee82fee041512a974b22cae0f46531b63f44120c32",
+        "wave4/writer39/vwcomp-ecm-adapting-to-throttle-valve-control-module.txt": "1133b14489a7778aead82e8963b0e4677886cfbdc17d4daaec2cfe885aed0f07"
+      }
+    },
+    {
+      "batch": "batch-39",
+      "code": "P1477",
+      "path": "content/code-articles/batch-39/P1477.md",
+      "entryId": "volkswagen-p1477",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "81ca576812d6b15da157a8efed11e1be39fd7420a8726cd78beba642ebadcf86",
+      "sourceChecks": [
+        {
+          "sourceId": "vw-atq-2003-p1477-charm",
+          "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20V6-2.8L%20%28ATQ%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1477/",
+          "locator": "P Code Charts / P1477; illustrated VAG/SAE fault row and associated cause/action columns"
+        },
+        {
+          "sourceId": "vw-2003-atq-leak-detection-pump-ldp-check",
+          "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20V6-2.8L%20%28ATQ%29/Repair%20and%20Diagnosis/Powertrain%20Management/Computers%20and%20Control%20Systems/Testing%20and%20Inspection/Component%20Tests%20and%20General%20Diagnostics/Leak%20Detection%20Pump%20%28LDP%29%2C%20Check/With%20Manufacturer%27s%20Scan%20Tool/",
+          "locator": "Leak Detection Pump (LDP), Check; Function, Test requirements, and Test sequence"
+        },
+        {
+          "sourceId": "vw-2003-atq-output-engine",
+          "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20V6-2.8L%20%28ATQ%29/Repair%20and%20Diagnosis/Powertrain%20Management/Computers%20and%20Control%20Systems/Testing%20and%20Inspection/Scan%20Tool%20Testing%20and%20Procedures/Output%20Diagnostic%20Test%20Mode%20%28DTM%29%20%28Function%2003%29/With%20Manufacturer%27s%20Scan%20Tool/",
+          "locator": "Output Diagnostic Test Mode Function 03; actuator sequence, AIR pump relay J299, N80, and V144 diagnostic branches"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/writer39/vw-P1477-0.png",
+        "wave4/writer39/vwcomp-leak-detection-pump-ldp-check.txt",
+        "wave4/writer39/vwcomp-output-engine.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original chart image identifies VAG 17885 general V144 malfunction, not adjacent short-to-ground/B+ or insufficient-vacuum variants.",
+        "Output mode requires pump click and tests pulsed connector command before wiring/supply/controller decision.",
+        "Component test independently checks terminals 1–3 at 640–720 ohms and 2–3 at 17.5–27.5 ohms; article correctly avoids collapsing them to one pump value.",
+        "No unsupported leak-size threshold, fuel-cap diagnosis, failure likelihood or unsafe fuel-system intervention."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/writer39/vw-P1477-0.png": "0a4b9f6b1c5d4a7ac2f6404e429fb1b742a2ff431e2a3b3c4715a77f08153f7e",
+        "wave4/writer39/vwcomp-leak-detection-pump-ldp-check.txt": "93e4acf5b65e1624416b5b74fffacf5154ab87544fe247bee5bdfabb9a149581",
+        "wave4/writer39/vwcomp-output-engine.txt": "6c2fa7eece4cfd64d6dfbf5624c42ac97bb66c65f6953a797d8ab6db182bcef9"
+      }
+    },
+    {
+      "batch": "batch-39",
+      "code": "P1749",
+      "path": "content/code-articles/batch-39/P1749.md",
+      "entryId": "volkswagen-p1749",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "33e15909ddc2e707a3809a79637f99745b4593fa6337298fa2b4f76ff6c7c983",
+      "sourceChecks": [
+        {
+          "sourceId": "vw-atq-2003-p1749-charm",
+          "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20V6-2.8L%20%28ATQ%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1749/",
+          "locator": "P Code Charts / P1749; illustrated VAG/SAE fault row and associated cause/action columns"
+        },
+        {
+          "sourceId": "vw-2003-atq-engine-control-module-ecm-coding",
+          "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20V6-2.8L%20%28ATQ%29/Repair%20and%20Diagnosis/Powertrain%20Management/Computers%20and%20Control%20Systems/Testing%20and%20Inspection/Component%20Tests%20and%20General%20Diagnostics/Engine%20Control%20Module%20%28ECM%29%2C%20Coding/With%20Manufacturer%27s%20Scan%20Tool/",
+          "locator": "Engine Control Module (ECM), Coding; Function, Test requirements, and Test sequence"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/writer39/vw-P1749-0.png",
+        "wave4/writer39/vwcomp-engine-control-module-ecm-coding.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original VAG 18157 image names invalid TCM coding and wrong or incorrectly coded ECM; actions explicitly check both modules.",
+        "ECM coding procedure requires five-digit vehicle-specific code and adopts displayed value after ignition is switched off.",
+        "Incorrect coding can cause driveability/shift behavior, false DTCs and omitted functions; no universal sample coding copied."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/writer39/vw-P1749-0.png": "c59321cf542bfbdd02a81fa47de7edfb3845e336b17ffb3c0e6dc90d3e76f2c6",
+        "wave4/writer39/vwcomp-engine-control-module-ecm-coding.txt": "9fdef98ac97ac79ab8a1ad858951c57367589530ce76fb559fcb8108222d442c"
+      }
+    },
+    {
+      "batch": "batch-40",
+      "code": "U300D",
+      "path": "content/code-articles/batch-40/U300D.md",
+      "entryId": "generic-u300d",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "cce71bfadd14ef6dd976917d02aa42d4a0ff63596b37cbc097d55d038f8dc162",
+      "sourceChecks": [
+        {
+          "sourceId": "ford-2012-f150-u300d",
+          "url": "https://charm.li/Ford/2012/F%20150%204WD%20V6-3.7L/Repair%20and%20Diagnosis/Transmission%20and%20Drivetrain/Transfer%20Case/Testing%20and%20Inspection/Pinpoint%20Tests/Four%20Wheel%20Drive%20%284WD%29%20Systems%20-%202-Speed%20Torque-on-Demand/Pinpoint%20Test%20L%3A%20DTC%20U300D%3A11/",
+          "locator": "Normal Operation; U300D:11 trigger; L1 KEY_POS_4X4 versus KEY_STATUS_4X4 branches"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/writer40/ford-u300d.html",
+        "wave4/writer40/ford-u300d.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Exact suffix :11 is run/start input short to ground; code can set if ignition is not RUN during self-test.",
+        "Original normal-operation section identifies hardwired input plus BCM HS-CAN ignition position message.",
+        "L1 KEY_STATUS_4X4 mismatch leads to BJB fuse 54 (5 A)/CBB54; KEY_POS_4X4 mismatch leads to ignition-switch/steering-column diagnosis; article preserves the distinction.",
+        "No mechanical transfer-case conclusion or live-circuit bypass instructions."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/writer40/ford-u300d.html": "f3ec85cb15df8648d4fe9849ca34663e3169f1850e099bcc7f98590c3f54bc1c",
+        "wave4/writer40/ford-u300d.txt": "57d64deea9cf869e07097ffaa3dbd07ab2e2eeafcfd63668360ff0f47a6da50a"
+      }
+    },
+    {
+      "batch": "batch-40",
+      "code": "U3011",
+      "path": "content/code-articles/batch-40/U3011.md",
+      "entryId": "generic-u3011",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "728a5e44f083c33c69509dc8455b727e5843a3f74375e15cbb9b14e70614ce2d",
+      "sourceChecks": [
+        {
+          "sourceId": "ford-2012-fiesta-ignition-compare",
+          "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U300F/",
+          "locator": "Fault Trigger Conditions image; I10–I13 sense and accessory circuit short-to-voltage isolation; I16"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/writer40/ford-u300f-chart.png",
+        "wave4/writer40/ford-u300f.html",
+        "wave4/writer40/ford-u300f.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original chart image explicitly assigns U3011:62 OFF signal-compare failure; IPC ignition status compared with direct start/stop input at RFA.",
+        "I9/I10 prioritize other IPC/RFA codes; I11 starter-sense short-to-voltage branch applies to U3011 while U3010 skips to I12.",
+        "I12/I13 accessory relay isolation distinguishes circuit voltage from relay contribution.",
+        "I16 connector check precedes RFA replacement; replacement requires configuration, PATS parameter reset and key programming. Article preserves professional boundary and makes no battery-drain-rate inference."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/writer40/ford-u300f-chart.png": "75ed2bda8c1fc91727e07edcbbeb54aa8bf27d6efeb3940c1674d6de0378abdf",
+        "wave4/writer40/ford-u300f.html": "552b1d053c652e25b1a6ac909b450a433eead30a1b07102470e4b045cff44770",
+        "wave4/writer40/ford-u300f.txt": "1bbc85c02512bc4331150ca044add713de15528c0033c3d8cfc9040d18f66c37"
+      }
+    },
+    {
+      "batch": "batch-39",
+      "code": "P0DF4",
+      "path": "content/code-articles/batch-39/P0DF4.md",
+      "entryId": "generic-p0df4",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "1dde3f18366c3e33f153739302ee40e2d5190c3c5c1fd7db837539d4db2991e2",
+      "sourceChecks": [
+        {
+          "sourceId": "mazda3-2019-id140202300300",
+          "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202300300.html",
+          "locator": "id140202300300, P0DF4:00 system malfunction location and detection condition; common ISG Diagnostic Procedure steps 1–4"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/next-sources/mazda3-2019-pages/id140202300300.html",
+        "wave4/next-sources/mazda3-2019-pages/id140202300300.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original Mazda id140202300300 associates P0DF4:00 with internal FET temperature V-phase sensor characteristic malfunction.",
+        "Difference between microcomputer and stator driver-control IC inputs at least 0.2 V for continuous 1 s; comparison distinguished from absolute low/high thresholds.",
+        "Snapshot preservation, present/past distinction, ignition-on wait of at least 10 s and CAN diagnosis before conditional ISG replacement are retained.",
+        "Shared fail-safe inhibits assist, regeneration and i-stop and transfers 12 V loads to the 12 V battery; battery depletion warning supported. Wiring/connector fields are not applicable and article gives no internal probing instructions."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/next-sources/mazda3-2019-pages/id140202300300.html": "f57bec95c4fa175a94847e6b66fbe26e813549ab4bf31b670da9cfadee0a5c9a",
+        "wave4/next-sources/mazda3-2019-pages/id140202300300.txt": "ae2aa1c466451a618590ba9dbb08cf8200a3544a257f09b2ea3c272767f20a6b"
+      }
+    },
+    {
+      "batch": "batch-39",
+      "code": "P0DF9",
+      "path": "content/code-articles/batch-39/P0DF9.md",
+      "entryId": "generic-p0df9",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "fc9f5dc54249aa8e78802e986864b46b6676e85d6203c325d2e7c136ebff795d",
+      "sourceChecks": [
+        {
+          "sourceId": "mazda3-2019-id140202300300",
+          "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202300300.html",
+          "locator": "id140202300300, P0DF9:00 system malfunction location and detection condition; common ISG Diagnostic Procedure steps 1–4"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/next-sources/mazda3-2019-pages/id140202300300.html",
+        "wave4/next-sources/mazda3-2019-pages/id140202300300.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original Mazda id140202300300 associates P0DF9:00 with W-phase high input, distinct from W-phase comparison P0DF7 and low-input P0DF8.",
+        "At least 2.95 V for continuous 0.5 s; electrical threshold is not converted into an unsupported temperature or overheating diagnosis.",
+        "Common recurrence/CAN procedure, communication-noise note and completion check for other DTCs accurately described.",
+        "Shared ISG safety boundary and fail-safe consequences retained without internal-electronics probing or owner road-test instructions."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/next-sources/mazda3-2019-pages/id140202300300.html": "f57bec95c4fa175a94847e6b66fbe26e813549ab4bf31b670da9cfadee0a5c9a",
+        "wave4/next-sources/mazda3-2019-pages/id140202300300.txt": "ae2aa1c466451a618590ba9dbb08cf8200a3544a257f09b2ea3c272767f20a6b"
+      }
+    },
+    {
+      "batch": "batch-40",
+      "code": "C0090",
+      "path": "content/code-articles/batch-40/C0090.md",
+      "entryId": "generic-c0090",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "ea146ebc3d3bbad027c32463b55be844c79905f1706fc6e17e476ec5d63df660",
+      "sourceChecks": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "url": "https://www.fordescape4.com/ford_escape_diagnosis_and_testing_four_wheel_drive_systems-2756.html",
+          "locator": "Pinpoint Test A; four C0090 suffix triggers; motor circuit checks"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/writer40/ford-escape-awd.html",
+        "wave4/writer40/ford-escape-awd.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original Ford Test A distinguishes :16 below 9 V during shift, :18 zero motor current commanded on, :19 current above 1 A at zero duty, and :71 absent cam/fork movement.",
+        "Article numerical claims concern :18/:19 and preserve command state; no invented current limit for the low-voltage suffix.",
+        "Reversible motor swaps power and ground by command; position-sensor faults take priority before the :71 stuck-actuator conclusion.",
+        "Open, ground-short and short-together circuit branches precede component decision. No actuator forcing or unsafe driveline operation instructed."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/writer40/ford-escape-awd.html": "817776b78097cd08521020f243c88f6c791fb13f06a4b9c2404d1972d518ed9d",
+        "wave4/writer40/ford-escape-awd.txt": "68d6a8fe106a5619237923e99a5ff49b39a301f6f492f98635b46816dda9d0a1"
+      }
+    },
+    {
+      "batch": "batch-40",
+      "code": "C0092",
+      "path": "content/code-articles/batch-40/C0092.md",
+      "entryId": "generic-c0092",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "d2198d00261cac4d18390cd6b806fb617702d3c2141aca5202dce63d2952775e",
+      "sourceChecks": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "url": "https://www.fordescape4.com/ford_escape_diagnosis_and_testing_four_wheel_drive_systems-2756.html",
+          "locator": "Pinpoint Tests C and M; fork signal duty/frequency and C0092:92 mechanical branch"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/writer40/ford-escape-awd.html",
+        "wave4/writer40/ford-escape-awd.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original Tests C/B identify fork sensor B versus cam sensor A and shared power/return; companion C0091 leads to common-circuit diagnosis.",
+        "Fork duty below 10 percent or above 90 percent and frequency outside 1 kHz plus/minus 40 Hz; does not import cam sensor plus/minus 150 Hz tolerance.",
+        "Exact :92 routes to Test M learned-position/mechanical recurrence branch, not generic electrical branch.",
+        "Source C0092:17 trigger mislabels cam in one sentence; article follows fork header and does not propagate typo. Source road-test sequence is not turned into owner driving instructions."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/writer40/ford-escape-awd.html": "817776b78097cd08521020f243c88f6c791fb13f06a4b9c2404d1972d518ed9d",
+        "wave4/writer40/ford-escape-awd.txt": "68d6a8fe106a5619237923e99a5ff49b39a301f6f492f98635b46816dda9d0a1"
+      }
+    },
+    {
+      "batch": "batch-40",
+      "code": "C05F4",
+      "path": "content/code-articles/batch-40/C05F4.md",
+      "entryId": "generic-c05f4",
+      "bodyRead": true,
+      "deepSourceChecked": true,
+      "sourceReviewAtReview": "checked",
+      "sha256AtReport": "44a258e1b0f0ead4d9d1cc1fe45727a0f6267689e509ea4e6ed167b17a08beba",
+      "sourceChecks": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "url": "https://www.fordescape4.com/ford_escape_diagnosis_and_testing_four_wheel_drive_systems-2756.html",
+          "locator": "Pinpoint Test H; C05F4:00 plausibility trigger; separate H7 performance route"
+        }
+      ],
+      "evidenceFiles": [
+        "wave4/writer40/ford-escape-awd.html",
+        "wave4/writer40/ford-escape-awd.txt"
+      ],
+      "method": "Read complete article and cited original manufacturer chart image and/or complete manufacturer procedure transcription in locally retrieved public-mirror HTML.",
+      "factsChecked": [
+        "Original Test H C05F4:00 identifies plausibility; induced harness noise or PTU/driveshaft/RDU mechanical fault are source-listed possibilities.",
+        "Hall-effect frequency behavior accurately explained without invented speed threshold.",
+        "H1 routes C05F4 directly to H7 loose-connections/loose-sensor checks, unlike C05F0/C05F1/C05F3 electrical checks starting H2.",
+        "Conditional sensor decision and full professional verification retained; approximately 9 V H2 check is not misapplied to performance branch."
+      ],
+      "result": "pass",
+      "sourceReviewAfterReview": "checked",
+      "evidenceHashes": {
+        "wave4/writer40/ford-escape-awd.html": "817776b78097cd08521020f243c88f6c791fb13f06a4b9c2404d1972d518ed9d",
+        "wave4/writer40/ford-escape-awd.txt": "68d6a8fe106a5619237923e99a5ff49b39a301f6f492f98635b46816dda9d0a1"
+      }
+    }
+  ],
+  "findings": [
+    {
+      "batch": "batch-39",
+      "codes": [
+        "P1568",
+        "P1477",
+        "P1749"
+      ],
+      "severity": "source attribution label",
+      "finding": "Volkswagen source links labeled BMW diagnostic chart.",
+      "owner": "writer39_bmw",
+      "status": "Fixed by writer39 and independently verified in all three selected files.",
+      "fixed": true
+    },
+    {
+      "batch": "batch-40",
+      "codes": [
+        "U300D",
+        "U3011",
+        "C0090",
+        "C0092",
+        "C05F4"
+      ],
+      "severity": "formatting",
+      "finding": "Missing spaces in scope strings and some suffix/unit phrases, including Ford2012, under2020, Suffix19, Suffix71, 10–90percent, minus40Hz and 1A.",
+      "owner": "writer40_mixed",
+      "status": "Fixed by writer40 and independently verified in all five selected files.",
+      "fixed": true
+    }
+  ],
+  "sourcePrechecksPendingArticleReview": [],
+  "filesChanged": [],
+  "limitations": [
+    "Bounded sample; no full-batch certification, hands-on diagnostic validation or vehicle fitment certification.",
+    "Public mirrors reproduce manufacturer workshop content; none is represented as manufacturer hosting.",
+    "Shared manifests, source partitions and other writers output are not directly edited.",
+    "Escape mirror groups the material under 2020–2026 but supplies no independently verified original Ford publication revision; selected articles explicitly retain that limitation.",
+    "Fresh web-reader request for the Mazda page returned 404; source checks used the already downloaded original HTML and matching text available in this workspace. No missing source was replaced by a dictionary entry."
+  ],
+  "updatedAt": "2026-10-31T10:21:09.657986+00:00",
+  "validation": {
+    "bodyReads": 10,
+    "articleToSourceChecks": 10,
+    "batchCounts": {
+      "batch-39": 5,
+      "batch-40": 5
+    },
+    "allFrontmattersParse": true,
+    "sampleCodesUnique": true,
+    "exactSourceLocationsRecorded": true,
+    "allTenSourceReviewChecked": true,
+    "authorCorrectionsVerified": true,
+    "finalFileHashesRefreshed": true
+  },
+  "completedAt": "2026-10-31T10:21:09.657986+00:00",
+  "sourceReviewFlagChanges": [],
+  "filesCorrectedByAuthors": [
+    "content/code-articles/batch-39/P1568.md",
+    "content/code-articles/batch-39/P1477.md",
+    "content/code-articles/batch-39/P1749.md",
+    "content/code-articles/batch-40/U300D.md",
+    "content/code-articles/batch-40/U3011.md",
+    "content/code-articles/batch-40/C0090.md",
+    "content/code-articles/batch-40/C0092.md",
+    "content/code-articles/batch-40/C05F4.md"
+  ]
+}

@@ -11,6 +11,8 @@ const samples=[
  ['source-review-pending','generic-c0502'],
  ['ford-readiness','ford-p1000'],
  ['volkswagen-source-scope','volkswagen-p1111'],
+ ['wave-four-restraint-scope','generic-b0001'],
+ ['wave-four-source-review-pending','bmw-p1083'],
 ] as const;
 
 for(const [name,entryId] of samples)test(`${name} publishes the complete code article without JavaScript`,async({page},testInfo)=>{

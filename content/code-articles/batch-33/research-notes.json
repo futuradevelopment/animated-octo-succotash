@@ -1,0 +1,75 @@
+{
+  "batch": "batch-33",
+  "checkedOn": "2026-10-31",
+  "method": "Direct reading of original GM diagnostic rows and document headers; incidental inhibit mentions excluded.",
+  "issues": [
+    {
+      "code": "U3008",
+      "issue": "OEM normalized ground feedback equation lacks clear grouping; formula omitted and source-scoped interpretation retained."
+    },
+    {
+      "code": "U3009",
+      "issue": "OEM normalized ground feedback equation lacks clear grouping; formula omitted and source-scoped interpretation retained."
+    },
+    {
+      "code": "P3499",
+      "issue": "OEM half-engine enable table has contradictory bank2 pressure-ratio inequalities; disputed values omitted, exact calibration test needs confirmation."
+    },
+    {
+      "code": "P349A",
+      "issue": "OEM half-engine enable table has contradictory bank2 pressure-ratio inequalities; disputed values omitted, exact calibration test needs confirmation."
+    },
+    {
+      "code": "P349C",
+      "issue": "OEM half-engine enable table has contradictory bank2 pressure-ratio inequalities; disputed values omitted, exact calibration test needs confirmation."
+    },
+    {
+      "code": "P349F",
+      "issue": "OEM half-engine enable table has contradictory bank2 pressure-ratio inequalities; disputed values omitted, exact calibration test needs confirmation."
+    },
+    {
+      "code": "U007F",
+      "issue": "Source supply inequality is impossible and timing cells differ; those values omitted."
+    },
+    {
+      "code": "P1377",
+      "issue": "OEM pulse-count phrasing combines per-cycle and two-cycle wording; exact convention requires application service data."
+    },
+    {
+      "code": "P1115",
+      "issue": "OEM ECT row numerical cells say Raw IAT; numerical thresholds omitted."
+    },
+    {
+      "code": "P1416",
+      "issue": "Imported dictionary says bank1; OEM row explicitly identifies bank2."
+    },
+    {
+      "code": "P1515",
+      "issue": "One counter cell has a corrupted/unclear character; full counter algorithm omitted."
+    }
+  ],
+  "writtenCount": 100,
+  "scopeRule": "Historical engine or transmission group is document scope, not proof of per-code applicability to every listed model or imported make alias.",
+  "verification": {
+    "articleCount": 100,
+    "assignmentCount": 100,
+    "wordCountRange": [
+      268,
+      303
+    ],
+    "totalWords": 27845,
+    "identityAndFrontmatter": "100 checked against remaining canonical entries; all draft.",
+    "sources": "13 new historical GM PDF records;3 existing source IDs reused. Exact main fault rows read; appendix and inhibit-only matches excluded.",
+    "distinctness": "No article pair exceeded0.19Jaccard on body five-word shingles.",
+    "continuationCitations": "Additional physical pages linked for multipart monitor rows.",
+    "sourceReviewCounts": {
+      "checked": 89,
+      "needs-review": 11
+    },
+    "proseWordCountRangeExcludingLinks": [
+      245,
+      268
+    ],
+    "proseTotalWordsExcludingLinks": 25548
+  }
+}

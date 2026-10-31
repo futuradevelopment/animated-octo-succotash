@@ -1,0 +1,67 @@
+{
+  "batch": "batch-36",
+  "checkedOn": "2026-10-31",
+  "articleCount": 100,
+  "sourceMethod": "Downloaded official GM 2015 and 2018 hybrid diagnostic tables. Used pdftotext -layout and read primary diagnostic rows including enable conditions, timing, and module sections. Physical page numbers agree with printed whole-document page labels. Rejected incidental inhibit/bundle/index mentions.",
+  "sourceIds": [
+    "gm-2015-15obdg01-hybrid-diagnostics",
+    "gm-2018-18obdg01-hybrid-diagnostics",
+    "gm-2018-18obdg02-hybrid-diagnostics"
+  ],
+  "sourceFiles": "/workspace/scratch/dbf135311373/wave4/writer36/sources.json",
+  "scope": "Source-scoped monitor explainers only. No code-level vehicle or calibration fitment inferred from document grouping. Generic dictionary labels retained in assignment; OEM-specific labels explained where different.",
+  "unresolvedIssues": [
+    {
+      "code": "C059B",
+      "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+      "pages": [
+        1662
+      ],
+      "issue": "Criterion identifies rear-left pressure sensor test pulse; surrounding strategy prose also says master cylinder. Article explicitly discloses conflict and requires vehicle-specific sensor identification; sourceReview needs-review."
+    }
+  ],
+  "excludedDubiousDetails": [
+    {
+      "code": "P079E",
+      "pages": [
+        1818
+      ],
+      "issue": "Energy timing text says clutch 1 although row concerns clutch 5; article uses verified slip-speed branches and expressly omits energy-based conclusion."
+    },
+    {
+      "code": "P0531",
+      "pages": [
+        146,
+        148
+      ],
+      "issue": "Apparent unusual rapid-step-response numeric thresholds omitted; engaged response and reset-sequence facts retained."
+    },
+    {
+      "code": "P0C46",
+      "pages": [
+        981
+      ],
+      "issue": "Difference formula references 250 ms earlier while evaluation column gives 100 ms samples; article states these are separate source timing entries, without inventing unified duration."
+    }
+  ],
+  "sourceGaps": [
+    "Official GM public diagnostic index retrieved through 2025; no 2026/2027 hybrid diagnostic tables found in official searches.",
+    "2015 hybrid source initially had61 remaining code mentions but only five genuine applicable primary diagnostic rows selected.",
+    "U01A8 and U01A9 on2018OBDG02 p1323 are fault-bundle references, not independent diagnostic rows."
+  ],
+  "safety": "No high-voltage probing, contactor bypass, pack-opening instructions, hydraulic manipulations or hazardous road tests. Source road-speed pass routines not reproduced in brake articles.",
+  "verification": {
+    "count": 100,
+    "uniqueCodeCount": 100,
+    "assignmentCount": 100,
+    "wordCountRange": [
+      273,
+      304
+    ],
+    "exactDuplicateSubstantiveParagraphs": [],
+    "errors": [],
+    "needsReview": [
+      "C059B"
+    ]
+  }
+}

@@ -1,0 +1,1836 @@
+{
+  "authoringBatch": "batch-37",
+  "status": "draft",
+  "checkedOn": "2026-10-31",
+  "articleCount": 100,
+  "checkedCount": 77,
+  "needsReviewCount": 23,
+  "substantiveWordCount": {
+    "minimum": 219,
+    "maximum": 267,
+    "median": 232.0
+  },
+  "researchScope": "Mazda3 01/2019 onward factory workshop manual d9n1-1a-22d_ver10, published by Mazda and publicly mirrored at CHARM. Exact engine, transmission and module chapters retained. No manufacturer-specific P1 namespaces used.",
+  "sourceRecordFile": "/workspace/scratch/dbf135311373/wave4/writer37/sources.json",
+  "limitations": [
+    "Generic catalog entries are illustrated by exact Mazda monitor applications, not universal repair instructions.",
+    "Unresolved catalog-definition differences and source-table contradictions retain useful supported prose but are explicitly needs-review.",
+    "No live vehicle, repair, price, repair outcome or physical safety claim is asserted.",
+    "Source calibration values are limited to the exact documented engine/module; no market/model-year expansion is inferred from the manual folder."
+  ],
+  "checks": [
+    {
+      "code": "P000F",
+      "entryId": "generic-p000f",
+      "sourceId": "mazda3-2019-id0102u9015200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9015200.html",
+      "locator": "DTC P000F:00 [PCM (SKYACTIV-X)]; id0102u9015200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9015200.txt",
+      "substantiveWordCount": 247,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog explicitly describes overpressure relief-valve activation; Mazda page documents measured overpressure and fuel cut without confirming relief-valve activation."
+    },
+    {
+      "code": "P0039",
+      "entryId": "generic-p0039",
+      "sourceId": "mazda3-2019-id0102u9201500",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9201500.html",
+      "locator": "DTC P0039:00 [PCM (SKYACTIV-X)]; id0102u9201500; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9201500.txt",
+      "substantiveWordCount": 229,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P006A",
+      "entryId": "generic-p006a",
+      "sourceId": "mazda3-2019-id0102u9201600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9201600.html",
+      "locator": "DTC P006A:00 [PCM (SKYACTIV-X)]; id0102u9201600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9201600.txt",
+      "substantiveWordCount": 233,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P006C",
+      "entryId": "generic-p006c",
+      "sourceId": "mazda3-2019-id0102u9381000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9381000.html",
+      "locator": "DTC P006C:00 [PCM (SKYACTIV-X)]; id0102u9381000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9381000.txt",
+      "substantiveWordCount": 234,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P009B",
+      "entryId": "generic-p009b",
+      "sourceId": "mazda3-2019-id0102t5211100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5211100.html",
+      "locator": "DTC P009B:00 [PCM (SKYACTIV-D)]; id0102t5211100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5211100.txt",
+      "substantiveWordCount": 241,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P009C",
+      "entryId": "generic-p009c",
+      "sourceId": "mazda3-2019-id0102t5228800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5228800.html",
+      "locator": "DTC P009C:00 [PCM (SKYACTIV-D)]; id0102t5228800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5228800.txt",
+      "substantiveWordCount": 228,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P009D",
+      "entryId": "generic-p009d",
+      "sourceId": "mazda3-2019-id0102t5228900",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5228900.html",
+      "locator": "DTC P009D:00 [PCM (SKYACTIV-D)]; id0102t5228900; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5228900.txt",
+      "substantiveWordCount": 231,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P009F",
+      "entryId": "generic-p009f",
+      "sourceId": "mazda3-2019-id0102t5211200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5211200.html",
+      "locator": "DTC P009F:00 [PCM (SKYACTIV-D)]; id0102t5211200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5211200.txt",
+      "substantiveWordCount": 224,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog stuck-on definition differs from Mazda stuck-closed/insufficient pressure reduction description; mismatch explicitly retained."
+    },
+    {
+      "code": "P01C5",
+      "entryId": "generic-p01c5",
+      "sourceId": "mazda3-2019-id0102t5218100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5218100.html",
+      "locator": "DTC P01C5:00 [PCM (SKYACTIV-D)]; id0102t5218100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5218100.txt",
+      "substantiveWordCount": 231,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P01C6",
+      "entryId": "generic-p01c6",
+      "sourceId": "mazda3-2019-id0102t5218200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5218200.html",
+      "locator": "DTC P01C6:00 [PCM (SKYACTIV-D)]; id0102t5218200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5218200.txt",
+      "substantiveWordCount": 235,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0396",
+      "entryId": "generic-p0396",
+      "sourceId": "mazda3-2019-id0102u9202600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9202600.html",
+      "locator": "DTC P0396:00, P03A0:00, P03AA:00 OR P03B4:00 [PCM (SKYACTIV-X)]; id0102u9202600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9202600.txt",
+      "substantiveWordCount": 231,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0397",
+      "entryId": "generic-p0397",
+      "sourceId": "mazda3-2019-id0102u9360600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9360600.html",
+      "locator": "DTC P0397:00 [PCM (SKYACTIV-X)]; id0102u9360600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9360600.txt",
+      "substantiveWordCount": 229,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0398",
+      "entryId": "generic-p0398",
+      "sourceId": "mazda3-2019-id0102u9360700",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9360700.html",
+      "locator": "DTC P0398:00 [PCM (SKYACTIV-X)]; id0102u9360700; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9360700.txt",
+      "substantiveWordCount": 224,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P039E",
+      "entryId": "generic-p039e",
+      "sourceId": "mazda3-2019-id0102u9202800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9202800.html",
+      "locator": "DTC P039E:00, P03A8:00, P03B2:00 OR P03BC:00 [PCM (SKYACTIV-X)]; id0102u9202800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9202800.txt",
+      "substantiveWordCount": 233,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Shared abnormal-combustion page has malformed related-misfire DTC strings and swapped CKP/CMP labels; no corrected strings or associated labels invented."
+    },
+    {
+      "code": "P03A0",
+      "entryId": "generic-p03a0",
+      "sourceId": "mazda3-2019-id0102u9202600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9202600.html",
+      "locator": "DTC P0396:00, P03A0:00, P03AA:00 OR P03B4:00 [PCM (SKYACTIV-X)]; id0102u9202600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9202600.txt",
+      "substantiveWordCount": 235,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03A1",
+      "entryId": "generic-p03a1",
+      "sourceId": "mazda3-2019-id0102u9360800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9360800.html",
+      "locator": "DTC P03A1:00 [PCM (SKYACTIV-X)]; id0102u9360800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9360800.txt",
+      "substantiveWordCount": 223,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03A2",
+      "entryId": "generic-p03a2",
+      "sourceId": "mazda3-2019-id0102u9360900",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9360900.html",
+      "locator": "DTC P03A2:00 [PCM (SKYACTIV-X)]; id0102u9360900; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9360900.txt",
+      "substantiveWordCount": 221,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03A8",
+      "entryId": "generic-p03a8",
+      "sourceId": "mazda3-2019-id0102u9202800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9202800.html",
+      "locator": "DTC P039E:00, P03A8:00, P03B2:00 OR P03BC:00 [PCM (SKYACTIV-X)]; id0102u9202800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9202800.txt",
+      "substantiveWordCount": 235,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Shared abnormal-combustion page has malformed related-misfire DTC strings and swapped CKP/CMP labels; no corrected strings or associated labels invented."
+    },
+    {
+      "code": "P03AA",
+      "entryId": "generic-p03aa",
+      "sourceId": "mazda3-2019-id0102u9202600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9202600.html",
+      "locator": "DTC P0396:00, P03A0:00, P03AA:00 OR P03B4:00 [PCM (SKYACTIV-X)]; id0102u9202600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9202600.txt",
+      "substantiveWordCount": 238,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03AB",
+      "entryId": "generic-p03ab",
+      "sourceId": "mazda3-2019-id0102u9361000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9361000.html",
+      "locator": "DTC P03AB:00 [PCM (SKYACTIV-X)]; id0102u9361000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9361000.txt",
+      "substantiveWordCount": 234,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03AC",
+      "entryId": "generic-p03ac",
+      "sourceId": "mazda3-2019-id0102u9361100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9361100.html",
+      "locator": "DTC P03AC:00 [PCM (SKYACTIV-X)]; id0102u9361100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9361100.txt",
+      "substantiveWordCount": 222,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03B2",
+      "entryId": "generic-p03b2",
+      "sourceId": "mazda3-2019-id0102u9202800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9202800.html",
+      "locator": "DTC P039E:00, P03A8:00, P03B2:00 OR P03BC:00 [PCM (SKYACTIV-X)]; id0102u9202800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9202800.txt",
+      "substantiveWordCount": 235,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Shared abnormal-combustion page has malformed related-misfire DTC strings and swapped CKP/CMP labels; no corrected strings or associated labels invented."
+    },
+    {
+      "code": "P03B4",
+      "entryId": "generic-p03b4",
+      "sourceId": "mazda3-2019-id0102u9202600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9202600.html",
+      "locator": "DTC P0396:00, P03A0:00, P03AA:00 OR P03B4:00 [PCM (SKYACTIV-X)]; id0102u9202600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9202600.txt",
+      "substantiveWordCount": 230,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03B5",
+      "entryId": "generic-p03b5",
+      "sourceId": "mazda3-2019-id0102u9361200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9361200.html",
+      "locator": "DTC P03B5:00 [PCM (SKYACTIV-X)]; id0102u9361200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9361200.txt",
+      "substantiveWordCount": 222,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03B6",
+      "entryId": "generic-p03b6",
+      "sourceId": "mazda3-2019-id0102u9361300",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9361300.html",
+      "locator": "DTC P03B6:00 [PCM (SKYACTIV-X)]; id0102u9361300; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9361300.txt",
+      "substantiveWordCount": 219,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P03BC",
+      "entryId": "generic-p03bc",
+      "sourceId": "mazda3-2019-id0102u9202800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9202800.html",
+      "locator": "DTC P039E:00, P03A8:00, P03B2:00 OR P03BC:00 [PCM (SKYACTIV-X)]; id0102u9202800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9202800.txt",
+      "substantiveWordCount": 231,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Shared abnormal-combustion page has malformed related-misfire DTC strings and swapped CKP/CMP labels; no corrected strings or associated labels invented."
+    },
+    {
+      "code": "P046E",
+      "entryId": "generic-p046e",
+      "sourceId": "mazda3-2019-id0102u9203000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9203000.html",
+      "locator": "DTC P046E:00 [PCM (SKYACTIV-X)]; id0102u9203000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9203000.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Detection table uses ambiguous any-condition wording around P00C7 present and P0069/P006C absent; no Boolean logic inferred."
+    },
+    {
+      "code": "P053B",
+      "entryId": "generic-p053b",
+      "sourceId": "mazda3-2019-id0102t5213000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5213000.html",
+      "locator": "DTC P053B:00 [PCM (SKYACTIV-D)]; id0102t5213000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5213000.txt",
+      "substantiveWordCount": 235,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P053C",
+      "entryId": "generic-p053c",
+      "sourceId": "mazda3-2019-id0102t5213100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5213100.html",
+      "locator": "DTC P053C:00 [PCM (SKYACTIV-D)]; id0102t5213100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5213100.txt",
+      "substantiveWordCount": 229,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0555",
+      "entryId": "generic-p0555",
+      "sourceId": "mazda3-2019-id0102t4950200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4950200.html",
+      "locator": "DTC P0555:00 [PCM (SKYACTIV-G)]; id0102t4950200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4950200.txt",
+      "substantiveWordCount": 219,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P056E",
+      "entryId": "generic-p056e",
+      "sourceId": "mazda3-2019-id0102u9135200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9135200.html",
+      "locator": "DTC P056E:00 [PCM (SKYACTIV-X)]; id0102u9135200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9135200.txt",
+      "substantiveWordCount": 233,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Source contains inconsistent 0 C/0 F conversion; faulty Fahrenheit conversion and unreported calibrated temperature limit omitted."
+    },
+    {
+      "code": "P057F",
+      "entryId": "generic-p057f",
+      "sourceId": "mazda3-2019-id0102t4401000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4401000.html",
+      "locator": "DTC P057F:00 [PCM (SKYACTIV-G)]; id0102t4401000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4401000.txt",
+      "substantiveWordCount": 227,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog state-of-charge performance versus Mazda accumulated charge/discharge battery-deterioration monitor; exact canonical meaning correspondence remains unresolved."
+    },
+    {
+      "code": "P05A3",
+      "entryId": "generic-p05a3",
+      "sourceId": "mazda3-2019-id0102t4402300",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4402300.html",
+      "locator": "DTC P05A3:00 [PCM (SKYACTIV-G)]; id0102t4402300; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4402300.txt",
+      "substantiveWordCount": 239,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P05C4",
+      "entryId": "generic-p05c4",
+      "sourceId": "mazda3-2019-id0102u9361700",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9361700.html",
+      "locator": "DTC P05C4:00 [PCM (SKYACTIV-X)]; id0102u9361700; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9361700.txt",
+      "substantiveWordCount": 230,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P05C5",
+      "entryId": "generic-p05c5",
+      "sourceId": "mazda3-2019-id0102u9361800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9361800.html",
+      "locator": "DTC P05C5:00 [PCM (SKYACTIV-X)]; id0102u9361800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9361800.txt",
+      "substantiveWordCount": 227,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P063B",
+      "entryId": "generic-p063b",
+      "sourceId": "mazda3-2019-id0102t46808u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t46808u2.html",
+      "locator": "DTC P063B:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t46808u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t46808u2.txt",
+      "substantiveWordCount": 234,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P063C",
+      "entryId": "generic-p063c",
+      "sourceId": "mazda3-2019-id140202300100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202300100.html",
+      "locator": "DTC P063B:00 OR P063C:00 [INTEGRATED STARTER GENERATOR (ISG)]; id140202300100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140202300100.txt",
+      "substantiveWordCount": 225,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P063D",
+      "entryId": "generic-p063d",
+      "sourceId": "mazda3-2019-id140202030000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202030000.html",
+      "locator": "DTC P063D:00 [INTEGRATED STARTER GENERATOR (ISG)]; id140202030000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140202030000.txt",
+      "substantiveWordCount": 231,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0646",
+      "entryId": "generic-p0646",
+      "sourceId": "mazda3-2019-id0102t4587900",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4587900.html",
+      "locator": "DTC P0646:00 [PCM (SKYACTIV-G)]; id0102t4587900; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4587900.txt",
+      "substantiveWordCount": 240,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0647",
+      "entryId": "generic-p0647",
+      "sourceId": "mazda3-2019-id0102t4587800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4587800.html",
+      "locator": "DTC P0647:00 [PCM (SKYACTIV-G)]; id0102t4587800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4587800.txt",
+      "substantiveWordCount": 240,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P06A1",
+      "entryId": "generic-p06a1",
+      "sourceId": "mazda3-2019-id0102t4010100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4010100.html",
+      "locator": "DTC P06A1:00 [PCM (SKYACTIV-G)]; id0102t4010100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4010100.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P06A2",
+      "entryId": "generic-p06a2",
+      "sourceId": "mazda3-2019-id0102t4010200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4010200.html",
+      "locator": "DTC P06A2:00 [PCM (SKYACTIV-G)]; id0102t4010200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4010200.txt",
+      "substantiveWordCount": 249,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0763",
+      "entryId": "generic-p0763",
+      "sourceId": "mazda3-2019-id0502p4819400",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0502p4819400.html",
+      "locator": "DTC P0763:00 [TCM (CW6A-EL)]; id0502p4819400; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0502p4819400.txt",
+      "substantiveWordCount": 228,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0768",
+      "entryId": "generic-p0768",
+      "sourceId": "mazda3-2019-id0502p4819700",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0502p4819700.html",
+      "locator": "DTC P0768:00 [TCM (CW6A-EL)]; id0502p4819700; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0502p4819700.txt",
+      "substantiveWordCount": 223,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0773",
+      "entryId": "generic-p0773",
+      "sourceId": "mazda3-2019-id0502p4820000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0502p4820000.html",
+      "locator": "DTC P0773:00 [TCM (CW6A-EL)]; id0502p4820000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0502p4820000.txt",
+      "substantiveWordCount": 232,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0819",
+      "entryId": "generic-p0819",
+      "sourceId": "mazda3-2019-id0502p4822400",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0502p4822400.html",
+      "locator": "DTC P0819:00 [TCM (CW6A-EL)]; id0502p4822400; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0502p4822400.txt",
+      "substantiveWordCount": 229,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P081C",
+      "entryId": "generic-p081c",
+      "sourceId": "mazda3-2019-id0902r7092700",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0902r7092700.html",
+      "locator": "DTC P081C:23 [BODY CONTROL MODULE (BCM)]; id0902r7092700; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0902r7092700.txt",
+      "substantiveWordCount": 227,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P081D",
+      "entryId": "generic-p081d",
+      "sourceId": "mazda3-2019-id0902r7092900",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0902r7092900.html",
+      "locator": "DTC P081D:29 [BODY CONTROL MODULE (BCM)]; id0902r7092900; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0902r7092900.txt",
+      "substantiveWordCount": 232,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0A3E",
+      "entryId": "generic-p0a3e",
+      "sourceId": "mazda3-2019-id140202301400",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202301400.html",
+      "locator": "DTC P0A3E:00 [INTEGRATED STARTER GENERATOR (ISG)]; id140202301400; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140202301400.txt",
+      "substantiveWordCount": 223,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0A4D",
+      "entryId": "generic-p0a4d",
+      "sourceId": "mazda3-2019-id140202300900",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202300900.html",
+      "locator": "DTC P0A4C:00, P0A4D:00 OR P0A4E:00 [INTEGRATED STARTER GENERATOR (ISG)]; id140202300900; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140202300900.txt",
+      "substantiveWordCount": 221,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0A4E",
+      "entryId": "generic-p0a4e",
+      "sourceId": "mazda3-2019-id140202300900",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202300900.html",
+      "locator": "DTC P0A4C:00, P0A4D:00 OR P0A4E:00 [INTEGRATED STARTER GENERATOR (ISG)]; id140202300900; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140202300900.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0A7A",
+      "entryId": "generic-p0a7a",
+      "sourceId": "mazda3-2019-id0102t46810u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t46810u2.html",
+      "locator": "DTC P0A7A:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t46810u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t46810u2.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0A8D",
+      "entryId": "generic-p0a8d",
+      "sourceId": "mazda3-2019-id0102t4009400",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4009400.html",
+      "locator": "DTC P0A8D:00 [PCM (SKYACTIV-G)]; id0102t4009400; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4009400.txt",
+      "substantiveWordCount": 233,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0A94",
+      "entryId": "generic-p0a94",
+      "sourceId": "mazda3-2019-id0102t4004400",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4004400.html",
+      "locator": "DTC P0A94:00 [PCM (SKYACTIV-G)]; id0102t4004400; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4004400.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0B16",
+      "entryId": "generic-p0b16",
+      "sourceId": "mazda3-2019-id140204310000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140204310000.html",
+      "locator": "DTC P0B16:00 OR P0B17:00 [Mazda M Hybrid BATTERY]; id140204310000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140204310000.txt",
+      "substantiveWordCount": 231,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0B17",
+      "entryId": "generic-p0b17",
+      "sourceId": "mazda3-2019-id140204310000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140204310000.html",
+      "locator": "DTC P0B16:00 OR P0B17:00 [Mazda M Hybrid BATTERY]; id140204310000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140204310000.txt",
+      "substantiveWordCount": 229,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0BCD",
+      "entryId": "generic-p0bcd",
+      "sourceId": "mazda3-2019-id0102t46816u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t46816u2.html",
+      "locator": "DTC P0BCD:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t46816u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t46816u2.txt",
+      "substantiveWordCount": 236,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0BCE",
+      "entryId": "generic-p0bce",
+      "sourceId": "mazda3-2019-id140202300300",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202300300.html",
+      "locator": "DTC P0BCD:00, P0BCE:00, P0BCF:00, P0DF4:00, P0DF5:00, P0DF6:00, P0DF7:00, P0DF8:00, P0DF9:00, P1BD0:00, P1BD1:00, P1BD2:00, P1BD3:00, P1BD4:00, P1BD5:00, P1BD6:00, P1BD7:00 OR P1BD8:00  [INTEGRATED STARTER GENERATOR (ISG)]; id140202300300; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140202300300.txt",
+      "substantiveWordCount": 227,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0DAD",
+      "entryId": "generic-p0dad",
+      "sourceId": "mazda3-2019-id140204310400",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140204310400.html",
+      "locator": "DTC P0DAD:F1, P0DAD:F2, P0DAD:F3, P0DAD:F4, P0DAD:F5, P0DAD:F6, P0DAD:F7, P0DAD:F8, P0DAD:F9, P0DAE:F1, P0DAE:F2, P0DAE:F3, P0DAE:F4, P0DAE:F5, P0DAE:F6, P0DAE:F7, P0DAE:F8 OR P0DAE:F9 [Mazda M Hybrid BATTERY]; id140204310400; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140204310400.txt",
+      "substantiveWordCount": 228,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Source uses 0.9 V in cell-balance response explanation; relationship to actual cell terminal voltage is not independently established. Not presented as nominal cell voltage or a manual balancing target."
+    },
+    {
+      "code": "P0DAE",
+      "entryId": "generic-p0dae",
+      "sourceId": "mazda3-2019-id140204310400",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140204310400.html",
+      "locator": "DTC P0DAD:F1, P0DAD:F2, P0DAD:F3, P0DAD:F4, P0DAD:F5, P0DAD:F6, P0DAD:F7, P0DAD:F8, P0DAD:F9, P0DAE:F1, P0DAE:F2, P0DAE:F3, P0DAE:F4, P0DAE:F5, P0DAE:F6, P0DAE:F7, P0DAE:F8 OR P0DAE:F9 [Mazda M Hybrid BATTERY]; id140204310400; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140204310400.txt",
+      "substantiveWordCount": 228,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Source uses 0.9 V in cell-balance response explanation; relationship to actual cell terminal voltage is not independently established. Not presented as nominal cell voltage or a manual balancing target."
+    },
+    {
+      "code": "P0DE7",
+      "entryId": "generic-p0de7",
+      "sourceId": "mazda3-2019-id140204310600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140204310600.html",
+      "locator": "DTC P0DE7:17 [Mazda M Hybrid BATTERY]; id140204310600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140204310600.txt",
+      "substantiveWordCount": 223,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0DFA",
+      "entryId": "generic-p0dfa",
+      "sourceId": "mazda3-2019-id0102t46818u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t46818u2.html",
+      "locator": "DTC P0DFA:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t46818u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t46818u2.txt",
+      "substantiveWordCount": 238,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0E10",
+      "entryId": "generic-p0e10",
+      "sourceId": "mazda3-2019-id0102t46819u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t46819u2.html",
+      "locator": "DTC P0E10:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t46819u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t46819u2.txt",
+      "substantiveWordCount": 243,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P0E11",
+      "entryId": "generic-p0e11",
+      "sourceId": "mazda3-2019-id0102t46820u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t46820u2.html",
+      "locator": "DTC P0E11:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t46820u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t46820u2.txt",
+      "substantiveWordCount": 238,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2104",
+      "entryId": "generic-p2104",
+      "sourceId": "mazda3-2019-id0102t5711100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5711100.html",
+      "locator": "DTC P2104:00 [PCM (SKYACTIV-D)]; id0102t5711100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5711100.txt",
+      "substantiveWordCount": 236,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries.",
+        "Independent review corrected the pressure comparison: pressure is at or above the estimated value; it is not the estimate itself that is declared high."
+      ],
+      "unresolved": "Generic forced-idle description differs from Mazda pressure/vacuum-focused idle-control diagnosis. Source transmission-state wording is unusual and no exact gear-enable rule inferred."
+    },
+    {
+      "code": "P2109",
+      "entryId": "generic-p2109",
+      "sourceId": "mazda3-2019-id0102t4708000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4708000.html",
+      "locator": "DTC P2109:00 [PCM (SKYACTIV-G)]; id0102t4708000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4708000.txt",
+      "substantiveWordCount": 235,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P213B",
+      "entryId": "generic-p213b",
+      "sourceId": "mazda3-2019-id0102t5738300",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5738300.html",
+      "locator": "DTC P213B:00 [PCM (SKYACTIV-D)]; id0102t5738300; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5738300.txt",
+      "substantiveWordCount": 225,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2204",
+      "entryId": "generic-p2204",
+      "sourceId": "mazda3-2019-id0102t5726000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5726000.html",
+      "locator": "DTC P2204:00 [PCM (SKYACTIV-D)]; id0102t5726000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5726000.txt",
+      "substantiveWordCount": 226,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Source speed-comparison sentence and implausible negative exhaust-temperature limit cannot support a trustworthy detailed calibration; both omitted."
+    },
+    {
+      "code": "P2226",
+      "entryId": "generic-p2226",
+      "sourceId": "mazda3-2019-id0102t4159300",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4159300.html",
+      "locator": "DTC P2226:00 [PCM (SKYACTIV-G)]; id0102t4159300; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4159300.txt",
+      "substantiveWordCount": 242,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2252",
+      "entryId": "generic-p2252",
+      "sourceId": "mazda3-2019-id0102t5220600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5220600.html",
+      "locator": "DTC P2252:00 [PCM (SKYACTIV-D)]; id0102t5220600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5220600.txt",
+      "substantiveWordCount": 226,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2253",
+      "entryId": "generic-p2253",
+      "sourceId": "mazda3-2019-id0102t5220700",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5220700.html",
+      "locator": "DTC P2253:00 [PCM (SKYACTIV-D)]; id0102t5220700; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5220700.txt",
+      "substantiveWordCount": 222,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2302",
+      "entryId": "generic-p2302",
+      "sourceId": "mazda3-2019-id0102t4743000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4743000.html",
+      "locator": "DTC P2302:00 [PCM (SKYACTIV-G)]; id0102t4743000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4743000.txt",
+      "substantiveWordCount": 236,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2305",
+      "entryId": "generic-p2305",
+      "sourceId": "mazda3-2019-id0102t4743100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4743100.html",
+      "locator": "DTC P2305:00 [PCM (SKYACTIV-G)]; id0102t4743100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4743100.txt",
+      "substantiveWordCount": 244,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2308",
+      "entryId": "generic-p2308",
+      "sourceId": "mazda3-2019-id0102t4743200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4743200.html",
+      "locator": "DTC P2308:00 [PCM (SKYACTIV-G)]; id0102t4743200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4743200.txt",
+      "substantiveWordCount": 246,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2311",
+      "entryId": "generic-p2311",
+      "sourceId": "mazda3-2019-id0102t4743300",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4743300.html",
+      "locator": "DTC P2311:00 [PCM (SKYACTIV-G)]; id0102t4743300; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4743300.txt",
+      "substantiveWordCount": 232,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P239E",
+      "entryId": "generic-p239e",
+      "sourceId": "mazda3-2019-id0102t5728200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5728200.html",
+      "locator": "DTC P239E:00 [PCM (SKYACTIV-D)]; id0102t5728200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5728200.txt",
+      "substantiveWordCount": 230,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog specifies bank 1 sensor 2 oxygen-sensor deceleration range. Mazda explicitly uses oxygen output of its NOx sensor; exact generic sensor-position mapping remains unverified."
+    },
+    {
+      "code": "P243C",
+      "entryId": "generic-p243c",
+      "sourceId": "mazda3-2019-id0102t5585900",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5585900.html",
+      "locator": "DTC P243C:00 [PCM (SKYACTIV-D)]; id0102t5585900; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5585900.txt",
+      "substantiveWordCount": 232,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog bank 2 regeneration-frequency definition is not mapped to a bank by Mazda source. Useful Mazda DPF monitor explanation retained with explicit scope limitation."
+    },
+    {
+      "code": "P2502",
+      "entryId": "generic-p2502",
+      "sourceId": "mazda3-2019-id0102t47095u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t47095u2.html",
+      "locator": "DTC P2502:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t47095u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t47095u2.txt",
+      "substantiveWordCount": 234,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2503",
+      "entryId": "generic-p2503",
+      "sourceId": "mazda3-2019-id0102t47096u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t47096u2.html",
+      "locator": "DTC P2503:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t47096u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t47096u2.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2504",
+      "entryId": "generic-p2504",
+      "sourceId": "mazda3-2019-id0102t47097u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t47097u2.html",
+      "locator": "DTC P2504:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t47097u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t47097u2.txt",
+      "substantiveWordCount": 233,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P250A",
+      "entryId": "generic-p250a",
+      "sourceId": "mazda3-2019-id0102t4787200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4787200.html",
+      "locator": "DTC P250A:00 [PCM (SKYACTIV-G)]; id0102t4787200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4787200.txt",
+      "substantiveWordCount": 241,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P252F",
+      "entryId": "generic-p252f",
+      "sourceId": "mazda3-2019-id0102t5154300",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5154300.html",
+      "locator": "DTC P252F:00 [PCM (SKYACTIV-D)]; id0102t5154300; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5154300.txt",
+      "substantiveWordCount": 230,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P253F",
+      "entryId": "generic-p253f",
+      "sourceId": "mazda3-2019-id0102t5154400",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5154400.html",
+      "locator": "DTC P253F:00 [PCM (SKYACTIV-D)]; id0102t5154400; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5154400.txt",
+      "substantiveWordCount": 232,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2578",
+      "entryId": "generic-p2578",
+      "sourceId": "mazda3-2019-id0102u9448500",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9448500.html",
+      "locator": "DTC P2578:00 [PCM (SKYACTIV-X)]; id0102u9448500; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9448500.txt",
+      "substantiveWordCount": 240,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog identifies supercharger speed-sensor circuit; Mazda page names clutch circuit and diagnoses current/speed correlation including mechanical and sensor alternatives."
+    },
+    {
+      "code": "P25AF",
+      "entryId": "generic-p25af",
+      "sourceId": "mazda3-2019-id0102u9787700",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9787700.html",
+      "locator": "DTC P25AF:00 [PCM (SKYACTIV-X)]; id0102u9787700; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9787700.txt",
+      "substantiveWordCount": 267,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog MIL-request definition differs from Mazda coolant-switching-valve performance definition; source also alternates opening/closing wording for pressure-response detection. Neither difference resolved. Independent review additionally found that the source pairs 65 degrees C with 140 degrees F; this inconsistent conversion is explicitly stated in the article and requires authoritative resolution."
+    },
+    {
+      "code": "P25C5",
+      "entryId": "generic-p25c5",
+      "sourceId": "mazda3-2019-id0402c6021500",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0402c6021500.html",
+      "locator": "DTC P25C5:16 [ELECTRONICALLY CONTROLLED BRAKE UNIT]; id0402c6021500; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0402c6021500.txt",
+      "substantiveWordCount": 229,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P25EC",
+      "entryId": "generic-p25ec",
+      "sourceId": "mazda3-2019-id0102u9361900",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9361900.html",
+      "locator": "DTC P25EC:00 [PCM (SKYACTIV-X)]; id0102u9361900; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9361900.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Source component-test failure links to intake-manifold replacement, an assembly reference not independently reconciled with the supercharger-clutch diagnosis; no replacement recommendation made."
+    },
+    {
+      "code": "P25ED",
+      "entryId": "generic-p25ed",
+      "sourceId": "mazda3-2019-id0102u9362000",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9362000.html",
+      "locator": "DTC P25ED:00 [PCM (SKYACTIV-X)]; id0102u9362000; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9362000.txt",
+      "substantiveWordCount": 220,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Source component-test failure links to intake-manifold replacement, an assembly reference not independently reconciled with the supercharger-clutch diagnosis; no replacement recommendation made."
+    },
+    {
+      "code": "P2696",
+      "entryId": "generic-p2696",
+      "sourceId": "mazda3-2019-id0102t5375800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5375800.html",
+      "locator": "DTC P2696:00 [PCM (SKYACTIV-D)]; id0102t5375800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5375800.txt",
+      "substantiveWordCount": 232,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog injector data incompatible versus Mazda internal-memory write error; source battery-voltage condition also has contradictory range/or-more wording, omitted."
+    },
+    {
+      "code": "P2712",
+      "entryId": "generic-p2712",
+      "sourceId": "mazda3-2019-id0502p4960500",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0502p4960500.html",
+      "locator": "DTC P2712:00 [TCM (CW6A-EL)]; id0502p4960500; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0502p4960500.txt",
+      "substantiveWordCount": 226,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog hydraulic power unit leakage versus Mazda oil-pump shift valve stuck during i-stop. Exact canonical equivalence unresolved; no external leak inferred."
+    },
+    {
+      "code": "P2871",
+      "entryId": "generic-p2871",
+      "sourceId": "mazda3-2019-id0502p4578700",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0502p4578700.html",
+      "locator": "DTC P2871:00 [TCM (CW6A-EL)]; id0502p4578700; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0502p4578700.txt",
+      "substantiveWordCount": 229,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog clutch A stuck disengaged versus Mazda oil-pump shift valve stuck on. Exact canonical equivalence unresolved and explicitly disclosed."
+    },
+    {
+      "code": "P2B61",
+      "entryId": "generic-p2b61",
+      "sourceId": "mazda3-2019-id0102t41680u1",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t41680u1.html",
+      "locator": "DTC P2B61:00 [PCM (SKYACTIV-G (E))]; id0102t41680u1; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "needs-review",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t41680u1.txt",
+      "substantiveWordCount": 244,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": "Catalog says coolant valve stuck closed; Mazda page establishes high drive duty/failed movement but does not independently establish the physical closed position."
+    },
+    {
+      "code": "P2BA3",
+      "entryId": "generic-p2ba3",
+      "sourceId": "mazda3-2019-id0102t40111u2",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t40111u2.html",
+      "locator": "DTC P2BA3:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t40111u2; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t40111u2.txt",
+      "substantiveWordCount": 235,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2BBC",
+      "entryId": "generic-p2bbc",
+      "sourceId": "mazda3-2019-id0102u9362600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9362600.html",
+      "locator": "DTC P2BBC:00 [PCM (SKYACTIV-X)]; id0102u9362600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9362600.txt",
+      "substantiveWordCount": 239,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2BBD",
+      "entryId": "generic-p2bbd",
+      "sourceId": "mazda3-2019-id0102u9362800",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9362800.html",
+      "locator": "DTC P2BBD:00 [PCM (SKYACTIV-X)]; id0102u9362800; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9362800.txt",
+      "substantiveWordCount": 220,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2BF5",
+      "entryId": "generic-p2bf5",
+      "sourceId": "mazda3-2019-id0102u9203600",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9203600.html",
+      "locator": "DTC P2BF5:00 [PCM (SKYACTIV-X)]; id0102u9203600; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9203600.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2BF6",
+      "entryId": "generic-p2bf6",
+      "sourceId": "mazda3-2019-id0102t4168100",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4168100.html",
+      "locator": "DTC P2BF6:00 [PCM (SKYACTIV-G)]; id0102t4168100; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4168100.txt",
+      "substantiveWordCount": 236,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P2BF7",
+      "entryId": "generic-p2bf7",
+      "sourceId": "mazda3-2019-id0102t4168200",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t4168200.html",
+      "locator": "DTC P2BF7:00 [PCM (SKYACTIV-G)]; id0102t4168200; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t4168200.txt",
+      "substantiveWordCount": 232,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P3498",
+      "entryId": "generic-p3498",
+      "sourceId": "mazda3-2019-id0102t45004u1",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t45004u1.html",
+      "locator": "DTC P3498:00 OR P349B:00 [PCM (SKYACTIV-G (E))]; id0102t45004u1; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t45004u1.txt",
+      "substantiveWordCount": 231,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    },
+    {
+      "code": "P349B",
+      "entryId": "generic-p349b",
+      "sourceId": "mazda3-2019-id0102t45004u1",
+      "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t45004u1.html",
+      "locator": "DTC P3498:00 OR P349B:00 [PCM (SKYACTIV-G (E))]; id0102t45004u1; detection conditions and diagnostic procedure",
+      "checkedOn": "2026-10-31",
+      "sourceReview": "checked",
+      "localText": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t45004u1.txt",
+      "substantiveWordCount": 237,
+      "checks": [
+        "Confirmed direct DTC heading, not an incidental inhibit-code mention.",
+        "Read detection conditions, possible causes, fail-safe and complete diagnostic flow; repeated standard table boilerplate normalized for inspection.",
+        "Compared generic catalog wording with documented Mazda application; differences stated and review flags assigned where unresolved.",
+        "Kept hazardous brake, hybrid and common-rail content at professional diagnostic boundaries."
+      ],
+      "unresolved": null
+    }
+  ],
+  "independentReview": {
+    "reviewer": "writer31_vag",
+    "report": "reports/editorial-review-wave-04-c.json",
+    "scope": "10 article bodies and5 original-source checks in batch37; not exhaustive review.",
+    "correctedArticles": [
+      "P0763",
+      "P0DAD",
+      "P2104",
+      "P3498",
+      "P25AF"
+    ]
+  }
+}

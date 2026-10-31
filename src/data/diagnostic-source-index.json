@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-30",
+  "checkedOn": "2026-10-31",
   "status": "research-candidates-not-article-evidence",
   "purpose": "Navigation index of code mentions in publicly accessible OEM diagnostic documents. A mention is not a verified definition, diagnosis, repair procedure, or applicability claim.",
   "coverageWarning": "Codes appearing only in prerequisite, inhibition, companion-code, or reference lists do not establish code-specific diagnostic support. Every article requires source and applicability review.",
-  "sourceCount": 451,
+  "sourceCount": 862,
   "sourceFiles": [
     "diagnostic-sources/part-001.json",
     "diagnostic-sources/part-002.json",
@@ -34,6 +34,15 @@
     "diagnostic-sources/part-026.json",
     "diagnostic-sources/part-027.json",
     "diagnostic-sources/part-028.json",
-    "diagnostic-sources/part-029.json"
+    "diagnostic-sources/part-029.json",
+    "diagnostic-sources/part-030.json",
+    "diagnostic-sources/part-031.json",
+    "diagnostic-sources/part-032.json",
+    "diagnostic-sources/part-033.json",
+    "diagnostic-sources/part-034.json",
+    "diagnostic-sources/part-035.json",
+    "diagnostic-sources/part-036.json",
+    "diagnostic-sources/part-037.json",
+    "diagnostic-sources/part-038.json"
   ]
 }

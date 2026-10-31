@@ -2,10 +2,10 @@
 
 The user explicitly requested 10 writer agents, each writing 100 useful SEO articles. The overall project still aims to cover the full 10,000+ catalog. This assignment is actual writing, not another audit or plan. Write all 100 assigned articles to your owned directory. Keep working until done; checkpoint files in small batches. Do not stop at an outline, source list or a handful of examples.
 
-Batches 01–10 and 11–20 are completed waves. Batches 21–30 form the third wave. The user authorized continuation in waves of ten writers with 100 articles each toward 10,000. Only evidence-backed assignments count; scheduled batch numbers are not written articles. Exclude every previously assigned code string. If a candidate proves to be only an incidental mention or a mismatched manufacturer definition, request a documented substitution from root; never pad an article around missing evidence. Root verifies replacement codes remain unassigned.
+Batches 01–40 are completed writing waves and are selected for publication. Deployment and live verification are recorded separately in campaign.json and the release reports. The next authorized writing wave is batches 41–50; planned assignments are not completed manuscripts. The user authorized continuation in waves of ten writers with 100 articles each toward 10,000. Only evidence-backed assignments count; scheduled batch numbers are not written articles. Exclude every previously assigned code string. If a candidate proves to be only an incidental mention or a mismatched manufacturer definition, request a documented substitution from root; never pad an article around missing evidence. Root verifies replacement codes remain unassigned.
 
-Repo: /workspace/scratch/dbf135311373/cars-errhive
-Inputs: /workspace/scratch/dbf135311373/article-writing-inputs/batch-NN.json
+Repo: /workspace/scratch/dbf135311373/cars-production
+Wave-four research and claims: /workspace/scratch/dbf135311373/wave4/WRITER_BRIEF.md
 Assignment: research/article-assignments/batch-NN.json
 Your output only: content/code-articles/batch-NN/*.md and batch-NN/research-notes.json
 Never edit another batch, shared manifests, source data or the renderer. Do not spawn further agents (root is managing exactly 10 writers).
