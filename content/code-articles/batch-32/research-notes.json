@@ -1,0 +1,85 @@
+{
+  "batch": "batch-32",
+  "checkedOn": "2026-10-31",
+  "completion": "100 accepted source-scoped manuscripts, all draft and source checked.",
+  "checks": {
+    "batch": "batch-32",
+    "count": 100,
+    "uniqueCodes": 100,
+    "wordCountRange": [
+      239,
+      273
+    ],
+    "totalWords": 25378,
+    "allDraft": true,
+    "allSourceChecked": true,
+    "sourceCount": 6,
+    "sourcePageBoundsVerified": true,
+    "canonicalIdentityVerified": true,
+    "duplicateNormalizedBodies": 0,
+    "failures": []
+  },
+  "sourceRecords": "wave4/writer32/sources.json",
+  "method": "Exact monitor rows and surrounding conditions inspected in six manufacturer-hosted Ford documents. PDF page counts independently verified with pypdf. No third-party repair text used. Each reservation was made after code-specific evidence was verified.",
+  "scopeLimits": [
+    "1998 California glow-plug system and1994 California transmission limits retained.",
+    "2015 file covers multiple engines; no blanket fitment inferred. P1295 restricted to explicitly documented3.2L threshold.",
+    "Cylinder and bank locations require actual engine service information.",
+    "Shared family procedures are expressly identified and retain individual code/cylinder direction."
+  ],
+  "documentIssuesHandled": [
+    {
+      "codes": [
+        "P1713",
+        "P1718"
+      ],
+      "issue": "Ambiguous hot/cold entry table not converted into universal coolant boundaries."
+    },
+    {
+      "codes": [
+        "P000E"
+      ],
+      "issue": "Unusual adaptation units not converted into numeric workshop instructions."
+    },
+    {
+      "codes": [
+        "P1295"
+      ],
+      "issue": "Canonical bank/low-side wording differs from2015 one-or-more-short3.2L wording; article discloses difference."
+    },
+    {
+      "codes": [
+        "P2560"
+      ],
+      "issue": "Inherited oil-sensor headings disclosed; actual coolant temperature-difference criterion retained."
+    },
+    {
+      "codes": [
+        "P0488"
+      ],
+      "issue": "Offset units unspecified; no numeric physical adjustment invented."
+    },
+    {
+      "codes": [
+        "P1445"
+      ],
+      "issue": "Source groups P1444/P1445 circuit checks; no separate high-voltage threshold supplied or invented."
+    },
+    {
+      "codes": [
+        "P0511"
+      ],
+      "issue": "Conflicting idle error numbers omitted. Circuit versus functional distinction remains supported."
+    },
+    {
+      "codes": [],
+      "issue": "Apparent2015 P01E3 typo in P04E3 row excluded and never claimed."
+    }
+  ],
+  "unresolvedIssues": [],
+  "limits": [
+    "Monitor explainers are not full workshop procedures or human mechanic approval.",
+    "No shared manifests, source partitions or publication selection edited.",
+    "Production first3000 excluded via remaining-entry catalog and shared atomic reservations."
+  ]
+}

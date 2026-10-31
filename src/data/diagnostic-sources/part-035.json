@@ -1,0 +1,820 @@
+[
+  {
+    "id": "subaru-2001-forester-service-manual",
+    "title": "2001 Forester Service Manual",
+    "publisher": "Fuji Heavy Industries Ltd. (Subaru); public copy hosted by YourCMC",
+    "url": "https://vmx.yourcmc.ru/var/subaru/Impreza/Forester.pdf",
+    "documentScope": "2001 Forester manufacturer service manual; cited SOHC and DOHC TURBO diagnostic sections, not universal market coverage.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Public PDF download, pdftotext -layout; manually read exact code diagnostic heading and decision tables.",
+    "pageCount": 3357,
+    "sha256": "a5aecdb75400a730d362a0be7f3b590dfd8b02acb6b2d373273f74995eaac47c",
+    "codeMentions": [
+      {
+        "code": "P1086",
+        "pages": [
+          1383,
+          1385,
+          1386
+        ]
+      },
+      {
+        "code": "P1087",
+        "pages": [
+          1387,
+          1389
+        ]
+      },
+      {
+        "code": "P1088",
+        "pages": [
+          1391,
+          1393,
+          1394
+        ]
+      },
+      {
+        "code": "P1089",
+        "pages": [
+          1395,
+          1397
+        ]
+      },
+      {
+        "code": "P1090",
+        "pages": [
+          1398
+        ]
+      },
+      {
+        "code": "P1091",
+        "pages": [
+          1399
+        ]
+      },
+      {
+        "code": "P1092",
+        "pages": [
+          1400
+        ]
+      },
+      {
+        "code": "P1093",
+        "pages": [
+          1401
+        ]
+      },
+      {
+        "code": "P1094",
+        "pages": [
+          1403,
+          1404
+        ]
+      },
+      {
+        "code": "P1095",
+        "pages": [
+          1405,
+          1406
+        ]
+      },
+      {
+        "code": "P1096",
+        "pages": [
+          1407,
+          1408
+        ]
+      },
+      {
+        "code": "P1097",
+        "pages": [
+          1409,
+          1410
+        ]
+      },
+      {
+        "code": "P1110",
+        "pages": [
+          624,
+          625,
+          626
+        ]
+      },
+      {
+        "code": "P1146",
+        "pages": [
+          640,
+          641,
+          642
+        ]
+      },
+      {
+        "code": "P1442",
+        "pages": [
+          644,
+          645
+        ]
+      },
+      {
+        "code": "P1480",
+        "pages": [
+          646,
+          647,
+          648
+        ]
+      },
+      {
+        "code": "P1540",
+        "pages": [
+          662,
+          663
+        ]
+      },
+      {
+        "code": "P1590",
+        "pages": [
+          666,
+          667,
+          668
+        ]
+      },
+      {
+        "code": "P1591",
+        "pages": [
+          670,
+          671
+        ]
+      },
+      {
+        "code": "P1592",
+        "pages": [
+          672,
+          673
+        ]
+      },
+      {
+        "code": "P1594",
+        "pages": [
+          674,
+          675
+        ]
+      },
+      {
+        "code": "P1595",
+        "pages": [
+          676,
+          677
+        ]
+      },
+      {
+        "code": "P1596",
+        "pages": [
+          678,
+          679
+        ]
+      },
+      {
+        "code": "P1698",
+        "pages": [
+          680,
+          681
+        ]
+      },
+      {
+        "code": "P1699",
+        "pages": [
+          682,
+          683
+        ]
+      },
+      {
+        "code": "P1701",
+        "pages": [
+          684,
+          685
+        ]
+      },
+      {
+        "code": "P1711",
+        "pages": [
+          686,
+          687
+        ]
+      },
+      {
+        "code": "P1712",
+        "pages": [
+          688,
+          689
+        ]
+      },
+      {
+        "code": "P1510",
+        "pages": [
+          652,
+          654,
+          655,
+          656
+        ]
+      },
+      {
+        "code": "P1511",
+        "pages": [
+          652,
+          658,
+          659
+        ]
+      },
+      {
+        "code": "P1512",
+        "pages": [
+          652,
+          654,
+          655,
+          656
+        ]
+      },
+      {
+        "code": "P1513",
+        "pages": [
+          652,
+          658,
+          659
+        ]
+      },
+      {
+        "code": "P1514",
+        "pages": [
+          652,
+          654,
+          655,
+          656
+        ]
+      },
+      {
+        "code": "P1515",
+        "pages": [
+          652,
+          658,
+          659
+        ]
+      },
+      {
+        "code": "P1301",
+        "pages": [
+          1433,
+          1434
+        ]
+      },
+      {
+        "code": "P1312",
+        "pages": [
+          1435,
+          1436
+        ]
+      },
+      {
+        "code": "P1544",
+        "pages": [
+          1445,
+          1446
+        ]
+      }
+    ]
+  },
+  {
+    "id": "honda-advanced-diagnostics-monitor-collection",
+    "title": "Honda Advanced Diagnostics monitor collection",
+    "publisher": "Honda",
+    "url": "https://downloads.laboratoryb.org/insight/other_manuals/HONDA_DTC.pdf",
+    "documentScope": "Honda Advanced Diagnostics monitor collection, exact named monitor variant; the compiled document does not establish that every code applies to every Honda model/year.",
+    "makeIds": [
+      "honda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Public manufacturer PDF on independent mirror; physical page extraction and manual reading of exact monitor/procedure.",
+    "pageCount": 321,
+    "sha256": "1aae61e4a8870597efec0ed6c1456cd00e13d0722637296abf2821f1f1e183b2",
+    "codeMentions": [
+      {
+        "code": "P1106",
+        "pages": [
+          116,
+          117
+        ]
+      },
+      {
+        "code": "P1107",
+        "pages": [
+          118,
+          119
+        ]
+      },
+      {
+        "code": "P1108",
+        "pages": [
+          120,
+          121
+        ]
+      },
+      {
+        "code": "P1122",
+        "pages": [
+          124,
+          125
+        ]
+      },
+      {
+        "code": "P1164",
+        "pages": [
+          143,
+          144,
+          145
+        ]
+      },
+      {
+        "code": "P1166",
+        "pages": [
+          146,
+          147,
+          148,
+          149
+        ]
+      },
+      {
+        "code": "P1259",
+        "pages": [
+          150,
+          151
+        ]
+      },
+      {
+        "code": "P1362",
+        "pages": [
+          154
+        ]
+      },
+      {
+        "code": "P1366",
+        "pages": [
+          155,
+          156
+        ]
+      },
+      {
+        "code": "P1367",
+        "pages": [
+          157
+        ]
+      },
+      {
+        "code": "P1456",
+        "pages": [
+          184,
+          185,
+          186,
+          187,
+          188,
+          189
+        ]
+      },
+      {
+        "code": "P1457",
+        "pages": [
+          190,
+          191,
+          192,
+          193,
+          194
+        ]
+      },
+      {
+        "code": "P1498",
+        "pages": [
+          198,
+          199
+        ]
+      },
+      {
+        "code": "P1607",
+        "pages": [
+          248,
+          249,
+          250,
+          251
+        ]
+      },
+      {
+        "code": "P1655",
+        "pages": [
+          290,
+          291
+        ]
+      },
+      {
+        "code": "P1790",
+        "pages": [
+          296,
+          297
+        ]
+      },
+      {
+        "code": "P1793",
+        "pages": [
+          298,
+          299
+        ]
+      },
+      {
+        "code": "P0143",
+        "pages": [
+          63,
+          64,
+          65
+        ]
+      },
+      {
+        "code": "P0144",
+        "pages": [
+          66,
+          67,
+          68
+        ]
+      },
+      {
+        "code": "P0145",
+        "pages": [
+          69,
+          70,
+          71
+        ]
+      },
+      {
+        "code": "P0560",
+        "pages": [
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "id": "honda-s2000-2000-2003-service-manual",
+    "title": "Honda S2000 Service Manual, 2000–2003 compilation",
+    "publisher": "Honda",
+    "url": "https://www.technirevue.com/revue_technique/revue-technique-honda-s2000-00-03.pdf",
+    "documentScope": "Honda S2000 2000–2003 service-manual compilation, PGM-FI electronic-load-detector procedure; verify year-specific wiring before use.",
+    "makeIds": [
+      "honda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Public manufacturer PDF on independent mirror; physical page extraction and manual reading of exact monitor/procedure.",
+    "pageCount": 1088,
+    "sha256": "09c61461adc94a0283ce2f1724108444c5ec33e465005ff6ace2396254a9cf11",
+    "codeMentions": [
+      {
+        "code": "P1297",
+        "pages": [
+          306
+        ]
+      },
+      {
+        "code": "P1298",
+        "pages": [
+          307,
+          308
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lexus-rx300-rm785e-diagnostics-html",
+    "title": "Lexus RX300 Repair Manual RM785E, Diagnostics",
+    "publisher": "Toyota Motor Corporation / Lexus (manufacturer document hosted by Manualzz)",
+    "url": "https://manualzz.com/doc/1768547/lexus-rx300-automotive-systems-repair-manual",
+    "documentScope": "Lexus RX300 factory repair manual RM785E, engine diagnostics; document-specific example, model year and market must be matched before applying.",
+    "makeIds": [
+      "lexus",
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually read manufacturer document transcription via web reader; exact printed service section locators; host-generated promotional text ignored.",
+    "codeMentions": [
+      {
+        "code": "P1135",
+        "locator": "DI–94–95, P1135/P1155 heater detection and inspection"
+      },
+      {
+        "code": "P1300",
+        "locator": "DI–96–100, P1300 No. 1 igniter circuit; IGT/IGF decision tree"
+      },
+      {
+        "code": "P1305",
+        "locator": "DI–96–100, P1305 No. 2 igniter circuit; IGT/IGF decision tree"
+      },
+      {
+        "code": "P1310",
+        "locator": "DI–96–100, P1310 No. 3 igniter circuit; IGT/IGF decision tree"
+      },
+      {
+        "code": "P1325",
+        "locator": "DI–96–100, P1325 No. 6 igniter circuit; IGT/IGF decision tree"
+      },
+      {
+        "code": "P1346",
+        "locator": "DI–102, P1346/P1351 camshaft/crankshaft deviation and valve timing inspection"
+      },
+      {
+        "code": "P1349",
+        "locator": "DI–103–108, VVT system detection and inspection branches"
+      },
+      {
+        "code": "P1520",
+        "locator": "DI–111–112, stop light switch signal detection and inspection"
+      },
+      {
+        "code": "P1663",
+        "locator": "DI–120–122, P1656/P1663 oil control valve circuit diagnosis"
+      },
+      {
+        "code": "P1600",
+        "locator": "DI–113–114, ECU BATT backup power fault and fuse/supply inspection"
+      }
+    ]
+  },
+  {
+    "id": "honda-integra-1998-service-manual-html",
+    "title": "1998 Integra Service Manual, PGM-FI diagnostics",
+    "publisher": "Honda Motor Co., Ltd. (manufacturer manual hosted by Manualzz)",
+    "url": "https://www.manualzz.com/doc/65245604/honda-integra-1998-workshop-manual",
+    "documentScope": "1998 Integra manufacturer service manual, PGM-FI section; Honda/Acura application as documented, not universal Honda fitment.",
+    "makeIds": [
+      "honda",
+      "acura"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually read manufacturer service flowcharts via public HTML transcription. Host-generated marketing text ignored.",
+    "codeMentions": [
+      {
+        "code": "P1382",
+        "locator": "11-83–84, CKP/TDC/CYP sensor diagnostic flowchart and code/terminal identification"
+      },
+      {
+        "code": "P1660",
+        "locator": "11-93–94, A/T FI data line diagnostic flowchart"
+      },
+      {
+        "code": "P1682",
+        "locator": "11-95, A/T FI signal A/B shared flowchart, signal A high-input heading"
+      },
+      {
+        "code": "P1686",
+        "locator": "11-95, A/T FI signal A/B shared flowchart, signal B low-input heading"
+      },
+      {
+        "code": "P1687",
+        "locator": "11-95, A/T FI signal A/B shared flowchart, signal B high-input heading"
+      }
+    ]
+  },
+  {
+    "id": "honda-civic-2002-2003-service-manual",
+    "title": "Honda Civic 2002–2003 Service Manual",
+    "publisher": "Honda Motor Co., Ltd. (manufacturer document on public mirror)",
+    "url": "https://www.redliners.ru/manuals/Honda%20Civic%20EP3%20%2802-03%29%20Service%20Manual.pdf",
+    "documentScope": "2002–2003 Civic service manual, PGM-FI diagnostic procedure; match engine, market and sensor configuration before use.",
+    "makeIds": [
+      "honda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "PyMuPDF text extraction and manually read exact diagnostic page.",
+    "codeMentions": [
+      {
+        "code": "P1167",
+        "pages": [
+          298
+        ]
+      }
+    ],
+    "pageCount": 1139,
+    "sha256": "8409f560755d2fefef0bbb341bc6f8ef75a71f6ddc67b8ee934b617b95e6fe32"
+  },
+  {
+    "id": "honda-civic-hx-2002-p1162",
+    "title": "Honda 2002 Civic HX P1162 manufacturer diagnostic procedure",
+    "publisher": "Honda Motor Co., Ltd. (manufacturer document on public mirror)",
+    "url": "https://charm.li/Honda/2002/Civic%20HX%20Coupe%20L4-1668cc%201.7L%20SOHC%20%28VTEC-E%29%20MFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1162/",
+    "documentScope": "2002 Civic HX Coupe 1.7L VTEC-E, Honda diagnostic procedure mirrored by Operation CHARM; not universal Honda sensor specifications.",
+    "makeIds": [
+      "honda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually reviewed original manufacturer diagnostic procedure, exact section locator retained.",
+    "codeMentions": [
+      {
+        "code": "P1162",
+        "locator": "DTC P1162, steps 1–10"
+      }
+    ]
+  },
+  {
+    "id": "honda-odyssey-1999-2000-pressure-switches",
+    "title": "Honda Odyssey Service Manual, 1999–2000 clutch pressure switch diagnostics",
+    "publisher": "Honda Motor Co., Ltd. (manufacturer document on public mirror)",
+    "url": "https://zinref.ru/avtomobili/Honda/140_Honda_Odyssey_2004_manual_english/173.htm",
+    "documentScope": "Honda Odyssey 1999–2000 models as explicitly printed in the diagnostic pages of the 2004 manual compilation.",
+    "makeIds": [
+      "honda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually reviewed original manufacturer diagnostic procedure, exact section locator retained.",
+    "codeMentions": [
+      {
+        "code": "P1738",
+        "locator": "14-86–87, 1999–2000 Models, P1738 steps 1–15"
+      },
+      {
+        "code": "P1739",
+        "locator": "14-88–89, 1999–2000 Models, P1739 steps 1–15"
+      }
+    ]
+  },
+  {
+    "id": "honda-civic-hx-2002-p1768",
+    "title": "Honda 2002 Civic HX P1768 manufacturer diagnostic procedure",
+    "publisher": "Honda Motor Co., Ltd. (manufacturer document on public mirror)",
+    "url": "https://charm.li/Honda/2002/Civic%20HX%20Coupe%20L4-1668cc%201.7L%20SOHC%20%28VTEC-E%29%20MFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1768/",
+    "documentScope": "2002 Civic HX Coupe 1.7L VTEC-E, A/T clutch pressure control solenoid A electrical diagnostic procedure mirrored by Operation CHARM.",
+    "makeIds": [
+      "honda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually reviewed original manufacturer diagnostic procedure, exact section locator retained.",
+    "codeMentions": [
+      {
+        "code": "P1768",
+        "locator": "DTC P1768, electrical-only note and steps 1–8"
+      }
+    ]
+  },
+  {
+    "id": "honda-odyssey-1999-2000-p1773",
+    "title": "Honda Odyssey Service Manual, 1999–2000 P1773 diagnostics",
+    "publisher": "Honda Motor Co., Ltd. (manufacturer document on public mirror)",
+    "url": "https://zinref.ru/avtomobili/Honda/140_Honda_Odyssey_2004_manual_english/175.htm",
+    "documentScope": "Honda Odyssey 1999–2000 models as explicitly printed in the diagnostic pages of the 2004 manual compilation.",
+    "makeIds": [
+      "honda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually reviewed original manufacturer diagnostic procedure, exact section locator retained.",
+    "codeMentions": [
+      {
+        "code": "P1773",
+        "locator": "14-94–95, 1999–2000 Models, P1773 steps 1–11"
+      }
+    ]
+  },
+  {
+    "id": "ka24de-factory-p1105-diagnostic-procedure",
+    "title": "Nissan KA24DE Engine Control System, P1105 diagnostic procedure",
+    "publisher": "Nissan Motor Co., Ltd. (manufacturer manual on public mirror)",
+    "url": "https://manualzz.com/doc/o/kdl2p/nissan-ka24de--vg33e-engine-control-system-service-manual-diagnostic-procedure",
+    "documentScope": "Nissan KA24DE section of manufacturer engine-control service manual; exact model year and market are not established by this HTML excerpt and must be matched before applying specifications.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually read original manufacturer service-manual pages through HTML transcription; exact printed section locators retained.",
+    "codeMentions": [
+      {
+        "code": "P1105",
+        "locator": "EC-435–446, P1105 diagnostic procedures A and B, NGEC0305"
+      }
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "acura-rl-ka9-factory-misfire-position-diagnostics",
+    "title": "Acura RL KA9 factory manual, misfire and CKP/CMP diagnostic procedures",
+    "publisher": "Honda Motor Co., Ltd. / Acura (manufacturer manual on public mirror)",
+    "url": "https://www.carmanualsonline.info/acura-rl-ka9-1996-service-repair-manual/16",
+    "documentScope": "Acura RL KA9 manufacturer manual compilation hosted under a 1996 title, with later HDS-era diagnostic pages; exact model year must be matched to the applicable service edition before using specifications.",
+    "makeIds": [
+      "honda",
+      "acura"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually reviewed factory diagnostic headings, confirmation and full decision trees in HTML transcription. Later terminology prevents assuming all pages apply to the host title year.",
+    "codeMentions": [
+      {
+        "code": "P1306",
+        "locator": "Printed 11-60–63, viewer pages 150–153, cylinder6 misfire and shared cylinder-specific diagnostic tree"
+      },
+      {
+        "code": "P1387",
+        "locator": "Printed 11-64–65, viewer pages 154–155, CMP (CYP) sensor2 circuit diagnostic tree"
+      }
+    ],
+    "relatedUrls": [
+      "https://www.carmanualsonline.info/acura-rl-ka9-1996-service-repair-manual/15"
+    ]
+  },
+  {
+    "id": "acura-rl-2000-spark-voltage-signal-chart",
+    "title": "2000 Acura RL factory P1316/P1317 spark-plug voltage detection diagnostic chart",
+    "publisher": "Honda Motor Co., Ltd. / Acura (original factory charts on public mirror)",
+    "url": "https://charm.li/Acura/2000/RL%20V6-3474cc%203.5L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1317/",
+    "documentScope": "2000 Acura RL 3.5L spark-plug voltage detection circuit, right bank (Bank 1). The general dictionary rear-bank label must not replace this application-specific bank identification.",
+    "makeIds": [
+      "honda",
+      "acura"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually inspected complete original manufacturer chart images, including code-specific branches, diagrams and continuation. HTML index labels are not treated as proof of broader compatibility.",
+    "codeMentions": [
+      {
+        "code": "P1317",
+        "locator": "P1316/P1317 original factory chart, Parts 1 and 2, P1317 asterisk branches"
+      }
+    ],
+    "imageUrls": [
+      "https://charm.li/images/IMP01Q313/asian110/37130015/",
+      "https://charm.li/images/IMP01Q313/asian110/37154544/"
+    ],
+    "documentHashes": {
+      "P1317-0.png": "f275ceb6fc913b2fffad18c495590ba72f980508127df3476074509b0bfc80bc",
+      "P1317-1.png": "abc441d6083695ea47785bf52e29019d2ed0f200cec8156210a0984c166417bb"
+    }
+  },
+  {
+    "id": "acura-rl-2000-spark-voltage-reset-chart",
+    "title": "2000 Acura RL factory P1318/P1319 spark-plug voltage reset diagnostic chart",
+    "publisher": "Honda Motor Co., Ltd. / Acura (original factory charts on public mirror)",
+    "url": "https://charm.li/Acura/2000/RL%20V6-3474cc%203.5L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1318/",
+    "documentScope": "2000 Acura RL 3.5L spark-plug voltage detection module reset circuits. Factory left Bank 2 and right Bank 1 labels take precedence over general dictionary front/rear labels.",
+    "makeIds": [
+      "honda",
+      "acura"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually inspected complete original manufacturer chart images, including code-specific branches, diagrams and continuation. HTML index labels are not treated as proof of broader compatibility.",
+    "codeMentions": [
+      {
+        "code": "P1318",
+        "locator": "P1318/P1319 original factory reset-circuit chart, Parts 1 and 2, code-specific and asterisk branches"
+      },
+      {
+        "code": "P1319",
+        "locator": "P1318/P1319 original factory reset-circuit chart, Parts 1 and 2, code-specific and asterisk branches"
+      }
+    ],
+    "imageUrls": [
+      "https://charm.li/images/IMP01Q313/asian110/37219602/",
+      "https://charm.li/images/IMP01Q313/asian110/37242425/"
+    ],
+    "documentHashes": {
+      "P1318-0.png": "11c10f8f225b27f58acee060e5a267059de95efa201061e545b91cff85bd1e33",
+      "P1318-1.png": "b4096e54df8b95273cc1a09baaf6bbbb9782d5e95a166a6084695d78012a075c"
+    },
+    "relatedUrls": [
+      "https://charm.li/Acura/2000/RL%20V6-3474cc%203.5L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1319/"
+    ]
+  },
+  {
+    "id": "acura-nsx-1998-at-fi-data-line-b-chart",
+    "title": "Acura NSX factory P1671/P1672 A/T FI data line B diagnostic chart",
+    "publisher": "Honda Motor Co., Ltd. / Acura (original factory charts on public mirror)",
+    "url": "https://charm.li/Acura/1998/NSX%20V6-3.2L%20DOHC%20%28VTEC%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1671/",
+    "documentScope": "Acura NSX automatic-transmission FI data line B chart retrieved under the mirror’s 1998 NSX index. The chart requires a separate TCM; the index’s 3.2L label is not evidence that an automatic transmission or this procedure applies to a 3.2L vehicle. Match the actual transmission and service edition.",
+    "makeIds": [
+      "honda",
+      "acura"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Manually inspected complete original manufacturer chart images, including code-specific branches, diagrams and continuation. HTML index labels are not treated as proof of broader compatibility.",
+    "codeMentions": [
+      {
+        "code": "P1671",
+        "locator": "P1671/P1672 original factory shared diagnostic chart, first image and Continued image; code heading on respective HTML page"
+      },
+      {
+        "code": "P1672",
+        "locator": "P1671/P1672 original factory shared diagnostic chart, first image and Continued image; code heading on respective HTML page"
+      }
+    ],
+    "imageUrls": [
+      "https://charm.li/images/IMP01Q313/asian110/42409385/",
+      "https://charm.li/images/IMP01Q313/asian110/42423290/"
+    ],
+    "documentHashes": {
+      "P1671-0.png": "aa060dfc5cd3f6d5ce90e76a899deaa0d2f6cedd4234ea0b72c486098a52691e",
+      "P1671-1.png": "b5270fe36810cc20e2138bd33ffccc62ba2c69cb0357420d6427a5790cfc0a02"
+    },
+    "relatedUrls": [
+      "https://charm.li/Acura/1998/NSX%20V6-3.2L%20DOHC%20%28VTEC%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1672/"
+    ]
+  }
+]

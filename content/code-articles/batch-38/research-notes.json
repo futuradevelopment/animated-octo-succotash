@@ -1,0 +1,1167 @@
+{
+  "batch": "batch-38",
+  "status": "drafts-written-not-published",
+  "checkedOn": "2026-10-31",
+  "articleCount": 100,
+  "sourceComposition": {
+    "MazdaOEMHTML": 53,
+    "SAICMG4UKManual": 42,
+    "FordOEMHTML": 5
+  },
+  "sourceAttribution": "Manufacturer-authored workshop procedures; CHARM and siteguru are public mirrors, not the original publishers.",
+  "pdfPagination": "MG physical PDF pages1\u2013727; printed workshop page labels differ by246 in cited sections. All links use physical #page values.",
+  "sourceChecks": [
+    {
+      "code": "C0034",
+      "entryId": "generic-c0034",
+      "sourceId": "mazda3-2019-id0102t46796u2",
+      "pages": null,
+      "locator": "DTC C0034:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0036",
+      "entryId": "generic-c0036",
+      "sourceId": "mazda3-2019-id0102t46797u2",
+      "pages": null,
+      "locator": "DTC C0036:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Mazda PCM proxy reports brake-unit C0036:07; catalog tone-wheel wording versus sensor-location wording is preserved. No direct wheel-end repair asserted.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0039",
+      "entryId": "generic-c0039",
+      "sourceId": "mazda3-2019-id0102t46799u2",
+      "pages": null,
+      "locator": "DTC C0039:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Mazda PCM proxy reports brake-unit C0039:07; source does not establish tone-wheel replacement.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0048",
+      "entryId": "generic-c0048",
+      "sourceId": "mazda3-2019-id0102t46802u2",
+      "pages": null,
+      "locator": "DTC C0048:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C05AB",
+      "entryId": "generic-c05ab",
+      "sourceId": "mazda3-2019-id0102t46805u2",
+      "pages": null,
+      "locator": "DTC C05AB:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0020",
+      "entryId": "generic-c0020",
+      "sourceId": "mazda3-2019-id040262003300",
+      "pages": null,
+      "locator": "DTC C0020:11, C0020:12, C0020:13, C0020:49 OR C0020:71 [DSC HU/CM]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0022",
+      "entryId": "generic-c0022",
+      "sourceId": "mazda3-2019-id040262003400",
+      "pages": null,
+      "locator": "DTC C0022:56 [DSC HU/CM]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0040",
+      "entryId": "generic-c0040",
+      "sourceId": "mazda3-2019-id040262004800",
+      "pages": null,
+      "locator": "DTC C0040:64 [DSC HU/CM]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0518",
+      "entryId": "generic-c0518",
+      "sourceId": "mazda3-2019-id040262005600",
+      "pages": null,
+      "locator": "DTC C0518:95 [DSC HU/CM]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0519",
+      "entryId": "generic-c0519",
+      "sourceId": "mazda3-2019-id040262005700",
+      "pages": null,
+      "locator": "DTC C0519:95 [DSC HU/CM]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C051A",
+      "entryId": "generic-c051a",
+      "sourceId": "mazda3-2019-id040262005800",
+      "pages": null,
+      "locator": "DTC C051A:95 [DSC HU/CM]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C051B",
+      "entryId": "generic-c051b",
+      "sourceId": "mazda3-2019-id040262005900",
+      "pages": null,
+      "locator": "DTC C051B:95 [DSC HU/CM]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C058F",
+      "entryId": "generic-c058f",
+      "sourceId": "mazda3-2019-id040262006000",
+      "pages": null,
+      "locator": "DTC C058F:64 [DSC HU/CM]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0045",
+      "entryId": "generic-c0045",
+      "sourceId": "mazda3-2019-id0402c6016400",
+      "pages": null,
+      "locator": "DTC C0045:28 [ELECTRONICALLY CONTROLLED BRAKE UNIT]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C05C3",
+      "entryId": "generic-c05c3",
+      "sourceId": "mazda3-2019-id0402c6019600",
+      "pages": null,
+      "locator": "DTC C05C3:49 [ELECTRONICALLY CONTROLLED BRAKE UNIT]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0001",
+      "entryId": "generic-b0001",
+      "sourceId": "mazda3-2019-id0802g6007800",
+      "pages": null,
+      "locator": "DTC B0001:11, B0001:12, B0001:13, B0001:19 OR B0001:1A [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0010",
+      "entryId": "generic-b0010",
+      "sourceId": "mazda3-2019-id0802g6007900",
+      "pages": null,
+      "locator": "DTC B0001:55 OR B0010:55 [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0002",
+      "entryId": "generic-b0002",
+      "sourceId": "mazda3-2019-id0802g6012900",
+      "pages": null,
+      "locator": "DTC B0002:11, B0002:12, B0002:13, B0002:19 OR B0002:1A [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0003",
+      "entryId": "generic-b0003",
+      "sourceId": "mazda3-2019-id0802g6008000",
+      "pages": null,
+      "locator": "DTC B0003:53 [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Catalog says driver frontal stage3; Mazda :53 specifically means deployment inhibited/configuration status. Article prominently states the difference and does not infer a third inflator.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0004",
+      "entryId": "generic-b0004",
+      "sourceId": "mazda3-2019-id0802g6009000",
+      "pages": null,
+      "locator": "DTC B0004:11, B0004:12, B0004:13, B0004:19 OR B0004:1A [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0094",
+      "entryId": "generic-b0094",
+      "sourceId": "mazda3-2019-id0802g6009300",
+      "pages": null,
+      "locator": "DTC B0094:11, B0094:13, B0094:87 OR B0094:96 [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B00B5",
+      "entryId": "generic-b00b5",
+      "sourceId": "mazda3-2019-id0802g6014200",
+      "pages": null,
+      "locator": "DTC B00B5:11, B00B5:12, B00B5:13 OR B00B5:1D [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B00D2",
+      "entryId": "generic-b00d2",
+      "sourceId": "mazda3-2019-id0802g6009500",
+      "pages": null,
+      "locator": "DTC B00D2:01 [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0050",
+      "entryId": "generic-b0050",
+      "sourceId": "mazda3-2019-id0902r7086100",
+      "pages": null,
+      "locator": "DTC B0050:11 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0052",
+      "entryId": "generic-b0052",
+      "sourceId": "mazda3-2019-id0902r70862s3",
+      "pages": null,
+      "locator": "DTC B0052:11 [BODY CONTROL MODULE (BCM) (E)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0053",
+      "entryId": "generic-b0053",
+      "sourceId": "mazda3-2019-id0902r7086300",
+      "pages": null,
+      "locator": "DTC B0053:11 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0054",
+      "entryId": "generic-b0054",
+      "sourceId": "mazda3-2019-id0902r7086500",
+      "pages": null,
+      "locator": "DTC B0054:11 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0055",
+      "entryId": "generic-b0055",
+      "sourceId": "mazda3-2019-id0902r7086600",
+      "pages": null,
+      "locator": "DTC B0055:11 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0077",
+      "entryId": "generic-c0077",
+      "sourceId": "mazda3-2019-id0902r7116200",
+      "pages": null,
+      "locator": "DTC C0077:00 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0120",
+      "entryId": "generic-u0120",
+      "sourceId": "mazda3-2019-id0102t43257u2",
+      "pages": null,
+      "locator": "DTC U0120:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0298",
+      "entryId": "generic-u0298",
+      "sourceId": "mazda3-2019-id0102t49105u2",
+      "pages": null,
+      "locator": "DTC U0298:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Mazda outline identifies CAN but a possible-cause line says LIN. Article reports the verified communication endpoint, timing and supply path, and explicitly leaves topology unresolved; no wiring values are supplied.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0315",
+      "entryId": "generic-u0315",
+      "sourceId": "mazda3-2019-id0102t49012u2",
+      "pages": null,
+      "locator": "DTC U0315:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0320",
+      "entryId": "generic-u0320",
+      "sourceId": "mazda3-2019-id0102t4901300",
+      "pages": null,
+      "locator": "DTC U0320:00 [PCM (SKYACTIV-G)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0336",
+      "entryId": "generic-u0336",
+      "sourceId": "mazda3-2019-id0102t4901500",
+      "pages": null,
+      "locator": "DTC U0336:00 [PCM (SKYACTIV-G)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U065D",
+      "entryId": "generic-u065d",
+      "sourceId": "mazda3-2019-id0102u9203700",
+      "pages": null,
+      "locator": "DTC U065D:00 [PCM (SKYACTIV-X)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Mazda page mixes SENT, CAN and LIN terminology. Article expressly limits conclusions to the fresh-air duct sensor communication monitor and requests applicable wiring information before electrical testing.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0305",
+      "entryId": "generic-u0305",
+      "sourceId": "mazda3-2019-id0102t5901100",
+      "pages": null,
+      "locator": "DTC U0305:00 [PCM (SKYACTIV-D)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0301",
+      "entryId": "generic-u0301",
+      "sourceId": "mazda3-2019-id0902r7097000",
+      "pages": null,
+      "locator": "DTC U0301:82 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Rejected first Mazda DSC U0301:00 page because it mixed brake-temperature content and PCM diagnosis. Used directly downloaded BCM U0301:82 procedure instead.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0115",
+      "entryId": "generic-u0115",
+      "sourceId": "mazda3-2019-id0502p4908100",
+      "pages": null,
+      "locator": "DTC U0115:00 [TCM (CW6A-EL)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U300E",
+      "entryId": "generic-u300e",
+      "sourceId": "mazda3-2019-id0702k8011200",
+      "pages": null,
+      "locator": "DTC U300E:13 [DASH-ELECTRICAL SUPPLY UNIT]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U3004",
+      "entryId": "generic-u3004",
+      "sourceId": "mazda3-2019-id0902r7094600",
+      "pages": null,
+      "locator": "DTC U3004:11 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0079",
+      "entryId": "generic-u0079",
+      "sourceId": "mazda3-2019-id0902r7095300",
+      "pages": null,
+      "locator": "DTC U0079:88 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U007D",
+      "entryId": "generic-u007d",
+      "sourceId": "mazda3-2019-id0902r7095500",
+      "pages": null,
+      "locator": "DTC U007D:88 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0182",
+      "entryId": "generic-u0182",
+      "sourceId": "mazda3-2019-id0902r70968s3",
+      "pages": null,
+      "locator": "DTC U0182:00 [BODY CONTROL MODULE (BCM) (E)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0316",
+      "entryId": "generic-u0316",
+      "sourceId": "mazda3-2019-id0902r70971s3",
+      "pages": null,
+      "locator": "DTC U0316:82 [BODY CONTROL MODULE (BCM) (E)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U031A",
+      "entryId": "generic-u031a",
+      "sourceId": "mazda3-2019-id0902r7097200",
+      "pages": null,
+      "locator": "DTC U031A:82 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0328",
+      "entryId": "generic-u0328",
+      "sourceId": "mazda3-2019-id0902r7097500",
+      "pages": null,
+      "locator": "DTC U0328:82 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0339",
+      "entryId": "generic-u0339",
+      "sourceId": "mazda3-2019-id0902r7097700",
+      "pages": null,
+      "locator": "DTC U0339:82 [BODY CONTROL MODULE (BCM)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0122",
+      "entryId": "generic-u0122",
+      "sourceId": "mazda3-2019-id09027713167b",
+      "pages": null,
+      "locator": "DTC U0122:87 [AUTO LEVELING CONTROL MODULE (E)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0416",
+      "entryId": "generic-u0416",
+      "sourceId": "mazda3-2019-id09027713177b",
+      "pages": null,
+      "locator": "DTC U0416:29 [AUTO LEVELING CONTROL MODULE (E)]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U007B",
+      "entryId": "generic-u007b",
+      "sourceId": "mazda3-2019-id1502c5034100",
+      "pages": null,
+      "locator": "DTC U007B:88 [VEHICLE CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0162",
+      "entryId": "generic-u0162",
+      "sourceId": "mazda3-2019-id1602a1007600",
+      "pages": null,
+      "locator": "DTC U0162:00 [CONNECTIVITY MASTER UNIT]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0186",
+      "entryId": "generic-u0186",
+      "sourceId": "mazda3-2019-id1602a1007700",
+      "pages": null,
+      "locator": "DTC U0186:00 [CONNECTIVITY MASTER UNIT]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0187",
+      "entryId": "generic-u0187",
+      "sourceId": "mazda3-2019-id1602a1010000",
+      "pages": null,
+      "locator": "DTC U0187:00 [CONNECTIVITY MASTER UNIT]; Outline and Diagnostic Procedure",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0546",
+      "entryId": "generic-u0546",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        396,
+        397
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Only IBS page396 row identifies FICM consistently with catalog; other chapters label IPK. Article explicitly uses the IBS/FICM version only.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0128",
+      "entryId": "generic-u0128",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        549
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0417",
+      "entryId": "generic-u0417",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        164
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0292",
+      "entryId": "generic-u0292",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        636,
+        637
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Only BMS pages636\u2013637 SAC row used; other SAIC implementations call it ISC. Article does not infer secondary-axle fitment for all MG4 builds.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0236",
+      "entryId": "generic-u0236",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        717
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Used IPK page717 with coherent ESCL sender and2-second criterion; rejected BCM page480 setting paragraph naming BCM instead of ESCL.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "P0955",
+      "entryId": "generic-p0955",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        190
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Manual compilation contains manual-shift equipment. Article does not establish every MG4 has that arrangement; exact shifter applicability must be checked.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0245",
+      "entryId": "generic-u0245",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        498
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0127",
+      "entryId": "generic-u0127",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        548
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0042",
+      "entryId": "generic-c0042",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        186
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U010F",
+      "entryId": "generic-u010f",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        471
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0614",
+      "entryId": "generic-c0614",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        362,
+        363
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Catalog stuck-on title differs from SAIC :49 right-actuator internal control-circuit finding. Article does not claim the brake is physically stuck.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C003B",
+      "entryId": "generic-c003b",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        344,
+        346,
+        347
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "SAIC table says signal line, setting paragraph says ground wire. Article identifies the unwanted ground path and140ms interval but explicitly avoids terminal-level inference.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C060D",
+      "entryId": "generic-c060d",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        362,
+        363
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0032",
+      "entryId": "generic-c0032",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        344,
+        346,
+        347
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "SAIC table says signal line, setting paragraph says ground wire. Article identifies the unwanted ground path and140ms interval but explicitly avoids terminal-level inference.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0046",
+      "entryId": "generic-c0046",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        350,
+        351,
+        352
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "SAIC T1/T2 source uses temperature-coded limits, distinct from neighboring P1/P2 hydraulic pressure rows. Article preserves the distinction and gives no probing instructions.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C05B8",
+      "entryId": "generic-c05b8",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        362,
+        363
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "SAIC :02 describes feedline/flush test execution and an incorrect motor-position signal; article does not assert a supply open from the generic title.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0612",
+      "entryId": "generic-c0612",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        362,
+        363
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0089",
+      "entryId": "generic-c0089",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        360
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C057E",
+      "entryId": "generic-c057e",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        362,
+        363
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0035",
+      "entryId": "generic-c0035",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        344,
+        346,
+        347
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "SAIC table says signal line, setting paragraph says ground wire. Article identifies the unwanted ground path and140ms interval but explicitly avoids terminal-level inference.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0598",
+      "entryId": "generic-c0598",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        369,
+        370,
+        371
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "SAIC table uses inconsistent feeder/flush/flash labels. Article reports exact code-specific test outcomes and does not invent service-command names.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "C0597",
+      "entryId": "generic-c0597",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        357,
+        358,
+        359
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "SAIC :92 ACC startup deceleration threshold is not numerically published. Article omits adjacent inertial-sensor thresholds and explicitly limits repair conclusions.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0223",
+      "entryId": "generic-u0223",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        496
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0224",
+      "entryId": "generic-u0224",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        496
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Specific setting row identifies rear-left window motor; overview paragraph mentions fronts only. Article avoids unverified rear connector routing.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0231",
+      "entryId": "generic-u0231",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        497
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0222",
+      "entryId": "generic-u0222",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        496
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0225",
+      "entryId": "generic-u0225",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        496
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Specific setting row identifies rear-right window motor; overview paragraph mentions fronts only. Article avoids unverified rear connector routing.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0215",
+      "entryId": "generic-u0215",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        495
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "U0180",
+      "entryId": "generic-u0180",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        492
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Description/monitor/architecture/clearing statements are coherent; grouped seat-module repair steps are explicitly rejected as inapplicable. Source-scoped monitor explanation only.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0079",
+      "entryId": "generic-b0079",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        532,
+        533
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0029",
+      "entryId": "generic-b0029",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        522
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0095",
+      "entryId": "generic-b0095",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        538
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Source deployment-response wording uncertain; article does not promise airbag availability.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0090",
+      "entryId": "generic-b0090",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        536
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Source configuration condition duplicated/awkward; no detailed coding algorithm inferred.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "P0A95",
+      "entryId": "generic-p0a95",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        566
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0073",
+      "entryId": "generic-b0073",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        528,
+        529
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0096",
+      "entryId": "generic-b0096",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        539
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Source deployment-response side identification inconsistent; article does not adopt it or promise restraint availability.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B007A",
+      "entryId": "generic-b007a",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        534,
+        535
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0028",
+      "entryId": "generic-b0028",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        521
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "P0B19",
+      "entryId": "generic-p0b19",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        569
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0075",
+      "entryId": "generic-b0075",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        530,
+        531
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0021",
+      "entryId": "generic-b0021",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        520
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0091",
+      "entryId": "generic-b0091",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "pages": [
+        537
+      ],
+      "locator": null,
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "Source configuration condition duplicated/awkward; no detailed coding algorithm inferred.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0005",
+      "entryId": "generic-b0005",
+      "sourceId": "ford-2011-flex-b0005",
+      "pages": null,
+      "locator": "Pinpoint Test D: DTCs B0005:11, B0005:12, B0005:13 and B0005:1A; Normal Operation and diagnostic decisions",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B00C0",
+      "entryId": "generic-b00c0",
+      "sourceId": "ford-2011-flex-b00c0",
+      "pages": null,
+      "locator": "Pinpoint Test Y: DTCs B00C0:12, B00C0:13 and B00C0:1A; Normal Operation and diagnostic decisions",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B00C1",
+      "entryId": "generic-b00c1",
+      "sourceId": "ford-2011-flex-b00c1",
+      "pages": null,
+      "locator": "Pinpoint Test Z: DTCs B00C1:12, B00C1:13 and B00C1:1A; Normal Operation and diagnostic decisions",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B00C2",
+      "entryId": "generic-b00c2",
+      "sourceId": "ford-2011-flex-b00c2",
+      "pages": null,
+      "locator": "Pinpoint Test AA: DTCs B00C2:12, B00C2:13 and B00C2:1A; Normal Operation and diagnostic decisions",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    },
+    {
+      "code": "B0011",
+      "entryId": "generic-b0011",
+      "sourceId": "ford-2009-f150-b0011",
+      "pages": null,
+      "locator": "Pinpoint Test E: DTCs B0011:11, B0011:12, B0011:13 and B0011:1A; Normal Operation and diagnostic decisions",
+      "actualCheck": "Read source definition, monitor conditions and applicable diagnostic decision text; checked exact code family, failure suffix, module and source boundaries.",
+      "limitation": "No article-specific source contradiction used; vehicle applicability remains limited to cited procedure.",
+      "safeBoundary": "No energized HV/SRS/brake probing, deployment substitution, hydraulic activation or road-test directions included."
+    }
+  ],
+  "excludedCandidates": {
+    "U020C": "WLC row embedded in incongruous airbag diagnostic block; omitted in favor of Ford B00C2.",
+    "U0595": "SAM definitions not securely matched to catalog powertrain-control-monitor identity.",
+    "C004B": "Catalog fluid-level circuit conflicts with pressure-temperature row.",
+    "U0170": "Catalog restraint sensor conflicts with ambient-light source identity.",
+    "B0058": "Third-row buckle/ODS contradictory applicability; omitted.",
+    "U0145": "Catalog body moduleE conflicts with Intelligent Pilot Device row.",
+    "U0148": "Catalog gatewayC lost communication conflicts with invalid ICC data row.",
+    "U0229": "Catalog heated-steering-wheel module conflicts with rear-wheel-steering row.",
+    "U0147": "Catalog gatewayB conflicts with FMU or EPB invalid-data definitions.",
+    "U0268": "Catalog image sensorD conflicts with seat-belt warning lamp.",
+    "U0169": "Sunroof communication identity is plausible, but setting condition contains unrelated RAM-initialization content; not used."
+  },
+  "validation": {
+    "count": 100,
+    "errors": [],
+    "bodyWordMin": 198,
+    "bodyWordMax": 234,
+    "bodyWordTotal": 21959,
+    "highestSimilarityPairs": []
+  },
+  "editorialApproach": "All bodies individually authored from reviewed code-specific facts. Shared OEM procedures are acknowledged where appropriate; text was not generated by substituting names into a common body.",
+  "independentReview": {
+    "reviewer": "writer31_vag",
+    "bodySample": [
+      "B0003",
+      "B0094",
+      "C0034",
+      "C0046",
+      "C0597",
+      "P0A95",
+      "U0187",
+      "U0301",
+      "U0339",
+      "U300E"
+    ],
+    "deepSourceSample": [
+      "B0003",
+      "C0034",
+      "U300E",
+      "C0046",
+      "P0A95"
+    ],
+    "result": "No corrections required. Exact Mazda HTML and original727-page MG PDF at physical350\u2013352 and566 checked; definitions, units, timers, reporting modules and safety boundaries matched. No edits made."
+  }
+}

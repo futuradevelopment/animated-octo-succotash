@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "writer32 independent review of other authors",
+  "checkedOn": "2026-10-31",
+  "status": "bounded-review-complete",
+  "scope": {
+    "batches": [
+      "batch-33",
+      "batch-35"
+    ],
+    "bodySamplesPerBatch": 10,
+    "deepSourceChecksPerBatch": 5,
+    "totalBodiesRead": 20,
+    "totalDeepSourceChecks": 10,
+    "batch35AvailableAtSampling": 95,
+    "excluded": "Five NSX/RL charts still being authored; none included in this sample."
+  },
+  "samples": [
+    {
+      "batch": "batch-33",
+      "code": "P1031",
+      "path": "content/code-articles/batch-33/P1031.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "e7aecf0870cde34a1fca4c5d3f6f0870baab1b457773d062e04911db843cb7f3",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-33",
+      "code": "P1275",
+      "path": "content/code-articles/batch-33/P1275.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "a72560d0549a01bf0aa450e700d34f841c4e40de0597ff99aabf1cc03ec7fd7f",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-33",
+      "code": "P1351",
+      "path": "content/code-articles/batch-33/P1351.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "48dada889c0a108dc7eda2e19b3ff9167380b5f648ee7419f22263eb39c593dc",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-33",
+      "code": "P1416",
+      "path": "content/code-articles/batch-33/P1416.md",
+      "sourceReviewAfterReview": "needs-review",
+      "sha256AfterReview": "50c883597f2f5ac7f6ba3b3b9560208875baa6670ee27a4dab337baaab83d353",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-33",
+      "code": "P1509",
+      "path": "content/code-articles/batch-33/P1509.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "2bf14d7471ddf4c407ed6d4ae8dbd5c53bf5a84a90b2f823c2d9ff1791a8b894",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-33",
+      "code": "P1656",
+      "path": "content/code-articles/batch-33/P1656.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "9e03495b323cb0d801580554d663bd488936dac441a21a553f44bdfc09fcb673",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-33",
+      "code": "P1810",
+      "path": "content/code-articles/batch-33/P1810.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "27d6df3e2074c1a93be2bde0c051bbe76eeb3989d357e8ac2a4402891bdf9120",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-33",
+      "code": "P2E68",
+      "path": "content/code-articles/batch-33/P2E68.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "b679d4759d25432cdf91bd9adc2a65fd19386ea38e972bee426dac7b32b2fff8",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-33",
+      "code": "U0674",
+      "path": "content/code-articles/batch-33/U0674.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "f83d957a9cfef3d20b6eb2590e493777660f897f09dbd7e64d0134927636d19a",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-33",
+      "code": "U3008",
+      "path": "content/code-articles/batch-33/U3008.md",
+      "sourceReviewAfterReview": "needs-review",
+      "sha256AfterReview": "4ff7c970cd170e3b332540e974e2ed5b2823725ea66757ee9c570d9b08490867",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-35",
+      "code": "C0075",
+      "path": "content/code-articles/batch-35/C0075.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "c608c1a34c01f83261931d27e2d5a0925f86434bd09058235940f3cd7ce1dac0",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1086",
+      "path": "content/code-articles/batch-35/P1086.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "0e86c112a00ba6748e24b6f74cf4e49ffb11ae3580682dd21488858b89d4b6b4",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1105",
+      "path": "content/code-articles/batch-35/P1105.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "af3b0e4d111d565e33a9248c40a8788f5dc0e7da8c01f821e55df0d494be82e9",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1135",
+      "path": "content/code-articles/batch-35/P1135.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "82a169a822e6aa3eecbbd1e88ea207de539a5c404924373310eab35d0c9b045e",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1259",
+      "path": "content/code-articles/batch-35/P1259.md",
+      "sourceReviewAfterReview": "needs-review",
+      "sha256AfterReview": "c5898c5e0db573ff3bfa1d45a929733bab43e41a520f4e2067e29efc871e58e7",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1366",
+      "path": "content/code-articles/batch-35/P1366.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "1729882932f98a5a56a04029cbb7f4b370539d09c758487cf5789771cb2c5f03",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1544",
+      "path": "content/code-articles/batch-35/P1544.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "b38c4380e8dab7222acfa708e07c948e1772c5cb48a1ec59254e041fe8a975e0",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1711",
+      "path": "content/code-articles/batch-35/P1711.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "7d9d51157f60b49a5351ccfe3e25eacac8f66706f40f317b8a3625a63d618ee0",
+      "deepSourceChecked": false
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1738",
+      "path": "content/code-articles/batch-35/P1738.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "36c5cfa09d956de1a94c109c217cdb0245ac84a645727198a5c1289edab42a0b",
+      "deepSourceChecked": true
+    },
+    {
+      "batch": "batch-35",
+      "code": "U3502",
+      "path": "content/code-articles/batch-35/U3502.md",
+      "sourceReviewAfterReview": "checked",
+      "sha256AfterReview": "c95205526596b2de2e663b26e7b81565ce306d2b69b197970d71cf27ad2b7c68",
+      "deepSourceChecked": false
+    }
+  ],
+  "sourceChecks": [
+    {
+      "batch": "batch-33",
+      "code": "P1416",
+      "sourceId": "gm-2002file6-historical",
+      "pages": [
+        30
+      ],
+      "method": "Original downloaded PDF and layout-preserved physical page extraction",
+      "factsChecked": [
+        "OEM bank2 identity versus imported bank1 title",
+        "Bank2 lean and integrator failure while bank1 passes",
+        "222mV,at least1.3sec,20percent integrator change,4sec and up to3 attempts",
+        "LM7 footer says not required,not unused"
+      ],
+      "result": "Corrected applicability wording; pre-existing needs-review retained for bank-label conflict."
+    },
+    {
+      "batch": "batch-33",
+      "code": "P1509",
+      "sourceId": "gm-2000file15_6-historical",
+      "pages": [
+        29
+      ],
+      "method": "Original downloaded PDF and layout-preserved physical page extraction",
+      "factsChecked": [
+        "High idle100rpm above desired",
+        "Airflow delta greater than3g/s",
+        "Nonintrusive warm idle prerequisites followed by moving-vehicle intrusive branch",
+        "Article avoids reproducing hazardous drive-test instructions"
+      ],
+      "result": "Supported; no edit."
+    },
+    {
+      "batch": "batch-33",
+      "code": "P1810",
+      "sourceId": "gm-2000file9-historical",
+      "pages": [
+        30
+      ],
+      "method": "Original downloaded PDF and layout-preserved physical page extraction",
+      "factsChecked": [
+        "Illegal switch-combination60sec branch",
+        "Startup drive/reverse without park/neutral branch",
+        "Running switch state versus ratio and speed/torque prerequisites"
+      ],
+      "result": "Supported; no edit."
+    },
+    {
+      "batch": "batch-33",
+      "code": "P2E68",
+      "sourceId": "gm-2020-20obdg07-diagnostics",
+      "pages": [
+        67
+      ],
+      "method": "Original downloaded PDF and layout-preserved physical page extraction",
+      "factsChecked": [
+        "Bank1 multiplicative LTFT in ZAS mode above1.230011",
+        "Dimensionless factor interpretation",
+        "Active adaptation and10sec stability requirement; speed/load/STFT/additive comparisons"
+      ],
+      "result": "Supported; no edit."
+    },
+    {
+      "batch": "batch-33",
+      "code": "U3008",
+      "sourceId": "gm-2020-20obdg07-diagnostics",
+      "pages": [
+        1156
+      ],
+      "method": "Original downloaded PDF and layout-preserved physical page extraction",
+      "factsChecked": [
+        "Two independent grounds,nominal50percent current sharing",
+        "GND1-disconnected branch above0.9 and200ms",
+        "Initialized state and no faultyADCs",
+        "Malformed printed equation is not converted into workshop instructions"
+      ],
+      "result": "Supported as bounded explanation; pre-existing needs-review retained for source equation ambiguity."
+    },
+    {
+      "batch": "batch-35",
+      "code": "C0075",
+      "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+      "pages": [
+        1752
+      ],
+      "method": "Layout-preserved exact physical PDF page; compared source row and article",
+      "factsChecked": [
+        "Pedal stroke minus boost-body stroke below-5.0mm",
+        "0.04sec,running OR shutdown,TypeA one trip",
+        "Signed difference not absolute extra travel; no unsupported adjustment procedure"
+      ],
+      "result": "Supported; no edit."
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1105",
+      "sourceId": "ka24de-factory-p1105-diagnostic-procedure",
+      "locator": "EC-435\u2013446,NGEC0305 proceduresA/B",
+      "url": "https://manualzz.com/doc/o/kdl2p/nissan-ka24de--vg33e-engine-control-system-service-manual-diagnostic-procedure",
+      "method": "Fresh original-manual HTML mirror retrieval; read diagnostic procedures and component check",
+      "factsChecked": [
+        "Battery supply and isolated output-circuit branch",
+        "Air passage switching under1sec",
+        "Vacuum hose/manifold/intake leaks and water-in-connector branches",
+        "Atmospheric versus applied-vacuum sensor comparison and gauge calibration caution"
+      ],
+      "result": "Supported; no edit. Exact year/market remains intentionally unasserted."
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1135",
+      "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+      "locator": "DI94\u201395,P1135/P1155 detection and inspection",
+      "url": "https://manualzz.com/doc/1768547/lexus-rx300-automotive-systems-repair-manual",
+      "method": "Fresh original-manual HTML mirror retrieval; exact detection table and inspection steps",
+      "factsChecked": [
+        "Bank1 sensor1 versusP1155 bank2",
+        "Heater current above8A OR at/below0.25A during operation",
+        "Separate ECU-voltage,heater resistance,relay and harness checks"
+      ],
+      "result": "Supported; no edit."
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1259",
+      "sourceId": "honda-advanced-diagnostics-monitor-collection",
+      "pages": [
+        150,
+        151
+      ],
+      "method": "Exact original monitor PDF pages and switch-state truth table",
+      "factsChecked": [
+        "SolenoidON/switchON and solenoidOFF/switchOFF are mismatch directions",
+        "Duration5seconds or more,one-drive-cycle MIL",
+        "Source does not establish catalog Rear Bank1 qualifier"
+      ],
+      "result": "Clarified at-least-five-second duration; made unresolved bank qualifier explicit and changed sourceReview to needs-review."
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1738",
+      "sourceId": "honda-odyssey-1999-2000-pressure-switches",
+      "locator": "14-86\u201387,1999\u20132000 Models,P1738 steps1\u201315",
+      "url": "https://zinref.ru/avtomobili/Honda/140_Honda_Odyssey_2004_manual_english/173.htm",
+      "method": "Fresh original-manual HTML mirror retrieval including embedded page transcription; image download returned HTML and was not used as visual evidence",
+      "factsChecked": [
+        "Printed1999\u20132000 scope supersedes2004 host compilation heading",
+        "Key-on supply,isolated short-to-ground and open-circuit branches",
+        "Second-gear near-zero signal check and conditional terminal/controller endpoint",
+        "Article retains professional boundary for running supported drivetrain"
+      ],
+      "result": "Supported by page transcription; no edit. Diagram pixels were not independently rendered."
+    }
+  ],
+  "findings": [
+    {
+      "batch": "batch-33",
+      "code": "P1416",
+      "severity": "minor factual overstatement",
+      "before": "unused for5.3L LM7",
+      "after": "not required for5.3L LM7; never-used inference explicitly rejected",
+      "source": "2002file6 physical page30 asterisk footnote",
+      "fixed": true
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1259",
+      "severity": "unresolved applicability qualifier",
+      "finding": "Canonical title adds Rear Bank1; cited OEM monitor pages do not identify a bank. Existing body did not infer it but metadata was checked.",
+      "fix": "Changed sourceReview to needs-review and made bank applicability gap explicit in scope/body.",
+      "fixed": true,
+      "unresolved": "Actual bank/model applicability qualifier remains unverified."
+    },
+    {
+      "batch": "batch-35",
+      "code": "P1259",
+      "severity": "precision",
+      "finding": "Five-second phrasing narrowed to source duration of at leastfive seconds.",
+      "fixed": true
+    }
+  ],
+  "existingReviewFlagsPreserved": [
+    {
+      "batch": "batch-33",
+      "code": "P1416",
+      "reason": "Canonical bank1 versus OEM bank2 conflict"
+    },
+    {
+      "batch": "batch-33",
+      "code": "U3008",
+      "reason": "Poorly parenthesized source equation"
+    }
+  ],
+  "systemicChangeNeeded": false,
+  "filesChanged": [
+    "content/code-articles/batch-33/P1416.md",
+    "content/code-articles/batch-35/P1259.md"
+  ],
+  "validation": "All20 sampled manuscript frontmatters parse; code/batch/draft identity and section structure intact after edits. Exactly10 samples and5 deep checks per batch.",
+  "limitations": [
+    "Bounded sample,not a certification of either full batch or all applications.",
+    "Body-only samples were read for consistency,scope and safety but not independently re-researched against their sources.",
+    "No hands-on mechanical validation,model-fitment certification or live-vehicle testing.",
+    "P1738 page transcription verified; remote PNG requests returned an HTML response,so original diagram pixels were not independently inspected.",
+    "No shared manifests,source partitions,generated corpus reports or commits changed."
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "reportType": "bounded independent editorial sample review",
+  "reviewedOn": "2026-10-31",
+  "reviewer": "writer33 peer reviewer; own batch33 excluded",
+  "scope": {
+    "completedBatches": [
+      "batch-31",
+      "batch-32",
+      "batch-34",
+      "batch-36"
+    ],
+    "populationArticleCount": 400,
+    "substantiveBodySamples": 40,
+    "originalSourceArticleChecks": 20,
+    "perBatchBodySamples": 10,
+    "perBatchOriginalSourceChecks": 5,
+    "additionalTargetedMetadataExcerptChecks": 10,
+    "certification": false,
+    "statement": "This is a40-body/20-source sample review, not certification of all400articles, every cited source claim, or a vehicle repair procedure."
+  },
+  "selectionMethod": "Judgmental sample across oxygen/temperature/EGR/turbo/EVAP/ignition, diesel injection/glow/SCR/transmission/ECU, Jaguar throttle/fuel/ignition/transmission and hybrid brake/motor/isolation/precharge/battery/charger/network systems. Included available needs-review cases; batches32and34 had no needs-review labels before this review. P1791 replaced P1758 in the five-source batch34 subset after its explicit identity conflict was observed; P1758 remained a body-only sample.",
+  "bodyReads": [
+    {
+      "batch": "batch-31",
+      "code": "P0040",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P0040.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Opposed-bank lambda interpretation and CEUC-only thresholds are explicit."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P01E3",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P01E3.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "needs-review",
+      "observation": "Already needs-review; sensor-name ambiguity and electrical-versus-temperature distinction retained."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P00AF",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P00AF.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body distinguishes diesel vacuum and gasoline applications and avoids automatic turbo replacement."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P0334",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P0334.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "needs-review",
+      "observation": "Already needs-review; inconsistent G66/G62 source identifier is explicitly retained."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P0413",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P0413.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body distinguishes milliamperes from airflow and fault threshold from operating current."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P04DD",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P04DD.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "No invented numeric calibration for the speed/fueling/target-airflow function."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P0688",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P0688.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Harness example bounded to stated Jetta application; no live-probing directions."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P2027",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P2027.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Preserves original amperes despite the high-voltage title rather than silently changing units."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P2133",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P2133.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "needs-review",
+      "observation": "Already needs-review; generic/VAG terminology difference and conditional oxygen-sensor branch disclosed."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P2711",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P2711.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body preserves gearbox subtype, other-fault conditions and professional-test boundary."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P012F",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P012F.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body ties the correlation comparison to an extended soak, not a running thermal limit."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P0298",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P0298.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "One unsupported hot-start phrase corrected; other quoted criteria matched the source."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P0470",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P0470.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Absolute pressure, engine-off/cranking state and electrical-versus-functional distinction matched."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P1261",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P1261.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body separates driver-side short, open circuit and injector response; warns against energized probing."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P1295",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P1295.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Body explicitly narrows the implementation to3.2L and does not infer multiple failed injectors or8-cylinder applicability."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P1395",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P1395.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body retains A/D-count units, bank-level scope and long heating interval."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P1714",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P1714.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Inductive current signature is kept separate from resistance and gear-ratio tests."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P203F",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P203F.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body describes estimated DEF range without guaranteeing remaining driving distance."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P2508",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P2508.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Internal5V rail is explicitly separated from battery/alternator voltage."
+    },
+    {
+      "batch": "batch-32",
+      "code": "U0407",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/U0407.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body distinguishes missing verification data from general module loss and avoids direct battery power to glow plugs."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P0142",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P0142.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Heater-related signal coupling, volts and repeated-event count are preserved."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P048C",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P048C.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Voltage window is limited to closed-position learning, not all flap positions."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P06FE",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P06FE.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body treats12percent as a source monitor criterion, not an adjustment setting."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1172",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1172.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body gives scoped alternative causes and professional fuel-system boundaries."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1199",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1199.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "V12 and AJ16 rows are separated with different monitor states and trip counts."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1201",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1201.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body distinguishes shutdown and running injector-monitor windows and avoids fuel-rail disassembly instructions."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1226",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1226.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Electrical and mechanical causes remain distinct; no guard bypass procedure."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1608",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1608.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body scopes internal controller timing to ZF4HP24 and avoids importing fallback gear from another section."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1758",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1758.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body describes aggregate current and a scoped fallback without direct regulator-power instructions."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1791",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1791.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "needs-review",
+      "observation": "Primary TPS source and canonical ignition-supply definition conflict confirmed; review classification corrected without altering diagnosis."
+    },
+    {
+      "batch": "batch-36",
+      "code": "C059B",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/C059B.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "needs-review",
+      "observation": "Already needs-review; rear-left versus master-cylinder source inconsistency retained, no self-test stimulation instructions."
+    },
+    {
+      "batch": "batch-36",
+      "code": "C05B1",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/C05B1.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body avoids locating a leak or asserting safe driving from monitored hydraulic inconsistency."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P079E",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P079E.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body confines numeric claims to supported slip branch and expressly omits inconsistent energy branch."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0A5E",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0A5E.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Current, squared-current units and phase-angle window matched; no live motor-phase testing instructions."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0AA8",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0AA8.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Sum-versus-pack-voltage calculation, switch state and sample count matched."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0AE3",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0AE3.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body distinguishes requested precharge sequence from arbitrary low bus voltage and forbids bypassing contactors."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0B72",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0B72.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "Calculated sense-line resistance is distinguished from cell-capacity diagnosis; no manual balancing instructions."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0C9A",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0C9A.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body distinguishes circuit-high from hot temperature and preserves HV-service boundary."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0D4D",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0D4D.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": false,
+      "reviewStatusAfter": "checked",
+      "observation": "Body keeps both voltage reports and charging readiness in view; no external HV-probing recipe."
+    },
+    {
+      "batch": "batch-36",
+      "code": "U01A0",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/U01A0.md",
+      "substantiveBodyRead": true,
+      "independentSourceCheck": true,
+      "reviewStatusAfter": "checked",
+      "observation": "UART daisy-chain and controller-managed recovery matched; no instruction to bridge pack wiring."
+    }
+  ],
+  "originalSourceChecks": [
+    {
+      "batch": "batch-31",
+      "code": "P0040",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P0040.md",
+      "sourceId": "audi-2014-a6-s6-reference-2013-09",
+      "sourceUrl": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10243900-9999.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer31/audi-a6-2014.txt",
+      "physicalPagesChecked": [
+        297
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "CEUC table has bank1<0.80 with bank2>1.20 or the opposite pairing; both conditions are required.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer31/audi-a6-2014.pdf",
+      "originalPdfSha256": "8d432e4f14427fcf0b4e3632f41de2fc5f43f2562dda291abd3682f42f2503e6",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P01E3",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P01E3.md",
+      "sourceId": "audi-2014-a6-s6-reference-2013-09",
+      "sourceUrl": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10243900-9999.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer31/audi-a6-2014.txt",
+      "physicalPagesChecked": [
+        340
+      ],
+      "outcome": "supported_with_existing_limitation",
+      "verifiedEvidence": "CPNB row says engine-temperature-control sensor short to battery, signal>4.92V. Article preserves generic sensor3 mapping uncertainty.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer31/audi-a6-2014.pdf",
+      "originalPdfSha256": "8d432e4f14427fcf0b4e3632f41de2fc5f43f2562dda291abd3682f42f2503e6",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P0334",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P0334.md",
+      "sourceId": "ross-tech-p0334",
+      "sourceUrl": "https://wiki.ross-tech.com/wiki/index.php/16718/P0334/000820",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer31/P0334.wiki.txt",
+      "physicalPagesChecked": [],
+      "outcome": "supported_with_existing_limitation",
+      "verifiedEvidence": "Original HTML heading and cause list identify G66, while a solution line says G62. Wiring/mounting alternatives and uncertainty are represented accurately.",
+      "htmlLocator": "16718/P0334/000820 - Knock Sensor 2 (G66): Intermittent",
+      "htmlRevisionUrl": "https://wiki.ross-tech.com/wiki/index.php?title=16718/P0334/000820&oldid=4873",
+      "method": "Read downloaded publisher wiki content and independently opened original HTML; heading, causes and G66/G62 inconsistency confirmed.",
+      "webRetrievalRef": "turn91view0"
+    },
+    {
+      "batch": "batch-31",
+      "code": "P04DD",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P04DD.md",
+      "sourceId": "audi-2014-a6-s6-reference-2013-09",
+      "sourceUrl": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10243900-9999.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer31/audi-a6-2014.txt",
+      "physicalPagesChecked": [
+        354
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "CPNB row compares control deviation with a function of speed, injection quantity and target air mass; no fixed numeric threshold is supplied.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer31/audi-a6-2014.pdf",
+      "originalPdfSha256": "8d432e4f14427fcf0b4e3632f41de2fc5f43f2562dda291abd3682f42f2503e6",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-31",
+      "code": "P2027",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-31/P2027.md",
+      "sourceId": "audi-2014-a6-s6-reference-2013-09",
+      "sourceUrl": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10243900-9999.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer31/audi-a6-2014.txt",
+      "physicalPagesChecked": [
+        260
+      ],
+      "outcome": "supported_source_fidelity",
+      "verifiedEvidence": "CAED row pairs high-voltage wording with signal current>2.20A. Article preserves amperes and requires applicable service information.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer31/audi-a6-2014.pdf",
+      "originalPdfSha256": "8d432e4f14427fcf0b4e3632f41de2fc5f43f2562dda291abd3682f42f2503e6",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P0298",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P0298.md",
+      "sourceId": "ford-diesel-2002-73l",
+      "sourceUrl": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM201.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2002.txt",
+      "physicalPagesChecked": [
+        12
+      ],
+      "outcome": "corrected_narrow_wording",
+      "verifiedEvidence": "Continuous oil-temperature rationality test: speed<1000rpm, desired fuel<20mg/s, initial EOT>110C, failure to reach<110C within EOT-dependent period. No hot-start-only restriction.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2002.pdf",
+      "originalPdfSha256": "5f059de16a472228aa0a7bea335075ed6a3935ef83bbcd022c7d4e44dbbc4bdd",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P0470",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P0470.md",
+      "sourceId": "ford-diesel-2004-60l",
+      "sourceUrl": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM404.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2004.txt",
+      "physicalPagesChecked": [
+        18
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "Source requires engine off/cranking, EP>150kPa absolute for>5seconds, acceptable EP/EGRP sensor status.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2004.pdf",
+      "originalPdfSha256": "7b9a1aefccb371e79a031fce0c7da7aebe3b5a1dafa849722740eaaaf3549916",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P1295",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P1295.md",
+      "sourceId": "ford-diesel-2015",
+      "sourceUrl": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM1501.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2015.txt",
+      "physicalPagesChecked": [
+        29
+      ],
+      "outcome": "supported_scoped_definition",
+      "verifiedEvidence": "P1295 criterion explicitly says one or more ground/battery shorts on3.2L, continuous,0.2seconds. Catalog low-side shorthand is not used to broaden the claimed engine scope.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2015.pdf",
+      "originalPdfSha256": "048db6263d256bb2f759c93ae5947a52df850e55ce1195e74067b97a5a11f203",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P1714",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P1714.md",
+      "sourceId": "ford-diesel-2002-73l",
+      "sourceUrl": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM201.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2002.txt",
+      "physicalPagesChecked": [
+        24
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "SS-A P1714 is ISIG functional current dip/rise during off-to-on transitions; ten events,70–225F and positive torque. Electrical P0750 is separate.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2002.pdf",
+      "originalPdfSha256": "5f059de16a472228aa0a7bea335075ed6a3935ef83bbcd022c7d4e44dbbc4bdd",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-32",
+      "code": "P2508",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P2508.md",
+      "sourceId": "ford-diesel-2015",
+      "sourceUrl": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM1501.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2015.txt",
+      "physicalPagesChecked": [
+        151,
+        152,
+        153
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "Internal ECU5V supply>5.5V, continuous5second monitor, ECU energized including postdrive. Article does not apply threshold to battery.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer32/ford-diesel-2015.pdf",
+      "originalPdfSha256": "048db6263d256bb2f759c93ae5947a52df850e55ce1195e74067b97a5a11f203",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P0142",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P0142.md",
+      "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+      "sourceUrl": "https://static.nhtsa.gov/odi/tsbs/2014/MC-10122269-9999.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/next-sources/vw-golf-2014.txt",
+      "physicalPagesChecked": [
+        80,
+        83
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "CBTA/CBUA section starts at80; actual row83 uses switching voltage step>2V and heater coupling>=6events.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/next-sources/vw-golf-2014.pdf",
+      "originalPdfSha256": "dc2b9ac691953216118c31da44e7c707aae165fdb81ed398c585be69d43e9835",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P048C",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P048C.md",
+      "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+      "sourceUrl": "https://static.nhtsa.gov/odi/tsbs/2014/MC-10122269-9999.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/next-sources/vw-golf-2014.txt",
+      "physicalPagesChecked": [
+        42,
+        60
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "CJAA section starts at42; row60 uses closed-position-learning signal>1.1V or<0.5V, not a general position range.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/next-sources/vw-golf-2014.pdf",
+      "originalPdfSha256": "dc2b9ac691953216118c31da44e7c707aae165fdb81ed398c585be69d43e9835",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1199",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1199.md",
+      "sourceId": "jaguar-dtc-nonstype-1995-2002",
+      "sourceUrl": "https://www.jcna.com/sites/default/files/NONSTYPE.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer34/NONSTYPE.txt",
+      "physicalPagesChecked": [
+        12,
+        55
+      ],
+      "outcome": "supported_application_split",
+      "verifiedEvidence": "AJ16 row12: fuel-level circuit malfunction, start/run,2trips, instrument-pack path. V12 row55: low/malfunction, ignition>1minute,1trip, ground short/sensor causes.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer34/NONSTYPE.pdf",
+      "originalPdfSha256": "cb4f4e4b730ba1b69587a00b8d57800e10fc3866ae6a4e8955d59dde2fee1add",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1226",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1226.md",
+      "sourceId": "jaguar-dtc-nonstype-1995-2002",
+      "sourceUrl": "https://www.jcna.com/sites/default/files/NONSTYPE.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer34/NONSTYPE.txt",
+      "physicalPagesChecked": [
+        80
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "AJ26 1997 row80 includes wiring/supply/reference/sensor plus seized actuator/broken spring; ignition>5seconds, cruise inhibition on first-trip amber,2trip check engine.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer34/NONSTYPE.pdf",
+      "originalPdfSha256": "cb4f4e4b730ba1b69587a00b8d57800e10fc3866ae6a4e8955d59dde2fee1add",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-34",
+      "code": "P1791",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1791.md",
+      "sourceId": "jaguar-dtc-nonstype-1995-2002",
+      "sourceUrl": "https://www.jcna.com/sites/default/files/NONSTYPE.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer34/NONSTYPE.txt",
+      "physicalPagesChecked": [
+        259
+      ],
+      "outcome": "metadata_corrected_unresolved_canonical_conflict",
+      "verifiedEvidence": "4L80-E row259 is TPS signal, ECM-to-TCM circuit/output, ignition on,2check-engine trips/1transmission warning/no limp-home. Canonical title says ignition supply malfunction.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer34/NONSTYPE.pdf",
+      "originalPdfSha256": "cb4f4e4b730ba1b69587a00b8d57800e10fc3866ae6a4e8955d59dde2fee1add",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-36",
+      "code": "C059B",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/C059B.md",
+      "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+      "sourceUrl": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2018/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.txt",
+      "physicalPagesChecked": [
+        1662
+      ],
+      "outcome": "supported_with_existing_limitation",
+      "verifiedEvidence": "Rear-left test pulse>110percent or<90percent; offset done once, qualified brake/control states, immediate TypeA. Surrounding master-cylinder prose inconsistency is correctly disclosed.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "originalPdfSha256": "0a83cf12a9e27a4b9339d51a30ef62b857bf250247237d8663056f549b207ad3",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0A5E",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0A5E.md",
+      "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+      "sourceUrl": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2018/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.txt",
+      "physicalPagesChecked": [
+        1504
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "Absolute U-phase current<9A,0.4of0.6seconds; run,normalPWM,>50V,no active discharge,>10ms,phase within±30degrees,commanded-current squared>900A².",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "originalPdfSha256": "0a83cf12a9e27a4b9339d51a30ef62b857bf250247237d8663056f549b207ad3",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0AA8",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0AA8.md",
+      "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+      "sourceUrl": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2018/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.txt",
+      "physicalPagesChecked": [
+        757
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "Absolute(sensor1+sensor2−HVbattery)>5V; isolation-bias switch open,valid battery voltage,40of50samples at12.5ms,TypeB2trips.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "originalPdfSha256": "0a83cf12a9e27a4b9339d51a30ef62b857bf250247237d8663056f549b207ad3",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-36",
+      "code": "P0B72",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/P0B72.md",
+      "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+      "sourceUrl": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2018/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.txt",
+      "physicalPagesChecked": [
+        832
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "Calculated cell sense-line resistance>30ohms under balancing-gate test;7of9samples/100ms,>10.2V,no BICM communication fault,TypeA1trip.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "originalPdfSha256": "0a83cf12a9e27a4b9339d51a30ef62b857bf250247237d8663056f549b207ad3",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    },
+    {
+      "batch": "batch-36",
+      "code": "U01A0",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-36/U01A0.md",
+      "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+      "sourceUrl": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2018/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "localTextPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.txt",
+      "physicalPagesChecked": [
+        1287,
+        1288
+      ],
+      "outcome": "supported",
+      "verifiedEvidence": "UART daisy-chain diagnostic after U179C; first unrecoverable BICM,4.5seconds,TypeA1trip;100ms passing alternatives. Continuation confirms failure description.",
+      "originalPdfPath": "/workspace/scratch/dbf135311373/wave4/writer36/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "originalPdfSha256": "0a83cf12a9e27a4b9339d51a30ef62b857bf250247237d8663056f549b207ad3",
+      "method": "Read exact physical-page content from original PDF paginated layout extraction, including section headings and cross-page context where needed."
+    }
+  ],
+  "additionalTargetedMetadataChecks": [
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1792.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": true,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Canonical ignition-supply wording conflicts with the article’s disclosed ZF4HP24 sport-mode indicator definition."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1730.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": true,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Canonical gear coverage includes fifth gear, whereas the article explicitly scopes the source to second/third/fourth."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1252.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": true,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Canonical VSV stuck-on shorthand is narrower than the article’s source-scoped mechanical-guard position monitor; mapping remains unresolved."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1253.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": true,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Canonical VSV stuck-on shorthand is narrower than the article’s source-scoped engine-off mechanical-guard position monitor; mapping remains unresolved."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1373.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": true,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1376.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": true,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1398.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": true,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Canonical high-input wording conflicts with the article’s disclosed AJ26 source short-to-ground interpretation."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1700.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": true,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Canonical failed-to-neutral wording conflicts with the article’s disclosed fourth-gear fallback on the scoped5HP24 implementation."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1189.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": false,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Source-internal low/high-resistance cause-list ambiguity disclosed; no further correction made without independent row review."
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1195.md",
+      "readExtent": "Metadata and targeted conflict/limitation paragraphs only; not an additional full-body sample or primary-source check.",
+      "primarySourceChecked": false,
+      "reviewClassificationChanged": false,
+      "basis": "batch-34/research-notes.json documentedLimitations and article disclosure.",
+      "reason": "Source-internal low/high-resistance cause-list ambiguity disclosed; no further correction made without independent row review."
+    }
+  ],
+  "fixes": [
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-32/P0298.md",
+      "kind": "unsupported operating-state wording",
+      "before": "A later normal temperature reading does not describe the hot-start condition that enabled this check.",
+      "after": "A later normal temperature reading does not reconstruct the initial high-temperature, low-speed condition that enabled this check.",
+      "evidence": "Ford DOBDSM201 physical page12 describes continuous monitoring and initial EOT >110°C with engine speed <1000rpm; it does not restrict the monitor to a hot start.",
+      "sourceCheckedInThisReview": true,
+      "beforeSha256": "aefa1012f5f8385c6aaa30f4cb1fa5730bf64320c63653ba9cc3e75893d2c8ed",
+      "afterSha256": "fc81cd6d1dafc8f2e66a1b531d6bfe20989ba3039a70cf2ce7d48c21ccc55f00"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1252.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical VSV stuck-on shorthand is narrower than the article’s source-scoped mechanical-guard position monitor; mapping remains unresolved.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": false,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "f270f8a86aee63f5995168f0faef3ad9038242fb379e0e71c1f00aee45323e15",
+      "afterSha256": "05811dc4e63db409ac9ae9c5a7045a28644574f06bb4968b6f8ec791553e2154"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1253.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical VSV stuck-on shorthand is narrower than the article’s source-scoped engine-off mechanical-guard position monitor; mapping remains unresolved.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": false,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "e104702ca105d7755e3b85385687ed278b7dff0dd8dd54e3af7ee9edf2778a0c",
+      "afterSha256": "5def329093ff9bf5d4cfe72b7155740ab8a8b7b237219829dd56d36c53298ed4"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1373.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": false,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "bc43a09786a2df766d3c159ade9e84d6683a5cecc526298c3d567c03f2fce945",
+      "afterSha256": "30dccbbd3e870bd0372d98a8e61673b0c39478fdd4a75b238be7cea7ba37d418"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1376.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical early-activation direction is narrower than the source-scoped incorrect spark-timing definition disclosed in the article.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": false,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "32d0ec75b35adf5e124a2f52d48b1a093678ed6a71ae95d60f9165893154472c",
+      "afterSha256": "d211112355cd0767f1c3b8e9f72c813f12a2b4a4d62afcc7547e805e1bd5669e"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1398.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical high-input wording conflicts with the article’s disclosed AJ26 source short-to-ground interpretation.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": false,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "475e720cd3cd6857c1790458a8def7a82fb189bc33362db41b9d4c1e83fc8b0c",
+      "afterSha256": "cc322c88c18a26fdf4c64e1f49271e0ab65f110a587cd0e4a68052a9edb4c520"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1700.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical failed-to-neutral wording conflicts with the article’s disclosed fourth-gear fallback on the scoped5HP24 implementation.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": false,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "10f16db373b047354a1f4291ce32ff3320dd9c2418ca6c20577533be074d3cc7",
+      "afterSha256": "a6017e987619dc4c2aded0f06410050e4dd50273d43863d11dc6f07baf4e05b3"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1730.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical gear coverage includes fifth gear, whereas the article explicitly scopes the source to second/third/fourth.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": false,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "91ca566eba5d238f3856c6ba122e2253ab49b0fbd21028a3f5c597735ef0c8ff",
+      "afterSha256": "93f9a1ea5f8d9875a76ecf0fe14fd0705860584f7edbbfc4a9a113ea8ef28d50"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1791.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical ignition-supply malfunction conflicts with the verified4L80-E source TPS signal definition.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": true,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "c0abd77556b33321b021428baf5df95f3cae9af74d0eca9ebf380cabbb3d64ef",
+      "afterSha256": "23d893db7643cd5260c982f1edc1754ee840ebd5d7999e45bc612282e8a12d64"
+    },
+    {
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-34/P1792.md",
+      "kind": "sourceReview classification",
+      "before": "checked",
+      "after": "needs-review",
+      "reason": "Canonical ignition-supply wording conflicts with the article’s disclosed ZF4HP24 sport-mode indicator definition.",
+      "diagnosticClaimsChanged": false,
+      "sourceCheckedInThisReview": false,
+      "evidenceBasis": "Article conflict disclosure and batch34 research-notes.json; independent PDF confirmation additionally performed for P1791.",
+      "beforeSha256": "f7683de31935c6897362e2c7fdf59a6fe99a7cf440d2772e389252d635c0d1f3",
+      "afterSha256": "cce9d6f1821ceb3a832d23a38b815ba9dab9a1fb9ba183493ebbd6254489e1e7"
+    }
+  ],
+  "findings": {
+    "clearDiagnosticWordingCorrections": 1,
+    "reviewClassificationCorrections": 9,
+    "primarySourceMatchesWithoutDiagnosticClaimChanges": 19,
+    "incidentalListMisuseFoundInSourceSample": false,
+    "unsafeRepairInstructionsFoundInBodySample": false,
+    "existingLimitationsPreserved": [
+      "P01E3 sensor-name mapping",
+      "P0334 G66/G62 publisher inconsistency",
+      "P2133 generic/VAG terminology",
+      "C059B sensor-location prose inconsistency"
+    ],
+    "metadataPattern": "Batch34 author notes and article disclosures contained explicit canonical-definition limitations while metadata said checked. Nine records now say needs-review; these changes classify disclosed uncertainty and do not resolve it.",
+    "sourceFidelityLimitations": [
+      "P2027 retains a source current criterion under a high-voltage title; no independent workshop validation of that unusual table entry was performed.",
+      "P1295 remains expressly limited to the source3.2L monitor and does not certify the broader legacy catalog shorthand.",
+      "P1189/P1195 disclose internal source ambiguity; only targeted excerpts were inspected and no new original-row check was performed."
+    ]
+  },
+  "limitations": [
+    "Only the20listed article-source relationships were independently checked against original publisher material. Body-only observations do not verify all numeric claims.",
+    "Additional metadata corrections rely on existing disclosed conflicts plus author notes; only sampled P1791 received an independent original-row check.",
+    "PDF checks used paginated text extracted from the original downloaded PDFs, with section/physical-page context. No full-document visual audit or vehicle-specific workshop validation was performed.",
+    "No model applicability beyond explicit source sections was certified; no vehicles, repairs or diagnostic procedures were physically tested.",
+    "No shared source partitions, publication manifests, generated reports, commits or deployment settings were changed."
+  ],
+  "postEditValidation": {
+    "sampleMetadataParses": true,
+    "bodySampleCount": 40,
+    "sourceArticleCheckCount": 20,
+    "uniqueBodySampleCount": 40,
+    "editedFileCount": 10,
+    "diagnosticClaimsUnchangedForMetadataCorrections": true
+  }
+}

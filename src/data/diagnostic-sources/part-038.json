@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "jeep-2003-tj-powertrain-diagnostic-procedures",
+    "title": "2003 Jeep Wrangler TJ Powertrain Diagnostic Procedures",
+    "publisher": "DaimlerChrysler Corporation (original manual; Jeep-manual.ru mirror)",
+    "url": "https://jeep-manual.ru/files/TJ2003/15847-tj-powertrain_sgmldiag.pdf",
+    "documentScope": "DaimlerChrysler 2003 Jeep Wrangler TJ 2.4L and 4.0L powertrain diagnostic procedure manual; use only the documented system and equipment.",
+    "makeIds": [
+      "jeep"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Downloaded original PDF; pdftotext -layout; full diagnostic procedures read",
+    "pageCount": 266,
+    "sha256": "2c1018a5158cd181a921b49acce4b711d2b2f281831bf982821289564905825f",
+    "codeMentions": [
+      {
+        "code": "P1294",
+        "pages": [
+          145,
+          146
+        ]
+      },
+      {
+        "code": "P1296",
+        "pages": [
+          147,
+          148
+        ]
+      },
+      {
+        "code": "P1388",
+        "pages": [
+          152,
+          153
+        ]
+      },
+      {
+        "code": "P1389",
+        "pages": [
+          154,
+          155
+        ]
+      },
+      {
+        "code": "P1486",
+        "pages": [
+          162,
+          163
+        ]
+      },
+      {
+        "code": "P1492",
+        "pages": [
+          166,
+          167
+        ]
+      },
+      {
+        "code": "P1493",
+        "pages": [
+          168,
+          169
+        ]
+      },
+      {
+        "code": "P1494",
+        "pages": [
+          170,
+          171
+        ]
+      },
+      {
+        "code": "P1495",
+        "pages": [
+          172,
+          173
+        ]
+      },
+      {
+        "code": "P1597",
+        "pages": [
+          183,
+          184
+        ]
+      },
+      {
+        "code": "P1683",
+        "pages": [
+          176,
+          177,
+          178,
+          179
+        ]
+      },
+      {
+        "code": "P1685",
+        "pages": [
+          188,
+          189
+        ]
+      },
+      {
+        "code": "P1899",
+        "pages": [
+          196,
+          197
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+    "title": "2002 WJ/WG 45RFE/545RFE Transmission Diagnostic Procedures",
+    "publisher": "DaimlerChrysler Corporation (original manual; public mirror)",
+    "url": "https://www.colorado4wheel.com/manuals/Jeep/WJ/2002_WJ%3AWG_Diesel/02wget.pdf",
+    "downloadUrl": "https://jeep-manual.ru/files/WG/servicemanualWG-2002.zip",
+    "archiveMember": "WG/02wget.pdf",
+    "documentScope": "DaimlerChrysler 2002 WJ/WG 45RFE/545RFE transmission diagnostic manual; cited procedures marked 5-speed 545RFE. Model and calibration-specific interpretation.",
+    "makeIds": [
+      "jeep"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Original PDF extracted from publisher-manual mirror ZIP; pdftotext -layout; specific diagnostic trees read",
+    "pageCount": 260,
+    "sha256": "2ebe4967594b41e673efa31891c9cadefcbe9a458a769401064f4ddbabd5ecd6",
+    "codeMentions": [
+      {
+        "code": "P0870",
+        "pages": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "code": "P0875",
+        "pages": [
+          133,
+          134,
+          135,
+          136,
+          137,
+          138
+        ]
+      },
+      {
+        "code": "P0884",
+        "pages": [
+          143
+        ]
+      },
+      {
+        "code": "P0888",
+        "pages": [
+          144,
+          145,
+          146,
+          147
+        ]
+      },
+      {
+        "code": "P0890",
+        "pages": [
+          148,
+          149,
+          150,
+          151
+        ]
+      },
+      {
+        "code": "P0891",
+        "pages": [
+          152,
+          153,
+          154
+        ]
+      },
+      {
+        "code": "P0932",
+        "pages": [
+          155,
+          156,
+          157,
+          158
+        ]
+      },
+      {
+        "code": "P0987",
+        "pages": [
+          162,
+          163,
+          164,
+          165,
+          166,
+          167
+        ]
+      },
+      {
+        "code": "P0988",
+        "pages": [
+          168,
+          169,
+          170,
+          171
+        ]
+      },
+      {
+        "code": "P1684",
+        "pages": [
+          172,
+          173
+        ]
+      },
+      {
+        "code": "P1694",
+        "pages": [
+          174,
+          175
+        ]
+      },
+      {
+        "code": "P2706",
+        "pages": [
+          208,
+          209,
+          210,
+          211
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+    "title": "2002 WJ/WG Gas Powertrain Diagnostic Procedures",
+    "publisher": "DaimlerChrysler Corporation (original factory manual; public mirror)",
+    "url": "https://www.colorado4wheel.com/manuals/Jeep/WJ/2002_WJ%3AWG_Diesel/02wgep.pdf",
+    "downloadUrl": "https://jeep-manual.ru/files/WG/servicemanualWG-2002.zip",
+    "archiveMember": "WG/02wgep.pdf",
+    "documentScope": "2002 WJ/WG gas powertrain manual 02wgep; hydraulic-fan and A/C circuits as documented; transmission procedures exclude 5-speed 545RFE (P1762 marked without DG4).",
+    "makeIds": [
+      "jeep"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Original PDF extracted from mirrored factory-manual ZIP; pdftotext -layout; code-specific procedures read",
+    "pageCount": 410,
+    "sha256": "4345ad504b79350d2d6134bae162c4b1fbdb0552ba0ae059a71e2cc8aa853983",
+    "codeMentions": [
+      {
+        "code": "P1499",
+        "pages": [
+          222,
+          223
+        ]
+      },
+      {
+        "code": "P1598",
+        "pages": [
+          241,
+          242,
+          243
+        ]
+      },
+      {
+        "code": "P1599",
+        "pages": [
+          244,
+          245,
+          246
+        ]
+      },
+      {
+        "code": "P0783",
+        "pages": [
+          317,
+          318,
+          319,
+          320
+        ]
+      },
+      {
+        "code": "P1757",
+        "pages": [
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337
+        ]
+      },
+      {
+        "code": "P1762",
+        "pages": [
+          338,
+          339,
+          340,
+          341
+        ]
+      },
+      {
+        "code": "P1763",
+        "pages": [
+          342,
+          343,
+          344,
+          345,
+          346
+        ]
+      },
+      {
+        "code": "P1764",
+        "pages": [
+          347,
+          348,
+          349,
+          350
+        ]
+      },
+      {
+        "code": "P1765",
+        "pages": [
+          351,
+          352,
+          353
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeep-2002-wg-27-diesel-diagnostics",
+    "title": "2002 WG 2.7L Diesel Diagnostic Procedures",
+    "publisher": "DaimlerChrysler Corporation (original factory manual; public mirror)",
+    "url": "https://www.colorado4wheel.com/manuals/Jeep/WJ/2002_WJ%3AWG_Diesel/02wged.pdf",
+    "downloadUrl": "https://jeep-manual.ru/files/WG/servicemanualWG-2002.zip",
+    "archiveMember": "WG/02wged.pdf",
+    "documentScope": "DaimlerChrysler 2002 WG body with 2.7L diesel engine, ECM diagnostic procedures; subtypes retained rather than generalized to other vehicles.",
+    "makeIds": [
+      "jeep"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Original PDF extracted from mirrored factory-manual ZIP; pdftotext -layout; code-specific procedures read",
+    "pageCount": 284,
+    "sha256": "a18a7c6240a0ae0325063778422c777309a0a87b83ad56c52afed5faa32a0523",
+    "codeMentions": [
+      {
+        "code": "P0382",
+        "pages": [
+          92,
+          93,
+          94
+        ]
+      },
+      {
+        "code": "P0514",
+        "pages": [
+          109,
+          110,
+          111,
+          112
+        ]
+      },
+      {
+        "code": "P0530",
+        "pages": [
+          120,
+          121,
+          122,
+          123,
+          124
+        ]
+      },
+      {
+        "code": "P0579",
+        "pages": [
+          131,
+          132,
+          133,
+          134,
+          135,
+          136
+        ]
+      },
+      {
+        "code": "P0702",
+        "pages": [
+          161
+        ]
+      },
+      {
+        "code": "P0836",
+        "pages": [
+          166,
+          167,
+          168
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeep-2003-kj-gas-powertrain-diagnostics",
+    "title": "2003 KJ Gas Powertrain Diagnostic Procedures",
+    "publisher": "DaimlerChrysler Corporation (original factory manual; public mirror)",
+    "url": "https://jeep-manual.ru/files/KJ/KJ_2003_servicemanual.zip",
+    "downloadUrl": "https://jeep-manual.ru/files/KJ/KJ_2003_servicemanual.zip",
+    "archiveMember": "KJ-2003/15884kjpwr_sgmldiag.pdf",
+    "documentScope": "DaimlerChrysler 2003 KJ gas powertrain diagnostic manual, mechanical transfer-case section; original member KJ-2003/15884kjpwr_sgmldiag.pdf.",
+    "makeIds": [
+      "jeep"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Original PDF extracted from mirrored factory-manual ZIP; pdftotext -layout; code-specific procedures read",
+    "pageCount": 308,
+    "sha256": "044ea620fec1982906abf17eaeaf2e8fd80cd3f74dfd020b3b6a0b09cf928a61",
+    "codeMentions": [
+      {
+        "code": "P0837",
+        "pages": [
+          258,
+          259
+        ]
+      },
+      {
+        "code": "P0838",
+        "pages": [
+          260,
+          261
+        ]
+      },
+      {
+        "code": "P0839",
+        "pages": [
+          262,
+          263
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vw-golf-diesel-0599-fault-table",
+    "title": "Volkswagen Golf Mk4 distributor-pump diesel: 0599-fault-table",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_glow_plug_system_with_distributor_pump_as_of_05.99/self_diagnosis_v.a.g_inspection_service/fault_table/",
+    "documentScope": "Volkswagen Golf Mk4 distributor-pump diesel workshop documentation from May 1999; engine-specific branches and equipment limits apply.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read original workshop text and diagnostic branches through public HTML mirror; exact heading and code locators retained.",
+    "codeMentions": [
+      {
+        "code": "P1156",
+        "locator": "P1156 fault-table row and associated cause/effect/remedy columns"
+      },
+      {
+        "code": "P1160",
+        "locator": "P1160 fault-table row and associated cause/effect/remedy columns"
+      },
+      {
+        "code": "P1561",
+        "locator": "P1561 fault-table row and associated cause/effect/remedy columns"
+      },
+      {
+        "code": "P1618",
+        "locator": "P1618 fault-table row and associated cause/effect/remedy columns"
+      },
+      {
+        "code": "P1657",
+        "locator": "P1657 fault-table row and associated cause/effect/remedy columns"
+      }
+    ]
+  },
+  {
+    "id": "vw-golf-diesel-0599-g71-f96",
+    "title": "Volkswagen Golf Mk4 distributor-pump diesel: 0599-g71-f96",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_glow_plug_system_with_distributor_pump_as_of_05.99/fuel_preparation_system_diesel_injection/checking_components_and_functions/checking__intake_manifold_pressure_sender_g71__and__altitude_sender_f96/",
+    "documentScope": "Volkswagen Golf Mk4 distributor-pump diesel workshop documentation from May 1999; engine-specific branches and equipment limits apply.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read original workshop text and diagnostic branches through public HTML mirror; exact heading and code locators retained.",
+    "codeMentions": [
+      {
+        "code": "P1156",
+        "locator": "G71/F96 comparison in measured value block10; G71 disconnection response"
+      }
+    ]
+  },
+  {
+    "id": "vw-golf-diesel-0599-g72",
+    "title": "Volkswagen Golf Mk4 distributor-pump diesel: 0599-g72",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_glow_plug_system_with_distributor_pump_as_of_05.99/fuel_preparation_system_diesel_injection/checking_components_and_functions/checking__intake_manifold_temperature_sender_g72/",
+    "documentScope": "Volkswagen Golf Mk4 distributor-pump diesel workshop documentation from May 1999; engine-specific branches and equipment limits apply.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read original workshop text and diagnostic branches through public HTML mirror; exact heading and code locators retained.",
+    "codeMentions": [
+      {
+        "code": "P1160",
+        "locator": "G72 measured value block7 zone3; resistance-temperature examples and engine-specific wiring branches"
+      }
+    ]
+  },
+  {
+    "id": "vw-golf-diesel-0599-n146",
+    "title": "Volkswagen Golf Mk4 distributor-pump diesel: 0599-n146",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_glow_plug_system_with_distributor_pump_as_of_05.99/fuel_preparation_system_diesel_injection/checking_components_and_functions/checking__modulating_piston_movement_sender_g149__and__metering_adjuster_n146/checking__metering_adjuster_n146/",
+    "documentScope": "Volkswagen Golf Mk4 distributor-pump diesel workshop documentation from May 1999; engine-specific branches and equipment limits apply.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read original workshop text and diagnostic branches through public HTML mirror; exact heading and code locators retained.",
+    "codeMentions": [
+      {
+        "code": "P1561",
+        "locator": "Checking metering adjuster N146; resistance and wiring decision branches"
+      }
+    ]
+  },
+  {
+    "id": "vw-golf-diesel-0499-fault-table",
+    "title": "Volkswagen Golf Mk4 distributor-pump diesel: 0499-fault-table",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_preglow_system_with_distributor-type_pump_to_04.99/self_diagnosis_v.a.g_inspection_service/fault_memory/fault_table/fault_code_16485__65535/",
+    "documentScope": "Volkswagen Golf Mk4 distributor-pump diesel workshop documentation through April 1999; engine-specific branches and equipment limits apply.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read original workshop text and diagnostic branches through public HTML mirror; exact heading and code locators retained.",
+    "codeMentions": [
+      {
+        "code": "P1616",
+        "locator": "P1616 fault-table row and associated cause/effect/remedy columns"
+      },
+      {
+        "code": "P1617",
+        "locator": "P1617 fault-table row and associated cause/effect/remedy columns"
+      }
+    ]
+  },
+  {
+    "id": "vw-golf-diesel-0499-output-test",
+    "title": "Volkswagen Golf Mk4 distributor-pump diesel: 0499-output-test",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_preglow_system_with_distributor-type_pump_to_04.99/self_diagnosis_v.a.g_inspection_service/final_control_diagnosis/performing_final_control_diagnosis/",
+    "documentScope": "Volkswagen Golf Mk4 distributor-pump diesel workshop documentation through April 1999; engine-specific branches and equipment limits apply.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read original workshop text and diagnostic branches through public HTML mirror; exact heading and code locators retained.",
+    "codeMentions": [
+      {
+        "code": "P1616",
+        "locator": "Final control diagnosis; K29 lamp stage, distinct from J52 relay stage"
+      },
+      {
+        "code": "P1617",
+        "locator": "Final control diagnosis; glow period warning lamp K29 commanded flashing"
+      }
+    ]
+  },
+  {
+    "id": "vw-golf-diesel-0599-output-test",
+    "title": "Volkswagen Golf Mk4 distributor-pump diesel: 0599-output-test",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/golf-mk4/power_unit/direct_injection_and_glow_plug_system_with_distributor_pump_as_of_05.99/self_diagnosis_v.a.g_inspection_service/final_control_diagnosis/performing_final_control_diagnosis/",
+    "documentScope": "Volkswagen Golf Mk4 distributor-pump diesel workshop documentation from May 1999; engine-specific branches and equipment limits apply.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read original workshop text and diagnostic branches through public HTML mirror; exact heading and code locators retained.",
+    "codeMentions": [
+      {
+        "code": "P1618",
+        "locator": "Final control diagnosis; J52 relay response and visible load effect"
+      },
+      {
+        "code": "P1657",
+        "locator": "A/C test prerequisites and conditioner compressor interruption stage"
+      }
+    ]
+  },
+  {
+    "id": "mazda3-2019-id140202300000",
+    "title": "Mazda M Hybrid ISG phase-current sensor DTC diagnostic procedure",
+    "publisher": "Mazda Motor Corporation (original workshop manual; Operation CHARM mirror)",
+    "url": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140202300000.html",
+    "documentScope": "Mazda3 workshop manual from 2019, revision d9n1-1a-22d_ver10; Mazda M Hybrid integrated starter generator, diagnostic page id140202300000. Generic code identity explained through this specific implementation.",
+    "makeIds": [
+      "mazda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read complete original HTML manual text from locally retrieved page; web-tool fetch independently attempted but unavailable. Original identifier retained.",
+    "codeMentions": [
+      {
+        "code": "P0E02",
+        "locator": "P0E02:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification"
+      },
+      {
+        "code": "P0E03",
+        "locator": "P0E03:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification"
+      },
+      {
+        "code": "P0E06",
+        "locator": "P0E06:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification"
+      },
+      {
+        "code": "P0E07",
+        "locator": "P0E07:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification"
+      },
+      {
+        "code": "P0E0A",
+        "locator": "P0E0A:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification"
+      },
+      {
+        "code": "P0E0B",
+        "locator": "P0E0B:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification"
+      }
+    ]
+  },
+  {
+    "id": "vw-polo-4lv-p1-fault-table",
+    "title": "Volkswagen Polo4LV SAE P1 fault table",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/polo-mk3/power_unit/4lv_injection_and_ignition_system/self_diagnosis_v.a.g_inspection_service/fault_table_from_v.a.g_code_17510/sae_p1_codes/",
+    "documentScope": "Volkswagen Polo Mk3 4LV injection and ignition system; original workshop diagnostic table and named component procedure. Exact engine-year applicability beyond this source is not asserted.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read exact code rows and linked original component procedures in HTML mirror.",
+    "codeMentions": [
+      {
+        "code": "P1439",
+        "locator": "P1439 row and fault-elimination column"
+      },
+      {
+        "code": "P1553",
+        "locator": "P1553 row and fault-elimination column"
+      },
+      {
+        "code": "P1554",
+        "locator": "P1554 row and fault-elimination column"
+      },
+      {
+        "code": "P1626",
+        "locator": "P1626 row and fault-elimination column"
+      }
+    ]
+  },
+  {
+    "id": "vw-polo-4lv-egr74",
+    "title": "Volkswagen Polo4LV Volkswagen EGR position adaptation and a failed basic setting",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/polo-mk3/power_unit/4lv_injection_and_ignition_system/self_diagnosis_v.a.g_inspection_service/evaluating_measured_value_blocks_display_groups_70...75_-exhaust_gas_recirculation-/",
+    "documentScope": "Volkswagen Polo Mk3 4LV injection and ignition system; original workshop diagnostic table and named component procedure. Exact engine-year applicability beyond this source is not asserted.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read full original workshop component procedure in HTML mirror.",
+    "codeMentions": [
+      {
+        "code": "P1439",
+        "locator": "Display group74 EGR-position adaptation; endpoint voltages and ADP status; linked from code row in factory fault table"
+      }
+    ]
+  },
+  {
+    "id": "vw-polo-4lv-map",
+    "title": "Volkswagen Polo4LV Volkswagen pressure-ratio plausibility and the intake-system checks",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/polo-mk3/power_unit/4lv_injection_and_ignition_system/mixture_preparation_system_electronic_inj.gas/checking_components/checking_intake_manifold_pressure_sender/",
+    "documentScope": "Volkswagen Polo Mk3 4LV injection and ignition system; original workshop diagnostic table and named component procedure. Exact engine-year applicability beyond this source is not asserted.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read full original workshop component procedure in HTML mirror.",
+    "codeMentions": [
+      {
+        "code": "P1553",
+        "locator": "G71 measured value block3; fixed91/1254mbar interpretation and separate circuit branches; linked from code row in factory fault table"
+      }
+    ]
+  },
+  {
+    "id": "vw-polo-4lv-throttle-adapt",
+    "title": "Volkswagen Polo4LV Volkswagen throttle adaptation prerequisites and interrupted learning",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/polo-mk3/power_unit/4lv_injection_and_ignition_system/mixture_preparation_system_electronic_inj.gas/engine_control_unit/adapting_engine_control_unit_to_throttle_valve_control_part/",
+    "documentScope": "Volkswagen Polo Mk3 4LV injection and ignition system; original workshop diagnostic table and named component procedure. Exact engine-year applicability beyond this source is not asserted.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read full original workshop component procedure in HTML mirror.",
+    "codeMentions": [
+      {
+        "code": "P1554",
+        "locator": "Test conditions; group60 learning and spring test; successful storage and interruption notes; linked from code row in factory fault table"
+      }
+    ]
+  },
+  {
+    "id": "vw-polo-4lv-can",
+    "title": "Volkswagen Polo4LV Volkswagen missing transmission messages and the CAN test boundary",
+    "publisher": "Volkswagen AG (original workshop instructions; workshop-manuals.com mirror)",
+    "url": "https://workshop-manuals.com/volkswagen/polo-mk3/power_unit/4lv_injection_and_ignition_system/mixture_preparation_system_electronic_inj.gas/checking_additional_signals/checking_data_bus/",
+    "documentScope": "Volkswagen Polo Mk3 4LV injection and ignition system; original workshop diagnostic table and named component procedure. Exact engine-year applicability beyond this source is not asserted.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Read full original workshop component procedure in HTML mirror.",
+    "codeMentions": [
+      {
+        "code": "P1626",
+        "locator": "Function; centralized matching resistor check with ECU isolated from harness; wiring branch; linked from code row in factory fault table"
+      }
+    ]
+  },
+  {
+    "id": "ford-2012-f150-u300d",
+    "title": "ford 2012 f150 u300d",
+    "publisher": "Ford Motor Company (original workshop manual; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/F%20150%204WD%20V6-3.7L/Repair%20and%20Diagnosis/Transmission%20and%20Drivetrain/Transfer%20Case/Testing%20and%20Inspection/Pinpoint%20Tests/Four%20Wheel%20Drive%20%284WD%29%20Systems%20-%202-Speed%20Torque-on-Demand/Pinpoint%20Test%20L%3A%20DTC%20U300D%3A11/",
+    "documentScope": "Ford 2012 F-150 4WD 3.7L, two-speed torque-on-demand transfer case; Pinpoint Test L for U300D:11.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Downloaded original HTML; read full pinpoint procedure and visually checked fault-trigger chart.",
+    "sha256": "f3ec85cb15df8648d4fe9849ca34663e3169f1850e099bcc7f98590c3f54bc1c",
+    "codeMentions": [
+      {
+        "code": "U300D",
+        "locator": "Normal Operation; U300D:11 trigger; L1 KEY_POS_4X4 versus KEY_STATUS_4X4 branches"
+      }
+    ]
+  },
+  {
+    "id": "ford-2012-fiesta-ignition-compare",
+    "title": "ford 2012 fiesta ignition compare",
+    "publisher": "Ford Motor Company (original workshop manual; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U300F/",
+    "documentScope": "Ford 2012 Fiesta 1.6L with intelligent-access start/stop system; original Pinpoint Test I for U300E/U300F/U3010/U3011 suffix 62. Does not establish applicability to all Ford ignition systems.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Downloaded original HTML; read full pinpoint procedure and visually checked fault-trigger chart.",
+    "sha256": "552b1d053c652e25b1a6ac909b450a433eead30a1b07102470e4b045cff44770",
+    "codeMentions": [
+      {
+        "code": "U300F",
+        "locator": "Fault Trigger Conditions image; I1–I8 IPC feeds and accessory relay; I10–I16 follow-through"
+      },
+      {
+        "code": "U3010",
+        "locator": "Fault Trigger Conditions image; I9/I10 related-DTC priority; U3010 branch to I12 and circuit isolation"
+      },
+      {
+        "code": "U3011",
+        "locator": "Fault Trigger Conditions image; I10–I13 sense and accessory circuit short-to-voltage isolation; I16"
+      }
+    ]
+  },
+  {
+    "id": "gm-pic6556h",
+    "title": "gm pic6556h",
+    "publisher": "General Motors",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2025/MC-11012948-0001.pdf",
+    "documentScope": "Historical General Motors bulletins PIT6055C (May 2024), PIT6186A (September 2024), and PIC6556H (January 2025); model, build-date, RPO and suffix limits retained. Not a claim of latest guidance.",
+    "makeIds": [
+      "gmc",
+      "chevrolet",
+      "cadillac",
+      "buick"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Downloaded original PDF and extracted complete text.",
+    "sha256": "711f7be237cb4ca476ce050068826d72d20550713bd73c7ac31becf0baeac2d9",
+    "codeMentions": [
+      {
+        "code": "B0126",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "pageCount": 2
+  },
+  {
+    "id": "gm-pit6055c",
+    "title": "gm pit6055c",
+    "publisher": "General Motors",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-11006296-0001.pdf",
+    "documentScope": "Historical General Motors bulletins PIT6055C (May 2024), PIT6186A (September 2024), and PIC6556H (January 2025); model, build-date, RPO and suffix limits retained. Not a claim of latest guidance.",
+    "makeIds": [
+      "gmc",
+      "chevrolet",
+      "cadillac",
+      "buick"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Downloaded original PDF and extracted complete text.",
+    "sha256": "51f8f681b55432c1a17abdeb891b9b287d7f53265f61ba56d1ee12f040f2241a",
+    "codeMentions": [
+      {
+        "code": "B0126",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "pageCount": 2
+  },
+  {
+    "id": "gm-pit6186a",
+    "title": "gm pit6186a",
+    "publisher": "General Motors",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-11009145-0001.pdf",
+    "documentScope": "Historical General Motors bulletins PIT6055C (May 2024), PIT6186A (September 2024), and PIC6556H (January 2025); model, build-date, RPO and suffix limits retained. Not a claim of latest guidance.",
+    "makeIds": [
+      "gmc",
+      "chevrolet",
+      "cadillac",
+      "buick"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Downloaded original PDF and extracted complete text.",
+    "sha256": "82eec12590ca83401599c067798221a1c155704db9fbe00e28d2841cbe134618",
+    "codeMentions": [
+      {
+        "code": "B0126",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "pageCount": 2
+  },
+  {
+    "id": "ford-escape-fourthgen-awd-pinpoint-tests",
+    "title": "Ford Escape AWD diagnosis: PTU, RDU, module and communication pinpoint tests",
+    "publisher": "Ford Motor Company (original workshop procedure; fordescape4.com mirror)",
+    "url": "https://www.fordescape4.com/ford_escape_diagnosis_and_testing_four_wheel_drive_systems-2756.html",
+    "documentScope": "Original Ford fourth-generation Escape AWD workshop pinpoint procedures, publicly mirrored under 2020–2026 service-manual grouping; exact original revision and universal build applicability not supplied. Only described AWD system and suffix-specific facts used.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Downloaded full HTML159365bytes; read complete DTC triggers and pinpoint testsA–N. Apparent transcription anomalies recorded and not propagated.",
+    "sha256": "817776b78097cd08521020f243c88f6c791fb13f06a4b9c2404d1972d518ed9d",
+    "codeMentions": [
+      {
+        "code": "C0090",
+        "locator": "Pinpoint Test A; four C0090 suffix triggers; motor circuit checks"
+      },
+      {
+        "code": "C0091",
+        "locator": "Pinpoint Test B; C0091 suffixes17/32/33/38/92; B1 shared-source decision"
+      },
+      {
+        "code": "C0092",
+        "locator": "Pinpoint Tests C and M; fork signal duty/frequency and C0092:92 mechanical branch"
+      },
+      {
+        "code": "C0093",
+        "locator": "Pinpoint Test D; suffix16/17/92 and thermistor resistance-temperature evaluation"
+      },
+      {
+        "code": "C0095",
+        "locator": "Pinpoint Tests I and N; C0095 suffixes07/18/19/44/71/92/99"
+      },
+      {
+        "code": "C0096",
+        "locator": "Pinpoint Test N; C0096:54 missing configuration;16-character RDU identifier routine"
+      },
+      {
+        "code": "C0099",
+        "locator": "Pinpoint Test G; C0099:14/:16/:17 and shared supply/return checks"
+      },
+      {
+        "code": "C009A",
+        "locator": "Pinpoint Test G; C009A:14/:17; shared diagnostic circuit isolation; ambiguous16 wording excluded"
+      },
+      {
+        "code": "C009B",
+        "locator": "Pinpoint Test G; C009B:14/:16/:17; supply, return and circuit checks"
+      },
+      {
+        "code": "C00A1",
+        "locator": "Pinpoint Test E; C00A1 suffix08/46/57/F1; voltage-first diagnosis and sleep/recheck"
+      },
+      {
+        "code": "C00A2",
+        "locator": "Pinpoint Tests A/B/E; C00A2:19/:1C and internal suffix routing"
+      },
+      {
+        "code": "C00A3",
+        "locator": "Pinpoint Tests J/E; C00A3:1C reference range versus internal-driver suffixes"
+      },
+      {
+        "code": "C05F0",
+        "locator": "Pinpoint Test H; C05F0:00 trigger and supply/signal-return branches"
+      },
+      {
+        "code": "C05F1",
+        "locator": "Pinpoint Test H; C05F1:00 short-to-power classification and H4 isolation"
+      },
+      {
+        "code": "C05F3",
+        "locator": "Pinpoint Test H; C05F3:00 supply-out-of-range trigger; approximately9V check and source branch"
+      },
+      {
+        "code": "C05F4",
+        "locator": "Pinpoint Test H; C05F4:00 plausibility trigger; separate H7 performance route"
+      },
+      {
+        "code": "U0138",
+        "locator": "Pinpoint Test F; U0138:00 missing-message duration; multi-module and voltage checks"
+      }
+    ]
+  },
+  {
+    "id": "ford-2012-fiesta-b0092",
+    "title": "Ford 2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM — Pinpoint Test O",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/B%20Code%20Charts/B0092/B0092%3A93/",
+    "documentScope": "2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM; no broader model fitment inferred.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "7605ee4d29aa802fe2cf78744f3404624a604baf9b12eff51ceb1d7a9b466863",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B0092.html",
+    "codeMentions": [
+      {
+        "code": "B0092",
+        "locator": "Pinpoint Test O; Normal Operation; O1–O16"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B0092.txt",
+    "imageUrls": [
+      "https://charm.li/images/DM11Q313/ford174/15807135/",
+      "https://charm.li/images/DM11Q313/ford174/15518512/",
+      "https://charm.li/images/DM11Q313/ford174/15508214/",
+      "https://charm.li/images/DM11Q313/ford174/15325933/",
+      "https://charm.li/images/DM11Q313/ford174/15528132/",
+      "https://charm.li/images/DM11Q313/ford174/15823075/",
+      "https://charm.li/images/DM11Q313/ford174/9378262/",
+      "https://charm.li/images/DM11Q313/ford174/15839800/",
+      "https://charm.li/images/DM11Q313/ford174/15554485/"
+    ]
+  },
+  {
+    "id": "ford-2012-fiesta-b0097",
+    "title": "Ford 2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM — Pinpoint Test N",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/B%20Code%20Charts/B0097/B0097%3A93/",
+    "documentScope": "2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM; no broader model fitment inferred.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "e7cbf332231e132bd0b0b0888f11b71828fbd0bf520910d65a1be6e7cc77ee1d",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B0097.html",
+    "codeMentions": [
+      {
+        "code": "B0097",
+        "locator": "Pinpoint Test N; Normal Operation; N1–N16"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B0097.txt",
+    "imageUrls": [
+      "https://charm.li/images/DM11Q313/ford174/15493076/",
+      "https://charm.li/images/DM11Q313/ford174/15508214/",
+      "https://charm.li/images/DM11Q313/ford174/15518512/",
+      "https://charm.li/images/DM11Q313/ford174/15528132/",
+      "https://charm.li/images/DM11Q313/ford174/15325933/",
+      "https://charm.li/images/DM11Q313/ford174/15538249/",
+      "https://charm.li/images/DM11Q313/ford174/15554485/",
+      "https://charm.li/images/DM11Q313/ford174/15562950/",
+      "https://charm.li/images/DM11Q313/ford174/9378262/"
+    ]
+  },
+  {
+    "id": "ford-2012-fiesta-b0082",
+    "title": "Ford 2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM — Pinpoint Test L",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/B%20Code%20Charts/B0082/B0082%3A1A/",
+    "documentScope": "2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM; no broader model fitment inferred.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "cf7cd7b73154d48348260cbe4d4910ae7b5cf4c169fcd52fd66d04515a84c952",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B0082.html",
+    "codeMentions": [
+      {
+        "code": "B0082",
+        "locator": "Pinpoint Test L; Normal Operation; L1–L17"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B0082.txt",
+    "imageUrls": [
+      "https://charm.li/images/DM11Q313/ford174/12284206/",
+      "https://charm.li/images/DM11Q313/ford174/15265399/",
+      "https://charm.li/images/DM11Q313/ford174/12311114/",
+      "https://charm.li/images/DM11Q313/ford174/15274364/",
+      "https://charm.li/images/DM11Q313/ford174/12325294/",
+      "https://charm.li/images/DM11Q313/ford174/12330181/",
+      "https://charm.li/images/DM11Q313/ford174/12335117/"
+    ]
+  },
+  {
+    "id": "ford-2012-fiesta-b00c5",
+    "title": "Ford 2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM — Pinpoint Test S",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/B%20Code%20Charts/B00C5/B00C5%3A13/",
+    "documentScope": "2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM; no broader model fitment inferred.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "e7502cae06760678ccc64279b7b1f1eca072b4b7c9148022e18f1d4b84ac1e07",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B00C5.html",
+    "codeMentions": [
+      {
+        "code": "B00C5",
+        "locator": "Pinpoint Test S; Normal Operation; S1–S11"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B00C5.txt",
+    "imageUrls": [
+      "https://charm.li/images/DM11Q313/ford174/10492453/",
+      "https://charm.li/images/DM11Q313/ford174/9359127/",
+      "https://charm.li/images/DM11Q313/ford174/9368761/",
+      "https://charm.li/images/DM11Q313/ford174/9378262/",
+      "https://charm.li/images/DM11Q313/ford174/10501246/",
+      "https://charm.li/images/DM11Q313/ford174/9399511/"
+    ]
+  },
+  {
+    "id": "ford-2012-fiesta-u0193",
+    "title": "Ford 2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM — Pinpoint Test X",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U0193/",
+    "documentScope": "2012 Ford Fiesta L4-1.6L, exact cited Ford service procedure reproduced by Operation CHARM; no broader model fitment inferred.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "bc67a08d6d6d52ef7f35d40db886367d2caa0df2c3f3e47afba92d2f4c552590",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0193.html",
+    "codeMentions": [
+      {
+        "code": "U0193",
+        "locator": "Pinpoint Test X; Normal Operation; X1–X4"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0193.txt"
+  },
+  {
+    "id": "ford-2012-f150-b00c3",
+    "title": "Ford 2012 Ford F-150 2WD V6-3.5L Turbo — Pinpoint Test AE",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/F%20150%202WD%20V6-3.5L%20Turbo/Repair%20and%20Diagnosis/Restraints%20and%20Safety%20Systems/Seat%20Belt%20Systems/Testing%20and%20Inspection/Pinpoint%20Tests/Pinpoint%20Test%20AE%3A%20DTCs%20B00C3%3A12%2C%20B00C3%3A13%20and%20B00C3%3A1A/",
+    "documentScope": "2012 Ford F-150 2WD V6-3.5L Turbo; original Ford SRS Pinpoint Test AE reproduced by CHARM.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "c7125bc91382774cf3ccf7cdc0ef75b515d50b67e72ea08cbfe5e1bf67410763",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B00C3-F150.html",
+    "codeMentions": [
+      {
+        "code": "B00C3",
+        "locator": "Pinpoint Test AE; Normal Operation; AE1–AE13"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B00C3-F150.txt",
+    "imageUrls": [
+      "https://charm.li/images/DM07Q313/ford63/13201461/",
+      "https://charm.li/images/DM07Q313/ford63/13211097/",
+      "https://charm.li/images/DM07Q313/ford63/13220756/",
+      "https://charm.li/images/DM07Q313/ford63/13329089/",
+      "https://charm.li/images/DM07Q313/ford63/13344504/",
+      "https://charm.li/images/DM07Q313/ford63/13260369/",
+      "https://charm.li/images/DM07Q313/ford63/13271612/",
+      "https://charm.li/images/DM07Q313/ford63/13280444/",
+      "https://charm.li/images/DM07Q313/ford63/13294726/"
+    ]
+  },
+  {
+    "id": "ford-2012-fiesta-u0167",
+    "title": "Ford 2012 Ford Fiesta L4-1.6L BCM implementation — BCM Pinpoint Test D",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U0167/Body%20Control%20Module/",
+    "documentScope": "2012 Ford Fiesta L4-1.6L BCM implementation; original Ford test reproduced by CHARM.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "02efdd382e23bf593c8ef1621e513bbc9d50c3926d3f8b17b1cd04d4006560cd",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0167.html",
+    "codeMentions": [
+      {
+        "code": "U0167",
+        "locator": "BCM Pinpoint Test D; D1–D5"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0167.txt"
+  },
+  {
+    "id": "ford-2012-fiesta-u0255-u0257",
+    "title": "Ford 2012 Ford Fiesta L4-1.6L information/entertainment implementation — Pinpoint Test R",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U0255/",
+    "documentScope": "2012 Ford Fiesta L4-1.6L information/entertainment implementation; original Ford test reproduced by CHARM.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "bbf806a661a0b8be9ff712c8879b6b6632463642896ade601299c397caf8f3a1",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0255.html",
+    "codeMentions": [
+      {
+        "code": "U0255",
+        "locator": "Pinpoint Test R; DTC U0255:00 definition; R1–R4"
+      },
+      {
+        "code": "U0257",
+        "locator": "Pinpoint Test R; DTC U0257:00 definition; R1–R4"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0255.txt"
+  },
+  {
+    "id": "ford-2012-fiesta-u0426",
+    "title": "Ford 2012 Ford Fiesta L4-1.6L, Anti-Theft With Intelligent Access — Pinpoint Test N",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Fiesta%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U0426/Pinpoint%20Test%20N%3A%20DTC%20U0167%3A00%20Or%20U0426%3A00/",
+    "documentScope": "2012 Ford Fiesta L4-1.6L, Anti-Theft With Intelligent Access; original Ford test reproduced by CHARM.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "a6dc63eacc63d9a7ab3a2d47d50f2c1e7e72732de010b8f7733037b1871710ce",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0426.html",
+    "codeMentions": [
+      {
+        "code": "U0426",
+        "locator": "Pinpoint Test N; Normal Operation; N1–N5"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0426.txt",
+    "reviewNote": "Heading and later N4 test use inconsistent suffix labels; article preserves supported bare-code unexpected-target-ID distinction and is marked needs-review."
+  },
+  {
+    "id": "ford-2012-flex-b0061",
+    "title": "Ford 2012 Ford Flex AWD V6-3.5L, original Ford SRS procedure reproduced by CHARM. — Pinpoint Test M",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Flex%20AWD%20V6-3.5L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/B%20Code%20Charts/B0061/B0061%3A1A/",
+    "documentScope": "2012 Ford Flex AWD V6-3.5L, original Ford SRS procedure reproduced by CHARM.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "e3c6820d646c49e992f12890309b78b7436e142a46383043f313689cdf540009",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B0061.html",
+    "codeMentions": [
+      {
+        "code": "B0061",
+        "locator": "Pinpoint Test M; Normal Operation; M1–M12"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/B0061.txt",
+    "imageUrls": [
+      "https://charm.li/images/DM08Q313/ford83/37717617/",
+      "https://charm.li/images/DM08Q313/ford83/37729668/",
+      "https://charm.li/images/DM08Q313/ford83/37735856/",
+      "https://charm.li/images/DM08Q313/ford83/37752984/",
+      "https://charm.li/images/DM08Q313/ford83/37763894/",
+      "https://charm.li/images/DM08Q313/ford83/37775073/",
+      "https://charm.li/images/DM08Q313/ford83/37792107/"
+    ]
+  },
+  {
+    "id": "ford-2012-flex-u0196",
+    "title": "Ford 2012 Ford Flex AWD V6-3.5L, information/entertainment rear-module implementation. — Pinpoint Test AU",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Flex%20AWD%20V6-3.5L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U0196/U0196/",
+    "documentScope": "2012 Ford Flex AWD V6-3.5L, information/entertainment rear-module implementation.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "6ce457749781e6a6e7ad2b63d6b52c3271c49a197fa2cc982ddf2ae2271a22d9",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0196.html",
+    "codeMentions": [
+      {
+        "code": "U0196",
+        "locator": "Pinpoint Test AU; Normal Operation; AU1–AU4"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0196.txt"
+  },
+  {
+    "id": "ford-2012-flex-u0230",
+    "title": "Ford 2012 Ford Flex AWD V6-3.5L, instrumentation implementation. — Pinpoint Test AY",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/Flex%20AWD%20V6-3.5L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U0230/",
+    "documentScope": "2012 Ford Flex AWD V6-3.5L, instrumentation implementation.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "4372fb4ad077f467ca3338f2364c4b2e7aed50a158ebd26e52dc57ee0501da77",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0230.html",
+    "codeMentions": [
+      {
+        "code": "U0230",
+        "locator": "Pinpoint Test AY; Normal Operation; AY1–AY4"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0230.txt"
+  },
+  {
+    "id": "ford-2012-f150-u0163",
+    "title": "Ford 2012 Ford F-150 2WD V6-3.5L Turbo, HVAC implementation. — Pinpoint Test AB",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/F%20150%202WD%20V6-3.5L%20Turbo/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U0163/",
+    "documentScope": "2012 Ford F-150 2WD V6-3.5L Turbo, HVAC implementation.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "98f6b7d69188a4060e795994d17e9c8d4eea22db8eeb65bf9d790fa1996fc93e",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0163.html",
+    "codeMentions": [
+      {
+        "code": "U0163",
+        "locator": "Pinpoint Test AB; Normal Operation; AB1–AB5"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0163.txt"
+  },
+  {
+    "id": "ford-2012-f150-u0256",
+    "title": "Ford 2012 Ford F-150 2WD V6-3.5L Turbo, HVAC implementation — Pinpoint Test AC",
+    "publisher": "Ford Motor Company (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Ford/2012/F%20150%202WD%20V6-3.5L%20Turbo/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/U%20Code%20Charts/U0256/Heating%20and%20Air%20Conditioning/",
+    "documentScope": "2012 Ford F-150 2WD V6-3.5L Turbo, HVAC implementation; original Ford procedure reproduced by Operation CHARM.",
+    "makeIds": [
+      "ford"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "dc8db0fa6d62859623fdc90ea2cc8583dc4b6f48d39b31520e5e9ab56c1eae8a",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0256-F150HVAC.html",
+    "codeMentions": [
+      {
+        "code": "U0256",
+        "locator": "Pinpoint Test AC; Normal Operation; AC1–AC6"
+      }
+    ],
+    "localText": "/workspace/scratch/dbf135311373/wave4/support-ford-body/U0256-F150HVAC.txt"
+  },
+  {
+    "id": "vw-2003-passat-awm-p1771-p1772",
+    "title": "Volkswagen 2003 Volkswagen Passat Sedan (3B3), 1.8L Turbo AWM — Chart row 18179 / P1771, image 14003103",
+    "publisher": "Volkswagen AG (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20L4-1.8L%20Turbo%20%28AWM%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1771/",
+    "documentScope": "2003 Volkswagen Passat Sedan (3B3), 1.8L Turbo AWM; transmission-control diagnostic chart. Vehicle-specific transmission, controller and wiring applicability must be verified.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "16427b175668c675dbef005cd951498ac855fa5444b28cbef337fa88be2286d7",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-vw-transmission/P1771.html",
+    "codeMentions": [
+      {
+        "code": "P1771",
+        "locator": "Chart row 18179 / P1771, image 14003103"
+      },
+      {
+        "code": "P1772",
+        "locator": "Chart row 18180 / P1772, image 14003103"
+      }
+    ],
+    "imageUrls": [
+      "https://charm.li/images/IMP66Q313/euro590/14003103/"
+    ],
+    "localImage": "/workspace/scratch/dbf135311373/wave4/support-vw-transmission/P1771.png",
+    "chartSha256": "4b492ad6caddb72478b0e4326d7a2c1f355b7ea58fdfbe0f162304c41eafeacd",
+    "alternateUrls": [
+      "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20L4-1.8L%20Turbo%20%28AWM%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1772/"
+    ]
+  },
+  {
+    "id": "vw-2003-passat-awm-p1856",
+    "title": "Volkswagen 2003 Volkswagen Passat Sedan (3B3), 1.8L Turbo AWM — Chart row 18264 / P1856, image 14281367",
+    "publisher": "Volkswagen AG (original service information; Operation CHARM mirror)",
+    "url": "https://charm.li/Volkswagen/2003/Passat%20Sedan%20%283B3%29%20L4-1.8L%20Turbo%20%28AWM%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1856/",
+    "documentScope": "2003 Volkswagen Passat Sedan (3B3), 1.8L Turbo AWM; transmission-control diagnostic chart. Vehicle-specific transmission, controller and wiring applicability must be verified.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Full original diagnostic text read from downloaded HTML, with chart images checked where needed; no scope inferred from another manufacturer.",
+    "sha256": "29be3b1ccd4fb5c597805cee9a4739179a9e2c3903b00b6edfc5b6e5a8a00f6f",
+    "localHtml": "/workspace/scratch/dbf135311373/wave4/support-vw-transmission/P1856.html",
+    "codeMentions": [
+      {
+        "code": "P1856",
+        "locator": "Chart row 18264 / P1856, image 14281367"
+      }
+    ],
+    "imageUrls": [
+      "https://charm.li/images/IMP66Q313/euro590/14281367/"
+    ],
+    "localImage": "/workspace/scratch/dbf135311373/wave4/support-vw-transmission/P1856.png",
+    "chartSha256": "5a7257f99d63275daf7a50a3ef0917c152e02464d6786ac4615f9e21e2275c2c"
+  }
+]

@@ -1,0 +1,1600 @@
+{
+  "batch": "batch-40",
+  "status": "complete-drafts",
+  "articleCount": 100,
+  "checkedOn": "2026-10-31",
+  "sourceReviewCounts": {
+    "checked": 92,
+    "needs-review": 8
+  },
+  "sourceFile": "/workspace/scratch/dbf135311373/wave4/writer40/sources.json",
+  "validationFile": "/workspace/scratch/dbf135311373/wave4/writer40/validation.json",
+  "sourceMethods": [
+    "Five original DaimlerChrysler PDFs downloaded directly or extracted from original manual archives, actual page counts and SHA-256 recorded; complete relevant diagnostic procedures read with physical page boundaries.",
+    "Volkswagen Golf and Polo exact DTC tables joined to original corresponding component or output-test procedures; manufacturer/engine/equipment scope retained.",
+    "Mazda M Hybrid ISG phase-current source read completely; six codes share the documented monitor logic but each article explains the identified phase/direction and a useful distinct diagnostic implication.",
+    "Three official GM bulletin PDFs downloaded from NHTSA, all two pages; revisions, model lists, RPO and suffix-specific cases kept separate without calling any historical bulletin latest.",
+    "Ford original pinpoint procedures read in full from downloaded public mirrors; original chart images checked where text lacked the fault-trigger table. Ford Escape mirror does not state an exact original revision.",
+    "Final three VW transmission codes visually verified in original Volkswagen model-specific charts, not inferred from Audi-only sources. Final fifteen Ford sources supplied by helper32 were independently read in full before reservation and writing."
+  ],
+  "needsReview": [
+    {
+      "code": "U0426",
+      "issue": "Mirrored Fiesta Pinpoint Test N uses inconsistent suffix labels between its heading and later test. The article preserves the supported bare-code unexpected-target-ID distinction without choosing an unverified subtype."
+    },
+    {
+      "code": "P0890",
+      "issue": "Generic catalog says relay-sense low; original Jeep procedure detects unexpected pressure-switch voltage before relay energization. Article explicitly preserves the OEM procedure rather than resolving the discrepancy universally."
+    },
+    {
+      "code": "P1694",
+      "issue": "Catalog names CCD while the exact 2002 WJ/WG procedure names PCI. Actual vehicle network applicability must be matched before electrical diagnosis."
+    },
+    {
+      "code": "P1657",
+      "issue": "Catalog emphasizes A/C clutch relay; original Golf diesel table names A/C input/output and its compressor interruption function. Article bounds the factory diagnostic scope and does not identify a specific failed relay."
+    },
+    {
+      "code": "P1856",
+      "issue": "Catalog uses pedal sensor A language; original Volkswagen chart names G69 throttle position and an engine-origin fault message. Installed configuration must be established."
+    },
+    {
+      "code": "P1771",
+      "issue": "Catalog says load signal stuck off; original Volkswagen chart identifies open/short-to-positive. Original code-number mapping is exact but abbreviated catalog direction is not silently harmonized."
+    },
+    {
+      "code": "P1772",
+      "issue": "Catalog says load signal stuck on; original Volkswagen chart identifies short-to-ground. Article preserves source-specific electrical diagnosis."
+    },
+    {
+      "code": "C009A",
+      "issue": "Escape source suffix-16 row contains contradictory low/high wording. Article acknowledges the inconsistency and does not turn it into a numerical trigger."
+    }
+  ],
+  "boundedSourceAmbiguities": [
+    "Jeep KJ archive citation is deliberately a ZIP URL without a false #page fragment; the exact member KJ-2003/15884kjpwr_sgmldiag.pdf and physical pages are stated.",
+    "Jeep WJ/WG individual Colorado4wheel PDF mirrors were indexed but transiently returned errors during checking. Actual original PDFs were successfully read from jeep-manual.ru/files/WG/servicemanualWG-2002.zip and the archive/member fallback is in each affected citation.",
+    "Jeep P1684 catalog mentions a fifty-start history condition that the cited diagnostic procedure does not establish; article uses the documented battery-disconnect interpretation without importing that condition.",
+    "Jeep P2706 generic solenoid F versus OEM MS terminology is explicitly bounded to the original 545RFE procedure.",
+    "Mazda phase-current monitor does not state an original duration. No invented duration or external phase-probing instructions included; the documented ten-second ignition recheck is a verification condition.",
+    "Ford Escape source has a cam/fork word error in the C0092 high-voltage prose; correct fork heading and independent frequency/performance branches retained. Dubious thermistor table cells are not propagated.",
+    "Ford Escape C05F4 follows its separate H7 mechanical/performance branch; the approximate nine-volt electrical branch belongs to other codes.",
+    "Ford SRS B00C3 numerical open/low-resistance trigger thresholds are not supplied in the F-150 source and were not borrowed from another vehicle.",
+    "Volkswagen P1771 and P1772 use identical original chart image 14003103. The shared source record archives the complete P1771 image; the P1772 local tiny image placeholder is not evidence.",
+    "No cross-manufacturer DTC inference, hazardous restraint/HV probing directions, security-bypass instructions or owner road tests are included."
+  ],
+  "sourceGapExclusions": [
+    "Unverified Kia/Mitsubishi lists and incidental Jeep code mentions were not counted.",
+    "Audi-only P1 transmission tables were not used to support Volkswagen entries.",
+    "Volkswagen VAG 00638/00270 chart crosswalks with uncertain exact P-code matches were excluded, including P1766/P1767 and unresolved P1778/P1828 mappings.",
+    "Ford Flex U0256 chart with U0238 copy conflict was not used; the complete F-150 HVAC Test AC supports the claimed U0256 article.",
+    "U0208 was read as a possible support lead but excluded because it is absent from the remaining canonical catalog."
+  ],
+  "independentReview": {
+    "writer34": {
+      "bodies": [
+        "P0382",
+        "P0530",
+        "P0839",
+        "P0890",
+        "P1160",
+        "P1486",
+        "P1618",
+        "P1685",
+        "P1757",
+        "P2706"
+      ],
+      "deepSourceChecks": [
+        "P0839",
+        "P0890",
+        "P1160",
+        "P1685",
+        "P1757"
+      ],
+      "result": "Technical support passed; archive citation labeling and P1160 typography corrected."
+    },
+    "writer35": {
+      "bodiesAndDeepSources": [
+        "U300D",
+        "U3011",
+        "C0090",
+        "C0092",
+        "C05F4"
+      ],
+      "result": "Technical support passed; requested spacing cleanup completed."
+    }
+  },
+  "validation": {
+    "articleCount": 100,
+    "assignmentCount": 100,
+    "sourceCount": 40,
+    "usedSourceCount": 40,
+    "wordCountMethod": "Unicode word tokens in body including headings; excludes citation paragraph and front matter",
+    "wordCountRange": [
+      246,
+      299
+    ],
+    "checks": [
+      "100 canonical identities match remaining entries and filenames",
+      "100 live reservations belong to batch-40",
+      "100 draft front matters parse and descriptions end as complete sentences",
+      "Every source reference resolves in writer40 source records",
+      "Every cited PDF page falls within source pageCount and exact code has source mention",
+      "Every HTML article has meaningful source locators",
+      "No ZIP URL carries a false PDF page fragment",
+      "No duplicate code, source identifier or missing assignment"
+    ],
+    "identicalSubstantiveParagraphs": []
+  },
+  "codeSourceChecks": [
+    {
+      "code": "P1294",
+      "entryId": "jeep-p1294",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            145,
+            146
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1296",
+      "entryId": "jeep-p1296",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            147,
+            148
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1388",
+      "entryId": "jeep-p1388",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            152,
+            153
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1389",
+      "entryId": "jeep-p1389",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            154,
+            155
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1486",
+      "entryId": "jeep-p1486",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            162,
+            163
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1492",
+      "entryId": "jeep-p1492",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            166,
+            167
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1493",
+      "entryId": "jeep-p1493",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            168,
+            169
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1494",
+      "entryId": "jeep-p1494",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            170,
+            171
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1495",
+      "entryId": "jeep-p1495",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            172,
+            173
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1597",
+      "entryId": "jeep-p1597",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            183,
+            184
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1683",
+      "entryId": "jeep-p1683",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            176,
+            177,
+            178,
+            179
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1685",
+      "entryId": "jeep-p1685",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            188,
+            189
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1899",
+      "entryId": "jeep-p1899",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-tj-powertrain-diagnostic-procedures",
+          "pages": [
+            196,
+            197
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0870",
+      "entryId": "generic-p0870",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            123,
+            124,
+            125,
+            126,
+            127,
+            128
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0875",
+      "entryId": "generic-p0875",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            133,
+            134,
+            135,
+            136,
+            137,
+            138
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0884",
+      "entryId": "generic-p0884",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            143
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0888",
+      "entryId": "generic-p0888",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            144,
+            145,
+            146,
+            147
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0890",
+      "entryId": "generic-p0890",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            148,
+            149,
+            150,
+            151
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0891",
+      "entryId": "generic-p0891",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            152,
+            153,
+            154
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0932",
+      "entryId": "generic-p0932",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            155,
+            156,
+            157,
+            158
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0987",
+      "entryId": "generic-p0987",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            162,
+            163,
+            164,
+            165,
+            166,
+            167
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0988",
+      "entryId": "generic-p0988",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            168,
+            169,
+            170,
+            171
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1684",
+      "entryId": "jeep-p1684",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            172,
+            173
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1694",
+      "entryId": "jeep-p1694",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            174,
+            175
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P2706",
+      "entryId": "generic-p2706",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-45rfe-545rfe-diagnostics",
+          "pages": [
+            208,
+            209,
+            210,
+            211
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1499",
+      "entryId": "jeep-p1499",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            222,
+            223
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1598",
+      "entryId": "jeep-p1598",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            241,
+            242,
+            243
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1599",
+      "entryId": "jeep-p1599",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            244,
+            245,
+            246
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0783",
+      "entryId": "generic-p0783",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            317,
+            318,
+            319,
+            320
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1757",
+      "entryId": "jeep-p1757",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1762",
+      "entryId": "jeep-p1762",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            338,
+            339,
+            340,
+            341
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1763",
+      "entryId": "jeep-p1763",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            342,
+            343,
+            344,
+            345,
+            346
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1764",
+      "entryId": "jeep-p1764",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            347,
+            348,
+            349,
+            350
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1765",
+      "entryId": "jeep-p1765",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wj-wg-powertrain-gas-diagnostics",
+          "pages": [
+            351,
+            352,
+            353
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0382",
+      "entryId": "generic-p0382",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wg-27-diesel-diagnostics",
+          "pages": [
+            92,
+            93,
+            94
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0514",
+      "entryId": "generic-p0514",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wg-27-diesel-diagnostics",
+          "pages": [
+            109,
+            110,
+            111,
+            112
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0530",
+      "entryId": "generic-p0530",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wg-27-diesel-diagnostics",
+          "pages": [
+            120,
+            121,
+            122,
+            123,
+            124
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0579",
+      "entryId": "generic-p0579",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wg-27-diesel-diagnostics",
+          "pages": [
+            131,
+            132,
+            133,
+            134,
+            135,
+            136
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0702",
+      "entryId": "generic-p0702",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wg-27-diesel-diagnostics",
+          "pages": [
+            161
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0836",
+      "entryId": "generic-p0836",
+      "sources": [
+        {
+          "sourceId": "jeep-2002-wg-27-diesel-diagnostics",
+          "pages": [
+            166,
+            167,
+            168
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0837",
+      "entryId": "generic-p0837",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-kj-gas-powertrain-diagnostics",
+          "pages": [
+            258,
+            259
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0838",
+      "entryId": "generic-p0838",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-kj-gas-powertrain-diagnostics",
+          "pages": [
+            260,
+            261
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0839",
+      "entryId": "generic-p0839",
+      "sources": [
+        {
+          "sourceId": "jeep-2003-kj-gas-powertrain-diagnostics",
+          "pages": [
+            262,
+            263
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1156",
+      "entryId": "volkswagen-p1156",
+      "sources": [
+        {
+          "sourceId": "vw-golf-diesel-0599-fault-table",
+          "pages": null,
+          "locator": "P1156 fault-table row and associated cause/effect/remedy columns",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-golf-diesel-0599-g71-f96",
+          "pages": null,
+          "locator": "G71/F96 comparison in measured value block10; G71 disconnection response",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1160",
+      "entryId": "volkswagen-p1160",
+      "sources": [
+        {
+          "sourceId": "vw-golf-diesel-0599-fault-table",
+          "pages": null,
+          "locator": "P1160 fault-table row and associated cause/effect/remedy columns",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-golf-diesel-0599-g72",
+          "pages": null,
+          "locator": "G72 measured value block7 zone3; resistance-temperature examples and engine-specific wiring branches",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1561",
+      "entryId": "volkswagen-p1561",
+      "sources": [
+        {
+          "sourceId": "vw-golf-diesel-0599-fault-table",
+          "pages": null,
+          "locator": "P1561 fault-table row and associated cause/effect/remedy columns",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-golf-diesel-0599-n146",
+          "pages": null,
+          "locator": "Checking metering adjuster N146; resistance and wiring decision branches",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1616",
+      "entryId": "volkswagen-p1616",
+      "sources": [
+        {
+          "sourceId": "vw-golf-diesel-0499-fault-table",
+          "pages": null,
+          "locator": "P1616 fault-table row and associated cause/effect/remedy columns",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-golf-diesel-0499-output-test",
+          "pages": null,
+          "locator": "Final control diagnosis; K29 lamp stage, distinct from J52 relay stage",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1617",
+      "entryId": "volkswagen-p1617",
+      "sources": [
+        {
+          "sourceId": "vw-golf-diesel-0499-fault-table",
+          "pages": null,
+          "locator": "P1617 fault-table row and associated cause/effect/remedy columns",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-golf-diesel-0499-output-test",
+          "pages": null,
+          "locator": "Final control diagnosis; glow period warning lamp K29 commanded flashing",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1618",
+      "entryId": "volkswagen-p1618",
+      "sources": [
+        {
+          "sourceId": "vw-golf-diesel-0599-fault-table",
+          "pages": null,
+          "locator": "P1618 fault-table row and associated cause/effect/remedy columns",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-golf-diesel-0599-output-test",
+          "pages": null,
+          "locator": "Final control diagnosis; J52 relay response and visible load effect",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1657",
+      "entryId": "volkswagen-p1657",
+      "sources": [
+        {
+          "sourceId": "vw-golf-diesel-0599-fault-table",
+          "pages": null,
+          "locator": "P1657 fault-table row and associated cause/effect/remedy columns",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-golf-diesel-0599-output-test",
+          "pages": null,
+          "locator": "A/C test prerequisites and conditioner compressor interruption stage",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0E02",
+      "entryId": "generic-p0e02",
+      "sources": [
+        {
+          "sourceId": "mazda3-2019-id140202300000",
+          "pages": null,
+          "locator": "P0E02:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0E03",
+      "entryId": "generic-p0e03",
+      "sources": [
+        {
+          "sourceId": "mazda3-2019-id140202300000",
+          "pages": null,
+          "locator": "P0E03:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0E06",
+      "entryId": "generic-p0e06",
+      "sources": [
+        {
+          "sourceId": "mazda3-2019-id140202300000",
+          "pages": null,
+          "locator": "P0E06:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0E07",
+      "entryId": "generic-p0e07",
+      "sources": [
+        {
+          "sourceId": "mazda3-2019-id140202300000",
+          "pages": null,
+          "locator": "P0E07:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0E0A",
+      "entryId": "generic-p0e0a",
+      "sources": [
+        {
+          "sourceId": "mazda3-2019-id140202300000",
+          "pages": null,
+          "locator": "P0E0A:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P0E0B",
+      "entryId": "generic-p0e0b",
+      "sources": [
+        {
+          "sourceId": "mazda3-2019-id140202300000",
+          "pages": null,
+          "locator": "P0E0B:00 determination condition; fail-safe; Diagnostic Procedure steps1–4 and repair completion verification",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1439",
+      "entryId": "volkswagen-p1439",
+      "sources": [
+        {
+          "sourceId": "vw-polo-4lv-p1-fault-table",
+          "pages": null,
+          "locator": "P1439 row and fault-elimination column",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-polo-4lv-egr74",
+          "pages": null,
+          "locator": "Display group74 EGR-position adaptation; endpoint voltages and ADP status",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1553",
+      "entryId": "volkswagen-p1553",
+      "sources": [
+        {
+          "sourceId": "vw-polo-4lv-p1-fault-table",
+          "pages": null,
+          "locator": "P1553 row and fault-elimination column",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-polo-4lv-map",
+          "pages": null,
+          "locator": "G71 measured value block3; fixed91/1254mbar interpretation and separate circuit branches",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1554",
+      "entryId": "volkswagen-p1554",
+      "sources": [
+        {
+          "sourceId": "vw-polo-4lv-p1-fault-table",
+          "pages": null,
+          "locator": "P1554 row and fault-elimination column",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-polo-4lv-throttle-adapt",
+          "pages": null,
+          "locator": "Test conditions; group60 learning and spring test; successful storage and interruption notes",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1626",
+      "entryId": "volkswagen-p1626",
+      "sources": [
+        {
+          "sourceId": "vw-polo-4lv-p1-fault-table",
+          "pages": null,
+          "locator": "P1626 row and fault-elimination column",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "vw-polo-4lv-can",
+          "pages": null,
+          "locator": "Function; centralized matching resistor check with ECU isolated from harness; wiring branch",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U300D",
+      "entryId": "generic-u300d",
+      "sources": [
+        {
+          "sourceId": "ford-2012-f150-u300d",
+          "pages": null,
+          "locator": "Normal Operation; U300D:11 trigger; L1 KEY_POS_4X4 versus KEY_STATUS_4X4 branches",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U300F",
+      "entryId": "generic-u300f",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-ignition-compare",
+          "pages": null,
+          "locator": "Fault Trigger Conditions image; I1–I8 IPC feeds and accessory relay; I10–I16 follow-through",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U3010",
+      "entryId": "generic-u3010",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-ignition-compare",
+          "pages": null,
+          "locator": "Fault Trigger Conditions image; I9/I10 related-DTC priority; U3010 branch to I12 and circuit isolation",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U3011",
+      "entryId": "generic-u3011",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-ignition-compare",
+          "pages": null,
+          "locator": "Fault Trigger Conditions image; I10–I13 sense and accessory circuit short-to-voltage isolation; I16",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "B0126",
+      "entryId": "generic-b0126",
+      "sources": [
+        {
+          "sourceId": "gm-pic6556h",
+          "pages": [
+            1,
+            2
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "gm-pit6055c",
+          "pages": [
+            1,
+            2
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        },
+        {
+          "sourceId": "gm-pit6186a",
+          "pages": [
+            1,
+            2
+          ],
+          "locator": null,
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C0090",
+      "entryId": "generic-c0090",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test A; four C0090 suffix triggers; motor circuit checks",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C0091",
+      "entryId": "generic-c0091",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test B; C0091 suffixes17/32/33/38/92; B1 shared-source decision",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C0092",
+      "entryId": "generic-c0092",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Tests C and M; fork signal duty/frequency and C0092:92 mechanical branch",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C0093",
+      "entryId": "generic-c0093",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test D; suffix16/17/92 and thermistor resistance-temperature evaluation",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C0095",
+      "entryId": "generic-c0095",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Tests I and N; C0095 suffixes07/18/19/44/71/92/99",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C0096",
+      "entryId": "generic-c0096",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test N; C0096:54 missing configuration;16-character RDU identifier routine",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C0099",
+      "entryId": "generic-c0099",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test G; C0099:14/:16/:17 and shared supply/return checks",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C009A",
+      "entryId": "generic-c009a",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test G; C009A:14/:17; shared diagnostic circuit isolation; ambiguous16 wording excluded",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C009B",
+      "entryId": "generic-c009b",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test G; C009B:14/:16/:17; supply, return and circuit checks",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C00A1",
+      "entryId": "generic-c00a1",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test E; C00A1 suffix08/46/57/F1; voltage-first diagnosis and sleep/recheck",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C00A2",
+      "entryId": "generic-c00a2",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Tests A/B/E; C00A2:19/:1C and internal suffix routing",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C00A3",
+      "entryId": "generic-c00a3",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Tests J/E; C00A3:1C reference range versus internal-driver suffixes",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C05F0",
+      "entryId": "generic-c05f0",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test H; C05F0:00 trigger and supply/signal-return branches",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C05F1",
+      "entryId": "generic-c05f1",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test H; C05F1:00 short-to-power classification and H4 isolation",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C05F3",
+      "entryId": "generic-c05f3",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test H; C05F3:00 supply-out-of-range trigger; approximately9V check and source branch",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "C05F4",
+      "entryId": "generic-c05f4",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test H; C05F4:00 plausibility trigger; separate H7 performance route",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0138",
+      "entryId": "generic-u0138",
+      "sources": [
+        {
+          "sourceId": "ford-escape-fourthgen-awd-pinpoint-tests",
+          "pages": null,
+          "locator": "Pinpoint Test F; U0138:00 missing-message duration; multi-module and voltage checks",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "B0092",
+      "entryId": "generic-b0092",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-b0092",
+          "pages": null,
+          "locator": "Pinpoint Test O; Normal Operation; O1–O16",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "B0097",
+      "entryId": "generic-b0097",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-b0097",
+          "pages": null,
+          "locator": "Pinpoint Test N; Normal Operation; N1–N16",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "B0082",
+      "entryId": "generic-b0082",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-b0082",
+          "pages": null,
+          "locator": "Pinpoint Test L; Normal Operation; L1–L17",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "B00C5",
+      "entryId": "generic-b00c5",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-b00c5",
+          "pages": null,
+          "locator": "Pinpoint Test S; Normal Operation; S1–S11",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0193",
+      "entryId": "generic-u0193",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-u0193",
+          "pages": null,
+          "locator": "Pinpoint Test X; Normal Operation; X1–X4",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "B00C3",
+      "entryId": "generic-b00c3",
+      "sources": [
+        {
+          "sourceId": "ford-2012-f150-b00c3",
+          "pages": null,
+          "locator": "Pinpoint Test AE; Normal Operation; AE1–AE13",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0167",
+      "entryId": "generic-u0167",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-u0167",
+          "pages": null,
+          "locator": "BCM Pinpoint Test D; D1–D5",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0255",
+      "entryId": "generic-u0255",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-u0255-u0257",
+          "pages": null,
+          "locator": "Pinpoint Test R; DTC U0255:00 definition; R1–R4",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0257",
+      "entryId": "generic-u0257",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-u0255-u0257",
+          "pages": null,
+          "locator": "Pinpoint Test R; DTC U0257:00 definition; R1–R4",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0426",
+      "entryId": "generic-u0426",
+      "sources": [
+        {
+          "sourceId": "ford-2012-fiesta-u0426",
+          "pages": null,
+          "locator": "Pinpoint Test N; Normal Operation; N1–N5",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "B0061",
+      "entryId": "generic-b0061",
+      "sources": [
+        {
+          "sourceId": "ford-2012-flex-b0061",
+          "pages": null,
+          "locator": "Pinpoint Test M; Normal Operation; M1–M12",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0196",
+      "entryId": "generic-u0196",
+      "sources": [
+        {
+          "sourceId": "ford-2012-flex-u0196",
+          "pages": null,
+          "locator": "Pinpoint Test AU; Normal Operation; AU1–AU4",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0230",
+      "entryId": "generic-u0230",
+      "sources": [
+        {
+          "sourceId": "ford-2012-flex-u0230",
+          "pages": null,
+          "locator": "Pinpoint Test AY; Normal Operation; AY1–AY4",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0163",
+      "entryId": "generic-u0163",
+      "sources": [
+        {
+          "sourceId": "ford-2012-f150-u0163",
+          "pages": null,
+          "locator": "Pinpoint Test AB; Normal Operation; AB1–AB5",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "U0256",
+      "entryId": "generic-u0256",
+      "sources": [
+        {
+          "sourceId": "ford-2012-f150-u0256",
+          "pages": null,
+          "locator": "Pinpoint Test AC; Normal Operation; AC1–AC6",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1771",
+      "entryId": "volkswagen-p1771",
+      "sources": [
+        {
+          "sourceId": "vw-2003-passat-awm-p1771-p1772",
+          "pages": null,
+          "locator": "Chart row 18179 / P1771, image 14003103",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1772",
+      "entryId": "volkswagen-p1772",
+      "sources": [
+        {
+          "sourceId": "vw-2003-passat-awm-p1771-p1772",
+          "pages": null,
+          "locator": "Chart row 18180 / P1772, image 14003103",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    },
+    {
+      "code": "P1856",
+      "entryId": "volkswagen-p1856",
+      "sources": [
+        {
+          "sourceId": "vw-2003-passat-awm-p1856",
+          "pages": null,
+          "locator": "Chart row 18264 / P1856, image 14281367",
+          "method": "Actual diagnostic procedure read before reservation; original chart or physical page checked, with documented applicability and exceptions retained."
+        }
+      ]
+    }
+  ]
+}

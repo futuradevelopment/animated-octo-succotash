@@ -1,0 +1,576 @@
+{
+  "report": "editorial-review-wave-04-c",
+  "reviewedOn": "2026-10-31",
+  "reviewer": "writer31_vag",
+  "independentOfAuthors": [
+    "writer37_mazda",
+    "writer38_body"
+  ],
+  "requestedScope": {
+    "bodySamplesPerBatch": 10,
+    "deepSourceChecksPerBatch": 5
+  },
+  "completedScope": {
+    "bodySamples": 20,
+    "deepSourceChecks": 10,
+    "byBatch": {
+      "batch-37": {
+        "bodySamples": 10,
+        "deepSourceChecks": 5
+      },
+      "batch-38": {
+        "bodySamples": 10,
+        "deepSourceChecks": 5
+      }
+    },
+    "uniqueOriginalDocuments": 9,
+    "originalHtmlChecks": 8,
+    "originalPdfCodeChecks": 2
+  },
+  "summary": "Sampled prose is code-specific and bounded to OEM application. Corrected one pressure-comparison statement and surfaced one additional source temperature-unit conflict; polished four sampled descriptions. Batch38 sampled source checks required no factual correction. This is a bounded independent sample review, not certification of the whole corpus.",
+  "coordination": [
+    "Writer37 confirmed final generation and no further overwrites before edits.",
+    "Writer38 confirmed final generation before possible edits; no batch38 changes were necessary.",
+    "Root was informed of findings and planned narrow corrections before changes.",
+    "Writer37 received exact change-file location and instruction to preserve reviewed files."
+  ],
+  "bodySamples": [
+    {
+      "batch": "batch-37",
+      "code": "P000F",
+      "system": "fuel pressure",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P000F.md",
+      "articleSha256Reviewed": "49f8f8e7f134b92d51805ea7e596de21bb179766a9c45365fa6bc6c29826ed96",
+      "entryId": "generic-p000f",
+      "sourceReviewAfter": "needs-review",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "Scope distinguishes generic relief activation from Mazda high-pressure detection; extraordinary source values are bounded and already needs-review."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P0396",
+      "system": "cylinder pressure",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P0396.md",
+      "articleSha256Reviewed": "1666ccca66ab15897569b45bcd7620ad58200616f8fb798945bb6565bf57e82e",
+      "entryId": "generic-p0396",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body distinguishes modeled-pressure, peak-timing and pressure-difference observations from direct compression diagnosis; professional deceleration verification boundary retained."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P0555",
+      "system": "brake assistance",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P0555.md",
+      "articleSha256Reviewed": "aee9f30f68754a61daae116fc4633f4e82165cdff86a926cf8e797e8acd74ab9",
+      "entryId": "generic-p0555",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body distinguishes electrical extremes from actual brake vacuum and avoids a claim that braking remains acceptable."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P063B",
+      "system": "starter-generator voltage",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P063B.md",
+      "articleSha256Reviewed": "16a64e116eccb48126da6b74b029c9e66d2f9070594b3bbf86672cd563c3638f",
+      "entryId": "generic-p063b",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "PCM summary versus originating ISG code and historical status are clearly separated."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P0763",
+      "system": "automatic transmission",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P0763.md",
+      "articleSha256Reviewed": "ab79b486bc6a78afb8a6d6d39523a58a36bb1a53402804e04949318bfcd66119",
+      "entryId": "generic-p0763",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body maps generic solenoid C to CW6A-EL number 3 and limits valve-body advice to that transmission; corrected awkward search description."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P0DAD",
+      "system": "hybrid battery balance",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P0DAD.md",
+      "articleSha256Reviewed": "26094967662f6458ef2c33821ff32d923ec0f640a6f33831ef6092cc84c0b5e3",
+      "entryId": "generic-p0dad",
+      "sourceReviewAfter": "needs-review",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "Cell suffix and command state are preserved; 0.9 V is not presented as a manual cell-discharge target; corrected search description."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P2104",
+      "system": "diesel air and boost control",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P2104.md",
+      "articleSha256Reviewed": "5ea3c2b050e9dd31e69a19caf4a8937de12fe22a40d7ff960a22ef4817ece53a",
+      "entryId": "generic-p2104",
+      "sourceReviewAfter": "needs-review",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "Corrected measured-pressure-versus-estimate wording while preserving scoped generic/OEM difference and professional regeneration boundary."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P2308",
+      "system": "ignition ion sensing",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P2308.md",
+      "articleSha256Reviewed": "256bd933e0d54d77b4237e8756644a03f9ef4f627295197a3857237bc141f419",
+      "entryId": "generic-p2308",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body differentiates cylinder 3 ion feedback from a generic coil-C location and connects the P0303 branch to combustion diagnosis."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P25AF",
+      "system": "cooling flow control",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P25AF.md",
+      "articleSha256Reviewed": "b8cf6aa9c20b82920daa2a784cd2e49d767645b19da8ded271304bb90505268a",
+      "entryId": "generic-p25af",
+      "sourceReviewAfter": "needs-review",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "Added source temperature-unit conflict; existing valve-direction and generic/OEM conflicts remain explicit needs-review."
+    },
+    {
+      "batch": "batch-37",
+      "code": "P3498",
+      "system": "cylinder deactivation",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P3498.md",
+      "articleSha256Reviewed": "e55095907d9a965d8ce61ea500a5e2a3a6a4281c38deba682c01d3dc48901bfd",
+      "entryId": "generic-p3498",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body treats crankshaft behavior as indirect evidence, considers combustion alternatives and does not advise repeated unsafe road reproduction; corrected search description."
+    },
+    {
+      "batch": "batch-38",
+      "code": "B0003",
+      "system": "restraint configuration",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/B0003.md",
+      "articleSha256Reviewed": "632a237320cc2e52d306c137f2f6b76b06b4aeb6438f017cefabdde7325b33e6",
+      "entryId": "generic-b0003",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "The :53 deployment-inhibited meaning is distinguished from the generic third-stage label; no extra inflator or safe handling assumption is invented."
+    },
+    {
+      "batch": "batch-38",
+      "code": "B0094",
+      "system": "crash sensing",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/B0094.md",
+      "articleSha256Reviewed": "4250d73e1a8ad5e44d44e4ea4af084d849d73a1611e98612da3d28865c3fcce9",
+      "entryId": "generic-b0094",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body retains separate :11/:13/:87/:96 meanings, exact component scope and an appropriate professional restraint-system boundary."
+    },
+    {
+      "batch": "batch-38",
+      "code": "C0034",
+      "system": "wheel-speed reporting",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/C0034.md",
+      "articleSha256Reviewed": "b73cce7aba7cbb011bffed31335b454bb332d04d9966261f4a65f00e9f0b5bb8",
+      "entryId": "generic-c0034",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "PCM summary is correctly separated from brake-unit suffixes and the C0519 type fault; no sensor replacement is inferred from an engine scan alone."
+    },
+    {
+      "batch": "batch-38",
+      "code": "C0046",
+      "system": "brake pressure-sensor temperature",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/C0046.md",
+      "articleSha256Reviewed": "49c60fb240e8463d27bf1fb4239b4a2f45b5ba4b6587f8b5be8ae0bdc6519be5",
+      "entryId": "generic-c0046",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "T1/T2 temperature values are kept separate from adjacent P1/P2 hydraulic-pressure rows and suffixes are retained."
+    },
+    {
+      "batch": "batch-38",
+      "code": "C0597",
+      "system": "adaptive-cruise braking",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/C0597.md",
+      "articleSha256Reviewed": "ae92af6b1f9ca559f4a81500c8bb7cccc6c5e8408d316b24bff5037edfe92e7d",
+      "entryId": "generic-c0597",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body retains the ACC-startup event and explicitly avoids borrowing neighboring numeric limits or provoking abnormal braking on a road."
+    },
+    {
+      "batch": "batch-38",
+      "code": "P0A95",
+      "system": "high-voltage battery fuse",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/P0A95.md",
+      "articleSha256Reviewed": "9430fc050122eec4d3817082fe6dde0ad44371fe21d519a003204d5a0ce92abb",
+      "entryId": "generic-p0a95",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "Five-second fault and one-second recovery conditions are distinct; measurement-path alternatives and full professional isolation boundary are preserved."
+    },
+    {
+      "batch": "batch-38",
+      "code": "U0187",
+      "system": "infotainment communication",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/U0187.md",
+      "articleSha256Reviewed": "295c80a8744e232bee4b3f982fac1d0f836824ed9b55ce24c2aaced1ff26e590",
+      "entryId": "generic-u0187",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body distinguishes DVD/CD communication from disc-read failure and explicitly scopes USB supply/signal/shield references to the fitted system."
+    },
+    {
+      "batch": "batch-38",
+      "code": "U0301",
+      "system": "powertrain-to-body error reporting",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/U0301.md",
+      "articleSha256Reviewed": "8aa8857b94cb6e410c00ba9101862691c599537d74b88f3850813b5b7b31758a",
+      "entryId": "generic-u0301",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body differentiates receiving an error status from losing messages and avoids a blanket reflash or controller replacement."
+    },
+    {
+      "batch": "batch-38",
+      "code": "U0339",
+      "system": "door electrical supply communication",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/U0339.md",
+      "articleSha256Reviewed": "2d9facbf207d3f88bce234d268fff2d4c48976d93512a29b87b5a0039280a181",
+      "entryId": "generic-u0339",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": false,
+      "observation": "Body resolves generic module-B wording to the driver-door supply unit without asserting inevitable window, mirror or lock symptoms."
+    },
+    {
+      "batch": "batch-38",
+      "code": "U300E",
+      "system": "ignition supply plausibility",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-38/U300E.md",
+      "articleSha256Reviewed": "a0e2c1f411735af4b9c26e28219b88afcbd55c49c5044c5cef29821803780a28",
+      "entryId": "generic-u300e",
+      "sourceReviewAfter": "checked",
+      "fullBodyRead": true,
+      "deepSourceCheck": true,
+      "observation": "Physical IG1 feed and BCM-reported ignition state remain separate; no fuse/relay bypass instructions are given."
+    }
+  ],
+  "deepSourceChecks": [
+    {
+      "batch": "batch-37",
+      "code": "P000F",
+      "sourceType": "original factory HTML as mirrored by CHARM",
+      "sourceId": "mazda3-2019-id0102u9015200",
+      "sourceUrl": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9015200.html",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9015200.html",
+      "sha256": "154ff2f59b723a92788fed59708f667fa1f6d9cd58a036505fb37c458639ac2e",
+      "locator": "DTC P000F:00 [PCM (SKYACTIV-X)]; id0102u9015200; detection conditions and diagnostic procedure",
+      "readScope": "Full DTC detection, explanation and diagnostic procedure; original HTML/plaintext checked, not only search snippets or code mentions.",
+      "findings": [
+        "Direct P000F:00 SKYACTIV-X heading verified.",
+        "93 MPa for 5 seconds,2 MPa hysteresis and91 MPa stop boundary are printed in the source;500 rpm and 8 V preconditions match.",
+        "Pump, high-pressure sensor and PCM alternatives and FUEL_PRES connector observation match; fuel-cut response retained.",
+        "Generic relief-valve activation is not established by this page; existing needs-review and narrow engine scope retained."
+      ],
+      "result": "supported-with-existing-unresolved-source-plausibility-and-identity-limitations"
+    },
+    {
+      "batch": "batch-37",
+      "code": "P063B",
+      "sourceType": "original factory HTML as mirrored by CHARM",
+      "sourceId": "mazda3-2019-id0102t46808u2",
+      "sourceUrl": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t46808u2.html",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t46808u2.html",
+      "sha256": "f873a29472c5ed8683f3188c612c8d8bcd1c0d15d3e1e1d6b865b87d1550e94b",
+      "locator": "DTC P063B:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; id0102t46808u2; detection conditions and diagnostic procedure",
+      "readScope": "Full DTC detection, explanation and diagnostic procedure; original HTML/plaintext checked, not only search snippets or code mentions.",
+      "findings": [
+        "PCM monitor is triggered by ISG P063B/P063C/P063D; it does not supply an external voltage limit.",
+        "ISG-first fault retrieval, historical-code note and listed hybrid control inhibitions match.",
+        "KOEO confirmation and conditional network/controller branches match."
+      ],
+      "result": "supported"
+    },
+    {
+      "batch": "batch-37",
+      "code": "P0DAD",
+      "sourceType": "original factory HTML as mirrored by CHARM",
+      "sourceId": "mazda3-2019-id140204310400",
+      "sourceUrl": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id140204310400.html",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id140204310400.html",
+      "sha256": "ca5042e0846f69a76e5bd0d4da3a0f70875711a443cb4b638277f8e90dabad86",
+      "locator": "DTC P0DAD:F1, P0DAD:F2, P0DAD:F3, P0DAD:F4, P0DAD:F5, P0DAD:F6, P0DAD:F7, P0DAD:F8, P0DAD:F9, P0DAE:F1, P0DAE:F2, P0DAE:F3, P0DAE:F4, P0DAE:F5, P0DAE:F6, P0DAE:F7, P0DAE:F8 OR P0DAE:F9 [Mazda M Hybrid BATTERY]; id140204310400; detection conditions and diagnostic procedure",
+      "readScope": "Full DTC detection, explanation and diagnostic procedure; original HTML/plaintext checked, not only search snippets or code mentions.",
+      "findings": [
+        "F1–F9 correspond to cells 1–9; P0DAD means unintended balancing while P0DAE means requested balancing response absent.",
+        "READY precondition and approximately20 seconds,five consecutive times are present.",
+        "Source literally calls the0.9 V comparison cell voltage; article avoids converting it into a normal cell-voltage target and remains needs-review.",
+        "Present/history checks and no dedicated fail-safe are supported."
+      ],
+      "result": "supported-with-existing-unresolved-0.9 V-interpretation"
+    },
+    {
+      "batch": "batch-37",
+      "code": "P2104",
+      "sourceType": "original factory HTML as mirrored by CHARM",
+      "sourceId": "mazda3-2019-id0102t5711100",
+      "sourceUrl": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t5711100.html",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t5711100.html",
+      "sha256": "f033816d125ca4b8160d33518338f1d8aab7bfa83cd6371c8141edb25cef2043",
+      "locator": "DTC P2104:00 [PCM (SKYACTIV-D)]; id0102t5711100; detection conditions and diagnostic procedure",
+      "readScope": "Full DTC detection, explanation and diagnostic procedure; original HTML/plaintext checked, not only search snippets or code mentions.",
+      "findings": [
+        "Source compares exhaust/boost pressure with an estimated value; original article incorrectly described high estimated pressure. Corrected the direction of comparison.",
+        "Turbo requested/actual comparison, vacuum-path branches, MAP/exhaust sensor alternatives,oil and injection checks are present.",
+        "ATX exceptP/N versus MTX neutral wording is unusual; existing needs-review and avoidance of an operational gear instruction retained.",
+        "Article does not reproduce compulsory-regeneration or road-reproduction instructions."
+      ],
+      "result": "corrected-source-backed-wording"
+    },
+    {
+      "batch": "batch-37",
+      "code": "P25AF",
+      "sourceType": "original factory HTML as mirrored by CHARM",
+      "sourceId": "mazda3-2019-id0102u9787700",
+      "sourceUrl": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102u9787700.html",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102u9787700.html",
+      "sha256": "50c0096b5998d03da9365037918dfd94c8c29cf4914e657df542e0d451bc3178",
+      "locator": "DTC P25AF:00 [PCM (SKYACTIV-X)]; id0102u9787700; detection conditions and diagnostic procedure",
+      "readScope": "Full DTC detection, explanation and diagnostic procedure; original HTML/plaintext checked, not only search snippets or code mentions.",
+      "findings": [
+        "Ten missing pressure fluctuations,2,000 rpm precondition,companion P26A3 and upstream pressure sensing are present.",
+        "Source pairs65 °C with140 °F, an inconsistent conversion; added explicit uncertainty rather than silently selecting a temperature.",
+        "Detection table says valve closed while explanation later says requested open; existing direction caveat retained.",
+        "Trapped air, pump, belt, wiring and valve checks and protective responses are supported."
+      ],
+      "result": "corrected-added-unresolved-source-unit-conflict"
+    },
+    {
+      "batch": "batch-38",
+      "code": "B0003",
+      "sourceType": "original factory HTML as mirrored by CHARM",
+      "sourceId": "mazda3-2019-id0802g6008000",
+      "sourceUrl": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0802g6008000.html",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0802g6008000.html",
+      "sha256": "b24016c55010981ba09b2b455321b9b8419c3b34b67271c3d868303a103a1976",
+      "locator": "DTC B0003:53 [SAS CONTROL MODULE]; Outline and Diagnostic Procedure",
+      "readScope": "Full DTC detection, explanation and diagnostic procedure; original HTML/plaintext checked, not only search snippets or code mentions.",
+      "findings": [
+        "B0003:53 is operation/deployment inhibited, with missing/incorrect SAS configuration or another airbag malfunction.",
+        "Other-DTC-first branch,as-built configuration and recurrence/CAN sequence match.",
+        "Source does not establish a third-stage inflator failure; article appropriately states that limitation and avoids unsafe SRS work instructions."
+      ],
+      "result": "supported"
+    },
+    {
+      "batch": "batch-38",
+      "code": "C0034",
+      "sourceType": "original factory HTML as mirrored by CHARM",
+      "sourceId": "mazda3-2019-id0102t46796u2",
+      "sourceUrl": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0102t46796u2.html",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0102t46796u2.html",
+      "sha256": "1956c240172f20c758edce1dbf2d7927d1feeb3b4530318460616e7e4048d948",
+      "locator": "DTC C0034:00 [PCM (SKYACTIV-G (WITH Mazda M Hybrid))]; Outline and Diagnostic Procedure",
+      "readScope": "Full DTC detection, explanation and diagnostic procedure; original HTML/plaintext checked, not only search snippets or code mentions.",
+      "findings": [
+        "PCM trigger list matches C0034:07/:15/:19/:29/:2F/:37/:64 and C0519:95 in originating brake unit.",
+        "I-stop and regenerative-braking inhibitions match.",
+        "Historical PCM-only record, brake-unit DTC-first diagnosis and recurrence/CAN path match."
+      ],
+      "result": "supported"
+    },
+    {
+      "batch": "batch-38",
+      "code": "U300E",
+      "sourceType": "original factory HTML as mirrored by CHARM",
+      "sourceId": "mazda3-2019-id0702k8011200",
+      "sourceUrl": "https://charm.li/Mazda/Mazda3%2001%2F2019%20-%3E%20%28d9n1-1a-22d_ver10%29/esicont/srvc/html/id0702k8011200.html",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mazda3-2019-pages/id0702k8011200.html",
+      "sha256": "6f62619436387c422fddb6c4b767822a4c56dfa0a1f2e6322abc68b1a6fee1dd",
+      "locator": "DTC U300E:13 [DASH-ELECTRICAL SUPPLY UNIT]; Outline and Diagnostic Procedure",
+      "readScope": "Full DTC detection, explanation and diagnostic procedure; original HTML/plaintext checked, not only search snippets or code mentions.",
+      "findings": [
+        "Local IG1 supply off versus BCM CAN IG1 on is the exact detection comparison.",
+        "IG1relayNo. 2,F47 15 A,connector,ground-short andopen feed causes match.",
+        "Relay/connector-before-fuse order and conditional recurrence/CAN process match; no invented fuse location or bypass."
+      ],
+      "result": "supported"
+    },
+    {
+      "batch": "batch-38",
+      "code": "C0046",
+      "sourceType": "original manufacturer PDF mirrored publicly",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "sourceUrl": "https://www.siteguru.co.uk/MG4/Manuals/MG4%20EV%20UK%20Guided%20Fault%20Finding%20DTC%20Support%20v1.02.pdf",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mg4-uk-fault-v102.pdf",
+      "sha256": "f08ee38da269c089054608d077c34a8569269fa547c7838de69f211b273331b7",
+      "physicalPdfPages": [
+        350,
+        351,
+        352
+      ],
+      "actualPdfPageCount": 727,
+      "readScope": "Entire listed physical pages extracted directly from PDF with pypdf, including adjacent table labels to prevent row misattribution.",
+      "findings": [
+        "Original PDF identifies :26/:27 as pressure-sensor T1/T2 channels; temperature thresholds below -64 °C and above 191 °C match.",
+        "Normal sensor supply precondition and disabled functions excluding EBD/ABS/EDC match.",
+        "Grouped IBS software/unit steps are scoped as shared guidance rather than a unique external temperature-sensor replacement."
+      ],
+      "result": "supported"
+    },
+    {
+      "batch": "batch-38",
+      "code": "P0A95",
+      "sourceType": "original manufacturer PDF mirrored publicly",
+      "sourceId": "saic-mg4-uk-guided-dtc-v102",
+      "sourceUrl": "https://www.siteguru.co.uk/MG4/Manuals/MG4%20EV%20UK%20Guided%20Fault%20Finding%20DTC%20Support%20v1.02.pdf",
+      "localOriginal": "/workspace/scratch/dbf135311373/wave4/next-sources/mg4-uk-fault-v102.pdf",
+      "sha256": "f08ee38da269c089054608d077c34a8569269fa547c7838de69f211b273331b7",
+      "physicalPdfPages": [
+        566
+      ],
+      "actualPdfPageCount": 727,
+      "readScope": "Entire listed physical pages extracted directly from PDF with pypdf, including adjacent table labels to prevent row misattribution.",
+      "findings": [
+        "Main relay closed and normal battery voltage are running conditions; greater than 10 V across fuse for 5 seconds is the setting criterion.",
+        "Less than 10 V for 1 second recovery and 40 failure-free power cycles history rule match.",
+        "Source includes sampling harness/connectors andBMS/EDM alternatives; article preserves professional pack-service boundaries without dangerous probing or bypass steps."
+      ],
+      "result": "supported"
+    }
+  ],
+  "appliedChanges": [
+    {
+      "batch": "batch-37",
+      "code": "P0763",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P0763.md",
+      "beforeSha256": "c050e8fa11e978ccc17244374258ccc02af10a9a516dd82170cae4aa2dde9a62",
+      "afterSha256": "ab79b486bc6a78afb8a6d6d39523a58a36bb1a53402804e04949318bfcd66119",
+      "edits": [
+        {
+          "field": "description",
+          "before": "The documented Mazda P0763 procedure covers shift solenoid C maps to number 3 in the CW6A-EL.",
+          "after": "Mazda's CW6A-EL procedure maps P0763 to shift solenoid number 3 and explains the electrical-fault diagnostic path."
+        }
+      ]
+    },
+    {
+      "batch": "batch-37",
+      "code": "P0DAD",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P0DAD.md",
+      "beforeSha256": "dcb77ab9d9f2bffd2ad556138e8c230b9d21fb1b3ee85a95e066a4fe1d028652",
+      "afterSha256": "26094967662f6458ef2c33821ff32d923ec0f640a6f33831ef6092cc84c0b5e3",
+      "edits": [
+        {
+          "field": "description",
+          "before": "The documented Mazda P0DAD procedure covers cell balancing remains active when it was not requested.",
+          "after": "Mazda's P0DAD procedure identifies unintended battery cell balancing, with the suffix specifying the affected cell."
+        }
+      ]
+    },
+    {
+      "batch": "batch-37",
+      "code": "P2104",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P2104.md",
+      "beforeSha256": "7a051c3919f74022f032705579400d1c7f8e10c4a0baf59b131b26ba333bf220",
+      "afterSha256": "5ea3c2b050e9dd31e69a19caf4a8937de12fe22a40d7ff960a22ef4817ece53a",
+      "edits": [
+        {
+          "field": "description",
+          "before": "The documented Mazda P2104 procedure covers mazda diesel idle-control diagnosis includes boost and vacuum faults.",
+          "after": "Mazda's P2104 diesel procedure includes boost-pressure, vacuum-control and oil-level checks beyond the generic forced-idle label."
+        },
+        {
+          "field": "body",
+          "before": "Mazda's SKYACTIV-D page describes intake shutter idle-air control and investigates unexpectedly high estimated exhaust or boost pressure under its specified operating conditions.",
+          "after": "Mazda's SKYACTIV-D page describes intake shutter idle-air control and evaluates exhaust or boost pressure at or above the PCM's estimated value under its specified operating conditions."
+        }
+      ]
+    },
+    {
+      "batch": "batch-37",
+      "code": "P3498",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P3498.md",
+      "beforeSha256": "886e582d1e19ae91a7ba4e7880c0404a841ee07ea1fe4839faa0ab5985530703",
+      "afterSha256": "e55095907d9a965d8ce61ea500a5e2a3a6a4281c38deba682c01d3dc48901bfd",
+      "edits": [
+        {
+          "field": "description",
+          "before": "The documented Mazda P3498 procedure covers cylinder 1 may fail to return from deactivation.",
+          "after": "Mazda's P3498 procedure investigates cylinder 1 failing to return from deactivation and distinguishes combustion faults from valve problems."
+        }
+      ]
+    },
+    {
+      "batch": "batch-37",
+      "code": "P25AF",
+      "articlePath": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/P25AF.md",
+      "beforeSha256": "9a969a3e7d225946f2e5438125a8c0fbc4b0ad60448c2c361bcf4f7a23adac7d",
+      "afterSha256": "b8cf6aa9c20b82920daa2a784cd2e49d767645b19da8ded271304bb90505268a",
+      "edits": [
+        {
+          "field": "body",
+          "before": "Preconditions include engine speed at least 2,000 rpm, coolant at or below 65 °C and absence of specified valve and water-pressure sensor circuit codes. The page's valve open/close wording is inconsistent between sections, so this article does not infer a precise command-direction rule.",
+          "after": "Preconditions include engine speed at least 2,000 rpm and absence of specified valve and water-pressure sensor circuit codes. The source pairs a coolant limit of 65 °C with 140 °F, an inconsistent conversion that needs verification. Its valve open/close wording also differs between sections, so neither a temperature conversion nor a precise command-direction rule should be assumed from this page alone."
+        }
+      ]
+    }
+  ],
+  "otherModifiedFiles": [
+    {
+      "path": "/workspace/scratch/dbf135311373/cars-production/content/code-articles/batch-37/research-notes.json",
+      "change": "Recorded P25AF conversion conflict, corrected P2104 comparison note and recalculated substantive word counts after edits."
+    }
+  ],
+  "unresolvedLimitations": [
+    {
+      "code": "P000F",
+      "status": "needs-review retained",
+      "detail": "Source prints unusually high93 MPa threshold and generic relief-activation identity is not established; factory authenticity at current OEM portal and calibration plausibility not independently resolved."
+    },
+    {
+      "code": "P0DAD",
+      "status": "needs-review retained",
+      "detail": "Source literally uses0.9 V cell-voltage wording; no independent battery-monitor specification resolves whether terminology is erroneous. Article does not present it as a physical balancing target."
+    },
+    {
+      "code": "P2104",
+      "status": "needs-review retained",
+      "detail": "Generic forced-idle label and OEM pressure/vacuum route differ; unusual transmission-state wording remains source-scoped."
+    },
+    {
+      "code": "P25AF",
+      "status": "needs-review retained",
+      "detail": "Generic MIL-request versus OEM valve-performance naming, open/close command wording and65 °C/140 °F conversion remain unresolved."
+    }
+  ],
+  "boundedReviewLimits": [
+    "Only the 20 named bodies were substantively read; only the 10 named code/source pairs received independent source verification.",
+    "Five body-only samples per batch were reviewed for clarity, scope, specificity and hazardous guidance; their technical details were not independently checked against source in this pass.",
+    "Mazda evidence is downloaded manufacturer HTML publicly mirrored at CHARM; no current VIN-specific OEM portal, bulletin supersession or vehicle configuration was verified.",
+    "MG evidence is the exact 727-page UK manual revision; per-build applicability remains unestablished and cannot be generalized to every MG4.",
+    "Source-review checked means support against the cited document, not mechanic approval or actual vehicle diagnosis.",
+    "No live vehicle tests,repair outcomes, publication, commits, shared source manifests orgenerated corpus reports were altered."
+  ]
+}
