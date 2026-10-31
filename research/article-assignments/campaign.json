@@ -7,11 +7,11 @@
   "completedWaves": [
     1,
     2,
-    3
+    3,
+    4
   ],
   "currentWave": 4,
   "remainingPlannedWaves": [
-    4,
     5,
     6,
     7,
@@ -22,7 +22,7 @@
   "execution": "Continue within the authorized work session; this record is a resumable work plan, not a background scheduler or a claim of publication.",
   "qualityGate": "No invented diagnostic criteria, namespace swapping, title-only variants or counted source mentions. Every batch retains source evidence and unresolved-review notes.",
   "publication": "Writer groups batch-01 through batch-30 are live on existing canonical URLs; later groups remain unpublished unless explicitly selected.",
-  "currentWaveStatus": "Resumed: writer groups31,32,34,36 have400 complete unpublished drafts; groups33,35,37–40 are writing. Counts are based on manuscript files, not reservations.",
+  "currentWaveStatus": "Writing complete: writer groups 31\u201340 contain 1,000 additional unpublished drafts; 937 have author source checks and 63 retain explicit unresolved source-review flags. Final integration validation is recorded in reports/wave-04-validation.json.",
   "publicationSelection": {
     "manifest": "content/code-articles/publication.json",
     "waves": [
@@ -39,5 +39,29 @@
     "articles": 3000,
     "verifiedAt": "2026-10-31T09:40:18.142002+00:00",
     "verification": "reports/production-release-3000.json"
+  },
+  "nextWave": {
+    "wave": 5,
+    "batches": [
+      "batch-41",
+      "batch-42",
+      "batch-43",
+      "batch-44",
+      "batch-45",
+      "batch-46",
+      "batch-47",
+      "batch-48",
+      "batch-49",
+      "batch-50"
+    ],
+    "target": 1000,
+    "status": "planned-not-started"
+  },
+  "currentWaveReview": {
+    "summary": "reports/editorial-review-wave-04-summary.json",
+    "distinctBodySamples": 110,
+    "articleSourceChecks": 60,
+    "similarityScreen": "reports/article-similarity-wave-04.json",
+    "fullCorpusCertification": false
   }
 }

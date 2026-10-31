@@ -1,0 +1,56 @@
+{
+  "batch": "batch-39",
+  "status": "complete-drafts",
+  "articleCount": 100,
+  "checkedOn": "2026-10-31",
+  "sourceReviewCounts": {
+    "checked": 97,
+    "needs-review": 3
+  },
+  "sourceMethods": [
+    "Direct original-manufacturer HTML mirrored by Operation CHARM; full monitor and service sections reviewed",
+    "BMW rotated OBD summary images downloaded, rotated for legibility, OCR reviewed and key tables visually checked",
+    "Volkswagen DTC image tables supplemented by full matching component procedures",
+    "Mazda exact workshop HTML id140202300300 reused after full direct source read"
+  ],
+  "sourceFile": "/workspace/scratch/dbf135311373/wave4/writer39/sources.json",
+  "sourceGapExclusions": [
+    "N63 P1551 chart describes deleted system-time monitor, not canonical camshaft fault; not claimed.",
+    "N63 P1162 chart describes secondary throttle plausibility rather than canonical fuel trim; another batch claimed it before this writer.",
+    "N63 clutch charts under automatic-X6 navigation not used.",
+    "N62TU P0530 explicitly inactive in listed calibration; not counted.",
+    "M62 P1530 chart describes throttle rather than canonical camshaft; M54 aligned VANOS source used instead.",
+    "V10 P0209 source correction says cylinder 10 despite generic cylinder 9 mapping; not used.",
+    "Several VW bare definition rows lacking a substantive matching component procedure not counted."
+  ],
+  "needsReview": [
+    {
+      "code": "P1083",
+      "issue": "Imported BMW catalog says lean; visually reviewed factory summary labels P1083/1085 rich. Conflict is prominent and no directional repair is prescribed."
+    },
+    {
+      "code": "P1615",
+      "issue": "ATQ DTC description names G8 while action points to G266. Exact installed oil-temperature information source must be resolved before component selection."
+    },
+    {
+      "code": "P1704",
+      "issue": "Transmission chart identifies F8 and accelerator-cable adjustment under ATQ navigation. Installed transmission/pedal configuration must be verified; article explicitly does not apply cable steps to every ATQ."
+    }
+  ],
+  "boundedSourceAmbiguities": [
+    "P2193/P2194 inconsistent printed voltage-enable line omitted; valid adaptation/load criteria retained.",
+    "P1327/P1328 unusual airflow unit omitted; voltage/revolution criteria retained.",
+    "P0934/P0935 unusual supply brackets omitted; precise SMG/test-group scope retained.",
+    "P213F unexplained 750-second field not interpreted as a reset instruction.",
+    "P1568 adaptation procedure display-group inconsistency acknowledged; no improvised tool sequence given.",
+    "P1743 source pressure-valve 4 and canonical solenoid E nomenclature preserved with exact-transmission verification."
+  ],
+  "validation": {
+    "uniqueAssignedCodes": 100,
+    "parseableFrontmatter": 100,
+    "bodyWordCountMin": 235,
+    "bodyWordCountMax": 270,
+    "identicalSubstantiveParagraphs": []
+  },
+  "independentReview": "Writer34 reviewed 10 initial bodies and five original sources; writer35 reviewed P1568/P1477/P1749/P0DF4/P0DF9. Both reported supported technical claims; VW footer naming cleanup completed."
+}

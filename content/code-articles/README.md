@@ -1,10 +1,10 @@
-# 3,400 code article manuscripts
+# 4,000 code article manuscripts
 
-**3,400 separately stored manuscripts for 3,400 distinct canonical codes**, from 3,400 current assignments. Completed writing waves: 1, 2, 3. Each full wave assigns ten writers 100 new codes each. All assignments exclude previously assigned code strings.
+**4,000 separately stored manuscripts for 4,000 distinct canonical codes**, from 4,000 current assignments. Completed writing waves: 1, 2, 3, 4. Each full wave assigns ten writers 100 new codes each. All assignments exclude previously assigned code strings.
 
-The inventory counts 915,917 words including headings and source text, excluding URL targets. Each manuscript records a canonical identity, search metadata, exact evidence locators and its applicability limits.
+The inventory counts 1,084,982 words including headings and source text, excluding URL targets. Each manuscript records a canonical identity, search metadata, exact evidence locators and its applicability limits.
 
-**Renderer selection: 3,000 manuscripts; 400 remain unpublished drafts.** The explicit [publication manifest](publication.json) controls which texts appear on their existing canonical code pages. Source files retain their draft authoring metadata; publication selection is a separate state. These repository counts do not verify a live deployment. 2,875 have author source checks; 525 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
+**Renderer selection: 3,000 manuscripts; 1,000 remain unpublished drafts.** The explicit [publication manifest](publication.json) controls which texts appear on their existing canonical code pages. Source files retain their draft authoring metadata; publication selection is a separate state. These repository counts do not verify a live deployment. 3,420 have author source checks; 580 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
 
 ## Writing waves
 
@@ -13,7 +13,7 @@ The inventory counts 915,917 words including headings and source text, excluding
 | 1 | 1,000 / 1,000 | 1,000 | 110 |
 | 2 | 1,000 / 1,000 | 1,000 | 233 |
 | 3 | 1,000 / 1,000 | 1,000 | 174 |
-| 4 | 400 / 1,000 | 0 | 8 |
+| 4 | 1,000 / 1,000 | 0 | 63 |
 
 ## Articles by writer
 
@@ -51,8 +51,14 @@ The inventory counts 915,917 words including headings and source text, excluding
 | [batch-30](batch-30/) | 100 / 100 | 9 |
 | [batch-31](batch-31/) | 100 / 100 | 7 |
 | [batch-32](batch-32/) | 100 / 100 | 0 |
-| [batch-34](batch-34/) | 100 / 100 | 0 |
+| [batch-33](batch-33/) | 100 / 100 | 11 |
+| [batch-34](batch-34/) | 100 / 100 | 9 |
+| [batch-35](batch-35/) | 100 / 100 | 1 |
 | [batch-36](batch-36/) | 100 / 100 | 1 |
+| [batch-37](batch-37/) | 100 / 100 | 23 |
+| [batch-38](batch-38/) | 100 / 100 | 0 |
+| [batch-39](batch-39/) | 100 / 100 | 3 |
+| [batch-40](batch-40/) | 100 / 100 | 8 |
 
 ## Read examples
 
@@ -69,6 +75,10 @@ The inventory counts 915,917 words including headings and source text, excluding
 Original articles use documented monitor behavior or scoped diagnostic cases. Manufacturer manuals, manufacturer communications hosted by NHTSA, and independent diagnostic-tool research retain their actual publishers and exact applicability. A file-level model list or a catalog tag does not prove per-code fitment. Historical calibrations are not universal repair specifications. No unsupported prices, failure probabilities, vehicle compatibility or replacement instructions are invented.
 
 The first two waves have separate recorded additional reviews. The [second-wave review summary](../../reports/editorial-review-wave-02-summary.json) identifies its sampled files, source checks and integrated wording corrections. The [third-wave review](../../reports/editorial-review-wave-03-summary.json) adds 200 body reads and 40 deep source checks across two further batches, with citation/provenance corrections and 27 concise family-article revisions. These bounded checks do not certify every article or extend to unreviewed later waves.
+
+The [fourth-wave peer-review summary](../../reports/editorial-review-wave-04-summary.json) records **110 distinct article bodies and 60 article-to-source checks** across batches 31–40. Deep checks are included in the body sample; they do not count unique source documents. 10 metadata/excerpt checks and 2 citation-only checks are separate. The reviews recorded corrections across 29 files, including 10 changes to needs-review that preserve unresolved definition or applicability gaps. Selection cutoffs and later samples are recorded in the summary. These bounded AI peer reviews do not certify every article, vehicle applicability, repairs or live publication.
+
+The [fourth-wave similarity screen](../../reports/article-similarity-wave-04.json) compares the new drafts internally and against the first 3,000. Its recorded corpus, candidate limits and manual pair reviews define the scope; lexical similarity does not certify originality or factual accuracy.
 
 `npm run articles:complete` validates assigned files and metadata and fails while writing is incomplete. The [writing inventory](../../reports/written-articles.json) records exact totals and review states. The [similarity report](../../reports/article-similarity.json) is a bounded text screen; check its recorded scope before applying its findings to newer files.
 

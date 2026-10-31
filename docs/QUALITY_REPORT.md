@@ -1,18 +1,18 @@
 # ErrHive Cars quality report
 
-Generated 2026-10-31T09:19:16.909Z. These are repository and build measurements, not proof of public deployment, indexing, search demand or rankings.
+Generated 2026-10-31T10:34:00.053Z. These are repository and build measurements, not proof of public deployment, indexing, search demand or rankings.
 
 | Measure | Actual |
 | --- | ---: |
-| Written code-article manuscripts | 3000 |
+| Written code-article manuscripts | 4000 |
 | Selected for the canonical renderer | 3000 |
 | Manuscript bodies verified in static output | 3000 |
-| Unselected unpublished manuscripts | 0 |
-| Manuscripts with unresolved source details | 517 |
+| Unselected unpublished manuscripts | 1000 |
+| Manuscripts with unresolved source details | 580 |
 | Rendered articles retaining source-review notices | 517 |
 | Approved code-article records | 0 |
 | Code entries tracked for article research | 11786 |
-| Code entries with scoped source candidates (not verified articles) | 3395 |
+| Code entries with scoped source candidates (not verified articles) | 4190 |
 | Individually authored diagnostic guides | 32 |
 | Indexable code pages (including authored articles) | 11786 |
 | Generic definitions | 9249 |
@@ -33,7 +33,7 @@ Generated 2026-10-31T09:19:16.909Z. These are repository and build measurements,
 
 Data validation: **passed**, 276918 checks and 0 failures. Static output audit: **passed**, 2035551 checks and 0 failures. Reports retain aggregate check counters and capped failure details. The static audit processes one HTML document and one search shard at a time. Read the current CI run for Node tests, production-browser checks, and screenshots.
 
-The user target is at least **10,000 separately authored, useful code articles**, covering the existing code catalog. Written code-article manuscripts: **3000**. The explicit publication manifest selects **3000** for their matching canonical pages; the static audit finds **3000** rendered manuscript bodies. **0** remain unpublished drafts. Original source files retain draft authoring metadata, and unresolved-source flags remain visible. These build measurements do not verify the live domain. Separate claim-level approved code-article records: **0**. Current target result: **not met**. The 32 scoped case guides remain separate content. The dictionary-size check preserves the imported inventory; it does not measure article completion. Candidate source mentions also do not count as articles. Run `npm run article:target` for the explicit completion gate; it fails while the target is unmet. Structural screening is not proof of factual accuracy or live publication.
+The user target is at least **10,000 separately authored, useful code articles**, covering the existing code catalog. Written code-article manuscripts: **4000**. The explicit publication manifest selects **3000** for their matching canonical pages; the static audit finds **3000** rendered manuscript bodies. **1000** remain unpublished drafts. Original source files retain draft authoring metadata, and unresolved-source flags remain visible. These build measurements do not verify the live domain. Separate claim-level approved code-article records: **0**. Current target result: **not met**. The 32 scoped case guides remain separate content. The dictionary-size check preserves the imported inventory; it does not measure article completion. Candidate source mentions also do not count as articles. Run `npm run article:target` for the explicit completion gate; it fails while the target is unmet. Structural screening is not proof of factual accuracy or live publication.
 
 ## Evidence boundaries
 
@@ -44,3 +44,9 @@ Model existence and sales context do not prove code applicability. Model bulleti
 Lighthouse uses three sequential samples per route/device and the official computeMedianRun representative. All samples are saved; no successful retry is silently substituted. The gates remain performance95, accessibility100, best practices100, and SEO100 on indexable pages. Search intentionally uses noindex; only its crawlability audit is exempted. Laboratory results are not field Core Web Vitals.
 
 No production HTTP status, DNS/TLS, Search Console indexation, real-user traffic, live-ad performance or guaranteed repair outcome is established by these reports. Ads are disabled.
+
+<!-- wave-04-peer-review:start -->
+## Independent review of writing wave 4
+
+The [fourth-wave peer-review summary](../reports/editorial-review-wave-04-summary.json) records **110 distinct article bodies and 60 article-to-source checks** across batches 31–40. Deep checks are included in the body sample; they do not count unique source documents. 10 metadata/excerpt checks and 2 citation-only checks are separate. The reviews recorded corrections across 29 files, including 10 changes to needs-review that preserve unresolved definition or applicability gaps. Selection cutoffs and later samples are recorded in the summary. These bounded AI peer reviews do not certify every article, vehicle applicability, repairs or live publication.
+<!-- wave-04-peer-review:end -->

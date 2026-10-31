@@ -4,7 +4,7 @@ Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted f
 
 ## Content inventory
 
-The writing inventory contains **3,400 code-article manuscripts for 3,400 distinct codes**. Completed writing waves: 1, 2, 3. The [manuscript index](content/code-articles/README.md) reports each wave and current progress toward 10,000. The publication manifest selects **3,000** for the canonical page renderer; **400** remain unpublished drafts. Renderer selection, verified live publication and the full-catalog review target are counted separately.
+The writing inventory contains **4,000 code-article manuscripts for 4,000 distinct codes**. Completed writing waves: 1, 2, 3, 4. The [manuscript index](content/code-articles/README.md) reports each wave and current progress toward 10,000. The publication manifest selects **3,000** for the canonical page renderer; **1,000** remain unpublished drafts. Renderer selection, verified live publication and the full-catalog review target are counted separately.
 
 **The 10,000-code-article task is not complete.** The 32 case guides below are separate from the canonical dictionary pages. [Full-corpus research status](docs/FULL_CORPUS_RESEARCH.md) records the evidence gap and source candidates.
 
@@ -57,3 +57,7 @@ Data ingestion is reproducible with `node scripts/import-dtc.mjs` from the retai
 Cloudflare Pages: production branch **main**, repository root, build **npm run build**, output **dist**, `NODE_VERSION=24`. The production domain is **cars.errhive.com**. The original **errhive.com** appliance project is separate.
 
 See [deployment instructions](docs/DEPLOYMENT.md), [reuse manifest](docs/REUSE_MANIFEST.md), and [quality report](docs/QUALITY_REPORT.md). DNS activation, HTTPS, public deployment and Google indexing must each be verified separately; source and build counts do not establish traffic or rankings.
+
+<!-- wave-04-peer-review:start -->
+The [fourth-wave peer-review summary](reports/editorial-review-wave-04-summary.json) records **110 distinct article bodies and 60 article-to-source checks** across batches 31–40. Deep checks are included in the body sample; they do not count unique source documents. 10 metadata/excerpt checks and 2 citation-only checks are separate. The reviews recorded corrections across 29 files, including 10 changes to needs-review that preserve unresolved definition or applicability gaps. Selection cutoffs and later samples are recorded in the summary. These bounded AI peer reviews do not certify every article, vehicle applicability, repairs or live publication.
+<!-- wave-04-peer-review:end -->

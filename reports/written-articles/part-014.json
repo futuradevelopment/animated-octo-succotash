@@ -1,5 +1,2136 @@
 [
   {
+    "code": "P1833",
+    "entryId": "chevrolet-p1833",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1833.md",
+    "title": "P1833: Transmission high-side driver 2 cannot sustain its command",
+    "wordCount": 268,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000trans6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000trans6-historical",
+        "pages": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1842",
+    "entryId": "chevrolet-p1842",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1842.md",
+    "title": "P1842: Shift-solenoid A control circuit open or held low",
+    "wordCount": 259,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1843",
+    "entryId": "chevrolet-p1843",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1843.md",
+    "title": "P1843: Shift-solenoid A control circuit held toward supply",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1860",
+    "entryId": "chevrolet-p1860",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1860.md",
+    "title": "P1860: Torque-converter PWM control circuit electrical fault",
+    "wordCount": 261,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1870",
+    "entryId": "chevrolet-p1870",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1870.md",
+    "title": "P1870: Excessive converter-clutch slip in the 3T40 monitor",
+    "wordCount": 261,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000trans1-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000trans1-historical",
+        "pages": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1875",
+    "entryId": "chevrolet-p1875",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1875.md",
+    "title": "P1875: Four-wheel-drive low indication disagrees with ratio",
+    "wordCount": 256,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000trans12-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000trans12-historical",
+        "pages": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1887",
+    "entryId": "chevrolet-p1887",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1887.md",
+    "title": "P1887: TCC release switch says released while engagement evidence agrees",
+    "wordCount": 259,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file9-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file9-historical",
+        "pages": [
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P222E",
+    "entryId": "generic-p222e",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P222E.md",
+    "title": "P222E: Barometric-pressure sensor B changes too erratically",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg06-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg06-engine-diagnostics",
+        "pages": [
+          537
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2615",
+    "entryId": "generic-p2615",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P2615.md",
+    "title": "P2615: Cam-position output circuit remains low when high is commanded",
+    "wordCount": 265,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg06-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg06-engine-diagnostics",
+        "pages": [
+          438
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2616",
+    "entryId": "generic-p2616",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P2616.md",
+    "title": "P2616: Cam-position output driver reports a short toward supply",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg06-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg06-engine-diagnostics",
+        "pages": [
+          439
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E68",
+    "entryId": "generic-p2e68",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P2E68.md",
+    "title": "P2E68: Bank-1 fuel adaptation rises too far during deactivation",
+    "wordCount": 271,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E69",
+    "entryId": "generic-p2e69",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P2E69.md",
+    "title": "P2E69: Bank-1 adaptation falls below its deactivation limit",
+    "wordCount": 261,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E6A",
+    "entryId": "generic-p2e6a",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P2E6A.md",
+    "title": "P2E6A: Bank-2 lean correction exceeds the deactivation threshold",
+    "wordCount": 260,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E6B",
+    "entryId": "generic-p2e6b",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P2E6B.md",
+    "title": "P2E6B: Bank-2 rich correction reaches its deactivation boundary",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3401",
+    "entryId": "generic-p3401",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3401.md",
+    "title": "P3401: Cylinder-1 deactivation solenoid open-circuit monitor",
+    "wordCount": 260,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          445
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3403",
+    "entryId": "generic-p3403",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3403.md",
+    "title": "P3403: Cylinder-1 deactivation control short toward ground",
+    "wordCount": 257,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          446
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3404",
+    "entryId": "generic-p3404",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3404.md",
+    "title": "P3404: Cylinder-1 deactivation control short toward supply",
+    "wordCount": 264,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          447
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3411",
+    "entryId": "generic-p3411",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3411.md",
+    "title": "P3411: Cylinder-2 valve-control circuit remains low with driver off",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          418
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3412",
+    "entryId": "generic-p3412",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3412.md",
+    "title": "P3412: Cylinder-2 valve-control output stays high during activation",
+    "wordCount": 265,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          418
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3417",
+    "entryId": "generic-p3417",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3417.md",
+    "title": "P3417: Cylinder-3 deactivation circuit open-path check",
+    "wordCount": 253,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          472
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3419",
+    "entryId": "generic-p3419",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3419.md",
+    "title": "P3419: Cylinder-3 control circuit fails its off-state low check",
+    "wordCount": 265,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          422
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3420",
+    "entryId": "generic-p3420",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3420.md",
+    "title": "P3420: Cylinder-3 deactivation control circuit high",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          474
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3425",
+    "entryId": "generic-p3425",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3425.md",
+    "title": "P3425: Cylinder-4 deactivation circuit loses continuity",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          448
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3427",
+    "entryId": "generic-p3427",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3427.md",
+    "title": "P3427: Cylinder-4 deactivation output is pulled to ground",
+    "wordCount": 269,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          449
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3428",
+    "entryId": "generic-p3428",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3428.md",
+    "title": "P3428: Cylinder-4 deactivation driver reports a supply-side short",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          450
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3433",
+    "entryId": "generic-p3433",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3433.md",
+    "title": "P3433: Cylinder-5 deactivation control has an open-path fault",
+    "wordCount": 254,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          426
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3435",
+    "entryId": "generic-p3435",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3435.md",
+    "title": "P3435: Cylinder-5 valve-control circuit is pulled low",
+    "wordCount": 260,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          426
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3436",
+    "entryId": "generic-p3436",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3436.md",
+    "title": "P3436: Cylinder-5 valve-control output resists the on command",
+    "wordCount": 257,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          426
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3441",
+    "entryId": "generic-p3441",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3441.md",
+    "title": "P3441: Cylinder-6 deactivation output has an open-path indication",
+    "wordCount": 258,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          451
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3443",
+    "entryId": "generic-p3443",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3443.md",
+    "title": "P3443: Cylinder-6 deactivation circuit fails the low-state check",
+    "wordCount": 258,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          452
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3444",
+    "entryId": "generic-p3444",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3444.md",
+    "title": "P3444: Cylinder-6 deactivation control is held toward power",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          453
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3449",
+    "entryId": "generic-p3449",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3449.md",
+    "title": "P3449: Cylinder-7 deactivation control circuit appears open",
+    "wordCount": 259,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          454
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3451",
+    "entryId": "generic-p3451",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3451.md",
+    "title": "P3451: Cylinder-7 deactivation output remains grounded",
+    "wordCount": 254,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          455
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3452",
+    "entryId": "generic-p3452",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3452.md",
+    "title": "P3452: Cylinder-7 deactivation control short toward supply",
+    "wordCount": 259,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          456
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3457",
+    "entryId": "generic-p3457",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3457.md",
+    "title": "P3457: Cylinder-8 valve-control circuit loses its electrical path",
+    "wordCount": 256,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          430
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3459",
+    "entryId": "generic-p3459",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3459.md",
+    "title": "P3459: Cylinder-8 deactivation control remains low after release",
+    "wordCount": 265,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          430
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3460",
+    "entryId": "generic-p3460",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3460.md",
+    "title": "P3460: Cylinder-8 deactivation output stays high when driven",
+    "wordCount": 261,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          430
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P3499",
+    "entryId": "generic-p3499",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P3499.md",
+    "title": "P3499: Cylinder-2 deactivation permits unwanted air pumping",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          414,
+          415
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P349A",
+    "entryId": "generic-p349a",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P349A.md",
+    "title": "P349A: Cylinder-3 half-engine operation fails its airflow performance check",
+    "wordCount": 270,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          418,
+          419
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P349C",
+    "entryId": "generic-p349c",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P349C.md",
+    "title": "P349C: Cylinder-5 deactivation does not produce the expected air behavior",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          422,
+          423
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P349F",
+    "entryId": "generic-p349f",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P349F.md",
+    "title": "P349F: Cylinder-8 deactivation performance leaves an air-pumping error",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          426,
+          427
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U007F",
+    "entryId": "generic-u007f",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U007F.md",
+    "title": "U007F: FlexRay bus-off state in the object-control network",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1456
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0126",
+    "entryId": "generic-u0126",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U0126.md",
+    "title": "U0126: Steering-angle module message is missing at the receiver",
+    "wordCount": 269,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1459
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U012A",
+    "entryId": "generic-u012a",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U012A.md",
+    "title": "U012A: Chassis-control module A messages stop arriving",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2015-15obdg08a-engine-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2015-15obdg08a-engine-diagnostics",
+        "pages": [
+          465
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U026A",
+    "entryId": "generic-u026a",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U026A.md",
+    "title": "U026A: Front-view camera messages time out at the object controller",
+    "wordCount": 264,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1312
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0435",
+    "entryId": "generic-u0435",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U0435.md",
+    "title": "U0435: Rear-steering data is received but cannot be trusted",
+    "wordCount": 261,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1168,
+          1170,
+          1171
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U056B",
+    "entryId": "generic-u056b",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U056B.md",
+    "title": "U056B: Camera data arrives with invalid integrity or freshness",
+    "wordCount": 256,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1314
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0674",
+    "entryId": "generic-u0674",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U0674.md",
+    "title": "U0674: Wastegate-position sensor B loses its SENT signal",
+    "wordCount": 266,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          370,
+          371
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3008",
+    "entryId": "generic-u3008",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U3008.md",
+    "title": "U3008: Ground-path A imbalance detected by the brake controller",
+    "wordCount": 264,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1156
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3009",
+    "entryId": "generic-u3009",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/U3009.md",
+    "title": "U3009: Ground-path B imbalance in the brake-control system",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2020-20obdg07-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2020-20obdg07-diagnostics",
+        "pages": [
+          1156
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0042",
+    "entryId": "generic-p0042",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P0042.md",
+    "title": "P0042: Volkswagen CBUA sensor-three heater circuit monitor",
+    "wordCount": 221,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0043",
+    "entryId": "generic-p0043",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P0043.md",
+    "title": "P0043: Volkswagen CBUA sensor-three heater voltage low",
+    "wordCount": 220,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0044",
+    "entryId": "generic-p0044",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P0044.md",
+    "title": "P0044: Volkswagen CBUA sensor-three heater voltage high",
+    "wordCount": 220,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00D5",
+    "entryId": "generic-p00d5",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P00D5.md",
+    "title": "P00D5: Volkswagen CJAA oxygen-sensor offset correlation",
+    "wordCount": 227,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          42,
+          43
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0142",
+    "entryId": "generic-p0142",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P0142.md",
+    "title": "P0142: Volkswagen sensor-three signal coupling to heater switching",
+    "wordCount": 237,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          80,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0146",
+    "entryId": "generic-p0146",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P0146.md",
+    "title": "P0146: Volkswagen sensor-three no-activity monitor",
+    "wordCount": 222,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          80,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P014D",
+    "entryId": "generic-p014d",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P014D.md",
+    "title": "P014D: Volkswagen CJAA lean-to-rich response timing",
+    "wordCount": 221,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          42,
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0448",
+    "entryId": "generic-p0448",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P0448.md",
+    "title": "P0448: Volkswagen EVAP vent circuit short classification",
+    "wordCount": 220,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          80,
+          91
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P045F",
+    "entryId": "generic-p045f",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P045F.md",
+    "title": "P045F: Volkswagen CJAA low-pressure EGR stuck-closed monitor",
+    "wordCount": 223,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          42,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0486",
+    "entryId": "generic-p0486",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P0486.md",
+    "title": "P0486: Volkswagen CJAA low-pressure EGR position-sensor circuit",
+    "wordCount": 219,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          42,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P048B",
+    "entryId": "generic-p048b",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P048B.md",
+    "title": "P048B: Volkswagen CJAA exhaust-flap position signal low",
+    "wordCount": 221,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          42,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P048C",
+    "entryId": "generic-p048c",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P048C.md",
+    "title": "P048C: Volkswagen CJAA exhaust-flap closed-position learning",
+    "wordCount": 224,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          42,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0684",
+    "entryId": "generic-p0684",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P0684.md",
+    "title": "P0684: Volkswagen CJAA glow-controller communication fault",
+    "wordCount": 234,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          42,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P06FE",
+    "entryId": "generic-p06fe",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P06FE.md",
+    "title": "P06FE: Volkswagen CJAA cold-start intake-airflow control performance",
+    "wordCount": 228,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-2014-golf-gti-r-dtc-quick-reference"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "pages": [
+          42,
+          53,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1104",
+    "entryId": "jaguar-p1104",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1104.md",
+    "title": "P1104: Jaguar AJ26 MAF ground fault and substitute load calculation",
+    "wordCount": 212,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1122",
+    "entryId": "jaguar-p1122",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1122.md",
+    "title": "P1122: Jaguar pedal sensor A low signal",
+    "wordCount": 224,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1123",
+    "entryId": "jaguar-p1123",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1123.md",
+    "title": "P1123: Jaguar pedal sensor A high signal",
+    "wordCount": 223,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1172",
+    "entryId": "jaguar-p1172",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1172.md",
+    "title": "P1172: Jaguar AJ16 rich combustion across both cylinder groups",
+    "wordCount": 232,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1176",
+    "entryId": "jaguar-p1176",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1176.md",
+    "title": "P1176: Jaguar AJ16 lean adaptive fuel-flow correction",
+    "wordCount": 221,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1177",
+    "entryId": "jaguar-p1177",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1177.md",
+    "title": "P1177: Jaguar AJ16 rich adaptive fuel-flow correction",
+    "wordCount": 229,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1178",
+    "entryId": "jaguar-p1178",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1178.md",
+    "title": "P1178: Jaguar AJ16 lean air-flow adaptation and idle evidence",
+    "wordCount": 241,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1179",
+    "entryId": "jaguar-p1179",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1179.md",
+    "title": "P1179: Jaguar AJ16 rich air-flow adaptation",
+    "wordCount": 228,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1185",
+    "entryId": "jaguar-p1185",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1185.md",
+    "title": "P1185: Jaguar AJ16 upstream oxygen-heater open-circuit fault",
+    "wordCount": 235,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1186",
+    "entryId": "jaguar-p1186",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1186.md",
+    "title": "P1186: Jaguar AJ16 upstream oxygen-heater short-circuit diagnosis",
+    "wordCount": 228,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1187",
+    "entryId": "jaguar-p1187",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1187.md",
+    "title": "P1187: Jaguar upstream heater fault with temperature-related possibilities",
+    "wordCount": 230,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1188",
+    "entryId": "jaguar-p1188",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1188.md",
+    "title": "P1188: Jaguar upstream oxygen-heater high resistance",
+    "wordCount": 229,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1189",
+    "entryId": "jaguar-p1189",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1189.md",
+    "title": "P1189: Jaguar upstream heater low-resistance classification",
+    "wordCount": 230,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1190",
+    "entryId": "jaguar-p1190",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1190.md",
+    "title": "P1190: Jaguar upstream heater fault and excessive system voltage",
+    "wordCount": 231,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1191",
+    "entryId": "jaguar-p1191",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1191.md",
+    "title": "P1191: Jaguar downstream oxygen-heater open-circuit fault",
+    "wordCount": 235,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          35,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1192",
+    "entryId": "jaguar-p1192",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1192.md",
+    "title": "P1192: Jaguar downstream heater short and the upstream cross-reference",
+    "wordCount": 227,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          35,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1193",
+    "entryId": "jaguar-p1193",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1193.md",
+    "title": "P1193: Jaguar downstream heater fault with inferred operating causes",
+    "wordCount": 232,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1194",
+    "entryId": "jaguar-p1194",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1194.md",
+    "title": "P1194: Jaguar downstream heater resistance and intermittent wiring",
+    "wordCount": 221,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1195",
+    "entryId": "jaguar-p1195",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1195.md",
+    "title": "P1195: Jaguar downstream heater classification and installation checks",
+    "wordCount": 220,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1196",
+    "entryId": "jaguar-p1196",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1196.md",
+    "title": "P1196: Jaguar downstream heater fault and supply-voltage evidence",
+    "wordCount": 219,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1198",
+    "entryId": "jaguar-p1198",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1198.md",
+    "title": "P1198: Jaguar V12 fuel-level signal high",
+    "wordCount": 222,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1199",
+    "entryId": "jaguar-p1199",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1199.md",
+    "title": "P1199: Jaguar V12 low fuel-level signal versus the AJ16 definition",
+    "wordCount": 227,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12,
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1201",
+    "entryId": "jaguar-p1201",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1201.md",
+    "title": "P1201: Jaguar AJ16 cylinder-one injector fault after shutdown",
+    "wordCount": 231,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1202",
+    "entryId": "jaguar-p1202",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1202.md",
+    "title": "P1202: Jaguar AJ16 cylinder-two injector electrical fault",
+    "wordCount": 231,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1203",
+    "entryId": "jaguar-p1203",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1203.md",
+    "title": "P1203: Jaguar AJ16 cylinder-three injector circuit versus fuel flow",
+    "wordCount": 232,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1204",
+    "entryId": "jaguar-p1204",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1204.md",
+    "title": "P1204: Jaguar AJ16 cylinder-four injector shutdown monitor",
+    "wordCount": 236,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1205",
+    "entryId": "jaguar-p1205",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1205.md",
+    "title": "P1205: Jaguar AJ16 number-five injector open or short",
+    "wordCount": 233,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1206",
+    "entryId": "jaguar-p1206",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1206.md",
+    "title": "P1206: Jaguar AJ16 cylinder-six injector fault and companion codes",
+    "wordCount": 235,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1221",
+    "entryId": "jaguar-p1221",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1221.md",
+    "title": "P1221: Jaguar AJ26 pedal sensor B plausibility fault",
+    "wordCount": 235,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1224",
+    "entryId": "jaguar-p1224",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1224.md",
+    "title": "P1224: Jaguar AJ26 throttle position error and mechanical guard mode",
+    "wordCount": 230,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1226",
+    "entryId": "jaguar-p1226",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1226.md",
+    "title": "P1226: Jaguar mechanical-guard sensor range and mechanical causes",
+    "wordCount": 227,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1227",
+    "entryId": "jaguar-p1227",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1227.md",
+    "title": "P1227: Jaguar mechanical-guard sensor low input",
+    "wordCount": 223,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1228",
+    "entryId": "jaguar-p1228",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1228.md",
+    "title": "P1228: Jaguar mechanical-guard sensor high input",
+    "wordCount": 221,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1230",
+    "entryId": "jaguar-p1230",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1230.md",
+    "title": "P1230: Jaguar AJ26 fuel-pump relay control fault",
+    "wordCount": 226,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1251",
+    "entryId": "jaguar-p1251",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1251.md",
+    "title": "P1251: Jaguar AJ26 throttle-position check after engine shutdown",
+    "wordCount": 225,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1252",
+    "entryId": "jaguar-p1252",
+    "batch": "batch-34",
+    "path": "content/code-articles/batch-34/P1252.md",
+    "title": "P1252: Jaguar AJ26 mechanical guard during cruise operation",
+    "wordCount": 231,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "jaguar-dtc-nonstype-1995-2002"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "pages": [
+          83
+        ]
+      }
+    ]
+  },
+  {
     "code": "P1253",
     "entryId": "jaguar-p1253",
     "batch": "batch-34",
@@ -7,7 +2138,7 @@
     "title": "P1253: Jaguar AJ26 mechanical-guard check after shutdown",
     "wordCount": 218,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
       "jaguar-dtc-nonstype-1995-2002"
     ],
@@ -178,7 +2309,7 @@
     "title": "P1373: Jaguar cylinder-three ignition timing fault in the primary circuit",
     "wordCount": 228,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
       "jaguar-dtc-nonstype-1995-2002"
     ],
@@ -199,7 +2330,7 @@
     "title": "P1376: Jaguar cylinder-six ignition primary timing error",
     "wordCount": 214,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
       "jaguar-dtc-nonstype-1995-2002"
     ],
@@ -262,7 +2393,7 @@
     "title": "P1398: Jaguar AJ26 B-bank VVT short-circuit fault",
     "wordCount": 220,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
       "jaguar-dtc-nonstype-1995-2002"
     ],
@@ -495,7 +2626,7 @@
     "title": "P1700: Jaguar 5 HP 24 conflicting transmission fallback requests",
     "wordCount": 228,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
       "jaguar-dtc-nonstype-1995-2002"
     ],
@@ -579,7 +2710,7 @@
     "title": "P1730: Jaguar 5 HP 24 gear-control fault after a ratio warning",
     "wordCount": 220,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
       "jaguar-dtc-nonstype-1995-2002"
     ],
@@ -769,7 +2900,7 @@
     "title": "P1791: Jaguar 4L80-E throttle-position signal to the transmission",
     "wordCount": 216,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
       "jaguar-dtc-nonstype-1995-2002"
     ],
@@ -790,7 +2921,7 @@
     "title": "P1792: Jaguar ZF 4 HP 24 sport-mode indicator circuit",
     "wordCount": 222,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
       "jaguar-dtc-nonstype-1995-2002"
     ],
@@ -1064,12 +3195,12 @@
     ]
   },
   {
-    "code": "C055B",
-    "entryId": "generic-c055b",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/C055B.md",
-    "title": "C055B: ABS pump supply drops relative to the internal reference",
-    "wordCount": 276,
+    "code": "C0075",
+    "entryId": "generic-c0075",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/C0075.md",
+    "title": "C0075: GM brake-pedal and booster travel disagree",
+    "wordCount": 292,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
@@ -1079,39 +3210,18 @@
       {
         "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
         "pages": [
-          1657
+          1752
         ]
       }
     ]
   },
   {
-    "code": "C0575",
-    "entryId": "generic-c0575",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/C0575.md",
-    "title": "C0575: The left-rear brake pressure signal is at its low electrical limit",
-    "wordCount": 280,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1687
-        ]
-      }
-    ]
-  },
-  {
-    "code": "C0576",
-    "entryId": "generic-c0576",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/C0576.md",
-    "title": "C0576: The left-rear brake pressure signal exceeds its electrical range",
-    "wordCount": 274,
+    "code": "C0578",
+    "entryId": "generic-c0578",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/C0578.md",
+    "title": "C0578: GM left-rear brake-pressure zero offset",
+    "wordCount": 288,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
@@ -1127,33 +3237,102 @@
     ]
   },
   {
-    "code": "C059B",
-    "entryId": "generic-c059b",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/C059B.md",
-    "title": "C059B: Brake pressure sensor B fails its test-pulse check",
-    "wordCount": 270,
+    "code": "P0143",
+    "entryId": "generic-p0143",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P0143.md",
+    "title": "P0143: Honda third oxygen sensor remains low during enrichment",
+    "wordCount": 307,
     "selectedForPublication": false,
-    "sourceReview": "needs-review",
+    "sourceReview": "checked",
     "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
+      "honda-advanced-diagnostics-monitor-collection"
     ],
     "sourcePages": [
       {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
         "pages": [
-          1662
+          63,
+          64,
+          65
         ]
       }
     ]
   },
   {
-    "code": "C05AD",
-    "entryId": "generic-c05ad",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/C05AD.md",
-    "title": "C05AD: Actual rear brake pressure misses the blending target",
-    "wordCount": 274,
+    "code": "P0144",
+    "entryId": "generic-p0144",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P0144.md",
+    "title": "P0144: Honda third oxygen sensor stays high in lean burn",
+    "wordCount": 300,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          66,
+          67,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0145",
+    "entryId": "generic-p0145",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P0145.md",
+    "title": "P0145: Honda third oxygen sensor response is too slow",
+    "wordCount": 295,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          69,
+          70,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0560",
+    "entryId": "generic-p0560",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P0560.md",
+    "title": "P0560: Honda ECM backup supply loses voltage",
+    "wordCount": 297,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05DC",
+    "entryId": "generic-p05dc",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P05DC.md",
+    "title": "P05DC: GM brake-pedal B range and PWM performance",
+    "wordCount": 291,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
@@ -1163,18 +3342,18 @@
       {
         "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
         "pages": [
-          1659
+          1734
         ]
       }
     ]
   },
   {
-    "code": "C05AE",
-    "entryId": "generic-c05ae",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/C05AE.md",
-    "title": "C05AE: ABS pump measurement calibration is not accepted",
-    "wordCount": 275,
+    "code": "P05DD",
+    "entryId": "generic-p05dd",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P05DD.md",
+    "title": "P05DD: GM brake-pedal B signal stuck low",
+    "wordCount": 283,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
@@ -1184,628 +3363,17 @@
       {
         "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
         "pages": [
-          1655
+          1734
         ]
       }
     ]
   },
   {
-    "code": "C05B1",
-    "entryId": "generic-c05b1",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/C05B1.md",
-    "title": "C05B1: The documented rear brake circuit fails a leak assessment",
-    "wordCount": 274,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1657
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P041F",
-    "entryId": "generic-p041f",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P041F.md",
-    "title": "P041F: AIR valve circuit low during an off command",
-    "wordCount": 275,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2015-15obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
-        "pages": [
-          116
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P044F",
-    "entryId": "generic-p044f",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P044F.md",
-    "title": "P044F: AIR valve voltage high when commanded on",
-    "wordCount": 275,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2015-15obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
-        "pages": [
-          128
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0531",
-    "entryId": "generic-p0531",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0531.md",
-    "title": "P0531: A/C pressure response can fail while voltage stays in range",
-    "wordCount": 280,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2015-15obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
-        "pages": [
-          145,
-          146,
-          147
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P079E",
-    "entryId": "generic-p079e",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P079E.md",
-    "title": "P079E: Clutch 5 slips despite a locked-state command",
-    "wordCount": 272,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          1818
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P07AB",
-    "entryId": "generic-p07ab",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P07AB.md",
-    "title": "P07AB: Clutch 5 does not develop the expected release slip",
-    "wordCount": 279,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          1820
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0A5E",
-    "entryId": "generic-p0a5e",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0A5E.md",
-    "title": "P0A5E: Drive motor A phase U current is below its expected peak",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1504
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0A61",
-    "entryId": "generic-p0a61",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0A61.md",
-    "title": "P0A61: Drive motor A phase V has too little current under command",
-    "wordCount": 274,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1505
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0A64",
-    "entryId": "generic-p0a64",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0A64.md",
-    "title": "P0A64: Drive motor A phase W does not reach expected current",
-    "wordCount": 275,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1506
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0A67",
-    "entryId": "generic-p0a67",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0A67.md",
-    "title": "P0A67: Drive motor B phase U current is low under active demand",
-    "wordCount": 276,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1638
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0A6A",
-    "entryId": "generic-p0a6a",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0A6A.md",
-    "title": "P0A6A: Drive motor B phase V lacks the expected peak current",
-    "wordCount": 266,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1639
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0A6D",
-    "entryId": "generic-p0a6d",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0A6D.md",
-    "title": "P0A6D: Drive motor B phase W current is insufficient near its peak",
-    "wordCount": 274,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1640
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0A9F",
-    "entryId": "generic-p0a9f",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0A9F.md",
-    "title": "P0A9F: Battery temperature sensor A changes erratically",
-    "wordCount": 265,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          751
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AA7",
-    "entryId": "generic-p0aa7",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AA7.md",
-    "title": "P0AA7: The battery isolation measurement switch is being checked",
-    "wordCount": 277,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          756
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AA8",
-    "entryId": "generic-p0aa8",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AA8.md",
-    "title": "P0AA8: Two isolation readings must agree with pack voltage",
-    "wordCount": 276,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          757
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AA9",
-    "entryId": "generic-p0aa9",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AA9.md",
-    "title": "P0AA9: Isolation sensor voltage is below its permitted range",
-    "wordCount": 276,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          758
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AAA",
-    "entryId": "generic-p0aaa",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AAA.md",
-    "title": "P0AAA: Isolation sensor voltage exceeds the documented range",
-    "wordCount": 277,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          759
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AC9",
-    "entryId": "generic-p0ac9",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AC9.md",
-    "title": "P0AC9: Sensor B's intermittent temperature signal",
-    "wordCount": 270,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          768
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0ACE",
-    "entryId": "generic-p0ace",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0ACE.md",
-    "title": "P0ACE: Battery temperature sensor C has an unstable signal",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          772
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0ADF",
-    "entryId": "generic-p0adf",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0ADF.md",
-    "title": "P0ADF: Negative contactor control is low during an on command",
-    "wordCount": 278,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          777
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AE0",
-    "entryId": "generic-p0ae0",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AE0.md",
-    "title": "P0AE0: Negative contactor output stays high when commanded off",
-    "wordCount": 282,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          778
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AE3",
-    "entryId": "generic-p0ae3",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AE3.md",
-    "title": "P0AE3: Precharge bus voltage did not rise as expected",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          944
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AE6",
-    "entryId": "generic-p0ae6",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AE6.md",
-    "title": "P0AE6: Precharge contactor control is low while enabled",
-    "wordCount": 279,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          780
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AE7",
-    "entryId": "generic-p0ae7",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AE7.md",
-    "title": "P0AE7: Precharge contactor driver reads high when off",
-    "wordCount": 275,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          781
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0AEC",
-    "entryId": "generic-p0aec",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0AEC.md",
-    "title": "P0AEC: Temperature sensor D's changes exceed the stability test",
-    "wordCount": 274,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          785
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0B01",
-    "entryId": "generic-p0b01",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0B01.md",
-    "title": "P0B01: Auxiliary transmission-pump phase U current is too low",
-    "wordCount": 272,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1379
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0B04",
-    "entryId": "generic-p0b04",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0B04.md",
-    "title": "P0B04: Auxiliary transmission-pump phase V lacks expected current",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1380
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0B07",
-    "entryId": "generic-p0b07",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0B07.md",
-    "title": "P0B07: Auxiliary transmission-pump phase W current is insufficient",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1381
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0B72",
-    "entryId": "generic-p0b72",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0B72.md",
-    "title": "P0B72: Battery voltage sense L has excessive calculated resistance",
-    "wordCount": 285,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          832
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0B90",
-    "entryId": "generic-p0b90",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0B90.md",
-    "title": "P0B90: Voltage sense R is checked under balancing load",
+    "code": "P05DE",
+    "entryId": "generic-p05de",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P05DE.md",
+    "title": "P05DE: GM brake-pedal signal B stuck high",
     "wordCount": 289,
     "selectedForPublication": false,
     "sourceReview": "checked",
@@ -1816,18 +3384,18 @@
       {
         "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
         "pages": [
-          856
+          1733
         ]
       }
     ]
   },
   {
-    "code": "P0BC6",
-    "entryId": "generic-p0bc6",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0BC6.md",
-    "title": "P0BC6: Battery temperature sensor E fails a stability check",
-    "wordCount": 270,
+    "code": "P05DF",
+    "entryId": "generic-p05df",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P05DF.md",
+    "title": "P05DF: GM brake-pedal B signal changes implausibly fast",
+    "wordCount": 294,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
@@ -1837,1327 +3405,17 @@
       {
         "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
         "pages": [
-          895
+          1733
         ]
       }
     ]
   },
   {
-    "code": "P0BC8",
-    "entryId": "generic-p0bc8",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0BC8.md",
-    "title": "P0BC8: Battery fan feedback is checked both running and stopped",
-    "wordCount": 277,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          896
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0BC9",
-    "entryId": "generic-p0bc9",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0BC9.md",
-    "title": "P0BC9: Battery fan speed-feedback frequency is too low",
-    "wordCount": 284,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          898
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0BCA",
-    "entryId": "generic-p0bca",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0BCA.md",
-    "title": "P0BCA: Battery fan feedback frequency exceeds range",
-    "wordCount": 279,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          899
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C37",
-    "entryId": "generic-p0c37",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C37.md",
-    "title": "P0C37: Temperature sensor F has intermittent signal movement",
-    "wordCount": 267,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          903
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C46",
-    "entryId": "generic-p0c46",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C46.md",
-    "title": "P0C46: Battery coolant sensor A changes erratically",
-    "wordCount": 264,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          981
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C80",
-    "entryId": "generic-p0c80",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C80.md",
-    "title": "P0C80: Sensor G temperature data is erratic",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          908
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C85",
-    "entryId": "generic-p0c85",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C85.md",
-    "title": "P0C85: Battery temperature sensor H varies too abruptly",
-    "wordCount": 272,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          912
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C8C",
-    "entryId": "generic-p0c8c",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C8C.md",
-    "title": "P0C8C: Battery temperature sensor I is intermittently unstable",
-    "wordCount": 273,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          916
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C8E",
-    "entryId": "generic-p0c8e",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C8E.md",
-    "title": "P0C8E: Sensor J temperature disagrees with the battery's other sensors",
-    "wordCount": 267,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          917
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C8F",
-    "entryId": "generic-p0c8f",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C8F.md",
-    "title": "P0C8F: Sensor J circuit low can appear as extremely high temperature",
-    "wordCount": 265,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          918
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C90",
-    "entryId": "generic-p0c90",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C90.md",
-    "title": "P0C90: Sensor J circuit high can produce an implausibly cold reading",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          919
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C91",
-    "entryId": "generic-p0c91",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C91.md",
-    "title": "P0C91: Sensor J's intermittent fault differs from its range faults",
-    "wordCount": 271,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          920
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C93",
-    "entryId": "generic-p0c93",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C93.md",
-    "title": "P0C93: Sensor K fails a comparison with other battery temperatures",
-    "wordCount": 271,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          921
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C94",
-    "entryId": "generic-p0c94",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C94.md",
-    "title": "P0C94: Sensor K's low circuit voltage converts to a hot value",
-    "wordCount": 272,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          922
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C95",
-    "entryId": "generic-p0c95",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C95.md",
-    "title": "P0C95: Sensor K circuit high is associated with a very cold conversion",
-    "wordCount": 265,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          923
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C96",
-    "entryId": "generic-p0c96",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C96.md",
-    "title": "P0C96: Temperature sensor K's signal changes excessively",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          924
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C98",
-    "entryId": "generic-p0c98",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C98.md",
-    "title": "P0C98: Sensor L temperature is inconsistent with its peers",
-    "wordCount": 265,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          925
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C99",
-    "entryId": "generic-p0c99",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C99.md",
-    "title": "P0C99: Sensor L circuit low produces a high-temperature conversion",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          926
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C9A",
-    "entryId": "generic-p0c9a",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C9A.md",
-    "title": "P0C9A: Sensor L circuit high can indicate an open sensing path",
-    "wordCount": 271,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          927
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0C9B",
-    "entryId": "generic-p0c9b",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0C9B.md",
-    "title": "P0C9B: Temperature sensor L is erratic over time",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          928
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CA9",
-    "entryId": "generic-p0ca9",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CA9.md",
-    "title": "P0CA9: Sensor M temperature differs from the battery comparison average",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          929
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CAA",
-    "entryId": "generic-p0caa",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CAA.md",
-    "title": "P0CAA: Sensor M's low signal can look excessively hot",
-    "wordCount": 260,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          930
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CAB",
-    "entryId": "generic-p0cab",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CAB.md",
-    "title": "P0CAB: Sensor M circuit high creates a cold endpoint reading",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          931
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CAC",
-    "entryId": "generic-p0cac",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CAC.md",
-    "title": "P0CAC: Sensor M temperature data changes erratically",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          932
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CAE",
-    "entryId": "generic-p0cae",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CAE.md",
-    "title": "P0CAE: Sensor N fails a relative battery-temperature check",
-    "wordCount": 266,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          933
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CAF",
-    "entryId": "generic-p0caf",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CAF.md",
-    "title": "P0CAF: Sensor N circuit low corresponds to a hot conversion",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          934
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CB0",
-    "entryId": "generic-p0cb0",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CB0.md",
-    "title": "P0CB0: Sensor N circuit high may display extreme cold",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          935
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CB1",
-    "entryId": "generic-p0cb1",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CB1.md",
-    "title": "P0CB1: Battery temperature sensor N fails its stability monitor",
-    "wordCount": 271,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          936
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CB3",
-    "entryId": "generic-p0cb3",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CB3.md",
-    "title": "P0CB3: Sensor O temperature must agree with the comparison average",
-    "wordCount": 267,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          937
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CB4",
-    "entryId": "generic-p0cb4",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CB4.md",
-    "title": "P0CB4: Sensor O circuit low is evaluated at the hot endpoint",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          938
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CB5",
-    "entryId": "generic-p0cb5",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CB5.md",
-    "title": "P0CB5: Sensor O circuit high can mimic extreme cold",
-    "wordCount": 266,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          939
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CB6",
-    "entryId": "generic-p0cb6",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CB6.md",
-    "title": "P0CB6: Battery temperature sensor O produces erratic data",
-    "wordCount": 267,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          940
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CB8",
-    "entryId": "generic-p0cb8",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CB8.md",
-    "title": "P0CB8: Sensor P temperature differs excessively from its peers",
-    "wordCount": 258,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          941
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CB9",
-    "entryId": "generic-p0cb9",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CB9.md",
-    "title": "P0CB9: Sensor P's low circuit voltage becomes an extreme hot reading",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          942
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CBA",
-    "entryId": "generic-p0cba",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CBA.md",
-    "title": "P0CBA: Sensor P circuit high converts to a cold endpoint",
-    "wordCount": 271,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          943
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CBB",
-    "entryId": "generic-p0cbb",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CBB.md",
-    "title": "P0CBB: Sensor P temperature signal is unstable",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          944
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CEC",
-    "entryId": "generic-p0cec",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CEC.md",
-    "title": "P0CEC: Electronics coolant-pump control reads high",
-    "wordCount": 279,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          945
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CED",
-    "entryId": "generic-p0ced",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CED.md",
-    "title": "P0CED: Electronics coolant-pump enable circuit is open",
-    "wordCount": 286,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          946
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0CF2",
-    "entryId": "generic-p0cf2",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0CF2.md",
-    "title": "P0CF2: Electronics coolant temperature changes erratically",
-    "wordCount": 275,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          950
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0D09",
-    "entryId": "generic-p0d09",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0D09.md",
-    "title": "P0D09: Charger voltage stays low during charger precharge",
-    "wordCount": 264,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          989
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0D4D",
-    "entryId": "generic-p0d4d",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0D4D.md",
-    "title": "P0D4D: Charger output voltage disagrees with battery voltage",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          995
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0D64",
-    "entryId": "generic-p0d64",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0D64.md",
-    "title": "P0D64: Battery cooling-fan enable circuit is open while off",
-    "wordCount": 270,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          951
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0D65",
-    "entryId": "generic-p0d65",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0D65.md",
-    "title": "P0D65: Battery fan enable voltage stays low when enabled",
-    "wordCount": 267,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          952
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0D66",
-    "entryId": "generic-p0d66",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0D66.md",
-    "title": "P0D66: Battery cooling-fan enable stays high when off",
-    "wordCount": 267,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          953
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0E61",
-    "entryId": "generic-p0e61",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0E61.md",
-    "title": "P0E61: The charger's low-voltage enable circuit reports a hardware fault",
-    "wordCount": 276,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          1012
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P0E65",
-    "entryId": "generic-p0e65",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P0E65.md",
-    "title": "P0E65: Charger control-line hardware has reported a fault",
-    "wordCount": 270,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          1013
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P24EF",
-    "entryId": "generic-p24ef",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P24EF.md",
-    "title": "P24EF: Control-module wake-up output is open in its off state",
-    "wordCount": 275,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1259
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P24F0",
-    "entryId": "generic-p24f0",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P24F0.md",
-    "title": "P24F0: Wake-up output voltage is low during an on command",
-    "wordCount": 276,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1260
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P24F1",
-    "entryId": "generic-p24f1",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P24F1.md",
-    "title": "P24F1: Wake-up circuit remains high with the command off",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1261
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P25C9",
-    "entryId": "generic-p25c9",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P25C9.md",
-    "title": "P25C9: The brake controller has requested an emissions warning",
-    "wordCount": 273,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          466
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P26AD",
-    "entryId": "generic-p26ad",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/P26AD.md",
-    "title": "P26AD: Coolant bypass-valve drive 2 reads low during a high command",
-    "wordCount": 282,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          1129
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U007A",
-    "entryId": "generic-u007a",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U007A.md",
-    "title": "U007A: Bus H has entered the CAN bus-off state",
-    "wordCount": 285,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2015-15obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
-        "pages": [
-          591
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U016B",
-    "entryId": "generic-u016b",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U016B.md",
-    "title": "U016B: Electric A/C compressor messages are missing",
-    "wordCount": 281,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2015-15obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2015-15obdg01-hybrid-diagnostics",
-        "pages": [
-          592
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01A0",
-    "entryId": "generic-u01a0",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01A0.md",
-    "title": "U01A0: Battery interface module A cannot be recovered on the serial chain",
-    "wordCount": 276,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1287,
-          1288
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01A1",
-    "entryId": "generic-u01a1",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01A1.md",
-    "title": "U01A1: Battery interface module B is the unrecovered chain point",
-    "wordCount": 272,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1289,
-          1290
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01A2",
-    "entryId": "generic-u01a2",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01A2.md",
-    "title": "U01A2: Module C cannot be reached after battery-chain recovery",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1291,
-          1292
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01A3",
-    "entryId": "generic-u01a3",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01A3.md",
-    "title": "U01A3: Battery interface D remains unavailable in the recovery sequence",
-    "wordCount": 271,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1293,
-          1294
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01A4",
-    "entryId": "generic-u01a4",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01A4.md",
-    "title": "U01A4: Battery interface E marks the unrecovered communication point",
-    "wordCount": 268,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1295,
-          1296
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01A5",
-    "entryId": "generic-u01a5",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01A5.md",
-    "title": "U01A5: Battery interface module F cannot be recovered on the chain",
-    "wordCount": 274,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1297,
-          1298
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01A6",
-    "entryId": "generic-u01a6",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01A6.md",
-    "title": "U01A6: Battery interface G remains unreachable after recovery",
-    "wordCount": 269,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1299,
-          1300
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01A7",
-    "entryId": "generic-u01a7",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01A7.md",
-    "title": "U01A7: Battery interface H is not recovered by the communication test",
-    "wordCount": 265,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg02-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
-        "pages": [
-          1301,
-          1302
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U01B4",
-    "entryId": "generic-u01b4",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U01B4.md",
-    "title": "U01B4: Brake control module B messages are missing on the main bus",
-    "wordCount": 274,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "gm-2018-18obdg01-hybrid-diagnostics"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "gm-2018-18obdg01-hybrid-diagnostics",
-        "pages": [
-          585
-        ]
-      }
-    ]
-  },
-  {
-    "code": "U063E",
-    "entryId": "generic-u063e",
-    "batch": "batch-36",
-    "path": "content/code-articles/batch-36/U063E.md",
-    "title": "U063E: The exhaust heat-exchanger bypass actuator stops replying on LIN",
+    "code": "P05E0",
+    "entryId": "generic-p05e0",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P05E0.md",
+    "title": "P05E0: GM brake-pedal channels disagree",
     "wordCount": 278,
     "selectedForPublication": false,
     "sourceReview": "checked",
@@ -3168,7 +3426,1890 @@
       {
         "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
         "pages": [
-          1304
+          1733
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1086",
+    "entryId": "subaru-p1086",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1086.md",
+    "title": "P1086: Subaru left TGV position signal reads low",
+    "wordCount": 286,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1383,
+          1385,
+          1386
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1087",
+    "entryId": "subaru-p1087",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1087.md",
+    "title": "P1087: Subaru left TGV position signal reads high",
+    "wordCount": 291,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1387,
+          1389
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1088",
+    "entryId": "subaru-p1088",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1088.md",
+    "title": "P1088: Subaru right TGV low-input diagnosis",
+    "wordCount": 290,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1391,
+          1393,
+          1394
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1089",
+    "entryId": "subaru-p1089",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1089.md",
+    "title": "P1089: Subaru right TGV high-input diagnosis",
+    "wordCount": 288,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1395,
+          1397
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1090",
+    "entryId": "subaru-p1090",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1090.md",
+    "title": "P1090: Subaru right tumble valve stuck open",
+    "wordCount": 281,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1398
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1091",
+    "entryId": "subaru-p1091",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1091.md",
+    "title": "P1091: Subaru right tumble valve stuck closed",
+    "wordCount": 281,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1399
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1092",
+    "entryId": "subaru-p1092",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1092.md",
+    "title": "P1092: Subaru left tumble valve stuck open",
+    "wordCount": 273,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1400
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1093",
+    "entryId": "subaru-p1093",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1093.md",
+    "title": "P1093: Subaru left tumble valve stuck closed",
+    "wordCount": 278,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1401
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1094",
+    "entryId": "subaru-p1094",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1094.md",
+    "title": "P1094: Subaru right TGV actuator open circuit",
+    "wordCount": 280,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1403,
+          1404
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1095",
+    "entryId": "subaru-p1095",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1095.md",
+    "title": "P1095: Subaru right TGV actuator overcurrent",
+    "wordCount": 274,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1405,
+          1406
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1096",
+    "entryId": "subaru-p1096",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1096.md",
+    "title": "P1096: Subaru left TGV actuator open circuit",
+    "wordCount": 282,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1407,
+          1408
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1097",
+    "entryId": "subaru-p1097",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1097.md",
+    "title": "P1097: Subaru left TGV actuator overcurrent",
+    "wordCount": 280,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1409,
+          1410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1105",
+    "entryId": "nissan-p1105",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1105.md",
+    "title": "P1105: Nissan MAP/BARO switching fault: electrical and vacuum branches",
+    "wordCount": 364,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ka24de-factory-p1105-diagnostic-procedure"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ka24de-factory-p1105-diagnostic-procedure",
+        "locator": "EC-435–446, P1105 diagnostic procedures A and B, NGEC0305"
+      }
+    ]
+  },
+  {
+    "code": "P1106",
+    "entryId": "honda-p1106",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1106.md",
+    "title": "P1106: Honda BARO and MAP readings disagree",
+    "wordCount": 299,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          116,
+          117
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1107",
+    "entryId": "honda-p1107",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1107.md",
+    "title": "P1107: Honda internal BARO low-voltage monitor",
+    "wordCount": 294,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          118,
+          119
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1110",
+    "entryId": "subaru-p1110",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1110.md",
+    "title": "P1110: Subaru atmospheric-pressure circuit low input",
+    "wordCount": 281,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          624,
+          625,
+          626
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1135",
+    "entryId": "lexus-p1135",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1135.md",
+    "title": "P1135: Lexus RX300 front A/F sensor heater fault",
+    "wordCount": 297,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–94–95, P1135/P1155 heater detection and inspection"
+      }
+    ]
+  },
+  {
+    "code": "P1146",
+    "entryId": "subaru-p1146",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1146.md",
+    "title": "P1146: Subaru pressure-sensor performance reads high",
+    "wordCount": 280,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          640,
+          641,
+          642
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1162",
+    "entryId": "honda-p1162",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1162.md",
+    "title": "P1162: Honda A/F sensor circuit fault: separate signal wiring from the sensor",
+    "wordCount": 361,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-civic-hx-2002-p1162"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-civic-hx-2002-p1162",
+        "locator": "DTC P1162, steps 1–10"
+      }
+    ]
+  },
+  {
+    "code": "P1164",
+    "entryId": "honda-p1164",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1164.md",
+    "title": "P1164: Honda A/F sensor performance during deceleration",
+    "wordCount": 296,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          143,
+          144,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1166",
+    "entryId": "honda-p1166",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1166.md",
+    "title": "P1166: Honda A/F heater command and feedback disagree",
+    "wordCount": 303,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          146,
+          147,
+          148,
+          149
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1167",
+    "entryId": "honda-p1167",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1167.md",
+    "title": "P1167: Honda A/F heater fault and the P1162 diagnostic priority",
+    "wordCount": 347,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-civic-2002-2003-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-civic-2002-2003-service-manual",
+        "pages": [
+          298
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1259",
+    "entryId": "honda-p1259",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1259.md",
+    "title": "P1259: Honda VTEC command and oil-pressure feedback",
+    "wordCount": 311,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          150,
+          151
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1297",
+    "entryId": "honda-p1297",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1297.md",
+    "title": "P1297: Honda S2000 electronic-load signal low",
+    "wordCount": 278,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-s2000-2000-2003-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-s2000-2000-2003-service-manual",
+        "pages": [
+          306
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1298",
+    "entryId": "honda-p1298",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1298.md",
+    "title": "P1298: Honda S2000 electronic-load signal high",
+    "wordCount": 282,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-s2000-2000-2003-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-s2000-2000-2003-service-manual",
+        "pages": [
+          307,
+          308
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1300",
+    "entryId": "lexus-p1300",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1300.md",
+    "title": "P1300: Lexus RX300 ignition confirmation missing for coil 1",
+    "wordCount": 294,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–96–100, P1300 No. 1 igniter circuit; IGT/IGF decision tree"
+      }
+    ]
+  },
+  {
+    "code": "P1301",
+    "entryId": "subaru-p1301",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1301.md",
+    "title": "P1301: Subaru exhaust-temperature warning linked to misfire",
+    "wordCount": 286,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1433,
+          1434
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1305",
+    "entryId": "lexus-p1305",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1305.md",
+    "title": "P1305: Lexus RX300 coil 2 igniter circuit fault",
+    "wordCount": 307,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–96–100, P1305 No. 2 igniter circuit; IGT/IGF decision tree"
+      }
+    ]
+  },
+  {
+    "code": "P1306",
+    "entryId": "honda-p1306",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1306.md",
+    "title": "P1306: Honda cylinder-six misfire: follow the fault before choosing a part",
+    "wordCount": 377,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "acura-rl-ka9-factory-misfire-position-diagnostics"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "acura-rl-ka9-factory-misfire-position-diagnostics",
+        "locator": "Printed 11-60–63, viewer pages 150–153, cylinder6 misfire and shared cylinder-specific diagnostic tree"
+      }
+    ]
+  },
+  {
+    "code": "P1310",
+    "entryId": "lexus-p1310",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1310.md",
+    "title": "P1310: Lexus RX300 coil 3 command and feedback fault",
+    "wordCount": 301,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–96–100, P1310 No. 3 igniter circuit; IGT/IGF decision tree"
+      }
+    ]
+  },
+  {
+    "code": "P1312",
+    "entryId": "subaru-p1312",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1312.md",
+    "title": "P1312: Subaru exhaust-temperature circuit malfunction",
+    "wordCount": 285,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1435,
+          1436
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1317",
+    "entryId": "honda-p1317",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1317.md",
+    "title": "P1317: Honda spark-voltage detection: the RL right-bank circuit",
+    "wordCount": 353,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "acura-rl-2000-spark-voltage-signal-chart"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "acura-rl-2000-spark-voltage-signal-chart",
+        "locator": "P1316/P1317 original factory chart, Parts 1 and 2, P1317 asterisk branches"
+      }
+    ]
+  },
+  {
+    "code": "P1318",
+    "entryId": "honda-p1318",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1318.md",
+    "title": "P1318: Honda detection-module reset fault: RL left-bank checks",
+    "wordCount": 381,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "acura-rl-2000-spark-voltage-reset-chart"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "acura-rl-2000-spark-voltage-reset-chart",
+        "locator": "P1318/P1319 original factory reset-circuit chart, Parts 1 and 2, code-specific and asterisk branches"
+      }
+    ]
+  },
+  {
+    "code": "P1319",
+    "entryId": "honda-p1319",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1319.md",
+    "title": "P1319: Honda right-bank reset fault: distinguish reset and signal circuits",
+    "wordCount": 375,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "acura-rl-2000-spark-voltage-reset-chart"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "acura-rl-2000-spark-voltage-reset-chart",
+        "locator": "P1318/P1319 original factory reset-circuit chart, Parts 1 and 2, code-specific and asterisk branches"
+      }
+    ]
+  },
+  {
+    "code": "P1325",
+    "entryId": "lexus-p1325",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1325.md",
+    "title": "P1325: Lexus RX300 coil 6 ignition-confirmation fault",
+    "wordCount": 301,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–96–100, P1325 No. 6 igniter circuit; IGT/IGF decision tree"
+      }
+    ]
+  },
+  {
+    "code": "P1346",
+    "entryId": "lexus-p1346",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1346.md",
+    "title": "P1346: Lexus RX300 bank-1 cam/crank relationship fault",
+    "wordCount": 298,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–102, P1346/P1351 camshaft/crankshaft deviation and valve timing inspection"
+      }
+    ]
+  },
+  {
+    "code": "P1349",
+    "entryId": "lexus-p1349",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1349.md",
+    "title": "P1349: Lexus RX300 bank-1 variable valve timing does not respond",
+    "wordCount": 298,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–103–108, VVT system detection and inspection branches"
+      }
+    ]
+  },
+  {
+    "code": "P1362",
+    "entryId": "honda-p1362",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1362.md",
+    "title": "P1362: Honda TDC sensor 1 signal missing",
+    "wordCount": 295,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          154
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1366",
+    "entryId": "honda-p1366",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1366.md",
+    "title": "P1366: Honda TDC sensor 2 pulse relationship fault",
+    "wordCount": 291,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          155,
+          156
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1367",
+    "entryId": "honda-p1367",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1367.md",
+    "title": "P1367: Honda TDC sensor 2 no-signal monitor",
+    "wordCount": 291,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          157
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1382",
+    "entryId": "honda-p1382",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1382.md",
+    "title": "P1382: Integra cylinder-position sensor signal missing",
+    "wordCount": 298,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-integra-1998-service-manual-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-integra-1998-service-manual-html",
+        "locator": "11-83–84, CKP/TDC/CYP sensor diagnostic flowchart and code/terminal identification"
+      }
+    ]
+  },
+  {
+    "code": "P1387",
+    "entryId": "honda-p1387",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1387.md",
+    "title": "P1387: Honda CYP sensor B fault: a scoped Acura circuit example",
+    "wordCount": 375,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "acura-rl-ka9-factory-misfire-position-diagnostics"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "acura-rl-ka9-factory-misfire-position-diagnostics",
+        "locator": "Printed 11-64–65, viewer pages 154–155, CMP (CYP) sensor2 circuit diagnostic tree"
+      }
+    ]
+  },
+  {
+    "code": "P1442",
+    "entryId": "subaru-p1442",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1442.md",
+    "title": "P1442: Subaru fuel-level performance problem 2",
+    "wordCount": 290,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          644,
+          645
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1456",
+    "entryId": "honda-p1456",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1456.md",
+    "title": "P1456: Honda EVAP leakage on the fuel-tank side",
+    "wordCount": 301,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          184,
+          185,
+          186,
+          187,
+          188,
+          189
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1457",
+    "entryId": "honda-p1457",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1457.md",
+    "title": "P1457: Honda EVAP canister-side leak assessment",
+    "wordCount": 291,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          190,
+          191,
+          192,
+          193,
+          194
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1480",
+    "entryId": "subaru-p1480",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1480.md",
+    "title": "P1480: Subaru cooling-fan relay high input",
+    "wordCount": 279,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          646,
+          647,
+          648
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1498",
+    "entryId": "honda-p1498",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1498.md",
+    "title": "P1498: Honda EGR position-feedback voltage high",
+    "wordCount": 294,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          198,
+          199
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1510",
+    "entryId": "subaru-p1510",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1510.md",
+    "title": "P1510: Subaru idle-air signal 1 low input",
+    "wordCount": 295,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          652,
+          654,
+          655,
+          656
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1511",
+    "entryId": "subaru-p1511",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1511.md",
+    "title": "P1511: Subaru idle-air signal 1 high input",
+    "wordCount": 285,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          652,
+          658,
+          659
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1512",
+    "entryId": "subaru-p1512",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1512.md",
+    "title": "P1512: Subaru idle-air signal 2 low input",
+    "wordCount": 292,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          652,
+          654,
+          655,
+          656
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1513",
+    "entryId": "subaru-p1513",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1513.md",
+    "title": "P1513: Subaru idle-air signal 2 high input",
+    "wordCount": 278,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          652,
+          658,
+          659
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1520",
+    "entryId": "lexus-p1520",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1520.md",
+    "title": "P1520: Lexus RX300 brake-switch signal remains applied",
+    "wordCount": 302,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–111–112, stop light switch signal detection and inspection"
+      }
+    ]
+  },
+  {
+    "code": "P1540",
+    "entryId": "subaru-p1540",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1540.md",
+    "title": "P1540: Subaru vehicle-speed signal malfunction 2",
+    "wordCount": 282,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          662,
+          663
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1544",
+    "entryId": "subaru-p1544",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1544.md",
+    "title": "P1544: Subaru detected high exhaust temperature",
+    "wordCount": 284,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          1445,
+          1446
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1590",
+    "entryId": "subaru-p1590",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1590.md",
+    "title": "P1590: Subaru automatic-transmission neutral signal high",
+    "wordCount": 280,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          666,
+          667,
+          668
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1591",
+    "entryId": "subaru-p1591",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1591.md",
+    "title": "P1591: Subaru automatic-transmission neutral signal low",
+    "wordCount": 275,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          670,
+          671
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1592",
+    "entryId": "subaru-p1592",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1592.md",
+    "title": "P1592: Subaru manual-transmission neutral signal low",
+    "wordCount": 273,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          672,
+          673
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1594",
+    "entryId": "subaru-p1594",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1594.md",
+    "title": "P1594: Subaru automatic-transmission diagnostic signal fault",
+    "wordCount": 282,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          674,
+          675
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1595",
+    "entryId": "subaru-p1595",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1595.md",
+    "title": "P1595: Subaru transmission diagnostic signal low",
+    "wordCount": 276,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          676,
+          677
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1596",
+    "entryId": "subaru-p1596",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1596.md",
+    "title": "P1596: Subaru transmission diagnostic signal high",
+    "wordCount": 270,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          678,
+          679
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1600",
+    "entryId": "toyota-p1600",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1600.md",
+    "title": "P1600: Toyota-family ECU backup-memory supply fault",
+    "wordCount": 295,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–113–114, ECU BATT backup power fault and fuse/supply inspection"
+      }
+    ]
+  },
+  {
+    "code": "P1607",
+    "entryId": "honda-p1607",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1607.md",
+    "title": "P1607: Honda internal ECM self-check failures",
+    "wordCount": 295,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          248,
+          249,
+          250,
+          251
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1655",
+    "entryId": "honda-p1655",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1655.md",
+    "title": "P1655: Honda CVT engine–transmission signal loss",
+    "wordCount": 290,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          290,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1660",
+    "entryId": "honda-p1660",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1660.md",
+    "title": "P1660: Integra automatic-transmission check-line fault",
+    "wordCount": 294,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-integra-1998-service-manual-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-integra-1998-service-manual-html",
+        "locator": "11-93–94, A/T FI data line diagnostic flowchart"
+      }
+    ]
+  },
+  {
+    "code": "P1663",
+    "entryId": "lexus-p1663",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1663.md",
+    "title": "P1663: Lexus RX300 bank-2 oil-control valve circuit fault",
+    "wordCount": 296,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "lexus-rx300-rm785e-diagnostics-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "lexus-rx300-rm785e-diagnostics-html",
+        "locator": "DI–120–122, P1656/P1663 oil control valve circuit diagnosis"
+      }
+    ]
+  },
+  {
+    "code": "P1671",
+    "entryId": "honda-p1671",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1671.md",
+    "title": "P1671: Honda A/T FI data line B: diagnosing a missing signal",
+    "wordCount": 410,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "acura-nsx-1998-at-fi-data-line-b-chart"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "acura-nsx-1998-at-fi-data-line-b-chart",
+        "locator": "P1671/P1672 original factory shared diagnostic chart, first image and Continued image; code heading on respective HTML page"
+      }
+    ]
+  },
+  {
+    "code": "P1672",
+    "entryId": "honda-p1672",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1672.md",
+    "title": "P1672: Honda A/T FI data failure: why the shared circuit test matters",
+    "wordCount": 431,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "acura-nsx-1998-at-fi-data-line-b-chart"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "acura-nsx-1998-at-fi-data-line-b-chart",
+        "locator": "P1671/P1672 original factory shared diagnostic chart, first image and Continued image; code heading on respective HTML page"
+      }
+    ]
+  },
+  {
+    "code": "P1682",
+    "entryId": "honda-p1682",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1682.md",
+    "title": "P1682: Integra A/T–FI signal A high input",
+    "wordCount": 298,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-integra-1998-service-manual-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-integra-1998-service-manual-html",
+        "locator": "11-95, A/T FI signal A/B shared flowchart, signal A high-input heading"
+      }
+    ]
+  },
+  {
+    "code": "P1686",
+    "entryId": "honda-p1686",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1686.md",
+    "title": "P1686: Integra A/T–FI signal B low input",
+    "wordCount": 300,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-integra-1998-service-manual-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-integra-1998-service-manual-html",
+        "locator": "11-95, A/T FI signal A/B shared flowchart, signal B low-input heading"
+      }
+    ]
+  },
+  {
+    "code": "P1687",
+    "entryId": "honda-p1687",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1687.md",
+    "title": "P1687: Integra A/T–FI signal B high input",
+    "wordCount": 305,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-integra-1998-service-manual-html"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-integra-1998-service-manual-html",
+        "locator": "11-95, A/T FI signal A/B shared flowchart, signal B high-input heading"
+      }
+    ]
+  },
+  {
+    "code": "P1698",
+    "entryId": "subaru-p1698",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1698.md",
+    "title": "P1698: Subaru torque-cut signal circuit low",
+    "wordCount": 286,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          680,
+          681
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1699",
+    "entryId": "subaru-p1699",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1699.md",
+    "title": "P1699: Subaru torque-cut signal circuit high",
+    "wordCount": 282,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          682,
+          683
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1701",
+    "entryId": "subaru-p1701",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1701.md",
+    "title": "P1701: Subaru cruise-set signal to the transmission",
+    "wordCount": 271,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          684,
+          685
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1711",
+    "entryId": "subaru-p1711",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1711.md",
+    "title": "P1711: Subaru torque-control signal 1 circuit fault",
+    "wordCount": 278,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          686,
+          687
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1712",
+    "entryId": "subaru-p1712",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1712.md",
+    "title": "P1712: Subaru torque-control signal 2 circuit fault",
+    "wordCount": 273,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "subaru-2001-forester-service-manual"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "subaru-2001-forester-service-manual",
+        "pages": [
+          688,
+          689
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1738",
+    "entryId": "honda-p1738",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1738.md",
+    "title": "P1738: Honda second clutch pressure switch circuit diagnosis",
+    "wordCount": 348,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-odyssey-1999-2000-pressure-switches"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-odyssey-1999-2000-pressure-switches",
+        "locator": "14-86–87, 1999–2000 Models, P1738 steps 1–15"
+      }
+    ]
+  },
+  {
+    "code": "P1739",
+    "entryId": "honda-p1739",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1739.md",
+    "title": "P1739: Honda third clutch pressure switch feedback checks",
+    "wordCount": 353,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-odyssey-1999-2000-pressure-switches"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-odyssey-1999-2000-pressure-switches",
+        "locator": "14-88–89, 1999–2000 Models, P1739 steps 1–15"
+      }
+    ]
+  },
+  {
+    "code": "P1768",
+    "entryId": "honda-p1768",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1768.md",
+    "title": "P1768: Honda clutch pressure solenoid A electrical fault",
+    "wordCount": 354,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-civic-hx-2002-p1768"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-civic-hx-2002-p1768",
+        "locator": "DTC P1768, electrical-only note and steps 1–8"
+      }
+    ]
+  },
+  {
+    "code": "P1773",
+    "entryId": "honda-p1773",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1773.md",
+    "title": "P1773: Honda solenoid B circuit: resistance, supply and ground checks",
+    "wordCount": 354,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-odyssey-1999-2000-p1773"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-odyssey-1999-2000-p1773",
+        "locator": "14-94–95, 1999–2000 Models, P1773 steps 1–11"
+      }
+    ]
+  },
+  {
+    "code": "P1790",
+    "entryId": "honda-p1790",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1790.md",
+    "title": "P1790: Honda transmission-controller throttle input fault",
+    "wordCount": 289,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          296,
+          297
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1793",
+    "entryId": "honda-p1793",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/P1793.md",
+    "title": "P1793: Honda MAP signal at the transmission controller",
+    "wordCount": 303,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-advanced-diagnostics-monitor-collection"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-advanced-diagnostics-monitor-collection",
+        "pages": [
+          298,
+          299
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U031C",
+    "entryId": "generic-u031c",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/U031C.md",
+    "title": "U031C: GM brake-module software compatibility mismatch",
+    "wordCount": 293,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2018-18obdg02-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "pages": [
+          1714
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3019",
+    "entryId": "generic-u3019",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/U3019.md",
+    "title": "U3019: GM brake-control B/C power correlation",
+    "wordCount": 292,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2018-18obdg02-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "pages": [
+          1737
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3501",
+    "entryId": "generic-u3501",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/U3501.md",
+    "title": "U3501: GM control-module input A voltage low",
+    "wordCount": 296,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2018-18obdg02-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "pages": [
+          1736
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3502",
+    "entryId": "generic-u3502",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/U3502.md",
+    "title": "U3502: GM control-module input A voltage high",
+    "wordCount": 287,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2018-18obdg02-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "pages": [
+          1736
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3505",
+    "entryId": "generic-u3505",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/U3505.md",
+    "title": "U3505: GM control-module input B voltage low",
+    "wordCount": 291,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2018-18obdg02-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "pages": [
+          1736,
+          1737
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3506",
+    "entryId": "generic-u3506",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/U3506.md",
+    "title": "U3506: GM control-module input B voltage high",
+    "wordCount": 288,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2018-18obdg02-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "pages": [
+          1736
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U3509",
+    "entryId": "generic-u3509",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/U3509.md",
+    "title": "U3509: GM control-module input C voltage low",
+    "wordCount": 286,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2018-18obdg02-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "pages": [
+          1737
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U350A",
+    "entryId": "generic-u350a",
+    "batch": "batch-35",
+    "path": "content/code-articles/batch-35/U350A.md",
+    "title": "U350A: GM control-module input C voltage high",
+    "wordCount": 285,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2018-18obdg02-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2018-18obdg02-hybrid-diagnostics",
+        "pages": [
+          1737
         ]
       }
     ]

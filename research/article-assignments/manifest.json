@@ -1,5 +1,5 @@
 {
-  "target": 3400,
+  "target": 4000,
   "batches": [
     {
       "batch": "batch-01",
@@ -280,12 +280,30 @@
       "wave": 4
     },
     {
+      "batch": "batch-33",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-33.json",
+      "outputDirectory": "content/code-articles/batch-33",
+      "firstCode": "P1031",
+      "lastCode": "U0435",
+      "wave": 4
+    },
+    {
       "batch": "batch-34",
       "count": 100,
       "assignment": "research/article-assignments/batch-34.json",
       "outputDirectory": "content/code-articles/batch-34",
       "firstCode": "P1104",
       "lastCode": "P2413",
+      "wave": 4
+    },
+    {
+      "batch": "batch-35",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-35.json",
+      "outputDirectory": "content/code-articles/batch-35",
+      "firstCode": "P1086",
+      "lastCode": "P1672",
       "wave": 4
     },
     {
@@ -296,9 +314,45 @@
       "firstCode": "P041F",
       "lastCode": "C0576",
       "wave": 4
+    },
+    {
+      "batch": "batch-37",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-37.json",
+      "outputDirectory": "content/code-articles/batch-37",
+      "firstCode": "P0555",
+      "lastCode": "P0BCE",
+      "wave": 4
+    },
+    {
+      "batch": "batch-38",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-38.json",
+      "outputDirectory": "content/code-articles/batch-38",
+      "firstCode": "C0034",
+      "lastCode": "B0011",
+      "wave": 4
+    },
+    {
+      "batch": "batch-39",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-39.json",
+      "outputDirectory": "content/code-articles/batch-39",
+      "firstCode": "P00A1",
+      "lastCode": "P1083",
+      "wave": 4
+    },
+    {
+      "batch": "batch-40",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-40.json",
+      "outputDirectory": "content/code-articles/batch-40",
+      "firstCode": "P1294",
+      "lastCode": "P1856",
+      "wave": 4
     }
   ],
-  "method": "Each full writing wave uses ten writer groups of100 separately authored code articles. Codes are deduplicated globally by code string. Every article requires source and scope review; indexed mentions alone are insufficient. Wave4 assignments are integrated only after their writer group is complete; campaign.json retains the full1000-article goal.",
+  "method": "Each full writing wave uses ten writer groups of 100 separately authored code articles. Codes are deduplicated globally by code string. Every article requires source and scope review; indexed mentions alone are insufficient. Waves 1\u20134 contain 4,000 completed manuscripts. Only groups batch-01 through batch-30 are selected for publication.",
   "waves": [
     {
       "wave": 1,
@@ -351,12 +405,18 @@
     {
       "wave": 4,
       "target": 1000,
-      "assignedSoFar": 400,
+      "assignedSoFar": 1000,
       "batches": [
         "batch-31",
         "batch-32",
+        "batch-33",
         "batch-34",
-        "batch-36"
+        "batch-35",
+        "batch-36",
+        "batch-37",
+        "batch-38",
+        "batch-39",
+        "batch-40"
       ]
     }
   ]

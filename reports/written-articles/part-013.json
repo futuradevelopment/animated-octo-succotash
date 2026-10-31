@@ -2019,7 +2019,7 @@
     "batch": "batch-32",
     "path": "content/code-articles/batch-32/P0298.md",
     "title": "P0298: Ford 7.3L oil temperature that fails to fall",
-    "wordCount": 273,
+    "wordCount": 275,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
@@ -4117,389 +4117,944 @@
     ]
   },
   {
-    "code": "P0042",
-    "entryId": "generic-p0042",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P0042.md",
-    "title": "P0042: Volkswagen CBUA sensor-three heater circuit monitor",
-    "wordCount": 221,
+    "code": "P00C4",
+    "entryId": "generic-p00c4",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P00C4.md",
+    "title": "P00C4: Bypass valve B fails a commanded-open transient check",
+    "wordCount": 266,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2015-15obdg06-engine-diagnostics"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2015-15obdg06-engine-diagnostics",
         "pages": [
-          80
+          464
         ]
       }
     ]
   },
   {
-    "code": "P0043",
-    "entryId": "generic-p0043",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P0043.md",
-    "title": "P0043: Volkswagen CBUA sensor-three heater voltage low",
-    "wordCount": 220,
+    "code": "P023B",
+    "entryId": "generic-p023b",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P023B.md",
+    "title": "P023B: Intercooler coolant-pump control circuit held low",
+    "wordCount": 255,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2015-15obdg06-engine-diagnostics"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2015-15obdg06-engine-diagnostics",
         "pages": [
-          80
+          500
         ]
       }
     ]
   },
   {
-    "code": "P0044",
-    "entryId": "generic-p0044",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P0044.md",
-    "title": "P0044: Volkswagen CBUA sensor-three heater voltage high",
-    "wordCount": 220,
+    "code": "P023C",
+    "entryId": "generic-p023c",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P023C.md",
+    "title": "P023C: Intercooler coolant-pump control circuit held toward power",
+    "wordCount": 266,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2015-15obdg06-engine-diagnostics"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2015-15obdg06-engine-diagnostics",
         "pages": [
-          80
+          501
         ]
       }
     ]
   },
   {
-    "code": "P00D5",
-    "entryId": "generic-p00d5",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P00D5.md",
-    "title": "P00D5: Volkswagen CJAA oxygen-sensor offset correlation",
-    "wordCount": 227,
+    "code": "P05CD",
+    "entryId": "generic-p05cd",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P05CD.md",
+    "title": "P05CD: Bank-2 intake cam timing fails the cold-start comparison",
+    "wordCount": 268,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2015-15obdg06-engine-diagnostics"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2015-15obdg06-engine-diagnostics",
         "pages": [
-          42,
-          43
+          262
         ]
       }
     ]
   },
   {
-    "code": "P0142",
-    "entryId": "generic-p0142",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P0142.md",
-    "title": "P0142: Volkswagen sensor-three signal coupling to heater switching",
-    "wordCount": 237,
+    "code": "P05CF",
+    "entryId": "generic-p05cf",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P05CF.md",
+    "title": "P05CF: Bank-2 exhaust cam timing fails during cold start",
+    "wordCount": 258,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2015-15obdg06-engine-diagnostics"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2015-15obdg06-engine-diagnostics",
         "pages": [
-          80,
-          83
+          266
         ]
       }
     ]
   },
   {
-    "code": "P0146",
-    "entryId": "generic-p0146",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P0146.md",
-    "title": "P0146: Volkswagen sensor-three no-activity monitor",
-    "wordCount": 222,
+    "code": "P1031",
+    "entryId": "chevrolet-p1031",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1031.md",
+    "title": "P1031: Oxygen-sensor heater current-monitor circuit fault",
+    "wordCount": 267,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2000file10-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2000file10-historical",
         "pages": [
-          80,
-          83
+          26
         ]
       }
     ]
   },
   {
-    "code": "P014D",
-    "entryId": "generic-p014d",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P014D.md",
-    "title": "P014D: Volkswagen CJAA lean-to-rich response timing",
-    "wordCount": 221,
+    "code": "P1032",
+    "entryId": "chevrolet-p1032",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1032.md",
+    "title": "P1032: Upstream oxygen-sensor heater warm-up control circuit",
+    "wordCount": 266,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2000file10-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2000file10-historical",
         "pages": [
-          42,
-          46
+          27
         ]
       }
     ]
   },
   {
-    "code": "P0448",
-    "entryId": "generic-p0448",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P0448.md",
-    "title": "P0448: Volkswagen EVAP vent circuit short classification",
-    "wordCount": 220,
+    "code": "P1108",
+    "entryId": "chevrolet-p1108",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1108.md",
+    "title": "P1108: Barometric and manifold pressure remain too similar",
+    "wordCount": 260,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-98c40c_g__ae-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-98c40c_g__ae-historical",
         "pages": [
-          80,
-          91
+          25
         ]
       }
     ]
   },
   {
-    "code": "P045F",
-    "entryId": "generic-p045f",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P045F.md",
-    "title": "P045F: Volkswagen CJAA low-pressure EGR stuck-closed monitor",
-    "wordCount": 223,
+    "code": "P1114",
+    "entryId": "chevrolet-p1114",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1114.md",
+    "title": "P1114: Intermittent low coolant-temperature signal",
+    "wordCount": 269,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2002file6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2002file6-historical",
         "pages": [
-          42,
-          59
+          23
         ]
       }
     ]
   },
   {
-    "code": "P0486",
-    "entryId": "generic-p0486",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P0486.md",
-    "title": "P0486: Volkswagen CJAA low-pressure EGR position-sensor circuit",
-    "wordCount": 219,
+    "code": "P1115",
+    "entryId": "chevrolet-p1115",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1115.md",
+    "title": "P1115: Intermittent high coolant-temperature signal",
+    "wordCount": 266,
     "selectedForPublication": false,
-    "sourceReview": "checked",
+    "sourceReview": "needs-review",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2002file6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2002file6-historical",
         "pages": [
-          42,
-          60
+          23
         ]
       }
     ]
   },
   {
-    "code": "P048B",
-    "entryId": "generic-p048b",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P048B.md",
-    "title": "P048B: Volkswagen CJAA exhaust-flap position signal low",
-    "wordCount": 221,
+    "code": "P1154",
+    "entryId": "chevrolet-p1154",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1154.md",
+    "title": "P1154: Unequal bank-2 oxygen-sensor transition times",
+    "wordCount": 268,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2002file6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2002file6-historical",
         "pages": [
-          42,
-          60
+          25
         ]
       }
     ]
   },
   {
-    "code": "P048C",
-    "entryId": "generic-p048c",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P048C.md",
-    "title": "P048C: Volkswagen CJAA exhaust-flap closed-position learning",
-    "wordCount": 224,
+    "code": "P1258",
+    "entryId": "chevrolet-p1258",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1258.md",
+    "title": "P1258: Engine overtemperature protection mode recorded",
+    "wordCount": 275,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2002file6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2002file6-historical",
         "pages": [
-          42,
-          60
+          26
         ]
       }
     ]
   },
   {
-    "code": "P0684",
-    "entryId": "generic-p0684",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P0684.md",
-    "title": "P0684: Volkswagen CJAA glow-controller communication fault",
-    "wordCount": 234,
+    "code": "P1275",
+    "entryId": "chevrolet-p1275",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1275.md",
+    "title": "P1275: Accelerator-pedal sensor 1 circuit and minimum-stop check",
+    "wordCount": 273,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2002file6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2002file6-historical",
         "pages": [
-          42,
-          63
+          26
         ]
       }
     ]
   },
   {
-    "code": "P06FE",
-    "entryId": "generic-p06fe",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P06FE.md",
-    "title": "P06FE: Volkswagen CJAA cold-start intake-airflow control performance",
-    "wordCount": 228,
+    "code": "P1276",
+    "entryId": "chevrolet-p1276",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1276.md",
+    "title": "P1276: Pedal sensor 1 disagreement with two reference channels",
+    "wordCount": 263,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "vw-2014-golf-gti-r-dtc-quick-reference"
+      "gm-2002file6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "vw-2014-golf-gti-r-dtc-quick-reference",
+        "sourceId": "gm-2002file6-historical",
         "pages": [
-          42,
-          53,
-          64
+          26
         ]
       }
     ]
   },
   {
-    "code": "P1104",
-    "entryId": "jaguar-p1104",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1104.md",
-    "title": "P1104: Jaguar AJ26 MAF ground fault and substitute load calculation",
-    "wordCount": 212,
+    "code": "P1286",
+    "entryId": "chevrolet-p1286",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1286.md",
+    "title": "P1286: Pedal sensor 3 correlation performance",
+    "wordCount": 261,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
+      "gm-2002file6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "sourceId": "gm-2002file6-historical",
         "pages": [
-          78
+          28
         ]
       }
     ]
   },
   {
-    "code": "P1122",
-    "entryId": "jaguar-p1122",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1122.md",
-    "title": "P1122: Jaguar pedal sensor A low signal",
-    "wordCount": 224,
+    "code": "P1323",
+    "entryId": "chevrolet-p1323",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1323.md",
+    "title": "P1323: No 24X reference pulses despite camshaft activity",
+    "wordCount": 260,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
+      "gm-98c40c_g__ae-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "sourceId": "gm-98c40c_g__ae-historical",
         "pages": [
-          78
+          28
         ]
       }
     ]
   },
   {
-    "code": "P1123",
-    "entryId": "jaguar-p1123",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1123.md",
-    "title": "P1123: Jaguar pedal sensor A high signal",
-    "wordCount": 223,
+    "code": "P1345",
+    "entryId": "chevrolet-p1345",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1345.md",
+    "title": "P1345: Camshaft-to-crankshaft phase disagreement",
+    "wordCount": 265,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
+      "gm-2002file6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "sourceId": "gm-2002file6-historical",
         "pages": [
-          79
+          28
         ]
       }
     ]
   },
   {
-    "code": "P1172",
-    "entryId": "jaguar-p1172",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1172.md",
-    "title": "P1172: Jaguar AJ16 rich combustion across both cylinder groups",
-    "wordCount": 232,
+    "code": "P1350",
+    "entryId": "chevrolet-p1350",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1350.md",
+    "title": "P1350: Spark-control pulses conflict with bypass mode",
+    "wordCount": 265,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
+      "gm-98c40c_g__ae-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "sourceId": "gm-98c40c_g__ae-historical",
+        "pages": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1351",
+    "entryId": "chevrolet-p1351",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1351.md",
+    "title": "P1351: High ignition-control output during cranking",
+    "wordCount": 267,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file15_6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file15_6-historical",
+        "pages": [
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1359",
+    "entryId": "chevrolet-p1359",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1359.md",
+    "title": "P1359: Ignition group-A control circuit open or held high",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1360",
+    "entryId": "chevrolet-p1360",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1360.md",
+    "title": "P1360: Ignition group-B control circuit open or held high",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1371",
+    "entryId": "chevrolet-p1371",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1371.md",
+    "title": "P1371: Too few 4X pulses within a valid reference interval",
+    "wordCount": 268,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-98c40c_g__ae-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-98c40c_g__ae-historical",
+        "pages": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1372",
+    "entryId": "chevrolet-p1372",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1372.md",
+    "title": "P1372: Crank-reference matching repeatedly loses synchronization",
+    "wordCount": 269,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1374",
+    "entryId": "chevrolet-p1374",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1374.md",
+    "title": "P1374: Incorrect low-resolution crank pulse count",
+    "wordCount": 272,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file8-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file8-historical",
+        "pages": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1375",
+    "entryId": "chevrolet-p1375",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1375.md",
+    "title": "P1375: The 24X reference remains high while other pulses arrive",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-98c40c_g__ae-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-98c40c_g__ae-historical",
+        "pages": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1377",
+    "entryId": "chevrolet-p1377",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1377.md",
+    "title": "P1377: Camshaft and 4X pulse counts disagree",
+    "wordCount": 266,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-98c40c_g__ae-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-98c40c_g__ae-historical",
+        "pages": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1404",
+    "entryId": "chevrolet-p1404",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1404.md",
+    "title": "P1404: EGR pintle remains above its learned closed position",
+    "wordCount": 273,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2002file6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002file6-historical",
+        "pages": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1415",
+    "entryId": "chevrolet-p1415",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1415.md",
+    "title": "P1415: Bank-1 secondary-air response fails while bank 2 passes",
+    "wordCount": 265,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2002file6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002file6-historical",
+        "pages": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1416",
+    "entryId": "chevrolet-p1416",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1416.md",
+    "title": "P1416: Bank-2 secondary-air response and a catalog-label correction",
+    "wordCount": 277,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2002file6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002file6-historical",
+        "pages": [
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1431",
+    "entryId": "chevrolet-p1431",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1431.md",
+    "title": "P1431: Secondary-tank fuel level does not change as expected",
+    "wordCount": 274,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2002file6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002file6-historical",
+        "pages": [
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1432",
+    "entryId": "chevrolet-p1432",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1432.md",
+    "title": "P1432: Secondary fuel-level signal remains electrically low",
+    "wordCount": 266,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2002file6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002file6-historical",
+        "pages": [
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1509",
+    "entryId": "chevrolet-p1509",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1509.md",
+    "title": "P1509: High idle and the idle-airflow response test",
+    "wordCount": 268,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file15_6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file15_6-historical",
+        "pages": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1514",
+    "entryId": "chevrolet-p1514",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1514.md",
+    "title": "P1514: Airflow disagrees with the throttle-based estimate",
+    "wordCount": 265,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2002file6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002file6-historical",
+        "pages": [
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1515",
+    "entryId": "chevrolet-p1515",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1515.md",
+    "title": "P1515: Measured throttle position differs from the modeled position",
+    "wordCount": 276,
+    "selectedForPublication": false,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2002file6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002file6-historical",
+        "pages": [
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1621",
+    "entryId": "chevrolet-p1621",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1621.md",
+    "title": "P1621: PCM nonvolatile-memory hardware performance",
+    "wordCount": 268,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1627",
+    "entryId": "chevrolet-p1627",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1627.md",
+    "title": "P1627: Consecutive PCM analog-to-digital read errors",
+    "wordCount": 267,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file18-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file18-historical",
+        "pages": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1645",
+    "entryId": "chevrolet-p1645",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1645.md",
+    "title": "P1645: Purge output-driver feedback reports an electrical fault",
+    "wordCount": 267,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-98c40c_g__ae-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-98c40c_g__ae-historical",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1646",
+    "entryId": "chevrolet-p1646",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1646.md",
+    "title": "P1646: Purge-vent output circuit in the historical L47 monitor",
+    "wordCount": 263,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-98c40c_g__ae-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-98c40c_g__ae-historical",
+        "pages": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1656",
+    "entryId": "chevrolet-p1656",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1656.md",
+    "title": "P1656: Diesel wastegate PWM output does not follow its command",
+    "wordCount": 260,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file18-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file18-historical",
+        "pages": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1665",
+    "entryId": "chevrolet-p1665",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1665.md",
+    "title": "P1665: Fuel-tank vent output-driver integrity",
+    "wordCount": 266,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-98c31m_w__ye-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-98c31m_w__ye-historical",
+        "pages": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1779",
+    "entryId": "chevrolet-p1779",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1779.md",
+    "title": "P1779: Transmission torque-request signal reaches its fault region",
+    "wordCount": 268,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2002trans10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002trans10-historical",
+        "pages": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1795",
+    "entryId": "chevrolet-p1795",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1795.md",
+    "title": "P1795: Invalid throttle-blade position received over CAN",
+    "wordCount": 269,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000trans6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000trans6-historical",
+        "pages": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1810",
+    "entryId": "chevrolet-p1810",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1810.md",
+    "title": "P1810: Pressure-switch states conflict with operating conditions",
+    "wordCount": 260,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file9-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file9-historical",
+        "pages": [
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1811",
+    "entryId": "chevrolet-p1811",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1811.md",
+    "title": "P1811: Shift duration remains long at maximum adaptation",
+    "wordCount": 273,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2002trans5-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2002trans5-historical",
+        "pages": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1816",
+    "entryId": "chevrolet-p1816",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1816.md",
+    "title": "P1816: Park/neutral indication conflicts with a driven ratio",
+    "wordCount": 262,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000trans6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000trans6-historical",
         "pages": [
           10
         ]
@@ -4507,20 +5062,41 @@
     ]
   },
   {
-    "code": "P1176",
-    "entryId": "jaguar-p1176",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1176.md",
-    "title": "P1176: Jaguar AJ16 lean adaptive fuel-flow correction",
-    "wordCount": 221,
+    "code": "P1817",
+    "entryId": "chevrolet-p1817",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1817.md",
+    "title": "P1817: Reverse indication conflicts with forward drive",
+    "wordCount": 264,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
+      "gm-2000trans6-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "sourceId": "gm-2000trans6-historical",
+        "pages": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1818",
+    "entryId": "chevrolet-p1818",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1818.md",
+    "title": "P1818: Forward-range switch indication conflicts with reverse ratio",
+    "wordCount": 259,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000trans6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000trans6-historical",
         "pages": [
           11
         ]
@@ -4528,664 +5104,64 @@
     ]
   },
   {
-    "code": "P1177",
-    "entryId": "jaguar-p1177",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1177.md",
-    "title": "P1177: Jaguar AJ16 rich adaptive fuel-flow correction",
-    "wordCount": 229,
+    "code": "P1822",
+    "entryId": "chevrolet-p1822",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1822.md",
+    "title": "P1822: Internal-mode-switch B remains high when low is expected",
+    "wordCount": 271,
     "selectedForPublication": false,
     "sourceReview": "checked",
     "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
+      "gm-2000file10-historical"
     ],
     "sourcePages": [
       {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1823",
+    "entryId": "chevrolet-p1823",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1823.md",
+    "title": "P1823: Internal-mode-switch P remains low when high is expected",
+    "wordCount": 265,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000file10-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000file10-historical",
+        "pages": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1831",
+    "entryId": "chevrolet-p1831",
+    "batch": "batch-33",
+    "path": "content/code-articles/batch-33/P1831.md",
+    "title": "P1831: Transmission high-side driver 1 fails its on-state check",
+    "wordCount": 258,
+    "selectedForPublication": false,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "gm-2000trans6-historical"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2000trans6-historical",
         "pages": [
           11
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1178",
-    "entryId": "jaguar-p1178",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1178.md",
-    "title": "P1178: Jaguar AJ16 lean air-flow adaptation and idle evidence",
-    "wordCount": 241,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          11
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1179",
-    "entryId": "jaguar-p1179",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1179.md",
-    "title": "P1179: Jaguar AJ16 rich air-flow adaptation",
-    "wordCount": 228,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          11
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1185",
-    "entryId": "jaguar-p1185",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1185.md",
-    "title": "P1185: Jaguar AJ16 upstream oxygen-heater open-circuit fault",
-    "wordCount": 235,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          35
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1186",
-    "entryId": "jaguar-p1186",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1186.md",
-    "title": "P1186: Jaguar AJ16 upstream oxygen-heater short-circuit diagnosis",
-    "wordCount": 228,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          35
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1187",
-    "entryId": "jaguar-p1187",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1187.md",
-    "title": "P1187: Jaguar upstream heater fault with temperature-related possibilities",
-    "wordCount": 230,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          11
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1188",
-    "entryId": "jaguar-p1188",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1188.md",
-    "title": "P1188: Jaguar upstream oxygen-heater high resistance",
-    "wordCount": 229,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1189",
-    "entryId": "jaguar-p1189",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1189.md",
-    "title": "P1189: Jaguar upstream heater low-resistance classification",
-    "wordCount": 230,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          36
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1190",
-    "entryId": "jaguar-p1190",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1190.md",
-    "title": "P1190: Jaguar upstream heater fault and excessive system voltage",
-    "wordCount": 231,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1191",
-    "entryId": "jaguar-p1191",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1191.md",
-    "title": "P1191: Jaguar downstream oxygen-heater open-circuit fault",
-    "wordCount": 235,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          35,
-          36
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1192",
-    "entryId": "jaguar-p1192",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1192.md",
-    "title": "P1192: Jaguar downstream heater short and the upstream cross-reference",
-    "wordCount": 227,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          35,
-          36
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1193",
-    "entryId": "jaguar-p1193",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1193.md",
-    "title": "P1193: Jaguar downstream heater fault with inferred operating causes",
-    "wordCount": 232,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          11,
-          12
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1194",
-    "entryId": "jaguar-p1194",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1194.md",
-    "title": "P1194: Jaguar downstream heater resistance and intermittent wiring",
-    "wordCount": 221,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1195",
-    "entryId": "jaguar-p1195",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1195.md",
-    "title": "P1195: Jaguar downstream heater classification and installation checks",
-    "wordCount": 220,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          36
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1196",
-    "entryId": "jaguar-p1196",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1196.md",
-    "title": "P1196: Jaguar downstream heater fault and supply-voltage evidence",
-    "wordCount": 219,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1198",
-    "entryId": "jaguar-p1198",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1198.md",
-    "title": "P1198: Jaguar V12 fuel-level signal high",
-    "wordCount": 222,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          55
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1199",
-    "entryId": "jaguar-p1199",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1199.md",
-    "title": "P1199: Jaguar V12 low fuel-level signal versus the AJ16 definition",
-    "wordCount": 227,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12,
-          55
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1201",
-    "entryId": "jaguar-p1201",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1201.md",
-    "title": "P1201: Jaguar AJ16 cylinder-one injector fault after shutdown",
-    "wordCount": 231,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12,
-          13
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1202",
-    "entryId": "jaguar-p1202",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1202.md",
-    "title": "P1202: Jaguar AJ16 cylinder-two injector electrical fault",
-    "wordCount": 231,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12,
-          13
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1203",
-    "entryId": "jaguar-p1203",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1203.md",
-    "title": "P1203: Jaguar AJ16 cylinder-three injector circuit versus fuel flow",
-    "wordCount": 232,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12,
-          13,
-          14
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1204",
-    "entryId": "jaguar-p1204",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1204.md",
-    "title": "P1204: Jaguar AJ16 cylinder-four injector shutdown monitor",
-    "wordCount": 236,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12,
-          13
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1205",
-    "entryId": "jaguar-p1205",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1205.md",
-    "title": "P1205: Jaguar AJ16 number-five injector open or short",
-    "wordCount": 233,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12,
-          13
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1206",
-    "entryId": "jaguar-p1206",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1206.md",
-    "title": "P1206: Jaguar AJ16 cylinder-six injector fault and companion codes",
-    "wordCount": 235,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          12,
-          13,
-          14
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1221",
-    "entryId": "jaguar-p1221",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1221.md",
-    "title": "P1221: Jaguar AJ26 pedal sensor B plausibility fault",
-    "wordCount": 235,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          79
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1224",
-    "entryId": "jaguar-p1224",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1224.md",
-    "title": "P1224: Jaguar AJ26 throttle position error and mechanical guard mode",
-    "wordCount": 230,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          79
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1226",
-    "entryId": "jaguar-p1226",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1226.md",
-    "title": "P1226: Jaguar mechanical-guard sensor range and mechanical causes",
-    "wordCount": 227,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          80
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1227",
-    "entryId": "jaguar-p1227",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1227.md",
-    "title": "P1227: Jaguar mechanical-guard sensor low input",
-    "wordCount": 223,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          80
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1228",
-    "entryId": "jaguar-p1228",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1228.md",
-    "title": "P1228: Jaguar mechanical-guard sensor high input",
-    "wordCount": 221,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          80
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1230",
-    "entryId": "jaguar-p1230",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1230.md",
-    "title": "P1230: Jaguar AJ26 fuel-pump relay control fault",
-    "wordCount": 226,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          80
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1251",
-    "entryId": "jaguar-p1251",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1251.md",
-    "title": "P1251: Jaguar AJ26 throttle-position check after engine shutdown",
-    "wordCount": 225,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          82
-        ]
-      }
-    ]
-  },
-  {
-    "code": "P1252",
-    "entryId": "jaguar-p1252",
-    "batch": "batch-34",
-    "path": "content/code-articles/batch-34/P1252.md",
-    "title": "P1252: Jaguar AJ26 mechanical guard during cruise operation",
-    "wordCount": 231,
-    "selectedForPublication": false,
-    "sourceReview": "checked",
-    "sourceIds": [
-      "jaguar-dtc-nonstype-1995-2002"
-    ],
-    "sourcePages": [
-      {
-        "sourceId": "jaguar-dtc-nonstype-1995-2002",
-        "pages": [
-          83
         ]
       }
     ]
