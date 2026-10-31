@@ -17,10 +17,10 @@
     "remainingCatalogEntries": 11786,
     "scopedVehicleGuides": 32,
     "entriesLinkedToScopedGuides": 52,
-    "entriesWithSourceCandidates": 3395,
-    "distinctCodesWithSourceCandidates": 3383,
-    "entriesNeedingResearch": 8391,
-    "candidateDocuments": 451,
+    "entriesWithSourceCandidates": 3728,
+    "distinctCodesWithSourceCandidates": 3712,
+    "entriesNeedingResearch": 8058,
+    "candidateDocuments": 528,
     "submittedArticleRecords": 0,
     "rejectedArticleRecords": 0
   },
@@ -4898,6 +4898,990 @@
       ],
       "reviewStatus": "candidate",
       "uniqueCodeMentions": 3
+    },
+    {
+      "id": "ford-diesel-2002-73l",
+      "url": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM201.pdf",
+      "publisher": "Ford Motor Company",
+      "title": "2002 MY OBD System Operation Summary for 7.3L Diesel Engine",
+      "documentScope": "Ford 2002 model-year 7.3L diesel OBD system operation summary, revision February 14, 2003.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 19
+    },
+    {
+      "id": "ford-diesel-1998-73l",
+      "url": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM981.pdf",
+      "publisher": "Ford Motor Company",
+      "title": "1998 MY OBD System Operation Summary for 7.3L Diesel Engine",
+      "documentScope": "Ford 1998 model-year 7.3L diesel California glow-plug system, revision February 14, 2003.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 5
+    },
+    {
+      "id": "ford-diesel-2015",
+      "url": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM1501.pdf",
+      "publisher": "Ford Motor Company",
+      "title": "2015 MY OBD System Operation Summary for Diesel Engines",
+      "documentScope": "Ford 2015 model-year diesel OBD system operation summary, revision December 22, 2014; the cited monitor only, without blanket model or engine applicability.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 47
+    },
+    {
+      "id": "ford-diesel-2004-60l",
+      "url": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM404.pdf",
+      "publisher": "Ford Motor Company",
+      "title": "2004 MY OBD System Operation Summary for 6.0L Diesel Engine",
+      "documentScope": "Ford 2004 model-year 6.0L diesel OBD summary, revision August 7, 2003; the cited monitor and transmission implementation only.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 17
+    },
+    {
+      "id": "ford-gasoline-1997",
+      "url": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/obdsm973.pdf",
+      "publisher": "Ford Motor Company",
+      "title": "1997 MY OBD System Operation Summary",
+      "documentScope": "Ford 1997 model-year gasoline OBD summary, revision November 12, 2007; the cited monitor only, not all listed engines or transmissions.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 7
+    },
+    {
+      "id": "ford-1994-mustang-transmission-pinpoint",
+      "url": "https://www.fordservicecontent.dealerconnection.com/pubs/content/~WSRB/~MUS~LEN/19/SRB71026.HTM",
+      "publisher": "Ford Motor Company",
+      "title": "1994 Mustang Automatic Transmission Diagnostic Trouble Code Chart and Pinpoint Tests",
+      "documentScope": "Ford 1994 Mustang automatic-transmission diagnostic chart and pinpoint tests; engine and California calibration distinctions remain application specific.",
+      "makeIds": [
+        "ford"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 5
+    },
+    {
+      "id": "gm-2018-18obdg01-hybrid-diagnostics",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2018/18OBDG01%20Hybrid%20Diagnostics.pdf",
+      "publisher": "General Motors",
+      "title": "18OBDG01 Hybrid Diagnostics",
+      "documentScope": "Document-level 2018 GM 18OBDG01 hybrid diagnostic tables; per-code vehicle, engine and calibration applicability not established.",
+      "makeIds": [],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 11
+    },
+    {
+      "id": "gm-2018-18obdg02-hybrid-diagnostics",
+      "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2018/18OBDG02%20Hybrid%20Diagnostics.pdf",
+      "publisher": "General Motors",
+      "title": "18OBDG02 Hybrid Diagnostics",
+      "documentScope": "Document-level 2018 GM 18OBDG02 hybrid diagnostic tables; per-code vehicle, engine and calibration applicability not established.",
+      "makeIds": [],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 84
+    },
+    {
+      "id": "jaguar-dtc-nonstype-1995-2002",
+      "url": "https://www.jcna.com/sites/default/files/NONSTYPE.pdf",
+      "publisher": "Jaguar Cars Ltd",
+      "title": "DTC Summaries: XJ Sedan Range, XK8 Range through 2002 MY and XJS Range",
+      "documentScope": "Multiple system-specific diagnostic summaries for AJ16, V12 ND, AJ26, AJ27 and listed transmission families; each article uses only its expressly cited system/model-year section.",
+      "makeIds": [
+        "jaguar"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 76
+    },
+    {
+      "id": "jaguar-dtc-xk-2003",
+      "url": "https://www.jcna.com/sites/default/files/XKTYPE.pdf",
+      "publisher": "Jaguar Cars Ltd",
+      "title": "DTC Summaries: Jaguar XK 2003 Model Year",
+      "documentScope": "Jaguar XK 2003 model-year diagnostic summaries; cited engine-management CMP sensor row only.",
+      "makeIds": [
+        "jaguar"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "jaguar-dtc-stype-compilation",
+      "url": "https://www.jcna.com/sites/default/files/STYPE.pdf",
+      "publisher": "Jaguar Cars Ltd",
+      "title": "DTC Summaries: Jaguar S-TYPE",
+      "documentScope": "Compiled S-TYPE model-year/system diagnostic tables; this batch uses the 2000 powertrain summary up to VIN L86901.",
+      "makeIds": [
+        "jaguar"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "vw-2014-golf-gti-r-dtc-quick-reference",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2014/MC-10122269-9999.pdf",
+      "publisher": "Volkswagen of America",
+      "title": "2014 Volkswagen Golf, GTI, & Golf R Quick Reference Specification Book",
+      "documentScope": "January 2014 engine-specific DTC tables; this batch uses CJAA and CBTA/CBUA sections with CBUA-only restrictions retained for sensor-three heater rows.",
+      "makeIds": [
+        "volkswagen"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 22
+    },
+    {
+      "id": "ross-tech-p0177",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16561/P0177/000375",
+      "publisher": "Ross-Tech LLC",
+      "title": "16561/P0177/000375 - Sensor for Fuel Composition / Quality (G446): Implausible Signal",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0185",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16569/P0185",
+      "publisher": "Ross-Tech LLC",
+      "title": "16569/P0185 - Fuel Temperature Sensor B (G248): Circuit Low Input",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0189",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16573/P0189",
+      "publisher": "Ross-Tech LLC",
+      "title": "16573/P0189 - Fuel Temperature Sensor B (G248): Intermittent",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0194",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16578/P0194",
+      "publisher": "Ross-Tech LLC",
+      "title": "16578/P0194 - Fuel Rail Pressure Sensor (G247): Circuit Intermittent",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0235",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16619/P0235/000565",
+      "publisher": "Ross-Tech LLC",
+      "title": "16619/P0235/000565 - Boost Pressure: Regulation Range not Reached",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0309",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16693/P0309/000777",
+      "publisher": "Ross-Tech LLC",
+      "title": "16693/P0309/000777 - Cylinder 9 Misfire Detected",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0311",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16695/P0311/000785",
+      "publisher": "Ross-Tech LLC",
+      "title": "16695/P0311 - Cylinder 11 Misfire Detected",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0312",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16696/P0312",
+      "publisher": "Ross-Tech LLC",
+      "title": "16696/P0312 - Cylinder 12 Misfire Detected",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0321",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16705/P0321/000801",
+      "publisher": "Ross-Tech LLC",
+      "title": "16705/P0321/000801 - Engine Speed Sensor (G28): Implausible Signal",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0322",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16706/P0322/000802",
+      "publisher": "Ross-Tech LLC",
+      "title": "16706/P0322/000802 - Engine Speed Sensor (G28): No Signal",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0329",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16713/P0329",
+      "publisher": "Ross-Tech LLC",
+      "title": "16713/P0329 - Knock Sensor 1 (G61): Intermittent",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0334",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16718/P0334/000820",
+      "publisher": "Ross-Tech LLC",
+      "title": "16718/P0334/000820 - Knock Sensor 2 (G66): Intermittent",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0363",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16747/P0363/000867",
+      "publisher": "Ross-Tech LLC",
+      "title": "16747/P0363/000867 - Misfire Detected -- Fueling Disabled",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0407",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16791/P0407/001031",
+      "publisher": "Ross-Tech LLC",
+      "title": "16791/P0407/001031 - EGR Potentiometer (G212): Signal too Low",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0408",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16792/P0408/001032",
+      "publisher": "Ross-Tech LLC",
+      "title": "16792/P0408/001032 - EGR Potentiometer (G212): Signal too High",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0431",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16815/P0431/001073",
+      "publisher": "Ross-Tech LLC",
+      "title": "16815/P0431/001073 - Warm Up Catalyst; Bank 2: Efficiency Below Threshold",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0432",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16816/P0432",
+      "publisher": "Ross-Tech LLC",
+      "title": "16816/P0432 - Main Catalyst: Bank 2: Efficiency Below Threshold",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0551",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16935/P0551/001361",
+      "publisher": "Ross-Tech LLC",
+      "title": "16935/P0551/001361 - Power Steering Pressure Sensor (F88): Implausible Signal",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0688",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17072/P0688/001672",
+      "publisher": "Ross-Tech LLC",
+      "title": "17072/P0688/001672 - ECM Power Relay Load Circuit: (J271): Open Circuit",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1161",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17569/P1161",
+      "publisher": "Ross-Tech LLC",
+      "title": "17569/P1161 - Manifold Temp Sensor (G72): Open or Short to +",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1403",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17811/P1403/005123",
+      "publisher": "Ross-Tech LLC",
+      "title": "17811/P1403/005123 - EGR System: Regulation Deviation",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1420",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17828/P1420/005152",
+      "publisher": "Ross-Tech LLC",
+      "title": "17828/P1420/005152 - Secondary Air Injection Solenoid Valve (N112): Electr. Malfunction",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1421",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17829/P1421/005153",
+      "publisher": "Ross-Tech LLC",
+      "title": "17829/P1421/005153 - Secondary Air Injection Solenoid Valve (N112): Short to Ground",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1422",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17830/P1422/005154",
+      "publisher": "Ross-Tech LLC",
+      "title": "17830/P1422/005154 - Secondary Air Injection Solenoid Valve (N112): Short to Plus",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1475",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17883/P1475/005237",
+      "publisher": "Ross-Tech LLC",
+      "title": "17883/P1475/005237 - EVAP Leak Detection Pump: Malfunction/No Signal",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1508",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17916/P1508/005384",
+      "publisher": "Ross-Tech LLC",
+      "title": "17916/P1508/005384 - Idle Control Sys: Upper Regulation Limit Reached",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1534",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17942/P1534",
+      "publisher": "Ross-Tech LLC",
+      "title": "17942/P1534 - Camshaft Timing Adj. Bank2 (N208): Short to Plus",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1543",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17951/P1543/005443",
+      "publisher": "Ross-Tech LLC",
+      "title": "17951/P1543/005443 - Angle Sensor 1 for Throttle Actuator (G187): Signal too Small",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1546",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17954/P1546/005446",
+      "publisher": "Ross-Tech LLC",
+      "title": "17954/P1546/005446 - Boost Pressure Controle Valve (N75): Short to B+",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1547",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17955/P1547/005447",
+      "publisher": "Ross-Tech LLC",
+      "title": "17955/P1547/005447 - Boost Pressure Controle Valve (N75): Short to Ground",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1548",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17956/P1548/005448",
+      "publisher": "Ross-Tech LLC",
+      "title": "17956/P1548/005448 - Boost Pressure Controle Valve (N75): Open Circuit",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1559",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17967/P1559/005465",
+      "publisher": "Ross-Tech LLC",
+      "title": "17967/P1559/005465 - Throttle Body (J338): Fault in Basic Settings",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1564",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17972/P1564/005476",
+      "publisher": "Ross-Tech LLC",
+      "title": "17972/P1564/005476 - Throttle Actuator (J338): Under-Voltage during Basic Setting",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1565",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17973/P1565/005477",
+      "publisher": "Ross-Tech LLC",
+      "title": "17973/P1565/005477 - Throttle Actuator (J338): Lower Stop not Reached",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1579",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17987/P1579/005497",
+      "publisher": "Ross-Tech LLC",
+      "title": "17987/P1579/005497 - Throttle Actuator (J338): Adaptation Not Started",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1580",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17988/P1580/005504",
+      "publisher": "Ross-Tech LLC",
+      "title": "17988/P1580/005504 - Throttle Actuator (Bank 1): Malfunction",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1586",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/17994/P1586/005510",
+      "publisher": "Ross-Tech LLC",
+      "title": "17994/P1586/005510 - Engine Mount Solenoid Valves (N144/N145): Short to Plus",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1606",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18014/P1606/005638",
+      "publisher": "Ross-Tech LLC",
+      "title": "18014/P1606/005638 - Rough Road/Engine Torque Signal from ABS: Electrical Malfunction",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1619",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18027/P1619/005657",
+      "publisher": "Ross-Tech LLC",
+      "title": "18027/P1619/005657 - Glow Plug Relay (J52): Open or Short to Ground",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1676",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18084/P1676/005750",
+      "publisher": "Ross-Tech LLC",
+      "title": "18084/P1676/005750 - EPC Warning Lamp (K132) Circuit: Electrical Malfunction",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1681",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18089/P1681/005761",
+      "publisher": "Ross-Tech LLC",
+      "title": "18089/P1681/005761 - Control Module Programming Not Finished",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1841",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18249/P1841/006209",
+      "publisher": "Ross-Tech LLC",
+      "title": "18249/P1841/006209 - Engine Control Module / Transmission Control Module Incompatible",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p1857",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18265/P1857/006231",
+      "publisher": "Ross-Tech LLC",
+      "title": "18265/P1857/006231 - Load Signal: Error Message from ECU",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2106",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18538/P2106",
+      "publisher": "Ross-Tech LLC",
+      "title": "18538/P2106 - Throttle Valve Actuator Module (J338): Power Limited due to Malfunction",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2133",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18565/P2133",
+      "publisher": "Ross-Tech LLC",
+      "title": "18565/P2133 - Throttle Position Sensor Bank 2: Signal too High",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2279",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18711/P2279/008825",
+      "publisher": "Ross-Tech LLC",
+      "title": "18711/P2279/008825 - Leak in Air Intake System",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2404",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18836/P2404/009220",
+      "publisher": "Ross-Tech LLC",
+      "title": "18836/P2404/009220 - EVAP Leak Detection Pump Sense Circuit: Implausible Signal",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2543",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18975/P2543",
+      "publisher": "Ross-Tech LLC",
+      "title": "18975/P2543 - Low Pressure Fuel Sensor (G410)",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2568",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/19000/P2568/009576",
+      "publisher": "Ross-Tech LLC",
+      "title": "P2568 - Sensor for Ozone Reducing Radiator Identification: Implausible Signal",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2612",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/19044/P2612/009746",
+      "publisher": "Ross-Tech LLC",
+      "title": "19044/P2612/009746 - A/C Refrigerant Distribution Valve: Short to Ground",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2711",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/19143/P2711/010001",
+      "publisher": "Ross-Tech LLC",
+      "title": "19143/P2711/010001 - Unexpected / Implausible Mechanical Gear Disengagement",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-u0155",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/28827/U0155/049493",
+      "publisher": "Ross-Tech LLC",
+      "title": "28827/U0155/049493 - No Communication with Instrument Cluster",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p00af",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P00AF/000175",
+      "publisher": "Ross-Tech LLC",
+      "title": "000175/P00AF - Actuator Module for Turbocharger 1: Stuck",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p047f",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P047F/00115",
+      "publisher": "Ross-Tech LLC",
+      "title": "P047F/001151 - Exhaust Pressure Control Valve: Stuck Open",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0491",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P0491",
+      "publisher": "Ross-Tech LLC",
+      "title": "P0491 - Secondary Air Injection System: Bank 1",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p0492",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P0492",
+      "publisher": "Ross-Tech LLC",
+      "title": "P0492 - Secondary Air Injection System: Bank 2",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p052e",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P052E",
+      "publisher": "Ross-Tech LLC",
+      "title": "P052E - PCV Valve Malfunction",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p052f",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P052F",
+      "publisher": "Ross-Tech LLC",
+      "title": "P052F - Control Module for Glow Plugs: Implausible Voltage",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p242f",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P242F/009263",
+      "publisher": "Ross-Tech LLC",
+      "title": "P242F/009263 - Diesel Particulate Filter (Bank 1): Restricted/Clogged",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p246e",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P246E",
+      "publisher": "Ross-Tech LLC",
+      "title": "P246E Exhaust Gas Temperature Sensor 4 Bank 1: Electrical Malfunction",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p24d8",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P24D8",
+      "publisher": "Ross-Tech LLC",
+      "title": "P24D8 EVAP Pressure Sensor 2: Short to Plus",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2556",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P2556",
+      "publisher": "Ross-Tech LLC",
+      "title": "P2556 - Engine Coolant Level Sensor/Switch: Electrical Malfunction",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2753",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P2753",
+      "publisher": "Ross-Tech LLC",
+      "title": "P2753 - Transmission Fluid Cooler Control Circuit/Open",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "ross-tech-p2755",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/P2755",
+      "publisher": "Ross-Tech LLC",
+      "title": "P2755 - Transmission Fluid Cooler Control Circuit High",
+      "documentScope": "Ross-Tech independent VAG diagnostic guidance; match complete fault description and controller. Vehicle-specific notes do not establish universal applicability.",
+      "makeIds": [
+        "volkswagen",
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 1
+    },
+    {
+      "id": "audi-2014-a6-s6-reference-2013-09",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10243900-9999.pdf",
+      "publisher": "Audi",
+      "title": "2014 Audi A6/S6 Quick Reference Specification Book, September 2013",
+      "documentScope": "2014 Audi A6/S6 reference, September 2013. Separate DTC charts for CAED (physical page250), CTUA (272), CEUC (295) and CPNB (337). Each article is limited to its identified engine section.",
+      "makeIds": [
+        "audi"
+      ],
+      "reviewStatus": "candidate",
+      "uniqueCodeMentions": 36
     }
   ],
   "articleIssues": [],

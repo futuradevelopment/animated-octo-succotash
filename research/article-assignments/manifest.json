@@ -1,5 +1,5 @@
 {
-  "target": 3000,
+  "target": 3400,
   "batches": [
     {
       "batch": "batch-01",
@@ -260,9 +260,45 @@
       "firstCode": "C006B",
       "lastCode": "P06A0",
       "wave": 3
+    },
+    {
+      "batch": "batch-31",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-31.json",
+      "outputDirectory": "content/code-articles/batch-31",
+      "firstCode": "P0177",
+      "lastCode": "P2027",
+      "wave": 4
+    },
+    {
+      "batch": "batch-32",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-32.json",
+      "outputDirectory": "content/code-articles/batch-32",
+      "firstCode": "P0670",
+      "lastCode": "P1756",
+      "wave": 4
+    },
+    {
+      "batch": "batch-34",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-34.json",
+      "outputDirectory": "content/code-articles/batch-34",
+      "firstCode": "P1104",
+      "lastCode": "P2413",
+      "wave": 4
+    },
+    {
+      "batch": "batch-36",
+      "count": 100,
+      "assignment": "research/article-assignments/batch-36.json",
+      "outputDirectory": "content/code-articles/batch-36",
+      "firstCode": "P041F",
+      "lastCode": "C0576",
+      "wave": 4
     }
   ],
-  "method": "Each writing wave uses ten writer agents with 100 separately authored code articles each. Codes are deduplicated across all assignments. Every article requires source and scope review; an indexed code mention is not diagnostic evidence. Wave3 assignments are added as usable primary-source candidates are identified.",
+  "method": "Each full writing wave uses ten writer groups of100 separately authored code articles. Codes are deduplicated globally by code string. Every article requires source and scope review; indexed mentions alone are insufficient. Wave4 assignments are integrated only after their writer group is complete; campaign.json retains the full1000-article goal.",
   "waves": [
     {
       "wave": 1,
@@ -310,6 +346,17 @@
         "batch-28",
         "batch-29",
         "batch-30"
+      ]
+    },
+    {
+      "wave": 4,
+      "target": 1000,
+      "assignedSoFar": 400,
+      "batches": [
+        "batch-31",
+        "batch-32",
+        "batch-34",
+        "batch-36"
       ]
     }
   ]

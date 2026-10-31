@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-10-31T09:19:16.316Z",
+  "checkedAt": "2026-10-31T09:59:11.168Z",
   "status": "writing-complete",
   "counts": {
-    "assigned": 3000,
-    "written": 3000,
-    "uniqueCodes": 3000,
-    "sourceCheckedDrafts": 2483,
-    "sourceReviewPending": 517,
-    "words": 819235,
+    "assigned": 3400,
+    "written": 3400,
+    "uniqueCodes": 3400,
+    "sourceCheckedDrafts": 2875,
+    "sourceReviewPending": 525,
+    "words": 915917,
     "minimumWords": 183,
     "maximumWords": 345,
     "selectedForPublication": 3000,
-    "notSelectedForPublication": 0,
+    "notSelectedForPublication": 400,
     "selectedSourceChecked": 2483,
     "selectedSourceReviewPending": 517
   },
@@ -54,6 +54,17 @@
       "sourceCheckedDrafts": 826,
       "sourceReviewPending": 174,
       "words": 273392
+    },
+    {
+      "wave": 4,
+      "assigned": 1000,
+      "written": 400,
+      "selectedForPublication": 0,
+      "notSelectedForPublication": 400,
+      "uniqueCodes": 400,
+      "sourceCheckedDrafts": 392,
+      "sourceReviewPending": 8,
+      "words": 96682
     }
   ],
   "batches": [
@@ -233,6 +244,30 @@
     },
     {
       "batch": "batch-30",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-31",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-32",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-34",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-36",
       "assigned": 100,
       "written": 100,
       "missing": []
@@ -2307,11 +2342,43 @@
     {
       "file": "content/code-articles/batch-30/U0156.md",
       "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-31/P01E3.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-31/P0235.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-31/P0334.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-31/P1420.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-31/P2133.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-31/P24D8.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-31/P2543.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-36/C059B.md",
+      "issue": "source_review_pending"
     }
   ],
   "limitations": [
     "This report measures written manuscripts, metadata integrity and explicit renderer selection, not mechanical accuracy, human review, live publication, indexing or traffic. Source files retain draft authoring metadata independently of renderer selection.",
-    "The overall 10,000+ code-article goal remains separate from these 3,000 assigned manuscripts."
+    "The overall 10,000+ code-article goal remains separate from these 3,400 assigned manuscripts."
   ],
   "articleFiles": [
     "written-articles/part-001.json",
@@ -2325,6 +2392,8 @@
     "written-articles/part-009.json",
     "written-articles/part-010.json",
     "written-articles/part-011.json",
-    "written-articles/part-012.json"
+    "written-articles/part-012.json",
+    "written-articles/part-013.json",
+    "written-articles/part-014.json"
   ]
 }

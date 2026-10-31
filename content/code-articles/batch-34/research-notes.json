@@ -1,0 +1,29 @@
+{
+  "batch": "batch-34",
+  "checkedOn": "2026-10-31",
+  "articleCount": 100,
+  "composition": {"jaguar": 78, "genericVolkswagenScoped": 22},
+  "researchMethod": "Read the manufacturer-authored diagnostic tables, complete relevant rows, section/model-year headings, warning keys, footnotes and explicitly referenced cause rows. Downloaded Jaguar publications from the JCNA mirror; used Volkswagen's manufacturer quick-reference book hosted by NHTSA. Verified physical PDF page counts and exact code presence on cited diagnostic pages. These are original explanations of monitor evidence, not copied diagnostic tables or complete workshop procedures.",
+  "sourceRecords": "/workspace/scratch/dbf135311373/wave4/writer34/sources.json",
+  "assignment": "research/article-assignments/batch-34.json",
+  "validation": "/workspace/scratch/dbf135311373/wave4/writer34/validation.json",
+  "sourceChecks": [
+    {"sourceId": "jaguar-dtc-nonstype-1995-2002", "pageCount": 361, "checks": "Separate AJ16 1995, AJ16 1996/97, V12 ND, AJ26 1997, AJ27 1999/2000 and transmission-family sections retained. P0201/P0300/P1361/P1371 and other explicit cross-references read. 1995 misfire footnote overrides simple trip-column interpretation. Transmission warning keys read at physical pages 260 and 268."},
+    {"sourceId": "jaguar-dtc-xk-2003", "pageCount": 122, "checks": "P1341 bank-two CMP row read on physical page 63. Avoided the older AJ27 row's extraneous A-bank starting note."},
+    {"sourceId": "jaguar-dtc-stype-compilation", "pageCount": 309, "checks": "P1566 physical page 54 is in the 2000 model-year powertrain section, whose applicability is up to VIN L86901; later S-TYPE rows were not merged into its description."},
+    {"sourceId": "vw-2014-golf-gti-r-dtc-quick-reference", "pageCount": 96, "checks": "Read engine-section headings at physical pages 42 and 80. Used CBUA-only P0042/P0043/P0044 rows on page 80, avoiding conflicting earlier chart sensor numbering. Kept calibration threshold ranges as ranges. P20D8 map limits are not numerically supplied; no invented pressure or quantity limit. P2274/P2275 abbreviated sequence is described as monitor evidence, not a complete test procedure."}
+  ],
+  "documentedLimitations": [
+    {"codes": ["P1189", "P1195"], "detail": "Jaguar's low-resistance classification also lists high-resistance/open possibilities. Articles preserve the published limitation and do not invent an ohm limit or correct the source silently."},
+    {"codes": ["P1199"], "detail": "V12 low-input definition and 1995 AJ16 broader instrument-pack-to-ECM malfunction definition differ. Article explicitly separates systems and monitoring conditions."},
+    {"codes": ["P1252", "P1253"], "detail": "Catalog VSV shorthand is narrower than Jaguar's mechanical-guard position diagnosis; articles explain the source-defined broader scope."},
+    {"codes": ["P1313", "P1314", "P1315"], "detail": "1995 AJ16 footnote says these codes do not themselves activate the check-engine lamp; companion misfire code requirements are retained. P1315 injector shutdown is a controller response, not proof of an injector circuit defect."},
+    {"codes": ["P1373", "P1376", "P1398"], "detail": "Manufacturer wording retained where catalog timing/high-input wording is narrower or differs. P1398 AJ26 row explicitly lists a circuit short to ground despite catalog high-input terminology."},
+    {"codes": ["P1700", "P1730"], "detail": "5 HP 24 source documents fourth-gear fallback for P1700 and second/third/fourth fault scope for P1730, which differ from catalog neutral/fifth-gear wording. Articles state the differences and exact transmission scope."},
+    {"codes": ["P1791", "P1792"], "detail": "Source definitions differ from catalog ignition-supply labels. P1791 is the throttle-position information path in the Jaguar 4L80-E section; P1792 is the sport-mode indicator path in ZF 4 HP 24 E9. Both articles explicitly identify the conflict and bounded primary-source definition."},
+    {"codes": ["P1796"], "detail": "Used the 5 HP 24 CAN definition at physical page 275. The 4L80-E kickdown-switch definition in the same compilation was not mixed into this article."}
+  ],
+  "unresolvedSourceClaims": [],
+  "unfilledCandidates": "BMW search largely produced bare code lists; no unsupported BMW filler was written. Nineteen verified Jaguar code candidates were rejected by the atomic reservation helper because other batches already owned their code strings. Eight remaining Jaguar catalog entries lacked matching primary rows in the retrieved set. Root supplied a Volkswagen source, from which 22 verified unclaimed generic entries completed the assignment.",
+  "publicationState": "All manuscripts remain draft; no publication, shared source-part edits or commits performed by this writer."
+}

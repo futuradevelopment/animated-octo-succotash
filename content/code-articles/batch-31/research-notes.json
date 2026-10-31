@@ -1,0 +1,203 @@
+{
+  "batch": "batch-31",
+  "checkedOn": "2026-10-31",
+  "articleCount": 100,
+  "method": "Read complete Ross-Tech revision pages and scoped OEM criteria; authored individual explanations and distinguished diagnostic inference from source instructions.",
+  "issues": [
+    {
+      "code": "P0235",
+      "issue": "Dictionary calls P0235 turbocharger boost sensor A circuit; Ross-Tech 16619/P0235/000565 describes regulation range not reached. Article explicitly bounds its interpretation to that VAG fault.",
+      "resolution": "Scope and uncertainty explicitly stated in article; retain needs-review."
+    },
+    {
+      "code": "P0334",
+      "issue": "Ross-Tech heading identifies Knock Sensor2 G66, but one solution line says G62. Article preserves heading identity and does not propagate inconsistent solution label.",
+      "resolution": "Scope and uncertainty explicitly stated in article; retain needs-review."
+    },
+    {
+      "code": "P1420",
+      "issue": "Canonical dictionary says secondary-air control module; Ross-Tech names N112 secondary-air solenoid electrical malfunction. Full VAG fault-text scope stated.",
+      "resolution": "Scope and uncertainty explicitly stated in article; retain needs-review."
+    },
+    {
+      "code": "P2133",
+      "issue": "Generic title identifies throttle/pedal sensor F; Ross-Tech names bank2 throttle-position high and discusses pedal/O2 interactions. Full source-specific interpretation stated without universal component equivalence.",
+      "resolution": "Scope and uncertainty explicitly stated in article; retain needs-review."
+    },
+    {
+      "code": "P2543",
+      "issue": "Generic dictionary says low-pressure fuel sensor intermittent circuit; Ross-Tech P2543 heading merely names G410 and describes restrictions/lift pump. Article explicitly states narrower source interpretation and no automatic equivalence.",
+      "resolution": "Scope and uncertainty explicitly stated in article; retain needs-review."
+    },
+    {
+      "code": "P24D8",
+      "issue": "Ross-Tech explicitly questions pressure-sensor2 wording and states V8 multiple-sensor applicability unclear. Article retains exact example and uncertainty.",
+      "resolution": "Scope and uncertainty explicitly stated in article; retain needs-review."
+    },
+    {
+      "code": "P01E3",
+      "issue": "Generic entry names coolant-temperature sensor3; Audi CPNB row calls it engine-temperature-control sensor. Article preserves naming difference and requires exact circuit identification.",
+      "resolution": "Scope and uncertainty explicitly stated in article; retain needs-review."
+    }
+  ],
+  "wordCounts": {
+    "P0177": 210,
+    "P0185": 209,
+    "P0189": 214,
+    "P0194": 216,
+    "P0235": 210,
+    "P0309": 217,
+    "P0311": 205,
+    "P0312": 207,
+    "P0321": 219,
+    "P0322": 207,
+    "P0329": 209,
+    "P0334": 207,
+    "P0363": 217,
+    "P0407": 208,
+    "P0408": 208,
+    "P0431": 211,
+    "P0432": 200,
+    "P0551": 210,
+    "P0688": 206,
+    "P1161": 210,
+    "P1403": 205,
+    "P1420": 203,
+    "P1421": 191,
+    "P1422": 203,
+    "P1475": 198,
+    "P1508": 209,
+    "P1534": 199,
+    "P1543": 195,
+    "P1546": 192,
+    "P1547": 194,
+    "P1548": 199,
+    "P1559": 202,
+    "P1564": 196,
+    "P1565": 205,
+    "P1579": 201,
+    "P1580": 196,
+    "P1586": 196,
+    "P1606": 203,
+    "P1619": 194,
+    "P1676": 194,
+    "P1681": 198,
+    "P1841": 205,
+    "P1857": 200,
+    "P2106": 197,
+    "P2133": 204,
+    "P2279": 197,
+    "P2404": 197,
+    "P2543": 200,
+    "P2568": 196,
+    "P2612": 199,
+    "P2711": 195,
+    "U0155": 194,
+    "P00AF": 199,
+    "P047F": 192,
+    "P0491": 200,
+    "P0492": 195,
+    "P052E": 204,
+    "P052F": 199,
+    "P242F": 202,
+    "P246E": 197,
+    "P24D8": 193,
+    "P2556": 200,
+    "P2753": 197,
+    "P2755": 197,
+    "P0040": 204,
+    "P00A2": 196,
+    "P00A3": 195,
+    "P01BA": 203,
+    "P01E3": 200,
+    "P01E4": 196,
+    "P0410": 196,
+    "P0413": 193,
+    "P0414": 192,
+    "P0416": 193,
+    "P0417": 191,
+    "P04DD": 202,
+    "P04DE": 192,
+    "P06E5": 192,
+    "P200B": 199,
+    "P202A": 198,
+    "P204A": 189,
+    "P205A": 202,
+    "P20B5": 196,
+    "P20B7": 188,
+    "P20B8": 195,
+    "P2403": 197,
+    "P240F": 191,
+    "P2414": 201,
+    "P2415": 197,
+    "P2442": 199,
+    "P2458": 201,
+    "P2541": 195,
+    "U0029": 205,
+    "U0322": 206,
+    "U0323": 194,
+    "P2014": 199,
+    "P2024": 205,
+    "P2025": 203,
+    "P2026": 195,
+    "P2027": 193
+  },
+  "validation": {
+    "fileCount": 100,
+    "assignmentCount": 100,
+    "sourceCount": 65,
+    "bodyWordRange": [
+      188,
+      219
+    ],
+    "duplicateBodyParagraphs": [],
+    "highestFiveWordShingleJaccard": [
+      [
+        0.0629,
+        "P00A2",
+        "P2403"
+      ],
+      [
+        0.0622,
+        "P202A",
+        "P20B5"
+      ],
+      [
+        0.0617,
+        "P2024",
+        "P2026"
+      ],
+      [
+        0.0559,
+        "P200B",
+        "P2458"
+      ],
+      [
+        0.0559,
+        "P01E3",
+        "P202A"
+      ]
+    ],
+    "pdfPageCount": 367,
+    "sourceChecks": "Each selected Ross-Tech page revision read in full; each Audi row checked with physical page and preceding engine heading. No inhibit-list-only evidence used."
+  },
+  "completed": true,
+  "sourceSummary": {
+    "rossTechArticles": 64,
+    "audiFactoryMonitorArticles": 36,
+    "audiEngineSections": {
+      "CAED": 250,
+      "CTUA": 272,
+      "CEUC": 295,
+      "CPNB": 337
+    },
+    "pdfTitle": "2014 Audi A6/S6 Quick Reference Specification Book",
+    "pdfEdition": "September 2013",
+    "manufacturerScopeCaution": "Audi factory rows assigned only to generic entries; no Audi-only source used to establish a Volkswagen-specific P1 meaning."
+  },
+  "excludedEvidence": [
+    "Ross-Tech stubs lacking sufficient diagnostic substance omitted.",
+    "Audi P1742 Multitronic bulletin not used to establish Volkswagen-only namespace applicability.",
+    "Audi rows with obvious heater-unit inconsistencies or swapped consumption low/high wording omitted."
+  ]
+}

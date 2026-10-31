@@ -1,10 +1,10 @@
-# 3,000 code article manuscripts
+# 3,400 code article manuscripts
 
-**3,000 separately stored manuscripts for 3,000 distinct canonical codes**, from 3,000 current assignments. Completed writing waves: 1, 2, 3. Each full wave assigns ten writers 100 new codes each. All assignments exclude previously assigned code strings.
+**3,400 separately stored manuscripts for 3,400 distinct canonical codes**, from 3,400 current assignments. Completed writing waves: 1, 2, 3. Each full wave assigns ten writers 100 new codes each. All assignments exclude previously assigned code strings.
 
-The inventory counts 819,235 words including headings and source text, excluding URL targets. Each manuscript records a canonical identity, search metadata, exact evidence locators and its applicability limits.
+The inventory counts 915,917 words including headings and source text, excluding URL targets. Each manuscript records a canonical identity, search metadata, exact evidence locators and its applicability limits.
 
-**Renderer selection: 3,000 manuscripts; 0 remain unpublished drafts.** The explicit [publication manifest](publication.json) controls which texts appear on their existing canonical code pages. Source files retain their draft authoring metadata; publication selection is a separate state. These repository counts do not verify a live deployment. 2,483 have author source checks; 517 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
+**Renderer selection: 3,000 manuscripts; 400 remain unpublished drafts.** The explicit [publication manifest](publication.json) controls which texts appear on their existing canonical code pages. Source files retain their draft authoring metadata; publication selection is a separate state. These repository counts do not verify a live deployment. 2,875 have author source checks; 525 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
 
 ## Writing waves
 
@@ -13,6 +13,7 @@ The inventory counts 819,235 words including headings and source text, excluding
 | 1 | 1,000 / 1,000 | 1,000 | 110 |
 | 2 | 1,000 / 1,000 | 1,000 | 233 |
 | 3 | 1,000 / 1,000 | 1,000 | 174 |
+| 4 | 400 / 1,000 | 0 | 8 |
 
 ## Articles by writer
 
@@ -48,6 +49,10 @@ The inventory counts 819,235 words including headings and source text, excluding
 | [batch-28](batch-28/) | 100 / 100 | 32 |
 | [batch-29](batch-29/) | 100 / 100 | 22 |
 | [batch-30](batch-30/) | 100 / 100 | 9 |
+| [batch-31](batch-31/) | 100 / 100 | 7 |
+| [batch-32](batch-32/) | 100 / 100 | 0 |
+| [batch-34](batch-34/) | 100 / 100 | 0 |
+| [batch-36](batch-36/) | 100 / 100 | 1 |
 
 ## Read examples
 
