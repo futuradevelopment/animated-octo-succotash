@@ -1,0 +1,1895 @@
+[
+  {
+    "entryId": "generic-p0abf",
+    "code": "P0ABF",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Current Sensor A Circuit",
+    "canonicalPath": "/codes/generic/p0abf/",
+    "primaryCandidates": [
+      {
+        "sourceId": "gm-2019-19obdg01-hybrid-diagnostics",
+        "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2019/19OBDG01%20Hybrid%20Diagnostics.pdf",
+        "page": 787,
+        "scope": "2019 GM 19OBDG01 hybrid diagnostic summary, Hybrid Powertrain Control Processor 2. Vehicle and calibration applicability must be verified separately.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/gm2019hybrid1.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/gm2019hybrid1.pdf",
+        "makeIds": []
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b12",
+    "code": "P0B12",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Current Sensor B Circuit Intermittent/Erratic",
+    "canonicalPath": "/codes/generic/p0b12/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201003200",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201003200.html",
+        "locator": "id300201003200; DTC P0B12:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0B12:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201003200.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201003200.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b26",
+    "code": "P0B26",
+    "dictionaryTitle": "Hybrid/EV Battery A Voltage High",
+    "canonicalPath": "/codes/generic/p0b26/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201003500",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201003500.html",
+        "locator": "id300201003500; DTC P0B26:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0B26:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201003500.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201003500.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b29",
+    "code": "P0B29",
+    "dictionaryTitle": "Hybrid/EV Battery B Voltage Low",
+    "canonicalPath": "/codes/generic/p0b29/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201003600",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201003600.html",
+        "locator": "id300201003600; DTC P0B29:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0B29:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201003600.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201003600.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0b2a",
+    "code": "P0B2A",
+    "dictionaryTitle": "Hybrid/EV Battery B Voltage High",
+    "canonicalPath": "/codes/generic/p0b2a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201003700",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201003700.html",
+        "locator": "id300201003700; DTC P0B2A:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0B2A:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201003700.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201003700.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ca6",
+    "code": "P0CA6",
+    "dictionaryTitle": "Hybrid/EV Battery Charging Current High",
+    "canonicalPath": "/codes/generic/p0ca6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201010000",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201010000.html",
+        "locator": "id300201010000; DTC P0CA6:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0CA6:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201010000.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201010000.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ca7",
+    "code": "P0CA7",
+    "dictionaryTitle": "Hybrid/EV Battery Discharging Current High",
+    "canonicalPath": "/codes/generic/p0ca7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201010100",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201010100.html",
+        "locator": "id300201010100; DTC P0CA7:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0CA7:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201010100.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201010100.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0dac",
+    "code": "P0DAC",
+    "dictionaryTitle": "Hybrid/EV Battery Cell Balancing Circuit A",
+    "canonicalPath": "/codes/generic/p0dac/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201012000",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201012000.html",
+        "locator": "id300201012000; DTC P0DAC:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0DAC:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201012000.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201012000.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0daf",
+    "code": "P0DAF",
+    "dictionaryTitle": "Hybrid/EV Battery Cell Balancing Circuit A Range/Performance",
+    "canonicalPath": "/codes/generic/p0daf/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201012100",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201012100.html",
+        "locator": "id300201012100; DTC P0DAF:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0DAF:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201012100.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201012100.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ec2",
+    "code": "P0EC2",
+    "dictionaryTitle": "A/C Refrigerant Temperature Sensor B Circuit High",
+    "canonicalPath": "/codes/generic/p0ec2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201014300",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201014300.html",
+        "locator": "id300201014300; DTC P0EC2:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EC2:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201014300.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201014300.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ec3",
+    "code": "P0EC3",
+    "dictionaryTitle": "A/C Refrigerant Temperature Sensor B Circuit Low",
+    "canonicalPath": "/codes/generic/p0ec3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201014400",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201014400.html",
+        "locator": "id300201014400; DTC P0EC3:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EC3:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201014400.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201014400.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0edd",
+    "code": "P0EDD",
+    "dictionaryTitle": "Hybrid/EV Battery Pack B Deterioration",
+    "canonicalPath": "/codes/generic/p0edd/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201014900",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201014900.html",
+        "locator": "id300201014900; DTC P0EDD:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EDD:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201014900.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201014900.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0eec",
+    "code": "P0EEC",
+    "dictionaryTitle": "Battery Energy Control Module B Performance",
+    "canonicalPath": "/codes/generic/p0eec/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201015400",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201015400.html",
+        "locator": "id300201015400; DTC P0EEC:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EEC:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201015400.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201015400.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ef7",
+    "code": "P0EF7",
+    "dictionaryTitle": "Battery Charger A Input Voltage Sensor B Circuit",
+    "canonicalPath": "/codes/generic/p0ef7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201015500",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201015500.html",
+        "locator": "id300201015500; DTC P0EF7:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EF7:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201015500.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201015500.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ef9",
+    "code": "P0EF9",
+    "dictionaryTitle": "Battery Charger A Input Voltage Sensor B Circuit Low",
+    "canonicalPath": "/codes/generic/p0ef9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201015600",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201015600.html",
+        "locator": "id300201015600; DTC P0EF9:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EF9:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201015600.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201015600.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0efa",
+    "code": "P0EFA",
+    "dictionaryTitle": "Battery Charger A Input Voltage Sensor B Circuit High",
+    "canonicalPath": "/codes/generic/p0efa/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201015700",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201015700.html",
+        "locator": "id300201015700; DTC P0EFA:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EFA:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201015700.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201015700.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ca4",
+    "code": "P0CA4",
+    "dictionaryTitle": "Hybrid/EV Battery Charging Voltage High",
+    "canonicalPath": "/codes/generic/p0ca4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202032200",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202032200.html",
+        "locator": "id300202032200; DTC P0CA4:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0CA4:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202032200.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202032200.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cd1",
+    "code": "P0CD1",
+    "dictionaryTitle": "Charge Port Door A Unlock Control Circuit",
+    "canonicalPath": "/codes/generic/p0cd1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202032300",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202032300.html",
+        "locator": "id300202032300; DTC P0CD1:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0CD1:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202032300.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202032300.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d0e",
+    "code": "P0D0E",
+    "dictionaryTitle": "Battery Charging System Negative Contactor A Circuit",
+    "canonicalPath": "/codes/generic/p0d0e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202033200",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202033200.html",
+        "locator": "id300202033200; DTC P0D0E:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D0E:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202033200.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202033200.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d3d",
+    "code": "P0D3D",
+    "dictionaryTitle": "Battery Charger A Input Voltage Sensor A Circuit",
+    "canonicalPath": "/codes/generic/p0d3d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202033600",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202033600.html",
+        "locator": "id300202033600; DTC P0D3D:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D3D:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202033600.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202033600.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d6d",
+    "code": "P0D6D",
+    "dictionaryTitle": "A/C Compressor Motor Voltage A Low",
+    "canonicalPath": "/codes/generic/p0d6d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202033700",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202033700.html",
+        "locator": "id300202033700; DTC P0D6D:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D6D:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202033700.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202033700.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d6e",
+    "code": "P0D6E",
+    "dictionaryTitle": "A/C Compressor Motor Voltage A High",
+    "canonicalPath": "/codes/generic/p0d6e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202033800",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202033800.html",
+        "locator": "id300202033800; DTC P0D6E:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D6E:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202033800.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202033800.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d70",
+    "code": "P0D70",
+    "dictionaryTitle": "A/C Compressor Control Module Internal Temperature Sensor A Circuit",
+    "canonicalPath": "/codes/generic/p0d70/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034000",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202034000.html",
+        "locator": "id300202034000; DTC P0D70:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D70:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034000.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034000.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d91",
+    "code": "P0D91",
+    "dictionaryTitle": "Battery Charger Coupler Lock Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0d91/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034100",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202034100.html",
+        "locator": "id300202034100; DTC P0D91:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D91:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034100.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034100.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d99",
+    "code": "P0D99",
+    "dictionaryTitle": "Battery Charger Coupler Temperature Sensor A Circuit",
+    "canonicalPath": "/codes/generic/p0d99/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034200",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202034200.html",
+        "locator": "id300202034200; DTC P0D99:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D99:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034200.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034200.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0e14",
+    "code": "P0E14",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Heater A Control Circuit High",
+    "canonicalPath": "/codes/generic/p0e14/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034400",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202034400.html",
+        "locator": "id300202034400; DTC P0E14:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0E14:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034400.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034400.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0e66",
+    "code": "P0E66",
+    "dictionaryTitle": "Battery Charger Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0e66/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034800",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202034800.html",
+        "locator": "id300202034800; DTC P0E66:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0E66:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034800.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202034800.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ec6",
+    "code": "P0EC6",
+    "dictionaryTitle": "A/C Power Supply Relay Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0ec6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202035000",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202035000.html",
+        "locator": "id300202035000; DTC P0EC6:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EC6:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202035000.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202035000.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0ee7",
+    "code": "P0EE7",
+    "dictionaryTitle": "Battery Charger Coupler Temperature Sensor B Circuit",
+    "canonicalPath": "/codes/generic/p0ee7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202035100",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202035100.html",
+        "locator": "id300202035100; DTC P0EE7:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0EE7:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202035100.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202035100.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2531",
+    "code": "P2531",
+    "dictionaryTitle": "Ignition Switch Run Position Circuit Low",
+    "canonicalPath": "/codes/generic/p2531/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202036700",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202036700.html",
+        "locator": "id300202036700; DTC P2531:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2531:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202036700.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202036700.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2532",
+    "code": "P2532",
+    "dictionaryTitle": "Ignition Switch Run Position Circuit High",
+    "canonicalPath": "/codes/generic/p2532/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202036800",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202036800.html",
+        "locator": "id300202036800; DTC P2532:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2532:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202036800.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202036800.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26fd",
+    "code": "P26FD",
+    "dictionaryTitle": "A/C Compressor Internal Control Module Performance",
+    "canonicalPath": "/codes/generic/p26fd/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202036900",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202036900.html",
+        "locator": "id300202036900; DTC P26FD:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P26FD:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202036900.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202036900.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b2a",
+    "code": "P2B2A",
+    "dictionaryTitle": "Hybrid/EV Electronics Coolant Pump A Overspeed - Dry Run",
+    "canonicalPath": "/codes/generic/p2b2a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202037000",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202037000.html",
+        "locator": "id300202037000; DTC P2B2A:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2B2A:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202037000.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202037000.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2c68",
+    "code": "P2C68",
+    "dictionaryTitle": "Hybrid/EV Electronics Coolant Pump A Stuck/Stalled",
+    "canonicalPath": "/codes/generic/p2c68/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202037100",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202037100.html",
+        "locator": "id300202037100; DTC P2C68:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2C68:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202037100.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202037100.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d3b",
+    "code": "P2D3B",
+    "dictionaryTitle": "Hybrid/EV Discharge System Fault",
+    "canonicalPath": "/codes/generic/p2d3b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202037200",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202037200.html",
+        "locator": "id300202037200; DTC P2D3B:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2D3B:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202037200.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202037200.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d44",
+    "code": "P2D44",
+    "dictionaryTitle": "A/C Compressor Motor Performance",
+    "canonicalPath": "/codes/generic/p2d44/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202037300",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300202037300.html",
+        "locator": "id300202037300; DTC P2D44:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2D44:00 [PCM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202037300.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300202037300.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0be5",
+    "code": "P0BE5",
+    "dictionaryTitle": "Drive Motor A Phase U Current Sensor Circuit",
+    "canonicalPath": "/codes/generic/p0be5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300203047800",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300203047800.html",
+        "locator": "id300203047800; DTC P0BE5:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0BE5:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300203047800.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300203047800.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c0c",
+    "code": "P0C0C",
+    "dictionaryTitle": "Drive Motor A Inverter Power Supply Circuit Low",
+    "canonicalPath": "/codes/generic/p0c0c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300203049600",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300203049600.html",
+        "locator": "id300203049600; DTC P0C0C:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0C0C:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300203049600.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300203049600.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0c0d",
+    "code": "P0C0D",
+    "dictionaryTitle": "Drive Motor A Inverter Power Supply Circuit High",
+    "canonicalPath": "/codes/generic/p0c0d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300203049700",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300203049700.html",
+        "locator": "id300203049700; DTC P0C0D:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0C0D:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300203049700.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300203049700.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cf7",
+    "code": "P0CF7",
+    "dictionaryTitle": "Control Pilot Circuit Intermittent/Erratic",
+    "canonicalPath": "/codes/generic/p0cf7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055112",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204055112.html",
+        "locator": "id300204055112; DTC P0CF7:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0CF7:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055112.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055112.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cfd",
+    "code": "P0CFD",
+    "dictionaryTitle": "Control Pilot Charging Switch A Stuck Off",
+    "canonicalPath": "/codes/generic/p0cfd/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055200",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204055200.html",
+        "locator": "id300204055200; DTC P0CFD:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0CFD:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055200.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055200.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cfe",
+    "code": "P0CFE",
+    "dictionaryTitle": "Control Pilot Charging Switch A Stuck On",
+    "canonicalPath": "/codes/generic/p0cfe/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055300",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204055300.html",
+        "locator": "id300204055300; DTC P0CFE:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0CFE:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055300.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055300.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d24",
+    "code": "P0D24",
+    "dictionaryTitle": "Battery Charger A Temperature Too High",
+    "canonicalPath": "/codes/generic/p0d24/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055500",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204055500.html",
+        "locator": "id300204055500; DTC P0D24:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D24:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055500.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055500.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d28",
+    "code": "P0D28",
+    "dictionaryTitle": "Battery Charger Input Voltage Too High",
+    "canonicalPath": "/codes/generic/p0d28/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055712",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204055712.html",
+        "locator": "id300204055712; DTC P0D28:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D28:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055712.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204055712.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d29",
+    "code": "P0D29",
+    "dictionaryTitle": "Battery Charger Input Current Too Low",
+    "canonicalPath": "/codes/generic/p0d29/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204060012",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204060012.html",
+        "locator": "id300204060012; DTC P0D29:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D29:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204060012.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204060012.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d52",
+    "code": "P0D52",
+    "dictionaryTitle": "Battery Charger Hybrid/EV Battery Output Current Sensor Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p0d52/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204056700",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204056700.html",
+        "locator": "id300204056700; DTC P0D52:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D52:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204056700.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204056700.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d5a",
+    "code": "P0D5A",
+    "dictionaryTitle": "Proximity Detection Circuit A Intermittent/Erratic",
+    "canonicalPath": "/codes/generic/p0d5a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204057312",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204057312.html",
+        "locator": "id300204057312; DTC P0D5A:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D5A:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204057312.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204057312.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d67",
+    "code": "P0D67",
+    "dictionaryTitle": "Battery Charger Control Module A Performance",
+    "canonicalPath": "/codes/generic/p0d67/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204057400",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204057400.html",
+        "locator": "id300204057400; DTC P0D67:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D67:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204057400.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204057400.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d90",
+    "code": "P0D90",
+    "dictionaryTitle": "Battery Charger Input Frequency Incorrect",
+    "canonicalPath": "/codes/generic/p0d90/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204060200",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204060200.html",
+        "locator": "id300204060200; DTC P0D90:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D90:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204060200.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204060200.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0e72",
+    "code": "P0E72",
+    "dictionaryTitle": "Control Pilot Signal Low Frequency",
+    "canonicalPath": "/codes/generic/p0e72/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204057900",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204057900.html",
+        "locator": "id300204057900; DTC P0E72:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0E72:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204057900.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204057900.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0e73",
+    "code": "P0E73",
+    "dictionaryTitle": "Control Pilot Signal High Frequency",
+    "canonicalPath": "/codes/generic/p0e73/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204058000",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204058000.html",
+        "locator": "id300204058000; DTC P0E73:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0E73:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204058000.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204058000.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2e2d",
+    "code": "P2E2D",
+    "dictionaryTitle": "Battery Charger A Module Supply Voltage Low",
+    "canonicalPath": "/codes/generic/p2e2d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204060300",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204060300.html",
+        "locator": "id300204060300; DTC P2E2D:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2E2D:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204060300.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204060300.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2e2e",
+    "code": "P2E2E",
+    "dictionaryTitle": "Battery Charger A Module Supply Voltage High",
+    "canonicalPath": "/codes/generic/p2e2e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204060400",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300204060400.html",
+        "locator": "id300204060400; DTC P2E2E:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2E2E:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204060400.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300204060400.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0e56",
+    "code": "P0E56",
+    "dictionaryTitle": "DC/DC Converter Input Voltage Too Low",
+    "canonicalPath": "/codes/generic/p0e56/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300205058700",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300205058700.html",
+        "locator": "id300205058700; DTC P0E56:00 [DC-DC CONVERTER (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0E56:00 [DC-DC CONVERTER (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300205058700.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300205058700.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2613",
+    "code": "P2613",
+    "dictionaryTitle": "A/C Refrigerant Distribution Valve A Control Circuit High",
+    "canonicalPath": "/codes/generic/p2613/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id0702l5719900",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id0702l5719900.html",
+        "locator": "id0702l5719900; DTC P2613:12 [HEAT PUMP CONTROL UNIT]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2613:12 [HEAT PUMP CONTROL UNIT]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id0702l5719900.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id0702l5719900.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d46",
+    "code": "P2D46",
+    "dictionaryTitle": "Hybrid/EV Battery Pack B Over Temperature",
+    "canonicalPath": "/codes/generic/p2d46/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201024200",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201024200.html",
+        "locator": "id300201024200; DTC P2D46:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P2D46:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201024200.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201024200.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0cdf",
+    "code": "P0CDF",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Control Valve A Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0cdf/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201011400",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201011400.html",
+        "locator": "id300201011400; DTC P0CDF:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0CDF:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201011400.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201011400.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d1d",
+    "code": "P0D1D",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Control Valve B Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0d1d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201011700",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201011700.html",
+        "locator": "id300201011700; DTC P0D1D:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D1D:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201011700.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201011700.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0d1e",
+    "code": "P0D1E",
+    "dictionaryTitle": "Hybrid/EV Battery Pack Coolant Control Valve B Control Circuit High",
+    "canonicalPath": "/codes/generic/p0d1e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201011800",
+        "url": "https://charm.li/Mazda/MX-30%20%28DR%29%20Electric%20%28d9p9-1a-22c_ver5%29/esicont/srvc/html/id300201011800.html",
+        "locator": "id300201011800; DTC P0D1E:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure",
+        "scope": "Mazda MX-30 (DR) Electric, e-SKYACTIV workshop manual d9p9-1a-22c_ver5, Mazda Australia edition; DTC P0D1E:00 [BECM (e-SKYACTIV)]. Verify exact vehicle specification.",
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201011800.txt",
+        "localHtml": "/workspace/scratch/dbf135311373/wave5/writer44/mx30-pages/id300201011800.html",
+        "makeIds": [
+          "mazda"
+        ]
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0383",
+    "code": "P0383",
+    "dictionaryTitle": "Glow Plug Control Module 1 Control Circuit Low",
+    "canonicalPath": "/codes/generic/p0383/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 83, 193, 346, 347, 348, 349",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p05a5",
+    "code": "P05A5",
+    "dictionaryTitle": "Active Grille Air Shutter A Control Circuit Low",
+    "canonicalPath": "/codes/generic/p05a5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 92, 206, 431, 432",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p20ea",
+    "code": "P20EA",
+    "dictionaryTitle": "Reductant Control Module Power Relay De-Energized Performance - Too Early",
+    "canonicalPath": "/codes/generic/p20ea/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 115, 231, 433, 434, 435",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p20eb",
+    "code": "P20EB",
+    "dictionaryTitle": "Reductant Control Module Power Relay De-Energized Performance - Too Late",
+    "canonicalPath": "/codes/generic/p20eb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 115, 231, 433, 434, 435",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p20fa",
+    "code": "P20FA",
+    "dictionaryTitle": "Reductant Pump B Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p20fa/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 116, 231, 433, 434, 435",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p20fb",
+    "code": "P20FB",
+    "dictionaryTitle": "Reductant Pump B Control Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p20fb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 116, 232, 433, 434, 435",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p20fc",
+    "code": "P20FC",
+    "dictionaryTitle": "Reductant Pump B Control Circuit Low",
+    "canonicalPath": "/codes/generic/p20fc/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 116, 232, 433, 434, 435",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p20fd",
+    "code": "P20FD",
+    "dictionaryTitle": "Reductant Pump B Control Circuit High",
+    "canonicalPath": "/codes/generic/p20fd/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 116, 232, 433, 434, 435",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p21c8",
+    "code": "P21C8",
+    "dictionaryTitle": "Reductant Control Module Power Relay/Relays Control Circuit Low",
+    "canonicalPath": "/codes/generic/p21c8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 126, 248, 433, 434, 435",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p21ce",
+    "code": "P21CE",
+    "dictionaryTitle": "Reductant Quality Module Performance",
+    "canonicalPath": "/codes/generic/p21ce/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 125, 247, 433, 434, 435",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26f4",
+    "code": "P26F4",
+    "dictionaryTitle": "Coolant Pump C Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p26f4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 278, 416, 417",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26f5",
+    "code": "P26F5",
+    "dictionaryTitle": "Coolant Pump C Control Circuit Low",
+    "canonicalPath": "/codes/generic/p26f5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 278, 416, 417",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26f6",
+    "code": "P26F6",
+    "dictionaryTitle": "Coolant Pump C Control Circuit High",
+    "canonicalPath": "/codes/generic/p26f6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 278, 416, 417",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p26f7",
+    "code": "P26F7",
+    "dictionaryTitle": "Coolant Pump C Supply Voltage Circuit",
+    "canonicalPath": "/codes/generic/p26f7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 279, 416, 417",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; CVCA ECM tables for 2015/2016 MY; coolant-pump codes P26F4–P26F7 use 2016 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0781",
+    "code": "P0781",
+    "dictionaryTitle": "1-2 Shift",
+    "canonicalPath": "/codes/generic/p0781/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 284, 300",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; 2015 MY DQ-250 6F six-speed DSG transmission table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0784",
+    "code": "P0784",
+    "dictionaryTitle": "4-5 Shift",
+    "canonicalPath": "/codes/generic/p0784/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 284, 302",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; 2015 MY DQ-250 6F six-speed DSG transmission table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0829",
+    "code": "P0829",
+    "dictionaryTitle": "5-6 Shift",
+    "canonicalPath": "/codes/generic/p0829/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 284, 303",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; 2015 MY DQ-250 6F six-speed DSG transmission table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0914",
+    "code": "P0914",
+    "dictionaryTitle": "Gear Shift Position Circuit A",
+    "canonicalPath": "/codes/generic/p0914/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 284, 305, 306",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; 2015 MY DQ-250 6F six-speed DSG transmission table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0919",
+    "code": "P0919",
+    "dictionaryTitle": "Gear Shift Position Control Error",
+    "canonicalPath": "/codes/generic/p0919/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cvca-passat-b8-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 284, 306",
+        "scope": "Volkswagen Passat factory Generic Scan Tool manual, Edition 08.2018; 2015 MY DQ-250 6F six-speed DSG transmission table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-cvca-gst-2018.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p039b",
+    "code": "P039B",
+    "dictionaryTitle": "Cylinder 1 Pressure Too High",
+    "canonicalPath": "/codes/generic/p039b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 445, 446, 447, 465, 466, 467",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p03a5",
+    "code": "P03A5",
+    "dictionaryTitle": "Cylinder 2 Pressure Too High",
+    "canonicalPath": "/codes/generic/p03a5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 445, 446, 447, 465, 466, 467",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p03af",
+    "code": "P03AF",
+    "dictionaryTitle": "Cylinder 3 Pressure Too High",
+    "canonicalPath": "/codes/generic/p03af/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 445, 446, 447, 465, 466, 467",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p03b9",
+    "code": "P03B9",
+    "dictionaryTitle": "Cylinder 4 Pressure Too High",
+    "canonicalPath": "/codes/generic/p03b9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 445, 446, 447, 465, 466, 467",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0148",
+    "code": "P0148",
+    "dictionaryTitle": "Fuel Delivery Error",
+    "canonicalPath": "/codes/generic/p0148/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 121, 451, 452, 453, 454, 455, 456, 457, 458, 459",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p01c8",
+    "code": "P01C8",
+    "dictionaryTitle": "Fuel Rail/System Pressure - Too Low Bank 2",
+    "canonicalPath": "/codes/generic/p01c8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 135, 455, 456, 457, 458, 459",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p01c4",
+    "code": "P01C4",
+    "dictionaryTitle": "Fuel Pressure Sensor A Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p01c4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 137, 138, 139, 140, 141, 142, 455, 456, 457, 458, 459",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p011f",
+    "code": "P011F",
+    "dictionaryTitle": "Engine Coolant Temperature 2 / Ambient Air Temperature Correlation",
+    "canonicalPath": "/codes/generic/p011f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 293, 294, 442, 443, 444, 445, 463, 464, 465",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d8b",
+    "code": "P2D8B",
+    "dictionaryTitle": "Fan 2 Control Module Performance",
+    "canonicalPath": "/codes/generic/p2d8b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 366, 483, 484, 485",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b31",
+    "code": "P2B31",
+    "dictionaryTitle": "Fan 2 Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p2b31/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 366, 367, 483, 484, 485",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d87",
+    "code": "P2D87",
+    "dictionaryTitle": "Fan 1 Control Module Over Temperature",
+    "canonicalPath": "/codes/generic/p2d87/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 367, 483, 484, 485",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d88",
+    "code": "P2D88",
+    "dictionaryTitle": "Fan 1 Control Module Performance",
+    "canonicalPath": "/codes/generic/p2d88/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 367, 483, 484, 485",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2b2f",
+    "code": "P2B2F",
+    "dictionaryTitle": "Fan 1 Performance/Stuck Off",
+    "canonicalPath": "/codes/generic/p2b2f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 367, 368, 483, 484, 485",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2d89",
+    "code": "P2D89",
+    "dictionaryTitle": "Fan 1 Control Module Supply Voltage Circuit",
+    "canonicalPath": "/codes/generic/p2d89/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 368, 369, 483, 484, 485",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; DJXA engine control module, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2810",
+    "code": "P2810",
+    "dictionaryTitle": "Pressure Control Solenoid G Electrical",
+    "canonicalPath": "/codes/generic/p2810/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "url": "https://vwts.ru/diag/engine-djxa-09s-jetta-7-diagnostic-eng.pdf",
+        "locator": "Physical PDF pages 407, 408",
+        "scope": "Volkswagen Jetta factory Generic Scan Tool manual, Edition 04.2020; AQ300-8F eight-speed 09S transmission, 2020 MY table.",
+        "makeIds": [
+          "volkswagen"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/wave5/writer44/vw-jetta-djxa-gst-2020.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p012a",
+    "code": "P012A",
+    "dictionaryTitle": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit",
+    "canonicalPath": "/codes/generic/p012a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "locator": "Physical PDF pages 94, 95",
+        "scope": "Ford diesel engines, model years 2023–2024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0195",
+    "code": "P0195",
+    "dictionaryTitle": "Engine Oil Temperature Sensor A Circuit",
+    "canonicalPath": "/codes/generic/p0195/",
+    "primaryCandidates": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/DOBDSM2300_2_MCS6938.pdf",
+        "locator": "Physical PDF pages 94, 95",
+        "scope": "Ford diesel engines, model years 2023–2024. Engine/calibration applicability differs by section; individual vehicles and engines have not been mapped.",
+        "makeIds": [
+          "ford"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.txt",
+        "localPdf": "/workspace/scratch/dbf135311373/oem-scale/ford-diesel-2023-2024.pdf"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0900",
+    "code": "P0900",
+    "dictionaryTitle": "Clutch A Actuator Control Circuit/Open",
+    "canonicalPath": "/codes/generic/p0900/",
+    "primaryCandidates": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0900",
+        "url": "https://charm.li/Hyundai/2012/Veloster%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0900/General%20Information/",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair",
+        "scope": "2012 Hyundai Veloster (FS), L4-1.6L, dual-clutch transmission. No other model or transmission applicability established.",
+        "makeIds": [
+          "hyundai"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/hyundai/P0900-full.txt"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0910",
+    "code": "P0910",
+    "dictionaryTitle": "Gate Select Actuator Circuit/Open",
+    "canonicalPath": "/codes/generic/p0910/",
+    "primaryCandidates": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0910",
+        "url": "https://charm.li/Hyundai/2012/Veloster%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0910/General%20Information/",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair",
+        "scope": "2012 Hyundai Veloster (FS), L4-1.6L, dual-clutch transmission. No other model or transmission applicability established.",
+        "makeIds": [
+          "hyundai"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/hyundai/P0910-full.txt"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0916",
+    "code": "P0916",
+    "dictionaryTitle": "Gear Shift Position Circuit A Low",
+    "canonicalPath": "/codes/generic/p0916/",
+    "primaryCandidates": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0916",
+        "url": "https://charm.li/Hyundai/2012/Veloster%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0916/General%20Information/",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair",
+        "scope": "2012 Hyundai Veloster (FS), L4-1.6L, dual-clutch transmission. No other model or transmission applicability established.",
+        "makeIds": [
+          "hyundai"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/hyundai/P0916-full.txt"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0917",
+    "code": "P0917",
+    "dictionaryTitle": "Gear Shift Position Circuit A High",
+    "canonicalPath": "/codes/generic/p0917/",
+    "primaryCandidates": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0917",
+        "url": "https://charm.li/Hyundai/2012/Veloster%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0917/General%20Information/",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair",
+        "scope": "2012 Hyundai Veloster (FS), L4-1.6L, dual-clutch transmission. No other model or transmission applicability established.",
+        "makeIds": [
+          "hyundai"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/hyundai/P0917-full.txt"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0920",
+    "code": "P0920",
+    "dictionaryTitle": "Gear Shift Forward Actuator Circuit/Open",
+    "canonicalPath": "/codes/generic/p0920/",
+    "primaryCandidates": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0920",
+        "url": "https://charm.li/Hyundai/2012/Veloster%20L4-1.6L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0920/General%20Information/",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair",
+        "scope": "2012 Hyundai Veloster (FS), L4-1.6L, dual-clutch transmission. No other model or transmission applicability established.",
+        "makeIds": [
+          "hyundai"
+        ],
+        "localText": "/workspace/scratch/dbf135311373/wave5/writer44/hyundai/P0920-full.txt"
+      }
+    ]
+  }
+]

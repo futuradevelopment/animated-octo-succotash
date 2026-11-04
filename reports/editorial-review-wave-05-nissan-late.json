@@ -1,0 +1,86 @@
+{
+  "reviewer": "writer49 independent peer review of writer50 late Nissan brake manuscripts",
+  "reviewedAt": "2026-11-02T10:37:59.773285+00:00",
+  "items": [
+    {
+      "path": "content/code-articles/batch-50/C1042.md",
+      "code": "C1042",
+      "sha256": "43afc01eeced673059d86d68d220d880f4f532da60b66a3e10004a476e775fd8",
+      "reviewDepth": "body-only",
+      "finding": "Body clearly separates current and historical status, supply/connector checks and conditional actuator replacement; explicitly limits brake work to professional service. No edit suggested from this body-only reading.",
+      "evidence": {
+        "manuscriptRead": "complete body and JSON frontmatter"
+      }
+    },
+    {
+      "path": "content/code-articles/batch-50/C1051.md",
+      "code": "C1051",
+      "sha256": "3fb36c63dfebefeb0360708cd50f550326ccfed54717c5455c3ac5c49d369c16",
+      "reviewDepth": "deep-source",
+      "finding": "Core claims match the complete C1051-04 section: motor or relay fault;19-second-or-less delay; current/PAST distinction; connector, supply/ground and terminal branches; explicit post-repair driving event before historical-code clearance. The manuscript omits potentially hazardous drive instructions and confines verification to a safe professional setting.",
+      "evidence": {
+        "manuscriptRead": "complete body and JSON frontmatter",
+        "sourceUrl": "https://www.niariya.com/dtc_circuit_diagnosis-2309.html#c1051_04_pump_motor",
+        "sourceId": "nissan-ariya-fe0-brake-20261102",
+        "sourceSha256": "2855ac40d49cf2e39529a7f6086b5337a8c107b268840ea82655ea9f46f119db",
+        "sourcePath": "/workspace/scratch/dbf135311373/wave5/writer50/brake.html",
+        "sectionsRead": [
+          "DTC detection logic",
+          "Possible-cause table with PAST/CRNT column structure",
+          "Fail-safe list",
+          "Confirmation and preconditioning",
+          "Complete diagnosis procedure"
+        ],
+        "tableInspection": "Original HTML table cells and column/row structure read directly; no image-only diagram was needed for these claims. No browser screenshot claimed."
+      }
+    },
+    {
+      "path": "content/code-articles/batch-50/C105D.md",
+      "code": "C105D",
+      "sha256": "f472baaf108dc2874b71d33831c53e342af661df3f334b8f613a65bb0a0d4ad6",
+      "reviewDepth": "deep-source",
+      "finding": "Core claims match the complete C105D-7B section: separate low-fluid and open-circuit conditions each persist at least5seconds; current/PAST distinction; physical level first, then switch/connectors, circuit continuity, ground and meter/ABS branches. Source contains a questionable backward GO TO4 cross-reference at CHECK CONNECTOR AND TERMINAL; manuscript does not reproduce step numbers or that jump, so no factual correction to its bounded summary is required.",
+      "evidence": {
+        "manuscriptRead": "complete body and JSON frontmatter",
+        "sourceUrl": "https://www.niariya.com/dtc_circuit_diagnosis-2309.html#c105d_7b_brake_fluid_level_switch",
+        "sourceId": "nissan-ariya-fe0-brake-20261102",
+        "sourceSha256": "2855ac40d49cf2e39529a7f6086b5337a8c107b268840ea82655ea9f46f119db",
+        "sourcePath": "/workspace/scratch/dbf135311373/wave5/writer50/brake.html",
+        "sectionsRead": [
+          "DTC detection logic",
+          "Possible-cause table with PAST/CRNT column structure",
+          "Fail-safe list",
+          "Confirmation and preconditioning",
+          "Complete diagnosis procedure"
+        ],
+        "tableInspection": "Original HTML table cells and column/row structure read directly; no image-only diagram was needed for these claims. No browser screenshot claimed."
+      }
+    },
+    {
+      "path": "content/code-articles/batch-50/C106B.md",
+      "code": "C106B",
+      "sha256": "29dbf6bbb3d0a2f724ce6bcbd390903ba0cec1aeda4c1c716bf8591ca7fb1fab",
+      "reviewDepth": "body-only",
+      "finding": "Body distinguishes the ABS-observed communicated switch signal from a failed physical switch, retains BCM-first diagnostic ordering and current/PAST status, and includes professional brake-service boundaries. No edit suggested from this body-only reading.",
+      "evidence": {
+        "manuscriptRead": "complete body and JSON frontmatter"
+      }
+    }
+  ],
+  "bodySamples": 4,
+  "deepSourceComparisons": 2,
+  "distinctSourceDocuments": 1,
+  "corrections": [],
+  "sourceAnomalies": [
+    {
+      "code": "C105D",
+      "locator": "DTC Diagnosis Procedure > CHECK CONNECTOR AND TERMINAL",
+      "finding": "Both result branches point to GO TO4 in the mirror despite subsequent self-diagnosis/circuit sections. Treat step navigation as requiring the current original service procedure. This bounded manuscript does not instruct that jump."
+    }
+  ],
+  "limitations": [
+    "These are four additional body samples and two article-to-source comparisons, not certification of the100-article batch or mechanical accuracy in every vehicle.",
+    "Deep comparisons used the retained exact original HTML artifact, whose SHA256 matches writer50 source metadata. No separate mirror refresh or vehicle test was performed.",
+    "No manuscript changes were made. Findings were communicated to writer50 and root."
+  ]
+}

@@ -8,11 +8,11 @@
     1,
     2,
     3,
-    4
+    4,
+    5
   ],
-  "currentWave": 4,
+  "currentWave": 5,
   "remainingPlannedWaves": [
-    5,
     6,
     7,
     8,
@@ -21,54 +21,77 @@
   ],
   "execution": "Continue within the authorized work session; this record is a resumable work plan, not a background scheduler or a claim of publication.",
   "qualityGate": "No invented diagnostic criteria, namespace swapping, title-only variants or counted source mentions. Every batch retains source evidence and unresolved-review notes.",
-  "publication": "Writer groups batch-01 through batch-40 are selected for their existing canonical URLs. The 4,000-article release awaits production verification; the historical 3,000-article production verification is retained below. Later groups remain unpublished unless explicitly selected.",
-  "currentWaveStatus": "Writing complete: writer groups 31\u201340 contain 1,000 additional manuscripts selected for publication; 937 have author source checks and 63 retain explicit unresolved source-review flags. The completed writing checks are recorded in reports/wave-04-validation.json; that historical report predates the expanded publication selection.",
+  "publication": "Writer groups batch-01 through batch-50 are selected for production release code-articles-5000-20261102; final live verification is pending.",
+  "currentWaveStatus": "Writing complete: batches41\u201350 contain1,000 distinct manuscripts,820 with author source checks and180 retaining explicit unresolved source-review flags. All5,000 manuscripts are selected for publication under the user-authorized production release.",
   "publicationSelection": {
     "manifest": "content/code-articles/publication.json",
     "waves": [
       1,
       2,
       3,
-      4
+      4,
+      5
     ],
-    "manuscripts": 4000,
-    "liveVerification": "Pending for code-articles-4000-20261031. The prior 3,000-article release was verified separately in reports/production-release-3000.json."
+    "manuscripts": 5000,
+    "liveVerification": "Pending live verification of the authorized5,000-article release."
   },
   "productionRelease": {
-    "commit": "79a545208b60c714919258dbbe267419405a4494",
-    "releaseId": "code-articles-3000-20261031",
-    "articles": 3000,
-    "verifiedAt": "2026-10-31T09:40:18.142002+00:00",
-    "verification": "reports/production-release-3000.json"
+    "commit": "ae83207d69ab93827af7fa47f9bf6e968a731e85",
+    "releaseId": "code-articles-4000-20261031",
+    "articles": 4000,
+    "verifiedAt": "2026-10-31T12:03:31.618718+00:00",
+    "verification": "reports/production-release-4000.json"
   },
   "nextWave": {
-    "wave": 5,
+    "wave": 6,
     "batches": [
-      "batch-41",
-      "batch-42",
-      "batch-43",
-      "batch-44",
-      "batch-45",
-      "batch-46",
-      "batch-47",
-      "batch-48",
-      "batch-49",
-      "batch-50"
+      "batch-51",
+      "batch-52",
+      "batch-53",
+      "batch-54",
+      "batch-55",
+      "batch-56",
+      "batch-57",
+      "batch-58",
+      "batch-59",
+      "batch-60"
     ],
     "target": 1000,
     "status": "planned-not-started"
   },
   "currentWaveReview": {
-    "summary": "reports/editorial-review-wave-04-summary.json",
-    "distinctBodySamples": 110,
-    "articleSourceChecks": 60,
-    "similarityScreen": "reports/article-similarity-wave-04.json",
+    "status": "bounded-reviews-complete",
+    "summary": "reports/editorial-review-wave-05-summary.json",
+    "distinctBodySamples": 92,
+    "articleSourceChecks": 50,
+    "similarityScreen": "reports/article-similarity-wave-05.json",
     "fullCorpusCertification": false
   },
+  "priorProductionReleases": [
+    {
+      "commit": "79a545208b60c714919258dbbe267419405a4494",
+      "releaseId": "code-articles-3000-20261031",
+      "articles": 3000,
+      "verifiedAt": "2026-10-31T09:40:18.142002+00:00",
+      "verification": "reports/production-release-3000.json"
+    }
+  ],
+  "canonicalExtension": {
+    "status": "source-backed-entries-selected-for-indexable-publication",
+    "reason": "Factory diagnostic procedures document distinct unwritten manufacturer codes absent from the imported community catalog. Each added definition retains exact manufacturer and application scope, primary-source locators and source-file hashes.",
+    "constraints": [
+      "Exclude every code string already present in the imported catalog, historical writing or current reservations.",
+      "Exact manufacturer namespace, original code definition, full diagnostic evidence and downloaded-file hashes required.",
+      "Preserve all original catalog entries; add separately traced primary-source records.",
+      "Publication and indexability require explicit selection of the corresponding manuscript; source-review flags and applicability scope remain visible."
+    ],
+    "newEntries": 460,
+    "durableManifest": "src/data/curated-code-manifest.json"
+  },
   "pendingProductionRelease": {
-    "releaseId": "code-articles-4000-20261031",
-    "articles": 4000,
-    "status": "selected-awaiting-production-verification",
-    "validation": "reports/publication-release-4000-validation.json"
+    "releaseId": "code-articles-5000-20261102",
+    "articles": 5000,
+    "status": "explicit-public-source-upload-and-production-release-authorized",
+    "authorizedAt": "2026-11-04T10:51:21.465524+00:00"
   }
 }

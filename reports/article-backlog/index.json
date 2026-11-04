@@ -1,6 +1,6 @@
 {
   "format": "JSON Lines in ordered parts",
-  "entries": 11786,
+  "entries": 12246,
   "parts": [
     {
       "file": "part-001.jsonl",
@@ -286,9 +286,15 @@
     },
     {
       "file": "part-048.jsonl",
-      "entries": 36,
+      "entries": 250,
       "firstEntry": "volkswagen-p1815",
-      "lastEntry": "volkswagen-p1866"
+      "lastEntry": "nissan-c10b4"
+    },
+    {
+      "file": "part-049.jsonl",
+      "entries": 246,
+      "firstEntry": "nissan-c10b5",
+      "lastEntry": "honda-u1604"
     }
   ]
 }

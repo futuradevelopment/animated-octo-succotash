@@ -1,0 +1,471 @@
+{
+  "reviewedOn": "2026-11-02",
+  "wave": 5,
+  "reviewer": "Root agent independently from writers46–50",
+  "scope": "Bounded sample of new manuscripts authored after recovery; historical42-body/21-source review covers41–45 separately. Not full corpus certification.",
+  "items": [
+    {
+      "code": "P100B",
+      "path": "content/code-articles/batch-49/P100B.md",
+      "sha256": "dfdc44acd7156a857601c1183ac9e9bba56660bf719f5ba54d940682c6dd486b",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Full2-page source confirms EVTM80% narrative versus40/60% threshold conflict,5seconds,10.5V andMIL-on. Manuscript flags conflict and avoids imposing a duty-cycle pass/fail limit.",
+      "evidence": [
+        {
+          "sourceId": "honda-insight-gen3-p100b-factory",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/Troubleshooting/DTC%20Advanced%20Diagnostics_%20P100B%207005.pdf",
+          "sha256": "fc7fa3272bc8f1994e53bdb4fdc5c72003995eb2fed1135246bd1c62201d68af",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P100C",
+      "path": "content/code-articles/batch-49/P100C.md",
+      "sha256": "2f266fc448c320a0f80b8b39ce6deafd3796e9239c1b7b199cc5b2b29b5cbc83",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Full2-page source confirms EVTS/EVTM narrative versusEVTS/EVTD threshold naming conflict,5seconds,10.5V,HDSVTCtest andcause list. Article preserves naming uncertainty.",
+      "evidence": [
+        {
+          "sourceId": "honda-insight-gen3-p100c-factory",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/Troubleshooting/DTC%20Advanced%20Diagnostics_%20P100C%207006.pdf",
+          "sha256": "eb4aa6dd950df2774622a14687f3398c58e44b56084b474bee83b624b311b2dd",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P100D",
+      "path": "content/code-articles/batch-49/P100D.md",
+      "sha256": "ecc17ffbe46c9b631ecfa00b1f2b715f12e762b8db370607ec65d7567138797c",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Applicability and diagnostic limits explicit; no apparent unsupported part-replacement promise or unsafe DIY instruction. Original cited source not independently compared in this sample."
+    },
+    {
+      "code": "P145F",
+      "path": "content/code-articles/batch-49/P145F.md",
+      "sha256": "2738bfcfcf243abb16888d09e67f9cf956e9693cde06d0bede0ea4a80a25f33e",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Full4-page source confirms0.3kPa maximum-minus-minimum criterion, reference remeasurement rationale,10minutesON/5hoursOFF,5–35C/76kPa/10.5V conditions andmarket-specific times. No invented leak location.",
+      "evidence": [
+        {
+          "sourceId": "honda-insight-gen3-p145f-factory",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/Troubleshooting/DTC%20Advanced%20Diagnostics_%20P145F%207326.pdf",
+          "sha256": "8a9e7960a0bbc44bc4150c2a0f94d3463ba37d2767ff45c6df339af31761810f",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P154A",
+      "path": "content/code-articles/batch-49/P154A.md",
+      "sha256": "770daa6e0aacaf016c6f885122ede03e40d570ef590c9616b2f04e852e5b6652",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Applicability and diagnostic limits explicit; no apparent unsupported part-replacement promise or unsafe DIY instruction. Original cited source not independently compared in this sample."
+    },
+    {
+      "code": "P158A",
+      "path": "content/code-articles/batch-49/P158A.md",
+      "sha256": "9d0b845771132e96d9b271cd28359af72ff3a07890e93c693b3af4f2f1b557eb",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Applicability and diagnostic limits explicit; no apparent unsupported part-replacement promise or unsafe DIY instruction. Original cited source not independently compared in this sample."
+    },
+    {
+      "code": "P158D",
+      "path": "content/code-articles/batch-49/P158D.md",
+      "sha256": "99519a6435775273107d80d2fc9ade200890e82adcf0925f250a78ac40df3596",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Applicability and diagnostic limits explicit; no apparent unsupported part-replacement promise or unsafe DIY instruction. Original cited source not independently compared in this sample."
+    },
+    {
+      "code": "P158F",
+      "path": "content/code-articles/batch-49/P158F.md",
+      "sha256": "905fa8f82f1561b9c11581e4931cd776519d52ac0a754b31a483f33a8ed75555",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Full2-page source confirms ISOC>4.74V for500ms,50ms initial delay,7.7V enable,SGISOC open possibility andtwo-cycleMIL/power-system classification. ProfessionalHV boundary retained.",
+      "evidence": [
+        {
+          "sourceId": "honda-insight-gen3-p158f-factory",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/Troubleshooting/DTC%20Advanced%20Diagnostics_%20P158F%205657.pdf",
+          "sha256": "81b2e9ab1d251276980337539e3ffeeddbe8b27da4808a4127bc2b8e570c7914",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P102C",
+      "path": "content/code-articles/batch-50/P102C.md",
+      "sha256": "deddf77657e80ff455c8501c447bdad4fbfba009e4d94c925555fa155cee48ce",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Complete procedure confirms >4second electrical fault, P0D0A/P0D11 priority, wiring/relay checks and new30second quickchargeconfirmation distinction.",
+      "followUpReview": "Reviewed added substantive paragraph after main-body-length correction on2026-11-02; added facts match cited source sections.",
+      "evidence": [
+        {
+          "sourceId": "nissan-ariya-fe0-vcm-20261102",
+          "url": "https://www.niariya.com/ev_hev_vcm_-341.html",
+          "sha256": "a6826a7cd93265e851079f80e78d44da487914a0c0b6a6614c38baaba76b9ab6",
+          "locator": "P102c-01 Quick Charge Relay > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        }
+      ]
+    },
+    {
+      "code": "P102D",
+      "path": "content/code-articles/batch-50/P102D.md",
+      "sha256": "ac65adfc00c82a10a6eb017f5dd75c93088d3dbcef7174fc3d44aceff1c6bc94",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Read all five suffix procedures:01 electrical,96 mechanical,98 overheat;7B coolant possible cause; no numerical detection delay. ConfirmationON10seconds/READY60seconds and otherDTC/circuit/retest order match.",
+      "evidence": [
+        {
+          "sourceId": "nissan-ariya-fe0-vcm-20261102",
+          "url": "https://www.niariya.com/ev_hev_vcm_-341.html",
+          "sha256": "a6826a7cd93265e851079f80e78d44da487914a0c0b6a6614c38baaba76b9ab6",
+          "locator": "P102d-01 Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P102d-7b Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P102d-94 Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P102d-96 Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P102d-98 Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        }
+      ],
+      "followUpReview": "Reviewed added substantive paragraph after main-body-length correction on2026-11-02; added facts match cited source sections."
+    },
+    {
+      "code": "P1033",
+      "path": "content/code-articles/batch-50/P1033.md",
+      "sha256": "ebfbc41b600ce1ebb4e3a1de83f2bafea00d53fe4b4bdabebd7822fa4d9763d6",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Complete procedure confirms READY/>2second CANheater message, shortedIGBT cause, A/Cstop, A/Ccontroller-first diagnostic order andREADY10secondconfirmation.",
+      "followUpReview": "Reviewed added substantive paragraph after main-body-length correction on2026-11-02; added facts match cited source sections.",
+      "evidence": [
+        {
+          "sourceId": "nissan-ariya-fe0-vcm-20261102",
+          "url": "https://www.niariya.com/ev_hev_vcm_-341.html",
+          "sha256": "a6826a7cd93265e851079f80e78d44da487914a0c0b6a6614c38baaba76b9ab6",
+          "locator": "P1033-11 Hv Ptc Heater > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        }
+      ]
+    },
+    {
+      "code": "P1041",
+      "path": "content/code-articles/batch-50/P1041.md",
+      "sha256": "44a240727d9c7e7e23ce30258d870e78432f9585cb53e69ab40947cbba5ea1ba",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Read completeP1041-87 procedure. READY missing front-inverter signal, unspecified timeout, inverterDTC diagnosis first and conditionalVCM branch all match. Driving evaluation is appropriately qualified for safety.",
+      "evidence": [
+        {
+          "sourceId": "nissan-ariya-fe0-vcm-20261102",
+          "url": "https://www.niariya.com/ev_hev_vcm_-341.html",
+          "sha256": "a6826a7cd93265e851079f80e78d44da487914a0c0b6a6614c38baaba76b9ab6",
+          "locator": "P1041-87 Front Traction Motor Inverter > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        }
+      ],
+      "followUpReview": "Reviewed added substantive paragraph after main-body-length correction on2026-11-02; added facts match cited source sections."
+    },
+    {
+      "code": "P104B",
+      "path": "content/code-articles/batch-50/P104B.md",
+      "sha256": "122e2cce4993fef2b45382a8ed12c22b2b23bde1eefb170057a471498397c2b7",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Read completeP104B-16 procedure. Unspecified lower detected-value threshold,>2seconds, charging prohibition, different-charger comparison and circuit/intermittent sequence match. No invented numeric sensor limit.",
+      "evidence": [
+        {
+          "sourceId": "nissan-ariya-fe0-vcm-20261102",
+          "url": "https://www.niariya.com/ev_hev_vcm_-341.html",
+          "sha256": "a6826a7cd93265e851079f80e78d44da487914a0c0b6a6614c38baaba76b9ab6",
+          "locator": "P104b-16 Quick Charge Port Temp Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        }
+      ],
+      "followUpReview": "Reviewed added substantive paragraph after main-body-length correction on2026-11-02; added facts match cited source sections."
+    },
+    {
+      "code": "P190B",
+      "path": "content/code-articles/batch-48/P190B.md",
+      "sha256": "7fe9c6029742f503a1e5dba6e10f165d95be512dcc75af3f4c61e95fb5b32cf7",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Physical70 and352–353 confirm V188 overheating feedback,3attempts/9seconds,2cycles and electrical supply/ground/controller path beforepump branch.",
+      "auditedPhysicalPages": [
+        70,
+        352,
+        353
+      ],
+      "evidence": [
+        {
+          "sourceId": "vw-crua-deja-golf7-gst-2018",
+          "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+          "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+          "pages": [
+            70
+          ],
+          "locator": "Physical PDF page 70, DTC P190B monitor row"
+        }
+      ]
+    },
+    {
+      "code": "P190D",
+      "path": "content/code-articles/batch-48/P190D.md",
+      "sha256": "007aa5c9a62f8fbe156e6061b8e1c13a661585776c9847622047c3bf3440d56f",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Distinct monitor explanation and safe applicability limits; no unsupported replacement guarantee. Not counted as an independent primary-source comparison."
+    },
+    {
+      "code": "P190E",
+      "path": "content/code-articles/batch-48/P190E.md",
+      "sha256": "25a0a6abd2698927870819b38bcb4304cd9b4574a8536feaac026af072068953",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Distinct monitor explanation and safe applicability limits; no unsupported replacement guarantee. Not counted as an independent primary-source comparison."
+    },
+    {
+      "code": "P1004",
+      "path": "content/code-articles/batch-48/P1004.md",
+      "sha256": "3201b46ee44ad0e163ec838771d581ae464386283258c70a958de942491d9226",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Physical103 confirms speed/desired-torque map error description with±30Nm,120revolutions,closedloop,>50C,>750hPa,>30seconds andregenerationoff. G28/fuelrestrictions/injectors/pressure arethe actualdiagnostic references.",
+      "auditedPhysicalPages": [
+        103
+      ],
+      "evidence": [
+        {
+          "sourceId": "vw-crua-deja-golf7-gst-2018",
+          "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+          "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+          "pages": [
+            103
+          ],
+          "locator": "Physical PDF page 103, DTC P1004 monitor row"
+        }
+      ]
+    },
+    {
+      "code": "P13CE",
+      "path": "content/code-articles/batch-48/P13CE.md",
+      "sha256": "fd1ae080490846c85a25a62b2e0a1c6e3d0c8d03bd39ca7d1985f8d773380c27",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Distinct monitor explanation and safe applicability limits; no unsupported replacement guarantee. Not counted as an independent primary-source comparison."
+    },
+    {
+      "code": "P13CF",
+      "path": "content/code-articles/batch-48/P13CF.md",
+      "sha256": "3cced023ef94e4b82be749ade85a565101380dd0f47e485b5f1d277b137adb56",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Distinct monitor explanation and safe applicability limits; no unsupported replacement guarantee. Not counted as an independent primary-source comparison."
+    },
+    {
+      "code": "P13D0",
+      "path": "content/code-articles/batch-48/P13D0.md",
+      "sha256": "261667031cf8d1ca115e979515ff173abf4775e2e30f8c71627ad88b9a4c3b01",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Physical105 confirms0.33–3.09V range,offset±7bar,calculated-pressure difference±10bar,1000revolutions and fuelcut/open-throttle/EGRclosed branch. Temperatureand/or ambiguity retained. QX1context/supply verified361–362.",
+      "auditedPhysicalPages": [
+        105,
+        361,
+        362
+      ],
+      "evidence": [
+        {
+          "sourceId": "vw-crua-deja-golf7-gst-2018",
+          "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+          "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+          "pages": [
+            105
+          ],
+          "locator": "Physical PDF page 105, DTC P13D0 monitor row"
+        }
+      ]
+    },
+    {
+      "code": "P13D9",
+      "path": "content/code-articles/batch-48/P13D9.md",
+      "sha256": "a68ca429336c7c97f2c2453ccab75e724acbbc73c8191e11be656a6a44fb72a7",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Physical107–108 confirms QX4/cylinder4code with0.33–3.09V,1000revolutions,2cycles andcontinued sensor1 copytext. Manuscript accurately flags channel ambiguity and avoids presenting copiedcylinder1comparisons asverifiedcylinder4limits.",
+      "auditedPhysicalPages": [
+        107,
+        108
+      ],
+      "evidence": [
+        {
+          "sourceId": "vw-crua-deja-golf7-gst-2018",
+          "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+          "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+          "pages": [
+            107
+          ],
+          "locator": "Physical PDF page 107, DTC P13D9 monitor row"
+        }
+      ]
+    },
+    {
+      "code": "P100F",
+      "path": "content/code-articles/batch-47/P100F.md",
+      "sha256": "f6013aece701514d0f1fcda312d32445a1ba7cfcf4a193242fcc586f66ca45a1",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Diagnostic interpretation is scoped and does notinventreplace/repair guarantees. Not counted as independent primary-source comparison."
+    },
+    {
+      "code": "P1014",
+      "path": "content/code-articles/batch-47/P1014.md",
+      "sha256": "6a817c3cff4e6fa51df743a2ba0eda56984aacbb4870439d725ff23d1bcb1acf",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Diagnostic interpretation is scoped and does notinventreplace/repair guarantees. Not counted as independent primary-source comparison."
+    },
+    {
+      "code": "P1015",
+      "path": "content/code-articles/batch-47/P1015.md",
+      "sha256": "1efeb1a778b39fbd5a0c0800a4d379bb7b227cf2359c7b4d510d777a9a87dcd3",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Physical86–87 confirms stable requested-pressure condition≤0.5inHg,>3inHg error,5seconds and duplicate lower-than-expected labels forP1015/P1016; manuscript retains flag anddoes notinventdirectionalrepair.",
+      "evidence": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+          "sha256": "b58ebbe8e6aaf3990b5f44533b77b91234a311c9bd3d81239c0b032c975a5886",
+          "pages": [
+            86,
+            87
+          ],
+          "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 86, 87"
+        }
+      ]
+    },
+    {
+      "code": "P115E",
+      "path": "content/code-articles/batch-47/P115E.md",
+      "sha256": "fd2e41feb7b76c9bb7f534b82f4fcbdfe1c6c2f306d8fc04f851cc2ab4c35e8f",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Diagnostic interpretation is scoped and does notinventreplace/repair guarantees. Not counted as independent primary-source comparison."
+    },
+    {
+      "code": "P130D",
+      "path": "content/code-articles/batch-47/P130D.md",
+      "sha256": "25d3b23c7c6b2e26750a1ae4c9b2505dd2f89b29ec0f2f08fbef6dfa2a5d4e46",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Physical133–134 confirms event-based >10megaknock events withinseveralthousandcombustionevents,≥90%load,1000–4000rpm and140F enable. Article properly separates circuit-code timing andwarnsagainst deliberateheavy-loadreproduction.",
+      "evidence": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+          "sha256": "b58ebbe8e6aaf3990b5f44533b77b91234a311c9bd3d81239c0b032c975a5886",
+          "pages": [
+            133,
+            134
+          ],
+          "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 133, 134"
+        }
+      ]
+    },
+    {
+      "code": "P139C",
+      "path": "content/code-articles/batch-47/P139C.md",
+      "sha256": "9194ab0c70a42391f519340fa6f95a5f5244614f90e38fd376ae81d26df5bff2",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Physical62/64 confirms <-4.0kPa for50seconds, completed electricalchecks andpass-before-flow dependency. The near-zero/>0.5g/s inconsistency remains explicitlyflagged.",
+      "evidence": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+          "sha256": "b58ebbe8e6aaf3990b5f44533b77b91234a311c9bd3d81239c0b032c975a5886",
+          "pages": [
+            62,
+            64
+          ],
+          "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 62, 64"
+        }
+      ]
+    },
+    {
+      "code": "P144C",
+      "path": "content/code-articles/batch-47/P144C.md",
+      "sha256": "3298bf622d7efe94f5ea3f514edd57467c797431aa7b2282e934937dc6e7ecaf",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Physical21–22 confirms boosted once-per-cycle test,5–10seconds, distinctfuel-level/configurationtables andCV1/CV2threshold inconsistencies. Article preserves reviewflag andMode06 uncompleted-zero limitation.",
+      "evidence": [
+        {
+          "sourceId": "ford-gasoline-2024-2025-v2",
+          "url": "https://www.fordservicecontent.com/Ford_Content/catalog/motorcraft/OBDSM2400OUTPUT_16Jul2024_WSM_final_V2_MCS7001.pdf",
+          "sha256": "b58ebbe8e6aaf3990b5f44533b77b91234a311c9bd3d81239c0b032c975a5886",
+          "pages": [
+            21,
+            22
+          ],
+          "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 21, 22"
+        }
+      ]
+    },
+    {
+      "code": "P164A",
+      "path": "content/code-articles/batch-47/P164A.md",
+      "sha256": "14c24002e6817cd34061a575692699ed8bc2d723a60fc63819fd3c9aa61f8251",
+      "reviewDepth": "full-body-only",
+      "finding": "Complete body read. Diagnostic interpretation is scoped and does notinventreplace/repair guarantees. Not counted as independent primary-source comparison."
+    },
+    {
+      "code": "P15A9",
+      "path": "content/code-articles/batch-50/P15A9.md",
+      "sha256": "90037510ac9d3f4173809336026a51722e3a2c25727ee40a256f6c8939f71c25",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Full P15A9-24/-2F source confirms >=70V/6seconds outsidecharging versus ACinputloss>100seconds duringcharging, known-goodEVSEcomparisons and 70V equality ambiguity. Reviewflag remains.",
+      "evidence": [
+        {
+          "sourceId": "nissan-ariya-fe0-vcm-20261102",
+          "url": "https://www.niariya.com/ev_hev_vcm_-341.html",
+          "sha256": "a6826a7cd93265e851079f80e78d44da487914a0c0b6a6614c38baaba76b9ab6",
+          "locator": "P15a9-24 Charging Device Power Supply > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P15a9-2f Charging Device Power Supply > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        }
+      ],
+      "followUpReview": "Reviewed added substantive paragraph after main-body-length correction on2026-11-02; added facts match cited source sections."
+    },
+    {
+      "code": "P30E5",
+      "path": "content/code-articles/batch-50/P30E5.md",
+      "sha256": "89483153911294a3943af2603433c509a0101e99fc068315ee385ea1669f7960",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Complete rearprocedure confirms coolantheading/oilsignal discrepancy,READY/within10seconds,30%torquelimit,oiltemperatureDTCpriority before oilpump circuit. Sourceflag preserved.",
+      "followUpReview": "Reviewed added substantive paragraph after main-body-length correction on2026-11-02; added facts match cited source sections.",
+      "evidence": [
+        {
+          "sourceId": "nissan-ariya-fe0-rear-20261102",
+          "url": "https://www.niariya.com/rear_motor_control_inverter_rear_-794.html",
+          "sha256": "3fd2af80332667160c68e8d78dcfed017caacd3c50148bb04d0e6eb35dc90f6b",
+          "locator": "P30e5-04 Drive Motor B Coolant Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        }
+      ],
+      "releaseFollowUpReview": "Added the exact P30E5-04 identifier to the opening sentence so the rendered body retains the code after duplicate H1 removal. The primary section locator already confirms this identifier; other prose is unchanged."
+    },
+    {
+      "code": "U1327",
+      "path": "content/code-articles/batch-50/U1327.md",
+      "sha256": "405afe52763c018ea174e09e17b9d7c068c81fc923ab5ea2cef0f79b198b3430",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Both completeMACkeyprocedures confirm-54 priority over-52, setupnotwritten versusincomplete, usedVCM possibility for-52 andthreebounded-54 attempts withCONSULTrestarts. Noauthbypassdetails.",
+      "followUpReview": "Reviewed added substantive paragraph after main-body-length correction on2026-11-02; added facts match cited source sections.",
+      "evidence": [
+        {
+          "sourceId": "nissan-ariya-fe0-vcm-20261102",
+          "url": "https://www.niariya.com/ev_hev_vcm_-341.html",
+          "sha256": "a6826a7cd93265e851079f80e78d44da487914a0c0b6a6614c38baaba76b9ab6",
+          "locator": "U1327-52 Mac Key Update > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; U1327-54 Mac Key Update > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        }
+      ]
+    }
+  ],
+  "bodySamples": 32,
+  "deepSourceComparisons": 20,
+  "corrections": [
+    {
+      "path": "content/code-articles/batch-50/U1327.md",
+      "type": "editorial",
+      "beforeSha256": "00fdb935d952e5b0c610470684d322ae871ae945d7efd1e62bb5e8e548c9dde3",
+      "afterSha256": "818d4eb0b1c20ddc793d0b875b8f0e17ce118d464d99962ac4ff48511e66bf74",
+      "change": "Removed an unnecessary self-referential sentence about what the article does not provide; retained authorized factory configuration and applicability guidance."
+    }
+  ]
+}

@@ -1,0 +1,1015 @@
+{
+  "schemaVersion": 1,
+  "wave": 5,
+  "generatedAt": "2026-11-02T21:21:29.311Z",
+  "status": "recorded-reviews-current-hashes-verified",
+  "counts": {
+    "sourceReports": 5,
+    "uniqueBodySamples": 92,
+    "uniqueDeepSourceChecks": 50,
+    "bodyOnlySamples": 42,
+    "historicalProseCorrections": 4,
+    "resumedEditorialCorrections": 1,
+    "lateSampleCorrections": 0,
+    "headingOnlyStructuralFixes": 84
+  },
+  "sourceReports": [
+    {
+      "path": "reports/editorial-review-wave-05-root.json",
+      "sha256": "97159921f86dec5077bd92959f40c4dbfe52daf1c246cc47331f50ae449802cb",
+      "bodySamples": 42,
+      "deepSourceComparisons": 21
+    },
+    {
+      "path": "reports/editorial-review-wave-05-resumed.json",
+      "sha256": "6dcb1ab4eca09ac7170156b7cf11788129113fecb10ea3d77de3aadd2b88557e",
+      "bodySamples": 32,
+      "deepSourceComparisons": 20
+    },
+    {
+      "path": "reports/editorial-review-wave-05-batch46.json",
+      "sha256": "4f7424e5978f4b88c1dca80b8f53947c7ae0b2c330cc4aab58e40cfe93682a8c",
+      "bodySamples": 8,
+      "deepSourceComparisons": 4
+    },
+    {
+      "path": "reports/editorial-review-wave-05-late-sample.json",
+      "sha256": "aaea4edeb047c2398cb20ce1478cba9dae34b9e895831403c1b850d9f278927e",
+      "bodySamples": 6,
+      "deepSourceComparisons": 3
+    },
+    {
+      "path": "reports/editorial-review-wave-05-nissan-late.json",
+      "sha256": "3aca02f3c042b6376318c26589a4d4ed77d56732d2457c3457931e94b7153f5d",
+      "bodySamples": 4,
+      "deepSourceComparisons": 2
+    }
+  ],
+  "sampleScope": "Bounded AI peer/root reviews of selected article bodies across writer batches 41–50. Source comparisons are a subset of those body reads, not additional articles or a count of distinct source documents.",
+  "currentHashVerification": {
+    "algorithm": "sha256",
+    "filesCompared": 92,
+    "filesMatched": 92,
+    "staleFiles": [],
+    "meaning": "The current manuscript bytes match the versions recorded by their reviewers. Hash matching does not itself evaluate technical claims."
+  },
+  "bodySamples": [
+    {
+      "articlePath": "content/code-articles/batch-41/P0094.md",
+      "code": "P0094",
+      "batch": "batch-41",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "8bc12d00cbed91fb3e0bd29db45ccdc4613044c98c2874ad146f6c35397900b1",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-41/P044B.md",
+      "code": "P044B",
+      "batch": "batch-41",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "0cf3ace719e70ea7e3699696f75d4ec9bcf9cee17af009c3442aa97ad8ba437b",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-41/P1207.md",
+      "code": "P1207",
+      "batch": "batch-41",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "2d6f0bf60a4730c16fd1e8bc990c034873c252dfd0f07e7fa881253f3e809d4e",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-41/P1536.md",
+      "code": "P1536",
+      "batch": "batch-41",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "ac303f258d67aecba40474d8ab808fb148285e3d278f1d8ad629ede51bd12dea",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-41/P2012.md",
+      "code": "P2012",
+      "batch": "batch-41",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "3f49c178196e4a0e71a7f9d020bb43862ce76cc2377b4efe657c3632812d0b19",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-41/P2018.md",
+      "code": "P2018",
+      "batch": "batch-41",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "161fff1e3bde0637083cb0a2d64d765720aff877cae640709ac2f8d75240d83e",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-41/P2BE6.md",
+      "code": "P2BE6",
+      "batch": "batch-41",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "208fc96250300065abdc8986d43da7a8ad30738c445bd6c79ff61f8cff904233",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-41/P349D.md",
+      "code": "P349D",
+      "batch": "batch-41",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "5116c13313a8af89e5872eb4c388914f5b8e1e996eb588e7b06f09a5c0db85ba",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/C056B.md",
+      "code": "C056B",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "1066bb576b85c32b8cc7d9103f40c127514fb66ae08d481550fbccb1932f89e3",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/P0570.md",
+      "code": "P0570",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "e6662cb4fe83d54f296d561ef36ac1aa16cd1c22bcd74dc4d57173928f152398",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/P0D07.md",
+      "code": "P0D07",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "4d743891f12e8fb06534ebd85a54720ea19b90cf52c75d5fde6df4b9191261a0",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/P0D20.md",
+      "code": "P0D20",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "c20fd4fbbf6d63ef190837cd23e76331fc5ec8964d7975e0979ab8da686390ee",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/P0E4F.md",
+      "code": "P0E4F",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "0966d1ee15d77851501c2c426681d132576995591490321d0e8c9967421b5df0",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/P1575.md",
+      "code": "P1575",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "368f9febc292ce71b1e86a329dafb249a7776d3ef8274e084f411c5df6e6cea1",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/P24C0.md",
+      "code": "P24C0",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "4de949b88f2e91502bd868ce122e1a746c24fc37da862cfbd341e8b4c6340294",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/P2630.md",
+      "code": "P2630",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "859eb7bfc7d7a915913778dd18a0a10baa3a1095489827d887d0395ed8fd84f1",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/P26D3.md",
+      "code": "P26D3",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "12a4d22d9b2b93d618fe775eb19ef89a37bc8643f3ca6fe26571a169db63855c",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-42/U0609.md",
+      "code": "U0609",
+      "batch": "batch-42",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "2133b196d9ef1db8f688c0287b61a13997e06d31eddc73269cdb469a49d437d0",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-43/P0805.md",
+      "code": "P0805",
+      "batch": "batch-43",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "34bb0c7fa47628ea210264046b8e84827d75052e547b50659028d475b5fcb494",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-43/P08BB.md",
+      "code": "P08BB",
+      "batch": "batch-43",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "a4f5b15c886a6942cb327c70d638d08d1e857b3b9ef12426053f00bc9e236c8d",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-43/P0BFF.md",
+      "code": "P0BFF",
+      "batch": "batch-43",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "ef3c2b7ed1cad1e2da86523adc1425b621ef9dde270541566f4fee5b0fc1c16b",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-43/P20F4.md",
+      "code": "P20F4",
+      "batch": "batch-43",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "3241eed14112f454c236dda44545253b326d099e0a652ff1a527dafc8e503059",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-43/P22B4.md",
+      "code": "P22B4",
+      "batch": "batch-43",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "d715d530bd4a92d542e602052d1ca83f702950768985b0c83730f2d8778ff893",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-43/P2789.md",
+      "code": "P2789",
+      "batch": "batch-43",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "a20f9f83cedbe7850e3391191c70700238c8eccdaf6f7ba5a4f540bd93b059a6",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-43/P2B7B.md",
+      "code": "P2B7B",
+      "batch": "batch-43",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "05799d036da7ea37a35ab4e59d689ac2bbc2b3ecf1b44fce2769c6874440159b",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-43/U0413.md",
+      "code": "U0413",
+      "batch": "batch-43",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "06482579fa84ad6215c57c4cc6638d531d274c7dc6aa8f71472b9050bca8dbd8",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-44/P0781.md",
+      "code": "P0781",
+      "batch": "batch-44",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "9cb213142a48461bbfd1d37294a48f3b26292c11815655dae13f8efface6a91a",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-44/P0829.md",
+      "code": "P0829",
+      "batch": "batch-44",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "477202fa1fbb4a6fb90659e5df1170674a9b47f718fa3d572865f8e1cf74cd35",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-44/P0916.md",
+      "code": "P0916",
+      "batch": "batch-44",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "9ad0d1cc5c98df022ef17f4467912fb3ee4d1315cf13b5127d3047a2bb724df6",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-44/P0CDF.md",
+      "code": "P0CDF",
+      "batch": "batch-44",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "6c21fa47710f52304ba943f09df63c02d999f80d2146c710d820591d21d41f51",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-44/P0D6D.md",
+      "code": "P0D6D",
+      "batch": "batch-44",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "8950241b152adbe7011d2b8d26b6798f9121078c1e2a6243c50ed57c5378d4d9",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-44/P0EF7.md",
+      "code": "P0EF7",
+      "batch": "batch-44",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "fc1cb49270dc8aa2480a33592d63d506e6370053cbdc932c7a01a331d7b2d126",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-44/P2810.md",
+      "code": "P2810",
+      "batch": "batch-44",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "425261a9aac0d79f5a2f262648ef1835ac0e7fdea76d195c9ccc7a9b23e23e58",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-44/P2D8B.md",
+      "code": "P2D8B",
+      "batch": "batch-44",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "ae47ff1354c2965f1a7425ef3ef077b145980947bbca5c8ec66da6aeaeb9a745",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-45/P030A.md",
+      "code": "P030A",
+      "batch": "batch-45",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "e10e6d845ffc59864414d93524098e493d3087fe0bc9f2925ac14bd5d2104f80",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-45/P0A9B.md",
+      "code": "P0A9B",
+      "batch": "batch-45",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "989969312d0bacfde0c8c1224a617c4915a34c42d332b38b1c1e4d69e05300f4",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-45/P0C59.md",
+      "code": "P0C59",
+      "batch": "batch-45",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "4a7f75b29e481bbb275cc6a7a4b90690ce9ce938949c31d557bbd537ef0fb258",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-45/P0D98.md",
+      "code": "P0D98",
+      "batch": "batch-45",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "361681ae29d4cb676fdb15573e0d627141b1334a6d54bf42854054e2c712c222",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-45/P0E35.md",
+      "code": "P0E35",
+      "batch": "batch-45",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "6661b3ed5fc14c6c0b2f0bfbcfe315162286010c243438178dba9ecb84efc137",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-45/P0E57.md",
+      "code": "P0E57",
+      "batch": "batch-45",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "a41d2a88655f1fa5a0ee77a6b5b46f243eff287808f848877879ee5854846212",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-45/P2E2B.md",
+      "code": "P2E2B",
+      "batch": "batch-45",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-and-cited-primary-pages",
+      "sha256": "c568385aa36c9958a24028f9d28920695883f2e08b19ef33fdb9f3dadcf4decf",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-45/U0273.md",
+      "code": "U0273",
+      "batch": "batch-45",
+      "reviewReport": "reports/editorial-review-wave-05-root.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "0ca6e153c6dc5eb524e2f5b91830bdc62b54e1c5129b4a84315ef3298bbfbf22",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-46/B106E.md",
+      "code": "B106E",
+      "batch": "batch-46",
+      "reviewReport": "reports/editorial-review-wave-05-batch46.json",
+      "reviewDepth": "full-body-and-source-comparison",
+      "sha256": "ed6c1c353105727506139ed06b3456915e708e69e5649bb3156067ff77903520",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-46/B106F.md",
+      "code": "B106F",
+      "batch": "batch-46",
+      "reviewReport": "reports/editorial-review-wave-05-batch46.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "495f17728c901e611023520f0ba807679ec3c66694d34ced1ad445bddf0448b3",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-46/B10D7.md",
+      "code": "B10D7",
+      "batch": "batch-46",
+      "reviewReport": "reports/editorial-review-wave-05-batch46.json",
+      "reviewDepth": "full-body-and-source-comparison",
+      "sha256": "b5165c2746b935fd22d9a7839560d8741dd0c930de582e412e0d330dfe9a1c3d",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-46/B10DA.md",
+      "code": "B10DA",
+      "batch": "batch-46",
+      "reviewReport": "reports/editorial-review-wave-05-batch46.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "323f22d016a41ead69466bf9906578ddedca38f907cd96a9bdb9f88eb70445cd",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-46/B1299.md",
+      "code": "B1299",
+      "batch": "batch-46",
+      "reviewReport": "reports/editorial-review-wave-05-batch46.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "2dbaee10b91c8eeffa83e2cc8d2388d40007505317a5d498e1b460a2c8915831",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-46/B2A25.md",
+      "code": "B2A25",
+      "batch": "batch-46",
+      "reviewReport": "reports/editorial-review-wave-05-batch46.json",
+      "reviewDepth": "full-body-and-source-comparison",
+      "sha256": "8ea0e90cc5540123608d0089de29807d89456a27db7d892e9c9b01e2fc924df8",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-46/C1700.md",
+      "code": "C1700",
+      "batch": "batch-46",
+      "reviewReport": "reports/editorial-review-wave-05-batch46.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "a310e94e920c77bc1b14a2daaf84a60ee78043b76e22a27994e3f98e7ad1e247",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-46/C1742.md",
+      "code": "C1742",
+      "batch": "batch-46",
+      "reviewReport": "reports/editorial-review-wave-05-batch46.json",
+      "reviewDepth": "full-body-and-source-comparison",
+      "sha256": "1579294ef82d50eb021805cd4044d8e1cd882790cad33eb2aedb277514d1f606",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/B2800.md",
+      "code": "B2800",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-late-sample.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "4df96d68a883760dea0a902bce7cd0934c0afa204d722c9f43f37205c163291b",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/B2840.md",
+      "code": "B2840",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-late-sample.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "50c369f637fcc9b2b10b55066ffa387037de277d913b26c508787f6264bad16a",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/C1000.md",
+      "code": "C1000",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-late-sample.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "51b6230a59ec67a07a41d7aacc092eadd1b2ac72bff3c53364a91cb7685c61b6",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/C1022.md",
+      "code": "C1022",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-late-sample.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "57a5c420c59233aa83f5ff602ed0ef9323e237e549d789da447ddb39bbfe71c8",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/C1100.md",
+      "code": "C1100",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-late-sample.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "a902a3e7598e0eb0946bdb8af3ea6c0326ad942e392fad4b54a686da2ffbad7b",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/C1111.md",
+      "code": "C1111",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-late-sample.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "c6ba1a260c4b38a1d852adf1e9a1245a6a7d12b66839e833b6a8bd16894f900e",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/P100F.md",
+      "code": "P100F",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "f6013aece701514d0f1fcda312d32445a1ba7cfcf4a193242fcc586f66ca45a1",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/P1014.md",
+      "code": "P1014",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "6a817c3cff4e6fa51df743a2ba0eda56984aacbb4870439d725ff23d1bcb1acf",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/P1015.md",
+      "code": "P1015",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "1efeb1a778b39fbd5a0c0800a4d379bb7b227cf2359c7b4d510d777a9a87dcd3",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/P115E.md",
+      "code": "P115E",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "fd2e41feb7b76c9bb7f534b82f4fcbdfe1c6c2f306d8fc04f851cc2ab4c35e8f",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/P130D.md",
+      "code": "P130D",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "25d3b23c7c6b2e26750a1ae4c9b2505dd2f89b29ec0f2f08fbef6dfa2a5d4e46",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/P139C.md",
+      "code": "P139C",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "9194ab0c70a42391f519340fa6f95a5f5244614f90e38fd376ae81d26df5bff2",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/P144C.md",
+      "code": "P144C",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "3298bf622d7efe94f5ea3f514edd57467c797431aa7b2282e934937dc6e7ecaf",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-47/P164A.md",
+      "code": "P164A",
+      "batch": "batch-47",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "14c24002e6817cd34061a575692699ed8bc2d723a60fc63819fd3c9aa61f8251",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-48/P1004.md",
+      "code": "P1004",
+      "batch": "batch-48",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "3201b46ee44ad0e163ec838771d581ae464386283258c70a958de942491d9226",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-48/P13CE.md",
+      "code": "P13CE",
+      "batch": "batch-48",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "fd1ae080490846c85a25a62b2e0a1c6e3d0c8d03bd39ca7d1985f8d773380c27",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-48/P13CF.md",
+      "code": "P13CF",
+      "batch": "batch-48",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "3cced023ef94e4b82be749ade85a565101380dd0f47e485b5f1d277b137adb56",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-48/P13D0.md",
+      "code": "P13D0",
+      "batch": "batch-48",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "261667031cf8d1ca115e979515ff173abf4775e2e30f8c71627ad88b9a4c3b01",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-48/P13D9.md",
+      "code": "P13D9",
+      "batch": "batch-48",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "a68ca429336c7c97f2c2453ccab75e724acbbc73c8191e11be656a6a44fb72a7",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-48/P190B.md",
+      "code": "P190B",
+      "batch": "batch-48",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "7fe9c6029742f503a1e5dba6e10f165d95be512dcc75af3f4c61e95fb5b32cf7",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-48/P190D.md",
+      "code": "P190D",
+      "batch": "batch-48",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "007aa5c9a62f8fbe156e6061b8e1c13a661585776c9847622047c3bf3440d56f",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-48/P190E.md",
+      "code": "P190E",
+      "batch": "batch-48",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "25a0a6abd2698927870819b38bcb4304cd9b4574a8536feaac026af072068953",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-49/P100B.md",
+      "code": "P100B",
+      "batch": "batch-49",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "dfdc44acd7156a857601c1183ac9e9bba56660bf719f5ba54d940682c6dd486b",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-49/P100C.md",
+      "code": "P100C",
+      "batch": "batch-49",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "2f266fc448c320a0f80b8b39ce6deafd3796e9239c1b7b199cc5b2b29b5cbc83",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-49/P100D.md",
+      "code": "P100D",
+      "batch": "batch-49",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "ecc17ffbe46c9b631ecfa00b1f2b715f12e762b8db370607ec65d7567138797c",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-49/P145F.md",
+      "code": "P145F",
+      "batch": "batch-49",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "2738bfcfcf243abb16888d09e67f9cf956e9693cde06d0bede0ea4a80a25f33e",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-49/P154A.md",
+      "code": "P154A",
+      "batch": "batch-49",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "770daa6e0aacaf016c6f885122ede03e40d570ef590c9616b2f04e852e5b6652",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-49/P158A.md",
+      "code": "P158A",
+      "batch": "batch-49",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "9d0b845771132e96d9b271cd28359af72ff3a07890e93c693b3af4f2f1b557eb",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-49/P158D.md",
+      "code": "P158D",
+      "batch": "batch-49",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-only",
+      "sha256": "99519a6435775273107d80d2fc9ade200890e82adcf0925f250a78ac40df3596",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-49/P158F.md",
+      "code": "P158F",
+      "batch": "batch-49",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "905fa8f82f1561b9c11581e4931cd776519d52ac0a754b31a483f33a8ed75555",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/C1042.md",
+      "code": "C1042",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-nissan-late.json",
+      "reviewDepth": "body-only",
+      "sha256": "43afc01eeced673059d86d68d220d880f4f532da60b66a3e10004a476e775fd8",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/C1051.md",
+      "code": "C1051",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-nissan-late.json",
+      "reviewDepth": "deep-source",
+      "sha256": "3fb36c63dfebefeb0360708cd50f550326ccfed54717c5455c3ac5c49d369c16",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/C105D.md",
+      "code": "C105D",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-nissan-late.json",
+      "reviewDepth": "deep-source",
+      "sha256": "f472baaf108dc2874b71d33831c53e342af661df3f334b8f613a65bb0a0d4ad6",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/C106B.md",
+      "code": "C106B",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-nissan-late.json",
+      "reviewDepth": "body-only",
+      "sha256": "29dbf6bbb3d0a2f724ce6bcbd390903ba0cec1aeda4c1c716bf8591ca7fb1fab",
+      "deepSourceCheck": false
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/P102C.md",
+      "code": "P102C",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "deddf77657e80ff455c8501c447bdad4fbfba009e4d94c925555fa155cee48ce",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/P102D.md",
+      "code": "P102D",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "ac65adfc00c82a10a6eb017f5dd75c93088d3dbcef7174fc3d44aceff1c6bc94",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/P1033.md",
+      "code": "P1033",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "ebfbc41b600ce1ebb4e3a1de83f2bafea00d53fe4b4bdabebd7822fa4d9763d6",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/P1041.md",
+      "code": "P1041",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "44a240727d9c7e7e23ce30258d870e78432f9585cb53e69ab40947cbba5ea1ba",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/P104B.md",
+      "code": "P104B",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "122e2cce4993fef2b45382a8ed12c22b2b23bde1eefb170057a471498397c2b7",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/P15A9.md",
+      "code": "P15A9",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "90037510ac9d3f4173809336026a51722e3a2c25727ee40a256f6c8939f71c25",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/P30E5.md",
+      "code": "P30E5",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "89483153911294a3943af2603433c509a0101e99fc068315ee385ea1669f7960",
+      "deepSourceCheck": true
+    },
+    {
+      "articlePath": "content/code-articles/batch-50/U1327.md",
+      "code": "U1327",
+      "batch": "batch-50",
+      "reviewReport": "reports/editorial-review-wave-05-resumed.json",
+      "reviewDepth": "full-body-and-primary-source",
+      "sha256": "405afe52763c018ea174e09e17b9d7c068c81fc923ab5ea2cef0f79b198b3430",
+      "deepSourceCheck": true
+    }
+  ],
+  "deepSourceArticlePaths": [
+    "content/code-articles/batch-41/P1536.md",
+    "content/code-articles/batch-41/P2012.md",
+    "content/code-articles/batch-41/P2018.md",
+    "content/code-articles/batch-41/P349D.md",
+    "content/code-articles/batch-42/C056B.md",
+    "content/code-articles/batch-42/P0D07.md",
+    "content/code-articles/batch-42/P1575.md",
+    "content/code-articles/batch-42/P24C0.md",
+    "content/code-articles/batch-42/P26D3.md",
+    "content/code-articles/batch-42/U0609.md",
+    "content/code-articles/batch-43/P0BFF.md",
+    "content/code-articles/batch-43/P22B4.md",
+    "content/code-articles/batch-43/P2789.md",
+    "content/code-articles/batch-44/P0916.md",
+    "content/code-articles/batch-44/P0CDF.md",
+    "content/code-articles/batch-44/P0EF7.md",
+    "content/code-articles/batch-44/P2810.md",
+    "content/code-articles/batch-45/P030A.md",
+    "content/code-articles/batch-45/P0A9B.md",
+    "content/code-articles/batch-45/P0D98.md",
+    "content/code-articles/batch-45/P2E2B.md",
+    "content/code-articles/batch-46/B106E.md",
+    "content/code-articles/batch-46/B10D7.md",
+    "content/code-articles/batch-46/B2A25.md",
+    "content/code-articles/batch-46/C1742.md",
+    "content/code-articles/batch-47/B2800.md",
+    "content/code-articles/batch-47/C1022.md",
+    "content/code-articles/batch-47/C1111.md",
+    "content/code-articles/batch-47/P1015.md",
+    "content/code-articles/batch-47/P130D.md",
+    "content/code-articles/batch-47/P139C.md",
+    "content/code-articles/batch-47/P144C.md",
+    "content/code-articles/batch-48/P1004.md",
+    "content/code-articles/batch-48/P13D0.md",
+    "content/code-articles/batch-48/P13D9.md",
+    "content/code-articles/batch-48/P190B.md",
+    "content/code-articles/batch-49/P100B.md",
+    "content/code-articles/batch-49/P100C.md",
+    "content/code-articles/batch-49/P145F.md",
+    "content/code-articles/batch-49/P158F.md",
+    "content/code-articles/batch-50/C1051.md",
+    "content/code-articles/batch-50/C105D.md",
+    "content/code-articles/batch-50/P102C.md",
+    "content/code-articles/batch-50/P102D.md",
+    "content/code-articles/batch-50/P1033.md",
+    "content/code-articles/batch-50/P1041.md",
+    "content/code-articles/batch-50/P104B.md",
+    "content/code-articles/batch-50/P15A9.md",
+    "content/code-articles/batch-50/P30E5.md",
+    "content/code-articles/batch-50/U1327.md"
+  ],
+  "corrections": {
+    "historicalProse": {
+      "report": "reports/editorial-review-wave-05-root.json",
+      "count": 4,
+      "items": [
+        {
+          "path": "content/code-articles/batch-42/P0D07.md",
+          "beforeSha256": "b4f021c82f4c22e00b562ac7a91b02c8f36a25f62d20cb7fd11575cbc5cdff76",
+          "afterSha256": "4d743891f12e8fb06534ebd85a54720ea19b90cf52c75d5fde6df4b9191261a0",
+          "change": "Source DTC label says cooling fan, detailed monitor says both charge contactors stuck open for1.3s with charging wakeup and command closed. Canonical positive-contactor scope differs. Needs-review retained; root softened assertion of a definite misprint to documented conflicting descriptions."
+        },
+        {
+          "path": "content/code-articles/batch-42/C056B.md",
+          "beforeSha256": "b5e1f02d3ee28a2b0de4c63ad2abdcb071a243a82478ae0d461116139db00260",
+          "afterSha256": "1066bb576b85c32b8cc7d9103f40c127514fb66ae08d481550fbccb1932f89e3",
+          "change": "Both70ms conditions, noC056A, presence ofC0541orC053D, HPCM gateway andC0044family mapping match. Root clarified that a companion fault must be set, rather than vague fault context."
+        },
+        {
+          "path": "content/code-articles/batch-45/P0D98.md",
+          "beforeSha256": "b8628432ba7d903b6ee64a34f3e2de3530ced7c7c05cc4c3cf2ab045d26121ba",
+          "afterSha256": "361681ae29d4cb676fdb15573e0d627141b1334a6d54bf42854054e2c712c222",
+          "change": "Removed internal publication instruction from reader-facing prose; retained requirement to resolve source ambiguity before a repair decision."
+        },
+        {
+          "path": "content/code-articles/batch-45/P2E2B.md",
+          "beforeSha256": "688e36b73a948eeb460a32a83baaf5c5fb385a67efb234ff83f05a6ef41d8c1c",
+          "afterSha256": "c568385aa36c9958a24028f9d28920695883f2e08b19ef33fdb9f3dadcf4decf",
+          "change": "Removed internal publication instruction from reader-facing prose; retained requirement to resolve source ambiguity before a repair decision."
+        }
+      ]
+    },
+    "resumedEditorial": {
+      "report": "reports/editorial-review-wave-05-resumed.json",
+      "count": 1,
+      "items": [
+        {
+          "path": "content/code-articles/batch-50/U1327.md",
+          "type": "editorial",
+          "beforeSha256": "00fdb935d952e5b0c610470684d322ae871ae945d7efd1e62bb5e8e548c9dde3",
+          "afterSha256": "818d4eb0b1c20ddc793d0b875b8f0e17ce118d464d99962ac4ff48511e66bf74",
+          "change": "Removed an unnecessary self-referential sentence about what the article does not provide; retained authorized factory configuration and applicability guidance."
+        }
+      ],
+      "meaning": "Recorded editorial corrections are historical events; any later expansion is covered only when the current file hash is updated after re-review in its source report."
+    },
+    "lateSample": {
+      "report": "reports/editorial-review-wave-05-late-sample.json",
+      "count": 0,
+      "items": [],
+      "selectionReason": "New Honda B/C/U source family was outside the earlier batch47 Ford sample. Selected SRS, VSA pump supply and electric-parking-brake topics, including the C1111 needs-review conflict."
+    },
+    "nissanLateSample": {
+      "report": "reports/editorial-review-wave-05-nissan-late.json",
+      "count": 0,
+      "items": [],
+      "selectionReason": "Additional independent review of late Nissan brake manuscripts in batch 50."
+    },
+    "headingOnlyStructural": {
+      "report": "reports/editorial-review-wave-05-root.json",
+      "batch": "batch-44",
+      "reportedAffectedArticles": 84,
+      "finding": "84manuscripts had only the Source subsection. Authoraddedcode-specificsubsectionheadingswithoutchangingprose,metadataorsourcefindings.",
+      "addsIndependentBodyReads": false,
+      "verificationLimit": "The source report records an aggregate of heading-only changes, not a per-file list or a new independent reading of all affected bodies."
+    }
+  },
+  "similarityReport": "reports/article-similarity-wave-05.json",
+  "fullCorpusCertification": false,
+  "limitations": [
+    "The summary reconciles existing review records and current manuscript hashes; it does not repeat the underlying editorial or source reviews.",
+    "Only the exact listed body samples and the separately listed source comparisons are covered. Unreviewed articles and unexamined claims are not certified.",
+    "The historical source checks are carried forward from their original report. Historical local source paths may be unavailable; the summary does not claim new source downloads or reinspection.",
+    "Source scopes, unresolved-review flags and each input report's limits remain applicable. AI review is not independent mechanic certification, vehicle testing or a guaranteed repair outcome.",
+    "Heading-only structural fixes are separate from prose corrections and do not increase the independent full-body sample count.",
+    "The separate similarity report has its own corpus snapshot, candidate retrieval limits and manual pair reviews. Lexical screening does not establish originality or factual accuracy.",
+    "Neither review counts nor matching hashes establish publication, search indexing, traffic, or full-corpus accuracy. Later manuscript changes require renewed review and updated hashes."
+  ]
+}

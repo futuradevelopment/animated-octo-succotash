@@ -7,18 +7,18 @@ import {codeManuscripts,manuscriptForEntry,publicationStats,renderManuscript} fr
 import {codes,codePath,getIndexableRoutes} from '../src/lib/cars.ts';
 import {parseHTML} from 'linkedom';
 
-test('the selected release contains 4,000 distinct articles on existing canonical routes',()=>{
- assert.equal(codeManuscripts.length,4000);
- assert.equal(new Set(codeManuscripts.map(article=>article.entryId)).size,4000);
- assert.equal(new Set(codeManuscripts.map(article=>article.code)).size,4000);
+test('the selected release contains 5,000 distinct articles on canonical routes',()=>{
+ assert.equal(codeManuscripts.length,5000);
+ assert.equal(new Set(codeManuscripts.map(article=>article.entryId)).size,5000);
+ assert.equal(new Set(codeManuscripts.map(article=>article.code)).size,5000);
  const entries=new Map(codes.map(entry=>[entry.id,entry])),indexable=new Set(getIndexableRoutes());
  for(const article of codeManuscripts){
   const entry=entries.get(article.entryId);assert.ok(entry,article.entryId);
   assert.equal(entry.code,article.code);assert.equal(manuscriptForEntry(entry.id),article);
   assert.ok(indexable.has(codePath(entry)),article.entryId);
  }
- assert.equal(publicationStats.sourceChecked,3420);
- assert.equal(publicationStats.sourceReviewPending,580);
+ assert.equal(publicationStats.sourceChecked,4240);
+ assert.equal(publicationStats.sourceReviewPending,760);
 });
 
 test('a manufacturer article is never assigned to a different make sharing its code',()=>{

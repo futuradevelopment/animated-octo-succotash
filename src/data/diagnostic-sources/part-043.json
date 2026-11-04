@@ -1,0 +1,1613 @@
+[
+  {
+    "id": "gm-2024-03a-part1",
+    "title": "24OBDG03A Part 1 Diagnostic Parameters",
+    "publisher": "General Motors",
+    "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2024/24OBDG03A%20Part%201.pdf",
+    "documentScope": "GM 24OBDG03A Part 1 diagnostic parameters, exact EBCM/ECM/PCM(TCM) monitor sections; file-level application matrix is not per-code fitment evidence.",
+    "makeIds": [
+      "chevrolet",
+      "gmc",
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Original GM PDF; complete fault rows read and physical pages rendered to verify table alignment.",
+    "pageCount": 2655,
+    "sha256": "5b8879039b2ff2b3d4b973d9acb0a0879b5578a1717a4a06069db1bcbb551866",
+    "codeMentions": [
+      {
+        "code": "P25C8",
+        "pages": [
+          223
+        ]
+      },
+      {
+        "code": "C057D",
+        "pages": [
+          223
+        ]
+      },
+      {
+        "code": "C057C",
+        "pages": [
+          224
+        ]
+      },
+      {
+        "code": "C05B3",
+        "pages": [
+          224
+        ]
+      },
+      {
+        "code": "C05B4",
+        "pages": [
+          224
+        ]
+      },
+      {
+        "code": "C05B6",
+        "pages": [
+          224
+        ]
+      },
+      {
+        "code": "C05B7",
+        "pages": [
+          224
+        ]
+      },
+      {
+        "code": "P26C1",
+        "pages": [
+          838
+        ]
+      },
+      {
+        "code": "P2CF8",
+        "pages": [
+          893
+        ]
+      },
+      {
+        "code": "P2E66",
+        "pages": [
+          904
+        ]
+      },
+      {
+        "code": "U3024",
+        "pages": [
+          1780
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gm-2024-03b-part1",
+    "title": "24OBDG03B Part 1 Diagnostic Parameters",
+    "publisher": "General Motors",
+    "url": "https://gsi.ext.gm.com/gmspo/mode6/pdf/2024/24OBDG03B%20Part%201.pdf",
+    "documentScope": "GM 2024 24OBDG03B Part 1 ECM diagnostic monitor tables; exact calibration and per-code vehicle applicability require confirmation.",
+    "makeIds": [
+      "chevrolet",
+      "gmc",
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "Downloaded original GM PDF; full rows and continuation pages read, with rendered-page table checks.",
+    "pageCount": 2188,
+    "sha256": "3a508fb203700961eeb381078a660194421396f4fb405581144de07e675c01d1",
+    "codeMentions": [
+      {
+        "code": "P223D",
+        "pages": [
+          710
+        ]
+      },
+      {
+        "code": "P223F",
+        "pages": [
+          712
+        ]
+      },
+      {
+        "code": "P349D",
+        "pages": [
+          884
+        ]
+      },
+      {
+        "code": "P349E",
+        "pages": [
+          885
+        ]
+      },
+      {
+        "code": "P2B04",
+        "pages": [
+          776,
+          1280
+        ]
+      },
+      {
+        "code": "P2B05",
+        "pages": [
+          777,
+          1280
+        ]
+      },
+      {
+        "code": "P2B06",
+        "pages": [
+          778,
+          1280
+        ]
+      },
+      {
+        "code": "P2B07",
+        "pages": [
+          779,
+          1280
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p0094",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P0094 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0094/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "8273c1e111f9b0f275b3d37f3e2a62f623a90c545b60621ca56795b5c27b017b",
+    "codeMentions": [
+      {
+        "code": "P0094",
+        "locator": "P0094 > Circuit Description; Conditions for Running/Setting; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p0168",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P0168 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0168/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "0afadbd116e143dd11d340fe711795eaf078b3ec882645a5ef92f035f6a37d6e",
+    "codeMentions": [
+      {
+        "code": "P0168",
+        "locator": "P0168 > Circuit Description; Conditions for Setting; Action Taken; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p0374",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P0374 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0374/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "0d4ba444d86054bd4d920ea0e21f413937445474a5bb8a911d0a3a14aa83728c",
+    "codeMentions": [
+      {
+        "code": "P0374",
+        "locator": "P0374 > Circuit Description; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p0540",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P0540 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0540/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "72c15d4ee914ca13ed2153b6fea099b8866ea2c9cc7337bcfa9cbcac608cf683",
+    "codeMentions": [
+      {
+        "code": "P0540",
+        "locator": "P0540 > Circuit Description; Conditions for Running/Setting; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p0543",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P0543 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0543/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "a2a0552111bec916bfb52b57f71b1b78227bb1a556a8f7e582c829cf62b83552",
+    "codeMentions": [
+      {
+        "code": "P0543",
+        "locator": "P0543 > Circuit Description; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p0608",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P0608 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0608/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "9e7d515f19c2e1a9ce77177abb4e782bba987aa879dda22e4f523111073342e5",
+    "codeMentions": [
+      {
+        "code": "P0608",
+        "locator": "P0608 > Circuit Description; Conditions for Running/Setting; Diagnostic Aids; Conditions for Clearing"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p0654",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P0654 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0654/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "275578c7210f2286a9b29546e5ac1d514980ed0cc7fc919e9d220812867c09e3",
+    "codeMentions": [
+      {
+        "code": "P0654",
+        "locator": "P0654 > Circuit Description; Conditions for Running/Setting; Diagnostic Aids; Conditions for Clearing"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1270",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1270 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1270/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "5dee26331f519fda6506b25c56f7666709fa03643e942fa2d4444b4cd917714e",
+    "codeMentions": [
+      {
+        "code": "P1270",
+        "locator": "P1270 > Circuit Description; Conditions for Running/Setting; Action Taken; Conditions for Clearing"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1271",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1271 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1271/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "8c12b596f58421fbf993f2b8a89e37c22f48916c9f39caa631458193effcf25f",
+    "codeMentions": [
+      {
+        "code": "P1271",
+        "locator": "P1271 > Circuit Description; APP Sensor Position Table; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1272",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1272 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1272/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "7b4cee536a69407edc0409c451d4d7125b225dc29005d46519c82716caed5b1a",
+    "codeMentions": [
+      {
+        "code": "P1272",
+        "locator": "P1272 > Circuit Description; APP Sensor Position Table; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1273",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1273 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1273/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "5d6377fb559b6e6f67bd4c57574a3a4b64ffe481c36491ae21fedc9209451875",
+    "codeMentions": [
+      {
+        "code": "P1273",
+        "locator": "P1273 > Circuit Description; APP Sensor Position Table; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1277",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1277 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1277/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "946ee28d8dff2809a92e30de403de4dea9e4c8ab464283dbd08c7e488b219d77",
+    "codeMentions": [
+      {
+        "code": "P1277",
+        "locator": "P1277 > Circuit Description; APP Sensor Position Table; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1278",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1278 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1278/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "64dbac36bf9952d92217f8d3712736aec3bf507fbbc81ccf6f664de4ccf71d33",
+    "codeMentions": [
+      {
+        "code": "P1278",
+        "locator": "P1278 > Circuit Description; APP Sensor Position Table; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1283",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1283 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1283/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "bef26f9dff1e612842e3c7a66b6d4c110fa8d34a64765e8d129c4133b3dd7bb2",
+    "codeMentions": [
+      {
+        "code": "P1283",
+        "locator": "P1283 > Circuit Description; APP Sensor Position Table; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1287",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1287 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1287/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "875081e783ec596be3150d36097f4e6472d99311ed4c6cfb55902e04a07d2202",
+    "codeMentions": [
+      {
+        "code": "P1287",
+        "locator": "P1287 > Circuit Description; APP Sensor Position Table; Conditions for Running/Setting; Action Taken"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1574",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1574 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1574/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "024d09390756a986e53c7094de080e20dd3598f3d4a0e9c69ddef84f54096198",
+    "codeMentions": [
+      {
+        "code": "P1574",
+        "locator": "P1574 > Circuit Description; Conditions for Running/Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001k2500-p1689",
+    "title": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 — P1689 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/K%202500%20Truck%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%201/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1689/",
+    "documentScope": "2001 Chevrolet K 2500 Truck 4WD V8-6.6L DSL Turbo VIN 1 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "2b38e5e94d88c1f228fe43d90334528b3c3fe3fd097d1e8b50ebdde637813b0a",
+    "codeMentions": [
+      {
+        "code": "P1689",
+        "locator": "P1689 > shared C0287/P1644/P1689 Circuit Description; Conditions for Running/Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy1996impala-p0323",
+    "title": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI — P0323 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/1996/Impala%20SS%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0323/",
+    "documentScope": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "dce4efacba817a5ede387aca23e3514e13538c7bbd8aa5be1c00bc726216a84e",
+    "codeMentions": [
+      {
+        "code": "P0323",
+        "locator": "P0323 > Circuit Description; Conditions for Setting; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy1996impala-p1661",
+    "title": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI — P1661 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/1996/Impala%20SS%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1661/",
+    "documentScope": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "c97f635f027aee0894b155c328427e43d9050ea8452bbd4f765de6fad859f56a",
+    "codeMentions": [
+      {
+        "code": "P1661",
+        "locator": "P1661 > Circuit Description; Conditions for Setting; Action Taken; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy1996impala-p1812",
+    "title": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI — P1812 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/1996/Impala%20SS%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1812/",
+    "documentScope": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "131159ce97483f40af5f04746da305b444ee04f9799ab3b24e3ae59767573ac5",
+    "codeMentions": [
+      {
+        "code": "P1812",
+        "locator": "P1812 > Circuit Description; Conditions for Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy1996impala-p1864",
+    "title": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI — P1864 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/1996/Impala%20SS%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1864/",
+    "documentScope": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "db39f1f630efc2fc280d28156205e43cb5f16864496df31e6d7a9527ec8f3417",
+    "codeMentions": [
+      {
+        "code": "P1864",
+        "locator": "P1864 > Circuit Description; Conditions for Setting; Action Taken; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy1996impala-p1873",
+    "title": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI — P1873 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/1996/Impala%20SS%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1873/",
+    "documentScope": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "18e6e80536644b9787fab935c06efe795951458334f67770b31b05126c263bf2",
+    "codeMentions": [
+      {
+        "code": "P1873",
+        "locator": "P1873 > Circuit Description; Conditions for Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy1996impala-p1874",
+    "title": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI — P1874 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/1996/Impala%20SS%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1874/",
+    "documentScope": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "740c13881eb7c29df3f300765e8919714d26e86ce4c5c1c814107299ec7408d5",
+    "codeMentions": [
+      {
+        "code": "P1874",
+        "locator": "P1874 > Circuit Description; Conditions for Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy1996impala-p1886",
+    "title": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI — P1886 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/1996/Impala%20SS%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1886/",
+    "documentScope": "1996 Chevrolet Impala SS V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "be766e4771069a43f454afb82515d29634ced7ed2f5dd85e2f62388d6f6d300f",
+    "codeMentions": [
+      {
+        "code": "P1886",
+        "locator": "P1886 > Circuit Description; Conditions for Setting; Action Taken; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2001corvette-p0804",
+    "title": "2001 Chevrolet Corvette V8-5.7L VIN S — P0804 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2001/Corvette%20V8-5.7L%20VIN%20S/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0804/",
+    "documentScope": "2001 Chevrolet Corvette V8-5.7L VIN S factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "e2f8e198aad5bac860eb92f420209334633fa19735f3f0df6d329506f76b7e26",
+    "codeMentions": [
+      {
+        "code": "P0804",
+        "locator": "P0804 > Circuit Description; Conditions for Enabling the Skip Shift Solenoid and Lamp; Conditions for Running/Setting; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-cadillac2000eldorado-p0574",
+    "title": "2000 Cadillac Eldorado V8-4.6L VIN Y — P0574 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Cadillac/2000/Eldorado%20V8-4.6L%20VIN%20Y/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0574/",
+    "documentScope": "2000 Cadillac Eldorado V8-4.6L VIN Y factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "9ef52dec7ca1a62e350536982995d91bf0a44a2d5afe82afe4a2f74fc82f4198",
+    "codeMentions": [
+      {
+        "code": "P0574",
+        "locator": "P0574 > Circuit Description; Conditions for Running/Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-cadillac2000eldorado-p1567",
+    "title": "2000 Cadillac Eldorado V8-4.6L VIN Y — P1567 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Cadillac/2000/Eldorado%20V8-4.6L%20VIN%20Y/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1567/",
+    "documentScope": "2000 Cadillac Eldorado V8-4.6L VIN Y factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "89e5625e905d46be41382b23a5a086bc33438b8195ab271714ec27c75fa24694",
+    "codeMentions": [
+      {
+        "code": "P1567",
+        "locator": "P1567 > Circuit Description; Conditions for Running/Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-cadillac2000eldorado-p1585",
+    "title": "2000 Cadillac Eldorado V8-4.6L VIN Y — P1585 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Cadillac/2000/Eldorado%20V8-4.6L%20VIN%20Y/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1585/",
+    "documentScope": "2000 Cadillac Eldorado V8-4.6L VIN Y factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "2bc68f367ffaa3aadc3ef115e06a4950bffd44b33c9b46ebc88016ef1778d96f",
+    "codeMentions": [
+      {
+        "code": "P1585",
+        "locator": "P1585 > Circuit Description; Conditions for Running/Setting; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-cadillac2000eldorado-p1652",
+    "title": "2000 Cadillac Eldorado V8-4.6L VIN Y — P1652 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Cadillac/2000/Eldorado%20V8-4.6L%20VIN%20Y/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1652/",
+    "documentScope": "2000 Cadillac Eldorado V8-4.6L VIN Y factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "e8df2c597f7bb06c30b5aff1881560f26286bf670031ad17a2a033924d024e5c",
+    "codeMentions": [
+      {
+        "code": "P1652",
+        "locator": "P1652 > Circuit Description; Conditions for Running/Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-cadillac2000eldorado-p1868",
+    "title": "2000 Cadillac Eldorado V8-4.6L VIN Y — P1868 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Cadillac/2000/Eldorado%20V8-4.6L%20VIN%20Y/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1868/",
+    "documentScope": "2000 Cadillac Eldorado V8-4.6L VIN Y factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "6f537178917b95fe0bdc54a48ab193e267e0a9bc2a18fa60b11a7a61d5d9a97c",
+    "codeMentions": [
+      {
+        "code": "P1868",
+        "locator": "P1868 > Circuit Description with 4T80-E; Conditions for Running/Setting; Action Taken; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2000tahoe-pcm-p0785",
+    "title": "2000 Chevrolet K Tahoe 4WD V8-5.3L VIN T — P0785 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2000/K%20Tahoe%204WD%20V8-5.3L%20VIN%20T/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0785/Powertrain%20Diagnosis/",
+    "documentScope": "2000 Chevrolet K Tahoe 4WD V8-5.3L VIN T factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "b409ddafc2172f276e11282f07b10a44b7b6e3f947ac07a1e11355fa1a76bae8",
+    "codeMentions": [
+      {
+        "code": "P0785",
+        "locator": "P0785 > Powertrain Diagnosis > Circuit Description; Conditions for Running/Setting; Action Taken; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-buick1996riviera-p1200",
+    "title": "1996 Buick Riviera V6-3.8L VIN K — P1200 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Buick/1996/Riviera%20V6-3.8L%20VIN%20K/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1200/",
+    "documentScope": "1996 Buick Riviera V6-3.8L VIN K factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "buick"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "7f718862495094816711677d72a20b0c99aaa50c65e0c28b47698c4b88d59782",
+    "codeMentions": [
+      {
+        "code": "P1200",
+        "locator": "P1200 > Circuit Description; Conditions for Setting; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-buick1996riviera-p1257",
+    "title": "1996 Buick Riviera V6-3.8L VIN K — P1257 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Buick/1996/Riviera%20V6-3.8L%20VIN%20K/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1257/",
+    "documentScope": "1996 Buick Riviera V6-3.8L VIN K factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "buick"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "e442b6b108536e7f21ca36d4b01dd73c433a99c5def66c821e3a1c6b3068a6e2",
+    "codeMentions": [
+      {
+        "code": "P1257",
+        "locator": "P1257 > Circuit Description; Conditions for Setting; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-buick1996riviera-p1573",
+    "title": "1996 Buick Riviera V6-3.8L VIN K — P1573 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Buick/1996/Riviera%20V6-3.8L%20VIN%20K/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1573/",
+    "documentScope": "1996 Buick Riviera V6-3.8L VIN K factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "buick"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "6e2450ef1dfa2aab643a639966c5cf909c8bfa2469478e744bbe2e56fdf6a8ec",
+    "codeMentions": [
+      {
+        "code": "P1573",
+        "locator": "P1573 > Circuit Description; Conditions for Setting; Action Taken; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-buick1996riviera-p1629",
+    "title": "1996 Buick Riviera V6-3.8L VIN K — P1629 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Buick/1996/Riviera%20V6-3.8L%20VIN%20K/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1629/",
+    "documentScope": "1996 Buick Riviera V6-3.8L VIN K factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "buick"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "0c29dfbed5645c7fa09eaea0912a91267e561bbce5b269ca6b21696ca45648cf",
+    "codeMentions": [
+      {
+        "code": "P1629",
+        "locator": "P1629 > Circuit Description; Conditions for Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-buick1996riviera-p1662",
+    "title": "1996 Buick Riviera V6-3.8L VIN K — P1662 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Buick/1996/Riviera%20V6-3.8L%20VIN%20K/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1662/",
+    "documentScope": "1996 Buick Riviera V6-3.8L VIN K factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "buick"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "dc3af20051fdb65ce83bb530d7799ec4c5cd288c9e35ac6ea023d1b981695e5c",
+    "codeMentions": [
+      {
+        "code": "P1662",
+        "locator": "P1662 > Circuit Description; Conditions for Setting; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-pontiac1996firebird-p1572",
+    "title": "1996 Pontiac Firebird V8-350 5.7L VIN P SFI — P1572 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Pontiac/1996/Firebird%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1572/Transmission%20Diagnostics/",
+    "documentScope": "1996 Pontiac Firebird V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "pontiac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "e666580544643875e8b09128efa2affef393bfa28fbe0e37722b0cb386934edd",
+    "codeMentions": [
+      {
+        "code": "P1572",
+        "locator": "P1572 > Transmission Diagnostics > Circuit Description; Conditions for Setting; Action Taken; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-pontiac1996firebird-p1664",
+    "title": "1996 Pontiac Firebird V8-350 5.7L VIN P SFI — P1664 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Pontiac/1996/Firebird%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1664/",
+    "documentScope": "1996 Pontiac Firebird V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "pontiac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "31e97663c7dead457ccaddd05b14a3881086118a0b28639100e299ae64d1197e",
+    "codeMentions": [
+      {
+        "code": "P1664",
+        "locator": "P1664 > Circuit Description; Conditions for Setting; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-pontiac1996firebird-p1667",
+    "title": "1996 Pontiac Firebird V8-350 5.7L VIN P SFI — P1667 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Pontiac/1996/Firebird%20V8-350%205.7L%20VIN%20P%20SFI/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1667/",
+    "documentScope": "1996 Pontiac Firebird V8-350 5.7L VIN P SFI factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "pontiac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "0bba391189a14c76d79da13b3cb8b798d5fc586bd08298aa6500564914b309e3",
+    "codeMentions": [
+      {
+        "code": "P1667",
+        "locator": "P1667 > Circuit Description; Conditions for Setting; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-cadillac2005deville-p0897",
+    "title": "2005 Cadillac DeVille V8-4.6L VIN Y — P0897 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Cadillac/2005/DeVille%20V8-4.6L%20VIN%20Y/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0897/",
+    "documentScope": "2005 Cadillac DeVille V8-4.6L VIN Y factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "3a7e4b6a916e50c39f7c9812afc2e711a2951f5126e34e894a85ae2ebb432ecc",
+    "codeMentions": [
+      {
+        "code": "P0897",
+        "locator": "P0897 > Circuit Description; Conditions for Running/Setting; Action Taken; Diagnostic Aids; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "gm-cadillac2005deville-p1536",
+    "title": "2005 Cadillac DeVille V8-4.6L VIN Y — P1536 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Cadillac/2005/DeVille%20V8-4.6L%20VIN%20Y/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1536/",
+    "documentScope": "2005 Cadillac DeVille V8-4.6L VIN Y factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "2a33a9f8d5d6fcce28dc9a08e3fa63344022aaf44a211816df7c3e0887787c6e",
+    "codeMentions": [
+      {
+        "code": "P1536",
+        "locator": "P1536 > Circuit Description; DTC Descriptor; Conditions for Setting/Clearing; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "gm-cadillac2005deville-p1826",
+    "title": "2005 Cadillac DeVille V8-4.6L VIN Y — P1826 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Cadillac/2005/DeVille%20V8-4.6L%20VIN%20Y/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P1826/",
+    "documentScope": "2005 Cadillac DeVille V8-4.6L VIN Y factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "cadillac"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "5326760fb4d09928209504c5ea5693d311f59a41933f759a3129a2a8b3d2f72d",
+    "codeMentions": [
+      {
+        "code": "P1826",
+        "locator": "P1826 > Circuit Description; DTC Descriptor; Conditions for Running/Setting; Action Taken; Test Description"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2002outback-p0065",
+    "title": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC — P0065 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2002/Outback%20Limited%20Sedan%20AWD%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0065/",
+    "documentScope": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "2a3fbfc180bbbb92f8e6e29993d73a8aaf3865bfbff234fc4a0127d15e626b8a",
+    "codeMentions": [
+      {
+        "code": "P0065",
+        "locator": "P0065 > DTC Detecting Condition; Trouble Symptom; embedded Step 1–4 diagnostic chart"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2002outback-p0066",
+    "title": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC — P0066 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2002/Outback%20Limited%20Sedan%20AWD%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0066/",
+    "documentScope": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "5c8b750352037267e87be677065f1e17b40ae86c277b3cca3229f847bc543c46",
+    "codeMentions": [
+      {
+        "code": "P0066",
+        "locator": "P0066 > DTC Detecting Condition; Trouble Symptom; embedded Step 1–5 diagnostic chart"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2002outback-p0067",
+    "title": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC — P0067 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2002/Outback%20Limited%20Sedan%20AWD%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0067/",
+    "documentScope": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "8308157c2e1bb701642c9908929fbf7768265c26a86b39bedf41b1d6f13574fe",
+    "codeMentions": [
+      {
+        "code": "P0067",
+        "locator": "P0067 > DTC Detecting Condition; Trouble Symptom; embedded Step 1–3 diagnostic chart"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2002outback-p0865",
+    "title": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC — P0865 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2002/Outback%20Limited%20Sedan%20AWD%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0865/",
+    "documentScope": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "7018ef1d6e56d9a1587aab14ec3c2eaace22f29553b7a6fce0f635defda93c00",
+    "codeMentions": [
+      {
+        "code": "P0865",
+        "locator": "P0865 > DTC Detecting Condition; embedded Step 1–4 diagnostic chart"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2002outback-p0866",
+    "title": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC — P0866 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2002/Outback%20Limited%20Sedan%20AWD%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0866/",
+    "documentScope": "2002 Subaru Outback Limited Sedan AWD F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "c0c3e56b79ab341e563623025a465ded4c500d2c44baed3e28b9a6ea0bc047f2",
+    "codeMentions": [
+      {
+        "code": "P0866",
+        "locator": "P0866 > DTC Detecting Condition; embedded Step 1–6 diagnostic chart"
+      }
+    ]
+  },
+  {
+    "id": "gm-chevy2005silverado-p0612",
+    "title": "2005 Chevrolet Silverado 2500 4WD V8-6.6L DSL Turbo VIN 2 — P0612 diagnostic procedure",
+    "publisher": "General Motors factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Chevrolet/2005/Silverado%202500%204WD%20V8-6.6L%20DSL%20Turbo%20VIN%202/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0612/",
+    "documentScope": "2005 Chevrolet Silverado 2500 4WD V8-6.6L DSL Turbo VIN 2 factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "chevrolet"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "d0b408ac680f4fbdd21a405d441777a0228e8f60503328f2540c3514ae5ff2a8",
+    "codeMentions": [
+      {
+        "code": "P0612",
+        "locator": "P0612 > Circuit Description; DTC Descriptor; Conditions for Running/Setting; Action Taken; Diagnostic Aids"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2011impreza-criteria-p0026",
+    "title": "2011 Subaru Impreza F4-2.5L SOHC — P0026 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2011/Impreza%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/Diagnostic%20Trouble%20Code%20Descriptions/Diagnostic%20Trouble%20Code%20%28DTC%29%20Detecting%20Criteria/P%20Codes/P0026/",
+    "documentScope": "2011 Subaru Impreza F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "89ac09f42cfe52ab52ee00c04a051291a7b8b3aebc930b2ab6288e5d01a906ee",
+    "codeMentions": [
+      {
+        "code": "P0026",
+        "locator": "DTC Detecting Criteria > P Codes; Outline of Diagnosis; Enable Conditions figure; Diagnostic Method abnormality and normality judgment figures"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2011impreza-criteria-p0028",
+    "title": "2011 Subaru Impreza F4-2.5L SOHC — P0028 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2011/Impreza%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/Diagnostic%20Trouble%20Code%20Descriptions/Diagnostic%20Trouble%20Code%20%28DTC%29%20Detecting%20Criteria/P%20Codes/P0028/",
+    "documentScope": "2011 Subaru Impreza F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "1a498069e5fc6067f4fb0bb802bc5ec9aff4e01b4a0c1b11739275dd672de18f",
+    "codeMentions": [
+      {
+        "code": "P0028",
+        "locator": "DTC Detecting Criteria > P Codes; Outline of Diagnosis; Enable Conditions figure; Diagnostic Method abnormality and normality judgment figures"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2011impreza-criteria-p0076",
+    "title": "2011 Subaru Impreza F4-2.5L SOHC — P0076 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2011/Impreza%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/Diagnostic%20Trouble%20Code%20Descriptions/Diagnostic%20Trouble%20Code%20%28DTC%29%20Detecting%20Criteria/P%20Codes/P0076/",
+    "documentScope": "2011 Subaru Impreza F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "d23265fdfc6b6cbe0cc05a2f2caaad4e8083d6cd74bbba3d32f93937e148030a",
+    "codeMentions": [
+      {
+        "code": "P0076",
+        "locator": "DTC Detecting Criteria > P Codes; Outline of Diagnosis; Enable Conditions figure; Diagnostic Method abnormality and normality judgment figures"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2011impreza-criteria-p0077",
+    "title": "2011 Subaru Impreza F4-2.5L SOHC — P0077 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2011/Impreza%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/Diagnostic%20Trouble%20Code%20Descriptions/Diagnostic%20Trouble%20Code%20%28DTC%29%20Detecting%20Criteria/P%20Codes/P0077/",
+    "documentScope": "2011 Subaru Impreza F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "f1d5303c2c64a2beb0a5956d460aa99d83a690d59e7d383a8dbc19eb83ecd24f",
+    "codeMentions": [
+      {
+        "code": "P0077",
+        "locator": "DTC Detecting Criteria > P Codes; Outline of Diagnosis; Enable Conditions figure; Diagnostic Method abnormality and normality judgment figures"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2011impreza-criteria-p0082",
+    "title": "2011 Subaru Impreza F4-2.5L SOHC — P0082 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2011/Impreza%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/Diagnostic%20Trouble%20Code%20Descriptions/Diagnostic%20Trouble%20Code%20%28DTC%29%20Detecting%20Criteria/P%20Codes/P0082/",
+    "documentScope": "2011 Subaru Impreza F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "e867a46accb3cc56ddcbe4aa73ae708332de4f9db1b6f2aaeb63ac11edc86ae8",
+    "codeMentions": [
+      {
+        "code": "P0082",
+        "locator": "DTC Detecting Criteria > P Codes; Outline of Diagnosis; Enable Conditions figure; Diagnostic Method abnormality and normality judgment figures"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2011impreza-criteria-p0083",
+    "title": "2011 Subaru Impreza F4-2.5L SOHC — P0083 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2011/Impreza%20F4-2.5L%20SOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/Diagnostic%20Trouble%20Code%20Descriptions/Diagnostic%20Trouble%20Code%20%28DTC%29%20Detecting%20Criteria/P%20Codes/P0083/",
+    "documentScope": "2011 Subaru Impreza F4-2.5L SOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "ddfa4cd306d04c46c82871d24b6b34142276b9191b33dfea35946bf4342cb20a",
+    "codeMentions": [
+      {
+        "code": "P0083",
+        "locator": "DTC Detecting Criteria > P Codes; Outline of Diagnosis; Enable Conditions figure; Diagnostic Method abnormality and normality judgment figures"
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2008outback-p0817",
+    "title": "2008 Subaru Outback F6-3.0L DOHC — P0817 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2008/Outback%20F6-3.0L%20DOHC/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0817/",
+    "documentScope": "2008 Subaru Outback F6-3.0L DOHC factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "05c3e49c061cc10f64b9c3f973c10313365a3e56c4ef3ccae9f70d954cc170b6",
+    "codeMentions": [
+      {
+        "code": "P0817",
+        "locator": "P Code Charts > P0817; DTC description, wiring diagram and diagnostic chart steps 1–8"
+      }
+    ]
+  },
+  {
+    "id": "mazda-mazda2009rx8-p2405",
+    "title": "2009 Mazda RX8 2RTR-1.3L — P2405 diagnostic procedure",
+    "publisher": "Mazda factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Mazda/2009/RX8%202RTR-1.3L/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P2405/",
+    "documentScope": "2009 Mazda RX8 2RTR-1.3L factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "mazda"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "b4b3e42a745847ca0487f2f8c64b7594c2b0d8594a606f3e13b1d82419274d0a",
+    "codeMentions": [
+      {
+        "code": "P2405",
+        "locator": "P Code Charts > P2405; detection-condition and possible-cause figure; diagnostic procedure figure, steps 1–5"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0812",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0812 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0812/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "35690561f437c648e0912602084d23babffa6893790b8c324363bcd0fa8308fd",
+    "codeMentions": [
+      {
+        "code": "P0812",
+        "locator": "P0812; DTC detection table and inspection figures, steps 1–8"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0820",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0820 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0820/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "cc07ce51934c0a0a37099ad54b4845be529c8718512e36f42acabad976e4a000",
+    "codeMentions": [
+      {
+        "code": "P0820",
+        "locator": "P0820; Monitor Description; Monitor Strategy; Typical Malfunction Thresholds Tables 1–2; inspection steps 1–3"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0860",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0860 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0860/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "9594b40c0972039d1f50be36b22ef4d5ec0962dd719a0534558bc93180a96c27",
+    "codeMentions": [
+      {
+        "code": "P0860",
+        "locator": "P0860; Circuit Description; Monitor Strategy; Typical Enabling Conditions and Malfunction Thresholds; inspection steps 1–3"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0896",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0896 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0896/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "f0ba04bc469a804bb2adc5d47b7bd6c18dbd7e9aa16cad5c7d8d76fae397295c",
+    "codeMentions": [
+      {
+        "code": "P0896",
+        "locator": "P0896; detection and monitor tables; inspection figures, steps 1–10"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0905",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0905 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0905/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "51ca6c86b5f80be14fc697b1a3dfda865851152510f0e7983b182fa26902c4d2",
+    "codeMentions": [
+      {
+        "code": "P0905",
+        "locator": "P0905; DTC detection table; inspection steps 1–3, including select-stroke voltage/angle table"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0915",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0915 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0915/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "43de9fe89769467cc95072acb6ed39447c42790de80e738f7e7df76d4b2fa1e2",
+    "codeMentions": [
+      {
+        "code": "P0915",
+        "locator": "P0915; DTC detection table; inspection steps 1–3, including shift-stroke voltage/angle table"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0942",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0942 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0942/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "f509f39e126f96cc9a72d7bfce35bf30b0d43e3a24f569b2eeda12850256f32c",
+    "codeMentions": [
+      {
+        "code": "P0942",
+        "locator": "P0942; DTC detection conditions figure; inspection figures, steps 1–9 and ACCUM PRESS table"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0945",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0945 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0945/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "0b39839b5a905509bad43b16031e4e1ee6ae94169972b3f8f6189eaffb0bcec7",
+    "codeMentions": [
+      {
+        "code": "P0945",
+        "locator": "P0945; DTC detection table; wiring diagram; motor-relay inspection and MTRL circuit steps 1–2"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0906",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0906 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0906/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "2e6b56eddfa2a8feedc9c1553782d0b71ff02aa506114f9a02f6e3896e976181",
+    "codeMentions": [
+      {
+        "code": "P0906",
+        "locator": "P0906/P0907 shared detection table; TARG SEL STRK active-test figure; resistance, wiring and sensor inspection steps 1–5"
+      }
+    ]
+  },
+  {
+    "id": "toyota-toyota2005mr2-p0907",
+    "title": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) — P0907 diagnostic procedure",
+    "publisher": "Toyota factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Toyota/2005/MR2%20Spyder%20L4-1.8L%20%281ZZ-FE%29/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/P%20Code%20Charts/P0907/",
+    "documentScope": "2005 Toyota MR2 Spyder L4-1.8L (1ZZ-FE) factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "toyota"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "bc05ab2f7d7b328b633f3788d0ba17103d2261a3a775600d7e82b4d2e8cf2f5f",
+    "codeMentions": [
+      {
+        "code": "P0907",
+        "locator": "P0906/P0907 shared detection table; inspection steps 1–5, particularly select-stroke component test and ECU branch"
+      }
+    ]
+  },
+  {
+    "id": "vw-phaeton-bap-brp-gst-2014",
+    "title": "Volkswagen Phaeton BAP/BRP Generic Scan Tool — edition 11.2014",
+    "publisher": "Volkswagen AG factory manual, reproduced by VWTS",
+    "url": "https://vwts.ru/diag/engine-bap-brp-phaeton-diagnostic-eng.pdf",
+    "documentScope": "Volkswagen Phaeton 2004 onward, engine IDs BAP and BRP, Generic Scan Tool factory manual edition 11.2014; limited to the components and transmission system described in that manual. Original Volkswagen manual reproduced by VWTS.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-10-31",
+    "pageCount": 212,
+    "sha256": "cbbfc2ad6d8fe6faa13b91867b7ac5252e613223d48e07385a7a2aff143352d7",
+    "extractionMethod": "Full PDF text extraction; actual DTC mapping rows, referenced component procedures and critical rendered physical pages reviewed",
+    "codeMentions": [
+      {
+        "code": "P0614",
+        "pages": [
+          91,
+          211,
+          212
+        ]
+      },
+      {
+        "code": "P0714",
+        "pages": [
+          103,
+          205,
+          206,
+          207
+        ]
+      },
+      {
+        "code": "P0749",
+        "pages": [
+          104,
+          209,
+          210,
+          211
+        ]
+      },
+      {
+        "code": "P0779",
+        "pages": [
+          105,
+          209,
+          210,
+          211
+        ]
+      },
+      {
+        "code": "P0799",
+        "pages": [
+          105,
+          209,
+          210,
+          211
+        ]
+      },
+      {
+        "code": "P2717",
+        "pages": [
+          96,
+          209,
+          210,
+          211
+        ]
+      },
+      {
+        "code": "P2726",
+        "pages": [
+          96,
+          209,
+          210,
+          211
+        ]
+      },
+      {
+        "code": "P1207",
+        "pages": [
+          93,
+          159,
+          160,
+          161,
+          162,
+          163
+        ]
+      }
+    ]
+  },
+  {
+    "id": "subaru-subaru2012forester-criteria-p2012",
+    "title": "2012 Subaru Forester F4-2.5L DOHC Turbo — P2012 diagnostic procedure",
+    "publisher": "Subaru factory service information, reproduced by Operation CHARM",
+    "url": "https://charm.li/Subaru/2012/Forester%20F4-2.5L%20DOHC%20Turbo/Repair%20and%20Diagnosis/A%20L%20L%20%20Diagnostic%20Trouble%20Codes%20%28%20DTC%20%29/Testing%20and%20Inspection/Diagnostic%20Trouble%20Code%20Descriptions/Diagnostic%20Trouble%20Code%20%28DTC%29%20Detecting%20Criteria/P%20Codes/P2012/",
+    "documentScope": "2012 Subaru Forester F4-2.5L DOHC Turbo factory diagnostic procedure as reproduced by Operation CHARM; the article applies only to the cited controller/system, and the index does not establish all equipment fitment.",
+    "makeIds": [
+      "subaru"
+    ],
+    "checkedOn": "2026-10-31",
+    "extractionMethod": "HTML text extraction and cited embedded diagnostic figure inspection where used",
+    "sha256": "f41dfe2febc347cf7b1fa7ea049aa3d597c9e1ac0685014c32821492c5b92f5b",
+    "codeMentions": [
+      {
+        "code": "P2012",
+        "locator": "DTC Detecting Criteria > P Codes > P2012; Outline of Diagnosis; Enable Condition figure; Abnormality and Normality Judgment figures"
+      }
+    ]
+  },
+  {
+    "id": "mitsubishi-2022-dg02-p2018",
+    "title": "Mitsubishi 2022 engine-control P2018 detection and confirmation",
+    "publisher": "Mitsubishi Motors North America, official service information",
+    "url": "https://mitsubishitechinfo.com/data/DG/2022/02/HTML/N5020401U0010T00USA.htm",
+    "documentScope": "Mitsubishi Motors 2022 DG/02 engine-control service-information collection; limited to the exact P2018 procedure and controller described. Vehicle/VIN applicability must be checked in the matching factory manual.",
+    "makeIds": [
+      "mitsubishi"
+    ],
+    "checkedOn": "2026-10-31",
+    "sha256": "4eaa07839f46353c0843b19684ac64ec59398e363c07ac33e234543be9f23714",
+    "extractionMethod": "Complete HTML DTC-specific detection table, confirmation and linked diagnostic procedure reviewed where cited",
+    "codeMentions": [
+      {
+        "code": "P2018",
+        "locator": "DTC Description > DTC Detection Logic, Possible Cause, Fail-Safe and DTC Confirmation Procedure"
+      }
+    ]
+  },
+  {
+    "id": "mitsubishi-2022-dg02-p2018-procedure",
+    "title": "Mitsubishi 2022 engine-control P2018 diagnosis procedure",
+    "publisher": "Mitsubishi Motors North America, official service information",
+    "url": "https://mitsubishitechinfo.com/data/DG/2022/02/HTML/N5020401W000IN00USA.htm",
+    "documentScope": "Mitsubishi Motors 2022 DG/02 engine-control service-information collection; limited to the exact P2018 procedure and controller described. Vehicle/VIN applicability must be checked in the matching factory manual.",
+    "makeIds": [
+      "mitsubishi"
+    ],
+    "checkedOn": "2026-10-31",
+    "sha256": "c68c6c2ca6e3918fd65b8749cd701ccaefc3e03439fde391d50457a1c1915bfb",
+    "extractionMethod": "Complete HTML DTC-specific detection table, confirmation and linked diagnostic procedure reviewed where cited",
+    "codeMentions": [
+      {
+        "code": "P2018",
+        "locator": "DTC Diagnosis Procedure; all numbered diagnostic steps"
+      }
+    ]
+  },
+  {
+    "id": "mitsubishi-2022-dg02-p0078",
+    "title": "Mitsubishi 2022 engine-control P0078 detection and confirmation",
+    "publisher": "Mitsubishi Motors North America, official service information",
+    "url": "https://mitsubishitechinfo.com/data/DG/2022/02/HTML/N5020401U000VG00USA.htm",
+    "documentScope": "Mitsubishi Motors 2022 DG/02 engine-control service-information collection; limited to the exact P0078 procedure and controller described. Vehicle/VIN applicability must be checked in the matching factory manual.",
+    "makeIds": [
+      "mitsubishi"
+    ],
+    "checkedOn": "2026-10-31",
+    "sha256": "fc8f6be830533dd06b6b040b5ba136dce3ce4247547fac7498ad7e884dac541e",
+    "extractionMethod": "Complete HTML DTC-specific detection table, confirmation and linked diagnostic procedure reviewed where cited",
+    "codeMentions": [
+      {
+        "code": "P0078",
+        "locator": "DTC Description > DTC Detection Logic, Possible Cause, Fail-Safe and DTC Confirmation Procedure"
+      }
+    ]
+  },
+  {
+    "id": "mitsubishi-2022-dg02-p044b",
+    "title": "Mitsubishi 2022 engine-control P044B detection and confirmation",
+    "publisher": "Mitsubishi Motors North America, official service information",
+    "url": "https://mitsubishitechinfo.com/data/DG/2022/02/HTML/N5020401U000Y300USA.htm",
+    "documentScope": "Mitsubishi Motors 2022 DG/02 engine-control service-information collection; limited to the exact P044B procedure and controller described. Vehicle/VIN applicability must be checked in the matching factory manual.",
+    "makeIds": [
+      "mitsubishi"
+    ],
+    "checkedOn": "2026-10-31",
+    "sha256": "9b381f45c0d51ae28810c98c06cf278ec702a3b04909dd34ef14a7a8d446c31c",
+    "extractionMethod": "Complete HTML DTC-specific detection table, confirmation and linked diagnostic procedure reviewed where cited",
+    "codeMentions": [
+      {
+        "code": "P044B",
+        "locator": "DTC Description > DTC Detection Logic, Possible Cause, Fail-Safe and DTC Confirmation Procedure"
+      }
+    ]
+  },
+  {
+    "id": "mitsubishi-2022-dg02-p044b-procedure",
+    "title": "Mitsubishi 2022 engine-control P044B diagnosis procedure",
+    "publisher": "Mitsubishi Motors North America, official service information",
+    "url": "https://mitsubishitechinfo.com/data/DG/2022/02/HTML/N5020401N000I700USA.htm",
+    "documentScope": "Mitsubishi Motors 2022 DG/02 engine-control service-information collection; limited to the exact P044B procedure and controller described. Vehicle/VIN applicability must be checked in the matching factory manual.",
+    "makeIds": [
+      "mitsubishi"
+    ],
+    "checkedOn": "2026-10-31",
+    "sha256": "99a7e3c86e9872064a20e7ef4e33604e3e7517e1ad8ab13194c85a0a59dcabe7",
+    "extractionMethod": "Complete HTML DTC-specific detection table, confirmation and linked diagnostic procedure reviewed where cited",
+    "codeMentions": [
+      {
+        "code": "P044B",
+        "locator": "DTC Diagnosis Procedure; all numbered diagnostic steps"
+      }
+    ]
+  }
+]

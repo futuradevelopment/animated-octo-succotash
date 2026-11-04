@@ -1,0 +1,5819 @@
+[
+  {
+    "code": "B1030",
+    "entryId": "ford-b1030",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1030.md",
+    "title": "B1030: a driver heated-seat control fault is not automatically a failed mat",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-a8200526bdec9d"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-a8200526bdec9d",
+        "locator": "Pinpoint Test R: The Heated Seat is Inoperative - Driver; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1032",
+    "entryId": "ford-b1032",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1032.md",
+    "title": "B1032: following the passenger heated-seat request to its control module",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-0b57af94d3fd64"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-0b57af94d3fd64",
+        "locator": "Pinpoint Test S: The Heated Seat is Inoperative - Passenger; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B103B",
+    "entryId": "ford-b103b",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B103B.md",
+    "title": "B103B: driver-seat cooling can shut down on a grounded TED circuit",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-288a30161c3fbf"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-288a30161c3fbf",
+        "locator": "Pinpoint Test W: DTCs B103B and B1111; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B103C",
+    "entryId": "ford-b103c",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B103C.md",
+    "title": "B103C: an open driver TED circuit does not always stop the seat controller",
+    "wordCount": 254,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-b692f83093e372"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-b692f83093e372",
+        "locator": "Pinpoint Test X: DTC B103C; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B103D",
+    "entryId": "ford-b103d",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B103D.md",
+    "title": "B103D: driver-seat blower load can overheat its electronic output stage",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-24f7b8a998f314"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-24f7b8a998f314",
+        "locator": "Pinpoint Test Y: DTC B103D; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B106E",
+    "entryId": "ford-b106e",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B106E.md",
+    "title": "B106E: why the Fusion junction box can switch an output off",
+    "wordCount": 254,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-25a18a2daa74d9"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-25a18a2daa74d9",
+        "locator": "Pinpoint Test A: DTCs B106E, B106F; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B106F",
+    "entryId": "ford-b106f",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B106F.md",
+    "title": "B106F: the final overload threshold in the Fusion SJB",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-25a18a2daa74d9"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-25a18a2daa74d9",
+        "locator": "Pinpoint Test A: DTCs B106E, B106F; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1083",
+    "entryId": "ford-b1083",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1083.md",
+    "title": "B1083: diagnosing the air-inlet actuator by its electrical suffix",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-6d31fb49adb526"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-6d31fb49adb526",
+        "locator": "Pinpoint Test J: The Air Inlet Door is Inoperative; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B109E",
+    "entryId": "ford-b109e",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B109E.md",
+    "title": "B109E: what the not-programmed suffix means during keyhead transmitter programming",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-a84a895b735ca2"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-a84a895b735ca2",
+        "locator": "Pinpoint Test R: B109E:51; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B10AF",
+    "entryId": "ford-b10af",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B10AF.md",
+    "title": "B10AF: the relay-coil circuit behind a silent automatic-climate blower",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-7eedb4b153be5b"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-7eedb4b153be5b",
+        "locator": "Pinpoint Test S: The Blower Motor is Inoperative - DATC; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B10B9",
+    "entryId": "ford-b10b9",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B10B9.md",
+    "title": "B10B9: when the HVAC speed command cannot reach the blower controller",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-7eedb4b153be5b"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-7eedb4b153be5b",
+        "locator": "Pinpoint Test S: The Blower Motor is Inoperative - DATC; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B10D5",
+    "entryId": "ford-b10d5",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B10D5.md",
+    "title": "B10D5: an antenna fault does not automatically erase the Fusion's learned keys",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-cce542a3cdff8e"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-cce542a3cdff8e",
+        "locator": "Pinpoint Test A: DTC B10D5:13; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B10D7",
+    "entryId": "ford-b10d7",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B10D7.md",
+    "title": "B10D7: when the Fusion reports a key-programming failure",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-7fe1e9206a8871"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-7fe1e9206a8871",
+        "locator": "Pinpoint Test I: DTC B10D7:05; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B10D9",
+    "entryId": "ford-b10d9",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B10D9.md",
+    "title": "B10D9: a missing transceiver message can be a power or wiring fault",
+    "wordCount": 255,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-7c9128d058958f"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-7c9128d058958f",
+        "locator": "Pinpoint Test E: DTC B10D9:87; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B10DA",
+    "entryId": "ford-b10da",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B10DA.md",
+    "title": "B10DA: an invalid anti-theft handshake on the Fusion network",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-efcff800d1aca1"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-efcff800d1aca1",
+        "locator": "Pinpoint Test G: DTC B10DA:86 and/or DTC U0100:00; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1111",
+    "entryId": "ford-b1111",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1111.md",
+    "title": "B1111: the overheating threshold belongs to the seat controller's driver circuit",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-288a30161c3fbf"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-288a30161c3fbf",
+        "locator": "Pinpoint Test W: DTCs B103B and B1111; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1113",
+    "entryId": "ford-b1113",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1113.md",
+    "title": "B1113: overheating of the passenger seat's electronic driver",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-a26846274ce53b"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-a26846274ce53b",
+        "locator": "Pinpoint Test Z: DTCs B1113 and B111B; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B111B",
+    "entryId": "ford-b111b",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B111B.md",
+    "title": "B111B: finding an excessive load in the passenger seat TED circuits",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-a26846274ce53b"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-a26846274ce53b",
+        "locator": "Pinpoint Test Z: DTCs B1113 and B111B; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B111C",
+    "entryId": "ford-b111c",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B111C.md",
+    "title": "B111C: a missing passenger TED load can coexist with partial seat operation",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-e0c991d50a05a2"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-e0c991d50a05a2",
+        "locator": "Pinpoint Test AA: DTC B111C; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B111D",
+    "entryId": "ford-b111d",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B111D.md",
+    "title": "B111D: passenger-seat shutdown can follow an overloaded blower output",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-47cd0b9e83f9a1"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-47cd0b9e83f9a1",
+        "locator": "Pinpoint Test AB: DTC B111D; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1139",
+    "entryId": "ford-b1139",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1139.md",
+    "title": "B1139: separating an unrecognized remote identity from a weak key battery",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-0b1a4df7cd31e2"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-0b1a4df7cd31e2",
+        "locator": "Pinpoint Test L: The Remote Keyless Entry (RKE) Transmitter Is Inoperative; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B119F",
+    "entryId": "ford-b119f",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B119F.md",
+    "title": "B119F: why navigation can lose GPS while satellite radio still works",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-69cbf6ec1d6995"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-69cbf6ec1d6995",
+        "locator": "Pinpoint Test W: No Global Positioning System (GPS) Antenna Signal; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B11D6",
+    "entryId": "ford-b11d6",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B11D6.md",
+    "title": "B11D6: the mirror warning light has its own blind-spot fault circuit",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-33a61f41eff627"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-33a61f41eff627",
+        "locator": "Pinpoint Test D: DTC B11D6:11 Or DTC B11D6:15 (LED May Always Be ON); Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1252",
+    "entryId": "ford-b1252",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1252.md",
+    "title": "B1252: distinguishing USB overload from an incompatible media device",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-d9ec7794cfbfbb"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-d9ec7794cfbfbb",
+        "locator": "Pinpoint Test AB: The Universal Serial Bus (USB) Port Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1299",
+    "entryId": "ford-b1299",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1299.md",
+    "title": "B1299: a shared parking-sensor supply can disable several readings",
+    "wordCount": 253,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-ff53d6e479a742"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-ff53d6e479a742",
+        "locator": "Pinpoint Test E: DTC B1299; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1302",
+    "entryId": "ford-b1302",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1302.md",
+    "title": "B1302: delayed window power can fail at the relay-control stage",
+    "wordCount": 252,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-b0f68622b6a3f3"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-b0f68622b6a3f3",
+        "locator": "Pinpoint Test P: The Delayed Accessory is Inoperative; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1304",
+    "entryId": "ford-b1304",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1304.md",
+    "title": "B1304: the accessory-delay control circuit has a different fault from a blown window feed",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-b0f68622b6a3f3"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-b0f68622b6a3f3",
+        "locator": "Pinpoint Test P: The Delayed Accessory is Inoperative; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1317",
+    "entryId": "ford-b1317",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1317.md",
+    "title": "B1317: compare other modules before condemning the Fusion junction box",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-f89e2a74b1c053"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-f89e2a74b1c053",
+        "locator": "Pinpoint Test B: DTC B1317; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1318",
+    "entryId": "ford-b1318",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1318.md",
+    "title": "B1318: low supply voltage at the Fusion Smart Junction Box",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-ee13feb1c049a9"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-ee13feb1c049a9",
+        "locator": "Pinpoint Test C: DTC B1318; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1331",
+    "entryId": "ford-b1331",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1331.md",
+    "title": "B1331: the luggage lamp and latch share a ground-controlled path",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-248794bfc4750a"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-248794bfc4750a",
+        "locator": "Pinpoint Test E: The Luggage Compartment Lamp Is Inoperative/Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1352",
+    "entryId": "ford-b1352",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1352.md",
+    "title": "B1352: a missing key-reminder chime can begin at the ignition switch input",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-aaa35ebb5789c9"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-aaa35ebb5789c9",
+        "locator": "Pinpoint Tests AZ: The Key-In-Ignition Warning Chime Is Inoperative; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1510",
+    "entryId": "ford-b1510",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1510.md",
+    "title": "B1510: a persistent flash-to-pass request can hold the high beams on",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-d1697b62f02f13"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-d1697b62f02f13",
+        "locator": "Pinpoint Test E: The High Beam(s) Are Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1520",
+    "entryId": "ford-b1520",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1520.md",
+    "title": "B1520: an open hood-sense circuit can leave that alarm entry point unarmed",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-b675429a787126"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-b675429a787126",
+        "locator": "Pinpoint Test B: The Alarm System Does Not Operate Correctly - Alarm Does Not Activate With Hood Ajar/Open; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1578",
+    "entryId": "ford-b1578",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1578.md",
+    "title": "B1578: parking lamps can stay on because the junction box sees a false request",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-000d663e671f19"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-000d663e671f19",
+        "locator": "Pinpoint Test R: The Parking, Rear Or License Plate Lamps Are On Continuously; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1624",
+    "entryId": "ford-b1624",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1624.md",
+    "title": "B1624: keypad lighting has a diagnostic reference as well as an active supply",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-6ee73abc004d60"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-6ee73abc004d60",
+        "locator": "Pinpoint Test K: The Keyless Entry Keypad Illumination Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1626",
+    "entryId": "ford-b1626",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1626.md",
+    "title": "B1626: a grounded keypad-lighting output is separate from a stuck button input",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-6ee73abc004d60"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-6ee73abc004d60",
+        "locator": "Pinpoint Test K: The Keyless Entry Keypad Illumination Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B19A1",
+    "entryId": "ford-b19a1",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B19A1.md",
+    "title": "B19A1: unwanted voltage on the passenger cushion blower command",
+    "wordCount": 253,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-f915f52bc2ca4a"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-f915f52bc2ca4a",
+        "locator": "Pinpoint Test AC: DTC B19A1; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B19A2",
+    "entryId": "ford-b19a2",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B19A2.md",
+    "title": "B19A2: a backrest blower-control fault can shut off the passenger seat",
+    "wordCount": 257,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-602385332cbc4d"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-602385332cbc4d",
+        "locator": "Pinpoint Test AD: DTC B19A2; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B19A3",
+    "entryId": "ford-b19a3",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B19A3.md",
+    "title": "B19A3: the driver cushion blower signal must be isolated from its power feed",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-933f5363699f60"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-933f5363699f60",
+        "locator": "Pinpoint Test AE: DTC B19A3; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B19A4",
+    "entryId": "ford-b19a4",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B19A4.md",
+    "title": "B19A4: a backrest command-wire fault behind driver-seat shutdown",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-c6c648c0250af8"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-c6c648c0250af8",
+        "locator": "Pinpoint Test AF: DTC B19A4; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B19A5",
+    "entryId": "ford-b19a5",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B19A5.md",
+    "title": "B19A5: a grounded cushion blower command shuts down the passenger climate seat",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-6fd0f2693a0777"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-6fd0f2693a0777",
+        "locator": "Pinpoint Test AG: DTC B19A5; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B19A6",
+    "entryId": "ford-b19a6",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B19A6.md",
+    "title": "B19A6: why the passenger backrest needs its own blower-command diagnosis",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-35fb1e1bf7527d"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-35fb1e1bf7527d",
+        "locator": "Pinpoint Test AH: DTC B19A6; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B19A7",
+    "entryId": "ford-b19a7",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B19A7.md",
+    "title": "B19A7: a driver cushion blower-control short is distinct from a failed heater element",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-27821fbf14aef3"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-27821fbf14aef3",
+        "locator": "Pinpoint Test AI: DTC B19A7; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B19A8",
+    "entryId": "ford-b19a8",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B19A8.md",
+    "title": "B19A8: the backrest blower control can stop the whole driver climate seat",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-19ba1ccb754b0c"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-19ba1ccb754b0c",
+        "locator": "Pinpoint Test AJ: DTC B19A8; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1A07",
+    "entryId": "ford-b1a07",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1A07.md",
+    "title": "B1A07: following the navigation voice-guidance audio path",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-6172ab9c583764"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-6172ab9c583764",
+        "locator": "Pinpoint Test Y: The Voice Guidance Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1A16",
+    "entryId": "ford-b1a16",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1A16.md",
+    "title": "B1A16: why SYNC cannot detect the voice microphone",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-47b08c89bdaff5"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-47b08c89bdaff5",
+        "locator": "Pinpoint Test V: Voice Recognition Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1A56",
+    "entryId": "ford-b1a56",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1A56.md",
+    "title": "B1A56: why a weak antenna self-test does not prove the radio is defective",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-726cc5fbf34739"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-726cc5fbf34739",
+        "locator": "Pinpoint Test A: Poor Reception - AM/FM; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1A61",
+    "entryId": "ford-b1a61",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1A61.md",
+    "title": "B1A61: the cabin-temperature input and a conflicting Ford cross-reference",
+    "wordCount": 259,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-1bff45398d3c27"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-1bff45398d3c27",
+        "locator": "Pinpoint Test D: DTCs B1A61:11 and 15; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1A63",
+    "entryId": "ford-b1a63",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1A63.md",
+    "title": "B1A63: why a right solar-sensor code can appear with two other climate codes",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-edge-4f299d74ab12e0"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-edge-4f299d74ab12e0",
+        "locator": "Pinpoint Test T: DTCs B1A61:15, B1A63:15 and B1A64:15; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1A64",
+    "entryId": "ford-b1a64",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1A64.md",
+    "title": "B1A64: interpreting a left solar feedback fault within the linked HVAC inputs",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-edge-4f299d74ab12e0"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-edge-4f299d74ab12e0",
+        "locator": "Pinpoint Test T: DTCs B1A61:15, B1A63:15 and B1A64:15; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1A68",
+    "entryId": "ford-b1a68",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1A68.md",
+    "title": "B1A68: outside-temperature circuitry and conflicting diagnostic labels",
+    "wordCount": 253,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-02ccd2215f2af5"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-02ccd2215f2af5",
+        "locator": "Pinpoint Test E: DTCs B1A68:11 and 15; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1A82",
+    "entryId": "ford-b1a82",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1A82.md",
+    "title": "B1A82: tracing a message-center switch fault through the steering wheel",
+    "wordCount": 267,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-640844efd93485"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-640844efd93485",
+        "locator": "Pinpoint Tests AU: The Message Center Is Not Operating Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1B71",
+    "entryId": "ford-b1b71",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1B71.md",
+    "title": "B1B71: test the evaporator-temperature circuit before dismantling the dashboard",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-25af0c485f3987"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-25af0c485f3987",
+        "locator": "Pinpoint Test G: DTCs B1B71:11 and 15; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1C83",
+    "entryId": "ford-b1c83",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1C83.md",
+    "title": "B1C83: distinguishing a held-on defogger relay from a powered glass circuit",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-c5176d386ec612"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-c5176d386ec612",
+        "locator": "Pinpoint Test O: The Defrost System Will Not Shut Off Automatically; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1D78",
+    "entryId": "ford-b1d78",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1D78.md",
+    "title": "B1D78: an open audio-jack circuit on the navigation system without SYNC",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-31c870b255d32f"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-31c870b255d32f",
+        "locator": "Pinpoint Test R: The Audio Input Jack Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1D79",
+    "entryId": "ford-b1d79",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B1D79.md",
+    "title": "B1D79: the navigation audio module's microphone test-tone failure",
+    "wordCount": 272,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-47b08c89bdaff5"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-47b08c89bdaff5",
+        "locator": "Pinpoint Test V: Voice Recognition Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2008",
+    "entryId": "ford-b2008",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2008.md",
+    "title": "B2008: the wiper status signal behind automatic headlamp operation",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-71f2b0b0da8e30"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-71f2b0b0da8e30",
+        "locator": "Pinpoint Test G: The Headlamps Do Not Illuminate When the Wipers are On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2071",
+    "entryId": "ford-b2071",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2071.md",
+    "title": "B2071: a stuck hazard request is different from a failed flasher output",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-4e5577275d3d53"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-4e5577275d3d53",
+        "locator": "Pinpoint Test P: The Hazard Lamps Are Inoperative/Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2103",
+    "entryId": "ford-b2103",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2103.md",
+    "title": "B2103: the signal-strength evidence behind an antenna-not-connected label",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-726cc5fbf34739"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-726cc5fbf34739",
+        "locator": "Pinpoint Test A: Poor Reception - AM/FM; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2108",
+    "entryId": "ford-b2108",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2108.md",
+    "title": "B2108: when the trunk key switch keeps reporting an unlock request",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-9bea1354f0e20d"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-9bea1354f0e20d",
+        "locator": "Pinpoint Test D: The Alarm System Does Not Operate Correctly - The Alarm Does Not Arm/Inhibit From The Luggage Compartment Lid; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B213A",
+    "entryId": "ford-b213a",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B213A.md",
+    "title": "B213A: why a dimmer fault can leave the dashboard at full nighttime brightness",
+    "wordCount": 251,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-9a5b8acc54d061"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-9a5b8acc54d061",
+        "locator": "Pinpoint Test A: All Dimmable Illumination Does Not Dim/Increase Brightness; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2254",
+    "entryId": "ford-b2254",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2254.md",
+    "title": "B2254: the fog-lamp switch label actually points to a grounded request circuit",
+    "wordCount": 249,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-d6d6e45668ab8a"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-d6d6e45668ab8a",
+        "locator": "Pinpoint Test U: The Fog Lamps Are On Continuously; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2281",
+    "entryId": "ford-b2281",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2281.md",
+    "title": "B2281: a grounded right-turn request can keep the indicators flashing",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-e4e4f024a93426"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-e4e4f024a93426",
+        "locator": "Pinpoint Test N: The Turn Signal Lamps Are Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2282",
+    "entryId": "ford-b2282",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2282.md",
+    "title": "B2282: the left indicator request can remain active without the stalk being selected",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-e4e4f024a93426"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-e4e4f024a93426",
+        "locator": "Pinpoint Test N: The Turn Signal Lamps Are Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2425",
+    "entryId": "ford-b2425",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2425.md",
+    "title": "B2425: when the remote counter moves beyond the vehicle's expected sequence",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-0b1a4df7cd31e2"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-0b1a4df7cd31e2",
+        "locator": "Pinpoint Test L: The Remote Keyless Entry (RKE) Transmitter Is Inoperative; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2479",
+    "entryId": "ford-b2479",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2479.md",
+    "title": "B2479: when the warning input still reports an applied parking brake",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-fe981f86437b0b"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-fe981f86437b0b",
+        "locator": "Pinpoint Test T: The Brake Warning Indicator is Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2486",
+    "entryId": "ford-b2486",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2486.md",
+    "title": "B2486: both climate seats can pause when their module supply leaves range",
+    "wordCount": 256,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-083dbe5684384c"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-083dbe5684384c",
+        "locator": "Pinpoint Test AK: DTC B2486; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2667",
+    "entryId": "ford-b2667",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2667.md",
+    "title": "B2667: why a liftglass code can refer to a Fusion trunk switch",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-c7e4c04261fcbb"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-c7e4c04261fcbb",
+        "locator": "Pinpoint Test I: The Luggage Compartment Lid Release Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2729",
+    "entryId": "ford-b2729",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2729.md",
+    "title": "B2729: driver cushion temperature diagnosis starts with airflow",
+    "wordCount": 256,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-bca07761c740f2"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-bca07761c740f2",
+        "locator": "Pinpoint Test AL: DTC B2729; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B272A",
+    "entryId": "ford-b272a",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B272A.md",
+    "title": "B272A: passenger cushion overheating includes airflow and sensor-circuit checks",
+    "wordCount": 250,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-99d9b062882ae8"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-99d9b062882ae8",
+        "locator": "Pinpoint Test AM: DTC B272A; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B272B",
+    "entryId": "ford-b272b",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B272B.md",
+    "title": "B272B: compare passenger backrest temperature with cushion behavior",
+    "wordCount": 248,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-b6a4719fe4165b"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-b6a4719fe4165b",
+        "locator": "Pinpoint Test AN: DTC B272B; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B272E",
+    "entryId": "ford-b272e",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B272E.md",
+    "title": "B272E: Ford explicitly qualifies the misleading blower-circuit label",
+    "wordCount": 251,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-ec5ebf67830140"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-ec5ebf67830140",
+        "locator": "Pinpoint Test AQ: DTC B272E; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B272F",
+    "entryId": "ford-b272f",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B272F.md",
+    "title": "B272F: a passenger blower-feed fault with an important source qualification",
+    "wordCount": 248,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-d13191945ff4a5"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-d13191945ff4a5",
+        "locator": "Pinpoint Test AR: DTC B272F; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2730",
+    "entryId": "ford-b2730",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2730.md",
+    "title": "B2730: driver backrest overheating needs airflow checks and verified mode criteria",
+    "wordCount": 260,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-92c10db3a6ee53"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-92c10db3a6ee53",
+        "locator": "Pinpoint Test AS: DTC B2730; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2872",
+    "entryId": "ford-b2872",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2872.md",
+    "title": "B2872: when the monitor loses one to three tire-sensor responses",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-29ff11c5d60792"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-29ff11c5d60792",
+        "locator": "Pinpoint Test F: TPMS Indicator Flashes for 70 Seconds and Then Remains ON Solid When the Ignition Key is Turned to the ON Posi; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B287A",
+    "entryId": "ford-b287a",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B287A.md",
+    "title": "B287A: why losing all four tire sensors changes the diagnosis",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-29ff11c5d60792"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-29ff11c5d60792",
+        "locator": "Pinpoint Test F: TPMS Indicator Flashes for 70 Seconds and Then Remains ON Solid When the Ignition Key is Turned to the ON Posi; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2924",
+    "entryId": "ford-b2924",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2924.md",
+    "title": "B2924: when a non-navigation audio button is held active too long",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-76934c8a0d2d48"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-76934c8a0d2d48",
+        "locator": "Pinpoint Test J: The Audio System Does Not Operate Correctly From The Front Controls Interface Module (FCIM); Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2947",
+    "entryId": "ford-b2947",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2947.md",
+    "title": "B2947: global window opening needs an enabled feature and an intact command circuit",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-f6b267ef777571"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-f6b267ef777571",
+        "locator": "Pinpoint Test K: The Global Open Function is Inoperative/Does Not Operate Correctly - If Equipped; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2949",
+    "entryId": "ford-b2949",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2949.md",
+    "title": "B2949: unwanted voltage on the shared front-window global-open signal",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-f6b267ef777571"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-f6b267ef777571",
+        "locator": "Pinpoint Test K: The Global Open Function is Inoperative/Does Not Operate Correctly - If Equipped; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2965",
+    "entryId": "ford-b2965",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2965.md",
+    "title": "B2965: how one shorted speaker circuit can silence several outputs",
+    "wordCount": 264,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-952cde5fc97fbb"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-952cde5fc97fbb",
+        "locator": "Pinpoint Test C: Poor Quality/Distorted/No Sound From One Or More Speakers (Not All Speakers) - Base, Mid-Level Sound; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2A23",
+    "entryId": "ford-b2a23",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2A23.md",
+    "title": "B2A23: the high-beam switch input can fail while the lamps themselves remain sound",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-d1697b62f02f13"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-d1697b62f02f13",
+        "locator": "Pinpoint Test E: The High Beam(s) Are Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2A25",
+    "entryId": "ford-b2a25",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2A25.md",
+    "title": "B2A25: a door-lock request that stays grounded on the Fusion",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-2cb5de9873c5e2"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-2cb5de9873c5e2",
+        "locator": "Pinpoint Test H: DTC B2A25, B2574, Or B2575; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2A26",
+    "entryId": "ford-b2a26",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2A26.md",
+    "title": "B2A26: a keypad button circuit can remain grounded without being pressed",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-3762d9d86ca3a4"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-3762d9d86ca3a4",
+        "locator": "Pinpoint Test J: The Doors Do Not Lock/Unlock Using The Keyless Entry Keypad; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2A32",
+    "entryId": "ford-b2a32",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2A32.md",
+    "title": "B2A32: an open-circuit label accompanies a voltage-short test for backlighting",
+    "wordCount": 258,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-1e05de91690faf"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-1e05de91690faf",
+        "locator": "Pinpoint Test C: All Dimmable Switch Illumination Is Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B2A39",
+    "entryId": "ford-b2a39",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/B2A39.md",
+    "title": "B2A39: puddle lamps staying on require an output-circuit check",
+    "wordCount": 252,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-8d86022e74f866"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-8d86022e74f866",
+        "locator": "Pinpoint Test G: The Puddle Lamps Stay On Continuously; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1125",
+    "entryId": "ford-c1125",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1125.md",
+    "title": "C1125: separating a fluid-level warning from a grounded sensor input",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-fe981f86437b0b"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-fe981f86437b0b",
+        "locator": "Pinpoint Test T: The Brake Warning Indicator is Always On; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1699",
+    "entryId": "ford-c1699",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1699.md",
+    "title": "C1699: unexpected voltage on the left rear parking sensor signal",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-9ddfddc46dd882"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-9ddfddc46dd882",
+        "locator": "Pinpoint Test C: DTCs C1699, C1702 And C1705; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1700",
+    "entryId": "ford-c1700",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1700.md",
+    "title": "C1700: electrical checks behind the Fusion left parking-sensor code",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-a9f05407279370"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-a9f05407279370",
+        "locator": "Pinpoint Test B: DTCs C1700, C1703 And C1706; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1701",
+    "entryId": "ford-c1701",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1701.md",
+    "title": "C1701: parking-sensor timing can fail without a broken power wire",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-2762576160f856"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-2762576160f856",
+        "locator": "Pinpoint Test D: DTCs C1701, C1704 And C1707; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1702",
+    "entryId": "ford-c1702",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1702.md",
+    "title": "C1702: finding a voltage feed into the right parking-aid signal",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-9ddfddc46dd882"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-9ddfddc46dd882",
+        "locator": "Pinpoint Test C: DTCs C1699, C1702 And C1705; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1703",
+    "entryId": "ford-c1703",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1703.md",
+    "title": "C1703: checking the right rear parking sensor's electrical path",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-a9f05407279370"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-a9f05407279370",
+        "locator": "Pinpoint Test B: DTCs C1700, C1703 And C1706; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1704",
+    "entryId": "ford-c1704",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1704.md",
+    "title": "C1704: using distance and attenuation data to evaluate the right rear sensor",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-2762576160f856"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-2762576160f856",
+        "locator": "Pinpoint Test D: DTCs C1701, C1704 And C1707; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1705",
+    "entryId": "ford-c1705",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1705.md",
+    "title": "C1705: the center parking-sensor voltage fault with a location-label caveat",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-9ddfddc46dd882"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-9ddfddc46dd882",
+        "locator": "Pinpoint Test C: DTCs C1699, C1702 And C1705; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1706",
+    "entryId": "ford-c1706",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1706.md",
+    "title": "C1706: an open or grounded circuit at the center parking sensor",
+    "wordCount": 273,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-a9f05407279370"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-a9f05407279370",
+        "locator": "Pinpoint Test B: DTCs C1700, C1703 And C1706; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1707",
+    "entryId": "ford-c1707",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1707.md",
+    "title": "C1707: confirming center-sensor identity before evaluating its response time",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-2011-fusion-2762576160f856"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-2762576160f856",
+        "locator": "Pinpoint Test D: DTCs C1701, C1704 And C1707; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1742",
+    "entryId": "ford-c1742",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1742.md",
+    "title": "C1742: why the Fusion parking aid can detect an obstacle but stay silent",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-83d19fe2016eee"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-83d19fe2016eee",
+        "locator": "Pinpoint Test F: DTC C1742 or DTC C1743; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1743",
+    "entryId": "ford-c1743",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1743.md",
+    "title": "C1743: unwanted voltage on the Fusion parking-aid speaker wiring",
+    "wordCount": 261,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-83d19fe2016eee"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-83d19fe2016eee",
+        "locator": "Pinpoint Test F: DTC C1742 or DTC C1743; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "C1B14",
+    "entryId": "ford-c1b14",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/C1B14.md",
+    "title": "C1B14: a climate-control reference fault rather than a brake diagnosis",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-0abd47b4024764"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-0abd47b4024764",
+        "locator": "Pinpoint Test C: DTCs C1B14:11 and 12; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "U2013",
+    "entryId": "ford-u2013",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/U2013.md",
+    "title": "U2013: a navigation control-panel timeout caused by an active switch",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-76934c8a0d2d48"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-76934c8a0d2d48",
+        "locator": "Pinpoint Test J: The Audio System Does Not Operate Correctly From The Front Controls Interface Module (FCIM); Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "U2014",
+    "entryId": "ford-u2014",
+    "batch": "batch-46",
+    "path": "content/code-articles/batch-46/U2014.md",
+    "title": "U2014: the internal satellite receiver fault in a navigation audio module",
+    "wordCount": 266,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-2011-fusion-c78c322f2698fc"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-2011-fusion-c78c322f2698fc",
+        "locator": "Pinpoint Test I: The Satellite Radio Is Inoperative/Does Not Operate Correctly; Normal Operation and complete pinpoint diagnostic sequence"
+      }
+    ]
+  },
+  {
+    "code": "B1002",
+    "entryId": "honda-b1002",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1002.md",
+    "title": "B1002: Persistent BCM EEPROM error has a defined verification step",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1002-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1002-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1002-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1002 5075.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1003",
+    "entryId": "honda-b1003",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1003.md",
+    "title": "B1003: BCM update did not complete correctly",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1003-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1003-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1003-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1003 5076.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1036",
+    "entryId": "honda-b1036",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1036.md",
+    "title": "B1036: BCM IG1 feed diagnosis separates fuse and wire faults",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1036-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1036-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1036-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1036 5077.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1038",
+    "entryId": "honda-b1038",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1038.md",
+    "title": "B1038: Missing authentication information requires network review",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-b1038-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1038-writer47",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1038-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1038 5078.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1039",
+    "entryId": "honda-b1039",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1039.md",
+    "title": "B1039: BCM authentication ID does not match",
+    "wordCount": 306,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1039-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1039-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1039-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1039 5079.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1042",
+    "entryId": "honda-b1042",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1042.md",
+    "title": "B1042: Wiper backup line is checked before control units",
+    "wordCount": 300,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1042-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1042-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1042-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1042 5082.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1043",
+    "entryId": "honda-b1043",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1043.md",
+    "title": "B1043: Wiper-unit EEPROM fault is reported through the BCM",
+    "wordCount": 299,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1043-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1043-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1043-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1043 5083.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1077",
+    "entryId": "honda-b1077",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1077.md",
+    "title": "B1077: Front-wiper auto-stop signal fails verification",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1077-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1077-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1077-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1077 5084.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1175",
+    "entryId": "honda-b1175",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1175.md",
+    "title": "B1175: Fuel-level fault checks both sender wires before the gauge",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1175-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1175-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1175-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1175 7115.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1176",
+    "entryId": "honda-b1176",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1176.md",
+    "title": "B1176: Fuel-gauge positive circuit is checked for a ground short",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1176-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1176-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1176-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1176 7116.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1193",
+    "entryId": "honda-b1193",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1193.md",
+    "title": "B1193: Steering-switch LIN fault starts with power and ground",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1193-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1193-writer47",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1193-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1193 5115.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B121B",
+    "entryId": "honda-b121b",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B121B.md",
+    "title": "B121B: Mode-motor short code can originate in the shared 5 V feed",
+    "wordCount": 317,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b121b-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b121b-writer47",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b121b-writer47",
+        "locator": "Complete DTC Troubleshooting_ B121B (4A) 4937.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B121D",
+    "entryId": "honda-b121d",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B121D.md",
+    "title": "B121D: Humidity and cabin-temperature communication needs several circuits",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b121d-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b121d-writer47",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b121d-writer47",
+        "locator": "Complete DTC Troubleshooting_ B121D (89) 6141.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1220",
+    "entryId": "honda-b1220",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1220.md",
+    "title": "B1220: Recirculation-motor fault needs a shared-supply check",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1220-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1220-writer47",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1220-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1220 (56) 4938.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1232",
+    "entryId": "honda-b1232",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1232.md",
+    "title": "B1232: Evaporator temperature circuit short has two wiring paths",
+    "wordCount": 299,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1232-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1232-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1232-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1232 (0A) 4940.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1234",
+    "entryId": "honda-b1234",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1234.md",
+    "title": "B1234: Driver air-mix feedback fault needs the right actuator path",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1234-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1234-writer47",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1234-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1234 (41) 4941.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B123F",
+    "entryId": "honda-b123f",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B123F.md",
+    "title": "B123F: Sunlight-sensor diagnosis changes with automatic-wiper equipment",
+    "wordCount": 301,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b123f-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b123f-writer47",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b123f-writer47",
+        "locator": "Complete DTC Troubleshooting_ B123F (17) 4943.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1241",
+    "entryId": "honda-b1241",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1241.md",
+    "title": "B1241: Blower circuit diagnosis starts before the speed controller",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1241-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1241-writer47",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1241-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1241 (59) 4770.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B12D4",
+    "entryId": "honda-b12d4",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B12D4.md",
+    "title": "B12D4: Starter-request fault is traced between BCM and PCM",
+    "wordCount": 303,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-b12d4-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b12d4-writer47",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b12d4-writer47",
+        "locator": "Complete DTC Troubleshooting_ B12D4 6513.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B12E5",
+    "entryId": "honda-b12e5",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B12E5.md",
+    "title": "B12E5: Control-unit compatibility is checked for steering-lock equipment",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b12e5-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b12e5-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b12e5-writer47",
+        "locator": "Complete DTC Troubleshooting_ B12E5 7201.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1410",
+    "entryId": "honda-b1410",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1410.md",
+    "title": "B1410: Primary cellular antenna disconnect does not prove an open lead",
+    "wordCount": 301,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1410-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1410-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1410-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1410 4330.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1413",
+    "entryId": "honda-b1413",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1413.md",
+    "title": "B1413: TEL antenna short needs isolated lead checks",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-b1413-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1413-writer47",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1413-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1413 4333.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1415",
+    "entryId": "honda-b1415",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1415.md",
+    "title": "B1415: GPS antenna short procedure contains an unresolved isolation detail",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-b1415-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1415-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1415-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1415 4335.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B1417",
+    "entryId": "honda-b1417",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B1417.md",
+    "title": "B1417: Telematics console input is checked separately from the antenna",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b1417-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b1417-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b1417-writer47",
+        "locator": "Complete DTC Troubleshooting_ B1417 4337.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B2800",
+    "entryId": "honda-b2800",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B2800.md",
+    "title": "B2800: The SRS controller reports an internal fault after its power-up check",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b2800-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b2800-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b2800-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ B2800-49 4183.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B2840",
+    "entryId": "honda-b2840",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B2840.md",
+    "title": "B2840: The restraint controller does not accept connector A installation",
+    "wordCount": 287,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b2840-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b2840-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b2840-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ B2840-13 4186.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "B2841",
+    "entryId": "honda-b2841",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/B2841.md",
+    "title": "B2841: Connector B installation is checked separately at the SRS unit",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-b2841-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-b2841-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-b2841-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ B2841-13 4187.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1000",
+    "entryId": "honda-c1000",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1000.md",
+    "title": "C1000: Stability-control activation lasts longer than the monitor accepts",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1000-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1000-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1000-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1000-94 5944.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C100A",
+    "entryId": "ford-c100a",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C100A.md",
+    "title": "C100A: One ABS code groups several brake-pedal signal checks",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          194,
+          195,
+          205
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 194, 195, 205"
+      }
+    ]
+  },
+  {
+    "code": "C1015",
+    "entryId": "ford-c1015",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1015.md",
+    "title": "C1015: An ABS vacuum-supply code needs its paired hybrid diagnostic",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          193,
+          196,
+          206
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 193, 196, 206"
+      }
+    ]
+  },
+  {
+    "code": "C1020",
+    "entryId": "honda-c1020",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1020.md",
+    "title": "C1020: The VSA master cut valve operates unexpectedly",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1020-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1020-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1020-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1020-49 5945.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1021",
+    "entryId": "honda-c1021",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1021.md",
+    "title": "C1021: Unexpected suction-valve operation triggers a VSA fault",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1021-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1021-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1021-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1021-49 5946.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1022",
+    "entryId": "honda-c1022",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1022.md",
+    "title": "C1022: The VSA pump motor is missing a valid power source",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1022-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1022-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1022-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1022-14 5947.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1100",
+    "entryId": "honda-c1100",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1100.md",
+    "title": "C1100: Parking-brake operation fails its overall monitoring check",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1100-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1100-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1100-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1100-48 5948.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1110",
+    "entryId": "honda-c1110",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1110.md",
+    "title": "C1110: The left rear parking-brake actuator circuit is shorted to ground",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1110-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1110-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1110-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1110-11 5953.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1111",
+    "entryId": "honda-c1111",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1111.md",
+    "title": "C1111: A right parking-brake circuit fault has an inconsistent line label",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-c1111-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1111-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1111-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1111-11 5957.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1120",
+    "entryId": "honda-c1120",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1120.md",
+    "title": "C1120: Parking-brake switch circuits need a separate check",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1120-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1120-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1120-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1120-14 5961.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1270",
+    "entryId": "honda-c1270",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1270.md",
+    "title": "C1270: Brake-hold switch signal is shorted",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1270-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1270-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1270-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1270-11 4443.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1400",
+    "entryId": "honda-c1400",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1400.md",
+    "title": "C1400: EPS motor current fault can remove steering assist",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1400-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1400-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1400-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1400-11 599.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1403",
+    "entryId": "honda-c1403",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1403.md",
+    "title": "C1403: EPS motor angle signals disagree",
+    "wordCount": 299,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1403-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1403-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1403-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1403-14 4745.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1404",
+    "entryId": "honda-c1404",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1404.md",
+    "title": "C1404: EPS U-phase high voltage uses limited backup assist",
+    "wordCount": 314,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1404-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1404-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1404-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1404-13 604.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1420",
+    "entryId": "honda-c1420",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1420.md",
+    "title": "C1420: Main and sub steering-torque signals fail correlation",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1420-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1420-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1420-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1420-29 605.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1421",
+    "entryId": "honda-c1421",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1421.md",
+    "title": "C1421: Main torque-sensor circuit needs signal and supply checks",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1421-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1421-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1421-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1421-14 606.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1422",
+    "entryId": "honda-c1422",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1422.md",
+    "title": "C1422: Sub torque-sensor fault can share a supply problem",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1422-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1422-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1422-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1422-14 607.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "C1C21",
+    "entryId": "honda-c1c21",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/C1C21.md",
+    "title": "C1C21: Reverse-status information appears stuck",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-c1c21-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-c1c21-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-c1c21-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ C1C21-62 5970.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "P0164",
+    "entryId": "generic-p0164",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P0164.md",
+    "title": "P0164: Excess voltage on the bank-two third oxygen-sensor signal",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          80,
+          82
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 80, 82"
+      }
+    ]
+  },
+  {
+    "code": "P0902",
+    "entryId": "generic-p0902",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P0902.md",
+    "title": "P0902: The CFT30 clutch circuit is checked much faster than clutch slip",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          197
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 197"
+      }
+    ]
+  },
+  {
+    "code": "P0903",
+    "entryId": "generic-p0903",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P0903.md",
+    "title": "P0903: A clutch-actuator high-circuit result needs electrical diagnosis",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          197
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 197"
+      }
+    ]
+  },
+  {
+    "code": "P0978",
+    "entryId": "generic-p0978",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P0978.md",
+    "title": "P0978: Solenoid C current behavior depends on the transmission design",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          190,
+          191,
+          207,
+          210,
+          213,
+          215
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 190, 191, 207, 210, 213, 215"
+      }
+    ]
+  },
+  {
+    "code": "P0984",
+    "entryId": "generic-p0984",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P0984.md",
+    "title": "P0984: The F21 checks whether solenoid E control current is stuck",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          190,
+          191,
+          215
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 190, 191, 215"
+      }
+    ]
+  },
+  {
+    "code": "P0997",
+    "entryId": "generic-p0997",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P0997.md",
+    "title": "P0997: The sixth F21 shift solenoid has a monitored current response",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          190,
+          191,
+          215
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 190, 191, 215"
+      }
+    ]
+  },
+  {
+    "code": "P0E87",
+    "entryId": "generic-p0e87",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P0E87.md",
+    "title": "P0E87: The charger receives an excessive voltage request",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          149
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 149"
+      }
+    ]
+  },
+  {
+    "code": "P0E89",
+    "entryId": "generic-p0e89",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P0E89.md",
+    "title": "P0E89: Charging-current demand exceeds the accepted request range",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          149
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 149"
+      }
+    ]
+  },
+  {
+    "code": "P100F",
+    "entryId": "ford-p100f",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P100F.md",
+    "title": "P100F: A wastegate pressure comparison after engine shutdown",
+    "wordCount": 262,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          87
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 87"
+      }
+    ]
+  },
+  {
+    "code": "P1011",
+    "entryId": "ford-p1011",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1011.md",
+    "title": "P1011: Wastegate pressure reported above the atmospheric reference",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          86,
+          87
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 86, 87"
+      }
+    ]
+  },
+  {
+    "code": "P1012",
+    "entryId": "ford-p1012",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1012.md",
+    "title": "P1012: Wastegate pressure voltage below the documented electrical floor",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          86,
+          87
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 86, 87"
+      }
+    ]
+  },
+  {
+    "code": "P1013",
+    "entryId": "ford-p1013",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1013.md",
+    "title": "P1013: Wastegate pressure signal above the high-voltage boundary",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          86,
+          87
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 86, 87"
+      }
+    ]
+  },
+  {
+    "code": "P1014",
+    "entryId": "ford-p1014",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1014.md",
+    "title": "P1014: Counting interruptions in the wastegate pressure circuit",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          86,
+          87
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 86, 87"
+      }
+    ]
+  },
+  {
+    "code": "P1015",
+    "entryId": "ford-p1015",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1015.md",
+    "title": "P1015: Wastegate control pressure misses a stable target",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          86,
+          87
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 86, 87"
+      }
+    ]
+  },
+  {
+    "code": "P1016",
+    "entryId": "ford-p1016",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1016.md",
+    "title": "P1016: A larger wastegate pressure error with an unresolved source label",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          86,
+          87
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 86, 87"
+      }
+    ]
+  },
+  {
+    "code": "P115E",
+    "entryId": "ford-p115e",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P115E.md",
+    "title": "P115E: The throttle airflow adjustment has reached its limit",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          100,
+          105
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 100, 105"
+      }
+    ]
+  },
+  {
+    "code": "P130D",
+    "entryId": "ford-p130d",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P130D.md",
+    "title": "P130D: Severe knock events trigger a power-protection response",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          133,
+          134
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 133, 134"
+      }
+    ]
+  },
+  {
+    "code": "P139A",
+    "entryId": "ford-p139a",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P139A.md",
+    "title": "P139A: A reversed differential-pressure signal during EGR operation",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          62,
+          64
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 62, 64"
+      }
+    ]
+  },
+  {
+    "code": "P139B",
+    "entryId": "ford-p139b",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P139B.md",
+    "title": "P139B: Upstream EGR sensing trouble produces a large positive differential",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          62,
+          64
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 62, 64"
+      }
+    ]
+  },
+  {
+    "code": "P139C",
+    "entryId": "ford-p139c",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P139C.md",
+    "title": "P139C: Downstream EGR sensing trouble drives differential pressure negative",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          62,
+          64
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 62, 64"
+      }
+    ]
+  },
+  {
+    "code": "P144A",
+    "entryId": "ford-p144a",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P144A.md",
+    "title": "P144A: A blocked EVAP line is screened and then challenged",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          20
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 20"
+      }
+    ]
+  },
+  {
+    "code": "P144B",
+    "entryId": "ford-p144b",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P144B.md",
+    "title": "P144B: The hybrid EVAP fresh-air path is tested during purge",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          30,
+          31
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 30, 31"
+      }
+    ]
+  },
+  {
+    "code": "P144C",
+    "entryId": "ford-p144c",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P144C.md",
+    "title": "P144C: Boost exposes an EVAP purge check-valve problem",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          21,
+          22
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 21, 22"
+      }
+    ]
+  },
+  {
+    "code": "P1576",
+    "entryId": "ford-p1576",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1576.md",
+    "title": "P1576: The F21 transmission receives unusable pedal-position information",
+    "wordCount": 275,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          214,
+          215,
+          216
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 214, 215, 216"
+      }
+    ]
+  },
+  {
+    "code": "P164A",
+    "entryId": "ford-p164a",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P164A.md",
+    "title": "P164A: An erratic trim circuit in the bank-one NTK oxygen-sensor system",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          36,
+          37
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 36, 37"
+      }
+    ]
+  },
+  {
+    "code": "P164B",
+    "entryId": "ford-p164b",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P164B.md",
+    "title": "P164B: Bank-two oxygen-sensor trim performance is an interface diagnosis",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          36,
+          37
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 36, 37"
+      }
+    ]
+  },
+  {
+    "code": "P170A",
+    "entryId": "ford-p170a",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P170A.md",
+    "title": "P170A: A clutch-switch result from an on-demand self-test",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          100,
+          102
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 100, 102"
+      }
+    ]
+  },
+  {
+    "code": "P175A",
+    "entryId": "ford-p175a",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P175A.md",
+    "title": "P175A: An auxiliary transmission pump protects itself from excessive heat",
+    "wordCount": 269,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          184,
+          185
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 184, 185"
+      }
+    ]
+  },
+  {
+    "code": "P1920",
+    "entryId": "ford-p1920",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1920.md",
+    "title": "P1920: Communicated engine speed disagrees with the hybrid calculation",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          190
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 190"
+      }
+    ]
+  },
+  {
+    "code": "P1935",
+    "entryId": "ford-p1935",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1935.md",
+    "title": "P1935: Brake-pressure data arrives over the network outside its usable range",
+    "wordCount": 281,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          100,
+          101
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 100, 101"
+      }
+    ]
+  },
+  {
+    "code": "P1A07",
+    "entryId": "ford-p1a07",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1A07.md",
+    "title": "P1A07: The inverter sees an unexpectedly low high-voltage input",
+    "wordCount": 265,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          179,
+          180
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 179, 180"
+      }
+    ]
+  },
+  {
+    "code": "P1A08",
+    "entryId": "ford-p1a08",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1A08.md",
+    "title": "P1A08: A generator-mode command conflicts with the neutral operating state",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          189
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 189"
+      }
+    ]
+  },
+  {
+    "code": "P1A0C",
+    "entryId": "ford-p1a0c",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1A0C.md",
+    "title": "P1A0C: The hybrid controller waits for an engine-start response",
+    "wordCount": 263,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          189
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 189"
+      }
+    ]
+  },
+  {
+    "code": "P1A13",
+    "entryId": "ford-p1a13",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1A13.md",
+    "title": "P1A13: Regenerative braking is disabled at the brake controller’s request",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          190,
+          193,
+          204
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 190, 193, 204"
+      }
+    ]
+  },
+  {
+    "code": "P1A1B",
+    "entryId": "ford-p1a1b",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1A1B.md",
+    "title": "P1A1B: The brake system asks the hybrid engine to keep running",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          190,
+          193
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 190, 193"
+      }
+    ]
+  },
+  {
+    "code": "P1A1E",
+    "entryId": "ford-p1a1e",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P1A1E.md",
+    "title": "P1A1E: Both battery contactors fail to reach the commanded closed state",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-hev-phev-2019-20170512"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "pages": [
+          161
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-hev-phev-2019-20170512",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 161"
+      }
+    ]
+  },
+  {
+    "code": "P2072",
+    "entryId": "generic-p2072",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P2072.md",
+    "title": "P2072: A historical throttle controller recognizes an ice-blockage condition",
+    "wordCount": 268,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          162
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 162"
+      }
+    ]
+  },
+  {
+    "code": "P2131",
+    "entryId": "generic-p2131",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P2131.md",
+    "title": "P2131: The third pedal track fails a Gen2 agreement check",
+    "wordCount": 270,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          160
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 160"
+      }
+    ]
+  },
+  {
+    "code": "P2276",
+    "entryId": "generic-p2276",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P2276.md",
+    "title": "P2276: The last bank-two oxygen sensor does not demonstrate a rich transition",
+    "wordCount": 276,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          80,
+          81
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 80, 81"
+      }
+    ]
+  },
+  {
+    "code": "P2277",
+    "entryId": "generic-p2277",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P2277.md",
+    "title": "P2277: A bank-two third sensor remains on the rich side of its response test",
+    "wordCount": 287,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          80,
+          81
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 80, 81"
+      }
+    ]
+  },
+  {
+    "code": "P2783",
+    "entryId": "generic-p2783",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P2783.md",
+    "title": "P2783: The 6F checks a converter valve through an unexpected clutch application",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2010-20090406"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "pages": [
+          217,
+          218,
+          219,
+          220,
+          221
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2010-20090406",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 217, 218, 219, 220, 221"
+      }
+    ]
+  },
+  {
+    "code": "P2BEF",
+    "entryId": "generic-p2bef",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/P2BEF.md",
+    "title": "P2BEF: A rich correction appears specifically in bank-two direct-injection mode",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          99
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 99"
+      }
+    ]
+  },
+  {
+    "code": "U1204",
+    "entryId": "honda-u1204",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U1204.md",
+    "title": "U1204: Motor controller loses PCM data on EP-CAN",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-u1204-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-u1204-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-u1204-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ U1204 5597.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "U1205",
+    "entryId": "honda-u1205",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U1205.md",
+    "title": "U1205: Battery monitor loses motor-controller data on EP-CAN",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-u1205-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-u1205-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-u1205-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ U1205 5683.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "U12AA",
+    "entryId": "honda-u12aa",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U12AA.md",
+    "title": "U12AA: PCM loses the shift-by-wire shifter on EP-CAN",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-u12aa-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-u12aa-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-u12aa-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ U12AA 7093.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "U12B4",
+    "entryId": "honda-u12b4",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U12B4.md",
+    "title": "U12B4: PCM cannot validate park-pawl driver messages",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-u12b4-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-u12b4-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-u12b4-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ U12B4 7126.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "U1483",
+    "entryId": "honda-u1483",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U1483.md",
+    "title": "U1483: LKAS indicator-value check prevents lane assistance",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-u1483-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-u1483-writer47",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-u1483-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ U1483-68 4750.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "U1600",
+    "entryId": "honda-u1600",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U1600.md",
+    "title": "U1600: F-CAN PCM data fault has a two-cycle confirmation",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-u1600-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-u1600-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-u1600-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ U1600 5599.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "U1604",
+    "entryId": "honda-u1604",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U1604.md",
+    "title": "U1604: Battery monitor F-CAN fault can light POWER SYSTEM only",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-u1604-writer47"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-u1604-writer47",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-u1604-writer47",
+        "locator": "Complete DTC Advanced Diagnostics_ U1604 7305.pdf; all physical PDF pages."
+      }
+    ]
+  },
+  {
+    "code": "U210B",
+    "entryId": "ford-u210b",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U210B.md",
+    "title": "U210B: A legacy fuel-pump disable signal must be read with its equipment context",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          140,
+          141
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 140, 141"
+      }
+    ]
+  },
+  {
+    "code": "U210C",
+    "entryId": "ford-u210c",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U210C.md",
+    "title": "U210C: The second fuel-pump module reports a legacy disabled-circuit state",
+    "wordCount": 271,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          140,
+          141
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 140, 141"
+      }
+    ]
+  },
+  {
+    "code": "U210F",
+    "entryId": "ford-u210f",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U210F.md",
+    "title": "U210F: The first throttle sensor communication line is held low",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 104"
+      }
+    ]
+  },
+  {
+    "code": "U2110",
+    "entryId": "ford-u2110",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U2110.md",
+    "title": "U2110: A high throttle-sensor communication line interrupts valid data",
+    "wordCount": 277,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 104"
+      }
+    ]
+  },
+  {
+    "code": "U2111",
+    "entryId": "ford-u2111",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U2111.md",
+    "title": "U2111: Low communication voltage on a dual-throttle sensing channel",
+    "wordCount": 274,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 104, 105"
+      }
+    ]
+  },
+  {
+    "code": "U2112",
+    "entryId": "ford-u2112",
+    "batch": "batch-47",
+    "path": "content/code-articles/batch-47/U2112.md",
+    "title": "U2112: High communication voltage in the second throttle-body monitor",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "ford-gasoline-2024-2025-v2"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "pages": [
+          104,
+          105
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "ford-gasoline-2024-2025-v2",
+        "locator": "Complete code-specific monitor tables and surrounding explanatory sections on PDF pages 104, 105"
+      }
+    ]
+  },
+  {
+    "code": "P007A",
+    "entryId": "generic-p007a",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P007A.md",
+    "title": "P007A: The first manifold-temperature channel fails its internal check",
+    "wordCount": 279,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          447
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P00A0",
+    "entryId": "generic-p00a0",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P00A0.md",
+    "title": "P00A0: The second manifold-temperature channel reports an internal fault",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          447
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0149",
+    "entryId": "generic-p0149",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P0149.md",
+    "title": "P0149: The CREC fuel-timing entry monitors injector boost voltage",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          139
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P016A",
+    "entryId": "generic-p016a",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P016A.md",
+    "title": "P016A: The closed-loop timing code has a specific feedback strategy",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-cpna-cpnb-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "pages": [
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0239",
+    "entryId": "generic-p0239",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P0239.md",
+    "title": "P0239: The second boost-pressure channel has two signal-failure branches",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          573
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1004",
+    "entryId": "volkswagen-p1004",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P1004.md",
+    "title": "P1004: Cylinder-one torque correction exceeds the allowed error",
+    "wordCount": 298,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A0",
+    "entryId": "audi-p10a0",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A0.md",
+    "title": "P10A0: The supercharger bypass actuator has two electrical fault branches",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          291,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A1",
+    "entryId": "audi-p10a1",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A1.md",
+    "title": "P10A1: The bypass actuator high-side path draws excessive current",
+    "wordCount": 287,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          291,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A2",
+    "entryId": "audi-p10a2",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A2.md",
+    "title": "P10A2: The bypass actuator low-side path reports a ground short",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          291,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A3",
+    "entryId": "audi-p10a3",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A3.md",
+    "title": "P10A3: The bypass driver checks for an open path while deactivated",
+    "wordCount": 286,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          292,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A4",
+    "entryId": "audi-p10a4",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A4.md",
+    "title": "P10A4: The bypass flap fails its learned rest-position check",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          292,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A5",
+    "entryId": "audi-p10a5",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A5.md",
+    "title": "P10A5: The bypass position signal exceeds 4.90 volts",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          293,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A6",
+    "entryId": "audi-p10a6",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A6.md",
+    "title": "P10A6: A low bypass-position voltage can also represent an open path",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          293,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A7",
+    "entryId": "audi-p10a7",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A7.md",
+    "title": "P10A7: A changed bypass rest position triggers the adaptation code",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          294,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P10A8",
+    "entryId": "audi-p10a8",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P10A8.md",
+    "title": "P10A8: The bypass lower-stop adaptation has several failure branches",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          294,
+          924,
+          925
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P12A1",
+    "entryId": "audi-p12a1",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P12A1.md",
+    "title": "P12A1: A low rail-pressure plausibility result uses fuel correction",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          296,
+          297,
+          952,
+          953
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P12A2",
+    "entryId": "audi-p12a2",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P12A2.md",
+    "title": "P12A2: A high rail-pressure plausibility result combines two controls",
+    "wordCount": 280,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          298,
+          299,
+          952,
+          953
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P12A4",
+    "entryId": "audi-p12a4",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P12A4.md",
+    "title": "P12A4: The rail-control fault is defined by pressure and delivery effort",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          300,
+          952,
+          953
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13CE",
+    "entryId": "volkswagen-p13ce",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13CE.md",
+    "title": "P13CE: Cylinder-one pressure feedback is electrically high",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          105,
+          361,
+          362
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13CF",
+    "entryId": "volkswagen-p13cf",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13CF.md",
+    "title": "P13CF: An extremely low cylinder-one pressure signal",
+    "wordCount": 299,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          105,
+          361,
+          362
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13D0",
+    "entryId": "volkswagen-p13d0",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13D0.md",
+    "title": "P13D0: Pressure plausibility includes more than a voltage range",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          105,
+          361,
+          362
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13D3",
+    "entryId": "volkswagen-p13d3",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13D3.md",
+    "title": "P13D3: Cylinder-two plausibility has a copied label in the table",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          106
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13D6",
+    "entryId": "volkswagen-p13d6",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13D6.md",
+    "title": "P13D6: Cylinder-three pressure can fail a dynamic plausibility check",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          107
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13D9",
+    "entryId": "volkswagen-p13d9",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13D9.md",
+    "title": "P13D9: Cylinder-four pressure plausibility needs the full row",
+    "wordCount": 288,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          107,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13E0",
+    "entryId": "volkswagen-p13e0",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13E0.md",
+    "title": "P13E0: Cylinder-one pressure timing disagrees with crank angle",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          108,
+          361,
+          379
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13E1",
+    "entryId": "volkswagen-p13e1",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13E1.md",
+    "title": "P13E1: A cylinder-two timing check with an unresolved sensor label",
+    "wordCount": 291,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          108,
+          379
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13E2",
+    "entryId": "volkswagen-p13e2",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13E2.md",
+    "title": "P13E2: Cylinder-three pressure timing requires a reliable reference",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          109,
+          379
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13E3",
+    "entryId": "volkswagen-p13e3",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13E3.md",
+    "title": "P13E3: Cylinder-four pressure timing is not a heater diagnosis",
+    "wordCount": 283,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          109,
+          379
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P13EA",
+    "entryId": "audi-p13ea",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P13EA.md",
+    "title": "P13EA: Cold-start ignition efficiency is checked away from idle",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-crec-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "pages": [
+          301
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1427",
+    "entryId": "volkswagen-p1427",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P1427.md",
+    "title": "P1427: The hybrid brake-vacuum pump circuit reports excessive current",
+    "wordCount": 284,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-cgfa-touareg-hybrid-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "pages": [
+          376
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1428",
+    "entryId": "volkswagen-p1428",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P1428.md",
+    "title": "P1428: The brake-vacuum pump signal is electrically low",
+    "wordCount": 286,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-cgfa-touareg-hybrid-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "pages": [
+          376
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P1429",
+    "entryId": "volkswagen-p1429",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P1429.md",
+    "title": "P1429: The brake-vacuum pump circuit has an open-path signature",
+    "wordCount": 285,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-cgfa-touareg-hybrid-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "pages": [
+          376
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P146D",
+    "entryId": "volkswagen-p146d",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P146D.md",
+    "title": "P146D: Tank-heater feedback is high, not necessarily tank temperature",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          109,
+          429,
+          430
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P146F",
+    "entryId": "volkswagen-p146f",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P146F.md",
+    "title": "P146F: The line-heater current feedback exceeds its upper limit",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          109,
+          429,
+          430
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P148B",
+    "entryId": "volkswagen-p148b",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P148B.md",
+    "title": "P148B: Current continues when SCR heater circuit one is off",
+    "wordCount": 298,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          110,
+          429,
+          430
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P148C",
+    "entryId": "volkswagen-p148c",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P148C.md",
+    "title": "P148C: Unwanted circuit-two heating with an ambiguous printed unit",
+    "wordCount": 287,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          110,
+          429,
+          430
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P148F",
+    "entryId": "audi-p148f",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P148F.md",
+    "title": "P148F: EGR cooler valve two has an electrical off-state fault",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-cpna-cpnb-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "pages": [
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P150A",
+    "entryId": "volkswagen-p150a",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P150A.md",
+    "title": "P150A: The engine-off timer disagrees with the after-run timer",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-cgfa-touareg-hybrid-gst-2016"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "pages": [
+          377
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P169A",
+    "entryId": "volkswagen-p169a",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P169A.md",
+    "title": "P169A: Transport mode can be a configuration state",
+    "wordCount": 299,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16BA",
+    "entryId": "volkswagen-p16ba",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16BA.md",
+    "title": "P16BA: The charge-air cooling pump reports dry running",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          110,
+          352,
+          353
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16BF",
+    "entryId": "volkswagen-p16bf",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16BF.md",
+    "title": "P16BF: A heater-support pump ground-short report lasts four seconds",
+    "wordCount": 278,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          110,
+          409,
+          410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16C0",
+    "entryId": "volkswagen-p16c0",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16C0.md",
+    "title": "P16C0: The heater-support pump driver reports a positive short",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          110,
+          409,
+          410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16C1",
+    "entryId": "volkswagen-p16c1",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16C1.md",
+    "title": "P16C1: An open-circuit report from the heater-support pump",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          110,
+          409,
+          410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16C6",
+    "entryId": "volkswagen-p16c6",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16C6.md",
+    "title": "P16C6: Dry-running feedback is evaluated after electrical faults",
+    "wordCount": 282,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16C7",
+    "entryId": "volkswagen-p16c7",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16C7.md",
+    "title": "P16C7: The heater-support pump is reported blocked",
+    "wordCount": 298,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16C8",
+    "entryId": "volkswagen-p16c8",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16C8.md",
+    "title": "P16C8: Thermal feedback from the heater-support pump",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16C9",
+    "entryId": "volkswagen-p16c9",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16C9.md",
+    "title": "P16C9: The heater-support pump does not reach minimum speed",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P16CB",
+    "entryId": "volkswagen-p16cb",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P16CB.md",
+    "title": "P16CB: The heater-support pump loses its battery-supply indication",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P190B",
+    "entryId": "volkswagen-p190b",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P190B.md",
+    "title": "P190B: A charge-air cooling pump reports thermal shutdown",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          70,
+          352,
+          353
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P190D",
+    "entryId": "volkswagen-p190d",
+    "batch": "batch-48",
+    "path": "content/code-articles/batch-48/P190D.md",
+    "title": "P190D: A charge-air pump fails to achieve its mechanical response",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-crua-deja-golf7-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "pages": [
+          70,
+          352,
+          353
+        ]
+      }
+    ]
+  }
+]

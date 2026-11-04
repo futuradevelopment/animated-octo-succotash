@@ -1,0 +1,169 @@
+{
+  "batch": "batch-41",
+  "checkedOn": "2026-10-31",
+  "status": "100 completed draft manuscripts; no publication or commit by writer",
+  "articleCount": 100,
+  "sourceReviewCounts": {
+    "checked": 82,
+    "needs-review": 18
+  },
+  "validation": {
+    "articleCount": 100,
+    "assignmentCount": 100,
+    "uniqueCodes": 100,
+    "substantiveBodyWordRange": [
+      211,
+      264
+    ],
+    "substantiveBodyWordsTotal": 23733,
+    "sourceCount": 76,
+    "sourceRecordsInWriterManifest": 76,
+    "sourceReviewCounts": {
+      "checked": 82,
+      "needs-review": 18
+    },
+    "needsReview": [
+      "P0078",
+      "P0094",
+      "P0168",
+      "P0540",
+      "P0905",
+      "P0906",
+      "P0907",
+      "P0915",
+      "P0D1B",
+      "P1257",
+      "P1536",
+      "P1826",
+      "P1874",
+      "P2BE6",
+      "P2BE7",
+      "P2CF8",
+      "P349D",
+      "P349E"
+    ],
+    "exactRepeatedSubstantiveParagraphs": [],
+    "previous4000CodeOverlap": [],
+    "errors": []
+  },
+  "sourceManifest": "/workspace/scratch/dbf135311373/wave5/writer41/sources.json",
+  "validationArtifact": "/workspace/scratch/dbf135311373/wave5/writer41/validation.json",
+  "assignmentFile": "/workspace/scratch/dbf135311373/cars-wave5/research/article-assignments/batch-41.json",
+  "researchMethod": [
+    "Read actual GM2023\u20132026 diagnostic-monitor rows in full source PDFs, including calibration scopes, enable conditions and thresholds. Incidental/inhibit mentions were not accepted. Selected ambiguous layouts were visually inspected.",
+    "Read complete older GM, Subaru, Mazda and Toyota manufacturer diagnostic procedures reproduced by Operation CHARM. Extracted HTML text and inspected embedded detection/flowchart figures. MR2 figures additionally OCRed with numerical and branch tables visually verified.",
+    "Read original Volkswagen Phaeton BAP/BRP factory manual edition11.2014 hosted by VWTS: actual DTC mapping rows and full referenced sensor, regulator, injector and controller procedures. Rendered physical pages91,93,96,103\u2013105,206,210\u2013212 were inspected. Citations use physical PDF indices, not printed folios.",
+    "Read full Prius PHEV current-sensor and cooling-valve sections reproduced by MyToyo, including explicit SAE/enhanced mappings and all diagnostic branches. Shared Toyota source ID reused; root should union codeMentions with writer45, not overwrite either record.",
+    "Read official Mitsubishi2022DG/02 actual DTC rows, confirmation sequences and linked diagnosis pages. P0078 cross-reference error recorded explicitly; P2018 and P044B linked procedures read.",
+    "Authored each article as explicit original prose. Assembly helpers attach metadata and citations only; they do not generate generic title-substitution templates.",
+    "Used atomic claim.py only after source review. Retained100 accepted code strings, excluded initial4000 globally, and validated identity, source-page ranges, draft status and exact repeated substantive paragraphs."
+  ],
+  "unresolvedIssues": [
+    {
+      "code": "P0078",
+      "issue": "Mitsubishi P0078 detection/confirmation page links to an unrelated P0087 fuel-pressure diagnostic procedure. Article uses only the actual P0078 monitor facts and explicitly withholds a pin-level repair sequence pending corrected source.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P0094",
+      "issue": "Older GM procedure contains a dimensionally inconsistent pressure-minus-flow comparison alongside a 30 MPa threshold. Article does not turn it into a field measurement or silently repair the formula.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P0168",
+      "issue": "Source contains conflicting Type C/no-MIL and second-failure MIL descriptions. Article retains the fuel-temperature diagnosis but flags the inconsistent lamp behavior.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P0540",
+      "issue": "The intake-air-heater diagnostic table includes an ambiguous ignition/relay OFF state branch. Article does not prescribe that unresolved energized-circuit test.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P0905",
+      "issue": "MR2 final step is headed initial learning, but explanatory text refers to checking after ECU replacement before another replacement branch. Learning/replacement sequence requires current Toyota confirmation.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P0906",
+      "issue": "MR2 active-test figure pairs 22.0 mm with an inconsistent inch equivalent and pairs zero millimeters with a nonzero inch target. No silently corrected acceptance limit is supplied.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P0907",
+      "issue": "Shared MR2 target-select-stroke figure has inconsistent millimeter/inch values. Article preserves the short/high branch and requires the current acceptance specification.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P0915",
+      "issue": "MR2 shift-stroke chart has the same initial-learning versus ECU-replacement wording inconsistency as its select-stroke companion. Transfer-curve facts remain separately verified.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P0D1B",
+      "issue": "Prius PHEV closed-command temperature comparison is described as below its limit in the detection table but above its limit in the narrative. Article does not choose an unsupported inequality.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P1257",
+      "issue": "CHARM indexes the source under Riviera VIN K, while the procedure refers explicitly to a supercharged application. Article bounds the explanation to the described boost-control system and flags vehicle fitment.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P1536",
+      "issue": "Cadillac source heading and coolant narrative do not agree with an embedded P1540 refrigerant-pressure descriptor. Article flags the mixed diagnostic identification.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P1826",
+      "issue": "Cadillac narrative describes D2/D1 transition behavior, while the setting-condition text invokes Park for two seconds. Article identifies the discrepancy.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P1874",
+      "issue": "Impala page is headed P1874 but includes P1873 narrative and an apparently inconsistent TFT comparison. Article does not invent a corrected hot-state algorithm.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P2BE6",
+      "issue": "Prius PHEV introduction names a No. 2 traction battery device box, but trouble-area and replacement branches name No. 1. Enhanced-code mapping and IBL low-input branch are verified; assembly identity requires VIN-specific confirmation.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P2BE7",
+      "issue": "The same Prius current-sensor section has No. 2/No. 1 device-box naming inconsistency. Enhanced-code mapping and distinct high-input branch are verified; article prevents unsupported part ordering.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P2CF8",
+      "issue": "GM table calls the condition overcurrent but prints a bounded 8.1\u201312.8 A window. Article exposes the qualification ambiguity rather than making it an unrestricted overcurrent threshold.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P349D",
+      "issue": "GM narrative comparison direction and printed MAP inequality disagree. Article avoids an invented corrected threshold.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    },
+    {
+      "code": "P349E",
+      "issue": "GM narrative and printed MAP comparison direction conflict in the companion monitor. Article preserves the discrepancy.",
+      "treatment": "sourceReview=needs-review; limitation included in the article"
+    }
+  ],
+  "sourceScopeNotes": [
+    "GM file-level vehicle matrices are not used as proof that every code applies to every listed vehicle.",
+    "Mirrored historical factory manuals are labeled by original publisher and mirror. They do not establish universal vehicle or VIN applicability.",
+    "MyToyo groups PriusXW60PHEV material as2023\u20132026 without an exact factory revision; articles retain that limitation.",
+    "Mitsubishi pages are bounded to the2022DG/02engine-control collection and exact controller procedure. No unverified model or VIN fitment is added.",
+    "High-voltage battery, high-pressure fuel, starter interlock and stored hydraulic-energy work is kept within professional service boundaries. No owner-level high-voltage probing, hydraulic depressurization procedure or relay bypass is supplied."
+  ],
+  "rejectedOrUnwrittenCandidates": [
+    "P24D6/P24D7 were already reserved by43; P1575 by42; P0781/P0784 by44. Their proposals were rejected and no batch41 article was written.",
+    "Modern GM P1200/P1812/P1407 and C0522 meanings did not match canonical definitions; used only independently matching older procedures where found.",
+    "Legacy GM P1658/P1644/P1845/P1532/P1533/P1654/P0361 and several legacy B/C suspension codes were rejected for canonical definition conflicts.",
+    "Subaru P0957/P0958 described back-up-light relay faults instead of canonical manual-shift-mode faults; Mazda P0813 described reverse hydraulic sequence behavior instead of canonical reverse-output circuit. Rejected.",
+    "P2013 was not located in the referenced Forester turbo material. Did not assume the promised lead existed.",
+    "Mitsubishi P044E actual source combines an intermittent canonical code with high label and low-voltage criterion. Rejected rather than force-fitting.",
+    "DJXA P0148/P01C8/P01C4/P011F/P2810 were left to writer44; no competing claims or manuscripts."
+  ]
+}

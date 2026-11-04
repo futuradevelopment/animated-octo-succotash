@@ -1,0 +1,762 @@
+[
+  {
+    "id": "vw-crua-deja-golf7-gst-2018",
+    "title": "Volkswagen Golf 7/Golf Wagon CRUA/DEJA Generic Scan Tool, edition 08.2018",
+    "publisher": "Volkswagen AG",
+    "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+    "documentScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Complete original manufacturer PDF on VWTS mirror. Author read all selected DTC monitor rows, including identified continuations, and selectively read referenced component procedures. Original prose retains unresolved source issues as needs-review; this is not independent mechanic certification.",
+    "pageCount": 436,
+    "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+    "codeMentions": [
+      {
+        "code": "P1004",
+        "pages": [
+          103
+        ]
+      },
+      {
+        "code": "P13CE",
+        "pages": [
+          105,
+          361,
+          362
+        ]
+      },
+      {
+        "code": "P13CF",
+        "pages": [
+          105,
+          361,
+          362
+        ]
+      },
+      {
+        "code": "P13D0",
+        "pages": [
+          105,
+          361,
+          362
+        ]
+      },
+      {
+        "code": "P13D3",
+        "pages": [
+          106
+        ]
+      },
+      {
+        "code": "P13D6",
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "P13D9",
+        "pages": [
+          107,
+          108
+        ]
+      },
+      {
+        "code": "P13E0",
+        "pages": [
+          108,
+          361,
+          379
+        ]
+      },
+      {
+        "code": "P13E1",
+        "pages": [
+          108,
+          379
+        ]
+      },
+      {
+        "code": "P13E2",
+        "pages": [
+          109,
+          379
+        ]
+      },
+      {
+        "code": "P13E3",
+        "pages": [
+          109,
+          379
+        ]
+      },
+      {
+        "code": "P146D",
+        "pages": [
+          109,
+          429,
+          430
+        ]
+      },
+      {
+        "code": "P146F",
+        "pages": [
+          109,
+          429,
+          430
+        ]
+      },
+      {
+        "code": "P148B",
+        "pages": [
+          110,
+          429,
+          430
+        ]
+      },
+      {
+        "code": "P148C",
+        "pages": [
+          110,
+          429,
+          430
+        ]
+      },
+      {
+        "code": "P169A",
+        "pages": [
+          111
+        ]
+      },
+      {
+        "code": "P16BA",
+        "pages": [
+          110,
+          352,
+          353
+        ]
+      },
+      {
+        "code": "P16BF",
+        "pages": [
+          110,
+          409,
+          410
+        ]
+      },
+      {
+        "code": "P16C0",
+        "pages": [
+          110,
+          409,
+          410
+        ]
+      },
+      {
+        "code": "P16C1",
+        "pages": [
+          110,
+          409,
+          410
+        ]
+      },
+      {
+        "code": "P16C6",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      },
+      {
+        "code": "P16C7",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      },
+      {
+        "code": "P16C8",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      },
+      {
+        "code": "P16C9",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      },
+      {
+        "code": "P16CB",
+        "pages": [
+          111,
+          409,
+          410
+        ]
+      },
+      {
+        "code": "P190B",
+        "pages": [
+          70,
+          352,
+          353
+        ]
+      },
+      {
+        "code": "P190D",
+        "pages": [
+          70,
+          352,
+          353
+        ]
+      },
+      {
+        "code": "P190E",
+        "pages": [
+          70,
+          352,
+          353
+        ]
+      },
+      {
+        "code": "P199C",
+        "pages": [
+          112,
+          360,
+          361
+        ]
+      },
+      {
+        "code": "P199D",
+        "pages": [
+          112,
+          360,
+          361
+        ]
+      },
+      {
+        "code": "P199E",
+        "pages": [
+          112,
+          360,
+          361
+        ]
+      },
+      {
+        "code": "P3007",
+        "pages": [
+          145
+        ]
+      },
+      {
+        "code": "U02A2",
+        "pages": [
+          147
+        ]
+      },
+      {
+        "code": "U05A3",
+        "pages": [
+          146
+        ]
+      },
+      {
+        "code": "U1103",
+        "pages": [
+          148
+        ]
+      }
+    ]
+  },
+  {
+    "id": "audi-crec-gst-2016",
+    "title": "Audi Q7 CREC Generic Scan Tool, edition 11.2016",
+    "publisher": "Audi AG",
+    "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+    "documentScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+    "makeIds": [
+      "audi"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Complete original manufacturer PDF on VWTS mirror. Author read all selected DTC monitor rows, including identified continuations, and selectively read referenced component procedures. Original prose retains unresolved source issues as needs-review; this is not independent mechanic certification.",
+    "pageCount": 997,
+    "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+    "codeMentions": [
+      {
+        "code": "P007A",
+        "pages": [
+          447
+        ]
+      },
+      {
+        "code": "P00A0",
+        "pages": [
+          447
+        ]
+      },
+      {
+        "code": "P0149",
+        "pages": [
+          139
+        ]
+      },
+      {
+        "code": "P0239",
+        "pages": [
+          573
+        ]
+      },
+      {
+        "code": "P10A0",
+        "pages": [
+          291,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P10A1",
+        "pages": [
+          291,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P10A2",
+        "pages": [
+          291,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P10A3",
+        "pages": [
+          292,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P10A4",
+        "pages": [
+          292,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P10A5",
+        "pages": [
+          293,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P10A6",
+        "pages": [
+          293,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P10A7",
+        "pages": [
+          294,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P10A8",
+        "pages": [
+          294,
+          924,
+          925
+        ]
+      },
+      {
+        "code": "P12A1",
+        "pages": [
+          296,
+          297,
+          952,
+          953
+        ]
+      },
+      {
+        "code": "P12A2",
+        "pages": [
+          298,
+          299,
+          952,
+          953
+        ]
+      },
+      {
+        "code": "P12A4",
+        "pages": [
+          300,
+          952,
+          953
+        ]
+      },
+      {
+        "code": "P13EA",
+        "pages": [
+          301
+        ]
+      },
+      {
+        "code": "P21F4",
+        "pages": [
+          360,
+          361
+        ]
+      },
+      {
+        "code": "P21F5",
+        "pages": [
+          362,
+          363
+        ]
+      },
+      {
+        "code": "P21F6",
+        "pages": [
+          364,
+          365
+        ]
+      },
+      {
+        "code": "P21F7",
+        "pages": [
+          366,
+          367
+        ]
+      },
+      {
+        "code": "P2314",
+        "pages": [
+          410,
+          956,
+          957
+        ]
+      },
+      {
+        "code": "P2317",
+        "pages": [
+          411,
+          956,
+          957
+        ]
+      },
+      {
+        "code": "P25D9",
+        "pages": [
+          433
+        ]
+      },
+      {
+        "code": "P25DA",
+        "pages": [
+          433
+        ]
+      },
+      {
+        "code": "P25E9",
+        "pages": [
+          433,
+          922,
+          923
+        ]
+      },
+      {
+        "code": "P25EA",
+        "pages": [
+          434,
+          922,
+          923
+        ]
+      },
+      {
+        "code": "P25EB",
+        "pages": [
+          434,
+          922,
+          923
+        ]
+      },
+      {
+        "code": "P2AB3",
+        "pages": [
+          813
+        ]
+      },
+      {
+        "code": "P2AB4",
+        "pages": [
+          813
+        ]
+      },
+      {
+        "code": "P308D",
+        "pages": [
+          440
+        ]
+      },
+      {
+        "code": "P30F1",
+        "pages": [
+          440
+        ]
+      },
+      {
+        "code": "U013C",
+        "pages": [
+          815,
+          914,
+          915
+        ]
+      },
+      {
+        "code": "U0141",
+        "pages": [
+          442,
+          914,
+          915
+        ]
+      },
+      {
+        "code": "U0431",
+        "pages": [
+          445,
+          914,
+          915
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vw-cgfa-touareg-hybrid-gst-2016",
+    "title": "Volkswagen Touareg Hybrid CGFA Generic Scan Tool, edition 08.10.2016",
+    "publisher": "Volkswagen AG",
+    "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+    "documentScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+    "makeIds": [
+      "volkswagen"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Complete original manufacturer PDF on VWTS mirror. Author read all selected DTC monitor rows, including identified continuations, and selectively read referenced component procedures. Original prose retains unresolved source issues as needs-review; this is not independent mechanic certification.",
+    "pageCount": 709,
+    "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+    "codeMentions": [
+      {
+        "code": "P1427",
+        "pages": [
+          376
+        ]
+      },
+      {
+        "code": "P1428",
+        "pages": [
+          376
+        ]
+      },
+      {
+        "code": "P1429",
+        "pages": [
+          376
+        ]
+      },
+      {
+        "code": "P150A",
+        "pages": [
+          377
+        ]
+      },
+      {
+        "code": "P226B",
+        "pages": [
+          420
+        ]
+      },
+      {
+        "code": "P305C",
+        "pages": [
+          448
+        ]
+      },
+      {
+        "code": "P305D",
+        "pages": [
+          449
+        ]
+      },
+      {
+        "code": "P305E",
+        "pages": [
+          449
+        ]
+      },
+      {
+        "code": "P3081",
+        "pages": [
+          450
+        ]
+      },
+      {
+        "code": "P309C",
+        "pages": [
+          450
+        ]
+      },
+      {
+        "code": "P309D",
+        "pages": [
+          450
+        ]
+      },
+      {
+        "code": "P309F",
+        "pages": [
+          452
+        ]
+      },
+      {
+        "code": "P30A2",
+        "pages": [
+          452
+        ]
+      },
+      {
+        "code": "U10DD",
+        "pages": [
+          457
+        ]
+      },
+      {
+        "code": "U10DE",
+        "pages": [
+          457
+        ]
+      }
+    ]
+  },
+  {
+    "id": "audi-cpna-cpnb-gst-2018",
+    "title": "Audi A8/A7/A6/Q5 CPNA/CPNB Generic Scan Tool, edition 07.2018",
+    "publisher": "Audi AG",
+    "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+    "documentScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+    "makeIds": [
+      "audi"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Complete original manufacturer PDF on VWTS mirror. Author read all selected DTC monitor rows, including identified continuations, and selectively read referenced component procedures. Original prose retains unresolved source issues as needs-review; this is not independent mechanic certification.",
+    "pageCount": 659,
+    "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+    "codeMentions": [
+      {
+        "code": "P016A",
+        "pages": [
+          79
+        ]
+      },
+      {
+        "code": "P148F",
+        "pages": [
+          118
+        ]
+      },
+      {
+        "code": "P2013",
+        "pages": [
+          121
+        ]
+      },
+      {
+        "code": "P310E",
+        "pages": [
+          162
+        ]
+      },
+      {
+        "code": "P3348",
+        "pages": [
+          162
+        ]
+      },
+      {
+        "code": "U1006",
+        "pages": [
+          169
+        ]
+      },
+      {
+        "code": "U1024",
+        "pages": [
+          169
+        ]
+      },
+      {
+        "code": "U1026",
+        "pages": [
+          327
+        ]
+      },
+      {
+        "code": "U1034",
+        "pages": [
+          169
+        ]
+      },
+      {
+        "code": "U10C1",
+        "pages": [
+          170
+        ]
+      },
+      {
+        "code": "U10C2",
+        "pages": [
+          170
+        ]
+      },
+      {
+        "code": "U140C",
+        "pages": [
+          170
+        ]
+      },
+      {
+        "code": "U140D",
+        "pages": [
+          170
+        ]
+      },
+      {
+        "code": "U140E",
+        "pages": [
+          171
+        ]
+      },
+      {
+        "code": "U140F",
+        "pages": [
+          171
+        ]
+      }
+    ]
+  }
+]

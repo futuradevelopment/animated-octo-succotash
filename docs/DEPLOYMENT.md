@@ -21,7 +21,7 @@ Create a new Pages project through Workers & Pages and connect this GitHub repos
 
 ## Build and launch gates
 
-Run `npm run verify` before publishing. It checks the data contract and publication count, builds the static site, runs the Node regression suite and audits generated pages. `npm run reports` writes the actual inventory. CI uses that same build for desktop/mobile browser tests and repeated Lighthouse measurements.
+Run `npm run verify` before publishing. It checks the data contract and publication count, builds the static site, runs the Node regression suite and audits generated pages. The build removes the previous generated `dist/` directory before forcing a fresh Astro render, so a retained dictionary-only HTML file cannot survive a manuscript release. `npm run reports` writes the actual inventory. CI uses that same build for desktop/mobile browser tests and repeated Lighthouse measurements.
 
 The minimum counts distinct indexable code reference canonicals only. Manufacturer aliases, model hubs, directory pages and supporting pages do not increase the code-article count. The build also checks the complete output against Cloudflare Pages asset limits; search data and sitemap files count as assets too.
 

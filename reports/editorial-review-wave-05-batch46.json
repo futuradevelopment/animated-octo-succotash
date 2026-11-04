@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-02T10:21:18.994907+00:00",
+  "reviewer": "AI peer reviewer, separate from the author",
+  "batch": "batch-46",
+  "status": "sample-reviewed-no-corrections",
+  "selection": {
+    "observedInitialFileSet": [
+      "B106E",
+      "B106F",
+      "B10D7",
+      "B10DA",
+      "B1299",
+      "B1318",
+      "B2A25",
+      "C1700",
+      "C1742",
+      "C1743"
+    ],
+    "sampleCodes": [
+      "B106E",
+      "B10D7",
+      "C1742",
+      "B2A25",
+      "B106F",
+      "B10DA",
+      "B1299",
+      "C1700"
+    ],
+    "method": "Eight full bodies selected from the first ten completed manuscripts present at review start, including the four requested source-comparison cases."
+  },
+  "counts": {
+    "distinctFullBodyReads": 8,
+    "articleToSourceComparisons": 4,
+    "distinctComparedSourceDocuments": 4,
+    "manuscriptsChanged": 0,
+    "correctionsRequested": 0
+  },
+  "articles": [
+    {
+      "code": "B106E",
+      "path": "content/code-articles/batch-46/B106E.md",
+      "entryId": "ford-b106e",
+      "title": "B106E: why the Fusion junction box can switch an output off",
+      "sourceReviewAtRead": "checked",
+      "fileSha256": "ed6c1c353105727506139ed06b3456915e708e69e5649bb3156067ff77903520",
+      "bodySha256": "8c280511c9a77d72495001314b2d1f75a78f2a40a1cdfb043594d87b6fe37b40",
+      "bodyWords": 254,
+      "reviewLevel": "full-body-and-source-comparison",
+      "findings": [],
+      "sourceComparison": {
+        "sourceId": "ford-2011-fusion-25a18a2daa74d9",
+        "url": "https://charm.li/Ford/2011/Fusion%20FWD%20L4-2.5L/Repair%20and%20Diagnosis/Body%20and%20Frame/Body%20Control%20Systems/Testing%20and%20Inspection/Pinpoint%20Tests/Pinpoint%20Test%20A%3A%20DTCs%20B106E%2C%20B106F/",
+        "sourceSha256": "000634fa30947b948b6821c607f82c7bbde58c2f81d048b9d574f5b3535edf4e",
+        "hashMatchesReservation": true,
+        "locator": "Pinpoint Test A: DTCs B106E, B106F; Normal Operation and complete pinpoint diagnostic sequence",
+        "sourceRead": "Complete downloaded original Ford procedure text as mirrored by Operation CHARM.",
+        "verifiedClaims": [
+          "Normal Operation describes three progressive overload thresholds, with B106E and the affected circuit DTC at the first two thresholds.",
+          "The documented recovery before the third threshold requires fault correction, clearing DTCs and a self-test.",
+          "A1 explicitly requires underlying fault correction before another self-test and warns of damage to a replacement SJB.",
+          "The article distinguishes B106F permanent disablement from B106E rather than automatically prescribing module replacement."
+        ],
+        "imageInspection": "The inspected source HTML contains no images.",
+        "result": "No correction identified in the compared claims."
+      }
+    },
+    {
+      "code": "B10D7",
+      "path": "content/code-articles/batch-46/B10D7.md",
+      "entryId": "ford-b10d7",
+      "title": "B10D7: when the Fusion reports a key-programming failure",
+      "sourceReviewAtRead": "checked",
+      "fileSha256": "b5165c2746b935fd22d9a7839560d8741dd0c930de582e412e0d330dfe9a1c3d",
+      "bodySha256": "446b868b50450dbb34da57c4e8823dc96d19fbc83eb3a1e5f70335909706f53f",
+      "bodyWords": 261,
+      "reviewLevel": "full-body-and-source-comparison",
+      "findings": [],
+      "sourceComparison": {
+        "sourceId": "ford-2011-fusion-7fe1e9206a8871",
+        "url": "https://charm.li/Ford/2011/Fusion%20FWD%20L4-2.5L/Repair%20and%20Diagnosis/Accessories%20and%20Optional%20Equipment/Antitheft%20and%20Alarm%20Systems/Testing%20and%20Inspection/Pinpoint%20Tests/Anti-Theft%20-%20Passive%20Anti-Theft%20System%20%28PATS%29/Pinpoint%20Test%20I%3A%20DTC%20B10D7%3A05/",
+        "sourceSha256": "a521d0ac14fb75967c73fcf5734dd720443e27953341f2d6b456edba6889e648",
+        "hashMatchesReservation": true,
+        "locator": "Pinpoint Test I: DTC B10D7:05; Normal Operation and complete pinpoint diagnostic sequence",
+        "sourceRead": "Complete downloaded original Ford procedure text as mirrored by Operation CHARM.",
+        "verifiedClaims": [
+          "Pinpoint Test I explicitly concerns B10D7:05, PATS Key: System Programming Failures; the article preserves the suffix limitation.",
+          "Normal Operation identifies defective transponder or key-programming concern, with a PATS no-start.",
+          "I1 requires both keys individually, an additional compatible cut key when only one exists, and warns about unapproved key behavior over temperature.",
+          "The article correctly describes programming, clearing IPC DTCs, ignition cycling and checking each key without offering an anti-theft bypass."
+        ],
+        "imageInspection": "The inspected source HTML contains no images.",
+        "result": "No correction identified in the compared claims."
+      }
+    },
+    {
+      "code": "C1742",
+      "path": "content/code-articles/batch-46/C1742.md",
+      "entryId": "ford-c1742",
+      "title": "C1742: why the Fusion parking aid can detect an obstacle but stay silent",
+      "sourceReviewAtRead": "checked",
+      "fileSha256": "1579294ef82d50eb021805cd4044d8e1cd882790cad33eb2aedb277514d1f606",
+      "bodySha256": "57063e606c1cf7d562414fffa40fc45fa3ce1413ccb44a299bd691f9c0eb5e5d",
+      "bodyWords": 269,
+      "reviewLevel": "full-body-and-source-comparison",
+      "findings": [],
+      "sourceComparison": {
+        "sourceId": "ford-2011-fusion-83d19fe2016eee",
+        "url": "https://charm.li/Ford/2011/Fusion%20FWD%20L4-2.5L/Repair%20and%20Diagnosis/Accessories%20and%20Optional%20Equipment/Collision%20Avoidance%20and%20Parking%20Assist%20Systems/Testing%20and%20Inspection/Pinpoint%20Tests/Parking%20Aid/Pinpoint%20Test%20F%3A%20DTC%20C1742%20or%20DTC%20C1743/",
+        "sourceSha256": "2c891ef1ddcaac7a0ead6bdebce1584b0f64b94d604120413eef885fb2ee4336",
+        "hashMatchesReservation": true,
+        "locator": "Pinpoint Test F: DTC C1742 or DTC C1743; Normal Operation and complete pinpoint diagnostic sequence",
+        "sourceRead": "Complete downloaded original Ford procedure text as mirrored by Operation CHARM.",
+        "verifiedClaims": [
+          "Normal Operation distinguishes C1742 open/short-to-ground sounder circuit from C1743 short-to-voltage.",
+          "F1 prioritizes other parking-aid DTCs; F2 tests the disconnected speaker for40\u201360ohms.",
+          "F3/F4 repeat positive-circuit grounding checks with the speaker connected then disconnected to distinguish the fault path.",
+          "F5/F6 use less than 5 ohms for the positive and negative continuity checks; F8 checks the module connection before the replacement branch.",
+          "The article does not claim a defective ultrasonic sensor from the sounder code and appropriately separates silence from obstacle clearance."
+        ],
+        "imageInspection": "No source images inspected. All compared numerical thresholds and branch instructions were explicit in HTML text; no diagram-specific claim was assessed.",
+        "result": "No correction identified in the compared claims."
+      }
+    },
+    {
+      "code": "B2A25",
+      "path": "content/code-articles/batch-46/B2A25.md",
+      "entryId": "ford-b2a25",
+      "title": "B2A25: a door-lock request that stays grounded on the Fusion",
+      "sourceReviewAtRead": "checked",
+      "fileSha256": "8ea0e90cc5540123608d0089de29807d89456a27db7d892e9c9b01e2fc924df8",
+      "bodySha256": "c8b2fb34b91be487a48a90ad310d1d179f4845d601c1c5ad3f97518215ae4ac1",
+      "bodyWords": 270,
+      "reviewLevel": "full-body-and-source-comparison",
+      "findings": [],
+      "sourceComparison": {
+        "sourceId": "ford-2011-fusion-2cb5de9873c5e2",
+        "url": "https://charm.li/Ford/2011/Fusion%20FWD%20L4-2.5L/Repair%20and%20Diagnosis/Body%20and%20Frame/Locks/Power%20Locks/Testing%20and%20Inspection/Pinpoint%20Tests/Pinpoint%20Test%20H%3A%20DTC%20B2A25%2C%20B2574%2C%20Or%20B2575/",
+        "sourceSha256": "aa8ddc9309a3aa6928a9bf06d88abc32a1719295d7268d9b2924786a3ddc1990",
+        "hashMatchesReservation": true,
+        "locator": "Pinpoint Test H: DTC B2A25, B2574, Or B2575; Normal Operation and complete pinpoint diagnostic sequence",
+        "sourceRead": "Complete downloaded original Ford procedure text as mirrored by Operation CHARM.",
+        "verifiedClaims": [
+          "Normal Operation gives the Fusion/Milan SJB switch-input arrangement separately from the MKZ driver-door-module branch.",
+          "B2A25 is on-demand, triggered by a grounded lock/unlock request input; holding either switch longer than 2 minutes can also set it.",
+          "H2 tests the passenger switch first; H3 adds the driver switch specifically for Fusion/Milan.",
+          "H4 tests isolated request circuits against greater than 10,000 ohms before the SJB connection branch, matching the article.",
+          "The article explicitly avoids applying the MKZ driver-door-module and B2574/B2575 branch to the Fusion."
+        ],
+        "imageInspection": "No source images inspected. All compared numerical thresholds and branch instructions were explicit in HTML text; no diagram-specific claim was assessed.",
+        "result": "No correction identified in the compared claims."
+      }
+    },
+    {
+      "code": "B106F",
+      "path": "content/code-articles/batch-46/B106F.md",
+      "entryId": "ford-b106f",
+      "title": "B106F: the final overload threshold in the Fusion SJB",
+      "sourceReviewAtRead": "checked",
+      "fileSha256": "495f17728c901e611023520f0ba807679ec3c66694d34ced1ad445bddf0448b3",
+      "bodySha256": "55ab2c1d38f190923b29303cce019acb85e681a6db230307a27aba4317826e2b",
+      "bodyWords": 258,
+      "reviewLevel": "full-body-only",
+      "findings": [],
+      "bodyReviewNotes": "Read entire body for coherent explanation, explicit vehicle/source scope, unsupported universal repair language, dangerous owner-directed instructions and distinction from neighboring codes. No wording correction identified; no separate technical source comparison recorded for this sample."
+    },
+    {
+      "code": "B10DA",
+      "path": "content/code-articles/batch-46/B10DA.md",
+      "entryId": "ford-b10da",
+      "title": "B10DA: an invalid anti-theft handshake on the Fusion network",
+      "sourceReviewAtRead": "checked",
+      "fileSha256": "323f22d016a41ead69466bf9906578ddedca38f907cd96a9bdb9f88eb70445cd",
+      "bodySha256": "caf2b8aa4ea8f1d639d935209b7b0f3fbea79547a71fee9f08304d60eaec8c69",
+      "bodyWords": 265,
+      "reviewLevel": "full-body-only",
+      "findings": [],
+      "bodyReviewNotes": "Read entire body for coherent explanation, explicit vehicle/source scope, unsupported universal repair language, dangerous owner-directed instructions and distinction from neighboring codes. No wording correction identified; no separate technical source comparison recorded for this sample."
+    },
+    {
+      "code": "B1299",
+      "path": "content/code-articles/batch-46/B1299.md",
+      "entryId": "ford-b1299",
+      "title": "B1299: a shared parking-sensor supply can disable several readings",
+      "sourceReviewAtRead": "checked",
+      "fileSha256": "2dbaee10b91c8eeffa83e2cc8d2388d40007505317a5d498e1b460a2c8915831",
+      "bodySha256": "8e5f9a8a0e5095fdbdbe871b3b60071dd1d25ccf6dbf64ab3d0c6b54145636e6",
+      "bodyWords": 253,
+      "reviewLevel": "full-body-only",
+      "findings": [],
+      "bodyReviewNotes": "Read entire body for coherent explanation, explicit vehicle/source scope, unsupported universal repair language, dangerous owner-directed instructions and distinction from neighboring codes. No wording correction identified; no separate technical source comparison recorded for this sample."
+    },
+    {
+      "code": "C1700",
+      "path": "content/code-articles/batch-46/C1700.md",
+      "entryId": "ford-c1700",
+      "title": "C1700: electrical checks behind the Fusion left parking-sensor code",
+      "sourceReviewAtRead": "checked",
+      "fileSha256": "a310e94e920c77bc1b14a2daaf84a60ee78043b76e22a27994e3f98e7ad1e247",
+      "bodySha256": "1e5d26f932b514bdaa5f0a97ae3699d5cefba01d8fbc01686435d121a709861f",
+      "bodyWords": 265,
+      "reviewLevel": "full-body-only",
+      "findings": [],
+      "bodyReviewNotes": "Read entire body for coherent explanation, explicit vehicle/source scope, unsupported universal repair language, dangerous owner-directed instructions and distinction from neighboring codes. No wording correction identified; no separate technical source comparison recorded for this sample."
+    }
+  ],
+  "limitations": [
+    "This is a bounded AI editorial review of the exact recorded body/file hashes, not a full-batch or full-corpus certification.",
+    "Four additional bodies were read without separately recorded source comparisons. B106F shares the source used for B106E, but is not counted as an additional deep comparison.",
+    "The primary diagnostic text is an archived Ford workshop manual mirrored by Operation CHARM; no claim is made that it is the latest Ford service information.",
+    "No vehicle compatibility beyond each documented source scope, hands-on diagnosis, repair outcome, human mechanic certification, live deployment or search indexing was verified.",
+    "Source wiring images in C1742 and B2A25 were not inspected; comparisons relied on complete textual steps and their explicit thresholds.",
+    "Later edits require comparing the recorded hashes before extending these findings."
+  ]
+}

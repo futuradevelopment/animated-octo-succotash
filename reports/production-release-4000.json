@@ -1,0 +1,251 @@
+{
+  "checkedAt": "2026-10-31T12:03:31.618718+00:00",
+  "baseURL": "https://cars.errhive.com",
+  "expectedRelease": "code-articles-4000-20261031",
+  "expectedArticles": 4000,
+  "sampleCount": 20,
+  "sampleBatches": [
+    "batch-31",
+    "batch-32",
+    "batch-33",
+    "batch-34",
+    "batch-35",
+    "batch-36",
+    "batch-37",
+    "batch-38",
+    "batch-39",
+    "batch-40"
+  ],
+  "limitations": [
+    "The release manifest is compared for all 4,000 identities. HTML is fetched for the stated sample only; local static auditing separately covered all built article bodies.",
+    "This checks served content and URLs, not mechanical accuracy, indexing, rankings or field performance."
+  ],
+  "checks": [
+    {
+      "url": "/article-publication.json",
+      "passed": true,
+      "release": "code-articles-4000-20261031",
+      "count": 4000,
+      "sourceReviewPending": 580,
+      "cfRay": "a5328476fbe08b30-DFW"
+    },
+    {
+      "url": "/",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "url": "/articles/",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "url": "/articles/page/40/",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "entryId": "generic-p0040",
+      "code": "P0040",
+      "url": "/codes/generic/p0040/",
+      "sourceReview": "checked",
+      "batch": "batch-31",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "601347cd8b00d71af1a8b6d4ae956750c81f2eef8d54a3390f4efca193b2f8f6"
+    },
+    {
+      "entryId": "generic-p01e3",
+      "code": "P01E3",
+      "url": "/codes/generic/p01e3/",
+      "sourceReview": "needs-review",
+      "batch": "batch-31",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "b34aa2a72e3567f1efb8c386c5471fa2c7be526af54713875e4d4b51a62a70fd"
+    },
+    {
+      "entryId": "generic-p000e",
+      "code": "P000E",
+      "url": "/codes/generic/p000e/",
+      "sourceReview": "checked",
+      "batch": "batch-32",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "5a8b50d657abe307d0a31b5926faf8be2563fc772404a6e3143b7e0e0bbfd736"
+    },
+    {
+      "entryId": "generic-p012f",
+      "code": "P012F",
+      "url": "/codes/generic/p012f/",
+      "sourceReview": "checked",
+      "batch": "batch-32",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "b0630b2653e3d8c4646f62f8388b2b9e2443b0af7c4ed8620e77a6de81ac89ac"
+    },
+    {
+      "entryId": "generic-p00c4",
+      "code": "P00C4",
+      "url": "/codes/generic/p00c4/",
+      "sourceReview": "checked",
+      "batch": "batch-33",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "c4b1134dd7b40af307e0353f104f7c175db07048b7e256a5c745e7540cb25766"
+    },
+    {
+      "entryId": "chevrolet-p1115",
+      "code": "P1115",
+      "url": "/codes/chevrolet/p1115/",
+      "sourceReview": "needs-review",
+      "batch": "batch-33",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "0401bbe9918e03b5981e4aa9d143e75cdc36cf08877d7fc72d6f3e49e0fde232"
+    },
+    {
+      "entryId": "generic-p0042",
+      "code": "P0042",
+      "url": "/codes/generic/p0042/",
+      "sourceReview": "checked",
+      "batch": "batch-34",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "8641478480805a1207c373e9acbc47429087ab95d2c56991a2d5b16e1cda8d63"
+    },
+    {
+      "entryId": "jaguar-p1252",
+      "code": "P1252",
+      "url": "/codes/jaguar/p1252/",
+      "sourceReview": "needs-review",
+      "batch": "batch-34",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "887dbd28e55a2543d41fd6ce310f439cac74af261d5cec75df1e223d06977196"
+    },
+    {
+      "entryId": "generic-c0075",
+      "code": "C0075",
+      "url": "/codes/generic/c0075/",
+      "sourceReview": "checked",
+      "batch": "batch-35",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "003d6cda7e800bfffe8fa2415e4d0c9ee23a972190f593fd6759bdd6f2acde96"
+    },
+    {
+      "entryId": "honda-p1259",
+      "code": "P1259",
+      "url": "/codes/honda/p1259/",
+      "sourceReview": "needs-review",
+      "batch": "batch-35",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "c1210bf140b318e8ff10084f5ff4237ee82c23a7701298519206104dd8223cad"
+    },
+    {
+      "entryId": "generic-c055b",
+      "code": "C055B",
+      "url": "/codes/generic/c055b/",
+      "sourceReview": "checked",
+      "batch": "batch-36",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "fa26d757fbf37e2a4c8cfa973af448181b5fb1390540f2ac5b24d78ecfc91117"
+    },
+    {
+      "entryId": "generic-c059b",
+      "code": "C059B",
+      "url": "/codes/generic/c059b/",
+      "sourceReview": "needs-review",
+      "batch": "batch-36",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "034ad5d9b81c64fa3464e5f176af0a337d7c3ede645bd40e610ea2a76bbb2c82"
+    },
+    {
+      "entryId": "generic-p0039",
+      "code": "P0039",
+      "url": "/codes/generic/p0039/",
+      "sourceReview": "checked",
+      "batch": "batch-37",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "0c11febbcbb285fc84e091ec65a22c67dde6fddc945ac29999c1f78a04458c6c"
+    },
+    {
+      "entryId": "generic-p000f",
+      "code": "P000F",
+      "url": "/codes/generic/p000f/",
+      "sourceReview": "needs-review",
+      "batch": "batch-37",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "2bcfa6ea53f9e055b988c9a1f07f512ab3fd9eacd3606de7a7b3f43b431fb2be"
+    },
+    {
+      "entryId": "generic-b0001",
+      "code": "B0001",
+      "url": "/codes/generic/b0001/",
+      "sourceReview": "checked",
+      "batch": "batch-38",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "acbcaf2c338d6deb5a0dff39fa19151465bba1af41bb20ecb8ce15c21190fdfe"
+    },
+    {
+      "entryId": "generic-b0002",
+      "code": "B0002",
+      "url": "/codes/generic/b0002/",
+      "sourceReview": "checked",
+      "batch": "batch-38",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "27e3c3591281625e6b59039d7536a2b2ea52aeb39b90f0e248ee58fe63f99ab9"
+    },
+    {
+      "entryId": "generic-p00a1",
+      "code": "P00A1",
+      "url": "/codes/generic/p00a1/",
+      "sourceReview": "checked",
+      "batch": "batch-39",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "d5cea8753e879dc927a6c6c64ee58a2764ef02ce76685adcfe8660ff0287228b"
+    },
+    {
+      "entryId": "bmw-p1083",
+      "code": "P1083",
+      "url": "/codes/bmw/p1083/",
+      "sourceReview": "needs-review",
+      "batch": "batch-39",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "6e951c197dcbcc34762bd7cc48d96a4e19aabf5e076e16cc5f31dc1680fb006c"
+    },
+    {
+      "entryId": "generic-b0061",
+      "code": "B0061",
+      "url": "/codes/generic/b0061/",
+      "sourceReview": "checked",
+      "batch": "batch-40",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "8d41998c7f434f2c84595745589dd619564769650871f31e5b75bc4d5e2e27eb"
+    },
+    {
+      "entryId": "generic-u0426",
+      "code": "U0426",
+      "url": "/codes/generic/u0426/",
+      "sourceReview": "needs-review",
+      "batch": "batch-40",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "31a732620f7827510a97cbb1ff50861660d73d72dc48cea7941fea371998164a"
+    }
+  ],
+  "failures": [],
+  "mode": "live-http",
+  "status": "passed"
+}

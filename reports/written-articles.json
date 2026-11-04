@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-10-31T11:51:03.274Z",
+  "checkedAt": "2026-11-02T21:22:03.146Z",
   "status": "writing-complete",
   "counts": {
-    "assigned": 4000,
-    "written": 4000,
-    "uniqueCodes": 4000,
-    "sourceCheckedDrafts": 3420,
-    "sourceReviewPending": 580,
-    "words": 1084982,
+    "assigned": 5000,
+    "written": 5000,
+    "uniqueCodes": 5000,
+    "sourceCheckedDrafts": 4240,
+    "sourceReviewPending": 760,
+    "words": 1384296,
     "minimumWords": 183,
     "maximumWords": 431,
-    "selectedForPublication": 4000,
+    "selectedForPublication": 5000,
     "notSelectedForPublication": 0,
-    "selectedSourceChecked": 3420,
-    "selectedSourceReviewPending": 580
+    "selectedSourceChecked": 4240,
+    "selectedSourceReviewPending": 760
   },
   "publication": {
     "manifest": "content/code-articles/publication.json",
-    "releaseId": "code-articles-4000-20261031",
-    "expectedArticles": 4000,
+    "releaseId": "code-articles-5000-20261102",
+    "expectedArticles": 5000,
     "liveDeploymentVerification": "not-measured-by-this-report"
   },
   "waves": [
@@ -65,6 +65,17 @@
       "sourceCheckedDrafts": 937,
       "sourceReviewPending": 63,
       "words": 265747
+    },
+    {
+      "wave": 5,
+      "assigned": 1000,
+      "written": 1000,
+      "selectedForPublication": 1000,
+      "notSelectedForPublication": 0,
+      "uniqueCodes": 1000,
+      "sourceCheckedDrafts": 820,
+      "sourceReviewPending": 180,
+      "words": 299314
     }
   ],
   "batches": [
@@ -304,6 +315,66 @@
     },
     {
       "batch": "batch-40",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-41",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-42",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-43",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-44",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-45",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-46",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-47",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-48",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-49",
+      "assigned": 100,
+      "written": 100,
+      "missing": []
+    },
+    {
+      "batch": "batch-50",
       "assigned": 100,
       "written": 100,
       "missing": []
@@ -2630,11 +2701,731 @@
     {
       "file": "content/code-articles/batch-40/U0426.md",
       "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0078.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0094.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0168.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0540.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0905.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0906.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0907.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0915.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P0D1B.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P1257.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P1536.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P1826.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P1874.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P2BE6.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P2BE7.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P2CF8.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P349D.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-41/P349E.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-42/P0A44.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-42/P0D07.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-42/P24C0.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-42/P26D0.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-42/P26D3.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-42/P2800.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-42/P2806.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-43/P0BFF.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-43/P20F4.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-43/P20F5.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-43/P24D6.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-43/P2B7B.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-43/U0112.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-43/U0413.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P011F.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P01C8.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0910.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0916.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0920.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0ABF.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0B12.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0CDF.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0CF7.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0D1D.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0D1E.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0D28.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0D29.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0D5A.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0D6D.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0D90.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0D91.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0E14.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0E66.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0EF7.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0EF9.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P0EFA.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P26F4.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P26F5.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P26F6.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P26F7.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P2810.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P2B2F.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P2B31.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P2D88.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P2D89.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-44/P2D8B.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/P027E.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/P027F.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/P0D98.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/P0E57.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/P24B8.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/P2DE0.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/P2DE1.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/P2E2B.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-45/U0273.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1030.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1032.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B103C.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1083.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B10AF.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B10B9.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B111C.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1578.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1A16.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1A61.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1A68.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1A82.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1C83.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B1D79.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B213A.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B2425.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B2486.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B272A.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B272B.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B272E.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B272F.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B2730.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B2A32.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/B2A39.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/C1699.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/C1702.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/C1705.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-46/C1707.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/B1038.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/B12D4.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/B1413.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/B1415.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/C1111.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P1015.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P1016.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P139B.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P139C.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P144C.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P175A.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P1A0C.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P1A1E.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/P2BEF.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/U1205.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/U12AA.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/U2111.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-47/U2112.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P0149.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P016A.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A0.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A1.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A2.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A3.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A4.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A5.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A6.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A7.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P10A8.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P12A1.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P12A2.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P12A4.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P13D0.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P13D3.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P13D6.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P13D9.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P13E1.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P13E2.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P13E3.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P146D.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P146F.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P148B.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P148C.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P148F.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P199C.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P199D.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P199E.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P21F4.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P21F5.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P21F6.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P21F7.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P2AB4.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P30A2.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/P310E.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/U0141.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/U0431.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-48/U1026.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P100B.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P100C.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P170F.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P172A.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1A55.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1A64.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1A65.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1A89.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1D1D.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1D64.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1D72.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1D8A.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1DA8.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1DD9.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-49/P1E25.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-50/P15A9.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-50/P1B01.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-50/P1B20.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-50/P1C50.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-50/P1C64.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-50/P30E5.md",
+      "issue": "source_review_pending"
+    },
+    {
+      "file": "content/code-articles/batch-50/U1C02.md",
+      "issue": "source_review_pending"
     }
   ],
   "limitations": [
     "This report measures written manuscripts, metadata integrity and explicit renderer selection, not mechanical accuracy, human review, live publication, indexing or traffic. Source files retain draft authoring metadata independently of renderer selection.",
-    "The overall 10,000+ code-article goal remains separate from these 4,000 assigned manuscripts."
+    "The overall 10,000+ code-article goal remains separate from these 5,000 assigned manuscripts."
   ],
   "articleFiles": [
     "written-articles/part-001.json",
@@ -2652,6 +3443,10 @@
     "written-articles/part-013.json",
     "written-articles/part-014.json",
     "written-articles/part-015.json",
-    "written-articles/part-016.json"
+    "written-articles/part-016.json",
+    "written-articles/part-017.json",
+    "written-articles/part-018.json",
+    "written-articles/part-019.json",
+    "written-articles/part-020.json"
   ]
 }

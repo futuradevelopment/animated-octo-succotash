@@ -1,0 +1,304 @@
+{
+  "batch": "batch-44",
+  "date": "2026-10-31",
+  "status": "100 draft manuscripts complete; no commit or publication performed",
+  "counts": {
+    "articles": 100,
+    "assignments": 100,
+    "checked": 68,
+    "needsReview": 32,
+    "sourceRecords": 67,
+    "originalBodyWordRange": [
+      235,
+      301
+    ]
+  },
+  "sourceChecks": [
+    {
+      "family": "Mazda MX-30 Electric",
+      "articles": 58,
+      "scope": "MX-30 (DR), e-SKYACTIV, d9p9-1a-22c_ver5 Australia workshop manual; no model year inferred.",
+      "method": "Full Outline and Diagnostic Procedure sections read; exact procedure IDs retained. Duplicate procedure hashes avoid only repeated identical pages, not review of distinct branches."
+    },
+    {
+      "family": "GM 2019 19OBDG01 hybrid",
+      "articles": 1,
+      "scope": "Hybrid Powertrain Control Processor 2; no vehicle/calibration assignment inferred.",
+      "method": "Physical PDF pages 787\u2013789 read; stage-one contradiction flagged."
+    },
+    {
+      "family": "Volkswagen CVCA",
+      "articles": 19,
+      "scope": "Passat 2015 onward, Edition 08.2018, separate ECM 2015/2016 and DQ250 transmission tables.",
+      "method": "Full relevant monitor rows and referenced component procedures read; physical PDF pages cited."
+    },
+    {
+      "family": "Volkswagen DJXA",
+      "articles": 15,
+      "scope": "Jetta 2020 onward, Edition 04.2020; DJXA ECM and separate AQ300-8F 09S 2020 MY transmission table.",
+      "method": "Full monitor rows and referenced component procedures read. Cylinder-specific deceleration bands and fan feedback patterns preserved. P2810 merged table visually checked."
+    },
+    {
+      "family": "Ford diesel",
+      "articles": 2,
+      "scope": "2023\u20132024 OBD summary; engine and calibration applicability not assigned beyond document scope.",
+      "method": "Full SENT monitor section physical pages 94\u201395 read."
+    },
+    {
+      "family": "Hyundai Veloster DCT",
+      "articles": 5,
+      "scope": "2012 Veloster L4-1.6L DCT.",
+      "method": "General information and detecting-condition images, scan-tool text and decision images, full harness text and decision branches, repair-verification sections read. Downstream Component Inspection URL returned 404; no unavailable test invented. Numeric diagnostic limits distinguished from electrical service-check references."
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "code": "P011F",
+      "issue": "Retained-heat prerequisite wording requires current calibration interpretation; six-hour off time alone is not asserted sufficient."
+    },
+    {
+      "code": "P01C8",
+      "issue": "DJXA table Bank 2 title does not establish a second physical rail; filtered controller-output criterion distinguished from measured pressure."
+    },
+    {
+      "code": "P0910",
+      "issue": "Hyundai select-motor power-check step instead names clutch motor 1 connector."
+    },
+    {
+      "code": "P0916",
+      "issue": "Hyundai branch substitutes shift motor but then says replace select motor."
+    },
+    {
+      "code": "P0920",
+      "issue": "Hyundai shift-motor signal check instead says disconnect select motor; scan examples reuse select-motor page images."
+    },
+    {
+      "code": "P0ABF",
+      "issue": "GM stage-one pass wording conflicts with the threshold direction; article preserves measured precharge/current logic and explicitly identifies the inconsistency."
+    },
+    {
+      "code": "P0B12",
+      "issue": "Canonical intermittent label differs from Mazda current-sensor offset-monitor interpretation."
+    },
+    {
+      "code": "P0CDF",
+      "issue": "Generic coolant-valve designation versus Mazda refrigerant expansion-valve driver."
+    },
+    {
+      "code": "P0CF7",
+      "issue": "Generic intermittent label versus Mazda open-circuit interpretation."
+    },
+    {
+      "code": "P0D1D",
+      "issue": "Generic coolant-valve designation versus Mazda refrigerant expansion-valve driver."
+    },
+    {
+      "code": "P0D1E",
+      "issue": "Generic coolant-valve designation versus Mazda refrigerant expansion-valve driver."
+    },
+    {
+      "code": "P0D28",
+      "issue": "AC-input detection context versus quick-charging repair-verification wording."
+    },
+    {
+      "code": "P0D29",
+      "issue": "AC-input detection context versus quick-charging repair-verification wording."
+    },
+    {
+      "code": "P0D5A",
+      "issue": "Generic intermittent label versus Mazda open-circuit interpretation."
+    },
+    {
+      "code": "P0D6D",
+      "issue": "Mazda procedure names P0D6E in one branch and has a cable-segment wording mismatch."
+    },
+    {
+      "code": "P0D90",
+      "issue": "AC-input detection context versus quick-charging repair-verification wording."
+    },
+    {
+      "code": "P0D91",
+      "issue": "Mazda cause list mixes charge-port lid and connector-lock terminology."
+    },
+    {
+      "code": "P0E14",
+      "issue": "Generic coolant-heater high-circuit title versus Mazda stuck heater-contactor monitor."
+    },
+    {
+      "code": "P0E66",
+      "issue": "Mazda short-circuit test heading conflicts with open-circuit wording in its body."
+    },
+    {
+      "code": "P0EF7",
+      "issue": "Generic charger-B voltage label versus Mazda BECM voltage monitor; physical charger-B mapping is not established."
+    },
+    {
+      "code": "P0EF9",
+      "issue": "Generic charger-B voltage label versus Mazda BECM voltage monitor; physical charger-B mapping is not established."
+    },
+    {
+      "code": "P0EFA",
+      "issue": "Generic charger-B voltage label versus Mazda BECM voltage monitor; physical charger-B mapping is not established."
+    },
+    {
+      "code": "P26F4",
+      "issue": "VW CVCA monitor references V488; combined V467/V488 component procedure steps name V467."
+    },
+    {
+      "code": "P26F5",
+      "issue": "VW CVCA monitor references V488; combined V467/V488 component procedure steps name V467."
+    },
+    {
+      "code": "P26F6",
+      "issue": "VW CVCA monitor references V488; combined V467/V488 component procedure steps name V467."
+    },
+    {
+      "code": "P26F7",
+      "issue": "VW CVCA monitor references V488; combined V467/V488 component procedure steps name V467."
+    },
+    {
+      "code": "P2810",
+      "issue": "VW summed-current difference has no unit/scaling and the enabling-condition cell is compressed; physical PDF page 408 visually checked."
+    },
+    {
+      "code": "P2B2F",
+      "issue": "VW fan row calls diagnostic signal one sent by a pump; fan title and VX57 reference retained without inventing a pump mapping."
+    },
+    {
+      "code": "P2B31",
+      "issue": "VW fan row calls diagnostic signal one sent by a pump; fan title and VX57 reference retained without inventing a pump mapping."
+    },
+    {
+      "code": "P2D88",
+      "issue": "VW fan row calls diagnostic signal one sent by a pump; fan title and VX57 reference retained without inventing a pump mapping."
+    },
+    {
+      "code": "P2D89",
+      "issue": "VW fan row calls diagnostic signal one sent by a pump; no supply-voltage threshold is supplied for this code."
+    },
+    {
+      "code": "P2D8B",
+      "issue": "VW fan row calls diagnostic signal one sent by a pump; fan title and VX57 reference retained without inventing a pump mapping."
+    }
+  ],
+  "exclusions": [
+    "Existing 4,000 code strings excluded through global remaining inventory and atomic reservations.",
+    "Additional battery module and cell-balancing siblings rejected when source supplied no material diagnostic distinction.",
+    "Index-only, inhibit-only and companion-code mentions not used as evidence.",
+    "GM source pool exhausted without forcing unrelated code definitions; thin Audi quick-reference rows not used.",
+    "P055C rejected because batch43 already owned it."
+  ],
+  "safety": "HV, high-pressure fuel, powered actuators and hot cooling circuits kept at professional diagnostic boundaries; no hazardous disassembly or terminal-bridging instructions.",
+  "validation": {
+    "exactCodeAndEntryIdentity": true,
+    "assignmentSetMatchesArticles": true,
+    "allStatusDraft": true,
+    "allSourceIdsResolve": true,
+    "allPdfPagesWithinActualPageCounts": true,
+    "allPdfLinksHavePhysicalPageFragments": true,
+    "duplicateBodyHashes": 0,
+    "highestFiveWordShingleOverlap": [
+      0.062,
+      "P0829",
+      "P0781"
+    ],
+    "errors": []
+  },
+  "auditFiles": {
+    "validation": "/workspace/scratch/dbf135311373/wave5/writer44/validation.json",
+    "sourceRecords": "/workspace/scratch/dbf135311373/wave5/writer44/sources.json",
+    "articleSourceMetadata": "/workspace/scratch/dbf135311373/wave5/writer44/mx-metadata.json",
+    "downloadedEvidence": "/workspace/scratch/dbf135311373/wave5/writer44"
+  },
+  "structuralCorrection": {
+    "type": "headings only",
+    "count": 84,
+    "paths": [
+      "content/code-articles/batch-44/P011F.md",
+      "content/code-articles/batch-44/P012A.md",
+      "content/code-articles/batch-44/P0148.md",
+      "content/code-articles/batch-44/P0195.md",
+      "content/code-articles/batch-44/P01C4.md",
+      "content/code-articles/batch-44/P01C8.md",
+      "content/code-articles/batch-44/P0383.md",
+      "content/code-articles/batch-44/P039B.md",
+      "content/code-articles/batch-44/P03A5.md",
+      "content/code-articles/batch-44/P03AF.md",
+      "content/code-articles/batch-44/P03B9.md",
+      "content/code-articles/batch-44/P05A5.md",
+      "content/code-articles/batch-44/P0781.md",
+      "content/code-articles/batch-44/P0784.md",
+      "content/code-articles/batch-44/P0829.md",
+      "content/code-articles/batch-44/P0900.md",
+      "content/code-articles/batch-44/P0910.md",
+      "content/code-articles/batch-44/P0914.md",
+      "content/code-articles/batch-44/P0916.md",
+      "content/code-articles/batch-44/P0917.md",
+      "content/code-articles/batch-44/P0919.md",
+      "content/code-articles/batch-44/P0920.md",
+      "content/code-articles/batch-44/P0BE5.md",
+      "content/code-articles/batch-44/P0C0C.md",
+      "content/code-articles/batch-44/P0C0D.md",
+      "content/code-articles/batch-44/P0CA4.md",
+      "content/code-articles/batch-44/P0CD1.md",
+      "content/code-articles/batch-44/P0CDF.md",
+      "content/code-articles/batch-44/P0CF7.md",
+      "content/code-articles/batch-44/P0CFD.md",
+      "content/code-articles/batch-44/P0CFE.md",
+      "content/code-articles/batch-44/P0D0E.md",
+      "content/code-articles/batch-44/P0D1D.md",
+      "content/code-articles/batch-44/P0D1E.md",
+      "content/code-articles/batch-44/P0D24.md",
+      "content/code-articles/batch-44/P0D28.md",
+      "content/code-articles/batch-44/P0D29.md",
+      "content/code-articles/batch-44/P0D3D.md",
+      "content/code-articles/batch-44/P0D52.md",
+      "content/code-articles/batch-44/P0D5A.md",
+      "content/code-articles/batch-44/P0D67.md",
+      "content/code-articles/batch-44/P0D6D.md",
+      "content/code-articles/batch-44/P0D6E.md",
+      "content/code-articles/batch-44/P0D70.md",
+      "content/code-articles/batch-44/P0D90.md",
+      "content/code-articles/batch-44/P0D91.md",
+      "content/code-articles/batch-44/P0D99.md",
+      "content/code-articles/batch-44/P0E14.md",
+      "content/code-articles/batch-44/P0E56.md",
+      "content/code-articles/batch-44/P0E66.md",
+      "content/code-articles/batch-44/P0E72.md",
+      "content/code-articles/batch-44/P0E73.md",
+      "content/code-articles/batch-44/P0EC6.md",
+      "content/code-articles/batch-44/P0EE7.md",
+      "content/code-articles/batch-44/P20EA.md",
+      "content/code-articles/batch-44/P20EB.md",
+      "content/code-articles/batch-44/P20FA.md",
+      "content/code-articles/batch-44/P20FB.md",
+      "content/code-articles/batch-44/P20FC.md",
+      "content/code-articles/batch-44/P20FD.md",
+      "content/code-articles/batch-44/P21C8.md",
+      "content/code-articles/batch-44/P21CE.md",
+      "content/code-articles/batch-44/P2531.md",
+      "content/code-articles/batch-44/P2532.md",
+      "content/code-articles/batch-44/P2613.md",
+      "content/code-articles/batch-44/P26F4.md",
+      "content/code-articles/batch-44/P26F5.md",
+      "content/code-articles/batch-44/P26F6.md",
+      "content/code-articles/batch-44/P26F7.md",
+      "content/code-articles/batch-44/P26FD.md",
+      "content/code-articles/batch-44/P2810.md",
+      "content/code-articles/batch-44/P2B2A.md",
+      "content/code-articles/batch-44/P2B2F.md",
+      "content/code-articles/batch-44/P2B31.md",
+      "content/code-articles/batch-44/P2C68.md",
+      "content/code-articles/batch-44/P2D3B.md",
+      "content/code-articles/batch-44/P2D44.md",
+      "content/code-articles/batch-44/P2D46.md",
+      "content/code-articles/batch-44/P2D87.md",
+      "content/code-articles/batch-44/P2D88.md",
+      "content/code-articles/batch-44/P2D89.md",
+      "content/code-articles/batch-44/P2D8B.md",
+      "content/code-articles/batch-44/P2E2D.md",
+      "content/code-articles/batch-44/P2E2E.md"
+    ],
+    "scope": "Added one code-specific subsection heading to each listed manuscript. Source findings, metadata and substantive prose were unchanged. This correction is not 84 independent full-body reviews."
+  }
+}

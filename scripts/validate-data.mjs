@@ -3,6 +3,7 @@ import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {isDeepStrictEqual} from 'node:util';
 import {createCheckCollector,validDate} from './lib/audit-utils.mjs';
+import {readCuratedBundle} from './lib/curated-codes.mjs';
 
 export const CODE_PATTERN=/^[PBCU][0-3][0-9A-F]{3}$/;
 export const MINIMUM_DICTIONARY_ENTRIES=10000;
@@ -120,8 +121,10 @@ export function validateDataset(data,{minimumCodes=MINIMUM_DICTIONARY_ENTRIES}={
 }
 export async function validateData(root=process.cwd()){
  const data=await import('../src/lib/cars.ts');
+ const curated=readCuratedBundle(root);
+ for(const entry of curated.entries)if(!isDeepStrictEqual(data.allCodes.find(item=>item.id===entry.id),entry))throw new Error(`Curated catalog differs from its verified definition: ${entry.id}`);
  const sourceInputs=[];
- for(const filename of ['dataset-sources.json','oem-sources.json','editorial-sources.json']){
+ for(const filename of ['dataset-sources.json','oem-sources.json','editorial-sources.json','curated-sources.json']){
   try{sourceInputs.push({filename,records:JSON.parse(await fs.readFile(path.join(root,'src/data',filename),'utf8'))});}catch(error){if(error.code!=='ENOENT')throw error;}
  }
  const catalog=sourceInputs.flatMap(input=>input.records);
