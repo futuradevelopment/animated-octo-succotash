@@ -114,13 +114,25 @@ for(const makeId of ['audi','porsche'])test(`${makeId} manufacturer documents ar
  await expect(page.locator(`main a[href="${source.url}"]`).first()).toBeVisible();
  const requests:string[]=[];page.on('request',request=>{if(request.url().includes('/search-data/'))requests.push(request.url());});
  await page.goto('/search/');await page.locator('#make').selectOption(makeId);
- await expect(page.locator('#search-status')).toHaveText(`${make.name} manufacturer documents are available.`);
- const documentationLink=page.locator(`#search-hint a[href="${makePath(makeId)}"]`);await expect(documentationLink).toBeVisible();
- await page.locator('#query').fill(bulletin.codes[0]);await page.locator('#code-search button[type="submit"]').click();
- await expect(page.locator('#search-status')).toHaveText(`${make.name} manufacturer documents are available.`);
- await expect(page.locator('#search-error')).toBeHidden();await expect(page.locator('#search-empty')).toBeHidden();await expect(page.locator('#search-results a')).toHaveCount(0);
- expect(requests.some(url=>url.includes(`/search-data/${makeId}.json`)||url.includes('/search-data/parts/'))).toBe(false);
- await documentationLink.click();await expect(page).toHaveURL(new RegExp(makePath(makeId).replaceAll('/','\\/')+'$'));
+ const reference=codesForMake(makeId).find(entry=>entry.status==='published_indexable');
+ const documentationLink=page.locator(`#search-hint a[href="${makePath(makeId)}"]`);
+ await expect(documentationLink).toBeVisible();
+ if(reference){
+  // Adding canonical references must preserve the route to manufacturer documents.
+  await expect(page.locator('#search-results a[data-code-id]').first()).toBeVisible();
+  await documentationLink.click();await expect(page.locator(`[data-bulletin-id="${bulletin.id}"]`)).toBeVisible();
+  await page.goto(`/search/?make=${makeId}&q=${encodeURIComponent(reference.code)}`);
+  await expect(page.locator(`#search-results a[data-code-id="${reference.id}"]`)).toHaveAttribute('href',codePath(reference));
+  await expect(page.locator('#search-error')).toBeHidden();await expect(page.locator('#search-empty')).toBeHidden();
+  expect(requests.some(url=>url.includes('/search-data/parts/'))).toBe(true);
+ }else{
+  await expect(page.locator('#search-status')).toHaveText(`${make.name} manufacturer documents are available.`);
+  await page.locator('#query').fill(bulletin.codes[0]);await page.locator('#code-search button[type="submit"]').click();
+  await expect(page.locator('#search-status')).toHaveText(`${make.name} manufacturer documents are available.`);
+  await expect(page.locator('#search-error')).toBeHidden();await expect(page.locator('#search-empty')).toBeHidden();await expect(page.locator('#search-results a')).toHaveCount(0);
+  expect(requests.some(url=>url.includes(`/search-data/${makeId}.json`)||url.includes('/search-data/parts/'))).toBe(false);
+  await documentationLink.click();await expect(page).toHaveURL(new RegExp(makePath(makeId).replaceAll('/','\\/')+'$'));
+ }
 });
 
 
