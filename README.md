@@ -4,7 +4,7 @@ Automotive diagnostic-code reference for **https://cars.errhive.com**, adapted f
 
 ## Content inventory
 
-The writing inventory contains **4,000 code-article manuscripts for 4,000 distinct codes**. Completed writing waves: 1, 2, 3, 4. The [manuscript index](content/code-articles/README.md) reports each wave and current progress toward 10,000. The publication manifest selects **4,000** for the canonical page renderer; **0** remain unpublished drafts. Renderer selection, verified live publication and the full-catalog review target are counted separately.
+The writing inventory contains **5,000 code-article manuscripts for 5,000 distinct codes**. Completed writing waves: 1, 2, 3, 4, 5. The [manuscript index](content/code-articles/README.md) reports each wave and current progress toward 10,000. The publication manifest selects **5,000** for the canonical page renderer; **0** remain unpublished drafts. Renderer selection, verified live publication and the full-catalog review target are counted separately.
 
 **The 10,000-code-article task is not complete.** The 32 case guides below are separate from the canonical dictionary pages. [Full-corpus research status](docs/FULL_CORPUS_RESEARCH.md) records the evidence gap and source candidates.
 
@@ -61,3 +61,7 @@ See [deployment instructions](docs/DEPLOYMENT.md), [reuse manifest](docs/REUSE_M
 <!-- wave-04-peer-review:start -->
 The [fourth-wave peer-review summary](reports/editorial-review-wave-04-summary.json) records **110 distinct article bodies and 60 article-to-source checks** across batches 31–40. Deep checks are included in the body sample; they do not count unique source documents. 10 metadata/excerpt checks and 2 citation-only checks are separate. The reviews recorded corrections across 29 files, including 10 changes to needs-review that preserve unresolved definition or applicability gaps. Selection cutoffs and later samples are recorded in the summary. These bounded AI peer reviews do not certify every article, vehicle applicability, repairs or live publication.
 <!-- wave-04-peer-review:end -->
+
+<!-- wave-05-peer-review:start -->
+The [fifth-wave peer-review summary](reports/editorial-review-wave-05-summary.json) records **92 distinct article bodies and 50 article-to-source checks** across batches 41–50, with current manuscript hashes matching the recorded reviewed versions. Source checks are included in the body sample. Historical reviews recorded 4 prose corrections; the resumed review recorded 1 editorial correction. Separately, 84 heading-only fixes were recorded in batch 44; they do not add independent body reads. The [fifth-wave similarity screen](reports/article-similarity-wave-05.json) has its own recorded corpus, candidate limits and manual pair reviews. These bounded AI checks do not certify full-corpus accuracy, originality, vehicle applicability, repairs or live publication.
+<!-- wave-05-peer-review:end -->

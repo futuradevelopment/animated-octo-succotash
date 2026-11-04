@@ -1,0 +1,98 @@
+{
+  "batch": "batch-45",
+  "checkedOn": "2026-10-31",
+  "status": "100-original-drafts-complete",
+  "articles": 100,
+  "sourceChecked": 91,
+  "needsReview": 9,
+  "bodyWords": {
+    "minimum": 250,
+    "maximum": 293,
+    "total": 26773
+  },
+  "sourceRecordCount": 85,
+  "sourceRecords": "/workspace/scratch/dbf135311373/wave5/writer45/sources.json",
+  "validationReport": "/workspace/scratch/dbf135311373/wave5/writer45/validation.json",
+  "scopeGroups": [
+    {
+      "count": 50,
+      "scope": "Toyota Corolla HV 2023–2026, lithium-ion battery with PA10, production from September2022; exact source metadata and detailed Toyota code preserved."
+    },
+    {
+      "count": 6,
+      "scope": "Toyota Prius XW60 PHEV original diagnostic procedures in MyToyo collection labeled2023–2026; factory revision not shown."
+    },
+    {
+      "count": 2,
+      "scope": "Toyota RAV4 HV two-wheel-drive nickel-metal-hydride battery procedures with source-specific2019–2020 orJune–August2020 production bounds."
+    },
+    {
+      "count": 32,
+      "scope": "Honda Insight third-generation original PDFs hosted by LaboratoryB; individual extracts do not print exact edition/year, so no inferred universal model-year scope."
+    },
+    {
+      "count": 10,
+      "scope": "Nissan Ariya FE0 original service procedures reproduced by NiAriya in2023–2026-labeled collection; underlying revision not shown; detailed suffix and drivetrain distinctions retained."
+    }
+  ],
+  "sourceChecks": [
+    "Full code-specific monitor tables and displayed troubleshooting procedures read before atomic reservation. No inhibit-column-only or index-only assignments.",
+    "Toyota detailed UDScode prefixes were not treated as SAE codes. Explicit SAE mappings were checked where displayed; two RAV4 base-code assignments use exact matching factory definitions with detailed suffix scope.",
+    "Honda physical PDF pages verified with /usr/bin/pdfinfo; all cited extracts downloaded, SHA256 recorded, full text retains form-feed page boundaries. Representative table pages rendered and visually inspected.",
+    "Nissan detection, confirmation and complete displayed repair branches read by exact HTML heading; linked procedures not displayed are explicitly identified as limits instead of invented.",
+    "All prose explicitly authored per code. Serialization scripts format authored JSON only. Shared factory procedures have distinct channel, condition, threshold or outcome interpretation.",
+    "High-voltage access, park-pawl, fuel-vapor and other hazardous work stays at qualified professional boundaries. No live high-voltage probing or disassembly recipe is reproduced."
+  ],
+  "unresolvedIssues": [
+    {
+      "code": "P0E57",
+      "issue": "Corolla source confirmation refers to a mode switch whose applicability is unclear in the document; preserve original monitor and flag confirmation-scope inconsistency."
+    },
+    {
+      "code": "P027E",
+      "issue": "Catalog cold-start fuel quantity A below expectation differs from Honda command-lean description. Mixture ratio convention not silently interpreted."
+    },
+    {
+      "code": "P027F",
+      "issue": "Catalog cold-start fuel quantity A above expectation differs from Honda command-rich description. Mixture ratio convention not silently interpreted."
+    },
+    {
+      "code": "P24B8",
+      "issue": "Honda final reference-circuit branch names P24BA in a P24B8 procedure; no silent correction or unconditional PCM conclusion."
+    },
+    {
+      "code": "P2DE0",
+      "issue": "Catalog fuel quantity C below expectation differs from Honda actual-mixture lean monitor; no inferred injector C or flow measurement."
+    },
+    {
+      "code": "P2DE1",
+      "issue": "Catalog fuel quantity C above expectation differs from Honda actual-mixture rich monitor; no inferred injector C or flow measurement."
+    },
+    {
+      "code": "P0D98",
+      "issue": "Ariya heading says coupler unlock, but signal and diagnosis concern charge-port lid actuator. Component equivalence not assumed."
+    },
+    {
+      "code": "P2E2B",
+      "issue": "Generic too-high excitation current wording is not fully reconciled with Nissan excitation-module error tables. Exact suffix-specific repair facts retained without inventing an amperage threshold."
+    },
+    {
+      "code": "U0273",
+      "issue": "Catalog lighting-driver module A versus Nissan charging-status indicator over LIN requires definition reconciliation."
+    }
+  ],
+  "excludedResearch": [
+    "Toyota/MyToyo headings whose detailed-code prefix differs from explicit SAE mapping were excluded.",
+    "Manufacturer-allocated Honda/Nissan codes absent existing catalog were not assigned to generic theoretical allocations.",
+    "LEMON source mirrors that could not yield stable complete procedures were not used as evidence.",
+    "Three unclaimed Toyota backup procedures P2BE6/P2BE7/P0D1B were handed to writer41 for independent full review."
+  ],
+  "validation": {
+    "status": "passed",
+    "failures": [],
+    "uniqueCodeFiles": 100,
+    "noOtherBatchCodeOverlap": true,
+    "maxInternalFiveWordShingleJaccard": 0.058
+  },
+  "publication": "Draft authoring only; no build, commit, shared-source integration or publication performed by writer45."
+}

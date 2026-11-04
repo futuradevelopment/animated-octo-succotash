@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import {appendCuratedEntries} from './lib/curated-codes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const vendor = path.join(root, 'vendor/wal33d-dtc-database');
@@ -186,8 +187,9 @@ function write(relative, value) {
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.writeFileSync(target, `${JSON.stringify(value, null, 2)}\n`);
 }
-write('src/data/dtc.json', entries);
+const importedEntries=appendCuratedEntries(root,entries);
+write('src/data/dtc.json', importedEntries);
 write('src/data/makes.json', makes);
 write('src/data/dataset-sources.json', sources);
 write('docs/data-import-ledger.json', ledger);
-console.log(JSON.stringify({ inputRows: inputNonemptyRows, excludedRows: excluded.length, canonicalEntries: entries.length, byScope: ledger.byScope, sharedDefinitionEntries: ledger.sharedDefinitionEntries, exclusionsByReason }, null, 2));
+console.log(JSON.stringify({ inputRows: inputNonemptyRows, excludedRows: excluded.length, canonicalEntries: entries.length, curatedEntries:importedEntries.length-entries.length, totalCanonicalEntries:importedEntries.length, byScope: ledger.byScope, sharedDefinitionEntries: ledger.sharedDefinitionEntries, exclusionsByReason }, null, 2));

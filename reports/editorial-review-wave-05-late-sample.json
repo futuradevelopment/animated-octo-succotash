@@ -1,0 +1,104 @@
+{
+  "reviewedOn": "2026-11-02",
+  "reviewedAt": "2026-11-02T10:34:08.746574+00:00",
+  "wave": 5,
+  "reviewer": "AI peer reviewer, independent from writer47",
+  "scope": "Bounded late sample of Honda body/chassis manuscripts introduced in batch47 after its earlier Ford-only sample. Six full bodies, including three complete original-PDF comparisons.",
+  "selectionReason": "New Honda B/C/U source family was outside the earlier batch47 Ford sample. Selected SRS, VSA pump supply and electric-parking-brake topics, including the C1111 needs-review conflict.",
+  "items": [
+    {
+      "path": "content/code-articles/batch-47/B2800.md",
+      "code": "B2800",
+      "sha256": "4df96d68a883760dea0a902bce7cd0934c0afa204d722c9f43f37205c163291b",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Read and rendered the complete one-page source. B2800-49 identifies internal SRS failure, with 10\u201316 V supply, ON mode, approximately 6 seconds, one drive cycle and SRS indicator. The low-voltage warning below 10 V and incomplete-cause-list caveat support the article. The source says fail-safe action None; the article correctly avoids interpreting that as a restraint-availability guarantee. No correction identified.",
+      "evidence": [
+        {
+          "sourceId": "honda-insight-gen3-b2800-writer47",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/Troubleshooting/DTC%20Advanced%20Diagnostics_%20B2800-49%204183.pdf",
+          "sha256": "1a7bc48ca4edf308da2af3549bd96eddf25dfa619965ef995a31554801270e2a",
+          "pages": [
+            1
+          ],
+          "locator": "Complete DTC Advanced Diagnostics_ B2800-49 4183.pdf; all physical PDF pages.",
+          "reviewMethod": "Complete original PDF text read and physical page rendered and visually inspected.",
+          "sourceHashMatchesReservation": true
+        }
+      ]
+    },
+    {
+      "path": "content/code-articles/batch-47/B2840.md",
+      "code": "B2840",
+      "sha256": "50c369f637fcc9b2b10b55066ffa387037de277d913b26c508787f6264bad16a",
+      "reviewDepth": "full-body-only",
+      "finding": "Full body read only. The article keeps connector-A and suffix scope explicit, distinguishes connection concern from internal unit failure, and directs SRS work to the correct professional procedure without an interlock bypass. No wording correction identified; no independent source comparison counted for this article.",
+      "evidence": []
+    },
+    {
+      "path": "content/code-articles/batch-47/C1000.md",
+      "code": "C1000",
+      "sha256": "51b6230a59ec67a07a41d7aacc092eadd1b2ac72bff3c53364a91cb7685c61b6",
+      "reviewDepth": "full-body-only",
+      "finding": "Full body read only. The article distinguishes an operating-event monitor from a parts verdict, describes handling-function implications within its source scope, and does not instruct an owner to provoke a skid. No wording correction identified; no independent source comparison counted.",
+      "evidence": []
+    },
+    {
+      "path": "content/code-articles/batch-47/C1022.md",
+      "code": "C1022",
+      "sha256": "57a5c420c59233aa83f5ff602ed0ef9323e237e549d789da447ddb39bbfe71c8",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Read and rendered the complete one-page source. Verified C1022-14, regular diagnosis, minimum 9 V, approximately 2 seconds diagnostic duration and the separate READY / 15 km/h or more / at least 20 seconds confirmation. The +B ABS/VSA MTR supply path, B3-2 fuse and internal-modulator cause list match. The recorded fail-safe functions include ABS, TCS/VSA, hydraulic-boost failure compensation and some electric-parking-brake function. No correction identified.",
+      "evidence": [
+        {
+          "sourceId": "honda-insight-gen3-c1022-writer47",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/Troubleshooting/DTC%20Advanced%20Diagnostics_%20C1022-14%205947.pdf",
+          "sha256": "5fb1c6a8a483749fd808f9e776996a087d44353a569e665a5cb072a8a988f3b4",
+          "pages": [
+            1
+          ],
+          "locator": "Complete DTC Advanced Diagnostics_ C1022-14 5947.pdf; all physical PDF pages.",
+          "reviewMethod": "Complete original PDF text read and physical page rendered and visually inspected.",
+          "sourceHashMatchesReservation": true
+        }
+      ]
+    },
+    {
+      "path": "content/code-articles/batch-47/C1100.md",
+      "code": "C1100",
+      "sha256": "a902a3e7598e0eb0946bdb8af3ea6c0326ad942e392fad4b54a686da2ffbad7b",
+      "reviewDepth": "full-body-only",
+      "finding": "Full body read only. The article treats abnormal operation separately from a side-specific circuit fault, preserves the near-standstill and waiting-period scope, and requires independent vehicle securing if parking-brake functionality is uncertain. No wording correction identified; no independent source comparison counted.",
+      "evidence": []
+    },
+    {
+      "path": "content/code-articles/batch-47/C1111.md",
+      "code": "C1111",
+      "sha256": "c6ba1a260c4b38a1d852adf1e9a1245a6a7d12b66839e833b6a8bd16894f900e",
+      "reviewDepth": "full-body-and-primary-source",
+      "finding": "Read and rendered the complete one-page source. Verified right-side C1111-11 title, 9\u201316 V supply, apply/release confirmation, initial/regular diagnosis and approximately 1 second duration. The source visibly lists EPB R ACT+ together with EPB L ACT- in its right-actuator possible-cause row. The article preserves this conflict and needs-review flag rather than inventing terminal wiring. The both-sides-failure condition on partial EPB shutdown also matches. No correction identified.",
+      "evidence": [
+        {
+          "sourceId": "honda-insight-gen3-c1111-writer47",
+          "url": "https://downloads.laboratoryb.org/insight/gen3/Troubleshooting/DTC%20Advanced%20Diagnostics_%20C1111-11%205957.pdf",
+          "sha256": "d2dbffb20168322bff8244332949bf57d22e64aa56238576f83ac8de03919a1e",
+          "pages": [
+            1
+          ],
+          "locator": "Complete DTC Advanced Diagnostics_ C1111-11 5957.pdf; all physical PDF pages.",
+          "reviewMethod": "Complete original PDF text read and physical page rendered and visually inspected.",
+          "sourceHashMatchesReservation": true
+        }
+      ]
+    }
+  ],
+  "bodySamples": 6,
+  "deepSourceComparisons": 3,
+  "corrections": [],
+  "limitations": [
+    "These are exact-version sampled AI reviews, not a full-batch, source-family or full-corpus certification.",
+    "Three additional bodies were read without independent source comparisons; the deep-check count does not include them.",
+    "The source PDFs are Honda factory advanced-diagnostic extracts in the Laboratory B third-generation Insight archive. They do not establish every model year, VIN, equipment package or the latest service revision.",
+    "No additional linked full troubleshooting sequence, vehicle test, workshop measurement, professional mechanic certification, repair outcome, publication or indexing was verified.",
+    "Source-specific safety, scope and unresolved-review notices remain necessary. Later edits require checking and updating the recorded hashes after renewed review."
+  ]
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "nissan-ariya-fe0-battery91-20261102",
+    "title": "Nissan Ariya FE0 factory procedures: 91 kWh battery LBC",
+    "publisher": "Nissan; reproduced by niariya.com",
+    "url": "https://www.niariya.com/high_voltage_battery_high_voltage_battery_2_lbc_-1197.html",
+    "documentScope": "Nissan Ariya FE0 91 kWh battery LBC; exact referenced DTC suffixes and equipment only. Mirror-wide year labels do not establish per-VIN applicability.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Downloaded HTML table and complete code-specific procedure read; common preconditioning shared across sections. Original prose synthesis; no independent mechanic certification.",
+    "sha256": "0650045f419a035789cb6ad2eb2bf344faa4fde92e7abff6199d8c41bb8c2f14",
+    "codeMentions": [
+      {
+        "code": "P1B00",
+        "locators": [
+          "P1b00-16 Power Supply Voltage > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B01",
+        "locators": [
+          "P1b01-12 Cell Voltage Circuit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P1b01-62 Cell Voltage Circuit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P1b01-F1 Cell Voltage Circuit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B03",
+        "locators": [
+          "P1b03-01 Current Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B04",
+        "locators": [
+          "P1b04-11 Module Temperature Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B05",
+        "locators": [
+          "P1b05-62 Module Temperature Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B07",
+        "locators": [
+          "P1b07-11 Water Temperature Sensor a > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B0C",
+        "locators": [
+          "P1b0c-98 Battery Pack Temperature > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P1b0c-Fb Battery Pack Temperature > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B0D",
+        "locators": [
+          "P1b0d-41 Li-Ion Battery Controller > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B12",
+        "locators": [
+          "P1b12-04 Asic > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B15",
+        "locators": [
+          "P1b15-11 High Voltage Relay Thermistor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B18",
+        "locators": [
+          "P1b18-11 Interlock Detecting Switch 1 > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1B20",
+        "locators": [
+          "P1b20-11 Relay 4 Control Circuit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P1b20-87 Relay 4 Control Circuit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1BA1",
+        "locators": [
+          "P1ba1-12 Cell Voltage Circuit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1BA2",
+        "locators": [
+          "P1ba2-49 Battery Voltage Isolation Circuit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1BB1",
+        "locators": [
+          "P1bb1-08 Li-Ion Battery Communication > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-ariya-fe0-charger-20261102",
+    "title": "Nissan Ariya FE0 factory procedures: on-board charger",
+    "publisher": "Nissan; reproduced by niariya.com",
+    "url": "https://www.niariya.com/charger_pd_module_on_board_charger_-1498.html",
+    "documentScope": "Nissan Ariya FE0 on-board charger; exact referenced DTC suffixes and equipment only. Mirror-wide year labels do not establish per-VIN applicability.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Downloaded HTML table and complete code-specific procedure read; common preconditioning shared across sections. Original prose synthesis; no independent mechanic certification.",
+    "sha256": "9fe88e1908fa9e3d3780490bae49e24d002e654030c443a34479d8634c65e6b6",
+    "codeMentions": [
+      {
+        "code": "P1C50",
+        "locators": [
+          "P1c50-4b Can Controller > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1C63",
+        "locators": [
+          "P1c63-97 Ac Connector Error > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1C64",
+        "locators": [
+          "P1c64-17 Ac Over Voltage Error > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P1c64-38 Ac Over Voltage Error > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U1D40",
+        "locators": [
+          "U1d40-87 Communication Error > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-ariya-fe0-brake-20261102",
+    "title": "Nissan Ariya FE0 factory procedures: VDC brake control",
+    "publisher": "Nissan; reproduced by niariya.com",
+    "url": "https://www.niariya.com/dtc_circuit_diagnosis-2309.html",
+    "documentScope": "Nissan Ariya FE0 VDC brake control; exact referenced DTC suffixes and equipment only. Mirror-wide year labels do not establish per-VIN applicability.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Downloaded HTML table and complete code-specific procedure read; common preconditioning shared across sections. Original prose synthesis; no independent mechanic certification.",
+    "sha256": "2855ac40d49cf2e39529a7f6086b5337a8c107b268840ea82655ea9f46f119db",
+    "codeMentions": [
+      {
+        "code": "C1040",
+        "locators": [
+          "C1040-63 Emergency Brake System > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C1041",
+        "locators": [
+          "C1041-55 Control Unit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C1042",
+        "locators": [
+          "C1042-04 Cut Valve 1 > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C1051",
+        "locators": [
+          "C1051-04 Pump Motor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C1055",
+        "locators": [
+          "C1055-49 Can Comm Circuit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C1056",
+        "locators": [
+          "C1056-13 Battery Power Supply > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C1058",
+        "locators": [
+          "C1058-01 Control Unit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C105D",
+        "locators": [
+          "C105d-7b Brake Fluid Level Switch > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C105E",
+        "locators": [
+          "C105e-92 Pressure Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; C105e-93 Pressure Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C106B",
+        "locators": [
+          "C106b-64 Stop Lamp Switch > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C106E",
+        "locators": [
+          "C106e-54 Steering Angle Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; C106e-55 Steering Angle Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; C106e-64 Steering Angle Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C106F",
+        "locators": [
+          "C106f-54 Steering Angle Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C1076",
+        "locators": [
+          "C1076-55 Control Unit > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C107B",
+        "locators": [
+          "C107b-53 Vdc Function > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C10AA",
+        "locators": [
+          "C10aa-63 Pump Motor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C10AD",
+        "locators": [
+          "C10ad-04 Brake Backup Function > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C10B4",
+        "locators": [
+          "C10b4-98 Parking Brake Over Heart > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C10B5",
+        "locators": [
+          "C10b5-76 Parking Brake Assembly Check > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C10B6",
+        "locators": [
+          "C10b6-68 Parking Brake System > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "C10B8",
+        "locators": [
+          "C10b8-77 Parking Brake System > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-ariya-fe0-body-20261102",
+    "title": "Nissan Ariya FE0 factory procedures: body control",
+    "publisher": "Nissan; reproduced by niariya.com",
+    "url": "https://www.niariya.com/body_control_system_dtc_circuit_diagnosis-4688.html",
+    "documentScope": "Nissan Ariya FE0 body control; exact referenced DTC suffixes and equipment only. Mirror-wide year labels do not establish per-VIN applicability.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Downloaded HTML table and complete code-specific procedure read; common preconditioning shared across sections. Original prose synthesis; no independent mechanic certification.",
+    "sha256": "de87c8c45d72c5401f9b16dbf44088714c7792119c9120fd407d3d681e7c524c",
+    "codeMentions": [
+      {
+        "code": "B2C95",
+        "locators": [
+          "B2c95-01 Combination Switch > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; B2c95-64 Combination Switch > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U1C00",
+        "locators": [
+          "U1c00-08 Lin Communication > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U1C01",
+        "locators": [
+          "U1c01-08 Lin Communication > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U1C02",
+        "locators": [
+          "U1c02-08 Lin Communication > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U1C03",
+        "locators": [
+          "U1c03-08 Lin Communication > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-ariya-fe0-thermal-20261102",
+    "title": "Nissan Ariya FE0 factory procedures: thermal management",
+    "publisher": "Nissan; reproduced by niariya.com",
+    "url": "https://www.niariya.com/dtc_diagnosis-3171.html",
+    "documentScope": "Nissan Ariya FE0 thermal management; exact referenced DTC suffixes and equipment only. Mirror-wide year labels do not establish per-VIN applicability.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Downloaded HTML table and complete code-specific procedure read; common preconditioning shared across sections. Original prose synthesis; no independent mechanic certification.",
+    "sha256": "6ca1027e46bd9289c428abfbbe947fba19cad21f7a3a63752d2fbade73734960",
+    "codeMentions": [
+      {
+        "code": "B2480",
+        "locators": [
+          "B2480-93 Front Mode Door Motor Rh > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B2481",
+        "locators": [
+          "B2481-02 Ptc Heater > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B2489",
+        "locators": [
+          "B2489-17 Electric Compressor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B248C",
+        "locators": [
+          "B248c-09 Refrigerant Leak > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B2494",
+        "locators": [
+          "B2494-13 Heated Steering Wheel Relay > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24A1",
+        "locators": [
+          "B24a1-16 A/c Auto Amp. Power Supply > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24A2",
+        "locators": [
+          "B24a2-55 Configuration Error > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24A4",
+        "locators": [
+          "B24a4-11 Intake Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24A9",
+        "locators": [
+          "B24a9-11 Sunload Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; B24a9-15 Sunload Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24AE",
+        "locators": [
+          "B24ae-15 Ptc Heater Outlet Air Temperature Sensor Lh > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24B4",
+        "locators": [
+          "B24b4-02 A/c Control > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24C6",
+        "locators": [
+          "B24c6-12 Blower Motor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24C7",
+        "locators": [
+          "B24c7-98 Ptc Heater > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24D2",
+        "locators": [
+          "B24d2-19 Electric Compressor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24D3",
+        "locators": [
+          "B24d3-08 Electric Compressor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24D4",
+        "locators": [
+          "B24d4-08 A/c Control > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24D8",
+        "locators": [
+          "B24d8-4b Electric Compressor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24DD",
+        "locators": [
+          "B24dd-19 Battery Coolant Heater > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24EA",
+        "locators": [
+          "B24ea-97 Electric Compressor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24ED",
+        "locators": [
+          "B24ed-1c Electric Compressor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; B24ed-97 Electric Compressor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "B24EF",
+        "locators": [
+          "B24ef-97 Electric Compressor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U1CB0",
+        "locators": [
+          "U1cb0-02 Battery Coolant Heater > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1C01",
+        "locators": [
+          "P1c01-71 High Pressure Refrigerant Channel Switching Valve > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-ariya-fe0-vcm-20261102",
+    "title": "Nissan Ariya FE0 factory procedures: EV control / VCM",
+    "publisher": "Nissan; reproduced by niariya.com",
+    "url": "https://www.niariya.com/ev_hev_vcm_-341.html",
+    "documentScope": "Nissan Ariya FE0 EV control / VCM; exact referenced DTC suffixes and equipment only. Mirror-wide year labels do not establish per-VIN applicability.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Downloaded HTML table and complete code-specific procedure read; common preconditioning shared across sections. Original prose synthesis; no independent mechanic certification.",
+    "sha256": "a6826a7cd93265e851079f80e78d44da487914a0c0b6a6614c38baaba76b9ab6",
+    "codeMentions": [
+      {
+        "code": "P102C",
+        "locators": [
+          "P102c-01 Quick Charge Relay > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P102D",
+        "locators": [
+          "P102d-01 Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P102d-7b Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P102d-94 Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P102d-96 Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P102d-98 Electric Water Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1033",
+        "locators": [
+          "P1033-11 Hv Ptc Heater > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P1041",
+        "locators": [
+          "P1041-87 Front Traction Motor Inverter > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P104B",
+        "locators": [
+          "P104b-16 Quick Charge Port Temp Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P12A8",
+        "locators": [
+          "P12a8-08 Brake Switch > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P14C1",
+        "locators": [
+          "P14c1-00 Stop Lamp Switch (bcm) > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P159D",
+        "locators": [
+          "P159d-23 High Voltage Battery > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P15A2",
+        "locators": [
+          "P15a2-98 Traction Motor System Temperature > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P15A6",
+        "locators": [
+          "P15a6-13 Charging System > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P15A9",
+        "locators": [
+          "P15a9-24 Charging Device Power Supply > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P15a9-2f Charging Device Power Supply > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P15AA",
+        "locators": [
+          "P15aa-73 Charging System > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P15BA",
+        "locators": [
+          "P15ba-72 Charging System > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P15B8",
+        "locators": [
+          "P15b8-87 Communication Error > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P15FE",
+        "locators": [
+          "P15fe-16 Charge Port Lock > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P161E",
+        "locators": [
+          "P161e-96 High Voltage Connector Interlock > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P163E",
+        "locators": [
+          "P163e-62 Charging System > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P163F",
+        "locators": [
+          "P163f-94 Charging System > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P168B",
+        "locators": [
+          "P168b-73 System Main Relay > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P168C",
+        "locators": [
+          "P168c-72 System Main Relay > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P172B",
+        "locators": [
+          "P172b-64 Battery Pack Pressure Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P172C",
+        "locators": [
+          "P172c-00 Battery Pack Pressure Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P18A5",
+        "locators": [
+          "P18a5-00 Auto Park Function Cancel > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P3101",
+        "locators": [
+          "P3101-61 Vcm > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P3194",
+        "locators": [
+          "P3194-00 Communication Error > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U1327",
+        "locators": [
+          "U1327-52 Mac Key Update > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; U1327-54 Mac Key Update > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U214E",
+        "locators": [
+          "U214e-87 Can Comm Err > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U214F",
+        "locators": [
+          "U214f-57 Mac Comm Error (bcm) > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "U2357",
+        "locators": [
+          "U2357-04 Can Comm Err (dcdc) > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-ariya-fe0-front-20261102",
+    "title": "Nissan Ariya FE0 factory procedures: front motor inverter",
+    "publisher": "Nissan; reproduced by niariya.com",
+    "url": "https://www.niariya.com/motor_control_inverter_front_-681.html",
+    "documentScope": "Nissan Ariya FE0 front motor inverter; exact referenced DTC suffixes and equipment only. Mirror-wide year labels do not establish per-VIN applicability.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Downloaded HTML table and complete code-specific procedure read; common preconditioning shared across sections. Original prose synthesis; no independent mechanic certification.",
+    "sha256": "97935fd145573b187f177e2e13f77c2d7bba1d2256b47d197c125c54d54e4759",
+    "codeMentions": [
+      {
+        "code": "U2143",
+        "locators": [
+          "U2143-82 Can Communication Error (vcm/hcm) > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nissan-ariya-fe0-rear-20261102",
+    "title": "Nissan Ariya FE0 factory procedures: rear motor inverter",
+    "publisher": "Nissan; reproduced by niariya.com",
+    "url": "https://www.niariya.com/rear_motor_control_inverter_rear_-794.html",
+    "documentScope": "Nissan Ariya FE0 rear motor inverter; exact referenced DTC suffixes and equipment only. Mirror-wide year labels do not establish per-VIN applicability.",
+    "makeIds": [
+      "nissan"
+    ],
+    "checkedOn": "2026-11-02",
+    "extractionMethod": "Downloaded HTML table and complete code-specific procedure read; common preconditioning shared across sections. Original prose synthesis; no independent mechanic certification.",
+    "sha256": "3fd2af80332667160c68e8d78dcfed017caacd3c50148bb04d0e6eb35dc90f6b",
+    "codeMentions": [
+      {
+        "code": "P30E5",
+        "locators": [
+          "P30e5-04 Drive Motor B Coolant Pump > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P30E6",
+        "locators": [
+          "P30e6-11 Drive Motor B Excitation Current > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure; P30e6-12 Drive Motor B Excitation Current > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      },
+      {
+        "code": "P30E7",
+        "locators": [
+          "P30e7-01 Drive Motor B Excitation Current Sensor > DTC Description, Confirmation Procedure and DTC Diagnosis Procedure"
+        ]
+      }
+    ]
+  }
+]

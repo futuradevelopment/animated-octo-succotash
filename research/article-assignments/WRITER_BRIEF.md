@@ -4,8 +4,8 @@ The user explicitly requested 10 writer agents, each writing 100 useful SEO arti
 
 Batches 01–40 are completed writing waves and are selected for publication. Deployment and live verification are recorded separately in campaign.json and the release reports. The next authorized writing wave is batches 41–50; planned assignments are not completed manuscripts. The user authorized continuation in waves of ten writers with 100 articles each toward 10,000. Only evidence-backed assignments count; scheduled batch numbers are not written articles. Exclude every previously assigned code string. If a candidate proves to be only an incidental mention or a mismatched manufacturer definition, request a documented substitution from root; never pad an article around missing evidence. Root verifies replacement codes remain unassigned.
 
-Repo: /workspace/scratch/dbf135311373/cars-production
-Wave-four research and claims: /workspace/scratch/dbf135311373/wave4/WRITER_BRIEF.md
+Repo: /workspace/scratch/dbf135311373/cars-wave5
+Wave-five research and claims: /workspace/scratch/dbf135311373/wave5/WRITER_BRIEF.md
 Assignment: research/article-assignments/batch-NN.json
 Your output only: content/code-articles/batch-NN/*.md and batch-NN/research-notes.json
 Never edit another batch, shared manifests, source data or the renderer. Do not spawn further agents (root is managing exactly 10 writers).

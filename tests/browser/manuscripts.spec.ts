@@ -13,6 +13,8 @@ const samples=[
  ['volkswagen-source-scope','volkswagen-p1111'],
  ['wave-four-restraint-scope','generic-b0001'],
  ['wave-four-source-review-pending','bmw-p1083'],
+ ['wave-five-curated-definition','honda-p100a'],
+ ['wave-five-curated-review-pending','ford-b1030'],
 ] as const;
 
 for(const [name,entryId] of samples)test(`${name} publishes the complete code article without JavaScript`,async({page},testInfo)=>{
@@ -32,6 +34,7 @@ for(const [name,entryId] of samples)test(`${name} publishes the complete code ar
   expect(await body.locator('a[href]').evaluateAll(links=>links.map(a=>a.getAttribute('href')))).toContain(href);
  }
  await expect(page.locator('[data-code-definition]')).toContainText(entry.title);
+ if(entry.definitionScope)await expect(page.locator('[data-definition-scope]')).toContainText(entry.definitionScope);
  await expect(page.locator('#sources')).toBeVisible();await expect(page.locator('#applicability a[href="/safety/"]')).toBeVisible();
  if(article.sourceReview==='needs-review')await expect(page.locator('[data-source-review-note]')).toBeVisible();
  else await expect(page.locator('[data-source-review-note]')).toHaveCount(0);

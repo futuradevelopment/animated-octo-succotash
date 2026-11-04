@@ -1,0 +1,100 @@
+{
+  "batch": "batch-43",
+  "checkedOn": "2026-10-31",
+  "status": "100 completed draft manuscripts; no publication or commit by writer",
+  "articleCount": 100,
+  "sourceReviewCounts": {
+    "checked": 93,
+    "needs-review": 7
+  },
+  "validation": {
+    "articleCount": 100,
+    "assignmentCount": 100,
+    "uniqueCodes": 100,
+    "bodyWordRange": [
+      214,
+      259
+    ],
+    "bodyWordsTotal": 23171,
+    "sourceCount": 17,
+    "checkedCount": 93,
+    "needsReview": [
+      "P0BFF",
+      "P20F4",
+      "P20F5",
+      "P24D6",
+      "P2B7B",
+      "U0112",
+      "U0413"
+    ],
+    "exactRepeatedSubstantiveParagraphs": [],
+    "errors": []
+  },
+  "sourceManifest": "/workspace/scratch/dbf135311373/wave5/writer43/sources.json",
+  "validationArtifact": "/workspace/scratch/dbf135311373/wave5/writer43/validation.json",
+  "assignmentFile": "/workspace/scratch/dbf135311373/cars-wave5/research/article-assignments/batch-43.json",
+  "researchMethod": [
+    "Read original Audi manufacturer QRSB PDF diagnostic rows with engine-specific chapter context and physical page numbers; selected ambiguous layouts rendered and visually inspected. NHTSA is the host, Audi the publisher.",
+    "Read full original Toyota repair procedures mirrored by Mitchell, including explicit extended-DTC to SAE mapping, detection conditions, monitor prerequisites, diagnostic decision sequence and verification. HTML document IDs and section locators retained. Toyota is the publisher; Mitchell is the mirror.",
+    "Read original Volkswagen Generic Scan Tool manuals for2021/22GolfGTI/GolfR/Arteon and2015JettaCNLA. Downloaded using the mirror’s ordinary cookie-based download flow. Publisher is VolkswagenAG; VWTS is the mirror. Pages refer to physical PDF indices, not printed folios.",
+    "Authored each article as literal original prose; helper scripts assemble metadata and source footers only. No renamed-body template or speculative replacement instructions.",
+    "Reserved only actual verified primary-row or full-procedure candidates through shared atomic claim.py. All100code strings are owned bybatch43 and absent from the initial4000 exclusion pool."
+  ],
+  "unresolvedIssues": [
+    {
+      "code": "P0BFF",
+      "issue": "Audi Q5 J841 table calls the item Drive Motor A Current but prints a calculated-voltage minus modeled-voltage criterion above 100 V. Article preserves the signed voltage comparison and exposes the unresolved label/quantity mismatch.",
+      "treatment": "sourceReview=needs-review; limitation included in article"
+    },
+    {
+      "code": "P20F4",
+      "issue": "Audi Q7 CNRB table labels F4 consumption high, opposite the generic low-consumption title. Audi A8 CPNA comparison uses the generic direction with different adaptation threshold. Article cites both physical pages and does not combine calibrations.",
+      "treatment": "sourceReview=needs-review; limitation included in article"
+    },
+    {
+      "code": "P20F5",
+      "issue": "Audi Q7 CNRB table labels F5 consumption low, opposite generic high-consumption title. Audi A8 CPNA supports the generic direction, with comparator/calibration differences explicitly retained.",
+      "treatment": "sourceReview=needs-review; limitation included in article"
+    },
+    {
+      "code": "P24D6",
+      "issue": "Audi Q5 table gives EVAP sensor-B pressure boundaries above149kPa or below11kPa without naming gauge/absolute reference. Article retains originalkPa quantities and explicitly avoids conversion or a universal pressure-test specification.",
+      "treatment": "sourceReview=needs-review; limitation included in article"
+    },
+    {
+      "code": "P2B7B",
+      "issue": "VW engine2021/22 row shows stuck-in-range suspicion from max/min tank-minus-BARO deviation below0.05kPa and references a vent-valve stuck-closed confirmation, but does not explain their full logical relationship. Article distinguishes suspicion from confirmation and is not presented as a complete GX36 algorithm.",
+      "treatment": "sourceReview=needs-review; limitation included in article"
+    },
+    {
+      "code": "U0112",
+      "issue": "Audi CHJA table names the battery energy control module missing-message event but does not resolve generic title’s module-B qualifier. The article states the reporting context and unresolved qualifier.",
+      "treatment": "sourceReview=needs-review; limitation included in article"
+    },
+    {
+      "code": "U0413",
+      "issue": "Audi CHJA table describes implausible received BECM data but does not establish generic module-B qualifier; article preserves received-invalid versus missing-message distinction and exposes qualifier uncertainty.",
+      "treatment": "sourceReview=needs-review; limitation included in article"
+    }
+  ],
+  "excludedCandidates": [
+    "Did not use generic VW master code lists as diagnostic proof or import Audi P1 codes into Volkswagen namespaces.",
+    "Excluded ambiguous Q5 hybrid balancing rows with apparently inconsistent units and corresponding Jetta block-voltage entries with implausible printed thousands-of-volts figures; no silent correction.",
+    "Excluded Q5 P2705 throttle-decoupler versus transmission-friction-element mapping and Jetta P0820 control-module-programming versus generic gear-lever-position mapping.",
+    "P0914/P0919 were atomically rejected becausebatch44alreadyownedthem; neither article was written here. Replaced with independently supported P055C/P2D8F.",
+    "SubaruP2012/P2013 leads were released to other writers after100source-backed assignments were secured."
+  ],
+  "scopeNotes": [
+    "All100canonical entries are generic; application-specific evidence is labeled in each article. No article claims universal calibration applicability.",
+    "The VW0GC transmission material is specifically2021/2022MY DQ381-7A/F. Jetta clutch articles use the2015MY DQ200-7F0CG/0CW table.",
+    "ToyotaP2421is anA25A-FXS RAV4HV engineEVAP procedure; no HV electrical-work instructions are provided.",
+    "ToyotaP08BBfactoryprocedure includes ON and OFF branches despite its stuck-off title; article explicitly preserves broader source coverage.",
+    "Sharedsource-row quantities such as current-versus-voltage, pressure-versus-electricalsignal, rangedthresholds, state prerequisites and separate timing fields remain distinct."
+  ],
+  "filesModifiedOnly": [
+    "content/code-articles/batch-43/*.md",
+    "content/code-articles/batch-43/research-notes.json",
+    "research/article-assignments/batch-43.json"
+  ],
+  "integrationNote": "Owned assignment canonicalPath values normalized to /codes/generic/CODE-lowercase/. Shared reservation record may retain original cosmetic path strings; identity/code/source reservation ownership is unchanged."
+}

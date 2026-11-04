@@ -1,0 +1,312 @@
+{
+  "checkedAt": "2026-11-02T21:27:51.863112+00:00",
+  "baseURL": "https://cars.errhive.com",
+  "expectedRelease": "code-articles-5000-20261102",
+  "expectedArticles": 5000,
+  "mode": "local-baseline-only",
+  "sampleCount": 20,
+  "sampleBatches": [
+    "batch-41",
+    "batch-42",
+    "batch-43",
+    "batch-44",
+    "batch-45",
+    "batch-46",
+    "batch-47",
+    "batch-48",
+    "batch-49",
+    "batch-50"
+  ],
+  "sampleMakes": [
+    "audi",
+    "chevrolet",
+    "ford",
+    "generic",
+    "honda",
+    "nissan",
+    "volkswagen"
+  ],
+  "checks": [
+    {
+      "url": "/article-publication.json",
+      "passed": true,
+      "release": "code-articles-5000-20261102",
+      "count": 5000,
+      "sourceReviewPending": 760,
+      "exactIdentityMatch": true
+    },
+    {
+      "url": "/sitemap.xml",
+      "passed": true,
+      "shards": 3,
+      "uniqueURLs": 12809,
+      "releaseArticleURLs": 5000,
+      "includedReleaseArticles": 5000,
+      "missingArticleURLs": [],
+      "duplicateURLs": 0,
+      "matchesBuiltSitemaps": true
+    },
+    {
+      "url": "/",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "url": "/articles/",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "url": "/articles/page/50/",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "batch": "batch-41",
+      "entryId": "volkswagen-p1207",
+      "code": "P1207",
+      "make": "volkswagen",
+      "sourceReview": "checked",
+      "url": "/codes/volkswagen/p1207/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "90d744ee3f5c58d714c8f2065c95557b857d05eb545df4350ba56570b827f6d1",
+      "elapsedSeconds": 0.02
+    },
+    {
+      "batch": "batch-41",
+      "entryId": "chevrolet-p1257",
+      "code": "P1257",
+      "make": "chevrolet",
+      "sourceReview": "needs-review",
+      "url": "/codes/chevrolet/p1257/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "433783395e53b0cb41f8d514bd9db88ea3efd19dd1cf540f8b51d58ab9ef29f9",
+      "elapsedSeconds": 0.12
+    },
+    {
+      "batch": "batch-42",
+      "entryId": "ford-p1575",
+      "code": "P1575",
+      "make": "ford",
+      "sourceReview": "checked",
+      "url": "/codes/ford/p1575/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "bad474a4b4cd4f643fe36d117d61c1e01f461acbcb8c3307fad6afe53024d735",
+      "elapsedSeconds": 0.04
+    },
+    {
+      "batch": "batch-42",
+      "entryId": "generic-p0a44",
+      "code": "P0A44",
+      "make": "generic",
+      "sourceReview": "needs-review",
+      "url": "/codes/generic/p0a44/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "58f70c81717cdc8c805aa65c98c7f3ece859ca28cb6df880900f4ff1a0cefca0",
+      "elapsedSeconds": 0.01
+    },
+    {
+      "batch": "batch-43",
+      "entryId": "generic-p00cf",
+      "code": "P00CF",
+      "make": "generic",
+      "sourceReview": "checked",
+      "url": "/codes/generic/p00cf/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "1de084cea8801ae3baf03a86eac64e6735e0b40a546108475391a222d6281c2d",
+      "elapsedSeconds": 0.08
+    },
+    {
+      "batch": "batch-43",
+      "entryId": "generic-p0bff",
+      "code": "P0BFF",
+      "make": "generic",
+      "sourceReview": "needs-review",
+      "url": "/codes/generic/p0bff/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "bae8bd95c9e41c1fc7d2f210d46879f0f9d9db8ff6a8a1f98db35a930aaa2664",
+      "elapsedSeconds": 0.07
+    },
+    {
+      "batch": "batch-44",
+      "entryId": "generic-p012a",
+      "code": "P012A",
+      "make": "generic",
+      "sourceReview": "checked",
+      "url": "/codes/generic/p012a/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "646a87dfeaf57391a329291e063e90b82a0f3f96778821a61dc08ee7e932a357",
+      "elapsedSeconds": 0.08
+    },
+    {
+      "batch": "batch-44",
+      "entryId": "generic-p011f",
+      "code": "P011F",
+      "make": "generic",
+      "sourceReview": "needs-review",
+      "url": "/codes/generic/p011f/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "5f96245d5c6c17bbbd097a4719eca53831b82c92a1eb22abb1086908139ee9bd",
+      "elapsedSeconds": 0.02
+    },
+    {
+      "batch": "batch-45",
+      "entryId": "generic-p011a",
+      "code": "P011A",
+      "make": "generic",
+      "sourceReview": "checked",
+      "url": "/codes/generic/p011a/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "89f21c8831d82f691cfd194797860920f3528e80ab2d36dbc77618be75a0f272",
+      "elapsedSeconds": 0.17
+    },
+    {
+      "batch": "batch-45",
+      "entryId": "generic-p027e",
+      "code": "P027E",
+      "make": "generic",
+      "sourceReview": "needs-review",
+      "url": "/codes/generic/p027e/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "bad1f029de33b920a272c62838c1d905bc30ea64ebb6e50dc46857609a184a6f",
+      "elapsedSeconds": 0.01
+    },
+    {
+      "batch": "batch-46",
+      "entryId": "ford-b103b",
+      "code": "B103B",
+      "make": "ford",
+      "sourceReview": "checked",
+      "url": "/codes/ford/b103b/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "706fd692054ffefce9ad997d2b10d6e1891153950985a95f5f0a2ac5f3cef473",
+      "elapsedSeconds": 0.06
+    },
+    {
+      "batch": "batch-46",
+      "entryId": "ford-b1030",
+      "code": "B1030",
+      "make": "ford",
+      "sourceReview": "needs-review",
+      "url": "/codes/ford/b1030/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "5cfce5f85fd62610820dd3ba1ae9f596fb8f1e79541c1ea569d4722a89b30821",
+      "elapsedSeconds": 0.06
+    },
+    {
+      "batch": "batch-47",
+      "entryId": "honda-b1002",
+      "code": "B1002",
+      "make": "honda",
+      "sourceReview": "checked",
+      "url": "/codes/honda/b1002/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "43d2fe5704092e9455c06ff5fdcfad3ff3fe4835ecf2dcf04ab1222d6f3c9955",
+      "elapsedSeconds": 0.15
+    },
+    {
+      "batch": "batch-47",
+      "entryId": "ford-p1015",
+      "code": "P1015",
+      "make": "ford",
+      "sourceReview": "needs-review",
+      "url": "/codes/ford/p1015/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "709333e2f0c9ff7521a958642877d31f3874ddb1da321a2957398371d1734791",
+      "elapsedSeconds": 0.15
+    },
+    {
+      "batch": "batch-48",
+      "entryId": "audi-p13ea",
+      "code": "P13EA",
+      "make": "audi",
+      "sourceReview": "checked",
+      "url": "/codes/audi/p13ea/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "dd1c94e140c2d6c7f6d2427ae2c04ace2351958a71227e33143884157642e1d9",
+      "elapsedSeconds": 0.03
+    },
+    {
+      "batch": "batch-48",
+      "entryId": "volkswagen-p13d0",
+      "code": "P13D0",
+      "make": "volkswagen",
+      "sourceReview": "needs-review",
+      "url": "/codes/volkswagen/p13d0/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "4ddb9c80fe4fe910de9e508da9f7d6573abe20774ebf06ffbd3cb164df23c862",
+      "elapsedSeconds": 0.15
+    },
+    {
+      "batch": "batch-49",
+      "entryId": "honda-p100a",
+      "code": "P100A",
+      "make": "honda",
+      "sourceReview": "checked",
+      "url": "/codes/honda/p100a/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "41e7f5c99d830ec54e2e6428ad23dcca6548de2751b94b497bbdafae8a3b6199",
+      "elapsedSeconds": 0.08
+    },
+    {
+      "batch": "batch-49",
+      "entryId": "honda-p100b",
+      "code": "P100B",
+      "make": "honda",
+      "sourceReview": "needs-review",
+      "url": "/codes/honda/p100b/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "47ffc47dc141ed1ea95e841864c982c8e9cab265ebce6154f064c316a6e5ddb3",
+      "elapsedSeconds": 0.08
+    },
+    {
+      "batch": "batch-50",
+      "entryId": "nissan-b2480",
+      "code": "B2480",
+      "make": "nissan",
+      "sourceReview": "checked",
+      "url": "/codes/nissan/b2480/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "e20d30ab609942d0474581072d799ae8f994a440c1a099fda435974694a55abe",
+      "elapsedSeconds": 0.03
+    },
+    {
+      "batch": "batch-50",
+      "entryId": "nissan-p15a9",
+      "code": "P15A9",
+      "make": "nissan",
+      "sourceReview": "needs-review",
+      "url": "/codes/nissan/p15a9/",
+      "passed": true,
+      "issues": [],
+      "bodyTextSha256": "9cc0dceac29402324c811f99a571cabc864cf2082f91cd2d25734525850f6bc1",
+      "elapsedSeconds": 0.05
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "All5,000 manifest identities and sitemap inclusion are checked. Served article HTML is checked for the20 listed wave5 samples; this is not an all-page live crawl.",
+    "The local forced build and full static audit establish the remaining built-body coverage separately.",
+    "These checks do not establish mechanical accuracy, universal vehicle applicability, Google indexing, rankings or field performance."
+  ],
+  "status": "passed"
+}

@@ -1,10 +1,10 @@
-# 4,000 code article manuscripts
+# 5,000 code article manuscripts
 
-**4,000 separately stored manuscripts for 4,000 distinct canonical codes**, from 4,000 current assignments. Completed writing waves: 1, 2, 3, 4. Each full wave assigns ten writers 100 new codes each. All assignments exclude previously assigned code strings.
+**5,000 separately stored manuscripts for 5,000 distinct canonical codes**, from 5,000 current assignments. Completed writing waves: 1, 2, 3, 4, 5. Each full wave assigns ten writers 100 new codes each. All assignments exclude previously assigned code strings.
 
-The inventory counts 1,084,982 words including headings and source text, excluding URL targets. Each manuscript records a canonical identity, search metadata, exact evidence locators and its applicability limits.
+The inventory counts 1,384,296 words including headings and source text, excluding URL targets. Each manuscript records a canonical identity, search metadata, exact evidence locators and its applicability limits.
 
-**Renderer selection: 4,000 manuscripts; 0 remain unpublished drafts.** The explicit [publication manifest](publication.json) controls which texts appear on their existing canonical code pages. Source files retain their draft authoring metadata; publication selection is a separate state. These repository counts do not verify a live deployment. 3,420 have author source checks; 580 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
+**Renderer selection: 5,000 manuscripts; 0 remain unpublished drafts.** The explicit [publication manifest](publication.json) controls which texts appear on their existing canonical code pages. Source files retain their draft authoring metadata; publication selection is a separate state. These repository counts do not verify a live deployment. 4,240 have author source checks; 760 retain explicit flags for unresolved source details. AI source checks are not independent mechanic certification.
 
 ## Writing waves
 
@@ -14,6 +14,7 @@ The inventory counts 1,084,982 words including headings and source text, excludi
 | 2 | 1,000 / 1,000 | 1,000 | 233 |
 | 3 | 1,000 / 1,000 | 1,000 | 174 |
 | 4 | 1,000 / 1,000 | 1,000 | 63 |
+| 5 | 1,000 / 1,000 | 1,000 | 180 |
 
 ## Articles by writer
 
@@ -59,6 +60,16 @@ The inventory counts 1,084,982 words including headings and source text, excludi
 | [batch-38](batch-38/) | 100 / 100 | 0 |
 | [batch-39](batch-39/) | 100 / 100 | 3 |
 | [batch-40](batch-40/) | 100 / 100 | 8 |
+| [batch-41](batch-41/) | 100 / 100 | 18 |
+| [batch-42](batch-42/) | 100 / 100 | 7 |
+| [batch-43](batch-43/) | 100 / 100 | 7 |
+| [batch-44](batch-44/) | 100 / 100 | 32 |
+| [batch-45](batch-45/) | 100 / 100 | 9 |
+| [batch-46](batch-46/) | 100 / 100 | 28 |
+| [batch-47](batch-47/) | 100 / 100 | 18 |
+| [batch-48](batch-48/) | 100 / 100 | 39 |
+| [batch-49](batch-49/) | 100 / 100 | 15 |
+| [batch-50](batch-50/) | 100 / 100 | 7 |
 
 ## Read examples
 
@@ -79,6 +90,8 @@ The first two waves have separate recorded additional reviews. The [second-wave 
 The [fourth-wave peer-review summary](../../reports/editorial-review-wave-04-summary.json) records **110 distinct article bodies and 60 article-to-source checks** across batches 31–40. Deep checks are included in the body sample; they do not count unique source documents. 10 metadata/excerpt checks and 2 citation-only checks are separate. The reviews recorded corrections across 29 files, including 10 changes to needs-review that preserve unresolved definition or applicability gaps. Selection cutoffs and later samples are recorded in the summary. These bounded AI peer reviews do not certify every article, vehicle applicability, repairs or live publication.
 
 The [fourth-wave similarity screen](../../reports/article-similarity-wave-04.json) compares the new drafts internally and against the first 3,000. Its recorded corpus, candidate limits and manual pair reviews define the scope; lexical similarity does not certify originality or factual accuracy.
+
+The [fifth-wave peer-review summary](../../reports/editorial-review-wave-05-summary.json) records **92 distinct article bodies and 50 article-to-source checks** across batches 41–50, with current manuscript hashes matching the recorded reviewed versions. Source checks are included in the body sample. Historical reviews recorded 4 prose corrections; the resumed review recorded 1 editorial correction. Separately, 84 heading-only fixes were recorded in batch 44; they do not add independent body reads. The [fifth-wave similarity screen](../../reports/article-similarity-wave-05.json) has its own recorded corpus, candidate limits and manual pair reviews. These bounded AI checks do not certify full-corpus accuracy, originality, vehicle applicability, repairs or live publication.
 
 `npm run articles:complete` validates assigned files and metadata and fails while writing is incomplete. The [writing inventory](../../reports/written-articles.json) records exact totals and review states. The [similarity report](../../reports/article-similarity.json) is a bounded text screen; check its recorded scope before applying its findings to newer files.
 

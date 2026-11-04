@@ -1,0 +1,809 @@
+{
+  "generatedAt": "2026-11-02T21:21:54.574775+00:00",
+  "scope": "Batches 41\u201350 internally and against batches 01\u201340; excludes prior-versus-prior pairs.",
+  "corpus": {
+    "articles": 5000,
+    "priorArticles": 4000,
+    "wave5Articles": 1000,
+    "expectedWave5Articles": 1000,
+    "completeWave5Count": true,
+    "batchCounts": {
+      "batch-01": 100,
+      "batch-02": 100,
+      "batch-03": 100,
+      "batch-04": 100,
+      "batch-05": 100,
+      "batch-06": 100,
+      "batch-07": 100,
+      "batch-08": 100,
+      "batch-09": 100,
+      "batch-10": 100,
+      "batch-11": 100,
+      "batch-12": 100,
+      "batch-13": 100,
+      "batch-14": 100,
+      "batch-15": 100,
+      "batch-16": 100,
+      "batch-17": 100,
+      "batch-18": 100,
+      "batch-19": 100,
+      "batch-20": 100,
+      "batch-21": 100,
+      "batch-22": 100,
+      "batch-23": 100,
+      "batch-24": 100,
+      "batch-25": 100,
+      "batch-26": 100,
+      "batch-27": 100,
+      "batch-28": 100,
+      "batch-29": 100,
+      "batch-30": 100,
+      "batch-31": 100,
+      "batch-32": 100,
+      "batch-33": 100,
+      "batch-34": 100,
+      "batch-35": 100,
+      "batch-36": 100,
+      "batch-37": 100,
+      "batch-38": 100,
+      "batch-39": 100,
+      "batch-40": 100,
+      "batch-41": 100,
+      "batch-42": 100,
+      "batch-43": 100,
+      "batch-44": 100,
+      "batch-45": 100,
+      "batch-46": 100,
+      "batch-47": 100,
+      "batch-48": 100,
+      "batch-49": 100,
+      "batch-50": 100
+    },
+    "rawSnapshotSha256": "cff297f60146997894901b16e6bfce9205c5fa70396d5fb9fe4c8935042e54ae"
+  },
+  "method": {
+    "shingleWords": 5,
+    "similarity": "set Jaccard: intersection / union of all normalized five-word shingles",
+    "reportThreshold": 0.45,
+    "candidateDocumentFrequencyRange": [
+      2,
+      40
+    ],
+    "minimumSharedCandidateShingles": 10,
+    "normalization": [
+      "Remove frontmatter and all Markdown headings.",
+      "Stop before named source/applicability footer headings or Source/Reference/Citation/Scope/Applicability footer lines.",
+      "Remove code-directory links and URLs; retain other inline link labels.",
+      "Replace DTC identifiers and numeric literals with shared placeholders; lowercase and retain alphabetic tokens."
+    ],
+    "footerHeadings": [
+      "application and limits",
+      "application limits",
+      "citations",
+      "document scope and source",
+      "documentation and applicability",
+      "documented application",
+      "references",
+      "source",
+      "source and applicability",
+      "source and application limits",
+      "source and limits",
+      "source and scope",
+      "sources",
+      "sources and applicability"
+    ],
+    "candidateRetrieval": "Inverted index over shingles occurring in the configured document-frequency range. Count shared qualifying shingles only for pairs involving wave five; score candidates reaching the configured minimum (10 by default, less restrictive than the prior report's 25). No quadratic all-corpus pass.",
+    "exactDuplicateSupplement": "SHA-256 equality of normalized bodies, including groups excluded by frequent-shingle filtering.",
+    "crossBatchSupplement": "Also score the five prior-versus-wave-five and five different-wave-five-batch candidates with the most qualifying shared shingles. This bounded spot check can include pairs below the main candidate minimum.",
+    "reproduce": "python scripts/article-similarity-wave-05.py"
+  },
+  "statistics": {
+    "uniqueFiveGrams": 1016552,
+    "qualifyingCandidateFiveGrams": 14588,
+    "candidatePairsWithAnyLowFrequencyOverlap": 53893,
+    "scoredPairs": 273,
+    "scoredPairsByComparison": {
+      "wave5-internal": 268,
+      "wave5-versus-prior4000": 5
+    },
+    "scoredPairsBySelection": {
+      "main-candidate-screen": 270,
+      "bounded-cross-batch-spot-check": 3
+    },
+    "thresholdPairs": 0,
+    "thresholdPairsByComparison": {},
+    "exactNormalizedDuplicateGroups": 0,
+    "minimumNormalizedWords": 200
+  },
+  "similarPairs": [],
+  "similarPairsTruncated": false,
+  "highestScoringPairs": [
+    {
+      "a": "content/code-articles/batch-44/P0781.md",
+      "b": "content/code-articles/batch-44/P0829.md",
+      "jaccard": 0.070103,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 34,
+      "candidateSharedLowFrequencyFiveGrams": 33,
+      "uniqueFiveGrams": [
+        257,
+        262
+      ],
+      "normalizedWords": [
+        261,
+        266
+      ],
+      "sharedSourceIds": [
+        "vw-passat-cvca-gst-2018"
+      ],
+      "bodyHashes": [
+        "e9c88bbf40cf820e4c522ae6251cc9684358624a5ccea9ccee93b59c6b1ea909",
+        "51ff0a3fd1ef3d44cc883fbe59723e39d0614499a06dfa40aec084df862ca1db"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0C59.md",
+      "b": "content/code-articles/batch-45/P0E35.md",
+      "jaccard": 0.057971,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 28,
+      "candidateSharedLowFrequencyFiveGrams": 28,
+      "uniqueFiveGrams": [
+        251,
+        260
+      ],
+      "normalizedWords": [
+        255,
+        264
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "18b459c0d36bbecbea0e045c2953d92035d90f608e6ca848dc47a0e75015a574",
+        "d3049068588e3d7990e666129a2d6b6a126e9d630a1a0a19c120e16e3b3e0dbf"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-41/P1271.md",
+      "b": "content/code-articles/batch-41/P1287.md",
+      "jaccard": 0.056075,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 24,
+      "candidateSharedLowFrequencyFiveGrams": 24,
+      "uniqueFiveGrams": [
+        224,
+        228
+      ],
+      "normalizedWords": [
+        228,
+        232
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "2602f96958e49da14043976cee08d35124990a806fe4e6282c7bcb2ad185a574",
+        "ad72505ec28a2270c8196b5ac2da110c19f369e4190d0cd52b83d40208d5dc67"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-49/P1A65.md",
+      "b": "content/code-articles/batch-49/P1D7D.md",
+      "jaccard": 0.055172,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 24,
+      "candidateSharedLowFrequencyFiveGrams": 24,
+      "uniqueFiveGrams": [
+        228,
+        231
+      ],
+      "normalizedWords": [
+        232,
+        235
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "1bd9bba9ffe751e757662b6ba2c5c389f69350e1689abd2e98d496021a827300",
+        "0bbcf20126713036a3a5547a5cd44fe0f4bbe1e784f5601ecf5093d56fefaf7e"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-49/P1D93.md",
+      "b": "content/code-articles/batch-49/P1F3C.md",
+      "jaccard": 0.053738,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 23,
+      "candidateSharedLowFrequencyFiveGrams": 23,
+      "uniqueFiveGrams": [
+        229,
+        222
+      ],
+      "normalizedWords": [
+        233,
+        226
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "356a6178dafd6983c20d6aa82f7b49e1d7aa18e930c53808754816e2ad82ddac",
+        "f2a1ec386cec148767836e796ccc13eb6189798364ceb0b4d575a7a92c177e92"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-47/U1204.md",
+      "b": "content/code-articles/batch-47/U1600.md",
+      "jaccard": 0.052083,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 25,
+      "candidateSharedLowFrequencyFiveGrams": 25,
+      "uniqueFiveGrams": [
+        259,
+        246
+      ],
+      "normalizedWords": [
+        263,
+        250
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "fd25cfe4b93bc441d69912a795b130ab8a96a7e775b0981755e8346f735a4047",
+        "394932bbbc1634af9b8bba3158ea94d6713ad45c08a360b7669e0566f8cf6b3b"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0C5E.md",
+      "b": "content/code-articles/batch-45/P0C63.md",
+      "jaccard": 0.050584,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 26,
+      "candidateSharedLowFrequencyFiveGrams": 26,
+      "uniqueFiveGrams": [
+        277,
+        263
+      ],
+      "normalizedWords": [
+        281,
+        267
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "b8ca1acbee34c58d56346006e0607b16b00c5e79d0581e1a2ed62326f499ab37",
+        "0b6c416e3c9cf7f78d087b1945d6c252e3c42f120a769d49a447aa32a8dad7a1"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-44/P0781.md",
+      "b": "content/code-articles/batch-44/P0784.md",
+      "jaccard": 0.04878,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 24,
+      "candidateSharedLowFrequencyFiveGrams": 23,
+      "uniqueFiveGrams": [
+        257,
+        259
+      ],
+      "normalizedWords": [
+        261,
+        263
+      ],
+      "sharedSourceIds": [
+        "vw-passat-cvca-gst-2018"
+      ],
+      "bodyHashes": [
+        "e9c88bbf40cf820e4c522ae6251cc9684358624a5ccea9ccee93b59c6b1ea909",
+        "1cad37e781f9032e5b8d024d7fecc6e3b1b6ecd22c782f393ddd7762c68d6547"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0A9B.md",
+      "b": "content/code-articles/batch-45/P0BC2.md",
+      "jaccard": 0.04878,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 24,
+      "candidateSharedLowFrequencyFiveGrams": 23,
+      "uniqueFiveGrams": [
+        262,
+        254
+      ],
+      "normalizedWords": [
+        266,
+        258
+      ],
+      "sharedSourceIds": [
+        "honda-insight-gen3-dtc-5849"
+      ],
+      "bodyHashes": [
+        "d900d6420be69349cde199935668a34101948b35c819a50b8fb8b69a44ef4f00",
+        "7386acea746fe29fc6e2e5673571b440e53dc3c9b6fac2beaad1a236cd613e86"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-49/P1E4A.md",
+      "b": "content/code-articles/batch-49/P1E68.md",
+      "jaccard": 0.048611,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 21,
+      "candidateSharedLowFrequencyFiveGrams": 20,
+      "uniqueFiveGrams": [
+        223,
+        230
+      ],
+      "normalizedWords": [
+        227,
+        234
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "968056d8d157b7f4d6b6b97d1a229d016c0d9d131d5e1db7bf4bc83e66c6a8e4",
+        "fe1ae76253cfbc3c808df0a0a6bfb502d15cb8222fcebda73ab5573a5c6bd425"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0C59.md",
+      "b": "content/code-articles/batch-45/P0C63.md",
+      "jaccard": 0.046843,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 23,
+      "candidateSharedLowFrequencyFiveGrams": 23,
+      "uniqueFiveGrams": [
+        251,
+        263
+      ],
+      "normalizedWords": [
+        255,
+        267
+      ],
+      "sharedSourceIds": [
+        "toyota-corolla-pa10-rm1000000026qhx"
+      ],
+      "bodyHashes": [
+        "18b459c0d36bbecbea0e045c2953d92035d90f608e6ca848dc47a0e75015a574",
+        "0b6c416e3c9cf7f78d087b1945d6c252e3c42f120a769d49a447aa32a8dad7a1"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-49/P1E27.md",
+      "b": "content/code-articles/batch-49/P1E2B.md",
+      "jaccard": 0.045872,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 20,
+      "candidateSharedLowFrequencyFiveGrams": 20,
+      "uniqueFiveGrams": [
+        226,
+        230
+      ],
+      "normalizedWords": [
+        230,
+        234
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "00eb335d8bafbc78fcf859cd5cb0333b86454721ba778c47e268cedd6d18a356",
+        "b70088d37164056a381529e1e53c794ea6979f2d6570817dcd0c070e27fb95ce"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P2648.md",
+      "b": "content/code-articles/batch-45/P2649.md",
+      "jaccard": 0.045545,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 23,
+      "candidateSharedLowFrequencyFiveGrams": 20,
+      "uniqueFiveGrams": [
+        266,
+        262
+      ],
+      "normalizedWords": [
+        270,
+        266
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "0245ffc5d0895ecb75c55b97af3a35013194dbcb92cccee76c83b544e7dffa06",
+        "e6c49decb56eca538d760bc83a1d440d95322ec2f4cd75d5bc72dda09f02f69f"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-49/P1D7D.md",
+      "b": "content/code-articles/batch-49/P1DE3.md",
+      "jaccard": 0.045455,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 20,
+      "candidateSharedLowFrequencyFiveGrams": 20,
+      "uniqueFiveGrams": [
+        231,
+        229
+      ],
+      "normalizedWords": [
+        235,
+        233
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "0bbcf20126713036a3a5547a5cd44fe0f4bbe1e784f5601ecf5093d56fefaf7e",
+        "710875b17de55f43c85bf4d567a826757a2783bad54981695305152451229d57"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0C54.md",
+      "b": "content/code-articles/batch-45/P0D31.md",
+      "jaccard": 0.044922,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 23,
+      "candidateSharedLowFrequencyFiveGrams": 23,
+      "uniqueFiveGrams": [
+        269,
+        266
+      ],
+      "normalizedWords": [
+        273,
+        270
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "274cd563dc0055645dfd613613a2ba1aed71e3a233d2604614a9cf55b1b0e779",
+        "c91d686d2235d3728859cf036757a4d19a7561e120f12fbb88fe3986e82e3c86"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-50/B24D2.md",
+      "b": "content/code-articles/batch-50/B24DD.md",
+      "jaccard": 0.043689,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 18,
+      "candidateSharedLowFrequencyFiveGrams": 18,
+      "uniqueFiveGrams": [
+        211,
+        219
+      ],
+      "normalizedWords": [
+        215,
+        223
+      ],
+      "sharedSourceIds": [
+        "nissan-ariya-fe0-thermal-20261102"
+      ],
+      "bodyHashes": [
+        "9b706c481028bda076a90c69ebb834c3ccc2a60ceea25a96c6b208c84e95dfce",
+        "2919edb651bd548e7fb0be7581ec95063126d245d612f919c4f5ca7e8d6952d2"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-49/P1DE3.md",
+      "b": "content/code-articles/batch-49/P1DE7.md",
+      "jaccard": 0.043478,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 19,
+      "candidateSharedLowFrequencyFiveGrams": 19,
+      "uniqueFiveGrams": [
+        229,
+        227
+      ],
+      "normalizedWords": [
+        233,
+        231
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "710875b17de55f43c85bf4d567a826757a2783bad54981695305152451229d57",
+        "3dd4e3840c84b3889f9d8fb11c5dc00ad3f0946759dbb74721e1fd8cb06dbda4"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0C54.md",
+      "b": "content/code-articles/batch-45/P0C6D.md",
+      "jaccard": 0.042226,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 22,
+      "candidateSharedLowFrequencyFiveGrams": 22,
+      "uniqueFiveGrams": [
+        269,
+        274
+      ],
+      "normalizedWords": [
+        273,
+        278
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "274cd563dc0055645dfd613613a2ba1aed71e3a233d2604614a9cf55b1b0e779",
+        "9e29b29cb7b7a30c682b22899aa5b05a33c4a29924c2029c2246d8f611460e56"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P027E.md",
+      "b": "content/code-articles/batch-45/P2DE0.md",
+      "jaccard": 0.042,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 21,
+      "candidateSharedLowFrequencyFiveGrams": 21,
+      "uniqueFiveGrams": [
+        259,
+        262
+      ],
+      "normalizedWords": [
+        263,
+        266
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "b899b3e6d273f023c864a6a2ece6a9251c48552431e7c635a5f6eef124c1fc5e",
+        "f7527f63f0b84e2f5b6dd69727f6cdec2452ed780cd9e2e0a31331ab7138fe02"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-41/P1277.md",
+      "b": "content/code-articles/batch-41/P1283.md",
+      "jaccard": 0.04157,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 18,
+      "candidateSharedLowFrequencyFiveGrams": 16,
+      "uniqueFiveGrams": [
+        226,
+        225
+      ],
+      "normalizedWords": [
+        230,
+        229
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "de4d3c1e2a46a19b3c813a11105816c6f9a0a2cd2873388116d9c971dc93c5dc",
+        "1cc1777696ebe5de179d8b6cf99848b45da27b73b82632420ac992a578741cfd"
+      ]
+    }
+  ],
+  "highestWave5VersusPriorPairs": [
+    {
+      "a": "content/code-articles/batch-13/P00FE.md",
+      "b": "content/code-articles/batch-47/P144A.md",
+      "jaccard": 0.029345,
+      "comparison": "wave5-versus-prior4000",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 13,
+      "candidateSharedLowFrequencyFiveGrams": 13,
+      "uniqueFiveGrams": [
+        225,
+        231
+      ],
+      "normalizedWords": [
+        229,
+        235
+      ],
+      "sharedSourceIds": [
+        "ford-gasoline-2024-2025-v2"
+      ],
+      "bodyHashes": [
+        "6ec80129ee79ab0d7d5c1257e0a312fe22f4d58afad64152e453be14714fd5a1",
+        "8fda74ecf5d1842bff297d8942d55876c3c6e9e06334b5f43d18803fca5a38e8"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-40/P0E03.md",
+      "b": "content/code-articles/batch-44/P0B12.md",
+      "jaccard": 0.020408,
+      "comparison": "wave5-versus-prior4000",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 11,
+      "candidateSharedLowFrequencyFiveGrams": 11,
+      "uniqueFiveGrams": [
+        277,
+        273
+      ],
+      "normalizedWords": [
+        281,
+        277
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "6d1f28b1f3cc61a698ab9a7fd1b7ee6d6376f23218cbcd1255055b208eb2de5f",
+        "8c79fa24a4f6097b824c7807b19b8c22b9e5bfcc21a54a309fde8cf2b6a6d610"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-35/P1596.md",
+      "b": "content/code-articles/batch-41/P0866.md",
+      "jaccard": 0.018391,
+      "comparison": "wave5-versus-prior4000",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 8,
+      "candidateSharedLowFrequencyFiveGrams": 8,
+      "uniqueFiveGrams": [
+        218,
+        225
+      ],
+      "normalizedWords": [
+        222,
+        229
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "26f561382dea58136ee85637bea09e5fe65039041f88d502382cfc09253b80c9",
+        "5e26740f88cc1bff91403dc550ba55483d8870820f0c97b469f50f07447708da"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-08/P26BB.md",
+      "b": "content/code-articles/batch-41/P2E66.md",
+      "jaccard": 0.017467,
+      "comparison": "wave5-versus-prior4000",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 8,
+      "candidateSharedLowFrequencyFiveGrams": 8,
+      "uniqueFiveGrams": [
+        210,
+        256
+      ],
+      "normalizedWords": [
+        214,
+        260
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "107bc4a7fe94bdb05ae8dcbe0535aa007faad31c5b3b7d89f64adc10978d411d",
+        "a8e15feb86413ca960ee63c897a605018e123d6ebef5f4a8f0bdc450b6c53f32"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-16/P2B03.md",
+      "b": "content/code-articles/batch-41/P2B04.md",
+      "jaccard": 0.016461,
+      "comparison": "wave5-versus-prior4000",
+      "selection": "bounded-cross-batch-spot-check",
+      "sharedFiveGrams": 8,
+      "candidateSharedLowFrequencyFiveGrams": 8,
+      "uniqueFiveGrams": [
+        247,
+        247
+      ],
+      "normalizedWords": [
+        251,
+        251
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "9e3676e8a7830c680e3dee954abf3e4d99691cfd283acedccf77f85375a12580",
+        "cc55e5adbafaab90a1eaaa9bb404720c5c312c54f34756fcbc129d1d1c0e9ef2"
+      ]
+    }
+  ],
+  "highestCrossBatchWave5Pairs": [
+    {
+      "a": "content/code-articles/batch-45/P2E2B.md",
+      "b": "content/code-articles/batch-50/P30E6.md",
+      "jaccard": 0.030501,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 14,
+      "candidateSharedLowFrequencyFiveGrams": 14,
+      "uniqueFiveGrams": [
+        252,
+        221
+      ],
+      "normalizedWords": [
+        257,
+        225
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "03d03144924fdc52d7bd0ee7f26d3de6de9f7759f226395b7b4aa4b3a77b2958",
+        "5d1da9e2aeab96c6e9bfbc17de2c660435a52951cb242f387056416f5bc7dcf7"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0E2D.md",
+      "b": "content/code-articles/batch-49/P1D3B.md",
+      "jaccard": 0.023061,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 11,
+      "candidateSharedLowFrequencyFiveGrams": 11,
+      "uniqueFiveGrams": [
+        257,
+        231
+      ],
+      "normalizedWords": [
+        262,
+        235
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "d4b3173d1910f34595ef286f82ce98be7115db890e9a6081e5b0a4635b8697e5",
+        "70caffc86a18fe37d95bb31ced08837b14ec0f369355c6cced2bdc99089e2af4"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0A73.md",
+      "b": "content/code-articles/batch-49/P1DA1.md",
+      "jaccard": 0.022822,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 11,
+      "candidateSharedLowFrequencyFiveGrams": 10,
+      "uniqueFiveGrams": [
+        264,
+        229
+      ],
+      "normalizedWords": [
+        268,
+        233
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "8e094f2007debfc6c91e3aa211b02d305f643a816d6cf368cc09cdcfa5ca88c1",
+        "aa8f01cdcb327467ed7a4097c17bf34a92c8b01b9d5971213311c94f4961b185"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0A73.md",
+      "b": "content/code-articles/batch-49/P1D1B.md",
+      "jaccard": 0.022774,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 11,
+      "candidateSharedLowFrequencyFiveGrams": 10,
+      "uniqueFiveGrams": [
+        264,
+        230
+      ],
+      "normalizedWords": [
+        268,
+        234
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "8e094f2007debfc6c91e3aa211b02d305f643a816d6cf368cc09cdcfa5ca88c1",
+        "a317c157dc366d8fb48cc8263b7e36cc4fac491ba7d6111902e00afe2f04e261"
+      ]
+    },
+    {
+      "a": "content/code-articles/batch-45/P0A73.md",
+      "b": "content/code-articles/batch-49/P1D7D.md",
+      "jaccard": 0.020619,
+      "comparison": "wave5-internal",
+      "selection": "main-candidate-screen",
+      "sharedFiveGrams": 10,
+      "candidateSharedLowFrequencyFiveGrams": 10,
+      "uniqueFiveGrams": [
+        264,
+        231
+      ],
+      "normalizedWords": [
+        268,
+        235
+      ],
+      "sharedSourceIds": [],
+      "bodyHashes": [
+        "8e094f2007debfc6c91e3aa211b02d305f643a816d6cf368cc09cdcfa5ca88c1",
+        "0bbcf20126713036a3a5547a5cd44fe0f4bbe1e784f5601ecf5093d56fefaf7e"
+      ]
+    }
+  ],
+  "exactNormalizedDuplicateGroups": [],
+  "manualReview": [],
+  "unreviewedThresholdPairCount": 0,
+  "limitations": [
+    "This is a bounded lexical repetition screen, not an originality, plagiarism, source-accuracy, or factual-quality certification.",
+    "Candidate retrieval can miss pairs dominated by shingles appearing above the configured document-frequency ceiling or sharing fewer than the configured qualifying-shingle minimum.",
+    "Number and DTC normalization intentionally increases similarity among legitimate related factory procedures; scores require article-level review.",
+    "Paraphrased templates, semantic duplication, and copied source text not present in this corpus can evade lexical screening.",
+    "Footer removal uses an explicit heading list and footer-line patterns; inline applicability language remains when part of the main discussion.",
+    "The report is a point-in-time filesystem snapshot. A later manuscript change requires a rerun; stored reviews survive only identical normalized body hashes."
+  ]
+}

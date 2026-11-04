@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "entries": "src/data/curated-dtc.json",
+  "sources": "src/data/curated-sources.json",
+  "evidenceFiles": [
+    {
+      "path": "research/curated-code-evidence/ddbdb90bab43d851ad690838d311ebbd82edc838c9d9578f986fdb335bef951b.jsonl",
+      "sha256": "ddbdb90bab43d851ad690838d311ebbd82edc838c9d9578f986fdb335bef951b",
+      "blobSha": "cf5b27bb26208310a1471697de49c2c6769b5454",
+      "records": 100
+    },
+    {
+      "path": "research/curated-code-evidence/e247f169ea7e483c302449d5013fe25785c37e1197284602d1ef12090d7baeeb.jsonl",
+      "sha256": "e247f169ea7e483c302449d5013fe25785c37e1197284602d1ef12090d7baeeb",
+      "blobSha": "3efca94bf5cccfb146a1b7b6eef69781335ca15b",
+      "records": 75
+    },
+    {
+      "path": "research/curated-code-evidence/123adb5d347020d6b051cf7f78bfc8a6c6f66329d052d06a249ce2b2934bf4e1.jsonl",
+      "sha256": "123adb5d347020d6b051cf7f78bfc8a6c6f66329d052d06a249ce2b2934bf4e1",
+      "blobSha": "92f829f5d94f753030c54b259f56270d55182fc7",
+      "records": 100
+    },
+    {
+      "path": "research/curated-code-evidence/891ebe8ac8ceafb90fe385313c0718eca204dc1b71cd050f37b6237f15561b1c.jsonl",
+      "sha256": "891ebe8ac8ceafb90fe385313c0718eca204dc1b71cd050f37b6237f15561b1c",
+      "blobSha": "ce4ba664844c7534e6e5c5179ccc559dbb969d77",
+      "records": 155
+    },
+    {
+      "path": "research/curated-code-evidence/b8accbcf917894b81263d89b962e67342f4a5db182f4ecab8474889909516757.jsonl",
+      "sha256": "b8accbcf917894b81263d89b962e67342f4a5db182f4ecab8474889909516757",
+      "blobSha": "b0533453a453d23f579acd23cbbdec830f014f12",
+      "records": 30
+    }
+  ]
+}

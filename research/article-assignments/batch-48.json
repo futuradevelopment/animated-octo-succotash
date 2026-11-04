@@ -1,0 +1,2127 @@
+[
+  {
+    "entryId": "generic-p007a",
+    "code": "P007A",
+    "dictionaryTitle": "Charge Air Cooler Temperature Sensor Circuit Bank 1",
+    "canonicalPath": "/codes/generic/p007a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          447
+        ],
+        "locator": "Physical PDF page 447, DTC P007A monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p00a0",
+    "code": "P00A0",
+    "dictionaryTitle": "Charge Air Cooler Temperature Sensor Circuit Bank 2",
+    "canonicalPath": "/codes/generic/p00a0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          447
+        ],
+        "locator": "Physical PDF page 447, DTC P00A0 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0149",
+    "code": "P0149",
+    "dictionaryTitle": "Fuel Timing Error",
+    "canonicalPath": "/codes/generic/p0149/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          139
+        ],
+        "locator": "Physical PDF page 139, DTC P0149 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p016a",
+    "code": "P016A",
+    "dictionaryTitle": "Excessive Time To Enter Closed Loop Air/Fuel Ratio Control",
+    "canonicalPath": "/codes/generic/p016a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          79
+        ],
+        "locator": "Physical PDF page 79, DTC P016A monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p0239",
+    "code": "P0239",
+    "dictionaryTitle": "Turbocharger/Supercharger Boost Sensor B Circuit",
+    "canonicalPath": "/codes/generic/p0239/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          573
+        ],
+        "locator": "Physical PDF page 573, DTC P0239 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "volkswagen-p1004",
+    "code": "P1004",
+    "dictionaryTitle": "Cylinder 1 torque difference limit exceeded",
+    "canonicalPath": "/codes/volkswagen/p1004/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          103
+        ],
+        "locator": "Physical PDF page 103, DTC P1004 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "audi-p10a0",
+    "code": "P10A0",
+    "dictionaryTitle": "Intake-air regulating flap actuation electrical error",
+    "canonicalPath": "/codes/audi/p10a0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          291
+        ],
+        "locator": "Physical PDF page 291, DTC P10A0 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p10a1",
+    "code": "P10A1",
+    "dictionaryTitle": "Intake-air regulating flap actuation short to positive",
+    "canonicalPath": "/codes/audi/p10a1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          291
+        ],
+        "locator": "Physical PDF page 291, DTC P10A1 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p10a2",
+    "code": "P10A2",
+    "dictionaryTitle": "Intake-air regulating flap actuation short to ground",
+    "canonicalPath": "/codes/audi/p10a2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          291
+        ],
+        "locator": "Physical PDF page 291, DTC P10A2 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p10a3",
+    "code": "P10A3",
+    "dictionaryTitle": "Intake-air regulating flap actuation open circuit",
+    "canonicalPath": "/codes/audi/p10a3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          292
+        ],
+        "locator": "Physical PDF page 292, DTC P10A3 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p10a4",
+    "code": "P10A4",
+    "dictionaryTitle": "Intake-air regulating flap mechanical malfunction",
+    "canonicalPath": "/codes/audi/p10a4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          292
+        ],
+        "locator": "Physical PDF page 292, DTC P10A4 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p10a5",
+    "code": "P10A5",
+    "dictionaryTitle": "Intake-air regulating flap potentiometer signal too high",
+    "canonicalPath": "/codes/audi/p10a5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          293
+        ],
+        "locator": "Physical PDF page 293, DTC P10A5 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p10a6",
+    "code": "P10A6",
+    "dictionaryTitle": "Intake-air regulating flap potentiometer signal too low",
+    "canonicalPath": "/codes/audi/p10a6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          293
+        ],
+        "locator": "Physical PDF page 293, DTC P10A6 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p10a7",
+    "code": "P10A7",
+    "dictionaryTitle": "Intake-air regulating flap adaptation soiled",
+    "canonicalPath": "/codes/audi/p10a7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          294
+        ],
+        "locator": "Physical PDF page 294, DTC P10A7 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p10a8",
+    "code": "P10A8",
+    "dictionaryTitle": "Intake-air regulating flap adaptation lower limit not reached",
+    "canonicalPath": "/codes/audi/p10a8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          294
+        ],
+        "locator": "Physical PDF page 294, DTC P10A8 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p12a1",
+    "code": "P12A1",
+    "dictionaryTitle": "Fuel rail pressure sensor inappropriately low",
+    "canonicalPath": "/codes/audi/p12a1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          296
+        ],
+        "locator": "Physical PDF page 296, DTC P12A1 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p12a2",
+    "code": "P12A2",
+    "dictionaryTitle": "Fuel rail pressure sensor inappropriately high",
+    "canonicalPath": "/codes/audi/p12a2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          298
+        ],
+        "locator": "Physical PDF page 298, DTC P12A2 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p12a4",
+    "code": "P12A4",
+    "dictionaryTitle": "Fuel rail pump control valve stuck closed",
+    "canonicalPath": "/codes/audi/p12a4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          300
+        ],
+        "locator": "Physical PDF page 300, DTC P12A4 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "volkswagen-p13ce",
+    "code": "P13CE",
+    "dictionaryTitle": "Cylinder 1 pressure sensor circuit electrical fault",
+    "canonicalPath": "/codes/volkswagen/p13ce/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          105
+        ],
+        "locator": "Physical PDF page 105, DTC P13CE monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13cf",
+    "code": "P13CF",
+    "dictionaryTitle": "Cylinder 1 pressure sensor circuit short to ground",
+    "canonicalPath": "/codes/volkswagen/p13cf/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          105
+        ],
+        "locator": "Physical PDF page 105, DTC P13CF monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13d0",
+    "code": "P13D0",
+    "dictionaryTitle": "Cylinder 1 pressure sensor implausible signal",
+    "canonicalPath": "/codes/volkswagen/p13d0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          105
+        ],
+        "locator": "Physical PDF page 105, DTC P13D0 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13d3",
+    "code": "P13D3",
+    "dictionaryTitle": "Cylinder 2 pressure sensor implausible signal",
+    "canonicalPath": "/codes/volkswagen/p13d3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          106
+        ],
+        "locator": "Physical PDF page 106, DTC P13D3 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13d6",
+    "code": "P13D6",
+    "dictionaryTitle": "Cylinder 3 pressure sensor implausible signal",
+    "canonicalPath": "/codes/volkswagen/p13d6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          107
+        ],
+        "locator": "Physical PDF page 107, DTC P13D6 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13d9",
+    "code": "P13D9",
+    "dictionaryTitle": "Cylinder 4 pressure sensor implausible signal",
+    "canonicalPath": "/codes/volkswagen/p13d9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          107
+        ],
+        "locator": "Physical PDF page 107, DTC P13D9 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13e0",
+    "code": "P13E0",
+    "dictionaryTitle": "Cylinder 1 pressure sensor circuit malfunction",
+    "canonicalPath": "/codes/volkswagen/p13e0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          108
+        ],
+        "locator": "Physical PDF page 108, DTC P13E0 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13e1",
+    "code": "P13E1",
+    "dictionaryTitle": "Cylinder 2 pressure sensor circuit malfunction",
+    "canonicalPath": "/codes/volkswagen/p13e1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          108
+        ],
+        "locator": "Physical PDF page 108, DTC P13E1 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13e2",
+    "code": "P13E2",
+    "dictionaryTitle": "Cylinder 3 pressure sensor circuit malfunction",
+    "canonicalPath": "/codes/volkswagen/p13e2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          109
+        ],
+        "locator": "Physical PDF page 109, DTC P13E2 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p13e3",
+    "code": "P13E3",
+    "dictionaryTitle": "Cylinder 4 pressure sensor circuit malfunction",
+    "canonicalPath": "/codes/volkswagen/p13e3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          109
+        ],
+        "locator": "Physical PDF page 109, DTC P13E3 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "audi-p13ea",
+    "code": "P13EA",
+    "dictionaryTitle": "Cold-start ignition timing performance off idle",
+    "canonicalPath": "/codes/audi/p13ea/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          301
+        ],
+        "locator": "Physical PDF page 301, DTC P13EA monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "volkswagen-p1427",
+    "code": "P1427",
+    "dictionaryTitle": "Brake vacuum pump circuit fault",
+    "canonicalPath": "/codes/volkswagen/p1427/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          376
+        ],
+        "locator": "Physical PDF page 376, DTC P1427 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p1428",
+    "code": "P1428",
+    "dictionaryTitle": "Brake vacuum pump short to ground",
+    "canonicalPath": "/codes/volkswagen/p1428/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          376
+        ],
+        "locator": "Physical PDF page 376, DTC P1428 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p1429",
+    "code": "P1429",
+    "dictionaryTitle": "Brake vacuum pump interruption",
+    "canonicalPath": "/codes/volkswagen/p1429/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          376
+        ],
+        "locator": "Physical PDF page 376, DTC P1429 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p146d",
+    "code": "P146D",
+    "dictionaryTitle": "Reducing-agent heater circuit 1 current sensor short to positive",
+    "canonicalPath": "/codes/volkswagen/p146d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          109
+        ],
+        "locator": "Physical PDF page 109, DTC P146D monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p146f",
+    "code": "P146F",
+    "dictionaryTitle": "Reducing-agent heater circuit 2 current sensor short to positive",
+    "canonicalPath": "/codes/volkswagen/p146f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          109
+        ],
+        "locator": "Physical PDF page 109, DTC P146F monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p148b",
+    "code": "P148B",
+    "dictionaryTitle": "Reducing-agent heater circuit 1 output-stage malfunction",
+    "canonicalPath": "/codes/volkswagen/p148b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          110
+        ],
+        "locator": "Physical PDF page 110, DTC P148B monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p148c",
+    "code": "P148C",
+    "dictionaryTitle": "Reducing-agent heater circuit 2 output-stage malfunction",
+    "canonicalPath": "/codes/volkswagen/p148c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          110
+        ],
+        "locator": "Physical PDF page 110, DTC P148C monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "audi-p148f",
+    "code": "P148F",
+    "dictionaryTitle": "EGR cooler switch-over valve 2 electrical malfunction",
+    "canonicalPath": "/codes/audi/p148f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          118
+        ],
+        "locator": "Physical PDF page 118, DTC P148F monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "volkswagen-p150a",
+    "code": "P150A",
+    "dictionaryTitle": "Engine-off timer performance",
+    "canonicalPath": "/codes/volkswagen/p150a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          377
+        ],
+        "locator": "Physical PDF page 377, DTC P150A monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p169a",
+    "code": "P169A",
+    "dictionaryTitle": "Transport mode active",
+    "canonicalPath": "/codes/volkswagen/p169a/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          111
+        ],
+        "locator": "Physical PDF page 111, DTC P169A monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16ba",
+    "code": "P16BA",
+    "dictionaryTitle": "Charge-air coolant pump dry running",
+    "canonicalPath": "/codes/volkswagen/p16ba/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          110
+        ],
+        "locator": "Physical PDF page 110, DTC P16BA monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16bf",
+    "code": "P16BF",
+    "dictionaryTitle": "Heater support pump short to ground",
+    "canonicalPath": "/codes/volkswagen/p16bf/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          110
+        ],
+        "locator": "Physical PDF page 110, DTC P16BF monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16c0",
+    "code": "P16C0",
+    "dictionaryTitle": "Heater support pump short to positive",
+    "canonicalPath": "/codes/volkswagen/p16c0/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          110
+        ],
+        "locator": "Physical PDF page 110, DTC P16C0 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16c1",
+    "code": "P16C1",
+    "dictionaryTitle": "Heater support pump open circuit",
+    "canonicalPath": "/codes/volkswagen/p16c1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          110
+        ],
+        "locator": "Physical PDF page 110, DTC P16C1 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16c6",
+    "code": "P16C6",
+    "dictionaryTitle": "Heater support pump dry running",
+    "canonicalPath": "/codes/volkswagen/p16c6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          111
+        ],
+        "locator": "Physical PDF page 111, DTC P16C6 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16c7",
+    "code": "P16C7",
+    "dictionaryTitle": "Heater support pump blocked",
+    "canonicalPath": "/codes/volkswagen/p16c7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          111
+        ],
+        "locator": "Physical PDF page 111, DTC P16C7 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16c8",
+    "code": "P16C8",
+    "dictionaryTitle": "Heater support pump overheated",
+    "canonicalPath": "/codes/volkswagen/p16c8/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          111
+        ],
+        "locator": "Physical PDF page 111, DTC P16C8 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16c9",
+    "code": "P16C9",
+    "dictionaryTitle": "Heater support pump speed too low",
+    "canonicalPath": "/codes/volkswagen/p16c9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          111
+        ],
+        "locator": "Physical PDF page 111, DTC P16C9 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p16cb",
+    "code": "P16CB",
+    "dictionaryTitle": "Heater support pump supply voltage",
+    "canonicalPath": "/codes/volkswagen/p16cb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          111
+        ],
+        "locator": "Physical PDF page 111, DTC P16CB monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p190b",
+    "code": "P190B",
+    "dictionaryTitle": "Charge-air coolant pump temperature shutdown",
+    "canonicalPath": "/codes/volkswagen/p190b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          70
+        ],
+        "locator": "Physical PDF page 70, DTC P190B monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p190d",
+    "code": "P190D",
+    "dictionaryTitle": "Charge-air coolant pump mechanical failure",
+    "canonicalPath": "/codes/volkswagen/p190d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          70
+        ],
+        "locator": "Physical PDF page 70, DTC P190D monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p190e",
+    "code": "P190E",
+    "dictionaryTitle": "Charge-air coolant pump supply voltage",
+    "canonicalPath": "/codes/volkswagen/p190e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          70
+        ],
+        "locator": "Physical PDF page 70, DTC P190E monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p199c",
+    "code": "P199C",
+    "dictionaryTitle": "Cylinder-head coolant pump short to positive",
+    "canonicalPath": "/codes/volkswagen/p199c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          112
+        ],
+        "locator": "Physical PDF page 112, DTC P199C monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p199d",
+    "code": "P199D",
+    "dictionaryTitle": "Cylinder-head coolant pump short to ground",
+    "canonicalPath": "/codes/volkswagen/p199d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          112
+        ],
+        "locator": "Physical PDF page 112, DTC P199D monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p199e",
+    "code": "P199E",
+    "dictionaryTitle": "Cylinder-head coolant pump open circuit",
+    "canonicalPath": "/codes/volkswagen/p199e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          112
+        ],
+        "locator": "Physical PDF page 112, DTC P199E monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "generic-p2013",
+    "code": "P2013",
+    "dictionaryTitle": "Intake Manifold Runner Control Circuit High Bank 2",
+    "canonicalPath": "/codes/generic/p2013/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          121
+        ],
+        "locator": "Physical PDF page 121, DTC P2013 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p21f4",
+    "code": "P21F4",
+    "dictionaryTitle": "Fuel Control System B Too Lean Off Idle Bank 1",
+    "canonicalPath": "/codes/generic/p21f4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          360
+        ],
+        "locator": "Physical PDF page 360, DTC P21F4 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p21f5",
+    "code": "P21F5",
+    "dictionaryTitle": "Fuel Control System B Too Rich Off Idle Bank 1",
+    "canonicalPath": "/codes/generic/p21f5/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          362
+        ],
+        "locator": "Physical PDF page 362, DTC P21F5 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p21f6",
+    "code": "P21F6",
+    "dictionaryTitle": "Fuel Control System B Too Lean Off Idle Bank 2",
+    "canonicalPath": "/codes/generic/p21f6/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          364
+        ],
+        "locator": "Physical PDF page 364, DTC P21F6 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p21f7",
+    "code": "P21F7",
+    "dictionaryTitle": "Fuel Control System B Too Rich Off Idle Bank 2",
+    "canonicalPath": "/codes/generic/p21f7/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          366
+        ],
+        "locator": "Physical PDF page 366, DTC P21F7 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p226b",
+    "code": "P226B",
+    "dictionaryTitle": "Turbocharger/Supercharger A Boost Pressure Too High - Mechanical",
+    "canonicalPath": "/codes/generic/p226b/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          420
+        ],
+        "locator": "Physical PDF page 420, DTC P226B monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2314",
+    "code": "P2314",
+    "dictionaryTitle": "Ignition Coil E Secondary Circuit",
+    "canonicalPath": "/codes/generic/p2314/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          410
+        ],
+        "locator": "Physical PDF page 410, DTC P2314 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2317",
+    "code": "P2317",
+    "dictionaryTitle": "Ignition Coil F Secondary Circuit",
+    "canonicalPath": "/codes/generic/p2317/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          411
+        ],
+        "locator": "Physical PDF page 411, DTC P2317 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p25d9",
+    "code": "P25D9",
+    "dictionaryTitle": "Fuel Level Sensor C Circuit Low",
+    "canonicalPath": "/codes/generic/p25d9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          433
+        ],
+        "locator": "Physical PDF page 433, DTC P25D9 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p25da",
+    "code": "P25DA",
+    "dictionaryTitle": "Fuel Level Sensor C Circuit High",
+    "canonicalPath": "/codes/generic/p25da/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          433
+        ],
+        "locator": "Physical PDF page 433, DTC P25DA monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p25e9",
+    "code": "P25E9",
+    "dictionaryTitle": "Supercharger Disconnect Clutch Stuck Open",
+    "canonicalPath": "/codes/generic/p25e9/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          433
+        ],
+        "locator": "Physical PDF page 433, DTC P25E9 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p25ea",
+    "code": "P25EA",
+    "dictionaryTitle": "Supercharger Disconnect Clutch Stuck Closed",
+    "canonicalPath": "/codes/generic/p25ea/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          434
+        ],
+        "locator": "Physical PDF page 434, DTC P25EA monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p25eb",
+    "code": "P25EB",
+    "dictionaryTitle": "Supercharger Disconnect Clutch Circuit Range/Performance",
+    "canonicalPath": "/codes/generic/p25eb/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          434
+        ],
+        "locator": "Physical PDF page 434, DTC P25EB monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2ab3",
+    "code": "P2AB3",
+    "dictionaryTitle": "Cold Start Intake Manifold Runner Control Stuck Open Bank 1",
+    "canonicalPath": "/codes/generic/p2ab3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          813
+        ],
+        "locator": "Physical PDF page 813, DTC P2AB3 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-p2ab4",
+    "code": "P2AB4",
+    "dictionaryTitle": "Cold Start Intake Manifold Runner Control Stuck Open Bank 2",
+    "canonicalPath": "/codes/generic/p2ab4/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          813
+        ],
+        "locator": "Physical PDF page 813, DTC P2AB4 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "volkswagen-p3007",
+    "code": "P3007",
+    "dictionaryTitle": "Camshaft position sensor G40 no signal",
+    "canonicalPath": "/codes/volkswagen/p3007/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          145
+        ],
+        "locator": "Physical PDF page 145, DTC P3007 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "volkswagen-p305c",
+    "code": "P305C",
+    "dictionaryTitle": "Intake-air temperature sensor 2 circuit low",
+    "canonicalPath": "/codes/volkswagen/p305c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          448
+        ],
+        "locator": "Physical PDF page 448, DTC P305C monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p305d",
+    "code": "P305D",
+    "dictionaryTitle": "Intake-air temperature sensor 2 short to voltage",
+    "canonicalPath": "/codes/volkswagen/p305d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          449
+        ],
+        "locator": "Physical PDF page 449, DTC P305D monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p305e",
+    "code": "P305E",
+    "dictionaryTitle": "Intake-air temperature sensor 2 implausible signal",
+    "canonicalPath": "/codes/volkswagen/p305e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          449
+        ],
+        "locator": "Physical PDF page 449, DTC P305E monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p3081",
+    "code": "P3081",
+    "dictionaryTitle": "Engine temperature too low",
+    "canonicalPath": "/codes/volkswagen/p3081/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          450
+        ],
+        "locator": "Physical PDF page 450, DTC P3081 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "audi-p308d",
+    "code": "P308D",
+    "dictionaryTitle": "Fuel pump speed too low",
+    "canonicalPath": "/codes/audi/p308d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          440
+        ],
+        "locator": "Physical PDF page 440, DTC P308D monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "volkswagen-p309c",
+    "code": "P309C",
+    "dictionaryTitle": "Clutch control mechanical fault",
+    "canonicalPath": "/codes/volkswagen/p309c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          450
+        ],
+        "locator": "Physical PDF page 450, DTC P309C monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p309d",
+    "code": "P309D",
+    "dictionaryTitle": "Clutch disengagement actuator insufficient slip with clutch disengaged",
+    "canonicalPath": "/codes/volkswagen/p309d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          450
+        ],
+        "locator": "Physical PDF page 450, DTC P309D monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p309f",
+    "code": "P309F",
+    "dictionaryTitle": "Clutch disengagement actuator slip with clutch engaged",
+    "canonicalPath": "/codes/volkswagen/p309f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          452
+        ],
+        "locator": "Physical PDF page 452, DTC P309F monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-p30a2",
+    "code": "P30A2",
+    "dictionaryTitle": "Brake pedal position sensor and brake light switch implausible signal",
+    "canonicalPath": "/codes/volkswagen/p30a2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          452
+        ],
+        "locator": "Physical PDF page 452, DTC P30A2 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "audi-p30f1",
+    "code": "P30F1",
+    "dictionaryTitle": "Operator mode selection active",
+    "canonicalPath": "/codes/audi/p30f1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          440
+        ],
+        "locator": "Physical PDF page 440, DTC P30F1 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software."
+  },
+  {
+    "entryId": "audi-p310e",
+    "code": "P310E",
+    "dictionaryTitle": "EGR cooler bypass valve 2 implausible signal",
+    "canonicalPath": "/codes/audi/p310e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          162
+        ],
+        "locator": "Physical PDF page 162, DTC P310E monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-p3348",
+    "code": "P3348",
+    "dictionaryTitle": "Turbocharger control module 1 circuit malfunction",
+    "canonicalPath": "/codes/audi/p3348/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          162
+        ],
+        "locator": "Physical PDF page 162, DTC P3348 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "generic-u013c",
+    "code": "U013C",
+    "dictionaryTitle": "Lost Communication With Accelerator Pedal Module",
+    "canonicalPath": "/codes/generic/u013c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          815
+        ],
+        "locator": "Physical PDF page 815, DTC U013C monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0141",
+    "code": "U0141",
+    "dictionaryTitle": "Lost Communication With Body Control Module A",
+    "canonicalPath": "/codes/generic/u0141/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          442
+        ],
+        "locator": "Physical PDF page 442, DTC U0141 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u02a2",
+    "code": "U02A2",
+    "dictionaryTitle": "Lost Communication With Reductant Quality Module",
+    "canonicalPath": "/codes/generic/u02a2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          147
+        ],
+        "locator": "Physical PDF page 147, DTC U02A2 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u0431",
+    "code": "U0431",
+    "dictionaryTitle": "Invalid Data Received From Body Control Module A",
+    "canonicalPath": "/codes/generic/u0431/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-crec-gst-2016",
+        "url": "https://vwts.ru/diag/engine-crec-generic-scan-tool-eng.pdf",
+        "scope": "Audi Q7 2016-onward CREC Generic Scan Tool manual, edition 11.2016; only the cited engine-control calibration table and component procedure. Confirm the installed engine and control-module software.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crec.pdf",
+        "sha256": "ec354507cf46e84b306451035f78b2c4efdc98228b5bb57d5ef872eebb8728e9",
+        "pages": [
+          445
+        ],
+        "locator": "Physical PDF page 445, DTC U0431 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "generic-u05a3",
+    "code": "U05A3",
+    "dictionaryTitle": "Invalid Data Received From Reductant Quality Module",
+    "canonicalPath": "/codes/generic/u05a3/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          146
+        ],
+        "locator": "Physical PDF page 146, DTC U05A3 monitor row"
+      }
+    ]
+  },
+  {
+    "entryId": "audi-u1006",
+    "code": "U1006",
+    "dictionaryTitle": "NOx sensor 1 front no communication",
+    "canonicalPath": "/codes/audi/u1006/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          169
+        ],
+        "locator": "Physical PDF page 169, DTC U1006 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-u1024",
+    "code": "U1024",
+    "dictionaryTitle": "Communications bus fault",
+    "canonicalPath": "/codes/audi/u1024/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          169
+        ],
+        "locator": "Physical PDF page 169, DTC U1024 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-u1026",
+    "code": "U1026",
+    "dictionaryTitle": "4WD automatic transmission control module communication no signal",
+    "canonicalPath": "/codes/audi/u1026/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          327
+        ],
+        "locator": "Physical PDF page 327, DTC U1026 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-u1034",
+    "code": "U1034",
+    "dictionaryTitle": "NOx sensor 1 front implausible signal",
+    "canonicalPath": "/codes/audi/u1034/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          169
+        ],
+        "locator": "Physical PDF page 169, DTC U1034 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-u10c1",
+    "code": "U10C1",
+    "dictionaryTitle": "NOx sensor 2 rear implausible signal",
+    "canonicalPath": "/codes/audi/u10c1/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          170
+        ],
+        "locator": "Physical PDF page 170, DTC U10C1 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-u10c2",
+    "code": "U10C2",
+    "dictionaryTitle": "NOx sensor 2 rear no communication",
+    "canonicalPath": "/codes/audi/u10c2/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          170
+        ],
+        "locator": "Physical PDF page 170, DTC U10C2 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "volkswagen-u10dd",
+    "code": "U10DD",
+    "dictionaryTitle": "Lost communication with clutch control unit",
+    "canonicalPath": "/codes/volkswagen/u10dd/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          457
+        ],
+        "locator": "Physical PDF page 457, DTC U10DD monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-u10de",
+    "code": "U10DE",
+    "dictionaryTitle": "Invalid data received from clutch control unit",
+    "canonicalPath": "/codes/volkswagen/u10de/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-cgfa-touareg-hybrid-gst-2016",
+        "url": "https://vwts.ru/diag/engine-cgfa-09g-touareg-diagnostic-eng.pdf",
+        "scope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cgfa.pdf",
+        "sha256": "a32203a37cffd71682fbfabf6a3445f5c146be2c856ce08d37e49a4af846cec7",
+        "pages": [
+          457
+        ],
+        "locator": "Physical PDF page 457, DTC U10DE monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Touareg Hybrid 2012-onward CGFA Generic Scan Tool manual, edition 08.10.2016; only the cited hybrid/engine-control diagnostic table. This is not general Volkswagen or hybrid applicability."
+  },
+  {
+    "entryId": "volkswagen-u1103",
+    "code": "U1103",
+    "dictionaryTitle": "Production mode active",
+    "canonicalPath": "/codes/volkswagen/u1103/",
+    "primaryCandidates": [
+      {
+        "sourceId": "vw-crua-deja-golf7-gst-2018",
+        "url": "https://vwts.ru/diag/engine-crua-deja-golf-7-diagnostic-eng.pdf",
+        "scope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/crua.pdf",
+        "sha256": "ce5220f1e59616a4101a087605f05d92369581a3545be9d19d80c5ffd60830b9",
+        "pages": [
+          148
+        ],
+        "locator": "Physical PDF page 148, DTC U1103 monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "volkswagen",
+    "definitionScope": "Volkswagen Golf 7/Golf Wagon 2014-onward CRUA/DEJA Generic Scan Tool manual, edition 08.2018; only the cited engine-control diagnostic table and component procedure, not universal model fitment."
+  },
+  {
+    "entryId": "audi-u140c",
+    "code": "U140C",
+    "dictionaryTitle": "Reducing-agent control module supply voltage too low",
+    "canonicalPath": "/codes/audi/u140c/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          170
+        ],
+        "locator": "Physical PDF page 170, DTC U140C monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-u140d",
+    "code": "U140D",
+    "dictionaryTitle": "Reducing-agent control module supply voltage too high",
+    "canonicalPath": "/codes/audi/u140d/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          170
+        ],
+        "locator": "Physical PDF page 170, DTC U140D monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-u140e",
+    "code": "U140E",
+    "dictionaryTitle": "Reducing-agent control module function restricted by insufficient voltage",
+    "canonicalPath": "/codes/audi/u140e/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          171
+        ],
+        "locator": "Physical PDF page 171, DTC U140E monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  },
+  {
+    "entryId": "audi-u140f",
+    "code": "U140F",
+    "dictionaryTitle": "Reducing-agent control module function restricted by excessive voltage",
+    "canonicalPath": "/codes/audi/u140f/",
+    "primaryCandidates": [
+      {
+        "sourceId": "audi-cpna-cpnb-gst-2018",
+        "url": "https://vwts.ru/diag/engine-cpna-cpnb-generic-scan-tool-eng.pdf",
+        "scope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified.",
+        "localEvidence": "/workspace/scratch/dbf135311373/wave5/writer48/cpna.pdf",
+        "sha256": "6b1ce2405e3cb6f7febecb796276e697fed46e9d47885f96ebe7f88e54d72558",
+        "pages": [
+          171
+        ],
+        "locator": "Physical PDF page 171, DTC U140F monitor row"
+      }
+    ],
+    "newCanonical": true,
+    "makeId": "audi",
+    "definitionScope": "Audi A8/A7/A6/Q5 2013-onward CPNA/CPNB Generic Scan Tool manual, edition 07.2018; exact cited engine-control table only, with model-specific circuit routing to be verified."
+  }
+]

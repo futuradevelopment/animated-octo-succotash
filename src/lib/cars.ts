@@ -6,7 +6,7 @@ export {authoredGuides};
 export type PublicationState='published_indexable'|'published_noindex';
 export type SystemId='powertrain'|'body'|'chassis'|'network';
 export interface Make {id:string;name:string;region:string;aliases?:string[]}
-export interface CodeEntry {id:string;code:string;makeId:string;makeIds?:string[];title:string;system:SystemId;sourceId:string;scope:'generic'|'manufacturer';status:PublicationState;sourceRows?:unknown[];definitions?:{title:string;context?:string;sourceId?:string}[]}
+export interface CodeEntry {id:string;code:string;makeId:string;makeIds?:string[];title:string;system:SystemId;sourceId:string;scope:'generic'|'manufacturer';status:PublicationState;definitionScope?:string;sourceRows?:unknown[];definitions?:{title:string;context?:string;sourceId?:string}[]}
 export interface VehicleModel {id:string;makeId:string;name:string;slug:string;years:string;summary:string;sourceIds:string[]}
 export interface Source {id:string;title:string;publisher:string;url:string;license?:string;checkedOn:string;kind:'dataset'|'manufacturer'|'public-agency'}
 export interface DiagnosticGuide {summary:string;meaning:string;firstCheck:string;urgency:'check'|'service'|'stop';urgencyLabel:string;safety:string[];steps:{title:string;body:string}[];nextSteps:string[];limitations:string[];sourceIds:string[]}
@@ -27,7 +27,7 @@ export const allCodes=readJson<CodeEntry[]>('dtc.json',[]);
 export const makes=readJson<Make[]>('makes.json',[]);
 export const models=readJson<VehicleModel[]>('models.json',[]);
 export const bulletins=readJson<Bulletin[]>('bulletins.json',[]);
-export const sources=[...readJson<Source[]>('dataset-sources.json',[]),...readJson<Source[]>('oem-sources.json',[]),...readJson<Source[]>('editorial-sources.json',[])];
+export const sources=[...readJson<Source[]>('dataset-sources.json',[]),...readJson<Source[]>('oem-sources.json',[]),...readJson<Source[]>('editorial-sources.json',[]),...readJson<Source[]>('curated-sources.json',[])];
 const guideProfiles=readJson<GuideProfiles>('diagnostic-guides.json',{});
 export const codes=allCodes.filter(entry=>entry.status==='published_indexable'||entry.status==='published_noindex').sort((a,b)=>a.code.localeCompare(b.code)||a.makeId.localeCompare(b.makeId));
 export const indexableCodes=codes.filter(entry=>entry.status==='published_indexable');

@@ -1,0 +1,191 @@
+{
+  "checkedAt": "2026-11-02T10:52:54.771199+00:00",
+  "status": "passed",
+  "scope": "Technical validation of 1,000 unpublished wave-five manuscripts and supporting repository integration; unresolved editorial flags remain explicit.",
+  "productionBaseCommit": "ae83207d69ab93827af7fa47f9bf6e968a731e85",
+  "wave": 5,
+  "batches": [
+    "batch-41",
+    "batch-42",
+    "batch-43",
+    "batch-44",
+    "batch-45",
+    "batch-46",
+    "batch-47",
+    "batch-48",
+    "batch-49",
+    "batch-50"
+  ],
+  "manuscripts": {
+    "total": 5000,
+    "newWave": {
+      "wave": 5,
+      "assigned": 1000,
+      "written": 1000,
+      "selectedForPublication": 0,
+      "notSelectedForPublication": 1000,
+      "uniqueCodes": 1000,
+      "sourceCheckedDrafts": 820,
+      "sourceReviewPending": 180,
+      "words": 299313
+    },
+    "selectedForPublication": 4000,
+    "newWaveSelectedForPublication": 0,
+    "structuralFailures": 0
+  },
+  "tests": {
+    "command": "npm test",
+    "tests": 70,
+    "passed": 70,
+    "failed": 0,
+    "skipped": 0
+  },
+  "typecheck": {
+    "command": "npm run check",
+    "errors": 0,
+    "warnings": 0,
+    "hints": 3
+  },
+  "build": {
+    "command": "npm run build",
+    "cleanBuild": true,
+    "htmlPages": 12801
+  },
+  "dataValidation": {
+    "checks": 288484,
+    "failed": 0,
+    "scope": "Structural/provenance consistency and canonical publication gates. Community definitions are not OEM-verified diagnoses. Passing does not establish source accuracy, model applicability, deployment or indexing."
+  },
+  "staticAudit": {
+    "status": "passed",
+    "checks": 2131061,
+    "failed": 0,
+    "htmlPages": 12801,
+    "indexablePages": 12339,
+    "codePages": 12246,
+    "manuscriptPages": 4000,
+    "manuscriptPagesWithSourceReviewPending": 580
+  },
+  "similarity": {
+    "report": "reports/article-similarity-wave-05.json",
+    "corpusArticles": 5000,
+    "waveArticles": 1000,
+    "exactNormalizedDuplicateGroups": 0,
+    "pairsAtOrAboveReportThreshold": 0,
+    "method": {
+      "shingleWords": 5,
+      "similarity": "set Jaccard: intersection / union of all normalized five-word shingles",
+      "reportThreshold": 0.45,
+      "candidateDocumentFrequencyRange": [
+        2,
+        40
+      ],
+      "minimumSharedCandidateShingles": 10,
+      "normalization": [
+        "Remove frontmatter and all Markdown headings.",
+        "Stop before named source/applicability footer headings or Source/Reference/Citation/Scope/Applicability footer lines.",
+        "Remove code-directory links and URLs; retain other inline link labels.",
+        "Replace DTC identifiers and numeric literals with shared placeholders; lowercase and retain alphabetic tokens."
+      ],
+      "footerHeadings": [
+        "application and limits",
+        "application limits",
+        "citations",
+        "document scope and source",
+        "documentation and applicability",
+        "documented application",
+        "references",
+        "source",
+        "source and applicability",
+        "source and application limits",
+        "source and limits",
+        "source and scope",
+        "sources",
+        "sources and applicability"
+      ],
+      "candidateRetrieval": "Inverted index over shingles occurring in the configured document-frequency range. Count shared qualifying shingles only for pairs involving wave five; score candidates reaching the configured minimum (10 by default, less restrictive than the prior report's 25). No quadratic all-corpus pass.",
+      "exactDuplicateSupplement": "SHA-256 equality of normalized bodies, including groups excluded by frequent-shingle filtering.",
+      "crossBatchSupplement": "Also score the five prior-versus-wave-five and five different-wave-five-batch candidates with the most qualifying shared shingles. This bounded spot check can include pairs below the main candidate minimum.",
+      "reproduce": "python scripts/article-similarity-wave-05.py"
+    },
+    "limitations": [
+      "This is a bounded lexical repetition screen, not an originality, plagiarism, source-accuracy, or factual-quality certification.",
+      "Candidate retrieval can miss pairs dominated by shingles appearing above the configured document-frequency ceiling or sharing fewer than the configured qualifying-shingle minimum.",
+      "Number and DTC normalization intentionally increases similarity among legitimate related factory procedures; scores require article-level review.",
+      "Paraphrased templates, semantic duplication, and copied source text not present in this corpus can evade lexical screening.",
+      "Footer removal uses an explicit heading list and footer-line patterns; inline applicability language remains when part of the main discussion.",
+      "The report is a point-in-time filesystem snapshot. A later manuscript change requires a rerun; stored reviews survive only identical normalized body hashes."
+    ]
+  },
+  "editorialReview": {
+    "report": "reports/editorial-review-wave-05-summary.json",
+    "counts": {
+      "sourceReports": 5,
+      "uniqueBodySamples": 92,
+      "uniqueDeepSourceChecks": 50,
+      "bodyOnlySamples": 42,
+      "historicalProseCorrections": 4,
+      "resumedEditorialCorrections": 1,
+      "lateSampleCorrections": 0,
+      "headingOnlyStructuralFixes": 84
+    },
+    "currentManuscriptHashesVerified": true,
+    "fullCorpusCertification": false
+  },
+  "integration": {
+    "diagnosticSourceRecords": 1346,
+    "originalCatalogObjectsPreservedExactly": 11786,
+    "newManufacturerEntries": 460,
+    "newEntriesAllNoindex": true,
+    "totalCatalogEntries": 12246,
+    "existing4000ArticleFilesUnchanged": true,
+    "publicationManifestByteIdentical": true,
+    "publicationManifestSha256": "020c683153a2dbc2ce6fb7be5315ce0134cf967bc187f87bd993db487783cd28",
+    "renderedScopeSamples": {
+      "checkedAt": "2026-11-02T10:49:02.505Z",
+      "samples": [
+        {
+          "entryId": "honda-p100a",
+          "path": "/codes/honda/p100a/",
+          "scopeMatches": true,
+          "noindex": true,
+          "definitionSourceMatches": true
+        },
+        {
+          "entryId": "audi-p10a0",
+          "path": "/codes/audi/p10a0/",
+          "scopeMatches": true,
+          "noindex": true,
+          "definitionSourceMatches": true
+        },
+        {
+          "entryId": "volkswagen-p1004",
+          "path": "/codes/volkswagen/p1004/",
+          "scopeMatches": true,
+          "noindex": true,
+          "definitionSourceMatches": true
+        },
+        {
+          "entryId": "nissan-b2480",
+          "path": "/codes/nissan/b2480/",
+          "scopeMatches": true,
+          "noindex": true,
+          "definitionSourceMatches": true
+        },
+        {
+          "entryId": "ford-b1030",
+          "path": "/codes/ford/b1030/",
+          "scopeMatches": true,
+          "noindex": true,
+          "definitionSourceMatches": true
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "This is not a claim of production publication; the existing 4,000-article selection is unchanged.",
+    "180 of the 1,000 manuscripts retain unresolved source-review flags. Author source checks and bounded AI peer reviews do not certify every claim or repair outcome.",
+    "The 10,000-article overall campaign target remains unmet.",
+    "Static build checks do not verify live deployment, indexing, field performance or source factual accuracy."
+  ]
+}

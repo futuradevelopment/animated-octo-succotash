@@ -1,16 +1,16 @@
 {
-  "checkedAt": "2026-10-31T11:49:13.505Z",
+  "checkedAt": "2026-11-02T21:26:32.422Z",
   "status": "passed",
   "counts": {
-    "codes": 11786,
-    "indexableCanonicalCodes": 11786,
+    "codes": 12246,
+    "indexableCanonicalCodes": 12246,
     "genericCodes": 9249,
-    "manufacturerCodes": 2537,
+    "manufacturerCodes": 2997,
     "sharedManufacturerReferences": 1026,
     "noindexCodes": 0,
     "makes": 34,
     "models": 46,
-    "sources": 78,
+    "sources": 319,
     "systems": 4,
     "authoredDiagnosticGuides": 32
   },
@@ -19,11 +19,11 @@
     "buick": 10,
     "cadillac": 1,
     "chevrolet": 398,
-    "ford": 395,
+    "ford": 530,
     "generic": 9249,
     "geo": 14,
     "gmc": 2,
-    "honda": 93,
+    "honda": 243,
     "jaguar": 150,
     "jeep": 96,
     "kia": 76,
@@ -31,26 +31,27 @@
     "mazda": 204,
     "mercedes-benz": 32,
     "mitsubishi": 29,
-    "nissan": 59,
+    "nissan": 159,
     "oldsmobile": 5,
     "subaru": 93,
     "suzuki": 15,
     "toyota": 43,
-    "volkswagen": 528
+    "volkswagen": 575,
+    "audi": 28
   },
   "canonicalCodesBySystem": {
-    "powertrain": 9891,
-    "body": 189,
-    "chassis": 478,
-    "network": 1228
+    "powertrain": 10127,
+    "body": 323,
+    "chassis": 529,
+    "network": 1267
   },
-  "checks": 276918,
+  "checks": 288484,
   "failed": 0,
   "failures": [],
   "omittedFailures": 0,
   "counters": {
     "source-unique-id": {
-      "checks": 78,
+      "checks": 319,
       "failed": 0
     },
     "make-unique-id": {
@@ -62,11 +63,11 @@
       "failed": 0
     },
     "source-input-unique-id": {
-      "checks": 78,
+      "checks": 319,
       "failed": 0
     },
     "source-catalog-consistent": {
-      "checks": 78,
+      "checks": 319,
       "failed": 0
     },
     "make-slug": {
@@ -78,103 +79,103 @@
       "failed": 0
     },
     "source-url": {
-      "checks": 78,
+      "checks": 319,
       "failed": 0
     },
     "source-checked-date": {
-      "checks": 78,
+      "checks": 319,
       "failed": 0
     },
     "source-kind": {
-      "checks": 78,
+      "checks": 319,
       "failed": 0
     },
     "code-id-unique": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-pattern": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-route-unique": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-make-exists": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-system-exists": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-system-prefix": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-source-exists": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-title": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "no-appliance-residue": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-status": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-assigned-allocation": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "code-allocation-scope": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "generic-canonical-make": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "shared-makes-unique": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "shared-makes-exist": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "canonical-make-in-shared-list": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "shared-code-unambiguous": {
-      "checks": 15298,
+      "checks": 15758,
       "failed": 0
     },
     "code-row-provenance": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "source-row-fields": {
-      "checks": 15298,
+      "checks": 15758,
       "failed": 0
     },
     "shared-makes-have-upstream-labels": {
-      "checks": 2537,
+      "checks": 2997,
       "failed": 0
     },
     "guide-sources-resolve": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "guide-safe-context": {
-      "checks": 11786,
+      "checks": 12246,
       "failed": 0
     },
     "generic-canonical-once": {

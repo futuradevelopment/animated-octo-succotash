@@ -1,39 +1,39 @@
 # ErrHive Cars quality report
 
-Generated 2026-10-31T11:51:04.040Z. These are repository and build measurements, not proof of public deployment, indexing, search demand or rankings.
+Generated 2026-11-02T21:30:00.337Z. These are repository and build measurements, not proof of public deployment, indexing, search demand or rankings.
 
 | Measure | Actual |
 | --- | ---: |
-| Written code-article manuscripts | 4000 |
-| Selected for the canonical renderer | 4000 |
-| Manuscript bodies verified in static output | 4000 |
+| Written code-article manuscripts | 5000 |
+| Selected for the canonical renderer | 5000 |
+| Manuscript bodies verified in static output | 5000 |
 | Unselected unpublished manuscripts | 0 |
-| Manuscripts with unresolved source details | 580 |
-| Rendered articles retaining source-review notices | 580 |
+| Manuscripts with unresolved source details | 760 |
+| Rendered articles retaining source-review notices | 760 |
 | Approved code-article records | 0 |
-| Code entries tracked for article research | 11786 |
-| Code entries with scoped source candidates (not verified articles) | 4190 |
+| Code entries tracked for article research | 12246 |
+| Code entries with scoped source candidates (not verified articles) | 5114 |
 | Individually authored diagnostic guides | 32 |
-| Indexable code pages (including authored articles) | 11786 |
+| Indexable code pages (including authored articles) | 12246 |
 | Generic definitions | 9249 |
-| Manufacturer reference definitions | 2537 |
-| Unique displayed code strings | 10043 |
+| Manufacturer reference definitions | 2997 |
+| Unique displayed code strings | 10503 |
 | Shared manufacturer references (already included above) | 1026 |
 | Noindex code references | 0 |
 | Configured makes | 34 |
 | Model context hubs | 46 |
 | Scoped manufacturer bulletins | 26 |
-| Unique source URLs | 78 |
-| Generated HTML pages | 12325 |
-| Indexable URLs including directories and model hubs | 12323 |
-| Search shards (maximum500 records each) | 41 |
+| Unique source URLs | 319 |
+| Generated HTML pages | 12811 |
+| Indexable URLs including directories and model hubs | 12809 |
+| Search shards (maximum500 records each) | 43 |
 | Sitemap shards (maximum5000 URLs each) | 3 |
 
 ## Validation
 
-Data validation: **passed**, 276918 checks and 0 failures. Static output audit: **passed**, 2057393 checks and 0 failures. Reports retain aggregate check counters and capped failure details. The static audit processes one HTML document and one search shard at a time. Read the current CI run for Node tests, production-browser checks, and screenshots.
+Data validation: **passed**, 288484 checks and 0 failures. Static output audit: **passed**, 2157345 checks and 0 failures. Reports retain aggregate check counters and capped failure details. The static audit processes one HTML document and one search shard at a time. Read the current CI run for Node tests, production-browser checks, and screenshots.
 
-The user target is at least **10,000 separately authored, useful code articles**, covering the existing code catalog. Written code-article manuscripts: **4000**. The explicit publication manifest selects **4000** for their matching canonical pages; the static audit finds **4000** rendered manuscript bodies. **0** remain unpublished drafts. Original source files retain draft authoring metadata, and unresolved-source flags remain visible. These build measurements do not verify the live domain. Separate claim-level approved code-article records: **0**. Current target result: **not met**. The 32 scoped case guides remain separate content. The dictionary-size check preserves the imported inventory; it does not measure article completion. Candidate source mentions also do not count as articles. Run `npm run article:target` for the explicit completion gate; it fails while the target is unmet. Structural screening is not proof of factual accuracy or live publication.
+The user target is at least **10,000 separately authored, useful code articles**, covering the existing code catalog. Written code-article manuscripts: **5000**. The explicit publication manifest selects **5000** for their matching canonical pages; the static audit finds **5000** rendered manuscript bodies. **0** remain unpublished drafts. Original source files retain draft authoring metadata, and unresolved-source flags remain visible. These build measurements do not verify the live domain. Separate claim-level approved code-article records: **0**. Current target result: **not met**. The 32 scoped case guides remain separate content. The dictionary-size check preserves the imported inventory; it does not measure article completion. Candidate source mentions also do not count as articles. Run `npm run article:target` for the explicit completion gate; it fails while the target is unmet. Structural screening is not proof of factual accuracy or live publication.
 
 ## Evidence boundaries
 
@@ -50,3 +50,9 @@ No production HTTP status, DNS/TLS, Search Console indexation, real-user traffic
 
 The [fourth-wave peer-review summary](../reports/editorial-review-wave-04-summary.json) records **110 distinct article bodies and 60 article-to-source checks** across batches 31–40. Deep checks are included in the body sample; they do not count unique source documents. 10 metadata/excerpt checks and 2 citation-only checks are separate. The reviews recorded corrections across 29 files, including 10 changes to needs-review that preserve unresolved definition or applicability gaps. Selection cutoffs and later samples are recorded in the summary. These bounded AI peer reviews do not certify every article, vehicle applicability, repairs or live publication.
 <!-- wave-04-peer-review:end -->
+
+<!-- wave-05-peer-review:start -->
+## Independent review of writing wave 5
+
+The [fifth-wave peer-review summary](../reports/editorial-review-wave-05-summary.json) records **92 distinct article bodies and 50 article-to-source checks** across batches 41–50, with current manuscript hashes matching the recorded reviewed versions. Source checks are included in the body sample. Historical reviews recorded 4 prose corrections; the resumed review recorded 1 editorial correction. Separately, 84 heading-only fixes were recorded in batch 44; they do not add independent body reads. The [fifth-wave similarity screen](../reports/article-similarity-wave-05.json) has its own recorded corpus, candidate limits and manual pair reviews. These bounded AI checks do not certify full-corpus accuracy, originality, vehicle applicability, repairs or live publication.
+<!-- wave-05-peer-review:end -->

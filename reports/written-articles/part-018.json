@@ -1,0 +1,5736 @@
+[
+  {
+    "code": "P22AD",
+    "entryId": "generic-p22ad",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P22AD.md",
+    "title": "P22AD: Toyota separates positive-signal overvoltage from sensor correlation",
+    "wordCount": 335,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rm100000001qol3"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rm100000001qol3",
+        "locator": "DTC detection condition; SAE Code mapping; Monitor Description; Monitor Strategy; Typical Enabling Conditions; Typical Malfunction Thresholds; Confirmation Driving Pattern; Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P22B3",
+    "entryId": "generic-p22b3",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P22B3.md",
+    "title": "P22B3: Toyota checks the downstream sensor’s negative-control voltage for a low limit",
+    "wordCount": 340,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rm100000001qol3"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rm100000001qol3",
+        "locator": "DTC detection condition; SAE Code mapping; Monitor Description; Monitor Strategy; Typical Enabling Conditions; Typical Malfunction Thresholds; Confirmation Driving Pattern; Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P22B4",
+    "entryId": "generic-p22b4",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P22B4.md",
+    "title": "P22B4: Toyota’s downstream negative-control high fault uses a 4.59 V boundary",
+    "wordCount": 334,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rm100000001qol3"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rm100000001qol3",
+        "locator": "DTC detection condition; SAE Code mapping; Monitor Description; Monitor Strategy; Typical Enabling Conditions; Typical Malfunction Thresholds; Confirmation Driving Pattern; Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2325",
+    "entryId": "generic-p2325",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2325.md",
+    "title": "P2325: Audi’s coil-I circuit-high threshold is expressed as a voltage range",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a8-2013-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a8-2013-qrsb",
+        "pages": [
+          312,
+          333
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2327",
+    "entryId": "generic-p2327",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2327.md",
+    "title": "P2327: Audi’s coil-J circuit-low monitor watches excessive signal current",
+    "wordCount": 289,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a8-2013-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a8-2013-qrsb",
+        "pages": [
+          333
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2328",
+    "entryId": "generic-p2328",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2328.md",
+    "title": "P2328: Audi evaluates coil-J primary control voltage against a ranged threshold",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a8-2013-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a8-2013-qrsb",
+        "pages": [
+          333
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2330",
+    "entryId": "generic-p2330",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2330.md",
+    "title": "P2330: Audi uses a current threshold for coil-K circuit low",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a8-2013-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a8-2013-qrsb",
+        "pages": [
+          313,
+          333
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2331",
+    "entryId": "generic-p2331",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2331.md",
+    "title": "P2331: Audi’s coil-K high fault concerns a primary-control voltage threshold",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a8-2013-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a8-2013-qrsb",
+        "pages": [
+          313,
+          333
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2333",
+    "entryId": "generic-p2333",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2333.md",
+    "title": "P2333: Audi’s coil-L low category is triggered by a higher signal current",
+    "wordCount": 290,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a8-2013-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a8-2013-qrsb",
+        "pages": [
+          333,
+          334
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2334",
+    "entryId": "generic-p2334",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2334.md",
+    "title": "P2334: Audi checks coil-L primary control for a high voltage condition",
+    "wordCount": 295,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a8-2013-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a8-2013-qrsb",
+        "pages": [
+          313,
+          333,
+          334
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2421",
+    "entryId": "generic-p2421",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2421.md",
+    "title": "P2421: Toyota detects an EVAP vent valve that fails to close during key-off testing",
+    "wordCount": 347,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rm1000000020ci7"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rm1000000020ci7",
+        "locator": "DTC detection condition; SAE Code mapping; Monitor Description; Monitor Strategy; Typical Enabling Conditions; Typical Malfunction Thresholds; Confirmation Driving Pattern; Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P24CC",
+    "entryId": "generic-p24cc",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P24CC.md",
+    "title": "P24CC: Audi’s reductant-cap check uses accumulated reducing-agent mass",
+    "wordCount": 295,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-q7-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q7-2014-qrsb",
+        "pages": [
+          172
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24CD",
+    "entryId": "generic-p24cd",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P24CD.md",
+    "title": "P24CD: Audi identifies the reductant-cap switch’s low electrical extreme",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-q7-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q7-2014-qrsb",
+        "pages": [
+          172
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24CE",
+    "entryId": "generic-p24ce",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P24CE.md",
+    "title": "P24CE: Audi’s reductant-cap switch high fault begins above 1.2 V",
+    "wordCount": 292,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-q7-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q7-2014-qrsb",
+        "pages": [
+          172
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24D5",
+    "entryId": "generic-p24d5",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P24D5.md",
+    "title": "P24D5: Audi’s EVAP pressure-sensor B circuit reaches its upper signal limit",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-q5-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q5-2014-qrsb",
+        "pages": [
+          246
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24D6",
+    "entryId": "generic-p24d6",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P24D6.md",
+    "title": "P24D6: Audi checks EVAP pressure B against a broad plausibility window",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-q5-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q5-2014-qrsb",
+        "pages": [
+          246
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P24D7",
+    "entryId": "generic-p24d7",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P24D7.md",
+    "title": "P24D7: Audi distinguishes a low EVAP pressure signal from low tank pressure",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-q5-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q5-2014-qrsb",
+        "pages": [
+          246
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2569",
+    "entryId": "generic-p2569",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2569.md",
+    "title": "P2569: Audi’s PZEV radiator-identification temperature signal is low",
+    "wordCount": 333,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a3-2013-qrsb",
+      "vw-2012-gti-cbfa-ris-lin"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a3-2013-qrsb",
+        "pages": [
+          155
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "vw-2012-gti-cbfa-ris-lin",
+        "locator": "Function; test requirements; checking wiring; final procedures"
+      }
+    ]
+  },
+  {
+    "code": "P2570",
+    "entryId": "generic-p2570",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2570.md",
+    "title": "P2570: Audi’s radiator-identification signal remains at the high end",
+    "wordCount": 335,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-a3-2013-qrsb",
+      "vw-2012-gti-cbfa-ris-lin"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-a3-2013-qrsb",
+        "pages": [
+          155
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "vw-2012-gti-cbfa-ris-lin",
+        "locator": "Function; test requirements; checking wiring; final procedures"
+      }
+    ]
+  },
+  {
+    "code": "P25A9",
+    "entryId": "generic-p25a9",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P25A9.md",
+    "title": "P25A9: Volkswagen’s piston-cooling open-circuit check runs with the actuator off",
+    "wordCount": 293,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          414
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25AA",
+    "entryId": "generic-p25aa",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P25AA.md",
+    "title": "P25AA: Volkswagen checks the piston-cooling control signal for a short to ground",
+    "wordCount": 301,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          413,
+          414
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25AB",
+    "entryId": "generic-p25ab",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P25AB.md",
+    "title": "P25AB: Volkswagen’s piston-cooling high check requires an on command",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          414
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25AC",
+    "entryId": "generic-p25ac",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P25AC.md",
+    "title": "P25AC: Volkswagen checks for missing piston-cooling gallery pressure",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          413,
+          414
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P25AD",
+    "entryId": "generic-p25ad",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P25AD.md",
+    "title": "P25AD: Volkswagen detects piston-cooling pressure in an unexpected control state",
+    "wordCount": 301,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          414
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26CC",
+    "entryId": "generic-p26cc",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P26CC.md",
+    "title": "P26CC: Toyota’s coolant-pump low fault concerns a missing commanded duty signal",
+    "wordCount": 336,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rm100000001qol8"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rm100000001qol8",
+        "locator": "DTC detection condition; SAE Code mapping; Monitor Description; Monitor Strategy; Typical Enabling Conditions; Typical Malfunction Thresholds; Confirmation Driving Pattern; Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P26CD",
+    "entryId": "generic-p26cd",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P26CD.md",
+    "title": "P26CD: Toyota detects a high coolant-pump command circuit without pulses",
+    "wordCount": 329,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rm100000001qol7"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rm100000001qol7",
+        "locator": "DTC detection condition; SAE Code mapping; Monitor Description; Monitor Strategy; Typical Enabling Conditions; Typical Malfunction Thresholds; Confirmation Driving Pattern; Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2766",
+    "entryId": "generic-p2766",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2766.md",
+    "title": "P2766: Volkswagen rejects an implausibly high second input-shaft speed",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          455,
+          465
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2768",
+    "entryId": "generic-p2768",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2768.md",
+    "title": "P2768: Volkswagen detects a missing second input-shaft speed signal",
+    "wordCount": 301,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          455,
+          465
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2789",
+    "entryId": "generic-p2789",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2789.md",
+    "title": "P2789: Volkswagen records clutch-A adaptation reaching either limit",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-cnla-0cg-jetta-6-2015-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-cnla-0cg-jetta-6-2015-gst",
+        "pages": [
+          525
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2831",
+    "entryId": "generic-p2831",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2831.md",
+    "title": "P2831: Volkswagen has lost the position signal for the first/third shift fork",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          453,
+          454
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2836",
+    "entryId": "generic-p2836",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2836.md",
+    "title": "P2836: Volkswagen’s second/reverse shift module has no position signal",
+    "wordCount": 304,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          455,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P283B",
+    "entryId": "generic-p283b",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P283B.md",
+    "title": "P283B: Volkswagen loses fifth/seventh shift-fork position feedback",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          455,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2840",
+    "entryId": "generic-p2840",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2840.md",
+    "title": "P2840: Volkswagen’s fourth/sixth shift-fork feedback is absent",
+    "wordCount": 294,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2845",
+    "entryId": "generic-p2845",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2845.md",
+    "title": "P2845: Volkswagen detects movement away from commanded neutral on fork A",
+    "wordCount": 301,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2846",
+    "entryId": "generic-p2846",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2846.md",
+    "title": "P2846: Volkswagen’s second/reverse actuator disagrees with nominal neutral",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2847",
+    "entryId": "generic-p2847",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2847.md",
+    "title": "P2847: Volkswagen checks fifth/seventh fork position while neutral is expected",
+    "wordCount": 296,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2848",
+    "entryId": "generic-p2848",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2848.md",
+    "title": "P2848: Volkswagen detects an unexpected fourth/sixth position in neutral",
+    "wordCount": 297,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2849",
+    "entryId": "generic-p2849",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2849.md",
+    "title": "P2849: Volkswagen’s fork-A stuck code is a disengagement timeout",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P284A",
+    "entryId": "generic-p284a",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P284A.md",
+    "title": "P284A: Volkswagen times the second/reverse fork’s disengagement",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P284B",
+    "entryId": "generic-p284b",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P284B.md",
+    "title": "P284B: Volkswagen’s fifth/seventh actuator fails to finish disengaging in time",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P284C",
+    "entryId": "generic-p284c",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P284C.md",
+    "title": "P284C: Volkswagen’s fourth/sixth fork exceeds its disengagement timeout",
+    "wordCount": 303,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          454,
+          463,
+          464
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B7A",
+    "entryId": "generic-p2b7a",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2B7A.md",
+    "title": "P2B7A: Volkswagen separates invalid EVAP signal counts from sensor self-check errors",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          321,
+          323
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B7B",
+    "entryId": "generic-p2b7b",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2B7B.md",
+    "title": "P2B7B: Volkswagen looks for an EVAP pressure signal that hardly changes",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          322
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B7C",
+    "entryId": "generic-p2b7c",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2B7C.md",
+    "title": "P2B7C: Volkswagen’s EVAP sensor-C low monitor uses pressure relative to atmosphere",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          321,
+          323
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B7D",
+    "entryId": "generic-p2b7d",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2B7D.md",
+    "title": "P2B7D: Volkswagen’s EVAP high fault is a tank-to-barometric comparison",
+    "wordCount": 295,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          321,
+          323
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2D8F",
+    "entryId": "generic-p2d8f",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/P2D8F.md",
+    "title": "P2D8F: Volkswagen checks piston-cooling pressure feedback with the engine stopped",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-drna-dsfb-dsfe-dsff-arteon-gst"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-drna-dsfb-dsfe-dsff-arteon-gst",
+        "pages": [
+          413,
+          414,
+          415
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0038",
+    "entryId": "generic-u0038",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/U0038.md",
+    "title": "U0038: Audi distinguishes internal CAN silence from a single missing module",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "audi-q5-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q5-2014-qrsb",
+        "pages": [
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0112",
+    "entryId": "generic-u0112",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/U0112.md",
+    "title": "U0112: Audi’s hybrid controller reports a missing battery-management message",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-q5-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q5-2014-qrsb",
+        "pages": [
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U0114",
+    "entryId": "generic-u0114",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/U0114.md",
+    "title": "U0114: Toyota’s engine controller has lost the four-wheel-drive ECU message",
+    "wordCount": 331,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rm100000001qomo"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rm100000001qomo",
+        "locator": "DTC detection condition; SAE Code mapping; Monitor Description; Monitor Strategy; Typical Enabling Conditions; Typical Malfunction Thresholds; Confirmation Driving Pattern; Procedure"
+      }
+    ]
+  },
+  {
+    "code": "U0413",
+    "entryId": "generic-u0413",
+    "batch": "batch-43",
+    "path": "content/code-articles/batch-43/U0413.md",
+    "title": "U0413: Audi receives battery-management data it cannot accept",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "audi-q5-2014-qrsb"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "audi-q5-2014-qrsb",
+        "pages": [
+          239
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P011F",
+    "entryId": "generic-p011f",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P011F.md",
+    "title": "P011F: Jetta radiator-outlet temperature compared with ambient",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          293,
+          294,
+          442,
+          443,
+          444,
+          445,
+          463,
+          464,
+          465
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P012A",
+    "entryId": "generic-p012a",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P012A.md",
+    "title": "P012A: Ford diesel inlet-pressure sensor's SENT error report",
+    "wordCount": 324,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          94,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0148",
+    "entryId": "generic-p0148",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0148.md",
+    "title": "P0148: Jetta fuel-pressure rise missing during engine start",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          121,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0195",
+    "entryId": "generic-p0195",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0195.md",
+    "title": "P0195: Ford diesel oil-temperature sensor communication fault",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "ford-diesel-2023-2024"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "ford-diesel-2023-2024",
+        "pages": [
+          94,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P01C4",
+    "entryId": "generic-p01c4",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P01C4.md",
+    "title": "P01C4: DJXA fuel-pressure offset checked after thermal soak",
+    "wordCount": 327,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          455,
+          456,
+          457,
+          458,
+          459
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P01C8",
+    "entryId": "generic-p01c8",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P01C8.md",
+    "title": "P01C8: DJXA pressure-control correction and a bank-label caveat",
+    "wordCount": 327,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          135,
+          455,
+          456,
+          457,
+          458,
+          459
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0383",
+    "entryId": "generic-p0383",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0383.md",
+    "title": "P0383: Passat CVCA glow-control driver reads low while off",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          83,
+          193,
+          346,
+          347,
+          348,
+          349
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P039B",
+    "entryId": "generic-p039b",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P039B.md",
+    "title": "P039B: Jetta cylinder 1 pressure inferred from crankshaft motion",
+    "wordCount": 329,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          445,
+          446,
+          447,
+          465,
+          466,
+          467
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P03A5",
+    "entryId": "generic-p03a5",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P03A5.md",
+    "title": "P03A5: DJXA cylinder 2 excessive-pressure monitor limits",
+    "wordCount": 325,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          445,
+          446,
+          447,
+          465,
+          466,
+          467
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P03AF",
+    "entryId": "generic-p03af",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P03AF.md",
+    "title": "P03AF: interpreting cylinder 3 deceleration evidence on DJXA",
+    "wordCount": 325,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          445,
+          446,
+          447,
+          465,
+          466,
+          467
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P03B9",
+    "entryId": "generic-p03b9",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P03B9.md",
+    "title": "P03B9: cylinder 4 pressure monitor and dynamic operating bands",
+    "wordCount": 321,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          445,
+          446,
+          447,
+          465,
+          466,
+          467
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05A5",
+    "entryId": "generic-p05a5",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P05A5.md",
+    "title": "P05A5: Passat active-grille signal below its low threshold",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          92,
+          206,
+          431,
+          432
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0781",
+    "entryId": "generic-p0781",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0781.md",
+    "title": "P0781: Passat DQ250 first gear does not disengage",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          284,
+          300
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0784",
+    "entryId": "generic-p0784",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0784.md",
+    "title": "P0784: Passat DQ250 fourth gear remains engaged",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          284,
+          302
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0829",
+    "entryId": "generic-p0829",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0829.md",
+    "title": "P0829: Passat DQ250 fifth gear fails to release",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          284,
+          303
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0900",
+    "entryId": "generic-p0900",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0900.md",
+    "title": "P0900: Veloster clutch 1 actuator's current-feedback fault",
+    "wordCount": 326,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "hyundai-veloster-2012-dct-p0900"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0900",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair"
+      }
+    ]
+  },
+  {
+    "code": "P0910",
+    "entryId": "generic-p0910",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0910.md",
+    "title": "P0910: Veloster gate-select motor control and source-label caution",
+    "wordCount": 336,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "hyundai-veloster-2012-dct-p0910"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0910",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair"
+      }
+    ]
+  },
+  {
+    "code": "P0914",
+    "entryId": "generic-p0914",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0914.md",
+    "title": "P0914: Passat DSG selector-message diagnosis and plausibility",
+    "wordCount": 301,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          284,
+          305,
+          306
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0916",
+    "entryId": "generic-p0916",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0916.md",
+    "title": "P0916: Veloster shift-position low circuit and Hall-signal checks",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "hyundai-veloster-2012-dct-p0916"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0916",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair"
+      }
+    ]
+  },
+  {
+    "code": "P0917",
+    "entryId": "generic-p0917",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0917.md",
+    "title": "P0917: Veloster shift-position high signal versus motor power",
+    "wordCount": 333,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "hyundai-veloster-2012-dct-p0917"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0917",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair"
+      }
+    ]
+  },
+  {
+    "code": "P0919",
+    "entryId": "generic-p0919",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0919.md",
+    "title": "P0919: Passat DSG receives an undetermined selector position",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          284,
+          306
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0920",
+    "entryId": "generic-p0920",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0920.md",
+    "title": "P0920: Veloster shift-actuator circuit and low feedback current",
+    "wordCount": 339,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "hyundai-veloster-2012-dct-p0920"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "hyundai-veloster-2012-dct-p0920",
+        "locator": "General Information: DTC Detecting Condition image; Scantool Diagnostics; W/Harness Inspection; Verification of Vehicle Repair"
+      }
+    ]
+  },
+  {
+    "code": "P0ABF",
+    "entryId": "generic-p0abf",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0ABF.md",
+    "title": "P0ABF: a battery-current signal that fails to respond during precharge",
+    "wordCount": 342,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "gm-2019-19obdg01-hybrid-diagnostics"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "gm-2019-19obdg01-hybrid-diagnostics",
+        "pages": [
+          787,
+          788,
+          789
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P0B12",
+    "entryId": "generic-p0b12",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0B12.md",
+    "title": "P0B12: Mazda’s low-range battery-current offset check",
+    "wordCount": 345,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201003200"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201003200",
+        "locator": "id300201003200; DTC P0B12:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0B26",
+    "entryId": "generic-p0b26",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0B26.md",
+    "title": "P0B26: MX-30 module-one cell overcharge evidence",
+    "wordCount": 347,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201003500"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201003500",
+        "locator": "id300201003500; DTC P0B26:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0B29",
+    "entryId": "generic-p0b29",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0B29.md",
+    "title": "P0B29: low cell voltage in Mazda battery module two",
+    "wordCount": 351,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201003600"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201003600",
+        "locator": "id300201003600; DTC P0B29:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0B2A",
+    "entryId": "generic-p0b2a",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0B2A.md",
+    "title": "P0B2A: interpreting the MX-30’s module-two high-cell warning",
+    "wordCount": 349,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201003700"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201003700",
+        "locator": "id300201003700; DTC P0B2A:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0BE5",
+    "entryId": "generic-p0be5",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0BE5.md",
+    "title": "P0BE5: MX-30 inverter U-phase current at initial diagnosis",
+    "wordCount": 327,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300203047800"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300203047800",
+        "locator": "id300203047800; DTC P0BE5:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C0C",
+    "entryId": "generic-p0c0c",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0C0C.md",
+    "title": "P0C0C: MX-30 inverter supply reads low while HV operates",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300203049600"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300203049600",
+        "locator": "id300203049600; DTC P0C0C:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C0D",
+    "entryId": "generic-p0c0d",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0C0D.md",
+    "title": "P0C0D: MX-30 inverter high-voltage reading and transient events",
+    "wordCount": 314,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300203049700"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300203049700",
+        "locator": "id300203049700; DTC P0C0D:00 [DRIVE MOTOR CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CA4",
+    "entryId": "generic-p0ca4",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0CA4.md",
+    "title": "P0CA4: Mazda MX-30 quick-charge overvoltage evidence",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202032200"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202032200",
+        "locator": "id300202032200; DTC P0CA4:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CA6",
+    "entryId": "generic-p0ca6",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0CA6.md",
+    "title": "P0CA6: the MX-30’s charging-current monitor before filtering",
+    "wordCount": 324,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201010000"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201010000",
+        "locator": "id300201010000; DTC P0CA6:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CA7",
+    "entryId": "generic-p0ca7",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0CA7.md",
+    "title": "P0CA7: why the discharge-current sign matters on the MX-30",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201010100"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201010100",
+        "locator": "id300201010100; DTC P0CA7:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CD1",
+    "entryId": "generic-p0cd1",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0CD1.md",
+    "title": "P0CD1: MX-30 charge-lid lock actuator circuit diagnosis",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202032300"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202032300",
+        "locator": "id300202032300; DTC P0CD1:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CDF",
+    "entryId": "generic-p0cdf",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0CDF.md",
+    "title": "P0CDF: MX-30 expansion-valve driver OLA diagnostic error",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201011400"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201011400",
+        "locator": "id300201011400; DTC P0CDF:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CF7",
+    "entryId": "generic-p0cf7",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0CF7.md",
+    "title": "P0CF7: MX-30 charging-status signal open-circuit diagnosis",
+    "wordCount": 319,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204055112"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055112",
+        "locator": "id300204055112; DTC P0CF7:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CFD",
+    "entryId": "generic-p0cfd",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0CFD.md",
+    "title": "P0CFD: MX-30 onboard-charger S2 switch remains open",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204055200"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055200",
+        "locator": "id300204055200; DTC P0CFD:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CFE",
+    "entryId": "generic-p0cfe",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0CFE.md",
+    "title": "P0CFE: MX-30 onboard-charger S2 switch remains closed",
+    "wordCount": 322,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204055300"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055300",
+        "locator": "id300204055300; DTC P0CFE:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D0E",
+    "entryId": "generic-p0d0e",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D0E.md",
+    "title": "P0D0E: MX-30 negative charging-contactor control fault",
+    "wordCount": 332,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202033200"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202033200",
+        "locator": "id300202033200; DTC P0D0E:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D1D",
+    "entryId": "generic-p0d1d",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D1D.md",
+    "title": "P0D1D: MX-30 expansion-valve driver AML error",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201011700"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201011700",
+        "locator": "id300201011700; DTC P0D1D:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D1E",
+    "entryId": "generic-p0d1e",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D1E.md",
+    "title": "P0D1E: MX-30 expansion-valve driver AMH error",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201011800"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201011800",
+        "locator": "id300201011800; DTC P0D1E:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D24",
+    "entryId": "generic-p0d24",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D24.md",
+    "title": "P0D24: MX-30 onboard-charger internal overtemperature",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204055500"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055500",
+        "locator": "id300204055500; DTC P0D24:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D28",
+    "entryId": "generic-p0d28",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D28.md",
+    "title": "P0D28: MX-30 onboard-charger AC input voltage too high",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204055712"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204055712",
+        "locator": "id300204055712; DTC P0D28:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D29",
+    "entryId": "generic-p0d29",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D29.md",
+    "title": "P0D29: MX-30 onboard-charger AC current indication too low",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204060012"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204060012",
+        "locator": "id300204060012; DTC P0D29:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D3D",
+    "entryId": "generic-p0d3d",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D3D.md",
+    "title": "P0D3D: MX-30 charger and battery voltage disagreement",
+    "wordCount": 326,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202033600"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202033600",
+        "locator": "id300202033600; DTC P0D3D:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D52",
+    "entryId": "generic-p0d52",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D52.md",
+    "title": "P0D52: MX-30 charger DC output-current sensor performance",
+    "wordCount": 306,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204056700"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204056700",
+        "locator": "id300204056700; DTC P0D52:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D5A",
+    "entryId": "generic-p0d5a",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D5A.md",
+    "title": "P0D5A: MX-30 charging-connection detection circuit fault",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204057312"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204057312",
+        "locator": "id300204057312; DTC P0D5A:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV (E))]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D67",
+    "entryId": "generic-p0d67",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D67.md",
+    "title": "P0D67: MX-30 charger internal fault with overheat priority",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204057400"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204057400",
+        "locator": "id300204057400; DTC P0D67:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D6D",
+    "entryId": "generic-p0d6d",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D6D.md",
+    "title": "P0D6D: MX-30 compressor low-voltage monitor and source caveat",
+    "wordCount": 327,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202033700"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202033700",
+        "locator": "id300202033700; DTC P0D6D:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D6E",
+    "entryId": "generic-p0d6e",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D6E.md",
+    "title": "P0D6E: MX-30 compressor voltage reading too high",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202033800"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202033800",
+        "locator": "id300202033800; DTC P0D6E:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D70",
+    "entryId": "generic-p0d70",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D70.md",
+    "title": "P0D70: MX-30 compressor internal temperature indication",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202034000"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034000",
+        "locator": "id300202034000; DTC P0D70:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D90",
+    "entryId": "generic-p0d90",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D90.md",
+    "title": "P0D90: MX-30 AC charging-input frequency fault",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204060200"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204060200",
+        "locator": "id300204060200; DTC P0D90:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D91",
+    "entryId": "generic-p0d91",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D91.md",
+    "title": "P0D91: MX-30 charging connector lock circuit",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202034100"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034100",
+        "locator": "id300202034100; DTC P0D91:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D99",
+    "entryId": "generic-p0d99",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0D99.md",
+    "title": "P0D99: MX-30 positive quick-charge temperature sensor circuit",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202034200"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034200",
+        "locator": "id300202034200; DTC P0D99:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0DAC",
+    "entryId": "generic-p0dac",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0DAC.md",
+    "title": "P0DAC: Mazda’s first internal balancing-switch circuit check",
+    "wordCount": 329,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201012000"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201012000",
+        "locator": "id300201012000; DTC P0DAC:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0DAF",
+    "entryId": "generic-p0daf",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0DAF.md",
+    "title": "P0DAF: module-one cell voltage compared with the battery median",
+    "wordCount": 335,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201012100"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201012100",
+        "locator": "id300201012100; DTC P0DAF:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E14",
+    "entryId": "generic-p0e14",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0E14.md",
+    "title": "P0E14: MX-30 battery heater contactor stuck-on indication",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202034400"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034400",
+        "locator": "id300202034400; DTC P0E14:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E56",
+    "entryId": "generic-p0e56",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0E56.md",
+    "title": "P0E56: MX-30 DC-DC converter input below 162 volts",
+    "wordCount": 325,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300205058700"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300205058700",
+        "locator": "id300205058700; DTC P0E56:00 [DC-DC CONVERTER (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E66",
+    "entryId": "generic-p0e66",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0E66.md",
+    "title": "P0E66: MX-30 charger relay fails to switch on",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202034800"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202034800",
+        "locator": "id300202034800; DTC P0E66:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E72",
+    "entryId": "generic-p0e72",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0E72.md",
+    "title": "P0E72: MX-30 charging-control signal frequency too low",
+    "wordCount": 314,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204057900"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204057900",
+        "locator": "id300204057900; DTC P0E72:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E73",
+    "entryId": "generic-p0e73",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0E73.md",
+    "title": "P0E73: MX-30 charging-control signal frequency too high",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204058000"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204058000",
+        "locator": "id300204058000; DTC P0E73:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EC2",
+    "entryId": "generic-p0ec2",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EC2.md",
+    "title": "P0EC2: a very low refrigerant-temperature reading on the MX-30",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201014300"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201014300",
+        "locator": "id300201014300; DTC P0EC2:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EC3",
+    "entryId": "generic-p0ec3",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EC3.md",
+    "title": "P0EC3: two ways Mazda detects the refrigerant outlet sensor fault",
+    "wordCount": 321,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201014400"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201014400",
+        "locator": "id300201014400; DTC P0EC3:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EC6",
+    "entryId": "generic-p0ec6",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EC6.md",
+    "title": "P0EC6: MX-30 A/C relay remains on after an off command",
+    "wordCount": 325,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202035000"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202035000",
+        "locator": "id300202035000; DTC P0EC6:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EDD",
+    "entryId": "generic-p0edd",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EDD.md",
+    "title": "P0EDD: module-two cell resistance and Mazda’s deterioration check",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201014900"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201014900",
+        "locator": "id300201014900; DTC P0EDD:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EE7",
+    "entryId": "generic-p0ee7",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EE7.md",
+    "title": "P0EE7: MX-30 negative quick-charge temperature circuit",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202035100"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202035100",
+        "locator": "id300202035100; DTC P0EE7:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EEC",
+    "entryId": "generic-p0eec",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EEC.md",
+    "title": "P0EEC: the MX-30 BECM’s internal supervision checks",
+    "wordCount": 317,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201015400"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201015400",
+        "locator": "id300201015400; DTC P0EEC:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EF7",
+    "entryId": "generic-p0ef7",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EF7.md",
+    "title": "P0EF7: Mazda’s bounded voltage-sensor error window",
+    "wordCount": 314,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201015500"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201015500",
+        "locator": "id300201015500; DTC P0EF7:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EF9",
+    "entryId": "generic-p0ef9",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EF9.md",
+    "title": "P0EF9: repeated A/D lows versus Mazda’s low sensor-voltage timer",
+    "wordCount": 322,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201015600"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201015600",
+        "locator": "id300201015600; DTC P0EF9:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0EFA",
+    "entryId": "generic-p0efa",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P0EFA.md",
+    "title": "P0EFA: a high sensor-voltage observation inside Mazda’s battery diagnosis",
+    "wordCount": 322,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201015700"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201015700",
+        "locator": "id300201015700; DTC P0EFA:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P20EA",
+    "entryId": "generic-p20ea",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P20EA.md",
+    "title": "P20EA: Passat SCR relay fails its commanded-on transition",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          115,
+          231,
+          433,
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20EB",
+    "entryId": "generic-p20eb",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P20EB.md",
+    "title": "P20EB: Passat SCR relay remains closed after switch-off",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          115,
+          231,
+          433,
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20FA",
+    "entryId": "generic-p20fa",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P20FA.md",
+    "title": "P20FA: Passat reductant return-pump open-circuit monitor",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          116,
+          231,
+          433,
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20FB",
+    "entryId": "generic-p20fb",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P20FB.md",
+    "title": "P20FB: Passat reductant pressure does not fall as expected",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          116,
+          232,
+          433,
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20FC",
+    "entryId": "generic-p20fc",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P20FC.md",
+    "title": "P20FC: Passat reductant backflow-pump circuit low",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          116,
+          232,
+          433,
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P20FD",
+    "entryId": "generic-p20fd",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P20FD.md",
+    "title": "P20FD: Passat reductant backflow-pump circuit high",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          116,
+          232,
+          433,
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21C8",
+    "entryId": "generic-p21c8",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P21C8.md",
+    "title": "P21C8: Passat reductant relay short-to-ground indication",
+    "wordCount": 299,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          126,
+          248,
+          433,
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P21CE",
+    "entryId": "generic-p21ce",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P21CE.md",
+    "title": "P21CE: Passat reductant-quality sensor does not become valid",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          125,
+          247,
+          433,
+          434,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2531",
+    "entryId": "generic-p2531",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2531.md",
+    "title": "P2531: MX-30 main-power signal disagrees with BCM status",
+    "wordCount": 321,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202036700"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202036700",
+        "locator": "id300202036700; DTC P2531:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2532",
+    "entryId": "generic-p2532",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2532.md",
+    "title": "P2532: MX-30 PCM power input stays on against BCM off status",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202036800"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202036800",
+        "locator": "id300202036800; DTC P2532:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2613",
+    "entryId": "generic-p2613",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2613.md",
+    "title": "P2613: MX-30 two-way refrigerant valve signal short to supply",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id0702l5719900"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id0702l5719900",
+        "locator": "id0702l5719900; DTC P2613:12 [HEAT PUMP CONTROL UNIT]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P26F4",
+    "entryId": "generic-p26f4",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P26F4.md",
+    "title": "P26F4: Passat coolant-pump C open-control indication",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          278,
+          416,
+          417
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26F5",
+    "entryId": "generic-p26f5",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P26F5.md",
+    "title": "P26F5: Passat coolant-pump C short-to-ground monitor",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          278,
+          416,
+          417
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26F6",
+    "entryId": "generic-p26f6",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P26F6.md",
+    "title": "P26F6: Passat coolant-pump C control short to supply",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          278,
+          416,
+          417
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26F7",
+    "entryId": "generic-p26f7",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P26F7.md",
+    "title": "P26F7: Passat coolant-pump C live-status signal missing",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-passat-cvca-gst-2018"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-passat-cvca-gst-2018",
+        "pages": [
+          279,
+          416,
+          417
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P26FD",
+    "entryId": "generic-p26fd",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P26FD.md",
+    "title": "P26FD: MX-30 compressor processor or shared LIN fault",
+    "wordCount": 329,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202036900"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202036900",
+        "locator": "id300202036900; DTC P26FD:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2810",
+    "entryId": "generic-p2810",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2810.md",
+    "title": "P2810: Jetta 09S solenoid G current-feedback monitor",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          407,
+          408
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B2A",
+    "entryId": "generic-p2b2a",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2B2A.md",
+    "title": "P2B2A: MX-30 coolant pump spins without circulation",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202037000"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202037000",
+        "locator": "id300202037000; DTC P2B2A:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2B2F",
+    "entryId": "generic-p2b2f",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2B2F.md",
+    "title": "P2B2F: Jetta fan 1 stuck-off monitor's sustained command",
+    "wordCount": 319,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          367,
+          368,
+          483,
+          484,
+          485
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2B31",
+    "entryId": "generic-p2b31",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2B31.md",
+    "title": "P2B31: fan 2 blocked-performance report on Jetta DJXA",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          366,
+          367,
+          483,
+          484,
+          485
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2C68",
+    "entryId": "generic-p2c68",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2C68.md",
+    "title": "P2C68: MX-30 electric coolant pump stuck or stalled",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202037100"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202037100",
+        "locator": "id300202037100; DTC P2C68:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2D3B",
+    "entryId": "generic-p2d3b",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2D3B.md",
+    "title": "P2D3B: MX-30 high-voltage discharge sequence fault",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202037200"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202037200",
+        "locator": "id300202037200; DTC P2D3B:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2D44",
+    "entryId": "generic-p2d44",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2D44.md",
+    "title": "P2D44: MX-30 compressor overcurrent has cooling-system causes",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300202037300"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300202037300",
+        "locator": "id300202037300; DTC P2D44:00 [PCM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2D46",
+    "entryId": "generic-p2d46",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2D46.md",
+    "title": "P2D46: MX-30 battery module 2 exceeds 70 degrees Celsius",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300201024200"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300201024200",
+        "locator": "id300201024200; DTC P2D46:00 [BECM (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2D87",
+    "entryId": "generic-p2d87",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2D87.md",
+    "title": "P2D87: fan 1 module overtemperature status on DJXA",
+    "wordCount": 321,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          367,
+          483,
+          484,
+          485
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2D88",
+    "entryId": "generic-p2d88",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2D88.md",
+    "title": "P2D88: fan 1 module performance and coded short-circuit feedback",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          367,
+          483,
+          484,
+          485
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2D89",
+    "entryId": "generic-p2d89",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2D89.md",
+    "title": "P2D89: fan 1 supply-circuit diagnostic without a voltage limit",
+    "wordCount": 310,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          368,
+          369,
+          483,
+          484,
+          485
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2D8B",
+    "entryId": "generic-p2d8b",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2D8B.md",
+    "title": "P2D8B: Jetta fan 2 module's internal-short diagnostic signal",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "vw-jetta-djxa-gst-2020"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "vw-jetta-djxa-gst-2020",
+        "pages": [
+          366,
+          483,
+          484,
+          485
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P2E2D",
+    "entryId": "generic-p2e2d",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2E2D.md",
+    "title": "P2E2D: MX-30 onboard-charger 12-volt supply too low",
+    "wordCount": 322,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204060300"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204060300",
+        "locator": "id300204060300; DTC P2E2D:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2E2E",
+    "entryId": "generic-p2e2e",
+    "batch": "batch-44",
+    "path": "content/code-articles/batch-44/P2E2E.md",
+    "title": "P2E2E: MX-30 onboard-charger 12-volt supply reads high",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "mazda-mx30-ev-id300204060400"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "mazda-mx30-ev-id300204060400",
+        "locator": "id300204060400; DTC P2E2E:00 [BATTERY CHARGE CONTROL MODULE (e-SKYACTIV)]; Outline and Diagnostic Procedure"
+      }
+    ]
+  },
+  {
+    "code": "P011A",
+    "entryId": "generic-p011a",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P011A.md",
+    "title": "P011A: Honda coolant-temperature comparison after a long soak",
+    "wordCount": 341,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-6196",
+      "honda-insight-gen3-dtc-6930"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6196",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-6930",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6196",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P011A; P011A detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-6930",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P011A; P011A detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P027E",
+    "entryId": "generic-p027e",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P027E.md",
+    "title": "P027E: Honda cold-start commanded-mixture monitor needs definition review",
+    "wordCount": 326,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7533"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7533",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7533",
+        "locator": "PDF physical page 1–3; DTC Advanced Diagnostics: P027E; P027E detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P027F",
+    "entryId": "generic-p027f",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P027F.md",
+    "title": "P027F: Honda cold-start commanded-rich diagnosis and catalog mismatch",
+    "wordCount": 329,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7525",
+      "honda-insight-gen3-dtc-7541"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7525",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7541",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7525",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P027F; P027F detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7541",
+        "locator": "PDF physical page 1–3; DTC Advanced Diagnostics: P027F; P027F detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P030A",
+    "entryId": "generic-p030a",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P030A.md",
+    "title": "P030A: Ariya compares wired and CAN power-switch signals",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nissan-ariya-fe0-front-dtc"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-front-dtc",
+        "locator": "p030a_62_ignition_a_control_signal; P030a-62 Ignition a Control Signal; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "P04E0",
+    "entryId": "generic-p04e0",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P04E0.md",
+    "title": "P04E0: Honda purge-valve closure detected during a long soak",
+    "wordCount": 327,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7274"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7274",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7274",
+        "locator": "PDF physical page 1–3; DTC Advanced Diagnostics: P04E0; P04E0 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P04F1",
+    "entryId": "generic-p04f1",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P04F1.md",
+    "title": "P04F1: Honda separates low purge flow from a valve stuck open",
+    "wordCount": 332,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7119",
+      "honda-insight-gen3-dtc-7110"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7119",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7110",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7119",
+        "locator": "PDF physical page 1–6; DTC Troubleshooting: P04F1; P04F1 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7110",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P04F1; P04F1 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P06B0",
+    "entryId": "generic-p06b0",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P06B0.md",
+    "title": "P06B0: Corolla hybrid position-sensor power inside the inverter",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pwr"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pwr",
+        "locator": "RM1000000026PWR; explicit SAE mapping for P06B0, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P06B3",
+    "entryId": "generic-p06b3",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P06B3.md",
+    "title": "P06B3: why the full Toyota hybrid supply-code suffix matters",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pwr"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pwr",
+        "locator": "RM1000000026PWR; explicit SAE mapping for P06B3, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A00",
+    "entryId": "generic-p0a00",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A00.md",
+    "title": "P0A00: Ariya front-inverter coolant-temperature circuit fault",
+    "wordCount": 333,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nissan-ariya-fe0-front-dtc"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-front-dtc",
+        "locator": "p0a00_11_motor_coolant_temperature_sensor_a; P0a00-11 Motor Coolant Temperature Sensor a; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A2A",
+    "entryId": "generic-p0a2a",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A2A.md",
+    "title": "P0A2A: Honda traction-motor temperature circuit and companion faults",
+    "wordCount": 334,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5721",
+      "honda-insight-gen3-dtc-5465"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5721",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5465",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5721",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P0A2A; P0A2A detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5465",
+        "locator": "PDF physical page 1; DTC Advanced Diagnostics: P0A2A; P0A2A detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0A2E",
+    "entryId": "generic-p0a2e",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A2E.md",
+    "title": "P0A2E: repeated jumps in a Toyota traction-motor temperature signal",
+    "wordCount": 305,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pye"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pye",
+        "locator": "RM1000000026PYE; explicit SAE mapping for P0A2E, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A30",
+    "entryId": "generic-p0a30",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A30.md",
+    "title": "P0A30: Ariya rear-motor sensor fault and overheating use different suffixes",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nissan-ariya-fe0-rear-dtc"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-rear-dtc",
+        "locator": "p0a30_11_drive_motor_b_temperature_sensor; P0a30-11 Drive Motor B Temperature Sensor; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      },
+      {
+        "sourceId": "nissan-ariya-fe0-rear-dtc",
+        "locator": "p0a30_4b_drive_motor_b_temperature_sensor; P0a30-4b Drive Motor B Temperature Sensor; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A3A",
+    "entryId": "generic-p0a3a",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A3A.md",
+    "title": "P0A3A: intermittent generator-temperature evidence in Corolla HV",
+    "wordCount": 309,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pyg"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pyg",
+        "locator": "RM1000000026PYG; explicit SAE mapping for P0A3A, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A41",
+    "entryId": "generic-p0a41",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A41.md",
+    "title": "P0A41: a weak traction-motor resolver signal in Corolla HV",
+    "wordCount": 322,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pww"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pww",
+        "locator": "RM1000000026PWW; explicit SAE mapping for P0A41, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A42",
+    "entryId": "generic-p0a42",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A42.md",
+    "title": "P0A42: excessive resolver-signal amplitude is not motor overspeed",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pww"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pww",
+        "locator": "RM1000000026PWW; explicit SAE mapping for P0A42, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A43",
+    "entryId": "generic-p0a43",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A43.md",
+    "title": "P0A43: Toyota motor-resolver intermittency alongside power faults",
+    "wordCount": 318,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pwv"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pwv",
+        "locator": "RM1000000026PWV; explicit SAE mapping for P0A43, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A47",
+    "entryId": "generic-p0a47",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A47.md",
+    "title": "P0A47: low rear-motor resolver amplitude in Toyota's hybrid system",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhk"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhk",
+        "locator": "RM1000000026QHK; explicit SAE mapping for P0A47, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A48",
+    "entryId": "generic-p0a48",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A48.md",
+    "title": "P0A48: high rear-position signal does not identify a failed motor alone",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhk"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhk",
+        "locator": "RM1000000026QHK; explicit SAE mapping for P0A48, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A49",
+    "entryId": "generic-p0a49",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A49.md",
+    "title": "P0A49: Corolla rear-motor resolver intermittency in context",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhj"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhj",
+        "locator": "RM1000000026QHJ; explicit SAE mapping for P0A49, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A4F",
+    "entryId": "generic-p0a4f",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A4F.md",
+    "title": "P0A4F: generator-resolver events need their related fault record",
+    "wordCount": 321,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pwx"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pwx",
+        "locator": "RM1000000026PWX; explicit SAE mapping for P0A4F, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A6B",
+    "entryId": "generic-p0a6b",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A6B.md",
+    "title": "P0A6B: a high rear-motor V-phase sensing signal in Corolla HV",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhl"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhl",
+        "locator": "RM1000000026QHL; explicit SAE mapping for P0A6B, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A6E",
+    "entryId": "generic-p0a6e",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A6E.md",
+    "title": "P0A6E: interpreting Toyota's rear W-phase current-sensor high fault",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhl"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhl",
+        "locator": "RM1000000026QHL; explicit SAE mapping for P0A6E, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A73",
+    "entryId": "generic-p0a73",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A73.md",
+    "title": "P0A73: Honda generator phase V current-sensor signal low",
+    "wordCount": 332,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5486"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5486",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5486",
+        "locator": "PDF physical page 1; DTC Advanced Diagnostics: P0A73; P0A73 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0A8B",
+    "entryId": "generic-p0a8b",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A8B.md",
+    "title": "P0A8B: Ariya front-inverter startup supply fell below nine volts",
+    "wordCount": 333,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nissan-ariya-fe0-front-dtc"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-front-dtc",
+        "locator": "p0a8b_a2_14_volt_power_module_system_voltage; P0a8b-A2 14 Volt Power Module System Voltage; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A90",
+    "entryId": "generic-p0a90",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A90.md",
+    "title": "P0A90: Toyota drive motor A performance and magnetic-force monitoring",
+    "wordCount": 325,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026px6"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026px6",
+        "locator": "RM1000000026PX6; explicit SAE mapping for P0A90, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A91",
+    "entryId": "generic-p0a91",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A91.md",
+    "title": "P0A91: Toyota rear-motor performance and magnetic-force loss",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhp"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhp",
+        "locator": "RM1000000026QHP; explicit SAE mapping for P0A91, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0A9B",
+    "entryId": "generic-p0a9b",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0A9B.md",
+    "title": "P0A9B: Honda high-voltage battery temperature sensor 1 circuit",
+    "wordCount": 351,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5849",
+      "honda-insight-gen3-dtc-5612"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5612",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "locator": "PDF physical page 1–4; DTC Troubleshooting: P0A9B (972), P0AC5 (973), P0ACA (974), P0AE8 (975), P0BC2 (976); P0A9B detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5612",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0A9B; P0A9B detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0AA3",
+    "entryId": "generic-p0aa3",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0AA3.md",
+    "title": "P0AA3: Honda high-voltage sub-contactor does not release correctly",
+    "wordCount": 337,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5854",
+      "honda-insight-gen3-dtc-5617"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5854",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5617",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5854",
+        "locator": "PDF physical page 1–3; DTC Troubleshooting: P0AA3 (128); P0AA3 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5617",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0AA3; P0AA3 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0AC5",
+    "entryId": "generic-p0ac5",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0AC5.md",
+    "title": "P0AC5: Honda high-voltage battery temperature sensor 2 circuit",
+    "wordCount": 349,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5849",
+      "honda-insight-gen3-dtc-5625"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5625",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "locator": "PDF physical page 1–4; DTC Troubleshooting: P0A9B (972), P0AC5 (973), P0ACA (974), P0AE8 (975), P0BC2 (976); P0AC5 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5625",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0AC5; P0AC5 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0ACA",
+    "entryId": "generic-p0aca",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0ACA.md",
+    "title": "P0ACA: Honda high-voltage battery temperature sensor 3 circuit",
+    "wordCount": 351,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5849",
+      "honda-insight-gen3-dtc-5629"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5629",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "locator": "PDF physical page 1–4; DTC Troubleshooting: P0A9B (972), P0AC5 (973), P0ACA (974), P0AE8 (975), P0BC2 (976); P0ACA detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5629",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0ACA; P0ACA detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0AE8",
+    "entryId": "generic-p0ae8",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0AE8.md",
+    "title": "P0AE8: Honda high-voltage battery temperature sensor 4 circuit",
+    "wordCount": 347,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5849",
+      "honda-insight-gen3-dtc-5634"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5634",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "locator": "PDF physical page 1–4; DTC Troubleshooting: P0A9B (972), P0AC5 (973), P0ACA (974), P0AE8 (975), P0BC2 (976); P0AE8 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5634",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0AE8; P0AE8 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0AED",
+    "entryId": "generic-p0aed",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0AED.md",
+    "title": "P0AED: Honda traction-inverter temperature sensor 1 circuit",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5737"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5737",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5737",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P0AED (109); P0AED detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0AF2",
+    "entryId": "generic-p0af2",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0AF2.md",
+    "title": "P0AF2: Honda traction-inverter temperature sensor 2 circuit",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5741"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5741",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5741",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P0AF2 (1020); P0AF2 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0AFC",
+    "entryId": "generic-p0afc",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0AFC.md",
+    "title": "P0AFC: RAV4 battery sensor module supply drops during precharge",
+    "wordCount": 352,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rav4-nimh-2wd-rm100000001ekjg"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rav4-nimh-2wd-rm100000001ekjg",
+        "locator": "RM100000001EKJG; P0AFC49 detection conditions and complete diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0B33",
+    "entryId": "generic-p0b33",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0B33.md",
+    "title": "P0B33: Ariya precharge timeout requires system-level isolation",
+    "wordCount": 331,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nissan-ariya-fe0-vcm"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-vcm",
+        "locator": "p0b33_63_high_voltage_service_disconnect; P0b33-63 High Voltage Service Disconnect; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0BC2",
+    "entryId": "generic-p0bc2",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0BC2.md",
+    "title": "P0BC2: Honda high-voltage battery temperature sensor 5 circuit",
+    "wordCount": 345,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5849",
+      "honda-insight-gen3-dtc-5994"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5994",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5849",
+        "locator": "PDF physical page 1–4; DTC Troubleshooting: P0A9B (972), P0AC5 (973), P0ACA (974), P0AE8 (975), P0BC2 (976); P0BC2 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5994",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0BC2; P0BC2 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0BCC",
+    "entryId": "generic-p0bcc",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0BCC.md",
+    "title": "P0BCC: Honda generator-inverter temperature readings disagree",
+    "wordCount": 326,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5745",
+      "honda-insight-gen3-dtc-5503"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5745",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5503",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5745",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P0BCC (287); P0BCC detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5503",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0BCC; P0BCC detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0C02",
+    "entryId": "generic-p0c02",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C02.md",
+    "title": "P0C02: Toyota rear-motor current does not follow its command",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhv"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhv",
+        "locator": "RM1000000026QHV; explicit SAE mapping for P0C02, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C3A",
+    "entryId": "generic-p0c3a",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C3A.md",
+    "title": "P0C3A: Toyota upper boost-converter temperature signal short to ground",
+    "wordCount": 335,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxi"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxi",
+        "locator": "RM1000000026PXI; explicit SAE mapping for P0C3A, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C3B",
+    "entryId": "generic-p0c3b",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C3B.md",
+    "title": "P0C3B: Toyota upper boost-converter temperature circuit open or high",
+    "wordCount": 335,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxi"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxi",
+        "locator": "RM1000000026PXI; explicit SAE mapping for P0C3B, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C3F",
+    "entryId": "generic-p0c3f",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C3F.md",
+    "title": "P0C3F: Toyota lower boost-converter temperature circuit low",
+    "wordCount": 332,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxi"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxi",
+        "locator": "RM1000000026PXI; explicit SAE mapping for P0C3F, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C40",
+    "entryId": "generic-p0c40",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C40.md",
+    "title": "P0C40: Toyota lower boost-converter temperature circuit open or high",
+    "wordCount": 333,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxi"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxi",
+        "locator": "RM1000000026PXI; explicit SAE mapping for P0C40, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C54",
+    "entryId": "generic-p0c54",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C54.md",
+    "title": "P0C54: Toyota motor resolver A intermittent open indication",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxl"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxl",
+        "locator": "RM1000000026PXL; explicit SAE mapping for P0C54, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C55",
+    "entryId": "generic-p0c55",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C55.md",
+    "title": "P0C55: Toyota rear-motor resolver sine circuit open",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhx"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhx",
+        "locator": "RM1000000026QHX; explicit SAE mapping for P0C55, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C59",
+    "entryId": "generic-p0c59",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C59.md",
+    "title": "P0C59: Toyota rear resolver sine signal intermittent open",
+    "wordCount": 302,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhx"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhx",
+        "locator": "RM1000000026QHX; explicit SAE mapping for P0C59, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C5A",
+    "entryId": "generic-p0c5a",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C5A.md",
+    "title": "P0C5A: Toyota motor resolver B circuit open",
+    "wordCount": 332,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxl"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxl",
+        "locator": "RM1000000026PXL; explicit SAE mapping for P0C5A, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C5E",
+    "entryId": "generic-p0c5e",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C5E.md",
+    "title": "P0C5E: Toyota motor resolver B intermittent signal fault",
+    "wordCount": 326,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxl"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxl",
+        "locator": "RM1000000026PXL; explicit SAE mapping for P0C5E, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C5F",
+    "entryId": "generic-p0c5f",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C5F.md",
+    "title": "P0C5F: Toyota rear-motor resolver cosine circuit open",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhx"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhx",
+        "locator": "RM1000000026QHX; explicit SAE mapping for P0C5F, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C63",
+    "entryId": "generic-p0c63",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C63.md",
+    "title": "P0C63: Toyota rear resolver cosine intermittent indication",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026qhx"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026qhx",
+        "locator": "RM1000000026QHX; explicit SAE mapping for P0C63, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C66",
+    "entryId": "generic-p0c66",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C66.md",
+    "title": "P0C66: Toyota generator resolver sine signal below threshold",
+    "wordCount": 329,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxo"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxo",
+        "locator": "RM1000000026PXO; explicit SAE mapping for P0C66, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C67",
+    "entryId": "generic-p0c67",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C67.md",
+    "title": "P0C67: Toyota generator resolver sine signal above threshold",
+    "wordCount": 330,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxo"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxo",
+        "locator": "RM1000000026PXO; explicit SAE mapping for P0C67, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C68",
+    "entryId": "generic-p0c68",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C68.md",
+    "title": "P0C68: Toyota generator resolver A intermittent open",
+    "wordCount": 313,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxn"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxn",
+        "locator": "RM1000000026PXN; explicit SAE mapping for P0C68, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C69",
+    "entryId": "generic-p0c69",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C69.md",
+    "title": "P0C69: Toyota generator resolver B open circuit",
+    "wordCount": 325,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxn"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxn",
+        "locator": "RM1000000026PXN; explicit SAE mapping for P0C69, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C6B",
+    "entryId": "generic-p0c6b",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C6B.md",
+    "title": "P0C6B: Toyota generator resolver cosine signal below threshold",
+    "wordCount": 344,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxo"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxo",
+        "locator": "RM1000000026PXO; explicit SAE mapping for P0C6B, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C6C",
+    "entryId": "generic-p0c6c",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C6C.md",
+    "title": "P0C6C: Toyota generator resolver cosine signal above threshold",
+    "wordCount": 333,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxo"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxo",
+        "locator": "RM1000000026PXO; explicit SAE mapping for P0C6C, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0C6D",
+    "entryId": "generic-p0c6d",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0C6D.md",
+    "title": "P0C6D: Toyota generator resolver B intermittent open indication",
+    "wordCount": 326,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxn"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxn",
+        "locator": "RM1000000026PXN; explicit SAE mapping for P0C6D, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CC1",
+    "entryId": "generic-p0cc1",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0CC1.md",
+    "title": "P0CC1: Ariya receives a front-motor oil-pump fault report",
+    "wordCount": 327,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nissan-ariya-fe0-front-dtc"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-front-dtc",
+        "locator": "p0cc1_04_drive_motor_a_coolant_pump; P0cc1-04 Drive Motor a Coolant Pump; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0CEE",
+    "entryId": "generic-p0cee",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0CEE.md",
+    "title": "P0CEE: Honda PCU coolant temperature fails a cold comparison",
+    "wordCount": 329,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5761",
+      "honda-insight-gen3-dtc-5519"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5761",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5519",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5761",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P0CEE (1064); P0CEE detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5519",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0CEE; P0CEE detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0D0C",
+    "entryId": "generic-p0d0c",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0D0C.md",
+    "title": "P0D0C: Prius plug-in positive charge-contactor circuit low",
+    "wordCount": 329,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-prius-xw60-phev-battery-myt"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-prius-xw60-phev-battery-myt",
+        "locator": "HTML #hybrid_ev_battery_charging_system_positive_contactor_control_circuit_short_to_ground_p0d0a11_; Hybrid/EV Battery Charging System Positive Contactor Control Circuit Short to Ground (P0D0A11); SAE mapping, monitor and full diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D13",
+    "entryId": "generic-p0d13",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0D13.md",
+    "title": "P0D13: Prius plug-in negative charge-contactor circuit low",
+    "wordCount": 333,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-prius-xw60-phev-battery-myt"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-prius-xw60-phev-battery-myt",
+        "locator": "HTML #hybrid_ev_battery_charging_system_negative_contactor_control_circuit_short_to_ground_p0d1111_; Hybrid/EV Battery Charging System Negative Contactor Control Circuit Short to Ground (P0D1111); SAE mapping, monitor and full diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D2F",
+    "entryId": "generic-p0d2f",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0D2F.md",
+    "title": "P0D2F: Toyota boosted-voltage sensor signal stuck low",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxr"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxr",
+        "locator": "RM1000000026PXR; explicit SAE mapping for P0D2F, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D31",
+    "entryId": "generic-p0d31",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0D31.md",
+    "title": "P0D31: Toyota inverter VH sensor intermittent fault",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxr"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxr",
+        "locator": "RM1000000026PXR; explicit SAE mapping for P0D31, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0D32",
+    "entryId": "generic-p0d32",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0D32.md",
+    "title": "P0D32: Honda DC/DC converter overtemperature depends on the detecting module",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5765",
+      "honda-insight-gen3-dtc-5870",
+      "honda-insight-gen3-dtc-5645"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5765",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5870",
+        "pages": [
+          1,
+          2
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5645",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5765",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P0D32 (1025); P0D32 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5870",
+        "locator": "PDF physical page 1–2; DTC Troubleshooting: P0D32 (417); P0D32 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5645",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0D32; P0D32 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0D98",
+    "entryId": "generic-p0d98",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0D98.md",
+    "title": "P0D98: Ariya charge-port lid circuit differs from the coupler label",
+    "wordCount": 343,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "nissan-ariya-fe0-vcm"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-vcm",
+        "locator": "p0d98_11_battery_charger_coupler_unlock_control; P0d98-11 Battery Charger Coupler Unlock Control; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      },
+      {
+        "sourceId": "nissan-ariya-fe0-vcm",
+        "locator": "p0d98_12_battery_charger_coupler_unlock_control; P0d98-12 Battery Charger Coupler Unlock Control; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      },
+      {
+        "sourceId": "nissan-ariya-fe0-vcm",
+        "locator": "p0d98_13_battery_charger_coupler_unlock_control; P0d98-13 Battery Charger Coupler Unlock Control; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0DFB",
+    "entryId": "generic-p0dfb",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0DFB.md",
+    "title": "P0DFB: Honda generator rotor-position learning exceeds its limit",
+    "wordCount": 334,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5767",
+      "honda-insight-gen3-dtc-5525"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5767",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5525",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5767",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P0DFB (294); P0DFB detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5525",
+        "locator": "PDF physical page 1; DTC Advanced Diagnostics: P0DFB; P0DFB detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0E01",
+    "entryId": "generic-p0e01",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E01.md",
+    "title": "P0E01: Toyota generator phase U current-sensor offset fault",
+    "wordCount": 307,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxu"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxu",
+        "locator": "RM1000000026PXU; explicit SAE mapping for P0E01, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E05",
+    "entryId": "generic-p0e05",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E05.md",
+    "title": "P0E05: Toyota generator phase V current-sensor bias error",
+    "wordCount": 316,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxu"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxu",
+        "locator": "RM1000000026PXU; explicit SAE mapping for P0E05, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E09",
+    "entryId": "generic-p0e09",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E09.md",
+    "title": "P0E09: Toyota generator phase W current-sensor zero error",
+    "wordCount": 319,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxu"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxu",
+        "locator": "RM1000000026PXU; explicit SAE mapping for P0E09, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E2D",
+    "entryId": "generic-p0e2d",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E2D.md",
+    "title": "P0E2D: Honda battery cell-voltage monitoring has an internal fault",
+    "wordCount": 341,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5874",
+      "honda-insight-gen3-dtc-5649"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5874",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5649",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5874",
+        "locator": "PDF physical page 1; DTC Troubleshooting: P0E2D (1055); P0E2D detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5649",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P0E2D; P0E2D detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P0E35",
+    "entryId": "generic-p0e35",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E35.md",
+    "title": "P0E35: Toyota pre-boost voltage sensor intermittent indication",
+    "wordCount": 311,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxv"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxv",
+        "locator": "RM1000000026PXV; explicit SAE mapping for P0E35, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E52",
+    "entryId": "generic-p0e52",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E52.md",
+    "title": "P0E52: Toyota converter current-sensor offset or stuck-signal fault",
+    "wordCount": 322,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxx",
+      "toyota-corolla-pa10-rm1000000026pxy"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxx",
+        "locator": "RM1000000026PXX; explicit SAE mapping for P0E52, DTC detection conditions, monitor strategy and diagnostic procedure"
+      },
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxy",
+        "locator": "RM1000000026PXY; explicit SAE mapping for P0E52, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E53",
+    "entryId": "generic-p0e53",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E53.md",
+    "title": "P0E53: Toyota converter reactor current-sensor circuit low",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxw"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxw",
+        "locator": "RM1000000026PXW; explicit SAE mapping for P0E53, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E54",
+    "entryId": "generic-p0e54",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E54.md",
+    "title": "P0E54: Toyota converter reactor current-sensor circuit high",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxw"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxw",
+        "locator": "RM1000000026PXW; explicit SAE mapping for P0E54, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E57",
+    "entryId": "generic-p0e57",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E57.md",
+    "title": "P0E57: Toyota pre-boost overvoltage system fault",
+    "wordCount": 315,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pxz"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pxz",
+        "locator": "RM1000000026PXZ; explicit SAE mapping for P0E57, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E6F",
+    "entryId": "generic-p0e6f",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E6F.md",
+    "title": "P0E6F: Prius charging precharge-contactor control circuit low",
+    "wordCount": 323,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-prius-xw60-phev-battery-myt"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-prius-xw60-phev-battery-myt",
+        "locator": "HTML #hybrid_ev_battery_charging_system_precharge_contactor_control_circuit_short_to_ground_p0e6d11_; Hybrid/EV Battery Charging System Precharge Contactor Control Circuit Short to Ground (P0E6D11); SAE mapping, monitor and full diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E70",
+    "entryId": "generic-p0e70",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E70.md",
+    "title": "P0E70: Prius charging precharge-control circuit open or high",
+    "wordCount": 327,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-prius-xw60-phev-battery-myt"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-prius-xw60-phev-battery-myt",
+        "locator": "HTML #hybrid_ev_battery_charging_system_precharge_contactor_control_circuit_short_to_auxiliary_battery_or_open_p0e6d15_; Hybrid/EV Battery Charging System Precharge Contactor Control Circuit Short to Auxiliary Battery or Open (P0E6D15); SAE mapping, monitor and full diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P0E71",
+    "entryId": "generic-p0e71",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P0E71.md",
+    "title": "P0E71: Toyota generator torque does not match its command",
+    "wordCount": 312,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026py0"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026py0",
+        "locator": "RM1000000026PY0; explicit SAE mapping for P0E71, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2175",
+    "entryId": "generic-p2175",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2175.md",
+    "title": "P2175: Honda infers an intake restriction from throttle airflow",
+    "wordCount": 331,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7539"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7539",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7539",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P2175; P2175 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P2245",
+    "entryId": "generic-p2245",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2245.md",
+    "title": "P2245: Honda detects a grounded air/fuel-sensor reference circuit",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7042"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7042",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7042",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P2245; P2245 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P24B8",
+    "entryId": "generic-p24b8",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P24B8.md",
+    "title": "P24B8: Honda leak-check pressure-sensor diagnosis has a chart discrepancy",
+    "wordCount": 321,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7259",
+      "honda-insight-gen3-dtc-7279"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7259",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7279",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7259",
+        "locator": "PDF physical page 1–4; DTC Troubleshooting: P24B8; P24B8 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7279",
+        "locator": "PDF physical page 1; DTC Advanced Diagnostics: P24B8; P24B8 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P2646",
+    "entryId": "generic-p2646",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2646.md",
+    "title": "P2646: Honda VTEC pressure feedback stays on when commanded",
+    "wordCount": 337,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-6338",
+      "honda-insight-gen3-dtc-7063"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6338",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7063",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6338",
+        "locator": "PDF physical page 1–4; DTC Troubleshooting: P2646; P2646 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7063",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P2646; P2646 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P2647",
+    "entryId": "generic-p2647",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2647.md",
+    "title": "P2647: Honda pressure-switch feedback remains off with VTEC released",
+    "wordCount": 340,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-6339",
+      "honda-insight-gen3-dtc-7064"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6339",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7064",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6339",
+        "locator": "PDF physical page 1–3; DTC Troubleshooting: P2647; P2647 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7064",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P2647; P2647 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P2648",
+    "entryId": "generic-p2648",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2648.md",
+    "title": "P2648: Honda detects a low VTEC solenoid return signal",
+    "wordCount": 340,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-6340",
+      "honda-insight-gen3-dtc-7065"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6340",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7065",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6340",
+        "locator": "PDF physical page 1–3; DTC Troubleshooting: P2648; P2648 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7065",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P2648; P2648 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P2649",
+    "entryId": "generic-p2649",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2649.md",
+    "title": "P2649: Honda VTEC high return can result from an open circuit",
+    "wordCount": 344,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-6341",
+      "honda-insight-gen3-dtc-7066"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6341",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7066",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6341",
+        "locator": "PDF physical page 1–3; DTC Troubleshooting: P2649; P2649 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-7066",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P2649; P2649 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P26DF",
+    "entryId": "generic-p26df",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P26DF.md",
+    "title": "P26DF: Toyota's internal generator reference-power diagnosis",
+    "wordCount": 303,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pwr"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pwr",
+        "locator": "RM1000000026PWR; explicit SAE mapping for P26DF, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P272C",
+    "entryId": "generic-p272c",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P272C.md",
+    "title": "P272C: Honda park-pawl driver high input during initial learning",
+    "wordCount": 328,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-6409"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6409",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-6409",
+        "locator": "PDF physical page 1–2; DTC Advanced Diagnostics: P272C; P272C detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P274B",
+    "entryId": "generic-p274b",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P274B.md",
+    "title": "P274B: Toyota transaxle temperature sensor plausibility fault",
+    "wordCount": 319,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pyi"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pyi",
+        "locator": "RM1000000026PYI; explicit SAE mapping for P274B, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P274C",
+    "entryId": "generic-p274c",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P274C.md",
+    "title": "P274C: Toyota transaxle temperature sensor C circuit low",
+    "wordCount": 326,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pyh"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pyh",
+        "locator": "RM1000000026PYH; explicit SAE mapping for P274C, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P274D",
+    "entryId": "generic-p274d",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P274D.md",
+    "title": "P274D: Toyota transaxle temperature sensor C circuit high",
+    "wordCount": 325,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pyh"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pyh",
+        "locator": "RM1000000026PYH; explicit SAE mapping for P274D, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P274E",
+    "entryId": "generic-p274e",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P274E.md",
+    "title": "P274E: Toyota transaxle temperature signal intermittently changes",
+    "wordCount": 308,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-corolla-pa10-rm1000000026pyi"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-corolla-pa10-rm1000000026pyi",
+        "locator": "RM1000000026PYI; explicit SAE mapping for P274E, DTC detection conditions, monitor strategy and diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2BE5",
+    "entryId": "generic-p2be5",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2BE5.md",
+    "title": "P2BE5: Prius current-sensor C comparison or zero-offset fault",
+    "wordCount": 330,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-prius-xw60-phev-battery-myt"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-prius-xw60-phev-battery-myt",
+        "locator": "HTML #hybrid_ev_battery_pack_current_sensor_c_circuit_range_performance_circuit_voltage_out_of_range_p2be41c_; Hybrid/EV Battery Pack Current Sensor \"C\" Circuit Range/Performance Circuit Voltage Out of Range (P2BE41C); SAE mapping, monitor and full diagnostic procedure"
+      },
+      {
+        "sourceId": "toyota-prius-xw60-phev-battery-myt",
+        "locator": "HTML #hybrid_ev_battery_pack_current_sensor_c_circuit_range_performance_signal_bias_level_out_of_range_zero_adjustment_failure_p2be428_; Hybrid/EV Battery Pack Current Sensor \"C\" Circuit Range/Performance Signal Bias Level Out of Range / Zero Adjustment Failure (P2BE428); SAE mapping, monitor and full diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2DE0",
+    "entryId": "generic-p2de0",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2DE0.md",
+    "title": "P2DE0: Honda cold-start mixture feedback needs catalog-definition review",
+    "wordCount": 321,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7538"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7538",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7538",
+        "locator": "PDF physical page 1–3; DTC Advanced Diagnostics: P2DE0; P2DE0 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P2DE1",
+    "entryId": "generic-p2de1",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2DE1.md",
+    "title": "P2DE1: Honda cold-start rich feedback differs from the catalog quantity label",
+    "wordCount": 342,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-7537"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7537",
+        "pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-7537",
+        "locator": "PDF physical page 1–3; DTC Advanced Diagnostics: P2DE1; P2DE1 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "P2E28",
+    "entryId": "generic-p2e28",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2E28.md",
+    "title": "P2E28: Ariya excitation-current fault separates rotor and inverter causes",
+    "wordCount": 332,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "nissan-ariya-fe0-front-dtc"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-front-dtc",
+        "locator": "p2e28_01_drive_motor_a_excitation_current_sensor; P2e28-01 Drive Motor a Excitation Current Sensor; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "P2E2B",
+    "entryId": "generic-p2e2b",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/P2E2B.md",
+    "title": "P2E2B: Ariya excitation errors require the complete suffix",
+    "wordCount": 336,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "nissan-ariya-fe0-front-dtc"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-front-dtc",
+        "locator": "p2e2b_11_drive_motor_a_excitation_current; P2e2b-11 Drive Motor a Excitation Current; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      },
+      {
+        "sourceId": "nissan-ariya-fe0-front-dtc",
+        "locator": "p2e2b_12_drive_motor_a_excitation_current; P2e2b-12 Drive Motor a Excitation Current; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "U01BB",
+    "entryId": "generic-u01bb",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/U01BB.md",
+    "title": "U01BB: Prius loses communication with charger control module B",
+    "wordCount": 330,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-prius-xw60-phev-charge-myt"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-prius-xw60-phev-charge-myt",
+        "locator": "HTML #lost_communication_with_battery_charger_control_module_b_missing_message_u01bb87_; Lost Communication with Battery Charger Control Module \"B\" Missing Message (U01BB87); SAE mapping, monitor and full diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "U0273",
+    "entryId": "generic-u0273",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/U0273.md",
+    "title": "U0273: Ariya charging-status indicator loses its LIN connection",
+    "wordCount": 320,
+    "selectedForPublication": true,
+    "sourceReview": "needs-review",
+    "sourceIds": [
+      "nissan-ariya-fe0-vcm"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "nissan-ariya-fe0-vcm",
+        "locator": "u0273_87_communication_error; U0273-87 Communication Error; DTC detection logic, confirmation and complete displayed diagnosis procedure"
+      }
+    ]
+  },
+  {
+    "code": "U029A",
+    "entryId": "generic-u029a",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/U029A.md",
+    "title": "U029A: RAV4 cannot receive battery sensor module messages",
+    "wordCount": 351,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "toyota-rav4-nimh-2wd-rm100000001pe9m"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "toyota-rav4-nimh-2wd-rm100000001pe9m",
+        "locator": "RM100000001PE9M; U029A87 detection conditions and complete diagnostic procedure"
+      }
+    ]
+  },
+  {
+    "code": "U0311",
+    "entryId": "generic-u0311",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/U0311.md",
+    "title": "U0311: Honda traction-motor software version mismatch",
+    "wordCount": 335,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5835",
+      "honda-insight-gen3-dtc-5596"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5835",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5596",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5835",
+        "locator": "PDF physical page 1; DTC Troubleshooting: U0311 (123); U0311 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5596",
+        "locator": "PDF physical page 1; DTC Advanced Diagnostics: U0311; U0311 detection or complete troubleshooting branch"
+      }
+    ]
+  },
+  {
+    "code": "U0312",
+    "entryId": "generic-u0312",
+    "batch": "batch-45",
+    "path": "content/code-articles/batch-45/U0312.md",
+    "title": "U0312: Honda battery-monitor software version mismatch",
+    "wordCount": 335,
+    "selectedForPublication": true,
+    "sourceReview": "checked",
+    "sourceIds": [
+      "honda-insight-gen3-dtc-5903",
+      "honda-insight-gen3-dtc-5680"
+    ],
+    "sourcePages": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5903",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5680",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "honda-insight-gen3-dtc-5903",
+        "locator": "PDF physical page 1; DTC Troubleshooting: U0312 (124); U0312 detection or complete troubleshooting branch"
+      },
+      {
+        "sourceId": "honda-insight-gen3-dtc-5680",
+        "locator": "PDF physical page 1; DTC Advanced Diagnostics: U0312; U0312 detection or complete troubleshooting branch"
+      }
+    ]
+  }
+]

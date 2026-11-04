@@ -1,0 +1,208 @@
+{
+  "batch": "batch-42",
+  "checkedOn": "2026-10-31",
+  "writtenCount": 100,
+  "assignmentFile": "research/article-assignments/batch-42.json",
+  "sourceReviewCounts": {
+    "checked": 93,
+    "needs-review": 7
+  },
+  "scope": "85 Ford/Lincoln historical HEV/PHEV monitor explainers, 10 Ford 2024–2025 gasoline monitor explainers, and 5 Ford 2023–2024 diesel monitor explainers. Document scope does not establish per-vehicle or per-calibration applicability.",
+  "method": [
+    "Read the actual diagnostic rows, conditions, durations, units and surrounding system descriptions before reserving codes. Incidental mentions in prerequisite lists were not accepted as independent evidence.",
+    "Used original Ford PDFs. The historical HEV/PHEV document was discovered through the original Ford service-content catalog and downloaded; existing exact-document gasoline and diesel sources were reused.",
+    "Checked canonical code identity and namespace. P1575 uses the Ford manufacturer entry. The other 99 assignments use the matched generic entries.",
+    "Wrote each article individually as a source-scoped monitor explanation. A local builder adds frontmatter and exact page links to the explicitly authored bodies.",
+    "Retained professional boundaries for high-voltage, braking, fuel and vehicle-motion systems. No hazardous probing, disassembly or improvised road-test steps are supplied.",
+    "Shared phase/circuit monitor limits are identified as shared logic; articles do not invent a different numerical threshold or component location to manufacture uniqueness."
+  ],
+  "sources": [
+    {
+      "sourceId": "ford-hev-phev-2019-20170512",
+      "articles": 85,
+      "newSourceRecord": true,
+      "recordLocation": "/workspace/scratch/dbf135311373/wave5/writer42/sources.json",
+      "url": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/OBDSM1901_HEV.pdf",
+      "pageCount": 218,
+      "scopeLimit": "Title identifies 2019 MY; printed revision is May 12, 2017. The file contains 218 physical PDF pages despite a 207-page printed footer. Citations use physical pages.",
+      "sha256": "ea5f6da60d800ded32563fb2fb57249ecf36f907b82b8232204fd0c4811eae52"
+    },
+    {
+      "sourceId": "ford-gasoline-2024-2025-v2",
+      "articles": 10,
+      "newSourceRecord": false,
+      "pagesUsed": [
+        7,
+        8,
+        9,
+        36,
+        37,
+        71,
+        72
+      ],
+      "scopeLimit": "Original July 16, 2024 revision. Sensor signal type and NTK/Bosch distinctions remain explicit; no document-level vehicle matrix is converted into universal code applicability."
+    },
+    {
+      "sourceId": "ford-diesel-2023-2024",
+      "articles": 5,
+      "newSourceRecord": false,
+      "pagesUsed": [
+        94,
+        95,
+        113
+      ],
+      "scopeLimit": "Original August 25, 2023 revision. SENT sensor-link faults are distinguished from vehicle-wide network failures; the P0570 example is expressly adaptive-cruise related."
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "code": "P24C0",
+      "pages": [
+        39,
+        48
+      ],
+      "issue": "The pressure-rate threshold is printed with 1.2 inH2O and 174.36 Pa, which are not equivalent, and lacks a rate timebase.",
+      "treatment": "Numeric threshold omitted. The supported Phase 0 observation and distinction from other diagnostic phases remain explained."
+    },
+    {
+      "code": "P26D0",
+      "pages": [
+        106,
+        108
+      ],
+      "issue": "The low-voltage criterion is printed as pump voltage below PCM battery voltage plus 4 V. That includes ordinary near-equal readings.",
+      "treatment": "Do not silently change plus to minus. The suspect decision threshold is withheld and the exact calibration/service procedure is required."
+    },
+    {
+      "code": "P26D3",
+      "pages": [
+        106,
+        107
+      ],
+      "issue": "The overview says the pump reports power and ground faults, but the detailed P26D3 section says those line states are not communicated and must be inferred.",
+      "treatment": "Article explicitly discloses the conflict and follows the specifically coded detailed monitor: loss of LIN communication combined with a coolant-temperature rise."
+    },
+    {
+      "code": "P0D07",
+      "pages": [
+        163
+      ],
+      "issue": "The DTC list labels a battery cooling-fan circuit, but the named threshold concerns both charge contactors stuck open. The canonical title refers to the positive charge-contactor circuit.",
+      "treatment": "The conflicting descriptions are retained as a review limitation. No universal component replacement or fan diagnosis is inferred."
+    },
+    {
+      "code": "P0A44",
+      "pages": [
+        167,
+        171,
+        172
+      ],
+      "issue": "The overspeed row supplies values 1596 and 1544 with durations of 10 ms and 100 ms, but does not supply the speed unit.",
+      "treatment": "Article explains the overspeed observation and timing without inventing rpm or rad/s or promoting those unitless values as usable limits."
+    },
+    {
+      "code": "P2800",
+      "pages": [
+        123,
+        165,
+        183
+      ],
+      "issue": "A later detailed threshold has the malformed identifier P20800. The earlier list clearly identifies P2800 and the range-sensor architecture.",
+      "treatment": "Article uses the verified range-sensor listing and architecture; it does not silently assign the malformed threshold to P2800."
+    },
+    {
+      "code": "P2806",
+      "pages": [
+        123,
+        165,
+        183
+      ],
+      "issue": "The earlier listing describes range-sensor alignment; the later criterion describes a mechanical parking-pawl failure inferred from motor rotation above nine radians while Park is expected.",
+      "treatment": "Article explicitly distinguishes range recognition from physical holding and requires confirmation of the vehicle-specific mapping. No improvised movement test is proposed."
+    }
+  ],
+  "substitutions": {
+    "released": [
+      {
+        "code": "P0C51",
+        "reason": "The original summary describes several resolver failure categories but does not clearly map the individual range/performance code to a reliable threshold and condition. Released for possible resolution with a stronger original source."
+      },
+      {
+        "code": "P0C65",
+        "reason": "The original summary describes several resolver failure categories but does not clearly map the individual range/performance code to a reliable threshold and condition. Released for possible resolution with a stronger original source."
+      }
+    ],
+    "added": [
+      "U0609",
+      "U0691"
+    ],
+    "authorization": "Root authorized direct atomic substitution using the existing shared reservation lock. Both replacement monitor rows were read and the reservations were free. Final reservations and assignment file remain exactly 100 and match.",
+    "record": "/workspace/scratch/dbf135311373/wave5/writer42/substitutions.json"
+  },
+  "selectionLimits": [
+    "Did not expand the battery cell-balancing family into numerous articles whose only distinct fact would be the cell index.",
+    "Rejected incidental mentions, incompatible canonical meanings and unsupported vehicle-specific applicability. No claims were added merely to reserve a plausible title."
+  ],
+  "validation": {
+    "articleCount": 100,
+    "assignmentCount": 100,
+    "reservationCount": 100,
+    "excludedCodeOverlap": [],
+    "wordCountMethod": "Article prose only, excluding frontmatter, headings and source/applicability footer; word token regex includes hyphenated words.",
+    "wordCountMinimum": 231,
+    "wordCountMaximum": 262,
+    "wordCountTotal": 24973,
+    "exactRepeatedSubstantiveParagraphs": [],
+    "highestPairwiseFiveWordJaccard": [
+      {
+        "codes": [
+          "P0A74",
+          "P0A77"
+        ],
+        "score": 0.0302
+      },
+      {
+        "codes": [
+          "P0A62",
+          "P0A77"
+        ],
+        "score": 0.0271
+      },
+      {
+        "codes": [
+          "P0C79",
+          "P0E4F"
+        ],
+        "score": 0.0233
+      },
+      {
+        "codes": [
+          "P0A5F",
+          "P0A77"
+        ],
+        "score": 0.0212
+      },
+      {
+        "codes": [
+          "P0A5F",
+          "P0A62"
+        ],
+        "score": 0.0186
+      }
+    ],
+    "checks": [
+      "100 unique files and assignments",
+      "Exact reservation and canonical identity",
+      "No overlap with prior 4000 code strings",
+      "JSON frontmatter and draft status",
+      "Physical PDF page bounds and direct links",
+      "Code appears on cited source pages",
+      "Complete search descriptions",
+      "All prose bodies between 200 and 350 words",
+      "No exact repeated substantive paragraph",
+      "Documented issues for every needs-review flag"
+    ]
+  },
+  "validationArtifact": "/workspace/scratch/dbf135311373/wave5/writer42/validation.json",
+  "publicationStatus": "All 100 remain draft. No publication, commit or production edits were performed by this writer."
+}

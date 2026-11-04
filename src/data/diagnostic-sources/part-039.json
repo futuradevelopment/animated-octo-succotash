@@ -1,0 +1,721 @@
+[
+  {
+    "id": "ford-hev-phev-2019-20170512",
+    "title": "Ford / Lincoln 2019 MY OBD System Operation Summary for Plug In and Hybrid Electric Vehicles",
+    "publisher": "Ford Motor Company",
+    "url": "https://www.fordservicecontent.com/ford_content/catalog/motorcraft/OBDSM1901_HEV.pdf",
+    "documentScope": "Ford/Lincoln 2019 MY HEV/PHEV OBD System Operation Summary, printed revision May 12, 2017; historical monitor-specific example, not universal vehicle or calibration applicability.",
+    "makeIds": [
+      "ford",
+      "lincoln"
+    ],
+    "checkedOn": "2026-10-31",
+    "pageCount": 218,
+    "printedPageCount": 207,
+    "extractionMethod": "Original manufacturer PDF downloaded; physical PDF pages and code-specific monitor tables read with their surrounding architecture and applicability. Document includes appendices beyond printed 207-page footer.",
+    "sha256": "ea5f6da60d800ded32563fb2fb57249ecf36f907b82b8232204fd0c4811eae52",
+    "codeMentions": [
+      {
+        "code": "P04B0",
+        "pages": [
+          30,
+          46
+        ]
+      },
+      {
+        "code": "P04B4",
+        "pages": [
+          29,
+          35
+        ]
+      },
+      {
+        "code": "P04C1",
+        "pages": [
+          56,
+          57
+        ]
+      },
+      {
+        "code": "P04C2",
+        "pages": [
+          56,
+          57
+        ]
+      },
+      {
+        "code": "P04C9",
+        "pages": [
+          56
+        ]
+      },
+      {
+        "code": "P04CD",
+        "pages": [
+          56
+        ]
+      },
+      {
+        "code": "P04ED",
+        "pages": [
+          30,
+          38
+        ]
+      },
+      {
+        "code": "P04EF",
+        "pages": [
+          39,
+          40,
+          41,
+          43,
+          44
+        ]
+      },
+      {
+        "code": "P24BC",
+        "pages": [
+          39,
+          48
+        ]
+      },
+      {
+        "code": "P24BE",
+        "pages": [
+          39,
+          47
+        ]
+      },
+      {
+        "code": "P24BF",
+        "pages": [
+          39,
+          47
+        ]
+      },
+      {
+        "code": "P24C0",
+        "pages": [
+          39,
+          48
+        ]
+      },
+      {
+        "code": "P24C1",
+        "pages": [
+          39,
+          48
+        ]
+      },
+      {
+        "code": "P26CA",
+        "pages": [
+          106,
+          107
+        ]
+      },
+      {
+        "code": "P26CB",
+        "pages": [
+          106,
+          108
+        ]
+      },
+      {
+        "code": "P26D0",
+        "pages": [
+          106,
+          108
+        ]
+      },
+      {
+        "code": "P26D1",
+        "pages": [
+          106,
+          108
+        ]
+      },
+      {
+        "code": "P26D2",
+        "pages": [
+          106,
+          108
+        ]
+      },
+      {
+        "code": "P26D3",
+        "pages": [
+          106,
+          107
+        ]
+      },
+      {
+        "code": "P1575",
+        "pages": [
+          124
+        ]
+      },
+      {
+        "code": "C0541",
+        "pages": [
+          191,
+          197,
+          199
+        ]
+      },
+      {
+        "code": "C0564",
+        "pages": [
+          191,
+          199,
+          201
+        ]
+      },
+      {
+        "code": "C0565",
+        "pages": [
+          191,
+          199,
+          201
+        ]
+      },
+      {
+        "code": "C0567",
+        "pages": [
+          191,
+          203,
+          206
+        ]
+      },
+      {
+        "code": "C0568",
+        "pages": [
+          191,
+          203,
+          204,
+          206
+        ]
+      },
+      {
+        "code": "C0569",
+        "pages": [
+          191,
+          203,
+          206
+        ]
+      },
+      {
+        "code": "C056B",
+        "pages": [
+          191,
+          197,
+          198,
+          206
+        ]
+      },
+      {
+        "code": "C056D",
+        "pages": [
+          191,
+          194,
+          195,
+          205
+        ]
+      },
+      {
+        "code": "C056E",
+        "pages": [
+          191,
+          194,
+          195,
+          205
+        ]
+      },
+      {
+        "code": "P050F",
+        "pages": [
+          193,
+          196,
+          206
+        ]
+      },
+      {
+        "code": "P057A",
+        "pages": [
+          194,
+          195,
+          196,
+          205
+        ]
+      },
+      {
+        "code": "P05DB",
+        "pages": [
+          194,
+          195,
+          196,
+          205
+        ]
+      },
+      {
+        "code": "P25EE",
+        "pages": [
+          193,
+          200,
+          206
+        ]
+      },
+      {
+        "code": "P0D20",
+        "pages": [
+          148,
+          149
+        ]
+      },
+      {
+        "code": "P0E64",
+        "pages": [
+          148,
+          149
+        ]
+      },
+      {
+        "code": "P0D08",
+        "pages": [
+          150,
+          163,
+          164
+        ]
+      },
+      {
+        "code": "P0D0F",
+        "pages": [
+          150,
+          163,
+          164
+        ]
+      },
+      {
+        "code": "P0D0D",
+        "pages": [
+          151,
+          164
+        ]
+      },
+      {
+        "code": "P0D14",
+        "pages": [
+          151,
+          164
+        ]
+      },
+      {
+        "code": "P0D0B",
+        "pages": [
+          151,
+          164
+        ]
+      },
+      {
+        "code": "U019B",
+        "pages": [
+          154,
+          155
+        ]
+      },
+      {
+        "code": "U049C",
+        "pages": [
+          154,
+          155
+        ]
+      },
+      {
+        "code": "P0AC3",
+        "pages": [
+          154,
+          155
+        ]
+      },
+      {
+        "code": "P0B1B",
+        "pages": [
+          154,
+          157
+        ]
+      },
+      {
+        "code": "P0B1C",
+        "pages": [
+          154,
+          157
+        ]
+      },
+      {
+        "code": "P0B15",
+        "pages": [
+          154,
+          157
+        ]
+      },
+      {
+        "code": "P0B1A",
+        "pages": [
+          154,
+          157
+        ]
+      },
+      {
+        "code": "P0ECA",
+        "pages": [
+          154,
+          157
+        ]
+      },
+      {
+        "code": "P0B24",
+        "pages": [
+          154,
+          158
+        ]
+      },
+      {
+        "code": "P0B25",
+        "pages": [
+          154,
+          158
+        ]
+      },
+      {
+        "code": "P0C30",
+        "pages": [
+          154,
+          158
+        ]
+      },
+      {
+        "code": "P0D37",
+        "pages": [
+          154,
+          158
+        ]
+      },
+      {
+        "code": "P0AA5",
+        "pages": [
+          160
+        ]
+      },
+      {
+        "code": "P0ADA",
+        "pages": [
+          161
+        ]
+      },
+      {
+        "code": "P0AE1",
+        "pages": [
+          162
+        ]
+      },
+      {
+        "code": "P0AE5",
+        "pages": [
+          162
+        ]
+      },
+      {
+        "code": "P0D07",
+        "pages": [
+          163
+        ]
+      },
+      {
+        "code": "P0D85",
+        "pages": [
+          163
+        ]
+      },
+      {
+        "code": "U301D",
+        "pages": [
+          163
+        ]
+      },
+      {
+        "code": "P0C50",
+        "pages": [
+          167,
+          171,
+          172
+        ]
+      },
+      {
+        "code": "P0C64",
+        "pages": [
+          167,
+          171,
+          172
+        ]
+      },
+      {
+        "code": "P0DFC",
+        "pages": [
+          167,
+          171,
+          172
+        ]
+      },
+      {
+        "code": "P0A44",
+        "pages": [
+          167,
+          171,
+          172
+        ]
+      },
+      {
+        "code": "P0A5F",
+        "pages": [
+          168,
+          173,
+          174
+        ]
+      },
+      {
+        "code": "P0A62",
+        "pages": [
+          168,
+          173,
+          174
+        ]
+      },
+      {
+        "code": "P0A65",
+        "pages": [
+          168,
+          173,
+          174
+        ]
+      },
+      {
+        "code": "P0A74",
+        "pages": [
+          168,
+          173,
+          174
+        ]
+      },
+      {
+        "code": "P0A77",
+        "pages": [
+          168,
+          173,
+          174
+        ]
+      },
+      {
+        "code": "P0C00",
+        "pages": [
+          171,
+          173,
+          174
+        ]
+      },
+      {
+        "code": "P0C03",
+        "pages": [
+          171,
+          173,
+          174
+        ]
+      },
+      {
+        "code": "P0D33",
+        "pages": [
+          173,
+          174
+        ]
+      },
+      {
+        "code": "P0C79",
+        "pages": [
+          179
+        ]
+      },
+      {
+        "code": "P0DA8",
+        "pages": [
+          179
+        ]
+      },
+      {
+        "code": "P0CA3",
+        "pages": [
+          180
+        ]
+      },
+      {
+        "code": "P0A11",
+        "pages": [
+          180
+        ]
+      },
+      {
+        "code": "P0C39",
+        "pages": [
+          181
+        ]
+      },
+      {
+        "code": "P0C3E",
+        "pages": [
+          181
+        ]
+      },
+      {
+        "code": "P0E59",
+        "pages": [
+          181
+        ]
+      },
+      {
+        "code": "P071B",
+        "pages": [
+          182
+        ]
+      },
+      {
+        "code": "P2800",
+        "pages": [
+          123,
+          165,
+          183
+        ]
+      },
+      {
+        "code": "P2806",
+        "pages": [
+          123,
+          165,
+          183
+        ]
+      },
+      {
+        "code": "P0E4F",
+        "pages": [
+          186
+        ]
+      },
+      {
+        "code": "P0A18",
+        "pages": [
+          187,
+          188
+        ]
+      },
+      {
+        "code": "P0A23",
+        "pages": [
+          187,
+          188
+        ]
+      },
+      {
+        "code": "P0A1A",
+        "pages": [
+          167,
+          190
+        ]
+      },
+      {
+        "code": "P0E87",
+        "pages": [
+          149
+        ]
+      },
+      {
+        "code": "P0E89",
+        "pages": [
+          149
+        ]
+      },
+      {
+        "code": "P1A1E",
+        "pages": [
+          161
+        ]
+      },
+      {
+        "code": "P1A07",
+        "pages": [
+          179,
+          180
+        ]
+      },
+      {
+        "code": "P175A",
+        "pages": [
+          184,
+          185
+        ]
+      },
+      {
+        "code": "P1A08",
+        "pages": [
+          189
+        ]
+      },
+      {
+        "code": "P1A0C",
+        "pages": [
+          189
+        ]
+      },
+      {
+        "code": "P1920",
+        "pages": [
+          190
+        ]
+      },
+      {
+        "code": "P1A13",
+        "pages": [
+          190,
+          193,
+          204
+        ]
+      },
+      {
+        "code": "P1A1B",
+        "pages": [
+          190,
+          193
+        ]
+      },
+      {
+        "code": "P144B",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      {
+        "code": "C100A",
+        "pages": [
+          194,
+          195,
+          205
+        ]
+      },
+      {
+        "code": "C1015",
+        "pages": [
+          193,
+          196,
+          206
+        ]
+      }
+    ]
+  }
+]
